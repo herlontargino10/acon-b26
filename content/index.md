@@ -10,7 +10,7 @@ Bem-vindos aos resumos e materiais da turma.
 - [[Aulas/ECIA - Prof. Amadeu]]
 - [[Aulas/Legislação Maritima - Prof. Anthony]]
 - [[Aulas/Inglês - Prof. Jander]]
-- [[Aulas/PPR -1 - Prof. M Coelho - Prática de Procedimentos Passadiço]]
+- [[Aulas/Prática de Procedimentos Passadiço - Prof. M Coelho]]
 
 ## 📅 Cronograma
 
@@ -25,6 +25,6 @@ Bem-vindos aos resumos e materiais da turma.
 
 ## 📂 Materiais úteis
 
-- [[Bizus]]
-- [[Diversos]]
+- Bizus *(em breve)*
+- Diversos *(em breve)*
 - [[Livros referências]]

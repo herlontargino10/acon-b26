@@ -1,2 +1,2 @@
-- [[Unidade_1_Introdução_á_Legislação_Marítima.pdf]]
-- [[Unidade_2_STCW.pdf]]
+- [Unidade 1 – Introdução á Legislação Marítima](./Unidade_1_Introdução_á_Legislação_Marítima.pdf)
+- [Unidade 2 – STCW](./Unidade_2_STCW.pdf)
