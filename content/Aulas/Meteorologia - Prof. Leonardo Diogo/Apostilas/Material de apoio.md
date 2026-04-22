@@ -1,5 +1,3 @@
-**Unidade 1 a 3**
-
 - [Mudanças climáticas no ambiente marítimo – eventos extremos](./Unidade 1 a 3/Mudanças_climáticas_no_ambiente_marítimo_eventos extremos.pdf)
 - [Nebulosidade, precipitação e tipo de nuvens](./Unidade 1 a 3/Nebulosidade_precipitação_e_tipo_de_nuvens.pdf)
 - [Pressão ATM](./Unidade 1 a 3/Pressão_ATM.pdf)
@@ -7,9 +5,4 @@
 - [Radiação solar](./Unidade 1 a 3/Radiação_solar.pdf)
 - [Temperatura do ar e TSM](./Unidade 1 a 3/Temperatura_do_ar_e_TSM.pdf)
 - [Umidade relativa](./Unidade 1 a 3/Umidade_relativa.pdf)
-
-**Unidade 4**
-
 - [Sistemas Tropicais](./Unidade 4/Sistemas Tropicais.pdf)
-
-
