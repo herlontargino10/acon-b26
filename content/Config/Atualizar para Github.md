@@ -8,3 +8,8 @@ git push -u origin main
 
 
 Para 
+
+
+git add .
+git commit -m "update notas"
+git push
