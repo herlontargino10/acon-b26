@@ -9,7 +9,7 @@ Bem-vindos aos resumos e materiais da turma.
 - [[Aulas/Meteorologia-Leonardo-Diogo|MET]]
 - [[Aulas/CIA-Amadeu|CIA]]
 - [[Aulas/Legislação-Marítima-Anthony|LEG]]
-- [[Aulas/Inglês-Jander|ITM]]
+- [[Aulas/Inglês-Técnico-Jander|ITM]]
 - [[Aulas/Prática-de-Procedimentos-Passadiço-Coelho|PRP]]
 
 ## 📅 Cronograma
