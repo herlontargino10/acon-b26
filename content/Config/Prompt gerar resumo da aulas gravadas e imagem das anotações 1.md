@@ -4,7 +4,7 @@ Você receberá:
 1. Um ou mais arquivos de imagem contendo fotos de anotações manuscritas da aula.
 2. Um ou mais arquivos .txt contendo a transcrição automática do áudio da mesma aula.
 
-Seu objetivo é criar um resumo único, completo e organizado da aula, juntando o conteúdo das imagens e do(s) arquivo(s) txt.
+Seu objetivo é criar um resumo único, completo sem perder nada e organizado da aula, juntando o conteúdo das imagens e do(s) arquivo(s) txt.
 
 INSTRUÇÕES:
 
