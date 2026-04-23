@@ -17,3 +17,62 @@
     justify-content: center;
   }
 }
+
+// Headings: more elegant spacing and weight
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h3,
+h4 {
+  font-weight: 600;
+}
+
+// Links: smooth underline on hover
+a:not(.internal):not([role="anchor"]) {
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+}
+
+// Internal wiki-links: use blue tint highlight
+a.internal {
+  background-color: var(--highlight);
+  border-radius: 3px;
+}
+
+// Sidebar: slightly tighter and cleaner
+.sidebar {
+  font-size: 0.9rem;
+}
+
+// Page title in sidebar: more prominent
+.page-title a {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+// Article spacing: breathe more
+article {
+  line-height: 1.75;
+}
+
+// Blockquote: refined left border
+blockquote {
+  border-left-width: 2px;
+  padding-left: 1.25rem;
+  color: var(--gray);
+}
+
+// Horizontal rule: lighter
+hr {
+  opacity: 0.5;
+}
