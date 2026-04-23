@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "ACON-B CIAGA 2026",
+    pageTitle: "ACON-B 2026",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
