@@ -2,15 +2,16 @@
 title: Início
 ---
 
-Bem-vindos aos resumos e materiais da turma.
+ACON-B CIAGA 2026<br>
+Central de estudos
 
 ## 📚 Disciplinas
 
 - [[Aulas/Meteorologia-Leonardo-Diogo|MET]]
-- [[Aulas/CIA-Amadeu|CIA]]
+- [[Aulas/Combate-Incêndio-Avançado-Amadeu|CIA]]
 - [[Aulas/Legislação-Marítima-Anthony|LEG]]
-- [[Aulas/Inglês-Técnico-Jander|ITM]]
-- [[Aulas/Prática-de-Procedimentos-Passadiço-Coelho|PRP]]
+- [[Aulas/Inglês-Técnico-Marítimo-Jander|ITM]]
+- [[Aulas/Prática-Procedimentos-Passadiço-M-Coelho|PRP]]
 
 ## 📅 Cronograma
 
