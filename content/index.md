@@ -6,18 +6,16 @@ Bem-vindos aos resumos e materiais da turma.
 
 ## 📚 Disciplinas
 
-- [[Aulas/Meteorologia - Prof. Leonardo Diogo]]
-- [[Aulas/ECIA - Prof. Amadeu]]
-- [[Aulas/Legislação Marítima - Prof. Anthony]]
-- [[Aulas/Inglês - Prof. Jander]]
-- [[Aulas/Prática de Procedimentos Passadiço - Prof. M Coelho]]
+- [[Aulas/Meteorologia-Leonardo-Diogo|MET]]
+- [[Aulas/CIA-Amadeu|CIA]]
+- [[Aulas/Legislação-Marítima-Anthony|LEG]]
+- [[Aulas/Inglês-Jander|ITM]]
+- [[Aulas/Prática-de-Procedimentos-Passadiço-Coelho|PRP]]
 
 ## 📅 Cronograma
 
 - [[QTS]]
 
-## 📂 Materiais úteis
+## 📂 Material de apoio
 
-- Bizus *(em breve)*
-- Diversos *(em breve)*
-- [[Livros referências]] 
+- [[Leituras]]
