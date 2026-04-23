@@ -7,7 +7,7 @@ Central de estudos
 
 ## 📚 Disciplinas
 
-- [[Aulas/Meteorologia-Leonardo-Diogo|MET]]
+- [[Aulas/Meteorologia-Leonardo-Diogo/Apostilas/|MET]]
 - [[Aulas/Combate-Incêndio-Avançado-Amadeu|CIA]]
 - [[Aulas/Legislação-Marítima-Anthony|LEG]]
 - [[Aulas/Inglês-Técnico-Marítimo-Jander|ITM]]
