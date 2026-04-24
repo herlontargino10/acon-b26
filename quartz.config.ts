@@ -15,8 +15,8 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    locale: "pt-BR",
+    baseUrl: "herlontargino10.github.io/acon-b2026",
     ignorePatterns: ["private", "templates", ".obsidian", "Config"],
     defaultDateType: "modified",
     theme: {
