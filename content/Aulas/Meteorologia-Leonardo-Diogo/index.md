@@ -1,5 +1,4 @@
 ---
-title: Meteorologia
+title: Meteorologia Prof. Leonardo Diogo
 ---
-
-# 🌦️ Meteorologia – Prof. Leonardo Diogo
+ 
