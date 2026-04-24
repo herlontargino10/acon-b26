@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "pt-BR",
     baseUrl: "herlontargino10.github.io/acon-b2026",
-    ignorePatterns: ["private", "templates", ".obsidian", "Config"],
+    ignorePatterns: ["private", "templates", ".obsidian", "Config", "Aulas\Meteorologia-Leonardo-Diogo\Resumos"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
