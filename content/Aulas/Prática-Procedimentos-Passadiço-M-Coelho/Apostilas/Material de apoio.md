@@ -1,1 +1,5 @@
 - [PRP-1 Apostila](./PRP-1_Apostila.pdf)
+- [PRP-2 Apostila](./PRP-2_Apostila.pdf)
+- [PRP-3 Apostila](./PRP-3_Apostila.pdf)
+- [PRP-4 Apostila](./PRP-4_Apostila.pdf)
+- [PRP-5 Apostila Práticos](./PRP-5_Apostila_Práticos.pdf)

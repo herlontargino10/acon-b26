@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "pt-BR",
-    baseUrl: "herlontargino10.github.io/acon-b2026",
+    baseUrl: "herlontargino10.github.io/acon-b26",
     ignorePatterns: ["private", "templates", ".obsidian", "Config", "Aulas\Meteorologia-Leonardo-Diogo\Resumos"],
     defaultDateType: "modified",
     theme: {
