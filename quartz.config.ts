@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "pt-BR",
-    baseUrl: "herlontargino10.github.io/acon-b26",
+    baseUrl: "aconb26.digital",
     ignorePatterns: ["private", "templates", ".obsidian", "Config", "Aulas/Meteorologia-Leonardo-Diogo/Resumos", "Aulas/Combate-Incêndio-Avançado-Amadeu/Resumos", "Aulas/Inglês-Técnico-Marítimo-Jander/Resumos", "Aulas/Legislação-Marítima-Anthony/Resumos", "Aulas/Prática-Procedimentos-Passadiço-M-Coelho/Resumos", ],
     defaultDateType: "modified",
     theme: {
