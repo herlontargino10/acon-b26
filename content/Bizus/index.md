@@ -1,5 +1,5 @@
 ---
-title: Bizurados
+title: Bizus
 ---
 - [Meteorologia - Bizu da Prova](./Meteorologia_Bizu_Prova.docx)
 - [Legislação - Bizu da Prova](./Legislação_Bizu_Prova.pdf)
