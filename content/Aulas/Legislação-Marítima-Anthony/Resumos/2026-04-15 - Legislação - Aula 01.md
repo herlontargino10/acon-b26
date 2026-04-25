@@ -1,11 +1,4 @@
-# Legislação Marítima – Aula de 15/04/2026
-
-> Professor: Introdução ao Direito do Mar, Direito Marítimo e IMO
-
----
-
-# Direito do Mar x Direito Marítimo
-
+# **DIREITO DO MAR X DIREITO MARÍTOMO**
 ## Direito do Mar
 
 É o ramo do direito que regula os espaços marítimos e os direitos dos Estados sobre esses espaços.
