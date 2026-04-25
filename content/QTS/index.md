@@ -1,5 +1,5 @@
 ---
-title: Cronograma de aulas
+title: Cronograma
 ---
 - [Matriz curricular](./Matriz_curricular_acon-b.jpeg)
 - [Semana 1](./20260413_QTS_Semana_1.jpeg)
