@@ -1,30 +1,41 @@
-
 ## CONTEXTO
 
 Você receberá:
 
 1. Um ou mais arquivos de imagem contendo:
     
-    - anotações manuscritas
-        
-    - quadro
-        
-    - slides
-        
-    - fotos da aula
-        
+
+- anotações manuscritas
+    
+- quadro
+    
+- slides
+    
+- fotos da aula
+    
+
 2. Um ou mais arquivos de texto (.txt) contendo:
     
-    - transcrição automática do áudio da aula
-        
+
+- transcrição automática do áudio da aula
+    
 
 ---
 
 ## OBJETIVO
 
-Criar um **resumo único, completo, organizado e confiável**, integrando todas as fontes.
+Criar um **resumo único, completo, aprofundado, organizado e confiável**, integrando todas as fontes.
 
-O resultado deve ser **superior às anotações e à transcrição isoladas**, servindo como material de estudo para revisão e prova.
+O resultado deve ser:
+
+- Superior às anotações isoladas
+    
+- Superior à transcrição isolada
+    
+- Com nível de profundidade suficiente para **entendimento real (não apenas memorização)**
+    
+- Estruturado como **material de estudo para revisão e prova**
+    
 
 ---
 
@@ -32,12 +43,16 @@ O resultado deve ser **superior às anotações e à transcrição isoladas**, s
 
 ### Integração das fontes
 
-- Use as imagens como base principal da estrutura (títulos, tópicos, palavras-chave)
+- Usar imagens como base estrutural (títulos, tópicos, palavras-chave)
     
-- Use os textos para complementar, detalhar e explicar
+- Usar textos para complementar, detalhar e explicar
     
-- Relacione conteúdos mesmo que estejam em partes diferentes
+- Conectar conteúdos mesmo que estejam separados
     
+- Resolver inconsistências entre fontes de forma lógica
+    
+
+---
 
 ### Tratamento da transcrição
 
@@ -45,26 +60,33 @@ O resultado deve ser **superior às anotações e à transcrição isoladas**, s
     
 - Ignorar trechos sem sentido
     
-- Reinterpretar frases com base no contexto
+- Reescrever frases confusas
     
-- Se algo permanecer incerto, indicar:
+- Interpretar com base no contexto da disciplina
     
-    - "Trecho provavelmente significa: ..."
-        
 
-### Priorização
+Se houver dúvida:
 
-Preservar obrigatoriamente:
+- Indicar: **"Trecho provavelmente significa: ..."**
+    
 
-- definições
+---
+
+### Priorização (OBRIGATÓRIO PRESERVAR)
+
+- Definições
     
-- conceitos importantes
+- Conceitos-chave
     
-- classificações
+- Classificações
     
-- exemplos do professor
+- Regras
     
-- observações como:
+- Fórmulas
+    
+- Exemplos do professor
+    
+- Observações como:
     
     - "importante"
         
@@ -73,20 +95,70 @@ Preservar obrigatoriamente:
     - "decorar"
         
 
+---
+
 ### Consolidação
 
 - Unificar conteúdos repetidos
     
 - Transformar anotações soltas em explicações completas
     
+- Organizar lógica de aprendizado (do básico → avançado)
+    
 - Não excluir conteúdo relevante
     
 
-### Expansão controlada
+---
 
-- Expandir explicações quando necessário
+## EXPANSÃO INTELIGENTE (PONTO PRINCIPAL)
+
+Para **CADA conceito importante**, aplicar:
+
+### 1. Definição clara
+
+Explicar de forma objetiva e correta.
+
+### 2. Explicação aprofundada
+
+- O que é
     
-- NÃO inventar informações fora das fontes
+- Por que existe
+    
+- Para que serve
+    
+- Quando é usado
+    
+
+### 3. Exemplo prático (OBRIGATÓRIO quando aplicável)
+
+- Preferir exemplos do mundo real
+    
+- Ou exemplos típicos de prova
+    
+
+### 4. Interpretação simplificada
+
+- Explicar “em linguagem simples”
+    
+- Como se estivesse ensinando alguém iniciante
+    
+
+### 5. Possível pegadinha de prova (se aplicável)
+
+- Erros comuns
+    
+- Confusões frequentes
+    
+
+---
+
+### REGRA CRÍTICA
+
+- Não inventar conteúdo fora das fontes
+    
+- Pode expandir apenas com conhecimento técnico seguro e coerente com o tema
+    
+- Evitar explicações genéricas ou vagas
     
 
 ---
@@ -97,11 +169,11 @@ Preservar obrigatoriamente:
 
 Organizar em:
 
-- Título da aula (se possível identificar)
+- Título da aula (se identificável)
     
 - Conteúdo da aula
     
-- Tópicos e subtópicos hierárquicos
+- Tópicos hierárquicos
     
 
 Exemplo:
@@ -112,28 +184,49 @@ Exemplo:
 
 #### 1.1 Conceito
 
-#### 1.2 Definição
+---
 
-#### 1.3 Classificação
+### 2. Desenvolvimento dos Tópicos
+
+Para cada item importante, usar:
+
+**Definição:**  
+Texto direto
+
+**Explicação:**  
+Aprofundamento do conceito
+
+**Exemplo:**  
+Aplicação prática ou cenário
+
+**Interpretação simples:**  
+Versão fácil de entender
+
+**Pegadinha / Atenção:** (quando aplicável)
 
 ---
 
-### 2. Explicações
+### 3. Processos e Passos
 
-- Linguagem clara e objetiva
+- Sempre que houver procedimentos:
     
-- Definições em formato formal
-    
-- Processos em passo a passo
-    
-- Comparações em lista ou tabela
-    
+    - Explicar passo a passo
+        
+    - Incluir lógica por trás
+        
 
 ---
 
-### 3. Destaques
+### 4. Comparações (quando aplicável)
 
-Usar marcações simples:
+Usar tabela:
+
+|Conceito|Característica|Diferença chave|
+|---|---|---|
+
+---
+
+### 5. Destaques
 
 - **Importante:**
     
@@ -144,7 +237,7 @@ Usar marcações simples:
 - **Observação do professor:**
     
 
-Evitar uso de emojis.
+(Sem emojis)
 
 ---
 
@@ -155,21 +248,25 @@ Evitar uso de emojis.
 - Síntese direta dos pontos principais
     
 
+---
+
 ### Prováveis Assuntos de Prova
 
 - Lista objetiva do que pode ser cobrado
     
 
+---
+
 ### Pontos Confusos ou Incompletos
 
-- Trechos com baixa clareza ou possível erro
+- Trechos com baixa clareza
+    
+- Possíveis erros de interpretação
     
 
 ---
 
 ## FLASHCARDS PARA ANKI
-
-Criar seção:
 
 ## Flashcards para Anki
 
@@ -177,26 +274,22 @@ Criar seção:
 
 Incluir apenas:
 
-- definições
+- Definições
     
-- diferenças
+- Diferenças
     
-- listas curtas
+- Classificações
     
-- números importantes
+- Etapas
     
-- fórmulas
+- Fórmulas
     
-- etapas
-    
-- classificações
+- Dados importantes
     
 
 Evitar:
 
-- textos longos
-    
-- explicações extensas
+- Explicações longas
     
 
 ---
@@ -211,7 +304,7 @@ Evitar:
 
 ### Formato CSV
 
-Após a tabela, gerar:
+Após a tabela:
 
 Pergunta,Resposta
 
@@ -221,7 +314,7 @@ Regras:
     
 - Sem colunas extras
     
-- Pronto para importar no Anki
+- Pronto para importação no Anki
     
 
 ---
@@ -230,11 +323,13 @@ Regras:
 
 - Não inventar conteúdo
     
-- Pode corrigir, reorganizar e melhorar
+- Corrigir, organizar e melhorar
     
-- Priorizar clareza e utilidade para estudo
+- Priorizar entendimento + memorização
     
-- Produzir material com estilo de apostila
+- Criar material com nível de apostila + explicação de professor
+    
+- Evitar superficialidade
     
 
 ---
@@ -245,8 +340,8 @@ Regras:
     
 - Direto ao ponto
     
-- Sem excesso de emojis
-    
 - Sem linguagem informal
     
-- Estruturado para revisão rápida
+- Sem excesso de emojis
+    
+- Foco em clareza e aprendizado real

@@ -595,14 +595,11 @@ Sem cooperação:
 - O professor mencionou que a IMO pode agir diante de medidas discriminatórias no comércio marítimo, mas não ficou totalmente claro até onde essa atuação alcança em casos de tarifas internacionais.
     
 - Ficou confusa a discussão sobre tarifas impostas pelos Estados Unidos e se isso seria ou não uma medida discriminatória relacionada ao transporte marítimo.
-    
-- Houve menção à pesca chinesa próxima às Ilhas Malvinas/Falklands e à criação de áreas marítimas protegidas pela Argentina, mas sem conclusão definitiva.
-    
+      
 - O professor comentou que a lagosta gera discussão sobre ser ou não uma espécie sedentária da plataforma continental.
     
 - Trecho provavelmente significa que o Brasil precisa internalizar convenções internacionais por meio do Congresso e decreto presidencial antes que passem a valer internamente.
     
-
 # Flashcards para Anki
 
 ## Conceitos Básicos
