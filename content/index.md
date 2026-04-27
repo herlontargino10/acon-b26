@@ -3,7 +3,6 @@ title: Início
 ---
 
 ACON-B CIAGA 2026<br>
-Central de estudos
 
 ## 📚 Disciplinas
 
@@ -24,3 +23,8 @@ Central de estudos
 ## 📂 Material de apoio
 
 - [[Leituras]]
+
+## 📢 Instruções gerais
+
+- [[CIAGA]]
+
