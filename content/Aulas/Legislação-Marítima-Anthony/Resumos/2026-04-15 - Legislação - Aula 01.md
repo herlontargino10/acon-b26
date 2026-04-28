@@ -1,4 +1,4 @@
-# **DIREITO DO MAR X DIREITO MARÍTOMO**
+# **DIREITO DO MAR X DIREITO MARÍTIMO**
 ## Direito do Mar
 
 É o ramo do direito que regula os espaços marítimos e os direitos dos Estados sobre esses espaços.
