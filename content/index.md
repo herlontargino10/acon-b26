@@ -34,4 +34,4 @@ ACON-B CIAGA 2026<br>
 - [[Documentos necessário para receber auxílio financeiro]]
 - [[arte-naval-vol-1-e-2.pdf|Livro Arte Naval Vol. 1 e 2]]
 - [[navegacao-a-ciencia-e-a-arte-vol-1-miguens.pdf|Livro navegação a ciência e a arte Vol. 1 Miguens]]
-- [[Aplicativos indicados pelo professor|Apps recomendados pelo professor de inglês]]
+- [[Aplicativos Indicados pelo Professor|Apps recomendados pelo professor de inglês]]
