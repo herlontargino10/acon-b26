@@ -33,7 +33,5 @@ ACON-B CIAGA 2026<br>
 - [[2_Handout_Welcome_To_The_Class.pdf|Apostila de Inglês - Handout Welcome to The Class]]
 - [[Documentos necessário para receber auxílio financeiro]]
 - [[arte-naval-vol-1-e-2.pdf|Livro Arte Naval Vol. 1 e 2]]
-- [[navegacao-a-ciencia-e-a-arte-vol-1-miguens.pdf|Livro Navegação a ciência e a arte Vol. 1 Miguens]]
-- [[NORMAM-101.pdf|NORMAM 101]]
-
-
+- [[navegacao-a-ciencia-e-a-arte-vol-1-miguens.pdf|Livro navegação a ciência e a arte Vol. 1 Miguens]]
+- [[Aplicativos indicados pelo professor|Apps recomendados pelo professor de inglês]]
