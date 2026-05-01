@@ -76,3 +76,60 @@ blockquote {
 hr {
   opacity: 0.5;
 }
+
+.hero-banner {
+  width: 100%;
+  height: 260px;
+  border-radius: 16px;
+  overflow: hidden;
+
+  background-image: url("/static/hero-navio.jpg");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.hero-content p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+/* padrão (dark mode) */
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* light mode (corrige contraste) */
+:root[saved-theme="light"] .hero-banner::before {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* texto no light */
+:root[saved-theme="light"] .hero-content {
+  color: #111;
+}

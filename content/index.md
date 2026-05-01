@@ -2,7 +2,12 @@
 title: Início
 ---
 
-ACON-B CIAGA 2026<br>
+<div class="hero-banner">
+  <div class="hero-content">
+    <h1>CIAGA · ACON-B 2026</h1>
+    <p>Curso Especial de Acesso a 2º Oficial de Náutica - Básico</p>
+  </div>
+</div>
 
 ## 📚 Disciplinas
 

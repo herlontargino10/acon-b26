@@ -41,15 +41,28 @@ export default (() => {
         <title>{title}</title>
         <meta charSet="utf-8" />
         {cfg.theme.cdnCaching && cfg.theme.fontOrigin === "googleFonts" && (
-          <>
-            <link rel="preconnect" href="https://fonts.googleapis.com" />
-            <link rel="preconnect" href="https://fonts.gstatic.com" />
-            <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
-            {cfg.theme.typography.title && (
-              <link rel="stylesheet" href={googleFontSubsetHref(cfg.theme, cfg.pageTitle)} />
-            )}
-          </>
-        )}
+  <>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href={googleFontHref(cfg.theme)} />
+    {cfg.theme.typography.title && (
+      <link rel="stylesheet" href={googleFontSubsetHref(cfg.theme, cfg.pageTitle)} />
+    )}
+  </>
+)}
+
+{/* Lucide Icons */}
+<script src="https://unpkg.com/lucide@latest"></script>
+<script
+  dangerouslySetInnerHTML={{
+    __html: `
+      document.addEventListener("DOMContentLoaded", () => {
+        lucide.createIcons();
+      });
+    `,
+  }}
+/>
+      
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
