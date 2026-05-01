@@ -1,5 +1,7 @@
 # Meteorologia — Unidade de Ensino 1 e 2: Fenômenos Meteorológicos, Transporte de Calor e Circulação Geral da Atmosfera
 
+Professor fez a revisão para a prova. 
+
 ---
 
 ## Conteúdo da Aula
