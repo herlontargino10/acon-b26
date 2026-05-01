@@ -4,9 +4,9 @@
 
 ## 📘 Exercício 02
 
-- [Pergunta](https://chatgpt.com/c/unit4-ex02-01-pergunta.pdf)
+- [Pergunta](/unit4-ex02-01-pergunta.pdf)
     
-- [Resposta](https://chatgpt.com/c/unit4-ex02-02-resposta.pdf)
+- [Resposta](Aulas\Inglês-Técnico-Marítimo-Jander\Inglês - Study\unit4-ex02-01-pergunta.pdf)
     
 
 ## 📘 Exercício 03
