@@ -1,6 +1,6 @@
 <div style="position: relative; padding-bottom: 56.25%; height: 0;">
   <iframe 
-    src="https://www.youtube.com/embed/RCXAxjS3z5g?si=6n5BFNH7kaRBjkUF"
+    src="https://www.youtube.com/embed/RCXAxjS3z5g"
     style="position: absolute; top:0; left:0; width:100%; height:100%;"
     frameborder="0" 
     allowfullscreen>

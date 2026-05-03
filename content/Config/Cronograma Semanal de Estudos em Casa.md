@@ -7,14 +7,14 @@
 ---
 
 ## 🟩 Domingo (03-05-2026)
-- [ ] Combate a Incêndio Avançado  
+- [x] Combate a Incêndio Avançado ✅ 2026-05-03
 - [ ] Prática de Passadiço  
 - [ ] Inglês  
 
 ---
 
 ## 🟦 Segunda (04-05-2026)
-- [ ] Legislação  
+- [ ] Legislação
 - [ ] Navegação  
 - [ ] Inglês  
 
