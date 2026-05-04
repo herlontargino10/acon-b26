@@ -15,7 +15,7 @@
 
 ## 🟦 Segunda (04-05-2026)
 - [ ] Legislação
-- [ ] Navegação  
+- [x] Navegação ✅ 2026-05-04
 - [ ] Inglês  
 
 ---
