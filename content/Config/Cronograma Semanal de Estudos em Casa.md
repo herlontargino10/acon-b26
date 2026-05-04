@@ -8,7 +8,7 @@
 
 ## 🟩 Domingo (03-05-2026)
 - [x] Combate a Incêndio Avançado ✅ 2026-05-03
-- [ ] Prática de Passadiço  
+- [x] Prática de Passadiço ✅ 2026-05-03
 - [ ] Inglês  
 
 ---

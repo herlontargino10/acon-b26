@@ -1,0 +1,8 @@
+views:
+  - type: table
+    name: Tabela
+    filters:
+      and:
+        - file.folder == "Aulas/Combate-Incêndio-Avançado-Amadeu/Apostilas"
+    order:
+      - file.backlinks
