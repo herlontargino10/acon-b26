@@ -40,4 +40,4 @@ title: Início
 - [[Documentos necessário para receber auxílio financeiro]]
 - [[arte-naval-vol-1-e-2.pdf|Livro Arte Naval Vol. 1 e 2]]
 - [[navegacao-a-ciencia-e-a-arte-vol-1-miguens.pdf|Livro navegação a ciência e a arte Vol. 1 Miguens]]
-- [[Aplicativos Indicados pelo Professor|Apps Indicados pelo professor de inglês]]
+- [[Indicação de Aplicativos e livros pelo Professor|Apps Indicados pelo professor de inglês]]
