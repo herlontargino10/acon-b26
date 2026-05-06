@@ -50,7 +50,7 @@ Pergunta: Em qual estágio do sistema de formação de furacão começa a ser ob
 
 Pergunta: Qual é a diferença entre furacões, ciclones e tufões?  
 
-*Resposta: Não há diferença física ou estrutural entre eles; trata-se do mesmo fenômeno com nomes diferentes dependendo da região onde ocorre.*
+*Resposta: São o mesmo fenômeno com nomes diferentes por região.*
 
 ---
 
@@ -66,7 +66,7 @@ Pergunta: Qual é a região geográfica preferencial de formação de furacões 
 
 Pergunta: Por que os sistemas começam a se formar próximo ao litoral da África?  
 
-*Resposta: Eles estão associados as ondas tropicais. E essas ondas ondas nascem no litoral da África devido ao contraste de temperatura e pressão entre o Deserto do Saara e a floresta do Congo. 
+*Resposta: Estão associados às ondas tropicais que nascem no litoral da África devido ao contraste de temperatura e pressão entre o Deserto do Saara e a floresta do Congo. 
 
 
 ---
@@ -75,7 +75,7 @@ Pergunta: Por que os sistemas começam a se formar próximo ao litoral da Áfric
 
 Pergunta: Quais são os processos que levam à formação de nuvens na Zona de Convergência Intertropical (ZCIT)?  
 
-*Resposta: Incidência intensa de radiação solar, aquecimento, convergência dos ventos alísios e transporte de calor e umidade, favorecendo a convecção e formação de nuvens.*
+*Resposta: Incidência intensa de radiação solar, convergência dos ventos alísios e transporte de calor e umidade favorecendo a convecção e formação de nuvens.*
 
 ---
 
@@ -91,7 +91,7 @@ Pergunta: Em qual parte de uma onda atmosférica ocorre maior formação de nebu
 
 Pergunta: Por que no Pacífico há formação de furacões durante todo o ano?  
 
-*Resposta: Porque o Pacífico possui grande quantidade de água, pista e recebe intensa incidência de radiação solar, mantendo condições sempre favoráveis para que isso ocorra.*
+*Resposta: Porque o Pacífico tem grande quantidade de água e recebe intensa radiação solar mantendo condições sempre favoráveis.*
 
 ---
 
