@@ -28,7 +28,7 @@ title: Início
 
 ## 📂 Material de apoio
 
-- [[Leituras]]
+- [[Referências]]
 
 ## 📢 Instruções gerais
 
