@@ -7,6 +7,7 @@ title: Cronograma
 - [Semana 3](./20260427_QTS_Semana_3.png)
 - [Semana 4](./20260504_QTS_Semana_4.png)
 - [Semana 5](./20260511_QTS_Semana_5.png)
-- Semana 6 *(em breve)*
+- [Semana 6](./20260518_QTS_Semana_6.png)
+- Semana 7 *(em breve)*
 
 
