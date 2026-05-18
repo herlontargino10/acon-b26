@@ -1,4 +1,4 @@
 ---
-title: Combate á Incêndio Avançado - Prof. Amadeu
+title: Comb. á Incêndio Avançado - Prof. Amadeu
 ---
  

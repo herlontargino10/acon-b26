@@ -4,7 +4,6 @@
 | ------------ | ------------------ |
 | Calado Médio | Cm = (Ca + Cr) / 2 |
 | Pontal       | **P = C + BL**     |
-|              |                    |
 
 ____
 
@@ -25,6 +24,36 @@ ___
 
 ____
 
+**Como encontrar os dois calados (avante e ré) quando só tenho o calado médio?**
+*Preciso de **uma informação extra** (ex: relação entre Ca e Cr).*
+
+### Exemplo: CAR = 2 × CAV
+
+> **Bizu:** soma das partes. Se CAR é o dobro de CAV, são **3 partes** no total.
+
+| CAV+CAR = 2×         |
+| -------------------- |
+| **Ca = 2×CM​ : 3**   |
+| **Cr=2×(2×CM)​ : 3** |
+
+**Exemplo de questão:** 
+
+*Determine os calados avante e à ré de uma embarcação sabendo-se que o calado médio vale*
+*8,13m e o calado à ré é o dobro do calado avante.*
+
+**Passo a passo rápido:**
+
+1. Multiplica o CM por 2 → total dos calados
+2. Divide por 3 → cada parte
+3. CAV = 1 parte, CAR = 2 partes
+
+**Exemplo numérico:**
+
+- CM = 8,13
+- Total = 2 × 8,13 = 16,26
+- Parte = 16,26 ÷ 3 = 5,42
+- **Ca = 5,42 m** | **Cr = 10,84 m**
+
 
 ---
 
@@ -32,51 +61,23 @@ ____
 
 **1.** Uma embarcação possui calado avante de 5,80m e calado à ré de 7,60m. Qual o calado médio?
 
-
-
 **2.** Calcule o calado à ré de uma embarcação cujo calado avante é 4,96m e o calado médio é 6,13m.
-
-
-
 
 **3.** Calcule o calado avante de uma embarcação sabendo que o calado à ré vale 9,14m e o calado médio vale 7,55m.
 
-
-
-
 **4.** Os calados avante e à ré de uma embarcação somam 15,40m. Sabendo que o calado à ré é 1,80m maior que o calado avante, determine os dois calados e o calado médio.
-
-
-
 
 **5.** Determine os calados avante e à ré de uma embarcação, sabendo que o calado médio vale 6,75m e o calado avante corresponde à metade do calado à ré.
 
-
-
-
 **6.** Determine o pontal de uma embarcação que possui calado de 5,60m e borda livre de 2,45m.
-
-
-
 
 **7.** Determine a borda livre de uma embarcação cujo pontal é 12,30m e o calado é 8,74m.
 
-
-
-
 **8.** Uma embarcação possui pontal de 9,60m. Sabendo que a borda livre vale um terço do calado, determine o calado e a borda livre.
-
-
-
 
 **9.** Determine o pontal de uma embarcação sabendo que o calado vale o triplo da borda livre e a borda livre é 2,15m.
 
-
-
-
 **10.** Uma embarcação tem calado médio de 7,50m, calado à ré igual ao dobro do calado avante, pontal de 11,20m. Determine os calados avante e à ré, e a borda livre (considere o calado médio para o cálculo da borda livre).
-
-
 
 
 ---
