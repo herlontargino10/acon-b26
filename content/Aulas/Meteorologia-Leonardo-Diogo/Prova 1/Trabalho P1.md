@@ -16,7 +16,7 @@ Abaixo instruções do professor:
 
 ____
 
-Abaixo as imagens divididas por grupo: 
+Abaixo as imagens para impressão divididas por grupo: 
 
 - [Carta Sinótica Grupo 1](Sinótica-grupo-1.jpg)
 - [Carta Sinótica Grupo 2](Sinótica-grupo-2.jpg)
