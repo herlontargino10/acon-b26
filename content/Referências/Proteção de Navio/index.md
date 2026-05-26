@@ -1,6 +1,6 @@
 # Proteção de Navio
 
-Material externo apresentações em formato powerpoint com áudio.
+Material externo com apresentações em formato powerpoint com áudio.
 
 ---
 
