@@ -1,0 +1,169 @@
+@use "./base.scss";
+
+@media (max-width: 800px) {
+  .sidebar.left {
+    gap: 0.75rem;
+  }
+
+  
+  .folder-title {
+    word-break: break-word;
+    white-space: normal;
+    display: block;
+    overflow-wrap: break-word;
+  }
+
+  button.mobile-explorer {
+    margin-top: 0.25rem;
+    margin-left: 0.25rem;
+    padding: 8px;
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// Headings: more elegant spacing and weight
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+h3,
+h4 {
+  font-weight: 600;
+}
+
+// Links: smooth underline on hover
+a:not(.internal):not([role="anchor"]) {
+  &:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+}
+
+// Internal wiki-links: use blue tint highlight
+a.internal {
+  background-color: var(--highlight);
+  border-radius: 3px;
+}
+
+// Sidebar: slightly tighter and cleaner
+.sidebar {
+  font-size: 0.9rem;
+}
+
+// Page title in sidebar: more prominent
+.page-title a {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+// Article spacing: breathe more
+article {
+  line-height: 1.75;
+}
+
+// Blockquote: refined left border
+blockquote {
+  border-left-width: 2px;
+  padding-left: 1.25rem;
+  color: var(--gray);
+}
+
+// Horizontal rule: lighter
+hr {
+  opacity: 0.5;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 260px;
+  border-radius: 16px;
+  overflow: hidden;
+
+  background-image: url("/static/hero-navio.jpg");
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.hero-content p {
+  margin: 4px 0 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+/* padrão (dark mode) */
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* light mode (corrige contraste) */
+:root[saved-theme="light"] .hero-banner::before {
+  background: rgba(0, 0, 0, 0.25);
+}
+
+/* texto no light */
+:root[saved-theme="light"] .hero-content {
+  color: #111;
+}
+/* subtítulo (p) no light */
+:root[saved-theme="light"] .hero-content p {
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+/* Fix: sidebar e conteúdo sobrepondo no mobile */
+@media (max-width: 800px) {
+  .sidebar.left {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  /* Quando o explorer ABRE, ele precisa ficar por cima de tudo */
+  .explorer {
+    z-index: 100;
+  }
+
+  .center {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    overflow-wrap: break-word;
+  }
+}
+

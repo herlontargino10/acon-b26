@@ -1,0 +1,14 @@
+footer {
+  text-align: center;
+  padding: 1.5rem 0 2rem;
+  margin-top: 2rem;
+  border-top: 1px solid var(--lightgray);
+
+  & p {
+    margin: 0;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--gray);
+  }
+}
