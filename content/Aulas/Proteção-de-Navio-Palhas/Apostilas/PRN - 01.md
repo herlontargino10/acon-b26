@@ -1,4 +1,5 @@
  
 ## 📥 Download da Aula  
   
-[📎 Baixar PowerPoint com áudio](./PRN-1_com_áudio.pptx)
+[📎 Baixar PowerPoint com áudio](https://drive.proton.me/urls/P9K1Z4K7JR#ScRqPP91rQem)
+
