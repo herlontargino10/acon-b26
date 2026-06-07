@@ -1,5 +1,6 @@
 ## CONTEXTO
 
+```txt
 Você receberá:
 
 1. Um ou mais arquivos de imagem contendo:
