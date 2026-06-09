@@ -10,6 +10,7 @@
 - [Parte_06_EST-1_Dados_Hidrostáticos](Parte_06_EST-1_Dados_Hidrostáticos.pdf)
 - [Parte_07_EST-1](Parte_07_EST-1.pdf)
 - [Parte 08 EST-1](Parte_08_EST-1.pdf)
+- [Parte 09 EST-1](Parte_09_EST-1.pdf)
 ## Links Externos
 
 - [Drive do Professor](https://drive.google.com/drive/folders/1tq4OnUQ0XN2iohB-BUDy26Eo874jOsbZ?usp=sharing)
