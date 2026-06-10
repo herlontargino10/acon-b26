@@ -1,10 +1,3 @@
-# FIS-1 — Questão 14 — Vetores Coplanares
-
-Tags: #fisica #fis1 #vetores #coplanar #p1 #ciaga
-
-Origem:  
-Lista oficial da P1.
-
 Questão:
 
 > Quando 02 vetores são coplanares?

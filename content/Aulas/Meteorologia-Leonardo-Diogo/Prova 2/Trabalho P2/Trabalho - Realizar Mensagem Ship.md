@@ -31,6 +31,7 @@ As duas fileiras mais distantes da porta.
 ## Material de apoio
 
  [[Manual-Observador-Completo.pdf]]
+ [[MSG-SHIP-planilha.xlsx]]
 
 ---
 
