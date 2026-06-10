@@ -1,1 +1,0 @@
-- [Baixar manual do observador](Manual-Observador-Completo.pdf)
