@@ -20,6 +20,8 @@ title: Início
 - [[Aulas/Estabilidade-1-Quintana/Apostilas/Material de apoio|EST-1]]
 - [[Aulas/Cálculo-1-Franciano/Apostilas/Material de apoio|CAL-1]]
 - [[Aulas/Física-1-Macedo/Apostilas/Material de apoio|FIS-1]]
+- [[Aulas/Proteção-de-Navio-Palhas/Apostilas/Material de apoio|PRN]]
+- [[Aulas/Português-Complementar-Cláudia/Apostilas/Material de apoio|POC]]
 
 ## 📅 Cronograma
 
