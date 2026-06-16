@@ -27,10 +27,6 @@ title: Início
 
 - [[QTS]]
 
-## 🧠 Conhecimento
-
-- [[Bizus]]
-
 ## 📂 Material de apoio
 
 - [[Referências]]
