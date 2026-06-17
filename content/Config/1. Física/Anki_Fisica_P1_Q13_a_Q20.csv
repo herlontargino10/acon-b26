@@ -1,0 +1,21 @@
+﻿Front,Back
+Vetores unitários representam o quê?,Mostram direção e permitem decompor vetores em componentes.
+"i, j e k representam o quê?","Direções dos eixos do sistema de coordenadas (x, y, z)."
+Quando vetores são coplanares?,Quando pertencem ao mesmo plano e não precisam de terceira dimensão.
+Vertical significa automaticamente 3D?,Não. Vertical ainda pode estar no mesmo plano.
+Mais vetores significa não coplanar?,"Não. O que importa é o plano, não a quantidade."
+Produto escalar representa fisicamente:,Quanto um vetor ajuda ou acompanha outro.
+Como reconhecer produto escalar?,"Alinhamento, projeção, contribuição, ajuda."
+Produto vetorial representa fisicamente:,Quanto uma força consegue fazer algo girar.
+Como reconhecer produto vetorial?,"Rotação, torque, giro, momento."
+Produto misto representa fisicamente:,Quanto espaço algo ocupa (volume).
+Como reconhecer produto misto?,"Volume, espaço ocupado, 3 dimensões."
+Mesmo motor. Navio vazio acelera mais. Qual conceito?,Massa. Menos massa → menos resistência → mais aceleração.
+Massa representa fisicamente:,Quanto um corpo resiste a mudar seu movimento (inércia).
+Mais massa significa:,Mais resistência à mudança do movimento e menos aceleração.
+Peso representa fisicamente:,Quanto a gravidade puxa um corpo.
+Peso depende de quê?,Da intensidade da gravidade.
+Massa muda com planeta?,Não. Massa pertence ao corpo.
+Pessoa vai para Lua. O que muda?,O peso muda. A massa permanece.
+Astronauta no espaço: existe massa?,Sim.
+Astronauta no espaço: existe peso?,Praticamente não (sem gravidade significativa).
