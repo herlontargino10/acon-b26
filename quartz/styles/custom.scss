@@ -166,4 +166,7 @@ hr {
     overflow-wrap: break-word;
   }
 }
-
+/* Oculta data e tempo de leitura em todas as páginas */
+.content-meta {
+  display: none !important;
+}
