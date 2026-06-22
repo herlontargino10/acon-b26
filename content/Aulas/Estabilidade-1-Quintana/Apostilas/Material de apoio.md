@@ -7,7 +7,7 @@
 - [Parte_04_EST-1](Parte_04_EST-1.pdf)
 - [Parte_05_EST-1](Parte_05_EST-1.pdf)
 - [Parte_06_EST-1](Parte_06_EST-1.pdf)
-- [Parte_06_EST-1_Dados_Hidrostáticos](Parte_06_EST-1_Dados_Hidrostáticos.pdf)
+- [Parte_06_EST-1_Dados_Hidrostáticos](Parte_06_EST-1_Dados_Hidrostáticos_Navio_SD_14.pdf)
 - [Parte_07_EST-1](Parte_07_EST-1.pdf)
 - [Parte 08 EST-1](Parte_08_EST-1.pdf)
 - [Parte 09 EST-1](Parte_09_EST-1.pdf)
