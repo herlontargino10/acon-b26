@@ -56,7 +56,8 @@ K
 
 ## Fórmulas obrigatórias
 
-GM=KM−KGGM = KM - KG KM=KB+BMKM = KB + BM
+GM = KM−KG / GM = KM - KG / KM = KB+BM / 
+KM = KB + BM. 
 
 ---
 
@@ -74,7 +75,7 @@ KG desce → GM aumenta → estabilidade melhora
 
 ### Estável
 
-GM>0GM>0
+GM > 0
 
 Navio retorna.
 
@@ -82,7 +83,7 @@ Navio retorna.
 
 ### Indiferente
 
-GM=0GM=0
+GM = 0
 
 Permanece.
 
@@ -90,7 +91,7 @@ Permanece.
 
 ### Instável
 
-GM<0GM<0
+GM < 0
 
 Pode emborcar.
 

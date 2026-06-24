@@ -1,4 +1,4 @@
-# EST-1 — PROVA TEÓRICA CIABA (Formato Obsidian)
+
 
 > Prova convertida para estudo mantendo os enunciados + gabarito.
 
