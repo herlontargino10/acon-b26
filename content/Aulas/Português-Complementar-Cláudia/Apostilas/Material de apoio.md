@@ -4,7 +4,7 @@
 - [POC - Aula 2.3 - Relatório](POC-Aula-2.3-Relatório.pdf)
 - [POC - Aula 2.4 - Redação Oficial](POC-Aula-2.4-Redação-Oficial-F-Trat-Requerimento.pdf)
 - [POC - Aula 2.4 - Termo de Ocorrência](POC-Aula-2.4-Termo-de-Ocorrência.pdf)
-
+- [POC - Atividade de Fixação Pré Prova](POC-Atividade-Fixação-Pré-Prova.pdf)
 
 ## Links Externos
 
