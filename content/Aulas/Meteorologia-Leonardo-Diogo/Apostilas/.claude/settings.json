@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Herlon Targino/Documents/quartz/content/Aulas/Meteorologia-Leonardo-Diogo/Unidade 6/**)",
+      "Read(//c/Users/Herlon Targino/Documents/quartz/content/Aulas/Meteorologia-Leonardo-Diogo/Unidade 7/**)",
+      "Read(//c/Users/Herlon Targino/Documents/quartz/content/Aulas/Meteorologia-Leonardo-Diogo/Resumos/**)",
+      "Read(//c/Users/Herlon Targino/Documents/quartz/content/Aulas/Meteorologia-Leonardo-Diogo/**)"
+    ]
+  }
+}
