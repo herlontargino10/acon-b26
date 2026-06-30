@@ -13,6 +13,7 @@ title: Cronograma
 - [Semana 9](./20260608_QTS_Semana_9.png)
 - [Semana 10](./20260615_QTS_Semana_10.png)
 - [Semana 11](./20260622_QTS_Semana_11.png)
-- Semana 12 *(em breve)*
+- [Semana 12](./20260622_QTS_Semana_12.png)
+- Semana 13 *(em breve)*
 
 

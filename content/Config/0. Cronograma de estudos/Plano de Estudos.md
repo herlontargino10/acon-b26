@@ -83,11 +83,11 @@
 
 ## ⏰ 15:00-16:20
 
--   [ ] **Passadiço (Apostila; Anki)**
-    -   [ ] AIS (Leitura inicial da Apostila)
+-   [ ] **Passadiço (Apostila + Anki)**
+    - [x] AIS (Leitura inicial da Apostila) ✅ 2026-06-27
+     - [x] RIPEAM (Anki) ✅ 2026-06-27
     -   [ ]  Planejamento Parte 1 (Anki)
     -   [ ]  Planejamento Parte 2 (Anki)
-    -   [ ]  Criar cards temas pendentes
     
 
 ## ⏰ 16:20-17:20
@@ -100,7 +100,7 @@
 
 ## ⏰ 18:40-19:00
 
--   [ ] Jantar
+- [x] Jantar ✅ 2026-06-28
 
 ## ⏰ 19:00-20:20
 
@@ -130,7 +130,9 @@
 
 -   [ ] **Meteorologia (Anki)**
     -   [ ] Resumo 03
+       - [x] Resumo 07 Anki 20 min ✅ 2026-06-28
     -   [ ] Revisão dos cards errados
+    - [x] Resumo 08 Anki ✅ 2026-06-28
 
 ## ⏰ 08:20--09:40
 
@@ -138,7 +140,7 @@
 
 ## ⏰ 09:40--10:00
 
--   [ ] Intervalo
+- [x] Intervalo ✅ 2026-06-30
 
 ## ⏰ 10:00--11:20
 
@@ -191,7 +193,7 @@
 
 ## ⏰ 21:00--22:00
 
--   [ ] Revisão dos erros
+- [ ] Revisão dos erros
 -   [ ] Planejamento da semana
 
 ------------------------------------------------------------------------
@@ -200,7 +202,7 @@
 
 ## Meteorologia
 
--   [ ] Interpretação
+- [ ] Interpretação
 -   [ ] Mensagens
 -   [ ] Resumo 01
 -   [ ] Resumo 02
