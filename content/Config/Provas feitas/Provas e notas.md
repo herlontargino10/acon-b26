@@ -4,8 +4,8 @@ MET - 7.4
 PRP - 7.1 
 CIA - 8.5 
 LEG - 9.8 
-EST - 
-PRN - 
+EST 1 - 8.0
+PRN - 8.6
 
 
 
