@@ -25,15 +25,13 @@ A resposta deve ter **2 a 3 linhas**.
 
 ## Região Tropical
 
-**Célula de Hadley** ↓ Ventos Alísios ↓ ZCIT ↓ Convecção ↓ Ondas
-Tropicais ↓ Ciclones Tropicais
+**Célula de Hadley** ↓ Ventos Alísios ↓ ZCIT ↓ Convecção ↓ Ondas Tropicais ↓ Ciclones Tropicais
 
 ------------------------------------------------------------------------
 
 ## Latitudes Médias
 
-**Célula de Ferrel** ↓ Ventos de Oeste ↓ Frentes ↓ Ciclones
-Extratropicais
+**Célula de Ferrel** ↓ Ventos de Oeste ↓ Frentes ↓ Ciclones Extratropicais
 
 ------------------------------------------------------------------------
 
@@ -107,8 +105,7 @@ Ar Frio
 
 ### 1.
 
-Explique a relação entre as células da circulação geral da atmosfera e
-os principais sistemas meteorológicos.
+Explique a relação entre as células da circulação geral da atmosfera e os principais sistemas meteorológicos.
 
 ------------------------------------------------------------------------
 
@@ -120,8 +117,7 @@ Explique a relação entre os ventos alísios e a ZCIT.
 
 ### 3.
 
-Explique por que as latitudes médias são a origem dos principais
-sistemas meteorológicos.
+Explique por que as latitudes médias são a origem dos principais sistemas meteorológicos.
 
 ------------------------------------------------------------------------
 
@@ -133,8 +129,7 @@ Relacione Hadley, Ferrel e Polar com seus ventos e sistemas.
 
 ### 5.
 
-Explique como a circulação geral da atmosfera influencia a formação dos
-sistemas meteorológicos.
+Explique como a circulação geral da atmosfera influencia a formação dos sistemas meteorológicos.
 
 ------------------------------------------------------------------------
 
@@ -142,25 +137,20 @@ sistemas meteorológicos.
 
 ## Modelo 1
 
-> Nas regiões tropicais predominam os ventos alísios gerados pela Célula
-> de Hadley. Sua convergência forma a ZCIT e favorece a formação de
-> sistemas tropicais.
+> Nas regiões tropicais predominam os ventos alísios gerados pela Célula de Hadley. Sua convergência forma a ZCIT e favorece a formação de sistemas tropicais.
 
 ------------------------------------------------------------------------
 
 ## Modelo 2
 
-> Nas latitudes médias predominam os ventos de oeste da Célula de
-> Ferrel, associados à formação de frentes e ciclones extratropicais.
+> Nas latitudes médias predominam os ventos de oeste da Célula de Ferrel, associados à formação de frentes e ciclones extratropicais.
 
 ------------------------------------------------------------------------
 
 ## Modelo 3 (mais completa)
 
-> A circulação geral da atmosfera organiza os ventos predominantes. Nas
-> regiões tropicais, os ventos alísios e a ZCIT favorecem sistemas
-> tropicais. Nas latitudes médias, os ventos de oeste favorecem frentes
-> e ciclones extratropicais.
+> A circulação geral da atmosfera organiza os ventos predominantes. Nas regiões tropicais, os ventos alísios e a ZCIT favorecem sistemas
+> tropicais. Nas latitudes médias, os ventos de oeste favorecem frentes e ciclones extratropicais.
 
 ------------------------------------------------------------------------
 
@@ -181,8 +171,7 @@ explicar a Questão 7.
 # Checklist final
 
 -   [ ] Célula de Hadley → Alísios → ZCIT → Sistemas Tropicais
--   [ ] Célula de Ferrel → Ventos de Oeste → Frentes → Ciclones
-    Extratropicais
+-   [ ] Célula de Ferrel → Ventos de Oeste → Frentes → Ciclones Extratropicais
 -   [ ] Célula Polar → Ventos Polares → Ar frio
 -   [ ] Saber responder em **2 ou 3 linhas**
 -   [ ] Relacionar **latitude + ventos + sistema meteorológico**
@@ -194,7 +183,11 @@ _____
 
 ### Resposta
 
-A Célula de Hadley origina os ventos alísios, cuja convergência forma a ZCIT e favorece os sistemas tropicais. A Célula de Ferrel origina os ventos de oeste, associados às frentes e aos ciclones extratropicais, enquanto a Célula Polar está associada às massas de ar frio.
+A Célula de Hadley origina os ventos alísios, cuja convergência forma a ZCIT e favorece os sistemas tropicais.
+
+A Célula de Ferrel origina os ventos de oeste, associados às frentes e aos ciclones extratropicais. 
+
+A Célula Polar está associada às massas de ar frio.
 
 ---
 

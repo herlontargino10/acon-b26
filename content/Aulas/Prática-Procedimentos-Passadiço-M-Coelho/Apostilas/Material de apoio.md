@@ -7,3 +7,7 @@
 - [PRP-7 - Cartas de Correntes de Marés](./PRP-7_Cartas_de_Correntes_de_Marés.pdf)
 - [PRP-8 - Constituição do Quarto](./PRP-8_Constituição_do_Quarto_de_Serviço.pdf)
 - [PRP-9 - AIS](./PRP-9_AIS.pdf)
+- [PRP-10 - Procedimentos Práticos](./PRP-10_Procedimentos_Práticos.pdf)
+- [PRP-11 - Sistemas de Balizamento](./PRP-11_Sistemas_de_Balizamento.pdf)
+- [PRP-12 - Pirataria](./PRP-12_Pirataria.pdf)
+- [PRP-13 - Marés Problemas](./PRP-13_Marés_Problemas.pdf)
