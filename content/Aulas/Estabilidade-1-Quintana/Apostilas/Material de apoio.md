@@ -14,6 +14,7 @@
 - [Parte 10 EST-1](Parte_10_EST-1.pdf)
 - [Parte 11 EST-1](Parte_11_EST-1.pdf)
 - [Parte 12 EST-1](Parte_12_EST-1.pdf)
+- [Parte 13 EST-1](Parte_13_EST-1.pdf)
 ## Links Externos
 
 - [Drive do Professor](https://drive.google.com/drive/folders/1tq4OnUQ0XN2iohB-BUDy26Eo874jOsbZ?usp=sharing)
