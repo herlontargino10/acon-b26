@@ -1,3 +1,8 @@
 - [Unidade 1 – Introdução á Legislação Marítima](Unidade_1_Introdução_á_Legislação_Marítima.pdf)
 - [Unidade 2 – STCW](Unidade_2_STCW.pdf)
 - [Unidade 2 – SOLAS](Unidade_2_SOLAS.pdf)
+- [Unidade 2 – SOLAS](Unidade_2_SOLAS.pdf)
+- [Unidade 3 – MARPOL 73/78 – Fundamentos e Anexos](Unidade_3_MARPOL_7378_Fundamentos_e_Anexos.pdf)
+- [Unidade 4 – LESTA e RELESTA](Unidade_4_LESTA_RELESTA.pdf)
+- [Unidade 5 – Direito Marítimo Ambiental, Segurança da Navegação e BWM](Unidade_5_Direito_Marítimo_Ambiental_Segurança_Navegação_BWM.pdf)
+- [Unidade 6 – Convenção de Linhas de Cargas](Unidade_6_Convenção_Linhas_de_Cargas.pdf)

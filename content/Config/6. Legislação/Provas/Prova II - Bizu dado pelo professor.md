@@ -13,7 +13,7 @@ ____
 BIZU do que realmente vai cair na prova
 
 1. Convenção de descargas, marca de plison, o que é disco de plison
-2.  RIPEAM - (Olhar Sslide COLREG)
+2.  RIPEAM - (Olhar Slide COLREG)
 3. Fala sobre convenção BWM água de lastro saber o slide Ambito de app e regra b-4  Quais certificados navios que terão
 4. RELESTA saber . grupos, definir os grupos.. cada um desses grupos... 1 a 6
 5. LESTA - Definições LESTA, 2 a 3 slides será discursiva
