@@ -1,4 +1,4 @@
 ---
-title: Embarcação Offshore - Prof. Amanda Itano
+title: Introdução á Embarcações Offshore - Prof. Amanda Itano
 ---
  
