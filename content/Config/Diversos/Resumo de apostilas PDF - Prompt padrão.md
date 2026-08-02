@@ -34,6 +34,8 @@ O resultado deve ser **superior ao material original**, servindo como material d
 - Não “completar com base no que sabe”
     
 - Toda informação deve vir diretamente do material analisado
+  
+  - Nao deixar nada passar
     
 
 ---

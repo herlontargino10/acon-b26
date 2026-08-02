@@ -18,6 +18,7 @@ title: Cronograma
 - [Semana 14](./20260713_QTS_Semana_14.png)
 - [Semana 15](./20260720_QTS_Semana_15.png)
 - [Semana 16](./20260727_QTS_Semana_16.png)
-- Semana 17 *(em breve)*
+- [Semana 17](./20260803_QTS_Semana_17.png)
+- Semana 18 *(em breve)*
 
 

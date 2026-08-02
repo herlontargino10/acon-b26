@@ -1,19 +1,19 @@
 # 🎯 OPERAÇÃO APROVAÇÃO (29/07 → Provas)
 
 > Objetivo:
-> - [ ] Matemática: 9+
-> - [ ] Física: 9+
-> - [ ] Estabilidade: 9+
-> - [ ] Navegação: 9+
+> - Matemática: 9+
+> - Física: 9+
+> - Estabilidade: 9+
+> - Navegação: 9+
 
 ---
 
 # 🌅 BLOCO 1 — 08:00 às 09:30
 ## 🚢 Navegação (PRIORIDADE 1)
 
-- [ ] Estudar cards novos
-- [ ] Revisar cards antigos
-- [ ] Anotar dúvidas
+- [x] Estudar cards novos ✅ 2026-07-29
+- [x] Revisar cards antigos ✅ 2026-07-29
+- [x] Anotar dúvidas ✅ 2026-07-29
 
 🎯 Meta diária
 - 22 a 25 cards novos
@@ -59,8 +59,8 @@
 
 # 🍽️ Intervalo
 
-- [ ] Almoçar
-- [ ] Descansar
+- [x] Almoçar ✅ 2026-07-29
+- [x] Descansar ✅ 2026-07-29
 
 ---
 
@@ -103,7 +103,7 @@
 
 ### 30/07
 
-- [ ] Decorar Questão dos Cabos
+- [x] Decorar Questão dos Cabos ✅ 2026-07-30
 - [ ] Criar cards Apostila 2
 
 ### 31/07

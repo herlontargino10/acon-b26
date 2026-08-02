@@ -13,6 +13,6 @@
 - [13 - Automatic Identification System AIS](13_Automatic_Identification_System_AIS.pdf)
 - [14 - Vessel Traffic Service VTS](14_Vessel_Traffic_Service_VTS.pdf)
 - [15 - Sistema de Posicionamento Dinâmico](15_Sistema_de_Posicionamento_Dinâmico.pdf)
-- [Curso Especial de Operador de ARPA](Curso_Especial_de_Operador_de_ARPA.pptx)
+- [Curso Especial de Operador de ARPA](Curso_Especial_de_Operador_de_ARPA.pdf)
 - [NAV-3 ARPA 2018](NAV-3_ARPA_2018.pptx)
 - [Plotagem Radar Rosa de Manobras](Plotagem_Radar_Rosa_de_Manobras.pdf) 
