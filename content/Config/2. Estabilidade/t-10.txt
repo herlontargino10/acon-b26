@@ -1,0 +1,58 @@
+1) BRAÇO DE ESTABILIDADE (GZ) 
+
+Quando o navio aderna, as forças peso e empuxo formam um binário, cujo braço é denominado 
+BRAÇO DE ESTABILIDADE
+
+ Quando o navio aderna, as forças peso e empuxo formam um binário, cujo momento é denominado 
+MOMENTO DE ESTABILIDADE (Me). 
+
+ Me é a real medida da estabilidade do navio. Dessa forma, expressa a medida da intensidade de 
+retorno à posição inicial. 
+
+ Me > 0, GZ > 0: o momento contraria a inclinação do navio, que tenderá a voltar para a posição de 
+equilíbrio (figura 2). Neste caso, ME é chamado de Momento de Adriçamento ou de 
+Endireitamento e GZ é o Braço de Adriçamento ou de Endireitamento.
+
+
+Me < 0, GZ < 0: o momento colabora com a inclinação do navio, que tenderá a se afastar mais ainda 
+da posição de equilíbrio. Neste caso, Me é chamado de Momento de Emborcamento e GZ é o Braço 
+de Emborcamento (figura 3). 
+
+
+
+4.1) EQUILÍBRIO ESTÁVEL 
+ O navio, ao adernar, volta, naturalmente, à sua posição de equilíbrio (figura 4). 
+  Nesta condição: GZ  0 ;    Me > 0 ;   KM > KG  ;    GM>0  
+
+
+4.2) EQUILÍBRIO INDIFERENTE 
+
+ 
+
+ O navio estará em equilíbrio, seja qual for a sua posição, não havendo tendência a retornar a posição 
+de adriçado (figura 5). 
+ Nesta condição: GZ = 0 ;    Me = 0 ;  KM = KG  ;   GM=0  
+
+
+
+4.3) EQUILÍBRIO INSTÁVEL 
+
+
+ O navio, ao adernar, tende a adquirir banda cada vez maior (figura 6).  
+ Nesta condição: GZ  0 ;   Me < 0 ;  KM < KG  ;   GM < 0 
+
+
+
+→ Se a altura metacêntrica negativa for pequena, B’ alcançará a vertical que passa por G e o navio 
+passará à condição de equilíbrio indiferente – BANDA PERMANENTE POR GM NEGATIVO.  
+
+ 
+
+→ Se a altura metacêntrica negativa for muito grande, B’ não atingirá a vertical de G e o navio 
+continuará a adernar até emborcar.  
+
+ 
+
+→ Destas três condições de equilíbrio demonstradas, verificamos que tanto a situação indiferente 
+quanto a instável são indesejáveis, porque o navio perde sua capacidade de adriçamento após cada 
+inclinação, podendo emborcar. 

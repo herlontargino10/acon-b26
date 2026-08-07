@@ -1,0 +1,19 @@
+1) NOÇÃO DE MOMENTO DE INÉRCIA EM RELAÇÃO A UM EIXO.  O momento de inércia é uma grandeza física que avalia a dificuldade de alterar o estado de movimento de um corpo em rotação, figura 1.  Quanto maior for o momento de inércia de um corpo, maior será a dificuldade de fazê-lo girar ou alterar a sua rotação, ou seja, maior será a resistência do corpo de alterar sua velocidade angular
+
+
+
+A expressão matemática utilizada para calcular o momento de inércia de um corpo é a seguinte: I = m. R²
+
+A partir dessa equação, podemos concluir que o momento de inércia depende da massa do corpo e do raio do movimento circular que ele executa. Dessa forma, quanto maiores forem os valores apresentados, maior será o momento de inércia do corpo.  A unidade de medida do momento de inércia no Sistema Internacional é o kgm².
+
+
+2) SUPERFÍCIE LIVRE  Ao adquirir uma banda, um navio que esteja transportando uma carga sólida, não sofrerá alteração no seu Centro de Gravidade.  O mesmo acontecerá com o navio que transportar uma carga a granel líquida, desde que os tanques estejam completamente cheios, isto é, não tendo o líquido para onde se expandir irá se comportar da mesma maneira que um sólido.  Ao transportar cargas líquidas em tanques incompletas importa em deixar espaços para sua expansão. Portanto, a carga transportada tem superfície livre e seus efeitos na estabilidade do navio serão a seguir analisados.
+
+
+
+2.1) EFEITO DA SUPERFÍCIE LIVRE  Vemos, na figura 2, um navio adriçado com um tanque de duplo-fundo contendo óleo apenas até a metade de sua altura, sendo o centro de gravidade do líquido g.  Se houver um balanço, o Centro de Gravidade do Navio G deslocar-se-á paralelamente e no mesmo sentido da mudança do centro de gravidade do líquido no tanque, passando para G'. Assim sendo, a força da gravidade passará a atuar segundo a vertical que passa por G' e não mais pela que passa por G. 
+
+
+Gv M é nitidamente menor do que GM, o efeito da Superfície Livre equivale, portanto, a uma Virtual redução de GM e consequentemente redução da Estabilidade do navio. 
+
+

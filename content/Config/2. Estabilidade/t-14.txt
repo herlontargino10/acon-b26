@@ -1,0 +1,45 @@
+→ Afastamentos, em relação a linha central, para boreste positivo e para bombordo negativo. → Somatório dos momentos transversais igual a zero, navio adriçado. → Somatório dos momentos transversais diferente de zero, navio adernado (figura1). 
+
+4) EXPERIÊNCIA DE ESTABILIDADE  Esta experiência tem como objetivo determinar a cota vertical do centro de gravidade do navio em deslocamento leve, ou seja, o KG do navio leve.
+
+
+
+1) CORREÇÃO DA BANDA PERMANENTE DEVIDO À DESCENTRALIZAÇÃO DE PESOS  A distribuição transversal de pesos pode causar banda permanente e, até mesmo, levar o navio a emborcar. Vale ressaltar que isso ocorre quando a resultante de todos os pesos a bordo for aplicada num ponto que esteja localizado fora da linha central do navio, ou seja, fora do plano longitudinal (diametral).  Portanto, quando o somatório dos pesos de um bordo não for igual ao somatório dos pesos do outro bordo, o centro de gravidade estará situado fora da linha central, em consequência, haverá uma banda permanente.  Dessa forma, a remoção transversal, o embarque ou desembarque de pesos provocam uma banda permanente, que poderá ser calculada pela relação indicada, conforme demonstrado na figura 1
+
+
+
+Podemos optar entre duas providências para corrigir esse tipo de banda permanente: ✓ aliviar o bordo em banda de um Momento igual ao valor calculado; ✓ criar um momento igual no bordo oposto.
+
+
+
+2) BANDA PERMANENTE DEVIDO À ALTURA METACÊNTRICA IGUAL A ZERO  Quando o navio tem altura metacêntrica igual a zero, ele está em equilíbrio indiferente. Teoricamente ele ficará com qualquer inclinação numa faixa que vai de 0° até o ponto em que o metacentro começa a subir, criando uma GM positiva e, portanto, um braço de adriçamento.
+
+O ângulo limite da estabilidade indiferente com que o navio fica, permanentemente, é chamado de "ângulo de indiferença". 
+
+Importante: Na prática observa-se que o navio com GM inicial igual a zero fica adernado no ponto em que o metacentro inicia sua ascensão, e qualquer tentativa para tirá-lo dessa posição movendo cargas horizontalmente no plano transversal, para o bordo oposto ao da banda, fará com que o navio se volte violentamente para esse bordo, ficando novamente adernado com banda permanente maior que a original, é talvez até emborcando.
+
+
+
+2.2) CORREÇÃO DA BANDA PERMANENTE DEVIDO À GM = ZERO  Para conseguir que o navio adquira altura metacêntrica positiva, o que se deve fazer é mover o centro de gravidade do navio para baixo, iniciando com a eliminação das superfícies livres que por acaso existam. 
+
+
+3) BANDA PERMANENTE DEVIDO À ALTURA METACÊNTRICA INICIAL NEGATIVA  Numa embarcação com altura metacêntrica inicial negativa, temos que KG > KM, figura 4, sabemos que: GM = KM - KG  GM < 0
+
+
+3.1) CORREÇÃO DA BANDA PERMANENTE DEVIDO À GM NEGATIVA  Sabemos que a principal causa é má distribuição vertical dos pesos a bordo (KG>KM).  Temos basicamente quatro soluções possíveis: i) aliviar pesos situados acima de “G “; ii) remover para baixo os pesos situados acima de "G “; iii) adicionar pesos abaixo de "G"; e iv) corrigir superfícies livres que porventura existam. i) ALIVIAR PESOS ACIMA DE "G":  Implica em descarregá-los, o que devido aos custos é improvável acontecer.  Implica, também, em reduzir seus Kg, como por exemplo: descendo para seus descansos os paus de carga ou guindastes que estejam içados. ii) REMOVER PARA BAIXO OS PESOS SITUADOS ACIMA DE G:  Implica em remover carga (por exemplo: do convés para o cobro do porão); isto nem sempre é possível e só excepcionalmente será admissível, pelas despesas que causará.  Implica também em remover líquidos (água e ó1eo) de tanques elevados para tanques de duplo-fundo. •Muito raramente surgirá esta oportunidade, visto que, normalmente, a quase totalidade dos tanques de armazenamento de líquidos situa-se no D.F, ou seja, elevados somente tanques de carga ou consumo. •Esta providência, quando possível, é muito boa, por ser rápida, econômica e ser feita com os recursos de bordo. iii) ADICIONAR PESOS ABAIXO DE G:  Estando o navio no porto, esta é uma providência viável e recomendável, seja estivando a carga que irá embarcar nos espaços mais baixos ou recebendo suprimento de óleo combustível nos tanques de D.F.  Em viagem, estas providências não serão possíveis, restará o recurso de LASTRAR com água salgada os tanques vazios do D.F. 
+
+iv) CORRIGIR SUPERFÍCIES LIVRES QUE PORVENTURA EXISTAM  Este procedimento deve ser feito com cautela: lº) Completar todos os tanques parcialmente cheios, eliminando as superfícies livres; 2º) Efetuar as providências possíveis previstas nos itens: (i); (ii) e (iii); 3º) Iniciar a operação de lastro enchendo um tanque de cada vez.  Como sabemos, a perda de GM por S.L. é o somatório das S.L. de todos os tanques. Lastrando um tanque de cada vez limitaremos a S.L. desse tanque. 4º) Selecionar os tanques vazios que devem ser lastrados em primeiro lugar.  Que critério adotar nesta situação?  Inicialmente, convém lembrar que um tanque não se enche imediatamente, isto é, entre o início e o término da operação haverá um intervalo de tempo. Assim sendo, durante esse intervalo de tempo o líquido admitido terá Superfície Livre, tendo como consequência, o agravamento de GM negativa.  Deve-se, por isso, começar pelos tanques menores.  Consideremos, agora, que o tanque pelo qual iniciaremos o lastro é dividido longitudinalmente em dois (um em cada bordo).  Se iniciarmos pelo bordo oposto a banda, haverá três efeitos: Primeiro: No começo, a quantidade de líquido admitida ainda é insuficiente para causar qualquer efeito na banda; Segundo: Em meio à operação haverá um momento em que a quantidade de líquido admitido começa a diminuir a banda, mas, simultaneamente, o líquido se deslocará por haver Superfície Livre, acelerando o efeito; Terceiro: Na fase final, próximo a adriçar o navio, o líquido admitido já terá peso significativo, gerando um Momento transversal que causará uma banda para o bordo oposto a inicial, o qual tentávamos corrigir.  A conseqüência será um violento “TOMBO” do navio para o bordo contrário a banda original, ficando ainda mais adernado para este bordo e com risco inclusive de emborcar, devido à violência deste movimento. Importante: Iniciar a operação de lastro pelo bordo oposto ao da banda é errado e muito perigoso!! 
+
+
+ O que ocorrerá, no entanto, se iniciarmos a operação lastrando o tanque do mesmo bordo que a banda: Primeiro: A banda aumentará devido ao peso admitido; Segundo: Mas simultaneamente "GM” aumentará (embarque de peso com baixo valor de Kg); Terceiro: Haverá superfície livre com perda de "GM".  Porém, como os tanques de D.F. têm pouca altura, rapidamente o 1íquido atingirá a altura máxima no bordo correspondente a banda; denominamos este procedimento de "Embolsamento". Dessa forma, a partir desse momento, não só teremos a redução da S.L. como o C.G. do líquido passa a deslocar-se no sentido da linha central.  Nesse instante, a banda atingirá seu valor máximo e, a partir de então, começará a diminuir sem o risco de “tombo” para o outro bordo.  Terminado o enchimento do tanque, ainda haverá banda, porém agora causada por momento transversal, ou seja, devido ao peso de líquido admitido nesse bordo,  Conseqüentemente, a operação de lastro no tanque do outro bordo poderá ser realizada, então, sem qualquer risco, porque só depois de completamente cheio irá gerar um momento transversal igual ao causador da banda existente.
+
+
+
+CONCLUSÃO: CUIDADOS NA CORREÇÃO DA BANDA PERMANENTE DEVIDO À GM NEGATIVA:  1º) Completar todos os tanques parcialmente cheios a fim de eliminar as superfícies livres;  2º) Efetuar as providências possíveis previstas nos itens: (i), (ii) e (iii);  3º) Lastrar um tanque de cada vez, para evitar a existência de muitas superfícies livres;  4º) Iniciar preferencialmente a operação de lastro pelos tanques menores;  5º) Em relação à localização do tanque: 5.1) preferir os tanques centrais, isto é, caso tenha algum disponível; 5.2) optar pelos tanques do mesmo bordo da banda, caso não disponha de centrais; 5.3) NUNCA iniciar a operação de lastro utilizando um tanque do bordo oposto à banda.
+
+
+
+
+
+
+
