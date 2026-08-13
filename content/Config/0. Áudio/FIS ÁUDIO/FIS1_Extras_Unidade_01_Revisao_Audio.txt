@@ -1,0 +1,120 @@
+FIS 1 – Extras – Unidade 01
+
+Pergunta Extra 1
+
+O que é inércia?
+
+Resposta: É a tendência de um corpo resistir à mudança de seu estado de
+movimento.
+
+Pergunta Extra 2
+
+O que acontece quando ultrapassamos o limite elástico?
+
+Resposta: O corpo pode sofrer deformação permanente.
+
+Pergunta Extra 3
+
+O que é deformação permanente?
+
+Resposta: É a deformação que permanece mesmo após a retirada da força.
+
+Pergunta Extra 4
+
+Quais são as grandezas fundamentais da Mecânica?
+
+Resposta: Massa, comprimento e tempo.
+
+Pergunta Extra 5
+
+Quais são as condições de equilíbrio de um corpo rígido em 2D?
+
+Resposta: - ΣFx = 0 - ΣFy = 0 - ΣM = 0
+
+Pergunta Extra 6
+
+Quais são as condições de equilíbrio de um corpo rígido em 3D?
+
+Resposta: - ΣFx = 0 - ΣFy = 0 - ΣFz = 0 - ΣMx = 0 - ΣMy = 0 - ΣMz = 0
+
+Pergunta Extra 7
+
+O que caracteriza um elemento de duas forças?
+
+Resposta: Se um corpo está em equilíbrio sob apenas duas forças, elas
+devem ser: iguais, opostas e colineares.
+
+Pergunta Extra 8
+
+O que caracteriza um elemento de três forças?
+
+Resposta: Se um corpo está em equilíbrio sob três forças, suas linhas de
+ação devem ser concorrentes em um único ponto (ou paralelas).
+
+Pergunta Extra 9
+
+Como construir um Diagrama de Corpo Livre (DCL)?
+
+Resposta: 1. Isolar o corpo. 2. Identificar todas as forças. 3.
+Substituir os apoios pelas reações. 4. Definir os eixos de referência.
+
+Pergunta Extra 10
+
+Como a força de um cabo é representada no DCL?
+
+Resposta: É sempre uma força de tração, dirigida ao longo do cabo.
+
+Pergunta Extra 11
+
+Como a força de uma superfície lisa é representada no DCL?
+
+Resposta: Por uma força normal à superfície.
+
+Pergunta Extra 12
+
+Como a força de uma superfície rugosa é representada no DCL?
+
+Resposta: Possui uma componente normal e uma componente tangencial
+(força de atrito).
+
+Pergunta Extra 13
+
+Quais são as condições para uma estrutura estar em equilíbrio estático?
+
+Resposta: - A soma de todas as forças deve ser zero. - A soma dos
+momentos (torques) deve ser zero.
+
+Pergunta Extra 14
+
+O que caracteriza um equilíbrio estável?
+
+Resposta: O corpo deve estar adequadamente apoiado, de modo que, após
+uma perturbação, a linha de ação do peso permaneça dentro da base de
+apoio.
+
+Pergunta Extra 15
+
+O que é uma carga uniformemente distribuída?
+
+Resposta: É uma carga distribuída que possui o mesmo valor em todos os
+pontos.
+
+Pergunta Extra 16
+
+O que é a força pontual equivalente?
+
+Resposta: É a força concentrada que produz o mesmo efeito externo de uma
+carga distribuída.
+
+Pergunta Extra 17
+
+Onde atua a força pontual equivalente de uma carga distribuída?
+
+Resposta: Na linha de ação que passa pelo centroide da distribuição.
+
+Pergunta Extra 18
+
+Em um Diagrama de Corpo Livre, pode-se representar a carga distribuída e
+sua força equivalente ao mesmo tempo?
+
+Resposta: Não. Deve-se representar apenas uma delas.

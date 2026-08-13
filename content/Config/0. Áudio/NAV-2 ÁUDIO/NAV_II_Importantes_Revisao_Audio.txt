@@ -1,0 +1,192 @@
+NAV II – Importantes
+
+Pergunta: 1
+
+Explique o que é a Simulação de Manobra (Trial Maneuver) no radar ARPA
+
+Resposta: Uma função que permite simular mudanças de rumo e velocidade
+do próprio navio para testar se uma ação evasiva será segura antes de
+executá-la de fato.
+
+Pergunta:
+
+Explique o princípio de funcionamento do GNSS.
+
+Resposta: Os sistemas GNSS funcionam com base em três elementos
+fundamentais: constelação de satélites, receptor e trilateração. Os
+satélites em órbita transmitem dados orbitais e de tempo com alta
+precisão. O receptor capta sinais de pelo menos quatro satélites
+simultaneamente e mede o tempo de propagação de cada sinal. Por meio da
+trilateração, calcula a distância até cada satélite e, a partir daí,
+determina sua posição tridimensional em latitude, longitude e altitude,
+além do tempo exato.
+
+Pergunta:
+
+Explique o que é Datum e qual é a sua importância.
+
+Resposta: O datum serve como um ponto ou sistema de referência inicial a
+partir do qual todas as medições são feitas e padronizadas. Ele define o
+modelo matemático que melhor representa a forma da Terra em uma
+determinada área ou globalmente. O datum é crucial para a Geodésia,
+Cartografia e navegação por satélite, pois fornece o contexto e o
+referencial necessários para que as coordenadas tenham significado e
+precisão.
+
+Pergunta:
+
+Cite e explique uma limitação do radar ARPA no rastreamento de alvos.
+
+Resposta: Condições climáticas: sea clutter (eco do mar agitado) e rain
+clutter (chuva intensa) mascaram alvos pequenos e podem provocar perda
+de rastreamento.
+
+Tráfego denso: em áreas congestionadas, o sistema pode perder o alvo
+original e iniciar rastreamento de alvo próximo diferente (target swap).
+
+Alvos muito próximos podem aparecer como um único contato (limitação de
+resolução).
+
+Pergunta:
+
+Verdadeiro ou Falso?Segundo a Resolução A.823(19) da IMO, o ARPA deve
+fornecer dados de CPA e TCPA dentro de 1 a 3 minutos de rastreamento em
+estado estacionário.
+
+Resposta: Verdadeiro.
+
+Pergunta:
+
+O que é o sistema ARPA
+
+Resposta: ARPA (Automatic Radar Plotting Aid): sistema que processa
+dados do radar para rastrear automaticamente alvos e calcular rumo,
+velocidade, CPA e TCPA, auxiliando na prevenção de colisões.
+
+Pergunta:
+
+O que é SPEED LOG:
+
+Resposta: Dispositivo utilizado para medir a velocidade de uma
+embarcação na água.
+
+Pergunta:
+
+Quais são os três principais objetivos da navegação eletrônica?
+
+Resposta: Segurança; Eficiência; Conformidade.
+
+Pergunta:
+
+Explique o princípio de funcionamento do RADAR.
+
+Resposta: Transmite ondas eletromagnéticas, recebe o eco refletido, mede
+o tempo de ida e volta e calcula distância, posição e velocidade dos
+alvos.
+
+Pergunta:
+
+Quais os principais tipos de radar quanto à modulação?
+
+Resposta: Radar de Pulsos; Radar de Onda Contínua; Radar Doppler.
+
+Pergunta:
+
+Qual tipo de radar é normalmente empregado na navegação marítima?
+
+Resposta: Radar de Pulsos.
+
+Pergunta:
+
+Quais fatores externos afetam o desempenho do radar?
+
+Resposta: Condições atmosféricas (chuva, neve, neblina), dutos
+atmosféricos, interferência do solo/mar, edifícios e clutter.
+
+Pergunta:
+
+Quais características do alvo influenciam sua detecção?
+
+Resposta: Tamanho, forma, material, distância, altura e orientação em
+relação ao radar.
+
+Pergunta:
+
+Qual é a principal função do radar?
+
+Resposta: Detectar e localizar objetos por meio da reflexão de ondas de
+rádio.
+
+Pergunta:
+
+Qual é o principal efeito útil do radar?
+
+Resposta: Permitir a detecção e localização remota de objetos.
+
+Pergunta:
+
+Quais fatores ambientais afetam o radar?
+
+Resposta: Chuva, neve, neblina, umidade, mar, terreno e condições
+atmosféricas.
+
+Pergunta:
+
+Qual é a principal função do ARPA?
+
+Resposta: Auxiliar na prevenção de colisões acompanhando automaticamente
+diversos alvos.
+
+Pergunta:
+
+O ARPA substitui o Oficial de Quarto?
+
+Resposta: Não. Apenas auxilia a tomada de decisão.
+
+Pergunta:
+
+Qual é a principal vantagem do ARPA?
+
+Resposta: Processar automaticamente vários alvos simultaneamente.
+
+Pergunta:
+
+Quantos alvos o ARPA pode acompanhar?
+
+Resposta: Dependendo do equipamento, cerca de 20 ou mais.
+
+Pergunta:
+
+O que é um ecobatímetro?
+
+Resposta: Equipamento que mede a profundidade da água abaixo da
+embarcação por meio da reflexão de ondas sonoras (ultrassom).
+
+Pergunta:
+
+Como funciona um ecobatímetro?
+
+Resposta: Emite um pulso de ultrassom, recebe o eco refletido pelo fundo
+e calcula a profundidade pelo tempo de ida e volta da onda sonora.
+
+Pergunta:
+
+Qual é o principal benefício do ecobatímetro?
+
+Resposta: Fornecer a profundidade em tempo real, aumentando a segurança
+da navegação e reduzindo o risco de encalhes.
+
+Pergunta:
+
+Quais são as principais vantagens do ecobatímetro?
+
+Resposta: Medição rápida, automática e precisa; operação simples;
+monitoramento contínuo da profundidade; auxílio à navegação segura.
+
+Pergunta:
+
+Quais são as principais desvantagens do ecobatímetro?
+
+Resposta: Alcance limitado, influência das condições da água, mede
+apenas abaixo da embarcação e depende da correta instalação e calibração
+do transdutor.

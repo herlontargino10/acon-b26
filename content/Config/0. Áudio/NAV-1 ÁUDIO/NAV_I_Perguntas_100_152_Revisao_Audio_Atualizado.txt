@@ -1,0 +1,359 @@
+NAV I – Perguntas 100–152
+
+Pergunta: 100
+
+Por que existem as correntes oceânicas?
+
+Resposta: Pela ação dos ventos, diferenças de temperatura e salinidade,
+rotação da Terra e configuração dos continentes.
+
+Pergunta: 101
+
+Por que existem esses tipos de ventos?
+
+Resposta: Pelas diferenças de aquecimento da superfície terrestre, que
+geram diferenças de pressão atmosférica.
+
+Pergunta: 102
+
+Quais embarcações têm preferência sobre uma embarcação de propulsão
+mecânica?
+
+Resposta: Embarcações sem governo, manobra restrita, engajadas na pesca
+e à vela.
+
+Pergunta: 103
+
+Quais luzes e marcas deve exibir uma embarcação com capacidade de
+manobra restrita?
+
+Resposta: Luzes: vermelha, branca e vermelha. Marcas: balão, losango e
+balão.
+
+Pergunta: 104
+
+**Quais as luzes e marcas necessárias para uma embarcação em manobra
+restrita devido ao calado?*Ajustar resposta**
+
+Resposta:
+
+Pergunta: 105
+
+Quais as luzes e marcas necessárias para uma embarcação em pesca de
+arrastão?
+
+Resposta: Luzes: verde sobre branca. Marcas: dois cones unidos pelas
+pontas. Em movimento: luzes de bordo, alcançado e mastro.
+
+Pergunta: 106
+
+Quais as luzes e marcas necessárias para uma embarcação em pesca sem ser
+de arrastão?
+
+Resposta: Luzes: vermelha sobre branca. Marcas: dois cones unidos pelas
+pontas; se aparelho >150 m, luz branca ou cone indicando a direção.
+
+Pergunta: 107
+
+Quais as luzes e marcas necessárias para uma embarcação fundeada?
+
+Resposta: Luz circular branca na proa (e outra à ré quando exigido) e
+esfera preta.
+
+Pergunta: 108
+
+**Quais luzes e marcas deve exibir uma embarcação sem governo?*Sem
+resposta**
+
+Resposta:
+
+Pergunta: 109
+
+Quais as partes de um radar?
+
+Resposta: Transceptor, antena, display, processamento, alimentação e
+controles.
+
+Pergunta: 110
+
+Quais as três informações básicas que um aparelho de GPS recebe do
+sistema?
+
+Resposta: Posição dos satélites, hora exata transmitida pelos satélites
+e informações orbitais.
+
+Pergunta: 111
+
+Quais embarcações têm preferência sobre uma embarcação à vela?
+
+Resposta: Embarcações sem governo, manobra restrita e engajadas na
+pesca.
+
+Pergunta: 112
+
+Quais embarcações têm preferência sobre uma embarcação engajada na
+pesca?
+
+Resposta: Embarcações sem governo e com capacidade de manobra restrita.
+
+Pergunta: 113
+
+Quais informações são fornecidas pelo sistema AIS?
+
+Resposta: Identificação, posição, rumo, velocidade, dimensões, carga,
+origem, destino e ETA.
+
+Pergunta: 114
+
+Quais os tipos de indicadores de profundidade existentes?
+
+Resposta: Prumo de mão e ecobatímetro.
+
+Pergunta: 115
+
+Quais os tipos de movimentos de um radar?
+
+Resposta: Movimento relativo e movimento verdadeiro.
+
+Pergunta: 116
+
+Quais os tipos de odômetros existentes?
+
+Resposta: Odômetro de fundo e odômetro de superfície.
+
+Pergunta: 117
+
+Quais os tipos de ventos existentes em uma travessia?
+
+Resposta: Vento real, relativo, de proa e popa.
+
+Pergunta: 118
+
+Quais os tipos existentes de barômetros?
+
+Resposta: Barômetro de mercúrio e barômetro aneroide.
+
+Pergunta: 119
+
+Quais partes constituem um GPS?
+
+Resposta: Segmento espacial, controle e usuário.
+
+Pergunta: 120
+
+Qual a característica principal de um Racon?
+
+Resposta: Identificar positivamente um alvo no radar, permitindo
+marcação e distância precisas.
+
+Pergunta: 121
+
+Qual a cor da bóia de sinais especiais?
+
+Resposta: Amarela.
+
+Pergunta: 122
+
+Qual é a cor da boia que fica a boreste de uma embarcação ao entrar no
+porto de Montevidéu (Uruguai)?
+
+Resposta: Vermelha.
+
+Pergunta: 123
+
+Qual a cor do sinal lateral de Bombordo?
+
+Resposta: Vermelha.
+
+Pergunta: 124
+
+Qual a cor do sinal lateral de Boreste?
+
+Resposta: Verde.
+
+Pergunta: 125
+
+Qual a diferença de um Higrômetro e um Psicrômetro?
+
+Resposta: Higrômetro: mede a umidade do ar. Psicrômetro: determina a
+umidade pela diferença entre os bulbos seco e úmido.
+
+Pergunta: 126
+
+Qual a diferença entre embarcação manobradora e privilegiada?
+
+Resposta: A embarcação manobradora deve tomar a ação para evitar o
+abalroamento; a privilegiada deve manter rumo e velocidade, intervindo
+apenas quando necessário.
+
+Pergunta: 127
+
+Qual a diferença entre maré de Sizígea e maré de Quadratura?
+
+Resposta: Sizígea: Maré maior amplitude (Lua nova ou cheia); Quadratura:
+Maré menor amplitude (Lua crescente ou minguante).
+
+Pergunta: 128
+
+Qual a duração de um apito curto e de um apito longo?
+
+Resposta: Apito curto: Cerca de 1 segundo Apito longo: Entre 4 e 6
+segundos.
+
+Pergunta: 129
+
+Qual a finalidade de uma carta 12000?
+
+Resposta: Apresentar os símbolos, abreviaturas e termos utilizados nas
+cartas náuticas nacionais e internacionais.
+
+Pergunta: 130
+
+Qual a função principal de um sistema VDR?
+
+Resposta: Registrar continuamente os dados da navegação e comunicações
+da embarcação para análises de acidentes ou incidentes.
+
+Pergunta: 131
+
+Qual a periodicidade de um Aviso aos Navegantes e a que se destinam?
+
+Resposta: Publicados quinzenalmente para manter cartas e publicações
+atualizadas. *Quinzenal…
+
+Pergunta: 132
+
+Qual sequência de apitos indica concordância com a manobra proposta?
+
+Resposta: Longo-curto-longo-curto
+
+Pergunta: 133
+
+Qual é o sistema de balizamento adotado no Brasil?
+
+Resposta: Sistema IALA B.
+
+Pergunta: 134
+
+Qual o alcance da área 1 do GMDSS?
+
+Resposta: Aproximadamente 20 a 30 milhas.
+
+Pergunta: 135
+
+Qual o alcance da área 2 do GMDSS?
+
+Resposta: Além da A1, coberta por MF com DSC, até cerca de 100 milhas.
+
+Pergunta: 136
+
+Qual o alcance da área 3 do GMDSS?
+
+Resposta: Fora das A1 e A2, coberta pelo INMARSAT (70°N–70°S).
+
+Pergunta: 137
+
+Qual o alcance da área 4 do GMDSS?
+
+Resposta: Áreas fora das A1, A2 e A3 (regiões polares).
+
+Pergunta: 138
+
+Qual o conceito de marés?
+
+Resposta: Movimento periódico do nível do mar causado pela atração da
+Lua e do Sol.
+
+Pergunta: 139
+
+Qual o objetivo do Código Internacional de Sinais?
+
+Resposta: Prover comunicação para a segurança da navegação e das pessoas
+entre diferentes idiomas.
+
+Pergunta: 140
+
+Qual o objetivo do sistema VDR e a que se pode comparar?
+
+Resposta: Registrar os dados da embarcação para análise de acidentes.
+Equivale à caixa-preta.
+
+Pergunta: 141
+
+Qual o objetivo do sistema VTS?
+
+Resposta: Reduzir acidentes e aumentar a eficiência do tráfego marítimo.
+
+Pergunta: 142
+
+Qual o principal objetivo de um sistema de referência?
+
+Resposta: Fornecer referências para determinar e controlar a posição da
+embarcação.
+
+Pergunta: 143
+
+Quando é ativado um SART?
+
+Resposta: Automaticamente ao receber sinais de radar (9 GHz).
+
+Pergunta: 144
+
+Qual é o formato da marca de tope da boia de bombordo para uma
+embarcação que sai do porto de Maracaibo (Venezuela)?
+
+Resposta: Um cilindro.
+
+Pergunta: 145
+
+Que informações o Roteiro fornece ao navegante?
+
+Resposta: Informações sobre costa, portos, fundeadouros, perigos,
+auxílios e derrotas recomendadas.
+
+Pergunta: 146
+
+Como se chama uma construção menor que um farol, com alcance luminoso
+inferior a 10 milhas?
+
+Resposta: Farolete.
+
+Pergunta: 147
+
+Que nome é dado aos sinais utilizados em canais, entradas de portos e
+rios, e indicam bombordo e boreste da rota a ser seguida?
+
+Resposta: Sinais laterais.
+
+Pergunta: 148
+
+Que problemas podemos ter com o ecobatímetro em relação ao fundo do mar?
+
+Resposta: Fundos macios, vegetação, lama e inclinações podem gerar ecos
+falsos.
+
+Pergunta: 149
+
+Que tipo de sistema de sinalização é utilizado na entrada dos portos?
+
+Resposta: Sistema de balizamento lateral.
+
+Pergunta: 150
+
+Que tipo de sistema de sinalização é utilizado para navegação costeira e
+de aproximação de portos?
+
+Resposta: Sistema de balizamento cardinal.
+
+Pergunta: 151
+
+Uma barca-farol é um elemento de qual sistema de sinalização?
+
+Resposta: Sistema de referência.
+
+Pergunta: 152
+
+Quais luzes uma embarcação de propulsão mecânica com menos de 12 m pode
+exibir?
+
+Resposta: Uma luz circular branca e luzes de bordo.

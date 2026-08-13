@@ -1,5 +1,5 @@
 
-# Tópico 10 — Braço de Estabilidade e Momento de Estabilidade
+# Tópico 10 - Braço de Estabilidade e Momento de Estabilidade
 
 Hoje vamos entender dois conceitos fundamentais da estabilidade naval: o braço de estabilidade e o momento de estabilidade.
 

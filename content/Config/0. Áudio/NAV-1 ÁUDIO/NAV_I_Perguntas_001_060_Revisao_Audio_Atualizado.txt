@@ -1,0 +1,448 @@
+NAV I – Perguntas 001–060
+
+Pergunta: 01
+
+A que se refere a abreviatura do alcance geográfico encontrada para
+identificar um farol?
+
+Resposta: Alcance geográfico, em milhas náuticas (M), da luz do farol,
+farolete ou boia.
+
+Pergunta: 02
+
+A embarcação privilegiada nunca deve manobrar em caso de rumo de
+colisão?
+
+Resposta: Deve manobrar quando perceber que a outra não está cumprindo o
+RIPEAM.
+
+Pergunta: 03
+
+A Lista de Auxílio Rádio é dividida em quantos capítulos? Quais são
+eles?
+
+Resposta: 09 capítulos: Introdução; Radiogoniometria; Radiobalizas;
+OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.
+
+Pergunta: 04
+
+Além das Américas, que outros países utilizam o sistema de balizamento
+IALA B?
+
+Resposta: Argentina, Chile, Peru, Equador e etc..
+
+Pergunta: 05
+
+Basicamente, como são criados os ventos?
+
+Resposta: Diferenças de pressão atmosférica causadas pelas diferenças de
+temperatura das massas de ar.
+
+Pergunta: 06
+
+Cite as quatro limitações de um radar.
+
+Resposta: Discriminação em distância; discriminação em marcação; alcance
+mínimo; zonas de sombra.
+
+Pergunta: 07
+
+Cite cinco funções de um GPS.
+
+Resposta: “Velocidade sobre o fundo; hora; waypoints; ETA; correções de
+rumo e velocidade.
+
+Pergunta:
+
+------------------------------------------------------------------------
+
+Resposta:
+
+Pergunta: 08
+
+Cite quatro fatores que podem fazer com que uma embarcação se desvie de
+sua derrota.
+
+Resposta: Vento; correntes; estado do mar; imprecisão no governo.
+
+Pergunta: 09
+
+Cite três benefícios do sistema AIS.
+
+Resposta: Localização em tempo real; acompanhamento instantâneo de rumo
+e detecção de alvos encobertos.
+
+Pergunta: 10
+
+Cite três desvantagens de um radar.
+
+Resposta: • Muito sensível e sujeito a avarias; • Necessita ajuste e
+sincronização exatos; • Exige interpretação da imagem; • Cartas náuticas
+não são adaptadas para identificação na tela.
+
+Pergunta: 11
+
+Cite três propósitos do sistema AIS.
+
+Resposta: Identificar navios, acompanhar trajetórias e trocar
+informações.
+
+Pergunta: 12
+
+Cite três propósitos principais do GMDSS.
+
+Resposta: Alerta de socorro navio-terra; comunicações SAR; comunicação
+na cena; alerta de navegação.
+
+Pergunta: 13
+
+Cite três vantagens de um radar.
+
+Resposta: Funciona à noite e com baixa visibilidade; Permite obter a
+posição por um único objeto fixo; Calcula rapidamente rumos, velocidades
+e risco de colisão.
+
+Pergunta: 14
+
+Com relação às luzes de auxílio à navegação, o que é o ritmo?
+
+Resposta: Sequência de emissões e eclipses regularmente repetida.
+
+Pergunta: 15
+
+Como deve manobrar uma embarcação quando estiver alcançando outra
+embarcação?
+
+Resposta: Manter-se fora do caminho da embarcação alcançada.
+
+Pergunta: 16
+
+Como deve manobrar uma embarcação quando estiver em rumo de colisão e
+avistando a outra pelo seu bombordo?
+
+Resposta: Manter rumo e velocidade como embarcação preferencial, pronta
+para manobrar se necessário.
+
+Pergunta: 17
+
+Como deve manobrar uma embarcação quando estiver em sentido oposto a
+outra, roda a roda?
+
+Resposta: Devem guinar ambos para boreste.
+
+Pergunta: 18
+
+Como deve proceder uma embarcação em um canal estreito?
+
+Resposta: “Manter-se mais próximo possível do limite exterior do canal
+por BE.
+
+Manter-se próximo da margem de boreste; não atrapalhar outras
+embarcações; usar sinais sonoros nas ultrapassagens; manobrar com
+cuidado; fundear apenas quando necessário.”
+
+Pergunta: 19
+
+Como devem ser feitas as manobras de uma embarcação?
+
+Resposta: Ampla, antecipada e aparente.
+
+Pergunta: 20
+
+Como é dividido o sistema de sinalização náutica e de balizamento?
+
+Resposta: Sistema de referência e sistema de balizamento.
+
+Pergunta: 21
+
+Como funciona um radar?
+
+Resposta: Transmite pulsos de rádio e mede o tempo de retorno do eco.
+
+Pergunta: 22
+
+Como podemos determinar o vento real durante uma navegação?
+
+Resposta: Pela Rosa de Manobra (DHN-0618) ou rosa dos ventos da carta.
+
+Pergunta: 23
+
+Como podemos fazer uma correção de um abatimento de uma derrota?
+
+Resposta: Compensando mar, vento e corrente com correções de rumo e
+velocidade do GPS.
+
+Pergunta: 24
+
+Como são identificados os sinais de referência durante a NOITE?
+
+Resposta: Pelas características da luz, como cor e ritmo de lampejo.
+
+Pergunta: 25
+
+Como são identificados os sinais de referência durante o dia?
+
+Resposta: Pela forma, cor, marca de tope e numeração.
+
+Pergunta: 26
+
+Como são produzidas as correntes de maré?
+
+Resposta: São produzidas pelo fenômeno das marés e comportam-se como
+correntes oceânicas superficiais.
+
+Pergunta: 27
+
+Como se identifica, de dia, um sinal de balizamento?
+
+Resposta: Pela forma, cor, marca de tope, luzes, numeração, som e sinal
+radioelétrico.
+
+Pergunta: 28
+
+Como se pode determinar uma força que esteja afetando a derrota de um
+navio?
+
+Resposta: Comparando a posição estimada com a posição observada.
+
+Pergunta: 29
+
+Como um GPS determina a posição de um navio?
+
+Resposta: Pelas informações de três ou quatro satélites visíveis.
+
+Pergunta: 30
+
+Conforme o modo de difusão e as características das alterações que irão
+introduzir, como são classificadas as informações constantes em um Aviso
+aos Navegantes?
+
+Resposta: Avisos-Rádio, Temporários, preliminares e Permanentes.
+
+Pergunta: 31
+
+Conforme o RIPEAM, a velocidade de uma embarcação é função de:
+
+Resposta: Visibilidade, tráfego, capacidade de manobra e parada, luzes,
+estado do mar, vento, correntes, perigos à navegação, calado e
+limitações do radar.
+
+Pergunta: 32
+
+Conforme sua duração, um aviso pode ser classificado em:
+
+Resposta: Temporário, preliminar, permanente e permanente especial
+
+Pergunta: 33
+
+De acordo com as prescrições contidas no capítulo IV da Convenção SOLAS,
+que tipos de navios devem ser dotados, obrigatoriamente, dos
+equipamentos do sistema GMDSS?
+
+Resposta: Navios de passageiros e navios de carga acima de 300 AB em
+viagens internacionais.
+
+Pergunta: 34
+
+De acordo com as prescrições contidas no capítulo V, regra 19 da
+Convenção SOLAS, que tipos de navios devem ser dotados,
+obrigatoriamente, dos equipamentos do sistema AIS após 31 de dezembro de
+2004?
+
+Resposta: Todos os navios de passageiros e navios com AB superior a 300
+t.
+
+Pergunta: 35
+
+De acordo com as prescrições contidas no capítulo V, regra 20 da
+Convenção SOLAS, que tipos de navios devem ser dotados,
+obrigatoriamente, dos equipamentos do sistema VDR?
+
+Resposta: Navios de passageiros; navios Ro-Ro; demais navios ≥3000 t em
+viagens internacionais.
+
+Pergunta: 36
+
+De que é composto um sistema de balizamento?
+
+Resposta: Boias e balizas.
+
+Pergunta: 38
+
+De que é composto um sistema de referência?
+
+Resposta: Faróis, faroletes e barcas-faróis.
+
+Pergunta: 39
+
+Defina Balizas num sistema de sinalização.
+
+Resposta: Conjunto de sinais de auxílio à navegação que proporcionam
+segurança à navegação.
+
+Pergunta: 40
+
+Defina RIPEAM.
+
+Resposta: Regulamento Internacional para Evitar Abalroamentos no Mar.
+
+Objetivo: previnir colisões e abalroamentos no mar.
+
+Pergunta: 41
+
+Devemos elaborar um plano de derrota numa carta de grande escala? Por
+quê?
+
+Resposta: Sim. Porque oferece maior precisão e margem de segurança no
+planejamento da derrota.
+
+Pergunta: 42
+
+Diferencie anemômetro e anemoscópio.
+
+Resposta: Anemômetro mede a velocidade do vento; anemoscópio indica sua
+direção.
+
+Pergunta: 43
+
+Em função do propósito a que se destinam os Avisos aos Navegantes podem
+ser classificados em:
+
+Resposta: Avisos Rádio Náuticos, NAVAREAS, Costeiros e Locais.
+
+Pergunta: 44
+
+Em quantas áreas é dividido um GMDSS?
+
+Resposta: Quatro áreas (A1, A2, A3 e A4).
+
+Pergunta: 45
+
+Em que caso não se deve colocar as luzes ou marcas em embarcações em
+processo de empurra em movimento?
+
+Resposta: Quando a empurradora e a empurrada estiverem rigidamente
+ligadas, formando uma unidade integrada.
+
+Pergunta: 46
+
+Em que consiste um EPIRB?
+
+Resposta: Rádio-baliza de emergência que transmite alerta de socorro via
+satélite.
+
+Pergunta: 47
+
+Em que publicação podemos encontrar as características dos faróis
+existentes na costa brasileira?
+
+Resposta: Lista de Faróis.
+
+Pergunta: 48
+
+Embarcações em operação de reboque, superior a 200 metros, ou empurra,
+deverão apresentar que tipos de luzes?
+
+Resposta: Três luzes de mastro em linha vertical, luzes de bordo, luz de
+alcançado e luz de reboque (quando aplicável).
+
+Pergunta: 49
+
+Informe algumas utilizações de um sistema de balizamento.
+
+Resposta: Demarcar canais, indicar águas seguras, alertar perigos e
+indicar áreas especiais.
+
+Pergunta: 50
+
+Informe as 5 luzes de navegação de uma embarcação a propulsão mecânica
+em movimento.
+
+Resposta: Luz de mastro, luz de mastro de ré, luz de bombordo, luz de
+boreste e luz de alcançado.
+
+Pergunta: 51
+
+Informe as características de uma boia indicando águas seguras.
+
+Resposta: Cor: faixas verticais encarnadas e branca; tope: uma esfera
+encarnada; formato: esférico, pilar ou charuto; luz: branca; ritmo: Iso.
+B, Oc. B, LpL. 10s ou Mo (A).
+
+Pergunta: 52
+
+Informe as características de uma boia indicando perigo isolado.
+
+Resposta: Cor preta com uma ou mais faixas largas horizontais
+encarnadas; tope com duas esferas pretas; formato pilar ou charuto; luz
+branca; ritmo Lp (2) B.
+
+Pergunta: 53
+
+Informe quatro atitudes que se deve tomar em casos de navegação em
+visibilidade restrita.
+
+Resposta: Velocidade segura; vigilância reforçada; sinais de cerração;
+usar todos os meios para detectar colisão.
+
+Pergunta: 54
+
+Informe quatro dados fornecidos por um equipamento GPS.
+
+Resposta: Latitude, longitude, velocidade e rumo.
+
+Pergunta: 55
+
+No Brasil, o Roteiro é dividido em quantas partes? Quais são elas e como
+se delimitam?***
+
+Resposta: 04 volumes: Costa Norte, Costa Leste, Costa Sul e Rio
+Paraguai.
+
+Pergunta: 56
+
+Numa bifurcação de canal, é colocada uma boia que orienta o canal
+preferencial. Caso o canal preferencial seja para boreste, qual a
+característica apresentada pela boia?
+
+Resposta: Verde, com uma faixa larga horizontal encarnada; formato
+cilíndrico, pilar ou charuto; tope cilíndrico verde; luz verde; ritmo Lp
+(2+1).
+
+Pergunta: 57
+
+O Almanaque Náutico é indispensável para que tipo de navegação?
+
+Resposta: Navegação astronômica.
+
+Pergunta: 58
+
+O que afeta um estado do mar agitado?
+
+Resposta: Intensidade, duração e pista do vento.
+
+Pergunta: 59
+
+O que deve ser feito num planejamento de derrota?
+
+Resposta: Definir a derrota, identificar perigos, estabelecer margens de
+segurança, pontos de referência e procedimentos para uma navegação
+segura.
+
+Pergunta: 60
+
+O que devemos levar em conta quando do planejamento de uma derrota de um
+navio?
+
+Resposta: Cartas e publicações atualizadas, profundidades, marés,
+meteorologia, correntes, auxílios à navegação, limitações do navio e
+margens de segurança.
+
+Pergunta: 00
+
+Pela posição dos sinais laterais (boias de boreste e bombordo) na
+entrada dos portos, identificando se o país adota o sistema IALA A ou
+IALA B
+
+Resposta: Pela posição dos sinais laterais (boias de boreste e bombordo)
+na entrada dos portos.

@@ -1,0 +1,65 @@
+FIS 1 – Extras – Movimento Circular e MCU
+
+Pergunta Qual força aponta para o centro da trajetória circular?
+
+Resposta: Força centrípeta.
+
+Pergunta Qual força aponta para fora da trajetória circular (em um
+referencial girante)?
+
+Resposta: Força centrífuga (força aparente).
+
+Pergunta A força centrípeta é uma força real ou aparente?
+
+Resposta: Real. Ela pode ser exercida pela tensão, atrito, força normal
+ou gravidade.
+
+Pergunta A força centrífuga é uma força real?
+
+Resposta: Não. É uma força aparente, percebida em referenciais em
+rotação.
+
+Pergunta O que caracteriza o Movimento Circular Uniforme (MCU)?
+
+Resposta: O módulo da velocidade permanece constante, mas sua direção
+muda continuamente.
+
+Pergunta No MCU, a velocidade escalar permanece constante? Porque?
+
+Resposta: Sim. Apenas a direção e o sentido mudam.
+
+Pergunta No MCU, a partícula está acelerada? Porque?
+
+Resposta: Sim, porque a direção da velocidade muda.
+
+Pergunta Para onde aponta o vetor velocidade no MCU?
+
+Resposta: Sempre tangente à circunferência.
+
+Pergunta Para onde aponta a aceleração no MCU?
+
+Resposta: Na direção radial, para o centro da circunferência.
+
+Pergunta Como se chama a ACELERAÇÃO do MCU?
+
+Resposta: Aceleração centrípeta.
+
+Pergunta Qual a fórmula da aceleração centrípeta?
+
+Resposta: a = v²/r
+
+Pergunta Qual a fórmula do período no MCU?
+
+Resposta: T = 2πr/v
+
+Pergunta O que representa o período (T)?
+
+Resposta: O tempo para completar uma volta.
+
+Pergunta No MCU, o módulo da velocidade muda?
+
+Resposta: Não! Apenas a direção.
+
+Pergunta No MCU, o módulo da ACELERAÇÃO muda?
+
+Resposta: Não. Apenas sua direção.

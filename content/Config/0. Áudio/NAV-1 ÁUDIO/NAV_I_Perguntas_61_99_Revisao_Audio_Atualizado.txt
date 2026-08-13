@@ -1,0 +1,270 @@
+NAV I – Perguntas 61–99
+
+Pergunta: 61
+
+O que devemos nos atentar quanto análise meteorológica de uma derrota?
+
+Resposta: Previsão do tempo, ventos, correntes, visibilidade, marés e
+estado do mar.
+
+Pergunta: 62
+
+O que é Baixa-mar?
+
+Resposta: Nível mínimo atingido pela maré
+
+Pergunta: 63
+
+O que é preamar?
+
+Resposta: Nível máximo atingido pela maré
+
+Pergunta: 64
+
+O que é Almanaque para o GPS, e qual a sua importância?
+
+Resposta: Dados orbitais dos satélites que aceleram a aquisição e o
+cálculo da posição pelo GPS.
+
+Pergunta: 65
+
+O que é apresentado na publicação Lista de Auxílio Rádios?
+
+Resposta: Auxílios-rádio à navegação, suas características, frequências,
+horários e informações operacionais.
+
+Pergunta: 66
+
+O que é DGPS?
+
+Resposta: Sistema que aumenta a precisão do GPS por meio de correções de
+estações de referência.
+
+Pergunta: 67
+
+O que é escala Belfort? Em quantas partes essa escala é dividida?
+
+Resposta: Escala utilizada para classificar a força dos ventos. É
+dividida em 13 graus (0 a 12).
+
+Pergunta: 68
+
+O que é Estofo de Maré?
+
+Resposta: Período entre enchente e vazante, quando a corrente é
+praticamente nula.
+
+Pergunta: 69
+
+O que é maré de Quadratura?
+
+Resposta: Maré de menor amplitude na lua crescente ou minguante.
+
+Pergunta: 70
+
+O que é maré de Sizígea?
+
+Resposta: Maré de maior amplitude na lua nova ou cheia.
+
+Pergunta: 71
+
+O que é o abatimento?
+
+Resposta: Deslocamento lateral da embarcação provocado principalmente
+pela ação do vento.
+
+Pergunta: 72
+
+O que é um Catálogo de Cartas Náuticas e Publicações? A que se destina?
+
+Resposta: Publicação que relaciona cartas e publicações náuticas,
+orientando sua seleção e aquisição.
+
+Pergunta: 73
+
+O que é GMDSS?
+
+Resposta: Sistema Global de Socorro e Segurança Marítima para
+comunicações de emergência.
+
+Pergunta: 74
+
+O que é um SART?
+
+Resposta: Transponder de Busca e Salvamento que facilita a localização
+de sobreviventes pelo radar.
+
+Pergunta: 75
+
+O que é um sistema AIS?
+
+Resposta: Sistema de identificação automática DE NAVIOS que opera em
+VHF.
+
+Pergunta: 76
+
+O que é um sistema Navtex?
+
+Resposta: Sistema de radiodifusão automática de avisos à navegação,
+meteorológicos e de segurança marítima.
+
+Pergunta: 77
+
+O que é Vazante?
+
+Resposta: Período em que a maré está baixando, da preamar para a
+baixa-mar.
+
+Pergunta: 78
+
+O que são Ponto de aborto?
+
+Resposta: Ponto além do qual não é mais seguro cancelar a manobra.
+
+Pergunta: 79
+
+O que são no-go áreas?
+
+Resposta: Áreas proibidas para navegação definidas durante o
+planejamento.
+
+Pergunta: 80
+
+O que são Paralela Indexada?
+
+Resposta: Linhas paralelas à rota usadas para monitorar afastamento
+lateral.
+
+Pergunta: 81
+
+O que são Wheel over position? (Ponto para mudança de rumo)
+
+Resposta: Pontos onde se inicia a mudança de rumo antes do waypoint,
+considerando o seguimento e o caimento do navio.
+
+Especialmente em águas restritas. - 0.3 NM antes da guinada
+
+Pergunta: 82
+
+O que são as características das luzes de auxílio à navegação?
+
+Resposta: São os elementos que identificam uma luz: cor, ritmo, período,
+alcance luminoso e elevação.
+
+Pergunta: 83
+
+O que são Tabelas e Tábuas de Navegação?
+
+Resposta: Publicações com tabelas para cálculos e determinação da
+posição, principalmente astronômica.
+
+Pergunta: 84
+
+O que se deve fazer nos casos em que uma embarcação ou objeto rebocado
+não puder exibir as luzes prescritas?
+
+Resposta: Exibir as luzes ou marcas mais semelhantes possíveis, indicar
+sua presença e informar sua condição.
+
+Pergunta: 85
+
+O que deve ser informado ao GPS no início de uma derrota composta?
+
+Resposta: Os waypoints da derrota e a sequência de navegação entre eles.
+
+Pergunta: 86
+
+Quais informações devem ser informadas ao GPS quando ele for ligado?
+
+Resposta: Posição aproximada, data, hora e verificar o almanaque, quando
+necessário.
+
+Pergunta: 87
+
+O que significa dois apitos curtos?
+
+Resposta: Estou ginando para bombordo.
+
+Pergunta: 88
+
+O que significa quatro apitos curtos?
+
+Resposta: Não entendi sua intenção.
+
+Pergunta: 89
+
+Onde encontramos as abreviaturas luminosas dos faróis, farolete ou
+boias, para a sua identificação durante a navegação?
+
+Resposta: Na Lista de Faróis.
+
+Pergunta: 90
+
+Onde se aplicam as determinações do RIPEAM?
+
+Resposta: Aplica-se a todas as embarcações em alto mar e água navegáveis
+a ele ligado.
+
+Pergunta: 91
+
+Onde um DGPS deve ser utilizado?
+
+Resposta: Em áreas que exigem elevada precisão, como canais, águas
+restritas e portos.
+
+Pergunta: 92
+
+Para que são empregados os sinais cardinais?
+
+Resposta: Para indicar o setor onde as águas são navegáveis.
+
+Pergunta: 93
+
+Para que são utilizados os barômetros?
+
+Resposta: Medir a pressão atmosférica e auxiliar na previsão do tempo.
+
+Pergunta: 94
+
+Para que se destina a publicação Cartas de Correntes? Qual a sua
+utilidade a bordo de uma embarcação?
+
+Resposta: Apresentam dados das correntes de maré para analisar sua
+influência na velocidade e no ETA.
+
+Pergunta: 95
+
+Para que se destina a publicação Lista de Faróis e o que ela fornece ao
+navegante?
+
+Resposta: Relaciona os faróis, sinais luminosos, com características,
+posição, alcance e demais informações de identificação.
+
+Pergunta: 96
+
+Para que se destina a publicação Tábuas de Marés? Que informações
+oferece ao navegante?
+
+Resposta: Fornece horários e alturas das preamares e baixa-mares.
+
+Pergunta: 97
+
+Para que se destina a publicação náutica Roteiro?
+
+Resposta: Fornecer informações descritivas da costa, portos, perigos,
+fundeadouros e auxílios à navegação, auxiliando o planejamento e a
+execução da derrota.
+
+Pergunta: 98
+
+Para que se destina um DGPS?
+
+Resposta: Aumentar a precisão do posicionamento obtido pelo GPS por meio
+de correções diferenciais.
+
+Pergunta: 99
+
+Para que servem os sinais de novos perigos?
+
+Resposta: Indicar perigos recentemente descobertos ainda não
+representados nas cartas.
