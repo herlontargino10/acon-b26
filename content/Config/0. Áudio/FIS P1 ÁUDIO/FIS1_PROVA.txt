@@ -1,0 +1,107 @@
+Física 1
+
+19.8. O produto vetorial fornece qual grandeza geométrica?
+A área do paralelogramo formado pelos vetores.
+
+41. O que diz a 1ª Lei de Newton?
+Se a força resultante sobre um corpo é zero, ele permanece em repouso ou em movimento retilíneo uniforme, MRU.
+
+42. Qual a diferença entre o coeficiente de atrito estático e o coeficiente de atrito dinâmico?
+O coeficiente de atrito estático atua quando não há deslizamento e normalmente é maior.
+O coeficiente de atrito dinâmico atua quando o corpo já está deslizando e normalmente é menor.
+
+46. O que caracteriza um apoio de 1º gênero?
+Impede o movimento vertical, mas permite movimento horizontal e rotação.
+
+46. O que caracteriza um apoio de 2º gênero?
+Impede os movimentos horizontal e vertical, mas permite rotação.
+
+46. O que caracteriza um apoio de 3º gênero?
+Impede os movimentos e também a rotação, ou seja, é um engaste.
+
+48. O que é uma força distribuída e cargas distribuídas?
+Uma força aplicada ao longo de um comprimento ou superfície, e não em um único ponto.
+
+42.1. Justifique a atuação do atrito estático e do atrito dinâmico quando empurramos ou tentamos empurrar um corpo sobre uma superfície.
+Se o corpo não se move, atua o atrito estático, que impede o início do movimento.
+Se o corpo começa a deslizar, passa a atuar o atrito dinâmico.
+
+41. O que diz a 2ª Lei de Newton?
+A força resultante é igual à massa vezes a aceleração. F é igual a m vezes a.
+
+41. O que diz a 3ª Lei de Newton?
+Toda ação gera uma reação de mesma intensidade e direção, mas em sentido oposto.
+
+15. Diferencie produto escalar, produto vetorial e produto misto.
+Produto escalar: quanto um vetor ajuda ou contribui na direção do outro.
+Produto vetorial: a tendência de um vetor fazer outro girar.
+Produto misto: o volume formado por três vetores.
+
+O que é uma carga uniformemente distribuída?
+É uma carga distribuída que possui o mesmo valor em todos os pontos.
+
+Onde atua a força pontual equivalente de uma carga distribuída?
+Na linha de ação que passa pelo centroide da distribuição.
+
+47.1. Dê um exemplo de estrutura hipoestática, isostática e hiperestática.
+Hipoestática: mesa com uma perna.
+Isostática: viga apoiada.
+Hiperestática: viga engastada nas duas extremidades.
+
+50. Dê um exemplo de elasticidade na Marinha Mercante.
+Cabos ou molas que se deformam durante o uso e retornam à forma original quando a carga é retirada.
+
+50. Dê um exemplo de tração na Marinha Mercante.
+Cabos de amarração ou de reboque submetidos a esforço de tração.
+
+50. Dê um exemplo de compressão na Marinha Mercante.
+Colunas, escoras ou pilares da estrutura do navio submetidos a cargas de compressão.
+
+50. Dê um exemplo de cisalhamento na Marinha Mercante.
+Rebites, parafusos ou chapas da estrutura sujeitos a forças de cisalhamento.
+
+47.3. O que caracteriza uma estrutura hiperestática?
+Vínculos em excesso, estável e indeterminada.
+
+50. O que é tração?
+Força que tende a alongar o material.
+
+Exemplo da 1ª Lei de Newton.
+O passageiro vai para frente quando o ônibus freia bruscamente.
+
+Exemplo da 2ª Lei de Newton.
+Ao empurrar um carrinho de compras com maior força, ele adquire maior aceleração.
+Segunda Lei: empurrar carrinho, força e aceleração.
+
+Exemplo da 3ª Lei de Newton.
+Ao caminhar, o pé empurra o chão para trás e o chão exerce uma força sobre o pé para frente, fazendo a pessoa avançar.
+Terceira Lei: caminhar ou nadar, ação e reação.
+
+O que é a força de atrito?
+Resistência ao movimento entre superfícies em contato.
+
+O que caracteriza um vetor?
+Módulo, direção e sentido.
+
+O que caracteriza a grandeza escalar?
+Possui apenas valor numérico e unidade.
+
+O que é centro de massa?
+É o ponto que se move como se toda a massa do sistema estivesse concentrada nesse ponto.
+
+O que é centro geométrico?
+É o ponto determinado pela geometria e forma de uma figura ou corpo.
+
+O que é centro de gravidade?
+É o ponto onde pode ser considerada a aplicação da força da gravidade de todo o corpo.
+
+Qual é a relação entre força centrípeta, massa, velocidade tangencial e raio?
+Fórmula: força centrípeta é igual a massa vezes velocidade ao quadrado, dividido pelo raio.
+Fc = m v² / r.
+A pergunta também relaciona o cálculo com a física, mas o arquivo original fornece apenas essa fórmula como resposta.
+
+Qual é a velocidade relativa de um corpo A em relação a B?
+O arquivo original apresenta a resposta como uma imagem. A expressão não está disponível no conteúdo textual fornecido.
+
+Onde atua a força resultante de uma carga uniformemente distribuída sobre uma viga de comprimento L?
+O arquivo original apresenta a resposta como uma imagem. A expressão não está disponível no conteúdo textual fornecido.

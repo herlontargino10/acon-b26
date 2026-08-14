@@ -1,0 +1,50 @@
+Física Prova
+
+Pergunta: Justifique a atuação do atrito estático e do atrito dinâmico quando empurramos ou tentamos empurrar um corpo sobre uma superfície.
+Se o corpo não se move, atua o atrito estático, que impede o início do movimento.
+Se o corpo começa a deslizar, passa a atuar o atrito dinâmico.
+
+Pergunta: O que diz a 2ª Lei de Newton?
+A força resultante é igual à massa vezes a aceleração. F é igual a m vezes a.
+
+Pergunta: O que diz a 3ª Lei de Newton?
+Toda ação gera uma reação de mesma intensidade e direção, mas em sentido oposto, atuando em outro corpo.
+
+Pergunta: O que é uma carga uniformemente distribuída?
+É uma carga distribuída que possui o mesmo valor em todos os pontos.
+
+Pergunta: Onde atua a força pontual equivalente de uma carga distribuída?
+Na linha de ação que passa pelo centroide da distribuição.
+
+Pergunta: Dê um exemplo de estrutura hipoestática, isostática e hiperestática.
+Hipoestática: Viga apoiada sobre um rolete.
+Isostática: viga simplesmente apoiada.
+Hiperestática: viga engastada nas duas extremidades.
+
+Pergunta: O que é a força de atrito?
+Resistência ao movimento entre superfícies em contato.
+
+Pergunta: O que caracteriza um vetor?
+Módulo, direção e sentido.
+
+Pergunta: O que caracteriza a grandeza escalar?
+Possui apenas valor numérico e unidade.
+
+Pergunta: O que é centro de massa?
+É o ponto que se move como se toda a massa do sistema estivesse concentrada nesse ponto.
+
+Pergunta: O que é centro geométrico?
+É o ponto determinado pela geometria e forma de uma figura ou corpo.
+
+Pergunta: O que é centro de gravidade?
+É o ponto onde pode ser considerada a aplicação da força da gravidade de todo o corpo.
+
+Pergunta: Qual é a relação entre força centrípeta, massa, velocidade tangencial e raio?
+Fórmula: força centrípeta é igual a massa vezes velocidade ao quadrado, dividido pelo raio.
+Fc = mv²/r.
+
+Pergunta: Qual é a velocidade relativa de um corpo A em relação a B?
+V A dividido por B igual a VB menos VB.
+
+Pergunta: Onde atua a força resultante de uma carga uniformemente distribuída sobre uma viga de comprimento L?
+No centro da distribuição a uma distância L dividido por 2 de uma das extremidades. 
