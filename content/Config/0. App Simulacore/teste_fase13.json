@@ -1,0 +1,44 @@
+[
+  {
+    "type": "mc",
+    "category": "Teste MC",
+    "question": "Qual é a capital do Brasil?",
+    "options": ["Brasília", "Rio de Janeiro", "São Paulo", "Salvador"],
+    "correct": 0,
+    "explanation": "Brasília é a capital federal desde 1960."
+  },
+  {
+    "type": "tf",
+    "category": "Teste TF",
+    "question": "O CO₂ é um gás condutor de eletricidade.",
+    "correct": false,
+    "explanation": "CO₂ é eletricamente inerte, por isso é seguro para incêndios classe C."
+  },
+  {
+    "type": "gap",
+    "category": "Teste GAP",
+    "question": "Complete: A água combate incêndio principalmente por ______.",
+    "correct": "resfriamento",
+    "explanation": "A água retira calor do combustível."
+  },
+  {
+    "type": "disc",
+    "category": "Teste DISC",
+    "question": "Descreva, em tópicos, os três elementos do triângulo do fogo.",
+    "correct": "Combustível, calor e comburente (oxigênio).",
+    "explanation": "Sem um dos três elementos não há combustão."
+  },
+  {
+    "type": "assoc",
+    "category": "Teste ASSOC",
+    "question": "Associe cada classe de incêndio ao seu tipo de combustível.",
+    "options": [
+      ["Classe A", "Combustíveis sólidos"],
+      ["Classe B", "Líquidos inflamáveis"],
+      ["Classe C", "Equipamentos elétricos energizados"],
+      ["Classe D", "Metais combustíveis"]
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Cada classe de incêndio exige um agente extintor apropriado."
+  }
+]

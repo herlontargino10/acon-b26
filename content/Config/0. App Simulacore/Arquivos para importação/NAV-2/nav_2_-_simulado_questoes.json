@@ -1,0 +1,1248 @@
+[
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, qual definição corresponde corretamente a é um ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Equipamento que mede a profundidade abaixo da embarcação por meio da reflexão de ondas eletromagnéticas, como o radar.",
+      "Equipamento que determina a profundidade utilizando trilateração de sinais de satélite e coordenadas geográficas.",
+      "Equipamento que mede a velocidade da embarcação na água e utiliza essa velocidade para calcular a profundidade.",
+      "Equipamento que mede a profundidade da água abaixo da embarcação por meio da reflexão de ondas sonoras (ultrassom)."
+    ],
+    "correct": 3,
+    "explanation": "Equipamento que mede a profundidade da água abaixo da embarcação por meio da reflexão de ondas sonoras (ultrassom).",
+    "_id": "q_msuv0wyu_weavdx"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, qual faixa corresponde aos alcances médios do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 0,5 e 4 MN.",
+      "Entre 8 e 24 MN ou mais.",
+      "Entre 6 e 10 MN.",
+      "Entre 4 e 8 MN."
+    ],
+    "correct": 3,
+    "explanation": "Entre 4 e 8 MN.",
+    "_id": "q_msuv0wyu_a2qiln"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, o ARPA substitui o Oficial de Quarto?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Sim. O cálculo de CPA e TCPA permite ao ARPA determinar sozinho a ação evasiva correta.",
+      "Não. Porém, quando o Trial Maneuver é utilizado, a decisão do Oficial deixa de ser necessária.",
+      "Não. Apenas auxilia a tomada de decisão.",
+      "Sim. Depois que os alvos são adquiridos automaticamente, o ARPA passa a ser responsável pela decisão de manobra."
+    ],
+    "correct": 2,
+    "explanation": "Não. Apenas auxilia a tomada de decisão.",
+    "_id": "q_msuv0wyu_3bonmd"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, qual é o principal efeito útil do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Permitir a medição direta da velocidade através da água por meio da indução eletromagnética.",
+      "Permitir a detecção e localização remota de objetos.",
+      "Permitir a determinação da profundidade abaixo da embarcação por meio do eco do fundo.",
+      "Permitir a determinação da posição geográfica por trilateração de satélites."
+    ],
+    "correct": 1,
+    "explanation": "Permitir a detecção e localização remota de objetos.",
+    "_id": "q_msuv0wyu_nxxrym"
+  },
+  {
+    "type": "tf",
+    "question": "Com base no material, avalie a afirmação: O Speed Log Eletromagnético (EM Log) mede a velocidade sobre o solo (SOG) de forma mais precisa do que o Doppler em águas rasas, pois não depende de reflexão no leito marinho.",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O EM Log mede principalmente a velocidade através da água (STW). O Doppler pode medir SOG quando utiliza o fundo como referência.",
+    "_id": "q_msuv0wyu_6yalik"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, quais são as principais vantagens do ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Medição rápida, automática e precisa; operação simples; monitoramento contínuo da profundidade; auxílio à navegação segura.",
+      "Medição rápida e contínua da profundidade, além de rastreamento automático de alvos e cálculo de CPA e TCPA.",
+      "Medição automática da profundidade em qualquer direção ao redor da embarcação, com alcance ilimitado e sem influência das condições da água.",
+      "Medição precisa da profundidade e determinação automática da posição geográfica por trilateração de sinais de satélite."
+    ],
+    "correct": 0,
+    "explanation": "Medição rápida, automática e precisa; operação simples; monitoramento contínuo da profundidade; auxílio à navegação segura.",
+    "_id": "q_msuv0wyu_v1ocbp"
+  },
+  {
+    "type": "mc",
+    "question": "Na situação descrita pelo conteúdo de navegação, o que significa RADAR?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Radio Detection And Rotation.",
+      "Radio Direction And Ranging.",
+      "Radio Detection And Ranging.",
+      "Radar Detection And Ranging."
+    ],
+    "correct": 2,
+    "explanation": "Radio Detection And Ranging.",
+    "_id": "q_msuv0wyu_wirmiv"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, qual definição corresponde corretamente a é um eco de radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "É o sinal de sincronização enviado pelo modulador ao indicador.",
+      "É o sinal refletido por um alvo após a emissão da onda pelo radar.",
+      "É o sinal transmitido ativamente por um RACON após receber o pulso do radar.",
+      "É a marca característica gerada por um RAMARK na tela do radar."
+    ],
+    "correct": 1,
+    "explanation": "É o sinal refletido por um alvo após a emissão da onda pelo radar.",
+    "_id": "q_msuv0wyu_1sg5ma"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, diferencie STW (Speed Through Water) de SOG (Speed Over Ground).",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "STW e SOG representam a velocidade através da água, diferenciando-se apenas pela unidade de medida.",
+      "STW é a velocidade relativa ao vento e às ondas; SOG é a velocidade relativa ao leito marinho.",
+      "STW é a velocidade em relação à massa d'água; SOG é a velocidade em relação ao fundo.",
+      "STW é a velocidade em relação ao fundo; SOG é a velocidade em relação à massa d'água."
+    ],
+    "correct": 2,
+    "explanation": "STW é a velocidade em relação à massa d'água; SOG é a velocidade em relação ao fundo.",
+    "_id": "q_msuv0wyu_9xid7r"
+  },
+  {
+    "type": "tf",
+    "question": "Considerando o funcionamento descrito, avalie: O transdutor do ecobatímetro desempenha apenas a função de converter os ecos recebidos em sinais elétricos na recepção.",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O transdutor atua tanto na transmissão quanto na recepção das ondas sonoras.",
+    "_id": "q_msuv0wyu_advjqc"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, qual definição corresponde corretamente a é o sistema de radar ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Equipamento marítimo projetado para aumentar a segurança da navegação e prevenir colisões, automatizando o processo de rastreio de alvos.",
+      "Equipamento marítimo destinado principalmente a medir profundidade e detectar obstáculos abaixo da quilha, automatizando o processo de ecobatímetro.",
+      "Sistema de posicionamento que determina a posição geográfica por trilateração e utiliza o radar apenas como apresentação visual.",
+      "Equipamento que substitui a avaliação do navegante ao transformar automaticamente os dados de radar em ordens de manobra."
+    ],
+    "correct": 0,
+    "explanation": "Equipamento marítimo projetado para aumentar a segurança da navegação e prevenir colisões, automatizando o processo de rastreio de alvos.",
+    "_id": "q_msuv0wyu_xe48zk"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, qual é a função do DATUM?",
+    "category": "Navegação — GNSS e Datum",
+    "options": [
+      "Servir como referência para o Speed Log, convertendo a velocidade através da água em velocidade sobre o fundo.",
+      "Servir como referência para o sistema de coordenadas geográficas, garantindo que a localização dos pontos seja precisa e sem ambiguidades.",
+      "Servir como referência para o sistema de coordenadas do radar, garantindo que distância e marcação sejam calculadas sem depender do eco refletido.",
+      "Servir como referência para o ecobatímetro, convertendo diretamente o tempo de retorno do ultrassom em profundidade e calado."
+    ],
+    "correct": 1,
+    "explanation": "Servir como referência para o sistema de coordenadas geográficas, garantindo que a localização dos pontos seja precisa e sem ambiguidades.",
+    "_id": "q_msuv0wyu_qokmvu"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, explique o princípio de funcionamento do RADAR.",
+    "category": "Navegação — Radar",
+    "options": [
+      "Transmite ondas sonoras, recebe o eco refletido pelo fundo, mede o tempo de ida e volta e calcula a profundidade da água.",
+      "Recebe sinais eletromagnéticos de satélites, mede o tempo de propagação e calcula a posição tridimensional por trilateração.",
+      "Produz uma voltagem na água proporcional à velocidade da embarcação e utiliza essa resposta para calcular distância e posição dos alvos.",
+      "Transmite ondas eletromagnéticas, recebe o eco refletido, mede o tempo de ida e volta e calcula distância, posição e velocidade dos alvos."
+    ],
+    "correct": 3,
+    "explanation": "Transmite ondas eletromagnéticas, recebe o eco refletido, mede o tempo de ida e volta e calcula distância, posição e velocidade dos alvos.",
+    "_id": "q_msuv0wyu_q1g4ye"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, qual é a principal função do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Determinar a posição da embarcação por trilateração de sinais de satélite.",
+      "Medir a velocidade da embarcação através da água por meio de uma voltagem gerada no meio aquático.",
+      "Detectar e localizar objetos por meio da reflexão de ondas de rádio.",
+      "Detectar e localizar objetos por meio da reflexão de ondas sonoras, utilizando o mesmo princípio do ecobatímetro."
+    ],
+    "correct": 2,
+    "explanation": "Detectar e localizar objetos por meio da reflexão de ondas de rádio.",
+    "_id": "q_msuv0wyu_1jltdu"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, qual a precisão exigida pela IMO para o EBL?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Dentro de 30 metros.",
+      "Dentro de 1% da escala.",
+      "Dentro de 5°.",
+      "Dentro de 1°."
+    ],
+    "correct": 3,
+    "explanation": "Dentro de 1°.",
+    "_id": "q_msuv0wyu_vivkmo"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, qual a função do Modulador?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Medir a distância exata até o alvo por meio do VRM.",
+      "Gerar uma marca característica na tela para identificação da posição.",
+      "Disparar o transmissor e enviar pulsos de sincronização para o indicador.",
+      "Fornecer todas as tensões AC e DC necessárias ao funcionamento do sistema."
+    ],
+    "correct": 2,
+    "explanation": "Disparar o transmissor e enviar pulsos de sincronização para o indicador.",
+    "_id": "q_msuv0wyu_b9y3vx"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, o que significa CPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Closest Position of Approach.",
+      "Collision Point of Approach.",
+      "Closest Prediction of Arrival.",
+      "Closest Point of Approach."
+    ],
+    "correct": 3,
+    "explanation": "Closest Point of Approach.",
+    "_id": "q_msuv0wyu_72w9qn"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, explique o princípio de funcionamento do GNSS.",
+    "category": "Navegação — GNSS e Datum",
+    "options": [
+      "O receptor recebe sinais de pelo menos quatro satélites e determina a posição principalmente pela reflexão desses sinais no fundo, utilizando o tempo de retorno para calcular a profundidade.",
+      "O receptor utiliza sinais de satélite para determinar a posição, mas calcula a distância dos alvos por reflexão de ondas eletromagnéticas e não por trilateração.",
+      "O receptor utiliza a posição de satélites para obter a localização, mas a velocidade da embarcação através da água é a referência necessária para determinar a posição tridimensional.",
+      "O receptor recebe sinais de pelo menos quatro satélites, mede o tempo de propagação e calcula as distâncias até eles para determinar a posição tridimensional e o tempo exato por trilateração."
+    ],
+    "correct": 3,
+    "explanation": "O receptor recebe sinais de pelo menos quatro satélites, mede o tempo de propagação e calcula as distâncias até eles para determinar a posição tridimensional e o tempo exato por trilateração.",
+    "_id": "q_msuv0wyu_d56smi"
+  },
+  {
+    "type": "mc",
+    "question": "Na situação descrita pelo conteúdo de navegação, qual definição corresponde corretamente a é o Racon?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Um refletor passivo que apenas aumenta a refletividade de embarcações ou objetos.",
+      "Um sistema ARPA que rastreia automaticamente o auxílio à navegação e calcula seu CPA.",
+      "Um transponder que responde ao sinal do radar para facilitar a identificação de auxílios à navegação.",
+      "Um dispositivo que gera uma marca característica na tela do radar para identificação de posição."
+    ],
+    "correct": 2,
+    "explanation": "Um transponder que responde ao sinal do radar para facilitar a identificação de auxílios à navegação.",
+    "_id": "q_msuv0wyu_fdbzpb"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, quais fatores externos afetam o desempenho do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Condições atmosféricas, dutos atmosféricos, interferência do solo/mar, edifícios e clutter.",
+      "Somente condições atmosféricas e dutos atmosféricos, pois o solo e o mar não interferem no radar marítimo.",
+      "Condições da água, salinidade e temperatura, que determinam diretamente a velocidade do ultrassom utilizado pelo radar.",
+      "Somente edifícios e terreno, pois chuva, neve, neblina e clutter são eliminados automaticamente pelo processamento do ARPA."
+    ],
+    "correct": 0,
+    "explanation": "Condições atmosféricas, dutos atmosféricos, interferência do solo/mar, edifícios e clutter.",
+    "_id": "q_msuv0wyu_blvsx2"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, qual a diferença entre eco de radar e RACON?",
+    "category": "Navegação — Radar",
+    "options": [
+      "O eco é produzido pelo RAMARK; o RACON é produzido pelo refletor radar passivo.",
+      "O eco e o RACON são reflexões passivas, diferenciando-se apenas pela intensidade do sinal.",
+      "O eco é uma reflexão passiva; o RACON é um transponder ativo que responde ao radar com um sinal identificado.",
+      "O eco é um sinal ativo de transponder; o RACON é uma reflexão passiva do alvo."
+    ],
+    "correct": 2,
+    "explanation": "O eco é uma reflexão passiva; o RACON é um transponder ativo que responde ao radar com um sinal identificado.",
+    "_id": "q_msuv0wyu_zkmri9"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, quais fatores ambientais afetam o radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Chuva, neve, neblina, umidade, mar, terreno e condições atmosféricas.",
+      "Somente chuva e neve, porque neblina e umidade não alteram o desempenho do radar.",
+      "Somente mar e terreno, porque condições atmosféricas não influenciam a propagação das ondas de radar.",
+      "Somente umidade e temperatura, porque chuva, neve, mar e terreno são compensados automaticamente pelo ARPA."
+    ],
+    "correct": 0,
+    "explanation": "Chuva, neve, neblina, umidade, mar, terreno e condições atmosféricas.",
+    "_id": "q_msuv0wyu_8252qp"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, quais os principais tipos de radar quanto à modulação?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Radar de Onda Contínua; Radar ARPA; Radar de Ultrassom.",
+      "Radar Doppler; Radar GNSS; Radar de Pulsos.",
+      "Radar de Pulsos; Radar de Onda Contínua; Radar Doppler.",
+      "Radar de Pulsos; Radar Doppler; Radar de Ultrassom."
+    ],
+    "correct": 2,
+    "explanation": "Radar de Pulsos; Radar de Onda Contínua; Radar Doppler.",
+    "_id": "q_msuv0wyu_c5h22k"
+  },
+  {
+    "type": "tf",
+    "question": "Considerando o funcionamento descrito, avalie: A presença de grande quantidade de sedimentos em suspensão na água pode distorcer a leitura de profundidade do ecobatímetro, representando uma limitação operacional do equipamento.",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do card original.",
+    "_id": "q_msuv0wyu_6xtvvm"
+  },
+  {
+    "type": "mc",
+    "question": "Na situação descrita pelo conteúdo de navegação, qual definição corresponde corretamente a é o TCPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "É o tempo que se leva até o CPA.",
+      "É a distância mínima que se mantém até o CPA.",
+      "É o tempo decorrido desde a aquisição do alvo até o início do rastreamento.",
+      "É a diferença de tempo entre a emissão do pulso e o retorno do eco."
+    ],
+    "correct": 0,
+    "explanation": "É o tempo que se leva até o CPA.",
+    "_id": "q_msuv0wyu_t7h2s5"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, quais constelações fazem parte do GNSS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "GPS (EUA), GLONASS (Rússia), ARPA (IMO) e BeiDou (China).",
+      "GPS (EUA), Galileo (Europa), WGS-84 (global) e GLONASS (Rússia).",
+      "GPS (EUA), Galileo (Europa), GLONASS (Rússia) e BeiDou (China).",
+      "GPS (EUA), Galileo (Europa), RACON (Reino Unido) e BeiDou (China)."
+    ],
+    "correct": 2,
+    "explanation": "GPS (EUA), Galileo (Europa), GLONASS (Rússia) e BeiDou (China).",
+    "_id": "q_msuv0wyu_0jn9hz"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, qual alternativa caracteriza corretamente Datum?",
+    "category": "Navegação — GNSS e Datum",
+    "options": [
+      "Modelo de referência utilizado pelo radar para converter a reflexão de ondas eletromagnéticas em distância e marcação.",
+      "Modelo utilizado pelo ecobatímetro para converter o tempo de ida e volta do ultrassom diretamente em coordenadas geográficas.",
+      "Modelo matemático de referência utilizado pelos sistemas de coordenadas geográficas.",
+      "Modelo matemático utilizado pelo ARPA para calcular CPA e TCPA a partir do movimento relativo dos alvos."
+    ],
+    "correct": 2,
+    "explanation": "Modelo matemático de referência utilizado pelos sistemas de coordenadas geográficas.",
+    "_id": "q_msuv0wyu_9ofb4e"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, qual a função da Fonte do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Disparar o transmissor e enviar pulsos de sincronização para o indicador.",
+      "Determinar a marcação do alvo por meio do EBL.",
+      "Aumentar a refletividade de embarcações para facilitar sua detecção.",
+      "Fornecer todas as tensões AC e DC necessárias ao funcionamento do sistema."
+    ],
+    "correct": 3,
+    "explanation": "Fornecer todas as tensões AC e DC necessárias ao funcionamento do sistema.",
+    "_id": "q_msuv0wyu_5fq5k4"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, qual definição corresponde corretamente a é o VRM?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Variable Range Marker (VRM), utilizado para medir a distância exata até o alvo.",
+      "Variable Radar Marker (VRM), utilizado para medir a marcação exata do alvo.",
+      "Variable Range Marker (VRM), utilizado para medir o CPA do alvo.",
+      "Variable Radar Motion (VRM), utilizado para medir a velocidade relativa do alvo."
+    ],
+    "correct": 0,
+    "explanation": "Variable Range Marker (VRM), utilizado para medir a distância exata até o alvo.",
+    "_id": "q_msuv0wyu_qkelqb"
+  },
+  {
+    "type": "tf",
+    "question": "À luz dos conceitos estudados, julgue: O ecobatímetro utiliza ondas sonoras com frequência inferior a 18 kHz ou ultrassonoras com frequência superior a 18 kHz, transmitidas verticalmente pelo transdutor instalado no casco.",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do card original.",
+    "_id": "q_msuv0wyu_r5fnlh"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, como o radar determina a distância até um alvo?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Pelo tempo que a onda leva para ir até o alvo e retornar (tempo de voo do pulso).",
+      "Pela intensidade do eco recebido, convertida diretamente em milhas náuticas.",
+      "Pelo ângulo do EBL combinado com a largura do feixe.",
+      "Pela diferença entre CPA e TCPA calculada pelo ARPA."
+    ],
+    "correct": 0,
+    "explanation": "Pelo tempo que a onda leva para ir até o alvo e retornar (tempo de voo do pulso).",
+    "_id": "q_msuv0wyu_vqhsib"
+  },
+  {
+    "type": "tf",
+    "question": "À luz dos conceitos estudados, julgue: A aquisição automática de alvos no ARPA ativa o rastreamento de todos os ecos dentro do alcance máximo do radar, com a possibilidade de configuração de zonas específicas pelo operador.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do material.",
+    "_id": "q_msuv0wyu_ebvc9k"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, qual definição corresponde corretamente a é o poder discriminador em distância?",
+    "category": "Navegação — Radar",
+    "options": [
+      "É a menor diferença de distância capaz de separar dois alvos na mesma direção.",
+      "É a menor diferença angular capaz de separar dois alvos na mesma distância.",
+      "É a maior distância em que dois alvos podem ser adquiridos simultaneamente.",
+      "É a menor diferença de velocidade capaz de separar dois alvos na mesma direção."
+    ],
+    "correct": 0,
+    "explanation": "É a menor diferença de distância capaz de separar dois alvos na mesma direção.",
+    "_id": "q_msuv0wyu_v3wdl0"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, quais são as formas de aquisição de alvos no ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Manual e exclusivamente por Guard Zones.",
+      "Automática e exclusivamente por EBL.",
+      "Manual e exclusivamente por VRM.",
+      "Manual e automática."
+    ],
+    "correct": 3,
+    "explanation": "Manual e automática.",
+    "_id": "q_msuv0wyu_haawsw"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, até que distância navios pequenos costumam ser detectados?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 4 e 8 MN.",
+      "Entre 8 e 24 MN ou mais.",
+      "Entre 6 e 10 MN.",
+      "Entre 0,5 e 4 MN."
+    ],
+    "correct": 2,
+    "explanation": "Entre 6 e 10 MN.",
+    "_id": "q_msuv0wyu_mgetgq"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, qual definição corresponde corretamente a é o Ramark?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Um transponder que responde ao sinal do radar com um sinal identificado.",
+      "Um dispositivo que aumenta a refletividade de embarcações ou objetos para facilitar sua detecção.",
+      "Um recurso do ARPA que gera automaticamente uma zona de vigilância.",
+      "Um dispositivo que gera uma marca característica na tela do radar para identificação de posição."
+    ],
+    "correct": 3,
+    "explanation": "Um dispositivo que gera uma marca característica na tela do radar para identificação de posição.",
+    "_id": "q_msuv0wyu_2leccg"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, o que o ARPA fornece ao operador?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Apenas a identificação dos auxílios à navegação, sem dados de movimento.",
+      "A situação atual e previsões futuras do movimento dos alvos.",
+      "Somente a situação atual, sem qualquer previsão do movimento dos alvos.",
+      "Somente previsões futuras, sem apresentar a situação atual dos alvos."
+    ],
+    "correct": 1,
+    "explanation": "A situação atual e previsões futuras do movimento dos alvos.",
+    "_id": "q_msuv0wyu_e0rh14"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, o que significa a sigla GPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Global Positioning System.",
+      "Global Positioning Satellite.",
+      "Geographic Positioning System.",
+      "Global Positioning Service."
+    ],
+    "correct": 0,
+    "explanation": "Global Positioning System.",
+    "_id": "q_msuv0wyu_fmk28p"
+  },
+  {
+    "type": "tf",
+    "question": "Considerando o funcionamento descrito, avalie: O WGS 84 é o datum geocêntrico global utilizado pelo GPS.",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do material.",
+    "_id": "q_msuv0wyu_4ofs9w"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, até que distância pequenos barcos de madeira costumam ser detectados?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 8 e 24 MN ou mais.",
+      "Entre 0,5 e 4 MN.",
+      "Entre 4 e 8 MN.",
+      "Entre 6 e 10 MN."
+    ],
+    "correct": 1,
+    "explanation": "Entre 0,5 e 4 MN.",
+    "_id": "q_msuv0wyu_90hbyl"
+  },
+  {
+    "type": "mc",
+    "question": "Na situação descrita pelo conteúdo de navegação, qual é o principal benefício do ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Fornecer a profundidade em tempo real e determinar simultaneamente a marcação dos alvos por meio do EBL.",
+      "Fornecer a profundidade em tempo real, aumentando a segurança da navegação e reduzindo o risco de encalhes.",
+      "Fornecer a profundidade em tempo real e, a partir dela, calcular automaticamente CPA e TCPA para os alvos.",
+      "Fornecer a profundidade em tempo real utilizando sinais de satélite, reduzindo a dependência da correta instalação do transdutor."
+    ],
+    "correct": 1,
+    "explanation": "Fornecer a profundidade em tempo real, aumentando a segurança da navegação e reduzindo o risco de encalhes.",
+    "_id": "q_msuv0wyu_b9he5s"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, como a neve e a neblina afetam o radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Geram apenas ecos falsos, sem causar atenuação do sinal.",
+      "Atenuam o sinal e reduzem o alcance e a qualidade da detecção.",
+      "Aumentam o alcance ao curvar as ondas de rádio em direção aos alvos.",
+      "Afetam somente a marcação, sem alterar o alcance ou a qualidade da detecção."
+    ],
+    "correct": 1,
+    "explanation": "Atenuam o sinal e reduzem o alcance e a qualidade da detecção.",
+    "_id": "q_msuv0wyu_cite3h"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, quantos alvos o ARPA pode acompanhar?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Dependendo do equipamento, cerca de 20 ou mais.",
+      "Exatamente 20 em qualquer equipamento, pois essa é a capacidade padrão do ARPA.",
+      "No máximo quatro, porque os demais alvos não podem ter CPA e TCPA calculados simultaneamente.",
+      "Somente um alvo por vez, sendo necessário alternar manualmente entre os alvos adquiridos."
+    ],
+    "correct": 0,
+    "explanation": "Dependendo do equipamento, cerca de 20 ou mais.",
+    "_id": "q_msuv0wyu_8sq1bx"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, qual definição corresponde corretamente a é um Speed Log?",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Dispositivo utilizado para medir a velocidade de uma embarcação na água.",
+      "Dispositivo utilizado para determinar exclusivamente a velocidade sobre o fundo por meio de sinais de satélite.",
+      "Sistema destinado a medir a profundidade abaixo da embarcação por meio de ondas acústicas.",
+      "Sistema de radar destinado a calcular automaticamente CPA e TCPA."
+    ],
+    "correct": 0,
+    "explanation": "Dispositivo utilizado para medir a velocidade de uma embarcação na água.",
+    "_id": "q_msuv0wyu_qoj39j"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, quais os princípios de funcionamento de um Speed Log?",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Trilateração e indução eletromagnética.",
+      "Pulsos de radar e trilateração GNSS.",
+      "Bernoulli e reflexão de ondas de radar.",
+      "Doppler e eletromagnético."
+    ],
+    "correct": 3,
+    "explanation": "Doppler e eletromagnético.",
+    "_id": "q_msuv0wyu_nlmh1r"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, cite três características e funções do ARPA.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Medição de distância por VRM; medição de marcação por EBL; fornecimento de tensões AC e DC.",
+      "Rastreamento automático de alvos; cálculo de dados de colisão; alertas de perigo.",
+      "Medição de profundidade; determinação de datum; cálculo de velocidade através da água.",
+      "Detecção por ultrassom; cálculo de posição por satélite; identificação por RAMARK."
+    ],
+    "correct": 1,
+    "explanation": "Rastreamento automático de alvos; cálculo de dados de colisão; alertas de perigo.",
+    "_id": "q_msuv0wyu_kleweo"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, qual a importância do Datum?",
+    "category": "Navegação — GNSS e Datum",
+    "options": [
+      "Garante a compatibilidade entre o Speed Log e o GNSS e elimina a diferença entre STW e SOG.",
+      "Garante que o ARPA possa calcular CPA e TCPA mesmo sem receber dados do radar.",
+      "Garante a compatibilidade entre sistemas de coordenadas e evita erros de posicionamento.",
+      "Garante a compatibilidade entre sistemas de radar e ecobatímetros e evita erros na medição da profundidade."
+    ],
+    "correct": 2,
+    "explanation": "Garante a compatibilidade entre sistemas de coordenadas e evita erros de posicionamento.",
+    "_id": "q_msuv0wyu_91f7r1"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, qual a precisão de um receptor DGPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Menos de 1 centímetro em qualquer condição.",
+      "1 a 3 metros.",
+      "5 a 10 metros.",
+      "30 metros ou 1% da escala."
+    ],
+    "correct": 1,
+    "explanation": "1 a 3 metros.",
+    "_id": "q_msuv0wyu_d66k17"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, qual tipo de radar é normalmente empregado na navegação marítima?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Radar GNSS.",
+      "Radar de Pulsos.",
+      "Radar de Onda Contínua.",
+      "Radar Doppler."
+    ],
+    "correct": 1,
+    "explanation": "Radar de Pulsos.",
+    "_id": "q_msuv0wyu_iygidj"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, qual definição corresponde corretamente a é clutter no radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Ecos identificados automaticamente pelo ARPA para cálculo de CPA e TCPA.",
+      "Sinais ativos de RACON utilizados para facilitar a identificação de auxílios.",
+      "Ecos exclusivamente produzidos por embarcações de pequeno porte.",
+      "Ecos indesejados que mascaram os alvos reais."
+    ],
+    "correct": 3,
+    "explanation": "Ecos indesejados que mascaram os alvos reais.",
+    "_id": "q_msuv0wyu_k2ztqv"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, qual faixa corresponde aos alcances longos do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 8 e 24 MN ou mais.",
+      "Entre 4 e 8 MN.",
+      "Entre 0,5 e 4 MN.",
+      "Entre 6 e 10 MN."
+    ],
+    "correct": 0,
+    "explanation": "Entre 8 e 24 MN ou mais.",
+    "_id": "q_msuv0wyu_3yznka"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, como funciona um ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Recebe sinais de pelo menos quatro satélites, calcula as distâncias até eles e determina a profundidade por trilateração.",
+      "Gera uma voltagem na água proporcional à velocidade da embarcação e utiliza essa resposta para calcular a profundidade.",
+      "Emite um pulso de ultrassom, recebe o eco refletido pelo fundo e calcula a profundidade pelo tempo de ida e volta da onda sonora.",
+      "Emite um pulso de ondas eletromagnéticas, recebe o eco refletido pelo fundo e calcula a profundidade pelo tempo de ida e volta do sinal."
+    ],
+    "correct": 2,
+    "explanation": "Emite um pulso de ultrassom, recebe o eco refletido pelo fundo e calcula a profundidade pelo tempo de ida e volta da onda sonora.",
+    "_id": "q_msuv0wyu_683a74"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, o que influencia a força do eco de um alvo?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Somente tamanho e distância, pois material e forma não alteram o eco.",
+      "Somente material e altura, pois distância e tamanho são compensados automaticamente pelo ARPA.",
+      "Tamanho, material e velocidade, sendo a altura irrelevante para a detecção.",
+      "Tamanho, material, forma, distância e altura."
+    ],
+    "correct": 3,
+    "explanation": "Tamanho, material, forma, distância e altura.",
+    "_id": "q_msuv0wyu_s7nbzp"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, quantos componentes possui um radar básico?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Oito componentes principais.",
+      "Seis componentes principais.",
+      "Cinco componentes principais.",
+      "Sete componentes principais."
+    ],
+    "correct": 1,
+    "explanation": "Seis componentes principais.",
+    "_id": "q_msuv0wyu_jshyey"
+  },
+  {
+    "type": "mc",
+    "question": "Na situação descrita pelo conteúdo de navegação, o GNSS funciona em qualquer ponto do globo?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Não; o GNSS funciona apenas onde haja simultaneamente GPS, Galileo, GLONASS e BeiDou visíveis.",
+      "Sim, desde que haja visibilidade suficiente dos satélites.",
+      "Sim, independentemente da visibilidade dos satélites, pois as estações terrestres sempre fornecem a posição.",
+      "Não; o GNSS só funciona dentro das áreas cobertas por uma estação DGPS."
+    ],
+    "correct": 1,
+    "explanation": "Sim, desde que haja visibilidade suficiente dos satélites.",
+    "_id": "q_msuv0wyu_xr91cd"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, o que significa GNSS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Sistema Global de Navegação por Satélite (Global Navigation Satellite System).",
+      "Global Navigation Signal System, sistema global de sinais de navegação por rádio.",
+      "Geographic Navigation and Satellite Synchronization, sistema de sincronização e posicionamento geográfico.",
+      "Global Nautical Satellite Service, serviço global de navegação marítima por satélite."
+    ],
+    "correct": 0,
+    "explanation": "Sistema Global de Navegação por Satélite (Global Navigation Satellite System).",
+    "_id": "q_msuv0wyu_2z1odn"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, qual capítulo da SOLAS fala sobre obrigatoriedade de equipamentos ARPA a bordo?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Capítulo II-1.",
+      "Capítulo VI.",
+      "Capítulo V.",
+      "Capítulo IV."
+    ],
+    "correct": 2,
+    "explanation": "Capítulo V.",
+    "_id": "q_msuv0wyu_9e83qj"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, cite três utilidades do Speed Log.",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Determinação da profundidade; identificação de RACON; planejamento de viagem.",
+      "Aquisição automática de alvos; determinação da posição; sincronização de tempo.",
+      "Segurança da navegação; determinação da posição; planejamento de viagem.",
+      "Segurança da navegação; determinação do datum; cálculo automático de CPA."
+    ],
+    "correct": 2,
+    "explanation": "Segurança da navegação; determinação da posição; planejamento de viagem.",
+    "_id": "q_msuv0wyu_pj4y83"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, qual definição corresponde corretamente a é um alvo no radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Somente uma embarcação acompanhada automaticamente pelo ARPA.",
+      "Somente um objeto que produza um eco suficientemente forte para ser identificado visualmente.",
+      "Qualquer objeto capaz de refletir o sinal emitido.",
+      "Qualquer objeto que possua um RACON ou RAMARK instalado."
+    ],
+    "correct": 2,
+    "explanation": "Qualquer objeto capaz de refletir o sinal emitido.",
+    "_id": "q_msuv0wyu_e97ubw"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, qual é o principal efeito do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Permitir a detecção e localização remota de objetos.",
+      "Permitir o cálculo automático da profundidade abaixo da embarcação.",
+      "Permitir a determinação da posição geográfica por trilateração de satélites.",
+      "Permitir o cálculo do CPA sem necessidade de rastreamento de alvos."
+    ],
+    "correct": 0,
+    "explanation": "Permitir a detecção e localização remota de objetos.",
+    "_id": "q_msuv0wyu_0asd0r"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, a principal diferença entre o DGPS e o GPS autônomo padrão reside em:",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "A aplicação de correções diferenciais geradas por estações de referência terrestres de posição conhecida, reduzindo o erro de metros para maior precisão.",
+      "O número fixo de satélites utilizado simultaneamente: o DGPS exige oito, enquanto o GPS padrão exige quatro.",
+      "A capacidade do DGPS de funcionar sem visibilidade dos satélites, pois as estações terrestres substituem os sinais GNSS.",
+      "O uso exclusivo do GLONASS pelo DGPS, enquanto o GPS padrão utiliza apenas a constelação norte-americana."
+    ],
+    "correct": 0,
+    "explanation": "A aplicação de correções diferenciais geradas por estações de referência terrestres de posição conhecida, reduzindo o erro de metros para maior precisão.",
+    "_id": "q_msuv0wyu_ypgkz7"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, quais são os três principais objetivos da navegação eletrônica?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Segurança; Eficiência; Conformidade.",
+      "Segurança; Eficiência; Precisão de posicionamento exclusivamente por GNSS.",
+      "Eficiência; Conformidade; acompanhamento automático de alvos exclusivamente por ARPA.",
+      "Segurança; Precisão; substituição do Oficial de Quarto por sistemas automáticos."
+    ],
+    "correct": 0,
+    "explanation": "Segurança; Eficiência; Conformidade.",
+    "_id": "q_msuv0wyu_oyq55a"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, qual é a função dos refletores radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Aumentar a refletividade de embarcações ou objetos para facilitar sua detecção.",
+      "Responder ativamente ao sinal do radar com uma identificação específica do auxílio à navegação.",
+      "Gerar uma marca característica na tela para indicar a posição do objeto.",
+      "Calcular a distância e a marcação do objeto por meio do ARPA."
+    ],
+    "correct": 0,
+    "explanation": "Aumentar a refletividade de embarcações ou objetos para facilitar sua detecção.",
+    "_id": "q_msuv0wyu_kknudf"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, qual é a função do GNSS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Fornecer somente a posição geográfica, enquanto a navegação e a sincronização são funções exclusivas do GPS.",
+      "Fornecer velocidade através da água e profundidade, utilizando sinais de satélites como referência.",
+      "Fornecer exclusivamente sincronização de tempo, deixando posicionamento e navegação para o ARPA.",
+      "Fornecer localização, navegação e sincronização de tempo através de sinais de satélites."
+    ],
+    "correct": 3,
+    "explanation": "Fornecer localização, navegação e sincronização de tempo através de sinais de satélites.",
+    "_id": "q_msuv0wyu_8l456c"
+  },
+  {
+    "type": "mc",
+    "question": "Na situação descrita pelo conteúdo de navegação, sobre o Speed Log Eletromagnético (EM Log), é correto afirmar que:",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Mede a velocidade sobre o solo (SOG) em águas rasas pela reflexão de sinais acústicos no leito marinho.",
+      "Utiliza o princípio de Bernoulli para calcular a velocidade pela diferença entre pressão estática e dinâmica da água.",
+      "Calcula a velocidade pela diferença de frequência entre o sinal acústico transmitido e o eco recebido.",
+      "Gera uma voltagem na água proporcional à velocidade da embarcação, utilizando indução eletromagnética e medindo primariamente a velocidade através da água (STW)."
+    ],
+    "correct": 3,
+    "explanation": "Gera uma voltagem na água proporcional à velocidade da embarcação, utilizando indução eletromagnética e medindo primariamente a velocidade através da água (STW).",
+    "_id": "q_msuv0wyu_1lrmrp"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, como a chuva afeta o radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Atenua o sinal e pode gerar rain clutter, dificultando a detecção dos alvos.",
+      "Aumenta a intensidade dos ecos e elimina a necessidade de ajuste de ganho.",
+      "Aumenta a resolução angular e melhora a detecção de alvos pequenos.",
+      "Gera exclusivamente ecos identificados pelo RACON, sem reduzir o alcance."
+    ],
+    "correct": 0,
+    "explanation": "Atenua o sinal e pode gerar rain clutter, dificultando a detecção dos alvos.",
+    "_id": "q_msuv0wyu_8az4wi"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, qual definição corresponde corretamente a é o poder discriminador em marcação?",
+    "category": "Navegação — Radar",
+    "options": [
+      "É a menor diferença de velocidade capaz de separar dois alvos na mesma distância.",
+      "É a menor diferença angular capaz de separar dois alvos na mesma distância; depende da largura do feixe.",
+      "É a menor diferença de distância capaz de separar dois alvos na mesma direção; depende da largura do feixe.",
+      "É a maior diferença angular entre dois alvos antes que o ARPA os considere um único alvo."
+    ],
+    "correct": 1,
+    "explanation": "É a menor diferença angular capaz de separar dois alvos na mesma distância; depende da largura do feixe.",
+    "_id": "q_msuv0wyu_tnhw7u"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, quais características do alvo influenciam sua detecção?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Tamanho, forma e material do alvo, mas distância e orientação não influenciam a detecção porque são determinadas pelo ARPA.",
+      "Distância, altura e orientação do alvo, mas tamanho e material não influenciam porque o radar identifica todos os alvos da mesma forma.",
+      "Somente tamanho e distância, pois forma, material, altura e orientação não alteram a resposta do radar.",
+      "Tamanho, forma, material, distância, altura e orientação em relação ao radar."
+    ],
+    "correct": 3,
+    "explanation": "Tamanho, forma, material, distância, altura e orientação em relação ao radar.",
+    "_id": "q_msuv0wyu_t4tt09"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, qual a precisão exigida pela IMO para o VRM?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Dentro de 1° ou 1% da escala.",
+      "Dentro de 30 metros ou 1% da escala.",
+      "Dentro de 1 metro ou 1% da escala.",
+      "Dentro de 30 metros ou 5% da escala."
+    ],
+    "correct": 1,
+    "explanation": "Dentro de 30 metros ou 1% da escala.",
+    "_id": "q_msuv0wyu_yqf8ag"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, cite três limitações do sistema ARPA.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Apenas limitações de alcance; ausência de cálculo de CPA; ausência de rastreamento automático.",
+      "Influência de condições climáticas adversas; perda de alvo em tráfego intenso; resolução do radar.",
+      "Limitação de trilateração; perda de sinal de satélite; influência do calado.",
+      "Necessidade de ultrassom; limitação de transdutor; erro de datum."
+    ],
+    "correct": 1,
+    "explanation": "Influência de condições climáticas adversas; perda de alvo em tráfego intenso; resolução do radar.",
+    "_id": "q_msuv0wyu_oklpek"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, qual a precisão de um receptor GPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "30 metros ou 1% da escala.",
+      "Menos de 1 metro em operação padrão.",
+      "5 a 10 metros.",
+      "1 a 3 metros."
+    ],
+    "correct": 2,
+    "explanation": "5 a 10 metros.",
+    "_id": "q_msuv0wyu_ac74i5"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, como o solo, o mar ou edifícios podem interferir no radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Aumentam a precisão do EBL ao fornecerem referências fixas de marcação.",
+      "Produzem sinais ativos semelhantes aos do RACON para identificação automática.",
+      "Eliminam o clutter ao fornecerem ecos estáveis para o processamento do ARPA.",
+      "Produzem ecos indesejados que dificultam a identificação do alvo principal."
+    ],
+    "correct": 3,
+    "explanation": "Produzem ecos indesejados que dificultam a identificação do alvo principal.",
+    "_id": "q_msuv0wyu_df7hve"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, no Speed Log Doppler, a velocidade da embarcação é calculada a partir de:",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "A variação de posição GPS ao longo do tempo, utilizada como velocidade através da água.",
+      "A diferença de frequência entre o sinal acústico transmitido e o eco recebido, proporcional à velocidade relativa de deslocamento.",
+      "A pressão dinâmica exercida pela água no tubo de Pitot instalado no casco.",
+      "A taxa de rotação de um impulsor mecânico submerso instalado na quilha."
+    ],
+    "correct": 1,
+    "explanation": "A diferença de frequência entre o sinal acústico transmitido e o eco recebido, proporcional à velocidade relativa de deslocamento.",
+    "_id": "q_msuv0wyu_blde1m"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, quais são as principais desvantagens do ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Alcance limitado e medição somente abaixo da embarcação, mas sem influência das condições da água e sem necessidade de calibração do transdutor.",
+      "Influência das condições da água e dependência do transdutor, mas com alcance ilimitado e capacidade de medir em todas as direções.",
+      "Alcance limitado e influência das condições da água, mas capaz de substituir o radar na detecção de objetos acima da superfície.",
+      "Alcance limitado, influência das condições da água, mede apenas abaixo da embarcação e depende da correta instalação e calibração do transdutor."
+    ],
+    "correct": 3,
+    "explanation": "Alcance limitado, influência das condições da água, mede apenas abaixo da embarcação e depende da correta instalação e calibração do transdutor.",
+    "_id": "q_msuv0wyu_pqmjd2"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, qual definição corresponde corretamente a é o EBL?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Electronic Bearing Line (EBL), utilizado para calcular o tempo até o CPA.",
+      "Electronic Bearing Line (EBL), utilizado para determinar a força do eco.",
+      "Electronic Bearing Line (EBL), utilizado para medir a marcação (ângulo) do alvo.",
+      "Electronic Bearing Line (EBL), utilizado para medir a distância exata até o alvo."
+    ],
+    "correct": 2,
+    "explanation": "Electronic Bearing Line (EBL), utilizado para medir a marcação (ângulo) do alvo.",
+    "_id": "q_msuv0wyu_5f7pgo"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, como o material do alvo influencia o eco?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Metais refletem melhor as ondas de radar que materiais não metálicos.",
+      "Materiais não metálicos refletem melhor as ondas de radar que metais.",
+      "O material não influencia a reflexão, apenas a distância do alvo determina a força do eco.",
+      "Metais somente refletem melhor quando o alvo está dentro de uma Guard Zone."
+    ],
+    "correct": 0,
+    "explanation": "Metais refletem melhor as ondas de radar que materiais não metálicos.",
+    "_id": "q_msuv0wyu_qroqui"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os princípios apresentados no material, qual faixa corresponde aos alcances pequenos do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 8 e 24 milhas náuticas (MN) ou mais.",
+      "Entre 0,5 e 8 milhas náuticas (MN).",
+      "Entre 0,5 e 4 milhas náuticas (MN).",
+      "Entre 4 e 8 milhas náuticas (MN)."
+    ],
+    "correct": 2,
+    "explanation": "Entre 0,5 e 4 milhas náuticas (MN).",
+    "_id": "q_msuv0wyu_0wpntb"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, qual é a principal função do ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Auxiliar na prevenção de colisões calculando somente a profundidade e o calado da embarcação.",
+      "Determinar a posição geográfica da embarcação por trilateração de sinais de satélite e transmitir essa posição ao radar.",
+      "Medir a velocidade da embarcação através da água e utilizar essa velocidade para calcular automaticamente a profundidade.",
+      "Auxiliar na prevenção de colisões acompanhando automaticamente diversos alvos."
+    ],
+    "correct": 3,
+    "explanation": "Auxiliar na prevenção de colisões acompanhando automaticamente diversos alvos.",
+    "_id": "q_msuv0wyu_898klo"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, como a altura do alvo influencia a detecção?",
+    "category": "Navegação — Radar",
+    "options": [
+      "A altura influencia apenas a marcação, não a distância de detecção.",
+      "Alvos mais altos tendem a ser detectados a maiores distâncias.",
+      "Alvos mais baixos tendem a ser detectados a maiores distâncias porque produzem ecos mais próximos do mar.",
+      "A altura não influencia a distância de detecção, pois somente o material determina o alcance."
+    ],
+    "correct": 1,
+    "explanation": "Alvos mais altos tendem a ser detectados a maiores distâncias.",
+    "_id": "q_msuv0wyu_90jcri"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, que tipo de ondas o radar utiliza?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Ondas sonoras de alta frequência (ultrassom).",
+      "Ondas eletromagnéticas exclusivamente na faixa infravermelha.",
+      "Ondas mecânicas utilizadas para medir o tempo de voo do eco.",
+      "Ondas eletromagnéticas (micro-ondas)."
+    ],
+    "correct": 3,
+    "explanation": "Ondas eletromagnéticas (micro-ondas).",
+    "_id": "q_msuv0wyu_ezw9sc"
+  },
+  {
+    "type": "mc",
+    "question": "À luz dos conceitos estudados, qual a diferença entre o GPS e o DGPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "O GPS mede SOG, enquanto o DGPS mede STW com maior precisão.",
+      "O GPS utiliza correções diferenciais de estações terrestres, enquanto o DGPS opera sem correções.",
+      "O GPS funciona apenas com uma constelação, enquanto o DGPS combina obrigatoriamente todas as constelações GNSS.",
+      "O GPS fornece dados básicos de localização; o DGPS utiliza correções adicionais para maior precisão."
+    ],
+    "correct": 3,
+    "explanation": "O GPS fornece dados básicos de localização; o DGPS utiliza correções adicionais para maior precisão.",
+    "_id": "q_msuv0wyu_9wak1s"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, o que o ARPA avalia automaticamente?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "O risco de colisão.",
+      "A profundidade abaixo da embarcação.",
+      "O datum utilizado pelo sistema de coordenadas.",
+      "A intensidade da chuva e o nível de clutter."
+    ],
+    "correct": 0,
+    "explanation": "O risco de colisão.",
+    "_id": "q_msuv0wyu_vy0g6c"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o conceito apresentado, qual é a principal vantagem do ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Processar automaticamente vários alvos e eliminar as limitações provocadas por chuva, mar agitado e tráfego denso.",
+      "Processar automaticamente vários alvos simultaneamente.",
+      "Processar automaticamente vários alvos e substituir a avaliação do Oficial de Quarto na decisão de manobra.",
+      "Processar automaticamente vários alvos, mas somente quando todos forem detectados pelo GNSS."
+    ],
+    "correct": 1,
+    "explanation": "Processar automaticamente vários alvos simultaneamente.",
+    "_id": "q_msuv0wyu_5cp1oc"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, o que significa ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Automatic Radio Positioning Aid (Auxílio Automático de Posicionamento Rádio).",
+      "Automatic Radar Positioning and Acquisition (Aquisição e Posicionamento Automático por Radar).",
+      "Automatic Radar Plotting and Acquisition (Plotagem e Aquisição Automática por Radar).",
+      "Automatic Radar Plotting Aid (Auxílio Automático de Plotagem Radar)."
+    ],
+    "correct": 3,
+    "explanation": "Automatic Radar Plotting Aid (Auxílio Automático de Plotagem Radar).",
+    "_id": "q_msuv0wyu_x8blfn"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, como a distância influencia a intensidade do eco?",
+    "category": "Navegação — Radar",
+    "options": [
+      "A distância não altera a intensidade do eco quando o ganho está ajustado automaticamente.",
+      "A intensidade aumenta com a distância somente quando o alvo está dentro de uma Guard Zone.",
+      "Quanto maior a distância, menor tende a ser o eco recebido.",
+      "Quanto maior a distância, maior tende a ser o eco recebido, pois o feixe se amplia."
+    ],
+    "correct": 2,
+    "explanation": "Quanto maior a distância, menor tende a ser o eco recebido.",
+    "_id": "q_msuv0wyu_t9eiw5"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, cite e explique uma limitação do radar ARPA no rastreamento de alvos.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "A limitação decorre do fato de que o ARPA só consegue acompanhar alvos quando o operador mede manualmente sua distância com o VRM e sua marcação com o EBL.",
+      "O rastreamento pode ser perdido ou confundido em chuva intensa, mar agitado ou tráfego denso, devido a rain clutter, sea clutter, target swap e limitações de resolução.",
+      "A principal limitação ocorre quando o radar utiliza o modo de onda contínua, pois esse modo impede a aquisição automática dos alvos pelas Guard Zones.",
+      "A limitação ocorre porque o ARPA calcula CPA e TCPA apenas para alvos detectados pelo GNSS, não sendo possível acompanhar alvos obtidos pelo radar."
+    ],
+    "correct": 1,
+    "explanation": "O rastreamento pode ser perdido ou confundido em chuva intensa, mar agitado ou tráfego denso, devido a rain clutter, sea clutter, target swap e limitações de resolução.",
+    "_id": "q_msuv0wyu_kygvl4"
+  },
+  {
+    "type": "mc",
+    "question": "A respeito do equipamento ou função indicada, o que são dutos atmosféricos?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Zonas configuradas no ARPA para aquisição automática de alvos.",
+      "Ecos indesejados provocados exclusivamente pelo mar e pelo solo.",
+      "Fenômenos que curvam as ondas de rádio, alterando alcance e precisão.",
+      "Fenômenos que refletem ondas sonoras e alteram a profundidade medida pelo ecobatímetro."
+    ],
+    "correct": 2,
+    "explanation": "Fenômenos que curvam as ondas de rádio, alterando alcance e precisão.",
+    "_id": "q_msuv0wyu_a8hj6c"
+  },
+  {
+    "type": "mc",
+    "question": "Na situação descrita pelo conteúdo de navegação, cite duas informações cruciais calculadas pelo ARPA.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "RACON e RAMARK.",
+      "STW e SOG.",
+      "CPA e TCPA.",
+      "VRM e EBL."
+    ],
+    "correct": 2,
+    "explanation": "CPA e TCPA.",
+    "_id": "q_msuv0wyu_hcf5g2"
+  },
+  {
+    "type": "tf",
+    "question": "À luz dos conceitos estudados, julgue: Segundo a Resolução A.823(19) da IMO, o ARPA deve fornecer dados de CPA e TCPA dentro de 1 a 3 minutos de rastreamento em estado estacionário.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do card original.",
+    "_id": "q_msuv0wyu_fq8eqc"
+  },
+  {
+    "type": "mc",
+    "question": "Em uma prova de navegação eletrônica, quais fatores desafiam a precisão do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Somente o ganho e a escala selecionada pelo operador.",
+      "Variações atmosféricas e ambientais.",
+      "Somente a distância do alvo e a largura do feixe.",
+      "Somente o tamanho e o material do alvo."
+    ],
+    "correct": 1,
+    "explanation": "Variações atmosféricas e ambientais.",
+    "_id": "q_msuv0wyu_iikyuj"
+  }
+]

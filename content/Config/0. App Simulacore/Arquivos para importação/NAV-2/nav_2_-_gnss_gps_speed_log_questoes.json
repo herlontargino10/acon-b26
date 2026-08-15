@@ -1,0 +1,236 @@
+[
+  {
+    "type": "mc",
+    "question": "Diferencie STW (Speed Through Water) de SOG (Speed Over Ground).",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "STW e SOG representam a velocidade através da água, diferenciando-se apenas pela unidade de medida.",
+      "STW é a velocidade relativa ao vento e às ondas; SOG é a velocidade relativa ao leito marinho.",
+      "STW é a velocidade em relação à massa d'água; SOG é a velocidade em relação ao fundo.",
+      "STW é a velocidade em relação ao fundo; SOG é a velocidade em relação à massa d'água."
+    ],
+    "correct": 2,
+    "explanation": "STW é a velocidade em relação à massa d'água; SOG é a velocidade em relação ao fundo.",
+    "_id": "q_msuuvqqc_90k37d"
+  },
+  {
+    "type": "mc",
+    "question": "No Speed Log Doppler, a velocidade da embarcação é calculada a partir de:",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "A variação de posição GPS ao longo do tempo, utilizada como velocidade através da água.",
+      "A diferença de frequência entre o sinal acústico transmitido e o eco recebido, proporcional à velocidade relativa de deslocamento.",
+      "A pressão dinâmica exercida pela água no tubo de Pitot instalado no casco.",
+      "A taxa de rotação de um impulsor mecânico submerso instalado na quilha."
+    ],
+    "correct": 1,
+    "explanation": "A diferença de frequência entre o sinal acústico transmitido e o eco recebido, proporcional à velocidade relativa de deslocamento.",
+    "_id": "q_msuuvqqc_eirjyq"
+  },
+  {
+    "type": "mc",
+    "question": "A principal diferença entre o DGPS e o GPS autônomo padrão reside em:",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "A aplicação de correções diferenciais geradas por estações de referência terrestres de posição conhecida, reduzindo o erro de metros para maior precisão.",
+      "O número fixo de satélites utilizado simultaneamente: o DGPS exige oito, enquanto o GPS padrão exige quatro.",
+      "A capacidade do DGPS de funcionar sem visibilidade dos satélites, pois as estações terrestres substituem os sinais GNSS.",
+      "O uso exclusivo do GLONASS pelo DGPS, enquanto o GPS padrão utiliza apenas a constelação norte-americana."
+    ],
+    "correct": 0,
+    "explanation": "A aplicação de correções diferenciais geradas por estações de referência terrestres de posição conhecida, reduzindo o erro de metros para maior precisão.",
+    "_id": "q_msuuvqqc_yh1nlk"
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o Speed Log Eletromagnético (EM Log), é correto afirmar que:",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Mede a velocidade sobre o solo (SOG) em águas rasas pela reflexão de sinais acústicos no leito marinho.",
+      "Utiliza o princípio de Bernoulli para calcular a velocidade pela diferença entre pressão estática e dinâmica da água.",
+      "Calcula a velocidade pela diferença de frequência entre o sinal acústico transmitido e o eco recebido.",
+      "Gera uma voltagem na água proporcional à velocidade da embarcação, utilizando indução eletromagnética e medindo primariamente a velocidade através da água (STW)."
+    ],
+    "correct": 3,
+    "explanation": "Gera uma voltagem na água proporcional à velocidade da embarcação, utilizando indução eletromagnética e medindo primariamente a velocidade através da água (STW).",
+    "_id": "q_msuuvqqc_mxprle"
+  },
+  {
+    "type": "tf",
+    "question": "O WGS 84 é o datum geocêntrico global utilizado pelo GPS.",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do material.",
+    "_id": "q_msuuvqqc_al9xuy"
+  },
+  {
+    "type": "tf",
+    "question": "O Speed Log Eletromagnético (EM Log) mede a velocidade sobre o solo (SOG) de forma mais precisa do que o Doppler em águas rasas, pois não depende de reflexão no leito marinho.",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O EM Log mede principalmente a velocidade através da água (STW). O Doppler pode medir SOG quando utiliza o fundo como referência.",
+    "_id": "q_msuuvqqc_ig9502"
+  },
+  {
+    "type": "mc",
+    "question": "O que significa GNSS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Sistema Global de Navegação por Satélite (Global Navigation Satellite System).",
+      "Global Navigation Signal System, sistema global de sinais de navegação por rádio.",
+      "Geographic Navigation and Satellite Synchronization, sistema de sincronização e posicionamento geográfico.",
+      "Global Nautical Satellite Service, serviço global de navegação marítima por satélite."
+    ],
+    "correct": 0,
+    "explanation": "Sistema Global de Navegação por Satélite (Global Navigation Satellite System).",
+    "_id": "q_msuuvqqc_ndf88b"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função do GNSS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Fornecer somente a posição geográfica, enquanto a navegação e a sincronização são funções exclusivas do GPS.",
+      "Fornecer velocidade através da água e profundidade, utilizando sinais de satélites como referência.",
+      "Fornecer exclusivamente sincronização de tempo, deixando posicionamento e navegação para o ARPA.",
+      "Fornecer localização, navegação e sincronização de tempo através de sinais de satélites."
+    ],
+    "correct": 3,
+    "explanation": "Fornecer localização, navegação e sincronização de tempo através de sinais de satélites.",
+    "_id": "q_msuuvqqc_cq6uvu"
+  },
+  {
+    "type": "mc",
+    "question": "Quais constelações fazem parte do GNSS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "GPS (EUA), GLONASS (Rússia), ARPA (IMO) e BeiDou (China).",
+      "GPS (EUA), Galileo (Europa), WGS-84 (global) e GLONASS (Rússia).",
+      "GPS (EUA), Galileo (Europa), GLONASS (Rússia) e BeiDou (China).",
+      "GPS (EUA), Galileo (Europa), RACON (Reino Unido) e BeiDou (China)."
+    ],
+    "correct": 2,
+    "explanation": "GPS (EUA), Galileo (Europa), GLONASS (Rússia) e BeiDou (China).",
+    "_id": "q_msuuvqqc_73idyr"
+  },
+  {
+    "type": "mc",
+    "question": "O GNSS funciona em qualquer ponto do globo?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Não; o GNSS funciona apenas onde haja simultaneamente GPS, Galileo, GLONASS e BeiDou visíveis.",
+      "Sim, desde que haja visibilidade suficiente dos satélites.",
+      "Sim, independentemente da visibilidade dos satélites, pois as estações terrestres sempre fornecem a posição.",
+      "Não; o GNSS só funciona dentro das áreas cobertas por uma estação DGPS."
+    ],
+    "correct": 1,
+    "explanation": "Sim, desde que haja visibilidade suficiente dos satélites.",
+    "_id": "q_msuuvqqc_6rywme"
+  },
+  {
+    "type": "mc",
+    "question": "O que significa a sigla GPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Global Positioning System.",
+      "Global Positioning Satellite.",
+      "Geographic Positioning System.",
+      "Global Positioning Service."
+    ],
+    "correct": 0,
+    "explanation": "Global Positioning System.",
+    "_id": "q_msuuvqqc_4v6nn5"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a diferença entre o GPS e o DGPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "O GPS mede SOG, enquanto o DGPS mede STW com maior precisão.",
+      "O GPS utiliza correções diferenciais de estações terrestres, enquanto o DGPS opera sem correções.",
+      "O GPS funciona apenas com uma constelação, enquanto o DGPS combina obrigatoriamente todas as constelações GNSS.",
+      "O GPS fornece dados básicos de localização; o DGPS utiliza correções adicionais para maior precisão."
+    ],
+    "correct": 3,
+    "explanation": "O GPS fornece dados básicos de localização; o DGPS utiliza correções adicionais para maior precisão.",
+    "_id": "q_msuuvqqc_ydcha8"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a precisão de um receptor GPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "30 metros ou 1% da escala.",
+      "Menos de 1 metro em operação padrão.",
+      "5 a 10 metros.",
+      "1 a 3 metros."
+    ],
+    "correct": 2,
+    "explanation": "5 a 10 metros.",
+    "_id": "q_msuuvqqc_ld0yfq"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a precisão de um receptor DGPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Menos de 1 centímetro em qualquer condição.",
+      "1 a 3 metros.",
+      "5 a 10 metros.",
+      "30 metros ou 1% da escala."
+    ],
+    "correct": 1,
+    "explanation": "1 a 3 metros.",
+    "_id": "q_msuuvqqc_v0tc8c"
+  },
+  {
+    "type": "mc",
+    "question": "O que é um Speed Log?",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Dispositivo utilizado para medir a velocidade de uma embarcação na água.",
+      "Dispositivo utilizado para determinar exclusivamente a velocidade sobre o fundo por meio de sinais de satélite.",
+      "Sistema destinado a medir a profundidade abaixo da embarcação por meio de ondas acústicas.",
+      "Sistema de radar destinado a calcular automaticamente CPA e TCPA."
+    ],
+    "correct": 0,
+    "explanation": "Dispositivo utilizado para medir a velocidade de uma embarcação na água.",
+    "_id": "q_msuuvqqc_ekpuyr"
+  },
+  {
+    "type": "mc",
+    "question": "Quais os princípios de funcionamento de um Speed Log?",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Trilateração e indução eletromagnética.",
+      "Pulsos de radar e trilateração GNSS.",
+      "Bernoulli e reflexão de ondas de radar.",
+      "Doppler e eletromagnético."
+    ],
+    "correct": 3,
+    "explanation": "Doppler e eletromagnético.",
+    "_id": "q_msuuvqqc_sb41sy"
+  },
+  {
+    "type": "mc",
+    "question": "Cite três utilidades do Speed Log.",
+    "category": "Navegação — Speed Log",
+    "options": [
+      "Determinação da profundidade; identificação de RACON; planejamento de viagem.",
+      "Aquisição automática de alvos; determinação da posição; sincronização de tempo.",
+      "Segurança da navegação; determinação da posição; planejamento de viagem.",
+      "Segurança da navegação; determinação do datum; cálculo automático de CPA."
+    ],
+    "correct": 2,
+    "explanation": "Segurança da navegação; determinação da posição; planejamento de viagem.",
+    "_id": "q_msuuvqqc_3insg0"
+  }
+]

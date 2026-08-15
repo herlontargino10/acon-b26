@@ -1,0 +1,644 @@
+[
+  {
+    "type": "tf",
+    "question": "A aquisição automática de alvos no ARPA ativa o rastreamento de todos os ecos dentro do alcance máximo do radar, com a possibilidade de configuração de zonas específicas pelo operador.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do material.",
+    "_id": "q_msuuq1ms_ed6zsh"
+  },
+  {
+    "type": "mc",
+    "question": "O que significa RADAR?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Radio Detection And Rotation.",
+      "Radio Direction And Ranging.",
+      "Radio Detection And Ranging.",
+      "Radar Detection And Ranging."
+    ],
+    "correct": 2,
+    "explanation": "Radio Detection And Ranging.",
+    "_id": "q_msuuq1ms_gog6qm"
+  },
+  {
+    "type": "mc",
+    "question": "Que tipo de ondas o radar utiliza?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Ondas sonoras de alta frequência (ultrassom).",
+      "Ondas eletromagnéticas exclusivamente na faixa infravermelha.",
+      "Ondas mecânicas utilizadas para medir o tempo de voo do eco.",
+      "Ondas eletromagnéticas (micro-ondas)."
+    ],
+    "correct": 3,
+    "explanation": "Ondas eletromagnéticas (micro-ondas).",
+    "_id": "q_msuuq1ms_3evg4c"
+  },
+  {
+    "type": "mc",
+    "question": "Como o radar determina a distância até um alvo?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Pelo tempo que a onda leva para ir até o alvo e retornar (tempo de voo do pulso).",
+      "Pela intensidade do eco recebido, convertida diretamente em milhas náuticas.",
+      "Pelo ângulo do EBL combinado com a largura do feixe.",
+      "Pela diferença entre CPA e TCPA calculada pelo ARPA."
+    ],
+    "correct": 0,
+    "explanation": "Pelo tempo que a onda leva para ir até o alvo e retornar (tempo de voo do pulso).",
+    "_id": "q_msuuq1ms_wlltvd"
+  },
+  {
+    "type": "mc",
+    "question": "Quantos componentes possui um radar básico?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Oito componentes principais.",
+      "Seis componentes principais.",
+      "Cinco componentes principais.",
+      "Sete componentes principais."
+    ],
+    "correct": 1,
+    "explanation": "Seis componentes principais.",
+    "_id": "q_msuuq1ms_9082ep"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a função do Modulador?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Medir a distância exata até o alvo por meio do VRM.",
+      "Gerar uma marca característica na tela para identificação da posição.",
+      "Disparar o transmissor e enviar pulsos de sincronização para o indicador.",
+      "Fornecer todas as tensões AC e DC necessárias ao funcionamento do sistema."
+    ],
+    "correct": 2,
+    "explanation": "Disparar o transmissor e enviar pulsos de sincronização para o indicador.",
+    "_id": "q_msuuq1ms_yeiya5"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a função da Fonte do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Disparar o transmissor e enviar pulsos de sincronização para o indicador.",
+      "Determinar a marcação do alvo por meio do EBL.",
+      "Aumentar a refletividade de embarcações para facilitar sua detecção.",
+      "Fornecer todas as tensões AC e DC necessárias ao funcionamento do sistema."
+    ],
+    "correct": 3,
+    "explanation": "Fornecer todas as tensões AC e DC necessárias ao funcionamento do sistema.",
+    "_id": "q_msuuq1ms_dyolqz"
+  },
+  {
+    "type": "mc",
+    "question": "O que é o VRM?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Variable Range Marker (VRM), utilizado para medir a distância exata até o alvo.",
+      "Variable Radar Marker (VRM), utilizado para medir a marcação exata do alvo.",
+      "Variable Range Marker (VRM), utilizado para medir o CPA do alvo.",
+      "Variable Radar Motion (VRM), utilizado para medir a velocidade relativa do alvo."
+    ],
+    "correct": 0,
+    "explanation": "Variable Range Marker (VRM), utilizado para medir a distância exata até o alvo.",
+    "_id": "q_msuuq1ms_7qktm6"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a precisão exigida pela IMO para o VRM?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Dentro de 1° ou 1% da escala.",
+      "Dentro de 30 metros ou 1% da escala.",
+      "Dentro de 1 metro ou 1% da escala.",
+      "Dentro de 30 metros ou 5% da escala."
+    ],
+    "correct": 1,
+    "explanation": "Dentro de 30 metros ou 1% da escala.",
+    "_id": "q_msuuq1ms_n78e5z"
+  },
+  {
+    "type": "mc",
+    "question": "O que é o EBL?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Electronic Bearing Line (EBL), utilizado para calcular o tempo até o CPA.",
+      "Electronic Bearing Line (EBL), utilizado para determinar a força do eco.",
+      "Electronic Bearing Line (EBL), utilizado para medir a marcação (ângulo) do alvo.",
+      "Electronic Bearing Line (EBL), utilizado para medir a distância exata até o alvo."
+    ],
+    "correct": 2,
+    "explanation": "Electronic Bearing Line (EBL), utilizado para medir a marcação (ângulo) do alvo.",
+    "_id": "q_msuuq1ms_f28tzz"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a precisão exigida pela IMO para o EBL?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Dentro de 30 metros.",
+      "Dentro de 1% da escala.",
+      "Dentro de 5°.",
+      "Dentro de 1°."
+    ],
+    "correct": 3,
+    "explanation": "Dentro de 1°.",
+    "_id": "q_msuuq1ms_2408cl"
+  },
+  {
+    "type": "mc",
+    "question": "O que é o poder discriminador em distância?",
+    "category": "Navegação — Radar",
+    "options": [
+      "É a menor diferença de distância capaz de separar dois alvos na mesma direção.",
+      "É a menor diferença angular capaz de separar dois alvos na mesma distância.",
+      "É a maior distância em que dois alvos podem ser adquiridos simultaneamente.",
+      "É a menor diferença de velocidade capaz de separar dois alvos na mesma direção."
+    ],
+    "correct": 0,
+    "explanation": "É a menor diferença de distância capaz de separar dois alvos na mesma direção.",
+    "_id": "q_msuuq1ms_3dtne0"
+  },
+  {
+    "type": "mc",
+    "question": "O que é o poder discriminador em marcação?",
+    "category": "Navegação — Radar",
+    "options": [
+      "É a menor diferença de velocidade capaz de separar dois alvos na mesma distância.",
+      "É a menor diferença angular capaz de separar dois alvos na mesma distância; depende da largura do feixe.",
+      "É a menor diferença de distância capaz de separar dois alvos na mesma direção; depende da largura do feixe.",
+      "É a maior diferença angular entre dois alvos antes que o ARPA os considere um único alvo."
+    ],
+    "correct": 1,
+    "explanation": "É a menor diferença angular capaz de separar dois alvos na mesma distância; depende da largura do feixe.",
+    "_id": "q_msuuq1ms_shkiu7"
+  },
+  {
+    "type": "mc",
+    "question": "O que é o Racon?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Um refletor passivo que apenas aumenta a refletividade de embarcações ou objetos.",
+      "Um sistema ARPA que rastreia automaticamente o auxílio à navegação e calcula seu CPA.",
+      "Um transponder que responde ao sinal do radar para facilitar a identificação de auxílios à navegação.",
+      "Um dispositivo que gera uma marca característica na tela do radar para identificação de posição."
+    ],
+    "correct": 2,
+    "explanation": "Um transponder que responde ao sinal do radar para facilitar a identificação de auxílios à navegação.",
+    "_id": "q_msuuq1ms_jcjsat"
+  },
+  {
+    "type": "mc",
+    "question": "O que é o Ramark?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Um transponder que responde ao sinal do radar com um sinal identificado.",
+      "Um dispositivo que aumenta a refletividade de embarcações ou objetos para facilitar sua detecção.",
+      "Um recurso do ARPA que gera automaticamente uma zona de vigilância.",
+      "Um dispositivo que gera uma marca característica na tela do radar para identificação de posição."
+    ],
+    "correct": 3,
+    "explanation": "Um dispositivo que gera uma marca característica na tela do radar para identificação de posição.",
+    "_id": "q_msuuq1ms_74avc4"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função dos refletores radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Aumentar a refletividade de embarcações ou objetos para facilitar sua detecção.",
+      "Responder ativamente ao sinal do radar com uma identificação específica do auxílio à navegação.",
+      "Gerar uma marca característica na tela para indicar a posição do objeto.",
+      "Calcular a distância e a marcação do objeto por meio do ARPA."
+    ],
+    "correct": 0,
+    "explanation": "Aumentar a refletividade de embarcações ou objetos para facilitar sua detecção.",
+    "_id": "q_msuuq1ms_u73h24"
+  },
+  {
+    "type": "mc",
+    "question": "O que é um eco de radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "É o sinal de sincronização enviado pelo modulador ao indicador.",
+      "É o sinal refletido por um alvo após a emissão da onda pelo radar.",
+      "É o sinal transmitido ativamente por um RACON após receber o pulso do radar.",
+      "É a marca característica gerada por um RAMARK na tela do radar."
+    ],
+    "correct": 1,
+    "explanation": "É o sinal refletido por um alvo após a emissão da onda pelo radar.",
+    "_id": "q_msuuq1ms_43mtd4"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a diferença entre eco de radar e RACON?",
+    "category": "Navegação — Radar",
+    "options": [
+      "O eco é produzido pelo RAMARK; o RACON é produzido pelo refletor radar passivo.",
+      "O eco e o RACON são reflexões passivas, diferenciando-se apenas pela intensidade do sinal.",
+      "O eco é uma reflexão passiva; o RACON é um transponder ativo que responde ao radar com um sinal identificado.",
+      "O eco é um sinal ativo de transponder; o RACON é uma reflexão passiva do alvo."
+    ],
+    "correct": 2,
+    "explanation": "O eco é uma reflexão passiva; o RACON é um transponder ativo que responde ao radar com um sinal identificado.",
+    "_id": "q_msuuq1ms_f5d63s"
+  },
+  {
+    "type": "mc",
+    "question": "O que é clutter no radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Ecos identificados automaticamente pelo ARPA para cálculo de CPA e TCPA.",
+      "Sinais ativos de RACON utilizados para facilitar a identificação de auxílios.",
+      "Ecos exclusivamente produzidos por embarcações de pequeno porte.",
+      "Ecos indesejados que mascaram os alvos reais."
+    ],
+    "correct": 3,
+    "explanation": "Ecos indesejados que mascaram os alvos reais.",
+    "_id": "q_msuuq1ms_m1g8gu"
+  },
+  {
+    "type": "mc",
+    "question": "Como a chuva afeta o radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Atenua o sinal e pode gerar rain clutter, dificultando a detecção dos alvos.",
+      "Aumenta a intensidade dos ecos e elimina a necessidade de ajuste de ganho.",
+      "Aumenta a resolução angular e melhora a detecção de alvos pequenos.",
+      "Gera exclusivamente ecos identificados pelo RACON, sem reduzir o alcance."
+    ],
+    "correct": 0,
+    "explanation": "Atenua o sinal e pode gerar rain clutter, dificultando a detecção dos alvos.",
+    "_id": "q_msuuq1ms_as505b"
+  },
+  {
+    "type": "mc",
+    "question": "Como a neve e a neblina afetam o radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Geram apenas ecos falsos, sem causar atenuação do sinal.",
+      "Atenuam o sinal e reduzem o alcance e a qualidade da detecção.",
+      "Aumentam o alcance ao curvar as ondas de rádio em direção aos alvos.",
+      "Afetam somente a marcação, sem alterar o alcance ou a qualidade da detecção."
+    ],
+    "correct": 1,
+    "explanation": "Atenuam o sinal e reduzem o alcance e a qualidade da detecção.",
+    "_id": "q_msuuq1ms_9cbhjn"
+  },
+  {
+    "type": "mc",
+    "question": "O que são dutos atmosféricos?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Zonas configuradas no ARPA para aquisição automática de alvos.",
+      "Ecos indesejados provocados exclusivamente pelo mar e pelo solo.",
+      "Fenômenos que curvam as ondas de rádio, alterando alcance e precisão.",
+      "Fenômenos que refletem ondas sonoras e alteram a profundidade medida pelo ecobatímetro."
+    ],
+    "correct": 2,
+    "explanation": "Fenômenos que curvam as ondas de rádio, alterando alcance e precisão.",
+    "_id": "q_msuuq1ms_x9cg0d"
+  },
+  {
+    "type": "mc",
+    "question": "Como o solo, o mar ou edifícios podem interferir no radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Aumentam a precisão do EBL ao fornecerem referências fixas de marcação.",
+      "Produzem sinais ativos semelhantes aos do RACON para identificação automática.",
+      "Eliminam o clutter ao fornecerem ecos estáveis para o processamento do ARPA.",
+      "Produzem ecos indesejados que dificultam a identificação do alvo principal."
+    ],
+    "correct": 3,
+    "explanation": "Produzem ecos indesejados que dificultam a identificação do alvo principal.",
+    "_id": "q_msuuq1ms_3f0kao"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o principal efeito do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Permitir a detecção e localização remota de objetos.",
+      "Permitir o cálculo automático da profundidade abaixo da embarcação.",
+      "Permitir a determinação da posição geográfica por trilateração de satélites.",
+      "Permitir o cálculo do CPA sem necessidade de rastreamento de alvos."
+    ],
+    "correct": 0,
+    "explanation": "Permitir a detecção e localização remota de objetos.",
+    "_id": "q_msuuq1ms_375bpa"
+  },
+  {
+    "type": "mc",
+    "question": "Quais fatores desafiam a precisão do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Somente o ganho e a escala selecionada pelo operador.",
+      "Variações atmosféricas e ambientais.",
+      "Somente a distância do alvo e a largura do feixe.",
+      "Somente o tamanho e o material do alvo."
+    ],
+    "correct": 1,
+    "explanation": "Variações atmosféricas e ambientais.",
+    "_id": "q_msuuq1ms_9v46zb"
+  },
+  {
+    "type": "mc",
+    "question": "O que é um alvo no radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Somente uma embarcação acompanhada automaticamente pelo ARPA.",
+      "Somente um objeto que produza um eco suficientemente forte para ser identificado visualmente.",
+      "Qualquer objeto capaz de refletir o sinal emitido.",
+      "Qualquer objeto que possua um RACON ou RAMARK instalado."
+    ],
+    "correct": 2,
+    "explanation": "Qualquer objeto capaz de refletir o sinal emitido.",
+    "_id": "q_msuuq1ms_4f5g39"
+  },
+  {
+    "type": "mc",
+    "question": "O que influencia a força do eco de um alvo?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Somente tamanho e distância, pois material e forma não alteram o eco.",
+      "Somente material e altura, pois distância e tamanho são compensados automaticamente pelo ARPA.",
+      "Tamanho, material e velocidade, sendo a altura irrelevante para a detecção.",
+      "Tamanho, material, forma, distância e altura."
+    ],
+    "correct": 3,
+    "explanation": "Tamanho, material, forma, distância e altura.",
+    "_id": "q_msuuq1ms_3vlxps"
+  },
+  {
+    "type": "mc",
+    "question": "Como o material do alvo influencia o eco?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Metais refletem melhor as ondas de radar que materiais não metálicos.",
+      "Materiais não metálicos refletem melhor as ondas de radar que metais.",
+      "O material não influencia a reflexão, apenas a distância do alvo determina a força do eco.",
+      "Metais somente refletem melhor quando o alvo está dentro de uma Guard Zone."
+    ],
+    "correct": 0,
+    "explanation": "Metais refletem melhor as ondas de radar que materiais não metálicos.",
+    "_id": "q_msuuq1ms_8pw062"
+  },
+  {
+    "type": "mc",
+    "question": "Como a altura do alvo influencia a detecção?",
+    "category": "Navegação — Radar",
+    "options": [
+      "A altura influencia apenas a marcação, não a distância de detecção.",
+      "Alvos mais altos tendem a ser detectados a maiores distâncias.",
+      "Alvos mais baixos tendem a ser detectados a maiores distâncias porque produzem ecos mais próximos do mar.",
+      "A altura não influencia a distância de detecção, pois somente o material determina o alcance."
+    ],
+    "correct": 1,
+    "explanation": "Alvos mais altos tendem a ser detectados a maiores distâncias.",
+    "_id": "q_msuuq1ms_f819j4"
+  },
+  {
+    "type": "mc",
+    "question": "Como a distância influencia a intensidade do eco?",
+    "category": "Navegação — Radar",
+    "options": [
+      "A distância não altera a intensidade do eco quando o ganho está ajustado automaticamente.",
+      "A intensidade aumenta com a distância somente quando o alvo está dentro de uma Guard Zone.",
+      "Quanto maior a distância, menor tende a ser o eco recebido.",
+      "Quanto maior a distância, maior tende a ser o eco recebido, pois o feixe se amplia."
+    ],
+    "correct": 2,
+    "explanation": "Quanto maior a distância, menor tende a ser o eco recebido.",
+    "_id": "q_msuuq1ms_ws837e"
+  },
+  {
+    "type": "mc",
+    "question": "O que significa ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Automatic Radio Positioning Aid (Auxílio Automático de Posicionamento Rádio).",
+      "Automatic Radar Positioning and Acquisition (Aquisição e Posicionamento Automático por Radar).",
+      "Automatic Radar Plotting and Acquisition (Plotagem e Aquisição Automática por Radar).",
+      "Automatic Radar Plotting Aid (Auxílio Automático de Plotagem Radar)."
+    ],
+    "correct": 3,
+    "explanation": "Automatic Radar Plotting Aid (Auxílio Automático de Plotagem Radar).",
+    "_id": "q_msuuq1ms_s7w9t8"
+  },
+  {
+    "type": "mc",
+    "question": "O que é o sistema de radar ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Equipamento marítimo projetado para aumentar a segurança da navegação e prevenir colisões, automatizando o processo de rastreio de alvos.",
+      "Equipamento marítimo destinado principalmente a medir profundidade e detectar obstáculos abaixo da quilha, automatizando o processo de ecobatímetro.",
+      "Sistema de posicionamento que determina a posição geográfica por trilateração e utiliza o radar apenas como apresentação visual.",
+      "Equipamento que substitui a avaliação do navegante ao transformar automaticamente os dados de radar em ordens de manobra."
+    ],
+    "correct": 0,
+    "explanation": "Equipamento marítimo projetado para aumentar a segurança da navegação e prevenir colisões, automatizando o processo de rastreio de alvos.",
+    "_id": "q_msuuq1ms_6nmur4"
+  },
+  {
+    "type": "mc",
+    "question": "Cite três características e funções do ARPA.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Medição de distância por VRM; medição de marcação por EBL; fornecimento de tensões AC e DC.",
+      "Rastreamento automático de alvos; cálculo de dados de colisão; alertas de perigo.",
+      "Medição de profundidade; determinação de datum; cálculo de velocidade através da água.",
+      "Detecção por ultrassom; cálculo de posição por satélite; identificação por RAMARK."
+    ],
+    "correct": 1,
+    "explanation": "Rastreamento automático de alvos; cálculo de dados de colisão; alertas de perigo.",
+    "_id": "q_msuuq1ms_o32lh3"
+  },
+  {
+    "type": "mc",
+    "question": "Qual capítulo da SOLAS fala sobre obrigatoriedade de equipamentos ARPA a bordo?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Capítulo II-1.",
+      "Capítulo VI.",
+      "Capítulo V.",
+      "Capítulo IV."
+    ],
+    "correct": 2,
+    "explanation": "Capítulo V.",
+    "_id": "q_msuuq1ms_nr2t2o"
+  },
+  {
+    "type": "mc",
+    "question": "Quais são as formas de aquisição de alvos no ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Manual e exclusivamente por Guard Zones.",
+      "Automática e exclusivamente por EBL.",
+      "Manual e exclusivamente por VRM.",
+      "Manual e automática."
+    ],
+    "correct": 3,
+    "explanation": "Manual e automática.",
+    "_id": "q_msuuq1ms_8ar3b6"
+  },
+  {
+    "type": "mc",
+    "question": "O que o ARPA avalia automaticamente?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "O risco de colisão.",
+      "A profundidade abaixo da embarcação.",
+      "O datum utilizado pelo sistema de coordenadas.",
+      "A intensidade da chuva e o nível de clutter."
+    ],
+    "correct": 0,
+    "explanation": "O risco de colisão.",
+    "_id": "q_msuuq1ms_hpr1ij"
+  },
+  {
+    "type": "mc",
+    "question": "O que o ARPA fornece ao operador?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Apenas a identificação dos auxílios à navegação, sem dados de movimento.",
+      "A situação atual e previsões futuras do movimento dos alvos.",
+      "Somente a situação atual, sem qualquer previsão do movimento dos alvos.",
+      "Somente previsões futuras, sem apresentar a situação atual dos alvos."
+    ],
+    "correct": 1,
+    "explanation": "A situação atual e previsões futuras do movimento dos alvos.",
+    "_id": "q_msuuq1ms_6ogusq"
+  },
+  {
+    "type": "mc",
+    "question": "Cite duas informações cruciais calculadas pelo ARPA.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "RACON e RAMARK.",
+      "STW e SOG.",
+      "CPA e TCPA.",
+      "VRM e EBL."
+    ],
+    "correct": 2,
+    "explanation": "CPA e TCPA.",
+    "_id": "q_msuuq1ms_7x55b8"
+  },
+  {
+    "type": "mc",
+    "question": "O que significa CPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Closest Position of Approach.",
+      "Collision Point of Approach.",
+      "Closest Prediction of Arrival.",
+      "Closest Point of Approach."
+    ],
+    "correct": 3,
+    "explanation": "Closest Point of Approach.",
+    "_id": "q_msuuq1ms_hcpber"
+  },
+  {
+    "type": "mc",
+    "question": "O que é o TCPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "É o tempo que se leva até o CPA.",
+      "É a distância mínima que se mantém até o CPA.",
+      "É o tempo decorrido desde a aquisição do alvo até o início do rastreamento.",
+      "É a diferença de tempo entre a emissão do pulso e o retorno do eco."
+    ],
+    "correct": 0,
+    "explanation": "É o tempo que se leva até o CPA.",
+    "_id": "q_msuuq1ms_r434bs"
+  },
+  {
+    "type": "mc",
+    "question": "Cite três limitações do sistema ARPA.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Apenas limitações de alcance; ausência de cálculo de CPA; ausência de rastreamento automático.",
+      "Influência de condições climáticas adversas; perda de alvo em tráfego intenso; resolução do radar.",
+      "Limitação de trilateração; perda de sinal de satélite; influência do calado.",
+      "Necessidade de ultrassom; limitação de transdutor; erro de datum."
+    ],
+    "correct": 1,
+    "explanation": "Influência de condições climáticas adversas; perda de alvo em tráfego intenso; resolução do radar.",
+    "_id": "q_msuuq1ms_gbf730"
+  },
+  {
+    "type": "mc",
+    "question": "Qual faixa corresponde aos alcances pequenos do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 8 e 24 milhas náuticas (MN) ou mais.",
+      "Entre 0,5 e 8 milhas náuticas (MN).",
+      "Entre 0,5 e 4 milhas náuticas (MN).",
+      "Entre 4 e 8 milhas náuticas (MN)."
+    ],
+    "correct": 2,
+    "explanation": "Entre 0,5 e 4 milhas náuticas (MN).",
+    "_id": "q_msuuq1ms_wdoj10"
+  },
+  {
+    "type": "mc",
+    "question": "Qual faixa corresponde aos alcances médios do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 0,5 e 4 MN.",
+      "Entre 8 e 24 MN ou mais.",
+      "Entre 6 e 10 MN.",
+      "Entre 4 e 8 MN."
+    ],
+    "correct": 3,
+    "explanation": "Entre 4 e 8 MN.",
+    "_id": "q_msuuq1ms_d3y9eg"
+  },
+  {
+    "type": "mc",
+    "question": "Qual faixa corresponde aos alcances longos do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 8 e 24 MN ou mais.",
+      "Entre 4 e 8 MN.",
+      "Entre 0,5 e 4 MN.",
+      "Entre 6 e 10 MN."
+    ],
+    "correct": 0,
+    "explanation": "Entre 8 e 24 MN ou mais.",
+    "_id": "q_msuuq1ms_vcqe12"
+  },
+  {
+    "type": "mc",
+    "question": "Até que distância pequenos barcos de madeira costumam ser detectados?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 8 e 24 MN ou mais.",
+      "Entre 0,5 e 4 MN.",
+      "Entre 4 e 8 MN.",
+      "Entre 6 e 10 MN."
+    ],
+    "correct": 1,
+    "explanation": "Entre 0,5 e 4 MN.",
+    "_id": "q_msuuq1ms_25n7e8"
+  },
+  {
+    "type": "mc",
+    "question": "Até que distância navios pequenos costumam ser detectados?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Entre 4 e 8 MN.",
+      "Entre 8 e 24 MN ou mais.",
+      "Entre 6 e 10 MN.",
+      "Entre 0,5 e 4 MN."
+    ],
+    "correct": 2,
+    "explanation": "Entre 6 e 10 MN.",
+    "_id": "q_msuuq1ms_ssssbv"
+  }
+]

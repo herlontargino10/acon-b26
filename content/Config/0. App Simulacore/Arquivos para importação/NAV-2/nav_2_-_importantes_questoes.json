@@ -1,0 +1,372 @@
+[
+  {
+    "type": "mc",
+    "question": "Explique o princípio de funcionamento do GNSS.",
+    "category": "Navegação — GNSS e Datum",
+    "options": [
+      "O receptor recebe sinais de pelo menos quatro satélites e determina a posição principalmente pela reflexão desses sinais no fundo, utilizando o tempo de retorno para calcular a profundidade.",
+      "O receptor utiliza sinais de satélite para determinar a posição, mas calcula a distância dos alvos por reflexão de ondas eletromagnéticas e não por trilateração.",
+      "O receptor utiliza a posição de satélites para obter a localização, mas a velocidade da embarcação através da água é a referência necessária para determinar a posição tridimensional.",
+      "O receptor recebe sinais de pelo menos quatro satélites, mede o tempo de propagação e calcula as distâncias até eles para determinar a posição tridimensional e o tempo exato por trilateração."
+    ],
+    "correct": 3,
+    "explanation": "O receptor recebe sinais de pelo menos quatro satélites, mede o tempo de propagação e calcula as distâncias até eles para determinar a posição tridimensional e o tempo exato por trilateração.",
+    "_id": "q_msuuldrv_apm1b0"
+  },
+  {
+    "type": "mc",
+    "question": "Explique o que é Datum.",
+    "category": "Navegação — GNSS e Datum",
+    "options": [
+      "Modelo de referência utilizado pelo radar para converter a reflexão de ondas eletromagnéticas em distância e marcação.",
+      "Modelo utilizado pelo ecobatímetro para converter o tempo de ida e volta do ultrassom diretamente em coordenadas geográficas.",
+      "Modelo matemático de referência utilizado pelos sistemas de coordenadas geográficas.",
+      "Modelo matemático utilizado pelo ARPA para calcular CPA e TCPA a partir do movimento relativo dos alvos."
+    ],
+    "correct": 2,
+    "explanation": "Modelo matemático de referência utilizado pelos sistemas de coordenadas geográficas.",
+    "_id": "q_msuuldrv_wgt5qa"
+  },
+  {
+    "type": "mc",
+    "question": "Cite e explique uma limitação do radar ARPA no rastreamento de alvos.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "A limitação decorre do fato de que o ARPA só consegue acompanhar alvos quando o operador mede manualmente sua distância com o VRM e sua marcação com o EBL.",
+      "O rastreamento pode ser perdido ou confundido em chuva intensa, mar agitado ou tráfego denso, devido a rain clutter, sea clutter, target swap e limitações de resolução.",
+      "A principal limitação ocorre quando o radar utiliza o modo de onda contínua, pois esse modo impede a aquisição automática dos alvos pelas Guard Zones.",
+      "A limitação ocorre porque o ARPA calcula CPA e TCPA apenas para alvos detectados pelo GNSS, não sendo possível acompanhar alvos obtidos pelo radar."
+    ],
+    "correct": 1,
+    "explanation": "O rastreamento pode ser perdido ou confundido em chuva intensa, mar agitado ou tráfego denso, devido a rain clutter, sea clutter, target swap e limitações de resolução.",
+    "_id": "q_msuuldrv_b9gj4y"
+  },
+  {
+    "type": "tf",
+    "question": "Segundo a Resolução A.823(19) da IMO, o ARPA deve fornecer dados de CPA e TCPA dentro de 1 a 3 minutos de rastreamento em estado estacionário.",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do card original.",
+    "_id": "q_msuuldrv_1qjnn4"
+  },
+  {
+    "type": "tf",
+    "question": "O ecobatímetro utiliza ondas sonoras com frequência inferior a 18 kHz ou ultrassonoras com frequência superior a 18 kHz, transmitidas verticalmente pelo transdutor instalado no casco.",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do card original.",
+    "_id": "q_msuuldrv_1ytypd"
+  },
+  {
+    "type": "tf",
+    "question": "O transdutor do ecobatímetro desempenha apenas a função de converter os ecos recebidos em sinais elétricos na recepção.",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O transdutor atua tanto na transmissão quanto na recepção das ondas sonoras.",
+    "_id": "q_msuuldrv_26rtu9"
+  },
+  {
+    "type": "tf",
+    "question": "A presença de grande quantidade de sedimentos em suspensão na água pode distorcer a leitura de profundidade do ecobatímetro, representando uma limitação operacional do equipamento.",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta preservada do card original.",
+    "_id": "q_msuuldrv_smjqb6"
+  },
+  {
+    "type": "mc",
+    "question": "Quais são os três principais objetivos da navegação eletrônica?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Segurança; Eficiência; Conformidade.",
+      "Segurança; Eficiência; Precisão de posicionamento exclusivamente por GNSS.",
+      "Eficiência; Conformidade; acompanhamento automático de alvos exclusivamente por ARPA.",
+      "Segurança; Precisão; substituição do Oficial de Quarto por sistemas automáticos."
+    ],
+    "correct": 0,
+    "explanation": "Segurança; Eficiência; Conformidade.",
+    "_id": "q_msuuldrv_9dt0sw"
+  },
+  {
+    "type": "mc",
+    "question": "Explique o princípio de funcionamento do RADAR.",
+    "category": "Navegação — Radar",
+    "options": [
+      "Transmite ondas sonoras, recebe o eco refletido pelo fundo, mede o tempo de ida e volta e calcula a profundidade da água.",
+      "Recebe sinais eletromagnéticos de satélites, mede o tempo de propagação e calcula a posição tridimensional por trilateração.",
+      "Produz uma voltagem na água proporcional à velocidade da embarcação e utiliza essa resposta para calcular distância e posição dos alvos.",
+      "Transmite ondas eletromagnéticas, recebe o eco refletido, mede o tempo de ida e volta e calcula distância, posição e velocidade dos alvos."
+    ],
+    "correct": 3,
+    "explanation": "Transmite ondas eletromagnéticas, recebe o eco refletido, mede o tempo de ida e volta e calcula distância, posição e velocidade dos alvos.",
+    "_id": "q_msuuldrv_q6t70y"
+  },
+  {
+    "type": "mc",
+    "question": "Quais os principais tipos de radar quanto à modulação?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Radar de Onda Contínua; Radar ARPA; Radar de Ultrassom.",
+      "Radar Doppler; Radar GNSS; Radar de Pulsos.",
+      "Radar de Pulsos; Radar de Onda Contínua; Radar Doppler.",
+      "Radar de Pulsos; Radar Doppler; Radar de Ultrassom."
+    ],
+    "correct": 2,
+    "explanation": "Radar de Pulsos; Radar de Onda Contínua; Radar Doppler.",
+    "_id": "q_msuuldrv_bsxt0l"
+  },
+  {
+    "type": "mc",
+    "question": "Qual tipo de radar é normalmente empregado na navegação marítima?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Radar GNSS.",
+      "Radar de Pulsos.",
+      "Radar de Onda Contínua.",
+      "Radar Doppler."
+    ],
+    "correct": 1,
+    "explanation": "Radar de Pulsos.",
+    "_id": "q_msuuldrv_74iebi"
+  },
+  {
+    "type": "mc",
+    "question": "Quais fatores externos afetam o desempenho do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Condições atmosféricas, dutos atmosféricos, interferência do solo/mar, edifícios e clutter.",
+      "Somente condições atmosféricas e dutos atmosféricos, pois o solo e o mar não interferem no radar marítimo.",
+      "Condições da água, salinidade e temperatura, que determinam diretamente a velocidade do ultrassom utilizado pelo radar.",
+      "Somente edifícios e terreno, pois chuva, neve, neblina e clutter são eliminados automaticamente pelo processamento do ARPA."
+    ],
+    "correct": 0,
+    "explanation": "Condições atmosféricas, dutos atmosféricos, interferência do solo/mar, edifícios e clutter.",
+    "_id": "q_msuuldrv_4ojfai"
+  },
+  {
+    "type": "mc",
+    "question": "Quais características do alvo influenciam sua detecção?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Tamanho, forma e material do alvo, mas distância e orientação não influenciam a detecção porque são determinadas pelo ARPA.",
+      "Distância, altura e orientação do alvo, mas tamanho e material não influenciam porque o radar identifica todos os alvos da mesma forma.",
+      "Somente tamanho e distância, pois forma, material, altura e orientação não alteram a resposta do radar.",
+      "Tamanho, forma, material, distância, altura e orientação em relação ao radar."
+    ],
+    "correct": 3,
+    "explanation": "Tamanho, forma, material, distância, altura e orientação em relação ao radar.",
+    "_id": "q_msuuldrv_ue5hl9"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a principal função do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Determinar a posição da embarcação por trilateração de sinais de satélite.",
+      "Medir a velocidade da embarcação através da água por meio de uma voltagem gerada no meio aquático.",
+      "Detectar e localizar objetos por meio da reflexão de ondas de rádio.",
+      "Detectar e localizar objetos por meio da reflexão de ondas sonoras, utilizando o mesmo princípio do ecobatímetro."
+    ],
+    "correct": 2,
+    "explanation": "Detectar e localizar objetos por meio da reflexão de ondas de rádio.",
+    "_id": "q_msuuldrv_vmyk1q"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o principal efeito útil do radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Permitir a medição direta da velocidade através da água por meio da indução eletromagnética.",
+      "Permitir a detecção e localização remota de objetos.",
+      "Permitir a determinação da profundidade abaixo da embarcação por meio do eco do fundo.",
+      "Permitir a determinação da posição geográfica por trilateração de satélites."
+    ],
+    "correct": 1,
+    "explanation": "Permitir a detecção e localização remota de objetos.",
+    "_id": "q_msuuldrv_l9t4be"
+  },
+  {
+    "type": "mc",
+    "question": "Quais fatores ambientais afetam o radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Chuva, neve, neblina, umidade, mar, terreno e condições atmosféricas.",
+      "Somente chuva e neve, porque neblina e umidade não alteram o desempenho do radar.",
+      "Somente mar e terreno, porque condições atmosféricas não influenciam a propagação das ondas de radar.",
+      "Somente umidade e temperatura, porque chuva, neve, mar e terreno são compensados automaticamente pelo ARPA."
+    ],
+    "correct": 0,
+    "explanation": "Chuva, neve, neblina, umidade, mar, terreno e condições atmosféricas.",
+    "_id": "q_msuuldrv_px7cup"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a principal função do ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Auxiliar na prevenção de colisões calculando somente a profundidade e o calado da embarcação.",
+      "Determinar a posição geográfica da embarcação por trilateração de sinais de satélite e transmitir essa posição ao radar.",
+      "Medir a velocidade da embarcação através da água e utilizar essa velocidade para calcular automaticamente a profundidade.",
+      "Auxiliar na prevenção de colisões acompanhando automaticamente diversos alvos."
+    ],
+    "correct": 3,
+    "explanation": "Auxiliar na prevenção de colisões acompanhando automaticamente diversos alvos.",
+    "_id": "q_msuuldrv_g0ecc8"
+  },
+  {
+    "type": "mc",
+    "question": "O ARPA substitui o Oficial de Quarto?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Sim. O cálculo de CPA e TCPA permite ao ARPA determinar sozinho a ação evasiva correta.",
+      "Não. Porém, quando o Trial Maneuver é utilizado, a decisão do Oficial deixa de ser necessária.",
+      "Não. Apenas auxilia a tomada de decisão.",
+      "Sim. Depois que os alvos são adquiridos automaticamente, o ARPA passa a ser responsável pela decisão de manobra."
+    ],
+    "correct": 2,
+    "explanation": "Não. Apenas auxilia a tomada de decisão.",
+    "_id": "q_msuuldrv_sa5amc"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a principal vantagem do ARPA?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Processar automaticamente vários alvos e eliminar as limitações provocadas por chuva, mar agitado e tráfego denso.",
+      "Processar automaticamente vários alvos simultaneamente.",
+      "Processar automaticamente vários alvos e substituir a avaliação do Oficial de Quarto na decisão de manobra.",
+      "Processar automaticamente vários alvos, mas somente quando todos forem detectados pelo GNSS."
+    ],
+    "correct": 1,
+    "explanation": "Processar automaticamente vários alvos simultaneamente.",
+    "_id": "q_msuuldrv_c0jmot"
+  },
+  {
+    "type": "mc",
+    "question": "Quantos alvos o ARPA pode acompanhar?",
+    "category": "Navegação — ARPA",
+    "options": [
+      "Dependendo do equipamento, cerca de 20 ou mais.",
+      "Exatamente 20 em qualquer equipamento, pois essa é a capacidade padrão do ARPA.",
+      "No máximo quatro, porque os demais alvos não podem ter CPA e TCPA calculados simultaneamente.",
+      "Somente um alvo por vez, sendo necessário alternar manualmente entre os alvos adquiridos."
+    ],
+    "correct": 0,
+    "explanation": "Dependendo do equipamento, cerca de 20 ou mais.",
+    "_id": "q_msuuldrv_r38rtr"
+  },
+  {
+    "type": "mc",
+    "question": "O que é um ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Equipamento que mede a profundidade abaixo da embarcação por meio da reflexão de ondas eletromagnéticas, como o radar.",
+      "Equipamento que determina a profundidade utilizando trilateração de sinais de satélite e coordenadas geográficas.",
+      "Equipamento que mede a velocidade da embarcação na água e utiliza essa velocidade para calcular a profundidade.",
+      "Equipamento que mede a profundidade da água abaixo da embarcação por meio da reflexão de ondas sonoras (ultrassom)."
+    ],
+    "correct": 3,
+    "explanation": "Equipamento que mede a profundidade da água abaixo da embarcação por meio da reflexão de ondas sonoras (ultrassom).",
+    "_id": "q_msuuldrv_aoyvnj"
+  },
+  {
+    "type": "mc",
+    "question": "Como funciona um ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Recebe sinais de pelo menos quatro satélites, calcula as distâncias até eles e determina a profundidade por trilateração.",
+      "Gera uma voltagem na água proporcional à velocidade da embarcação e utiliza essa resposta para calcular a profundidade.",
+      "Emite um pulso de ultrassom, recebe o eco refletido pelo fundo e calcula a profundidade pelo tempo de ida e volta da onda sonora.",
+      "Emite um pulso de ondas eletromagnéticas, recebe o eco refletido pelo fundo e calcula a profundidade pelo tempo de ida e volta do sinal."
+    ],
+    "correct": 2,
+    "explanation": "Emite um pulso de ultrassom, recebe o eco refletido pelo fundo e calcula a profundidade pelo tempo de ida e volta da onda sonora.",
+    "_id": "q_msuuldrv_34e06g"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o principal benefício do ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Fornecer a profundidade em tempo real e determinar simultaneamente a marcação dos alvos por meio do EBL.",
+      "Fornecer a profundidade em tempo real, aumentando a segurança da navegação e reduzindo o risco de encalhes.",
+      "Fornecer a profundidade em tempo real e, a partir dela, calcular automaticamente CPA e TCPA para os alvos.",
+      "Fornecer a profundidade em tempo real utilizando sinais de satélite, reduzindo a dependência da correta instalação do transdutor."
+    ],
+    "correct": 1,
+    "explanation": "Fornecer a profundidade em tempo real, aumentando a segurança da navegação e reduzindo o risco de encalhes.",
+    "_id": "q_msuuldrv_zolsrk"
+  },
+  {
+    "type": "mc",
+    "question": "Quais são as principais vantagens do ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Medição rápida, automática e precisa; operação simples; monitoramento contínuo da profundidade; auxílio à navegação segura.",
+      "Medição rápida e contínua da profundidade, além de rastreamento automático de alvos e cálculo de CPA e TCPA.",
+      "Medição automática da profundidade em qualquer direção ao redor da embarcação, com alcance ilimitado e sem influência das condições da água.",
+      "Medição precisa da profundidade e determinação automática da posição geográfica por trilateração de sinais de satélite."
+    ],
+    "correct": 0,
+    "explanation": "Medição rápida, automática e precisa; operação simples; monitoramento contínuo da profundidade; auxílio à navegação segura.",
+    "_id": "q_msuuldrv_egriv5"
+  },
+  {
+    "type": "mc",
+    "question": "Quais são as principais desvantagens do ecobatímetro?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Alcance limitado e medição somente abaixo da embarcação, mas sem influência das condições da água e sem necessidade de calibração do transdutor.",
+      "Influência das condições da água e dependência do transdutor, mas com alcance ilimitado e capacidade de medir em todas as direções.",
+      "Alcance limitado e influência das condições da água, mas capaz de substituir o radar na detecção de objetos acima da superfície.",
+      "Alcance limitado, influência das condições da água, mede apenas abaixo da embarcação e depende da correta instalação e calibração do transdutor."
+    ],
+    "correct": 3,
+    "explanation": "Alcance limitado, influência das condições da água, mede apenas abaixo da embarcação e depende da correta instalação e calibração do transdutor.",
+    "_id": "q_msuuldrv_hmukph"
+  },
+  {
+    "type": "mc",
+    "question": "Qual a importância do Datum?",
+    "category": "Navegação — GNSS e Datum",
+    "options": [
+      "Garante a compatibilidade entre o Speed Log e o GNSS e elimina a diferença entre STW e SOG.",
+      "Garante que o ARPA possa calcular CPA e TCPA mesmo sem receber dados do radar.",
+      "Garante a compatibilidade entre sistemas de coordenadas e evita erros de posicionamento.",
+      "Garante a compatibilidade entre sistemas de radar e ecobatímetros e evita erros na medição da profundidade."
+    ],
+    "correct": 2,
+    "explanation": "Garante a compatibilidade entre sistemas de coordenadas e evita erros de posicionamento.",
+    "_id": "q_msuuldrv_vq9nzf"
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função do DATUM?",
+    "category": "Navegação — GNSS e Datum",
+    "options": [
+      "Servir como referência para o Speed Log, convertendo a velocidade através da água em velocidade sobre o fundo.",
+      "Servir como referência para o sistema de coordenadas geográficas, garantindo que a localização dos pontos seja precisa e sem ambiguidades.",
+      "Servir como referência para o sistema de coordenadas do radar, garantindo que distância e marcação sejam calculadas sem depender do eco refletido.",
+      "Servir como referência para o ecobatímetro, convertendo diretamente o tempo de retorno do ultrassom em profundidade e calado."
+    ],
+    "correct": 1,
+    "explanation": "Servir como referência para o sistema de coordenadas geográficas, garantindo que a localização dos pontos seja precisa e sem ambiguidades.",
+    "_id": "q_msuuldrv_zt1f5u"
+  }
+]
