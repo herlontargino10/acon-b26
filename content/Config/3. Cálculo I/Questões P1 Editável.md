@@ -4,56 +4,56 @@
 ![[Pasted image 20260814133312.png]]
 
 
-- [ ] **1.1)** O valor de $g(x)$, caso exista.
+- [ ] **2.1)** O valor de $g(x)$, caso exista.
 
-- [ ] **1.2)** O limite lateral direito:
+- [ ] **2.2)** O limite lateral direito:
 $$
 \lim_{x\to -2^+} g(x)
 $$
 
-- [ ] **1.3)** O limite lateral esquerdo:
+- [ ] **2.3)** O limite lateral esquerdo:
 $$
 \lim_{x\to -2^-} g(x)
 $$
 
-- [ ] **1.4)** O limite da função, apresentando a devida justificativa:
+- [ ] **2.4)** O limite da função, apresentando a devida justificativa:
 $$
 \lim_{x\to -2} g(x)
 $$
 
-- [ ] **1.5)** A continuidade da função, demonstrando matematicamente.
+- [ ] **2.5)** A continuidade da função, demonstrando matematicamente.
 
 
 ---
 
 ## 2ª Questão - Calcule os limites abaixo (Cálculo direto):
 
-- [ ] **2.1)**
+- [ ] **3.1)**
 $$
 \lim_{x\to1}
 \frac{x^2+5-\sqrt{8}}
 {\sqrt{3+x}-\sqrt{3-x}}
 $$
 
-- [ ] **2.1)**
+- [ ] **3.2)**
 $$
 \lim_{x\to2}\sqrt[4]{625x^8}
 $$
 
-- [ ] **2.1)**
+- [ ] **3.3)**
 $$
 \lim_{x\to-3}
 \frac{7x^3}{21x}
 $$
 
-- [ ] **2.1)**
+- [ ] **3.4)**
 $$
 \lim_{x\to-1}
 \frac{x^5+x^4-x^3+x^2-x-53}{}
 $$
 
 
-- [ ] **2.2)**
+- [ ] **5.2) Não é cálculo direto - Parece com a 5.2 do Trabalho**
 $$
 g(x)=\frac{2x}{x-3}
 $$
@@ -66,13 +66,13 @@ em $x=3$.
 ## 3ª Questão - Encontre os limites abaixo:
 
 
-- [ ] **3.1)**
+- [ ] **4.1)**
 $$
 \lim_{x\to2}
 \frac{x^4-5x^3+6x^2+4x-8}{x-2}
 $$
 
-- [ ] **3.2)**
+- [ ] **4.3)**
 $$
 \lim_{x\to2}
 \frac{x^2-5x+6}{x^2-4}
@@ -83,7 +83,7 @@ $$
 
 ## 4ª Questão - Calcule os limites laterais para as funções abaixo:
 
-- [ ] **4.1)**
+- [ ] **5.1)**
 
 $$
 f(x)=

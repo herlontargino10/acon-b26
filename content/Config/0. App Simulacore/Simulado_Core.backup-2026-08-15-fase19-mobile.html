@@ -5,99 +5,22 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>SimulaCore</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='50' fill='%23181c25'/><circle cx='50' cy='50' r='42' fill='none' stroke='%234c8dfa' stroke-width='6'/><text y='67' x='50' text-anchor='middle' font-family='system-ui,Arial,sans-serif' font-weight='900' font-size='54' fill='%23dde1e8'>S</text></svg>">
-<script>
-/* Aplica o tema salvo (se houver) antes do primeiro paint, para não
-   piscar o tema errado ao abrir. Só lê a preferência visual — nada de
-   progresso/revisão/favoritos é tocado aqui. */
-(function () {
-  try {
-    var t = localStorage.getItem('cia_theme_v1');
-    if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
-  } catch (_) {}
-})();
-</script>
 <style>
 /* ── Variáveis ──────────────────────────────────── */
-/* Escuro é o padrão em :root. Sem preferência salva, o navegador decide
-   pelo SO (prefers-color-scheme). Com preferência salva, [data-theme]
-   sempre vence — nos dois sentidos — pois attribute selector tem
-   especificidade maior que :root sozinho. O claro NÃO é o escuro
-   invertido: azul/verde/vermelho/âmbar são recalibrados por tema para
-   manter contraste correto contra o fundo oposto. */
 :root {
   --bg:      #12151c;
   --surface: #181c25;
   --card:    #1c212b;
   --card2:   #232935;
-  --border:  #262c38;
+  --border:  #2a3040;
   --txt:     #dde1e8;
-  --txt-soft:#cbd5e1;
   --muted:   #8993a4;
   --blue:    #4c8dfa;
   --blue2:   #2563eb;
   --green:   #22a878;
   --red:     #e4584f;
   --amber:   #d99a3a;
-  --violet:  #a78bfa;
   --r:       13px;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,.3);
-  --shadow-md: 0 6px 20px rgba(0,0,0,.38);
-}
-@media (prefers-color-scheme: light) {
-  :root {
-    --bg:      #f4f5f7;
-    --surface: #ffffff;
-    --card:    #ffffff;
-    --card2:   #eef0f3;
-    --border:  #e2e4e9;
-    --txt:     #1a1d24;
-    --txt-soft:#3a4150;
-    --muted:   #5b6270;
-    --blue:    #2f5fd6;
-    --blue2:   #1d47ad;
-    --green:   #16875a;
-    --red:     #c9362b;
-    --amber:   #a66a1a;
-    --violet:  #6d40d6;
-    --shadow-sm: 0 1px 2px rgba(15,23,42,.07);
-    --shadow-md: 0 6px 18px rgba(15,23,42,.1);
-  }
-}
-:root[data-theme="dark"] {
-  --bg:      #12151c;
-  --surface: #181c25;
-  --card:    #1c212b;
-  --card2:   #232935;
-  --border:  #262c38;
-  --txt:     #dde1e8;
-  --txt-soft:#cbd5e1;
-  --muted:   #8993a4;
-  --blue:    #4c8dfa;
-  --blue2:   #2563eb;
-  --green:   #22a878;
-  --red:     #e4584f;
-  --amber:   #d99a3a;
-  --violet:  #a78bfa;
-  --shadow-sm: 0 1px 3px rgba(0,0,0,.3);
-  --shadow-md: 0 6px 20px rgba(0,0,0,.38);
-}
-:root[data-theme="light"] {
-  --bg:      #f4f5f7;
-  --surface: #ffffff;
-  --card:    #ffffff;
-  --card2:   #eef0f3;
-  --border:  #e2e4e9;
-  --txt:     #1a1d24;
-  --txt-soft:#3a4150;
-  --muted:   #5b6270;
-  --blue:    #2f5fd6;
-  --blue2:   #1d47ad;
-  --green:   #16875a;
-  --red:     #c9362b;
-  --amber:   #a66a1a;
-  --violet:  #6d40d6;
-  --shadow-sm: 0 1px 2px rgba(15,23,42,.07);
-  --shadow-md: 0 6px 18px rgba(15,23,42,.1);
 }
 *,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
 
@@ -110,27 +33,12 @@ body {
   line-height: 1.6;
 }
 
-/* ── Ícones (sprite Lucide) ──────────────────────── */
-.icon {
-  width: 1em; height: 1em;
-  flex-shrink: 0;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  vertical-align: -0.15em;
-}
-/* estados preenchidos (favoritar / marcar) — mesmo traço do ícone,
-   mas com a forma preenchida, equivalente ao emoji cheio vs. vazio */
-.icon-filled { fill: currentColor; }
-
 /* ── Cabeçalho fixo ─────────────────────────────── */
 #header {
   position: sticky;
   top: 0;
   z-index: 100;
-  background: color-mix(in srgb, var(--bg) 97%, transparent);
+  background: rgba(18,21,28,.97);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
   padding: 12px 20px 10px;
@@ -191,35 +99,17 @@ body {
   font-size: 13px;
   color: var(--muted);
 }
-/* botão de alternância de tema — compacto, entra no wrap do .hd-meta */
-.theme-toggle {
-  width: 28px; height: 28px;
-  display: inline-flex; align-items: center; justify-content: center;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  color: var(--txt);
-  font-size: 13px;
-  line-height: 1;
-  cursor: pointer;
-  padding: 0;
-  flex-shrink: 0;
-  font-family: inherit;
-  transition: border-color .15s;
-}
-.theme-toggle:hover { border-color: var(--blue); }
 #timer {
   font-variant-numeric: tabular-nums;
   font-weight: 700;
   color: var(--txt);
   min-width: 42px;
-  white-space: nowrap;
   transition: color .4s;
 }
 /* feedback visual do timer por tempo decorrido */
 #timer.warn { color: var(--amber); }
 #timer.crit { color: var(--red); }
-#q-counter { font-weight: 700; color: var(--txt); white-space: nowrap; }
+#q-counter { font-weight: 700; color: var(--txt); }
 
 /* barra de progresso */
 .prog-track {
@@ -252,8 +142,8 @@ body {
   font-size: 13px;
   font-weight: 800;
   color: var(--txt);
-  background: color-mix(in srgb, var(--blue) 12%, transparent);
-  border: 1px solid color-mix(in srgb, var(--blue) 25%, transparent);
+  background: rgba(76,141,250,.12);
+  border: 1px solid rgba(76,141,250,.25);
   border-radius: 6px;
   padding: 2px 8px;
 }
@@ -284,8 +174,8 @@ body {
   user-select: none;
   white-space: nowrap;
 }
-.mode-badge.study { border-color: var(--green); color: var(--green); background: color-mix(in srgb, var(--green) 10%, transparent); }
-.mode-badge.exam  { border-color: var(--amber); color: var(--amber); background: color-mix(in srgb, var(--amber) 10%, transparent); }
+.mode-badge.study { border-color: var(--green); color: var(--green); background: rgba(34,168,120,.1); }
+.mode-badge.exam  { border-color: var(--amber); color: var(--amber); background: rgba(217,154,58,.1); }
 
 /* ── Layout principal ───────────────────────────── */
 #app { max-width: 820px; margin: 0 auto; padding: 28px 20px 80px; }
@@ -296,7 +186,7 @@ body {
   border: 1px solid var(--border);
   border-radius: var(--r);
   padding: 28px;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
 /* animação só na troca de questão — evita jitter em pick/verify */
 .card.entering { animation: fadeUp .2s ease; }
@@ -337,13 +227,9 @@ body {
   cursor: pointer;
   transition: border-color .15s, background .15s, transform .15s, box-shadow .15s;
 }
-.home-opt:hover  { border-color: var(--blue); transform: translateY(-1px); box-shadow: var(--shadow-sm); }
-.home-opt.active { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 8%, transparent); }
-.home-opt-icon { font-size: 22px; flex-shrink: 0; }
-/* nome/contagem de questões: podem quebrar em várias linhas, mas nunca
-   forçar o card a ficar mais largo que a tela (min-width:0 permite ao
-   item flex encolher abaixo do seu conteúdo "natural") */
-.home-opt-text { min-width: 0; overflow-wrap: break-word; }
+.home-opt:hover  { border-color: var(--blue); transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+.home-opt.active { border-color: var(--blue); background: rgba(76,141,250,.08); }
+.home-opt-icon { font-size: 22px; }
 .home-opt-text strong { display: block; font-size: 15px; }
 .home-opt-text span   { font-size: 13px; color: var(--muted); }
 .home-btn-row { display: flex; gap: 10px; }
@@ -358,9 +244,9 @@ body {
   display: inline-flex; align-items: center;
   padding: 4px 12px;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--blue) 13%, transparent);
-  border: 1px solid color-mix(in srgb, var(--blue) 28%, transparent);
-  color: var(--blue);
+  background: rgba(76,141,250,.13);
+  border: 1px solid rgba(76,141,250,.28);
+  color: #93c5fd;
   font-size: 11px; font-weight: 700;
   text-transform: uppercase; letter-spacing: .07em;
 }
@@ -375,13 +261,12 @@ body {
   font-family: inherit;
 }
 .btn-flag:hover  { border-color: var(--amber); color: var(--amber); }
-.btn-flag.flagged { background: color-mix(in srgb, var(--amber) 14%, transparent); border-color: var(--amber); color: var(--amber); }
+.btn-flag.flagged { background: rgba(217,154,58,.14); border-color: var(--amber); color: var(--amber); }
 
 .q-text {
   font-size: 18px; font-weight: 600;
   color: var(--txt); line-height: 1.55;
   margin-bottom: 22px;
-  overflow-wrap: break-word;
 }
 
 /* ── Opções MC ──────────────────────────────────── */
@@ -395,13 +280,11 @@ body {
   display: flex; align-items: center; gap: 12px;
   user-select: none;
   font-size: 15px;
-  overflow-wrap: break-word;
-  min-width: 0;
 }
-.option:hover:not(.locked) { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 6%, transparent); box-shadow: inset 3px 0 0 color-mix(in srgb, var(--blue) 35%, transparent); }
-.option.selected { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 9%, transparent); box-shadow: inset 3px 0 0 color-mix(in srgb, var(--blue) 55%, transparent); }
-.option.correct  { border-color: var(--green); background: color-mix(in srgb, var(--green) 11%, transparent); box-shadow: inset 3px 0 0 color-mix(in srgb, var(--green) 55%, transparent); }
-.option.wrong    { border-color: var(--red);   background: color-mix(in srgb, var(--red) 11%, transparent);  box-shadow: inset 3px 0 0 color-mix(in srgb, var(--red) 55%, transparent); }
+.option:hover:not(.locked) { border-color: var(--blue); background: rgba(76,141,250,.06); box-shadow: inset 3px 0 0 rgba(76,141,250,.35); }
+.option.selected { border-color: var(--blue); background: rgba(76,141,250,.09); box-shadow: inset 3px 0 0 rgba(76,141,250,.55); }
+.option.correct  { border-color: var(--green); background: rgba(34,168,120,.11); box-shadow: inset 3px 0 0 rgba(34,168,120,.55); }
+.option.wrong    { border-color: var(--red);   background: rgba(228,88,79,.11);  box-shadow: inset 3px 0 0 rgba(228,88,79,.55); }
 .option.locked   { cursor: default; }
 /* animações de feedback — só no render imediatamente após verificar */
 .option.correct.anim { animation: pop .3s ease; }
@@ -437,8 +320,8 @@ body {
   transition: border-color .15s;
 }
 .gap-input:focus   { border-color: var(--blue); }
-.gap-input.correct { border-color: var(--green); background: color-mix(in srgb, var(--green) 7%, transparent); }
-.gap-input.wrong   { border-color: var(--red);   background: color-mix(in srgb, var(--red) 7%, transparent); }
+.gap-input.correct { border-color: var(--green); background: rgba(34,168,120,.07); }
+.gap-input.wrong   { border-color: var(--red);   background: rgba(228,88,79,.07); }
 .gap-input:disabled { opacity: .7; }
 .gap-answer-hint { font-size: 13px; color: var(--green); margin-top: 4px; display: none; }
 .gap-answer-hint.show { display: block; }
@@ -448,8 +331,8 @@ body {
   margin-top: 18px; padding: 14px 17px;
   border-radius: 10px;
   border-left: 3px solid var(--blue);
-  background: color-mix(in srgb, var(--blue) 6%, transparent);
-  font-size: 14px; color: var(--txt-soft);
+  background: rgba(76,141,250,.06);
+  font-size: 14px; color: #cbd5e1;
   display: none;
 }
 .explanation.show { display: block; animation: slideReveal .2s ease; }
@@ -489,20 +372,20 @@ button:disabled { opacity: .4; cursor: not-allowed; }
 .btn-p:hover:not(:disabled)  { background: var(--blue2); }
 .btn-s  { background: var(--surface); border: 1px solid var(--border); color: var(--txt); }
 .btn-s:hover:not(:disabled)  { border-color: var(--blue); }
-.btn-d  { background: color-mix(in srgb, var(--red) 14%, var(--bg)); color: var(--red); border: 1px solid color-mix(in srgb, var(--red) 30%, transparent); }
+.btn-d  { background: #450a0a; color: #fca5a5; border: 1px solid rgba(228,88,79,.3); }
 .btn-d:hover:not(:disabled)  { background: var(--red); color: #fff; }
-.btn-ok { background: color-mix(in srgb, var(--green) 14%, var(--bg)); color: var(--green); border: 1px solid color-mix(in srgb, var(--green) 30%, transparent); }
+.btn-ok { background: #052e16; color: #6ee7b7; border: 1px solid rgba(34,168,120,.3); }
 .btn-ok:hover:not(:disabled) { background: var(--green); color: #fff; }
 /* botão Finalizar discreto — não compete com Próxima */
 .btn-finish {
   background: transparent;
-  border: 1px solid color-mix(in srgb, var(--red) 30%, transparent);
-  color: var(--red);
+  border: 1px solid rgba(228,88,79,.3);
+  color: #fca5a5;
   padding: 12px 13px;
   font-size: 13px;
   opacity: .7;
 }
-.btn-finish:hover:not(:disabled) { opacity: 1; background: color-mix(in srgb, var(--red) 14%, var(--bg)); border-color: var(--red); }
+.btn-finish:hover:not(:disabled) { opacity: 1; background: #450a0a; border-color: var(--red); }
 
 /* ── Modal ──────────────────────────────────────── */
 #modal-overlay {
@@ -517,7 +400,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   border: 1px solid var(--border);
   border-radius: 17px; padding: 30px;
   max-width: 420px; width: 100%;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 8px 24px rgba(0,0,0,.4);
   animation: fadeUp .2s ease;
 }
 .modal h2 { font-size: 19px; margin-bottom: 18px; }
@@ -573,14 +456,14 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   text-transform: uppercase; letter-spacing: .07em;
   margin-bottom: 10px;
 }
-.hl-box.good { border-color: color-mix(in srgb, var(--green) 25%, transparent); }
-.hl-box.bad  { border-color: color-mix(in srgb, var(--red) 20%, transparent); }
+.hl-box.good { border-color: rgba(34,168,120,.25); }
+.hl-box.bad  { border-color: rgba(228,88,79,.2); }
 .hl-box.good h4 { color: var(--green); }
 .hl-box.bad  h4 { color: var(--red); }
 .hl-item {
   font-size: 13px; color: var(--txt);
   padding: 5px 0;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255,255,255,.05);
   display: flex; justify-content: space-between; gap: 8px;
 }
 .hl-item:last-child { border-bottom: none; padding-bottom: 0; }
@@ -671,7 +554,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   padding: 32px 28px 24px;
   max-width: 380px;
   width: 100%;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 8px 24px rgba(0,0,0,.4);
   animation: fadeUp .25s ease;
   text-align: center;
 }
@@ -683,7 +566,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
 }
 .notice-divider { height: 1px; background: var(--border); margin: 16px 0; }
 .notice-body {
-  font-size: 14px; color: var(--txt-soft);
+  font-size: 14px; color: #cbd5e1;
   line-height: 1.75; text-align: center;
 }
 .notice-body p { margin-bottom: 10px; }
@@ -714,9 +597,9 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   background: var(--surface);
   transition: border-color .15s, background .15s, transform .15s, box-shadow .15s;
 }
-.mode-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); }
-.mode-card.exam-card:hover  { border-color: var(--blue);  background: color-mix(in srgb, var(--blue) 6%, transparent); }
-.mode-card.train-card:hover { border-color: var(--green); background: color-mix(in srgb, var(--green) 6%, transparent); }
+.mode-card:hover { transform: translateY(-2px); box-shadow: 0 3px 10px rgba(0,0,0,.25); }
+.mode-card.exam-card:hover  { border-color: var(--blue);  background: rgba(76,141,250,.06); }
+.mode-card.train-card:hover { border-color: var(--green); background: rgba(34,168,120,.06); }
 .mode-card-icon  { font-size: 30px; margin-bottom: 8px; }
 .mode-card-title { font-size: 16px; font-weight: 800; margin-bottom: 6px; color: var(--txt); }
 .mode-card-desc  { font-size: 13px; color: var(--muted); line-height: 1.65; }
@@ -725,13 +608,13 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   font-size: 11px; font-weight: 700;
   padding: 3px 9px; border-radius: 99px;
 }
-.exam-card  .mode-tag { border: 1px solid color-mix(in srgb, var(--blue) 35%, transparent); color: var(--blue); background: color-mix(in srgb, var(--blue) 8%, transparent); }
-.train-card .mode-tag { border: 1px solid color-mix(in srgb, var(--green) 30%, transparent);  color: var(--green); background: color-mix(in srgb, var(--green) 7%, transparent); }
+.exam-card  .mode-tag { border: 1px solid rgba(76,141,250,.35); color: #93c5fd; background: rgba(76,141,250,.08); }
+.train-card .mode-tag { border: 1px solid rgba(34,168,120,.3);  color: #6ee7b7; background: rgba(34,168,120,.07); }
 
 /* ── Sugestões (resultado treino) ───────────────── */
 .suggestion-box {
-  background: color-mix(in srgb, var(--green) 5%, transparent);
-  border: 1px solid color-mix(in srgb, var(--green) 20%, transparent);
+  background: rgba(34,168,120,.05);
+  border: 1px solid rgba(34,168,120,.2);
   border-radius: 10px;
   padding: 14px 16px;
   margin-top: 20px;
@@ -742,16 +625,16 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   letter-spacing: .07em; margin-bottom: 9px;
 }
 .suggestion-item {
-  font-size: 13px; color: var(--txt-soft);
+  font-size: 13px; color: #cbd5e1;
   padding: 4px 0;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid rgba(255,255,255,.04);
   display: flex; align-items: baseline; gap: 7px;
 }
 .suggestion-item:last-child { border-bottom: none; }
 
 /* ── Favorito ───────────────────────────────────── */
 .btn-flag.fav-active {
-  background: color-mix(in srgb, var(--amber) 14%, transparent);
+  background: rgba(217,154,58,.14);
   border-color: var(--amber); color: var(--amber);
 }
 
@@ -759,8 +642,8 @@ button:disabled { opacity: .4; cursor: not-allowed; }
 .review-pill {
   display: inline-flex; align-items: center; gap: 5px;
   font-size: 11px; font-weight: 700; color: var(--amber);
-  background: color-mix(in srgb, var(--amber) 10%, transparent);
-  border: 1px solid color-mix(in srgb, var(--amber) 28%, transparent);
+  background: rgba(217,154,58,.1);
+  border: 1px solid rgba(217,154,58,.28);
   border-radius: 99px; padding: 2px 9px;
   white-space: nowrap;
 }
@@ -769,19 +652,19 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px;
   padding: 14px 18px;
-  background: color-mix(in srgb, var(--amber) 5%, transparent);
-  border: 1.5px solid color-mix(in srgb, var(--amber) 22%, transparent);
+  background: rgba(217,154,58,.05);
+  border: 1.5px solid rgba(217,154,58,.22);
   border-radius: 11px; cursor: pointer;
   transition: border-color .15s, background .15s, transform .15s;
   margin-top: 11px;
 }
-.review-card:hover { border-color: var(--amber); background: color-mix(in srgb, var(--amber) 10%, transparent); transform: translateY(-1px); }
+.review-card:hover { border-color: var(--amber); background: rgba(217,154,58,.1); transform: translateY(-1px); }
 .review-card-left  { display: flex; align-items: center; gap: 12px; }
 .review-card-count { font-size: 22px; font-weight: 900; color: var(--amber); }
 
 /* ── Seleção de matéria ─────────────────────────── */
-.home-opt.has-saved { border-color: color-mix(in srgb, var(--green) 35%, transparent); }
-.home-opt.has-saved:hover { border-color: var(--green); box-shadow: var(--shadow-sm); }
+.home-opt.has-saved { border-color: rgba(34,168,120,.35); }
+.home-opt.has-saved:hover { border-color: var(--green); box-shadow: 0 2px 8px rgba(0,0,0,.25); }
 
 /* cabeçalho de seção na Biblioteca */
 .lib-section-hd {
@@ -795,8 +678,8 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   margin-left: auto; flex-shrink: 0;
   font-size: 11px; font-weight: 700;
   color: var(--green);
-  background: color-mix(in srgb, var(--green) 10%, transparent);
-  border: 1px solid color-mix(in srgb, var(--green) 30%, transparent);
+  background: rgba(34,168,120,.1);
+  border: 1px solid rgba(34,168,120,.3);
   border-radius: 99px; padding: 3px 10px;
   white-space: nowrap;
 }
@@ -823,7 +706,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   padding: 9px 14px;
   font-size: 13px; font-weight: 600;
   cursor: pointer; font-family: inherit;
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 1px 4px rgba(0,0,0,.35);
   transition: border-color .15s, color .15s, background .15s, box-shadow .15s;
   white-space: nowrap;
 }
@@ -831,7 +714,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   border-color: var(--blue);
   color: var(--txt);
   background: var(--card);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 2px 8px rgba(0,0,0,.4);
 }
 #lib-btn-wrap.visible { display: block; }
 
@@ -874,7 +757,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   border: 1px solid var(--border);
   border-radius: 11px;
   padding: 6px;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 4px 16px rgba(0,0,0,.35);
   z-index: 60;
 }
 .row-menu.open { display: flex; }
@@ -892,14 +775,14 @@ button:disabled { opacity: .4; cursor: not-allowed; }
 }
 .row-menu button:hover:not(:disabled) { background: var(--surface); }
 .row-menu button:disabled { opacity: .4; cursor: not-allowed; }
-.row-menu button.row-menu-danger { color: var(--red); }
-.row-menu button.row-menu-danger:hover:not(:disabled) { background: color-mix(in srgb, var(--red) 14%, var(--bg)); }
+.row-menu button.row-menu-danger { color: #fca5a5; }
+.row-menu button.row-menu-danger:hover:not(:disabled) { background: #450a0a; }
 .badge-protected  {
   display: inline-flex; align-items: center;
   font-size: 10px; font-weight: 700;
   padding: 2px 7px; border-radius: 99px;
-  color: var(--amber); background: color-mix(in srgb, var(--amber) 10%, transparent);
-  border: 1px solid color-mix(in srgb, var(--amber) 25%, transparent); margin-left: 4px;
+  color: var(--amber); background: rgba(217,154,58,.1);
+  border: 1px solid rgba(217,154,58,.25); margin-left: 4px;
 }
 /* Seção matérias ocultas */
 .hidden-section {
@@ -929,17 +812,17 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   border-radius: 9px;
   transition: border-color .12s;
 }
-.qed-row:hover { border-color: color-mix(in srgb, var(--blue) 30%, transparent); }
+.qed-row:hover { border-color: rgba(76,141,250,.3); }
 .qed-badge {
   font-size: 10px; font-weight: 800; padding: 3px 8px;
   border-radius: 6px; text-transform: uppercase;
   letter-spacing: .05em; flex-shrink: 0;
 }
-.qed-mc    { background: color-mix(in srgb, var(--blue) 13%, transparent);  color: var(--blue); }
-.qed-gap   { background: color-mix(in srgb, var(--green) 13%, transparent);  color: var(--green); }
-.qed-tf    { background: color-mix(in srgb, var(--amber) 13%, transparent);  color: var(--amber); }
-.qed-disc  { background: color-mix(in srgb, var(--muted) 14%, transparent); color: var(--muted); }
-.qed-assoc { background: color-mix(in srgb, var(--violet) 14%, transparent); color: var(--violet); }
+.qed-mc    { background: rgba(76,141,250,.13);  color: #93c5fd; }
+.qed-gap   { background: rgba(34,168,120,.13);  color: #6ee7b7; }
+.qed-tf    { background: rgba(217,154,58,.13);  color: #fcd34d; }
+.qed-disc  { background: rgba(148,163,184,.12); color: #94a3b8; }
+.qed-assoc { background: rgba(139,92,246,.14);  color: #c4b5fd; }
 .qed-q    { flex:1; font-size:13px; color:var(--txt); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 .qed-acts { display:flex; gap:5px; flex-shrink:0; }
 
@@ -956,7 +839,7 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   transition: .13s;
 }
 .qtype-tab:hover  { border-color: var(--blue); color: var(--txt); }
-.qtype-tab.active { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 10%, transparent); color: var(--blue); }
+.qtype-tab.active { border-color: var(--blue); background: rgba(76,141,250,.1); color: var(--blue); }
 .qf-opt-row { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
 .qf-opt-row input[type="radio"] { width:16px; height:16px; accent-color:var(--blue); flex-shrink:0; cursor:pointer; }
 .qf-opt-lbl { font-size:12px; color:var(--muted); width:14px; flex-shrink:0; }
@@ -964,7 +847,6 @@ textarea.gap-input { resize:vertical; min-height:70px; }
 
 /* ── Responsivo ─────────────────────────────────── */
 @media (max-width: 600px) {
-  #app { padding: 20px 14px 60px; }
   .card { padding: 18px; }
   .q-text { font-size: 16px; }
   button  { padding: 11px 13px; font-size: 13px; }
@@ -972,24 +854,8 @@ textarea.gap-input { resize:vertical; min-height:70px; }
   .cat-name { width: 110px; }
   .hd-brand { font-size: 11px; }
   .highlights { grid-template-columns: 1fr; }
-
-  /* cabeçalho: marca numa linha, metadados (usuário/modo/tempo/contador)
-     em outra — cada um pode quebrar por conta própria, mas nada é
-     cortado nem ultrapassa a largura da tela */
-  #header { padding: 10px 14px 8px; }
-  .hd-top { flex-direction: column; align-items: stretch; gap: 8px; }
-  .hd-meta {
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    row-gap: 6px;
-  }
-  .hd-user { font-size: 11px; }
-  .btn-switch { padding: 3px 7px; font-size: 10px; }
 }
 @media (max-width: 400px) {
-  #app { padding: 16px 10px 60px; }
-  .card { padding: 14px; }
   .btn-sep { display: none; }
   .btn-bar { gap: 6px; }
   .stats-row { gap: 10px; font-size: 11px; }
@@ -999,42 +865,6 @@ textarea.gap-input { resize:vertical; min-height:70px; }
 </head>
 <body>
 
-<!-- Sprite de ícones (Lucide, MIT/ISC, embutido — sem dependência de CDN).
-     Cada botão/estado usa <svg class="icon"><use href="#i-NOME"/></svg>. -->
-<svg style="display:none" aria-hidden="true">
-<symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4" /><path d="M3 11v-1a4 4 0 0 1 4-4h14" /><path d="m7 22-4-4 4-4" /><path d="M21 13v1a4 4 0 0 1-4 4H3" /></symbol>
-<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol>
-<symbol id="i-pencil" viewBox="0 0 24 24"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z" /><path d="m15 5 4 4" /></symbol>
-<symbol id="i-book-open" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol>
-<symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 3v12" /><path d="m17 8-5-5-5 5" /><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /></symbol>
-<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></symbol>
-<symbol id="i-triangle-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" /><path d="M12 9v4" /><path d="M12 17h.01" /></symbol>
-<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" /></symbol>
-<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></symbol>
-<symbol id="i-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol>
-<symbol id="i-lock-open" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol>
-<symbol id="i-home" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></symbol>
-<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol>
-<symbol id="i-rotate-ccw" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" /></symbol>
-<symbol id="i-settings" viewBox="0 0 24 24"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /><circle cx="12" cy="12" r="3" /></symbol>
-<symbol id="i-trash-2" viewBox="0 0 24 24"><path d="M10 11v6" /><path d="M14 11v6" /><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" /><path d="M3 6h18" /><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" /></symbol>
-<symbol id="i-flag-triangle-right" viewBox="0 0 24 24"><path d="M6 22V2.8a.8.8 0 0 1 1.17-.71l11.38 5.69a.8.8 0 0 1 0 1.44L6 15.5" /></symbol>
-<symbol id="i-arrow-left-right" viewBox="0 0 24 24"><path d="M8 3 4 7l4 4" /><path d="M4 7h16" /><path d="m16 21 4-4-4-4" /><path d="M20 17H4" /></symbol>
-<symbol id="i-play" viewBox="0 0 24 24"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z" /></symbol>
-<symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6" /></symbol>
-<symbol id="i-clipboard-list" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" /><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /><path d="M12 11h4" /><path d="M12 16h4" /><path d="M8 11h.01" /><path d="M8 16h.01" /></symbol>
-<symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49" /><path d="M14.084 14.158a3 3 0 0 1-4.242-4.242" /><path d="M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143" /><path d="m2 2 20 20" /></symbol>
-<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" /><circle cx="12" cy="12" r="3" /></symbol>
-<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 15V3" /><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><path d="m7 10 5 5 5-5" /></symbol>
-<symbol id="i-save" viewBox="0 0 24 24"><path d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" /><path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7" /><path d="M7 3v4a1 1 0 0 0 1 1h7" /></symbol>
-<symbol id="i-star" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></symbol>
-<symbol id="i-flag" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol>
-<symbol id="i-trophy" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol>
-<symbol id="i-rotate-cw" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8" /><path d="M21 3v5h-5" /></symbol>
-<symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="M12 5v14" /></symbol>
-<symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6" /></symbol>
-</svg>
-
 <!-- ── Cabeçalho ─────────────────────────────────── -->
 <div id="header">
   <div class="hd-top">
@@ -1043,10 +873,8 @@ textarea.gap-input { resize:vertical; min-height:70px; }
       <span class="hd-subject-name" id="hd-subject-name"></span>
     </div>
     <div class="hd-meta">
-      <button id="theme-toggle" class="theme-toggle" onclick="App.toggleTheme()"
-        title="Alternar tema" aria-label="Alternar entre tema claro e escuro"><svg class="icon"><use href="#i-moon"></use></svg></button>
       <span id="user-info" class="hd-user"></span>
-      <span id="mode-badge" class="mode-badge study" onclick="App.toggleMode()"><svg class="icon"><use href="#i-book-open"></use></svg> Estudo</span>
+      <span id="mode-badge" class="mode-badge study" onclick="App.toggleMode()">📖 Estudo</span>
       <span id="timer"></span>
       <span id="q-counter"></span>
     </div>
@@ -1054,17 +882,6 @@ textarea.gap-input { resize:vertical; min-height:70px; }
   <div class="prog-track"><div class="prog-fill" id="prog-fill"></div></div>
   <div class="stats-row" id="stats-row"></div>
 </div>
-<script>
-/* Sincroniza o ícone do botão com o tema já aplicado (script do <head>
-   ou preferência do sistema) — evita mostrar o ícone errado por um
-   instante antes do primeiro clique. */
-(function () {
-  var t = document.documentElement.getAttribute('data-theme');
-  if (!t) t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
-  var b = document.getElementById('theme-toggle');
-  if (b) b.innerHTML = '<svg class="icon"><use href="#i-' + (t === 'dark' ? 'moon' : 'sun') + '"></use></svg>';
-})();
-</script>
 
 <!-- ── Conteúdo ───────────────────────────────────── -->
 <div id="app"></div>
@@ -1077,7 +894,7 @@ textarea.gap-input { resize:vertical; min-height:70px; }
 <!-- ── Aviso de acesso restrito ──────────────────── -->
 <div id="notice-overlay">
   <div class="notice-box">
-    <div class="notice-icon"><svg class="icon"><use href="#i-lock"></use></svg></div>
+    <div class="notice-icon">🔒</div>
     <div class="notice-title">ACESSO RESTRITO</div>
     <div class="notice-divider"></div>
     <div class="notice-body">
@@ -1097,7 +914,7 @@ textarea.gap-input { resize:vertical; min-height:70px; }
 
 <!-- Botão fixo de navegação para Biblioteca -->
 <div id="lib-btn-wrap">
-  <button id="lib-btn" onclick="App.goLibrary()" title="Voltar à Biblioteca"><svg class="icon"><use href="#i-home"></use></svg> Biblioteca</button>
+  <button id="lib-btn" onclick="App.goLibrary()" title="Voltar à Biblioteca">🏠 Biblioteca</button>
 </div>
 
 <!-- Seletor de arquivo para importação de banco de questões -->
@@ -1298,14 +1115,6 @@ function fmt(sec) {
 }
 function pad(n) { return String(n).padStart(2,'0'); }
 
-/* "1 questão" / "N questões" — nunca concatenar sufixo em cima da
-   palavra inteira (isso é o que gerava "questãoões"/"questãos").
-   NBSP entre número e palavra: não quebra linha ali. */
-function questionCountLabel(n) {
-  const word = n === 1 ? 'questão' : 'questões';
-  return `${n} ${word}`;
-}
-
 /* Escapa HTML para evitar XSS ao inserir texto de questões */
 function esc(str) {
   return String(str)
@@ -1313,12 +1122,6 @@ function esc(str) {
     .replace(/</g,'&lt;')
     .replace(/>/g,'&gt;')
     .replace(/"/g,'&quot;');
-}
-
-/* Ícone do sprite Lucide embutido (ver <svg style="display:none"> no
-   topo do <body>). "filled" usa a variante preenchida (favoritar/marcar). */
-function icon(name, filled) {
-  return `<svg class="icon${filled ? ' icon-filled' : ''}"><use href="#i-${name}"></use></svg>`;
 }
 
 function $(id) { return document.getElementById(id); }
@@ -1835,7 +1638,7 @@ function renderHeader() {
     badge.style.display = 'none';
     timerEl.textContent = '';
     timerEl.className   = '';
-    srow.innerHTML = `<span class="review-pill">${icon('repeat')} Revisão</span>`;
+    srow.innerHTML = `<span class="review-pill">🔁 Revisão</span>`;
     return;
   }
 
@@ -1858,10 +1661,10 @@ function syncBadge() {
   const b = $('mode-badge');
   if (!b) return;
   if (S.mode === 'study') {
-    b.innerHTML = icon('book-open') + ' Treino';
+    b.textContent = '📚 Treino';
     b.className = 'mode-badge study';
   } else {
-    b.innerHTML = icon('target') + ' Prova';
+    b.textContent = '🎯 Prova';
     b.className = 'mode-badge exam';
   }
 }
@@ -1934,7 +1737,7 @@ function renderSubjects() {
     const hasSaved = key === savedKey;
     const pending  = getPendingReview(key).length;
     const qCount   = subj.questions.length;
-    const qLabel   = questionCountLabel(qCount);
+    const qLabel   = `${qCount} questão${qCount === 1 ? '' : 'ões'}`;
     return `<div class="home-opt${hasSaved ? ' has-saved' : ''}" onclick="App.selectSubject('${key}')">
       <span class="home-opt-icon">${subj.icon}</span>
       <div class="home-opt-text">
@@ -1942,8 +1745,8 @@ function renderSubjects() {
         <span>${subj.title} &mdash; ${qLabel}</span>
       </div>
       <div style="display:flex;gap:5px;flex-shrink:0">
-        ${pending > 0 ? `<span class="review-pill">${icon('repeat')} ${pending}</span>` : ''}
-        ${hasSaved    ? `<span class="subject-badge">${icon('rotate-ccw')} Continuar</span>` : ''}
+        ${pending > 0 ? `<span class="review-pill">🔁 ${pending}</span>` : ''}
+        ${hasSaved    ? `<span class="subject-badge">↩ Continuar</span>` : ''}
       </div>
     </div>`;
   }
@@ -1952,8 +1755,8 @@ function renderSubjects() {
     ? `<div class="subject-empty" style="margin-top:12px">
         <div style="margin-bottom:12px">Nenhuma matéria criada.</div>
         <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
-          <button class="btn-p" style="font-size:13px" onclick="App.createEmptySubject()">${icon('plus')} Nova Matéria</button>
-          <button class="btn-s" style="font-size:13px" onclick="App.openImport()">${icon('upload')} Importar</button>
+          <button class="btn-p" style="font-size:13px" onclick="App.createEmptySubject()">＋ Nova Matéria</button>
+          <button class="btn-s" style="font-size:13px" onclick="App.openImport()">📥 Importar</button>
         </div>
       </div>`
     : `<div class="home-opts">${minhasEntries.map(minhasCard).join('')}</div>`;
@@ -1961,7 +1764,7 @@ function renderSubjects() {
   const ocultasHTML = ocultasEntries.length === 0 ? '' : `
     <details class="hidden-section" style="margin-top:18px">
       <summary class="hidden-toggle">
-        <span>${icon('eye-off')} Matérias Ocultas — ${ocultasEntries.length}</span>
+        <span>🙈 Matérias Ocultas — ${ocultasEntries.length}</span>
         <span style="font-size:11px">▾</span>
       </summary>
       <div class="hidden-body">
@@ -1973,7 +1776,7 @@ function renderSubjects() {
               <div class="manage-row-meta">${s.questions.length} questões</div>
             </div>
             <button class="btn-ok" style="padding:6px 12px;font-size:12px"
-              onclick="App.toggleHideSubject('${key}')">${icon('eye')} Restaurar</button>
+              onclick="App.toggleHideSubject('${key}')">👁 Restaurar</button>
           </div>`).join('')}
       </div>
     </details>`;
@@ -1984,11 +1787,11 @@ function renderSubjects() {
       <div class="home-sub">Treino &bull; Prova &bull; Evolução</div>
 
       <div style="display:flex;gap:8px;margin-top:18px">
-        <button class="btn-s" style="flex:1;font-size:12px" onclick="App.openImport()">${icon('upload')} Importar</button>
-        <button class="btn-s" style="font-size:12px" onclick="App.goManageSubjects()">${icon('settings')} Gerenciar</button>
+        <button class="btn-s" style="flex:1;font-size:12px" onclick="App.openImport()">📥 Importar</button>
+        <button class="btn-s" style="font-size:12px" onclick="App.goManageSubjects()">⚙ Gerenciar</button>
       </div>
 
-      <div class="lib-section-hd">${icon('book-open')} Minhas Matérias</div>
+      <div class="lib-section-hd">📚 Minhas Matérias</div>
       ${minhasHTML}
 
       ${ocultasHTML}
@@ -2048,12 +1851,12 @@ function buildDynamicFields(q) {
   if (t === 'assoc') {
     const pairs = (q.options && q.options.length ? q.options : [['',''],['',''],['','']]);
     return `<div class="form-group">
-      <label class="gap-label">Pares de associação &mdash; item da esquerda ${icon('arrow-left-right')} correspondente</label>
+      <label class="gap-label">Pares de associação &mdash; item da esquerda ↔ correspondente</label>
       <div id="assoc-pairs">
         ${pairs.map((p, i) => `<div class="qf-opt-row" data-assoc-row="${i}">
           <input type="text" class="gap-input" style="margin:0" id="assoc-left-${i}"
             value="${esc((p && p[0]) || '')}" placeholder="Item ${i+1}">
-          <span style="color:var(--muted);flex-shrink:0">${icon('arrow-left-right')}</span>
+          <span style="color:var(--muted);flex-shrink:0">↔</span>
           <input type="text" class="gap-input" style="margin:0" id="assoc-right-${i}"
             value="${esc((p && p[1]) || '')}" placeholder="Correspondente">
           <button type="button" class="btn-d" style="padding:6px 9px;font-size:12px;flex-shrink:0"
@@ -2061,7 +1864,7 @@ function buildDynamicFields(q) {
         </div>`).join('')}
       </div>
       <button type="button" class="btn-s" style="margin-top:6px;font-size:12px"
-        onclick="App.addAssocPair()">${icon('plus')} Adicionar par</button>
+        onclick="App.addAssocPair()">＋ Adicionar par</button>
     </div>`;
   }
   return '';
@@ -2114,9 +1917,9 @@ function renderSubjectEditor(key) {
       <span class="qed-q" title="${esc(q.question)}">${esc(q.question.slice(0,80))}${q.question.length>80?'…':''}</span>
       <div class="qed-acts">
         <button class="btn-s" style="padding:5px 9px;font-size:12px"
-          onclick="App.editQuestion('${key}',${i})" title="Editar">${icon('pencil')}</button>
+          onclick="App.editQuestion('${key}',${i})" title="Editar">✏️</button>
         <button class="btn-d" style="padding:5px 9px;font-size:12px"
-          onclick="App.deleteQuestion('${key}',${i})" title="Excluir">${icon('trash-2')}</button>
+          onclick="App.deleteQuestion('${key}',${i})" title="Excluir">🗑</button>
       </div>
     </div>`;
   }).join('');
@@ -2125,18 +1928,18 @@ function renderSubjectEditor(key) {
     <div class="card entering" style="max-width:820px;margin:0 auto;padding:24px">
       <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:16px">
         <button class="btn-s" style="padding:6px 11px;font-size:12px"
-          onclick="App.goManageSubjects()">${icon('chevron-left')} Gerenciar</button>
+          onclick="App.goManageSubjects()">← Gerenciar</button>
         <div class="home-title" style="margin:0;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis">
           ${subj.icon} ${esc(subj.title)}
         </div>
         <button class="btn-s" style="font-size:12px"
-          onclick="App.editSubjectName('${key}')">${icon('pencil')} Nome</button>
+          onclick="App.editSubjectName('${key}')">✏️ Nome</button>
         <button class="btn-s" style="font-size:12px"
-          onclick="App.exportSubjectBank('${key}')">${icon('download')} Exportar</button>
+          onclick="App.exportSubjectBank('${key}')">📤 Exportar</button>
         <button class="btn-p" style="font-size:12px"
-          onclick="App.addQuestion('${key}')">${icon('plus')} Questão</button>
+          onclick="App.addQuestion('${key}')">＋ Questão</button>
       </div>
-      <div class="home-sub" style="margin-bottom:16px">${questionCountLabel(subj.questions.length)}</div>
+      <div class="home-sub" style="margin-bottom:16px">${subj.questions.length} questão${subj.questions.length!==1?'s':''}</div>
       ${subj.questions.length === 0
         ? `<div class="subject-empty">Nenhuma questão ainda.<br>Adicione a primeira com o botão acima.</div>`
         : `<div class="qed-list">${qRows}</div>`}
@@ -2169,8 +1972,8 @@ function renderQuestionForm(key, qIdx) {
     <div class="card entering" style="max-width:680px;margin:0 auto;padding:24px">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
         <button class="btn-s" style="padding:6px 11px;font-size:12px"
-          onclick="App.cancelQuestionEdit()">${icon('chevron-left')} Cancelar</button>
-        <div class="home-title" style="margin:0">${isNew ? icon('plus') + ' Nova Questão' : icon('pencil') + ' Editar Questão'}</div>
+          onclick="App.cancelQuestionEdit()">← Cancelar</button>
+        <div class="home-title" style="margin:0">${isNew ? '＋ Nova Questão' : '✏️ Editar Questão'}</div>
       </div>
 
       <div class="form-group" style="margin-bottom:14px">
@@ -2201,7 +2004,7 @@ function renderQuestionForm(key, qIdx) {
       <div class="btn-bar" style="margin-top:22px">
         <button class="btn-s" onclick="App.cancelQuestionEdit()">Cancelar</button>
         <span class="spacer"></span>
-        <button class="btn-p" onclick="App.saveQuestion()">${icon('save')} Salvar Questão</button>
+        <button class="btn-p" onclick="App.saveQuestion()">💾 Salvar Questão</button>
       </div>
     </div>
   `;
@@ -2257,7 +2060,7 @@ function renderManageSubjects() {
       <div class="manage-row-info">
         <div class="manage-row-title"${hid ? ' style="color:var(--muted)"' : ''}>
           ${esc(s.title)}
-          ${prot ? '<span class="badge-protected">' + icon('lock') + '</span>' : ''}
+          ${prot ? '<span class="badge-protected">🔒</span>' : ''}
         </div>
         <div class="manage-row-meta">${s.questions.length} questões${s.importedAt ? ' &bull; ' + new Date(s.importedAt).toLocaleDateString('pt-BR') : ''}</div>
       </div>
@@ -2295,15 +2098,15 @@ function renderManageSubjects() {
     <div class="card home-wrap entering">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap">
         <button class="btn-s" style="padding:6px 11px;font-size:12px"
-          onclick="App.goSubjects()">${icon('chevron-left')} Biblioteca</button>
-        <div class="home-title" style="margin:0;flex:1">${icon('settings')} Gerenciar Matérias</div>
-        <button class="btn-p" style="font-size:12px" onclick="App.createEmptySubject()">${icon('plus')} Nova Matéria</button>
+          onclick="App.goSubjects()">← Biblioteca</button>
+        <div class="home-title" style="margin:0;flex:1">⚙ Gerenciar Matérias</div>
+        <button class="btn-p" style="font-size:12px" onclick="App.createEmptySubject()">＋ Nova Matéria</button>
       </div>
       <div class="home-sub" style="margin-bottom:14px">Matérias customizadas — ${customs.length}</div>
       ${visibleRows}
       ${hiddenSection}
       <div style="display:flex;gap:8px;margin-top:18px">
-        <button class="btn-s" style="flex:1;font-size:12px" onclick="App.openImport()">${icon('upload')} Importar JSON</button>
+        <button class="btn-s" style="flex:1;font-size:12px" onclick="App.openImport()">📥 Importar JSON</button>
       </div>
     </div>
   `;
@@ -2321,7 +2124,7 @@ function renderModeSelect() {
     <div class="card home-wrap entering">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
         <button class="btn-s" style="padding:6px 11px;font-size:12px"
-          onclick="App.goHome()">${icon('chevron-left')} Início</button>
+          onclick="App.goHome()">← Início</button>
         <div class="home-title" style="margin:0">Escolha o modo</div>
       </div>
       <div class="home-sub">${subj.icon} ${subj.label}</div>
@@ -2329,7 +2132,7 @@ function renderModeSelect() {
       <div style="display:flex;flex-direction:column;gap:12px;margin-top:22px">
 
         <div class="mode-card exam-card" onclick="App.startExam()">
-          <div class="mode-card-icon">${icon('target')}</div>
+          <div class="mode-card-icon">🎯</div>
           <div class="mode-card-title">Modo Prova</div>
           <div class="mode-card-desc">
             Simula condições de prova real.<br>
@@ -2344,7 +2147,7 @@ function renderModeSelect() {
         </div>
 
         <div class="mode-card train-card" onclick="App.startTraining()">
-          <div class="mode-card-icon">${icon('book-open')}</div>
+          <div class="mode-card-icon">📚</div>
           <div class="mode-card-title">Modo Treino</div>
           <div class="mode-card-desc">
             Aprenda com feedback imediato após cada resposta.<br>
@@ -2378,8 +2181,8 @@ function renderReview() {
     <div class="card home-wrap entering">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
         <button class="btn-s" style="padding:6px 11px;font-size:12px"
-          onclick="App.goHome()">${icon('chevron-left')} Início</button>
-        <div class="home-title" style="margin:0">${icon('repeat')} Revisão</div>
+          onclick="App.goHome()">← Início</button>
+        <div class="home-title" style="margin:0">🔁 Revisão</div>
       </div>
       <div class="home-sub">${subjObj.icon} ${subjObj.title}</div>
 
@@ -2399,9 +2202,9 @@ function renderReview() {
       </div>
 
       ${pending.length === 0
-        ? `<div class="subject-empty">${icon('check')} Nenhuma questão pendente de revisão.</div>`
+        ? `<div class="subject-empty">✅ Nenhuma questão pendente de revisão.</div>`
         : `<button class="btn-p" style="width:100%;margin-top:4px"
-             onclick="App.startReview()">${icon('play')} Iniciar Revisão (${pending.length} questões)</button>`
+             onclick="App.startReview()">▶ Iniciar Revisão (${pending.length} questões)</button>`
       }
     </div>
   `;
@@ -2456,12 +2259,12 @@ function renderWelcome(saved) {
         <div class="welcome-lbl">questão atual</div>
       </div>
       <div class="home-btn-row" style="margin-top:22px">
-        <button class="btn-p" style="flex:1" onclick="App.continueSaved()">${icon('rotate-ccw')} Continuar</button>
+        <button class="btn-p" style="flex:1" onclick="App.continueSaved()">↩ Continuar</button>
         <button class="btn-s" onclick="App.startNew()">⟳ Recomeçar</button>
       </div>
       <div style="margin-top:12px;text-align:center">
         <button class="btn-s" style="font-size:12px;padding:7px 13px"
-          onclick="App.goSubjects()">${icon('chevron-left')} Trocar matéria</button>
+          onclick="App.goSubjects()">← Trocar matéria</button>
       </div>
     </div>
   `;
@@ -2481,19 +2284,19 @@ function renderHome() {
     <div class="card home-wrap entering">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
         <button class="btn-s" style="padding:6px 11px;font-size:12px"
-          onclick="App.goSubjects()">${icon('chevron-left')} Matérias</button>
+          onclick="App.goSubjects()">← Matérias</button>
         <div class="home-title" style="margin:0">${subj.icon} ${subj.label}</div>
       </div>
       <div class="home-sub">${subj.title} &mdash; ${ACTIVE_QUESTIONS.length} questões</div>
-      ${!hasQ ? `<div class="subject-empty">${icon('settings')} Banco de questões em preparação.</div>` : `
+      ${!hasQ ? `<div class="subject-empty">⚙ Banco de questões em preparação.</div>` : `
       <div class="home-btn-row" style="margin-top:22px">
-        <button class="btn-p" style="flex:1" onclick="App.goModeSelect()">${icon('play')} Iniciar Simulado</button>
-        ${saved ? `<button class="btn-s" onclick="App.continueSaved()">${icon('rotate-ccw')} Continuar ${S.mode==='exam'?'(Prova)':'(Treino)'}</button>` : ''}
+        <button class="btn-p" style="flex:1" onclick="App.goModeSelect()">▶ Iniciar Simulado</button>
+        ${saved ? `<button class="btn-s" onclick="App.continueSaved()">↩ Continuar ${S.mode==='exam'?'(Prova)':'(Treino)'}</button>` : ''}
       </div>
       ${(() => { const p = getPendingReview(S.subject||'cia').length; return p > 0 ? `
       <div class="review-card" onclick="App.goReview()">
         <div class="review-card-left">
-          <span style="font-size:20px">${icon('repeat')}</span>
+          <span style="font-size:20px">🔁</span>
           <div>
             <div style="font-size:14px;font-weight:700;color:var(--txt)">Revisão</div>
             <div style="font-size:12px;color:var(--muted)">questões que precisam de atenção</div>
@@ -2504,7 +2307,7 @@ function renderHome() {
       ${subj.isCustom ? `
       <div style="margin-top:14px;text-align:center">
         <button class="btn-s" style="font-size:12px;padding:7px 13px"
-          onclick="App.openSubjectEditor('${S.subject}')">${icon('pencil')} Gerenciar Questões</button>
+          onclick="App.openSubjectEditor('${S.subject}')">✏️ Gerenciar Questões</button>
       </div>` : ''}
     </div>
   `;
@@ -2539,8 +2342,8 @@ function renderQuestion() {
           /* Prova: trava a opção sem revelar certo/errado — só o Treino
              mostra a cor e a animação de acerto/erro */
           if (study) {
-            if (i === q.shuffledCorrect) { cls += ' correct'; sym = icon('check'); }
-            else if (ans === i)          { cls += ' wrong';   sym = icon('x'); }
+            if (i === q.shuffledCorrect) { cls += ' correct'; sym = '✓'; }
+            else if (ans === i)          { cls += ' wrong';   sym = '✗'; }
             if (justValidated && (i === q.shuffledCorrect || ans === i)) cls += ' anim';
           } else if (ans === i) {
             cls += ' selected';
@@ -2564,8 +2367,8 @@ function renderQuestion() {
         if (val) {
           cls += ' locked';
           if (study) {
-            if (o.val === correctBool) { cls += ' correct'; sym = icon('check'); }
-            else if (ans === o.val)    { cls += ' wrong';   sym = icon('x'); }
+            if (o.val === correctBool) { cls += ' correct'; sym = '✓'; }
+            else if (ans === o.val)    { cls += ' wrong';   sym = '✗'; }
             if (justValidated && (o.val === correctBool || ans === o.val)) cls += ' anim';
           } else if (ans === o.val) {
             cls += ' selected';
@@ -2587,7 +2390,7 @@ function renderQuestion() {
       const ok = isCorrectAt(S.idx);
       inputCls += ok ? ' correct' : ' wrong';
       if (!ok) {
-        hint = `<div class="gap-answer-hint show">${icon('check')} Resposta esperada: <strong>${esc(q.correct)}</strong></div>`;
+        hint = `<div class="gap-answer-hint show">✓ Resposta esperada: <strong>${esc(q.correct)}</strong></div>`;
       }
     }
     bodyHTML = `<div class="gap-wrap">
@@ -2618,8 +2421,8 @@ function renderQuestion() {
         <div class="gap-input" style="white-space:pre-wrap;border-color:var(--blue)">${esc(String(q.correct))}</div>` : ''}
         <div class="gap-label" style="margin-top:12px">Você acertou?</div>
         <div style="display:flex;gap:10px">
-          <button class="${evVal==='correct' ? 'btn-ok' : 'btn-s'}" onclick="App.selfGradeDisc(true)">${icon('check')} Acertei</button>
-          <button class="${evVal==='wrong'   ? 'btn-d'  : 'btn-s'}" onclick="App.selfGradeDisc(false)">${icon('x')} Errei</button>
+          <button class="${evVal==='correct' ? 'btn-ok' : 'btn-s'}" onclick="App.selfGradeDisc(true)">✅ Acertei</button>
+          <button class="${evVal==='wrong'   ? 'btn-d'  : 'btn-s'}" onclick="App.selfGradeDisc(false)">❌ Errei</button>
         </div>
       </div>`;
     }
@@ -2643,8 +2446,8 @@ function renderQuestion() {
           order.map(origIdx =>
             `<option value="${origIdx}" ${selected===origIdx?'selected':''}>${esc(q.options[origIdx][1])}</option>`
           ).join('');
-        return `<div class="${rowCls}" style="justify-content:space-between;gap:12px;flex-wrap:wrap">
-          <span style="flex:1;min-width:0;overflow-wrap:break-word">${esc(leftLabel)}</span>
+        return `<div class="${rowCls}" style="justify-content:space-between;gap:12px">
+          <span style="flex:1">${esc(leftLabel)}</span>
           <select class="gap-input" style="width:auto;min-width:170px;margin:0;flex-shrink:0"
             ${val ? 'disabled' : ''} onchange="App.pickAssoc(${li}, this.value)">
             ${optsHTML}
@@ -2665,7 +2468,7 @@ function renderQuestion() {
         </div>` : '';
       } else {
         expHTML = `<div class="explanation show">
-          <div class="exp-res ${ev==='correct' ? 'ok' : 'bad'}">${ev==='correct' ? icon('check') + ' Você marcou: Acertei' : icon('x') + ' Você marcou: Errei'}</div>
+          <div class="exp-res ${ev==='correct' ? 'ok' : 'bad'}">${ev==='correct' ? '✅ Você marcou: Acertei' : '❌ Você marcou: Errei'}</div>
           ${esc(q.explanation || '')}
         </div>`;
       }
@@ -2674,7 +2477,7 @@ function renderQuestion() {
          estado travado das opções já indica que a resposta foi registrada */
       const ok = isCorrectAt(S.idx);
       expHTML = `<div class="explanation show">
-        <div class="exp-res ${ok ? 'ok' : 'bad'}">${ok ? icon('check') + ' Correto!' : icon('x') + ' Incorreto'}</div>
+        <div class="exp-res ${ok ? 'ok' : 'bad'}">${ok ? '✅ Correto!' : '❌ Incorreto'}</div>
         ${esc(q.explanation)}
       </div>`;
     }
@@ -2689,18 +2492,18 @@ function renderQuestion() {
   const showVerifyBtn = q.type === 'disc' || study;
   const verifyBtn = showVerifyBtn ? `
         <button id="btn-verify" class="${val ? 'btn-s' : 'btn-p'}" onclick="App.verify()" ${!canVerify?'disabled':''}>
-          ${val ? icon('check') + ' Verificado' : icon('check') + ' Verificar'}
+          ${val ? '✓ Verificado' : '✔ Verificar'}
         </button>` : '';
 
   /* Na última questão o botão de avanço vira CTA verde de resultado */
   const nextBtn = isLast
-    ? `<button class="btn-ok" onclick="App.confirmFinish()">${icon('flag-triangle-right')} Ver Resultado</button>`
-    : `<button class="btn-s"  onclick="App.nav(1)">Próxima ${icon('chevron-right')}</button>`;
+    ? `<button class="btn-ok" onclick="App.confirmFinish()">🏁 Ver Resultado</button>`
+    : `<button class="btn-s"  onclick="App.nav(1)">Próxima ➜</button>`;
 
   /* Botão Finalizar discreto só aparece quando não é a última questão */
   const finishBtn = isLast ? '' :
     `<div class="btn-sep"></div>
-     <button class="btn-finish" onclick="App.confirmFinish()" title="Encerrar simulado agora">${icon('flag-triangle-right')}</button>`;
+     <button class="btn-finish" onclick="App.confirmFinish()" title="Encerrar simulado agora">🏁</button>`;
 
   $('app').innerHTML = `
     <div class="card${entering ? ' entering' : ''}">
@@ -2709,10 +2512,10 @@ function renderQuestion() {
         <div style="display:flex;gap:6px;flex-shrink:0">
           <button class="btn-flag ${isFav(q, S.subject||'cia') ? 'fav-active' : ''}"
             onclick="App.toggleFavorite()" title="Favoritar">
-            ${icon('star', isFav(q, S.subject||'cia'))}
+            ${isFav(q, S.subject||'cia') ? '⭐' : '☆'}
           </button>
           <button class="btn-flag ${flag ? 'flagged' : ''}" onclick="App.toggleFlag()" title="Marcar para revisão">
-            ${icon('flag', flag)} ${flag ? 'Marcada' : 'Marcar'}
+            ${flag ? '🚩 Marcada' : '⚑ Marcar'}
           </button>
         </div>
       </div>
@@ -2720,7 +2523,7 @@ function renderQuestion() {
       ${bodyHTML}
       ${expHTML}
       <div class="btn-bar">
-        <button class="btn-s" onclick="App.nav(-1)" ${S.idx===0?'disabled':''}>${icon('chevron-left')} Anterior</button>
+        <button class="btn-s" onclick="App.nav(-1)" ${S.idx===0?'disabled':''}>⬅ Anterior</button>
         ${verifyBtn}
         <span class="spacer"></span>
         ${nextBtn}
@@ -2747,14 +2550,14 @@ function renderResult() {
   const time = fmt(S.timer);
 
   let grade, gc;
-  if (pct >= 90)      { grade = 'Excelente! ' + icon('trophy');          gc = 'var(--green)'; }
-  else if (pct >= 70) { grade = 'Aprovado ' + icon('check');             gc = 'var(--blue)'; }
-  else if (pct >= 50) { grade = 'Regular — continue! ' + icon('triangle-alert'); gc = 'var(--amber)'; }
-  else                { grade = 'Precisa reforçar ' + icon('x');         gc = 'var(--red)'; }
+  if (pct >= 90)      { grade = 'Excelente! 🏆';           gc = '#10b981'; }
+  else if (pct >= 70) { grade = 'Aprovado ✅';             gc = '#3b82f6'; }
+  else if (pct >= 50) { grade = 'Regular — continue! ⚠️'; gc = '#f59e0b'; }
+  else                { grade = 'Precisa reforçar ❌';     gc = '#ef4444'; }
 
   /* barras por categoria */
   const catHTML = cs.map(c => {
-    const color = c.pct >= 70 ? 'var(--green)' : c.pct >= 50 ? 'var(--amber)' : 'var(--red)';
+    const color = c.pct >= 70 ? '#10b981' : c.pct >= 50 ? '#f59e0b' : '#ef4444';
     return `<div class="cat-row">
       <span class="cat-name" title="${esc(c.name)}">${esc(c.name)}</span>
       <div class="cat-track">
@@ -2778,21 +2581,21 @@ function renderResult() {
 
   /* label de modo */
   const modeLabel = S.mode === 'exam'
-    ? `<span class="review-pill" style="border-color:color-mix(in srgb, var(--blue) 35%, transparent);color:var(--blue);background:color-mix(in srgb, var(--blue) 10%, transparent)">${icon('target')} Modo Prova</span>`
-    : `<span class="review-pill" style="border-color:color-mix(in srgb, var(--green) 30%, transparent);color:var(--green);background:color-mix(in srgb, var(--green) 7%, transparent)">${icon('book-open')} Modo Treino</span>`;
+    ? `<span class="review-pill" style="border-color:rgba(76,141,250,.35);color:#93c5fd;background:rgba(76,141,250,.1)">🎯 Modo Prova</span>`
+    : `<span class="review-pill" style="border-color:rgba(34,168,120,.3);color:#6ee7b7;background:rgba(34,168,120,.07)">📚 Modo Treino</span>`;
 
   /* sugestões exclusivas do modo treino */
   const trainingExtra = S.mode === 'study' ? (() => {
     const pendingNow = getPendingReview(S.subject || 'cia').length;
     const tips = weak.slice(0, 3).map(c =>
-      `<div class="suggestion-item"><span>${icon('chevron-right')}</span> Revisar <strong>${esc(c.name)}</strong> (${c.pct}% de acerto)</div>`
+      `<div class="suggestion-item"><span>→</span> Revisar <strong>${esc(c.name)}</strong> (${c.pct}% de acerto)</div>`
     ).join('');
     return `<div class="suggestion-box">
-      <h4>${icon('clipboard-list')} Próximos passos</h4>
+      <h4>📋 Próximos passos</h4>
       ${pendingNow > 0
-        ? `<div class="suggestion-item"><span>${icon('repeat')}</span> <strong>${pendingNow}</strong> questões na fila de revisão</div>`
+        ? `<div class="suggestion-item"><span>🔁</span> <strong>${pendingNow}</strong> questões na fila de revisão</div>`
         : ''}
-      ${tips || (pendingNow === 0 ? `<div class="suggestion-item"><span>${icon('check')}</span> Boa performance! Continue praticando.</div>` : '')}
+      ${tips || (pendingNow === 0 ? '<div class="suggestion-item"><span>✅</span> Boa performance! Continue praticando.</div>' : '')}
     </div>`;
   })() : '';
 
@@ -2842,12 +2645,12 @@ function renderResult() {
 
       <div class="btn-bar" style="margin-top:28px;flex-wrap:wrap">
         ${S.reviewMode
-          ? `<button class="btn-p" onclick="App.goReview()">${icon('repeat')} Voltar à Revisão</button>
-             <button class="btn-s" onclick="App.restart()">${icon('home')} Início</button>`
-          : `<button class="btn-p" onclick="App.restart()">${icon('rotate-cw')} Novo Simulado</button>
-             ${st.wrong > 0 ? `<button class="btn-s" onclick="App.reviewWrong()">${icon('clipboard-list')} Revisar Erros (${st.wrong})</button>` : ''}`
+          ? `<button class="btn-p" onclick="App.goReview()">🔁 Voltar à Revisão</button>
+             <button class="btn-s" onclick="App.restart()">🏠 Início</button>`
+          : `<button class="btn-p" onclick="App.restart()">🔄 Novo Simulado</button>
+             ${st.wrong > 0 ? `<button class="btn-s" onclick="App.reviewWrong()">📋 Revisar Erros (${st.wrong})</button>` : ''}`
         }
-        <button class="btn-s" onclick="App.exportJSON()">${icon('download')} Exportar JSON</button>
+        <button class="btn-s" onclick="App.exportJSON()">⬇ Exportar JSON</button>
       </div>
     </div>
   `;
@@ -2879,7 +2682,7 @@ const App = {
     if (!file) return;
     const result = await importQuestions(file);
     if (result.error) {
-      showModal(`<h2>${icon('triangle-alert')} Erro na Importação</h2>
+      showModal(`<h2>⚠️ Erro na Importação</h2>
         <p style="font-size:14px;color:var(--muted);margin:12px 0">${esc(result.error)}</p>
         <div class="modal-btns"><button class="btn-p" onclick="hideModal()">OK</button></div>`);
       return;
@@ -2893,7 +2696,7 @@ const App = {
       <div class="form-group" style="margin-bottom:10px">
         <label class="gap-label">Destino</label>
         <select id="import-target" class="gap-input" onchange="App.toggleImportTarget()">
-          <option value="">${icon('plus')} Criar nova matéria</option>
+          <option value="">＋ Criar nova matéria</option>
           ${customs.map(s => `<option value="${s.key}">${s.icon} ${esc(s.title)} — ${s.questions.length} questões</option>`).join('')}
         </select>
       </div>`;
@@ -2909,7 +2712,7 @@ const App = {
         </div>
       </div>`;
     showModal(`
-      <h2>${icon('upload')} Importar Questões</h2>
+      <h2>📥 Importar Questões</h2>
       ${targetOptions}
       <div id="import-name-wrap">
         <div class="form-group" style="margin-bottom:10px">
@@ -2954,9 +2757,9 @@ const App = {
     if (mergeWrap) mergeWrap.style.display = isNew ? 'none' : '';
     const btn = $('import-confirm-btn');
     if (btn && _pendingImport) {
-      btn.innerHTML = isNew
-        ? `${icon('check')} Confirmar (${_pendingImport.valid.length})`
-        : `${icon('check')} Adicionar (${_pendingImport.valid.length})`;
+      btn.textContent = isNew
+        ? `✓ Confirmar (${_pendingImport.valid.length})`
+        : `✓ Adicionar (${_pendingImport.valid.length})`;
     }
   },
 
@@ -2990,7 +2793,7 @@ const App = {
     const dupCount = _pendingImport.valid.filter(q => existingTexts.has(q.question.trim().toLowerCase())).length;
     if (dupCount > 0) {
       showModal(`
-        <h2>${icon('triangle-alert')} Possíveis Duplicatas</h2>
+        <h2>⚠️ Possíveis Duplicatas</h2>
         <p style="font-size:14px;color:var(--muted);margin:12px 0;line-height:1.6">
           ${dupCount} de ${_pendingImport.valid.length} questão(ões) do arquivo têm o mesmo enunciado
           de questões já existentes em <strong>${esc(subj.title)}</strong>.<br><br>
@@ -3036,7 +2839,7 @@ const App = {
     const s = SUBJECTS[key];
     if (!s || !s.isCustom) return;
     showModal(`
-      <h2>${icon('pencil')} Editar Matéria</h2>
+      <h2>✏️ Editar Matéria</h2>
       <div class="form-group" style="margin-bottom:10px">
         <label class="gap-label">Nome</label>
         <input type="text" id="edit-name" class="gap-input" value="${esc(s.title)}"
@@ -3090,7 +2893,7 @@ const App = {
   /* ── Criar matéria vazia ──────────────────────── */
   createEmptySubject() {
     showModal(`
-      <h2>${icon('plus')} Nova Matéria</h2>
+      <h2>＋ Nova Matéria</h2>
       <div class="form-group" style="margin-bottom:10px">
         <label class="gap-label">Nome</label>
         <input type="text" id="new-subj-name" class="gap-input" placeholder="Ex: Física Naval"
@@ -3139,7 +2942,7 @@ const App = {
     if (!subj) return;
     const preview = (subj.questions[qIdx]?.question || '').slice(0, 80);
     showModal(`
-      <h2>${icon('trash-2')} Excluir Questão?</h2>
+      <h2>🗑 Excluir Questão?</h2>
       <p style="font-size:13px;color:var(--muted);margin:10px 0 16px">${esc(preview)}${preview.length===80?'…':''}</p>
       <div class="modal-btns">
         <button class="btn-p" onclick="hideModal()">Cancelar</button>
@@ -3175,7 +2978,7 @@ const App = {
       q.options = (q.options || []).filter(p => (p[0]||'').trim() !== '' || (p[1]||'').trim() !== '');
       q.correct = q.options.map((_, i) => i);
       if (q.options.length < 2) {
-        showModal(`<h2>${icon('triangle-alert')} Pares insuficientes</h2>
+        showModal(`<h2>⚠️ Pares insuficientes</h2>
           <p style="font-size:14px;color:var(--muted);margin:12px 0">Adicione pelo menos 2 pares completos de associação.</p>
           <div class="modal-btns"><button class="btn-p" onclick="hideModal()">OK</button></div>`);
         return;
@@ -3263,16 +3066,16 @@ const App = {
     /* bloqueio de proteção */
     if (s.protected) {
       showModal(`
-        <h2>${icon('lock')} Matéria Protegida</h2>
+        <h2>🔒 Matéria Protegida</h2>
         <p style="font-size:14px;color:var(--muted);margin:12px 0">
-          Remova a proteção (${icon('lock-open')}) antes de excluir.
+          Remova a proteção (🔓) antes de excluir.
         </p>
         <div class="modal-btns"><button class="btn-p" onclick="hideModal()">OK</button></div>`);
       return;
     }
     /* validação por chave de acesso */
     showModal(`
-      <h2>${icon('trash-2')} Excluir Matéria?</h2>
+      <h2>🗑 Excluir Matéria?</h2>
       <p style="font-size:13px;color:var(--muted);margin:8px 0"><strong>${esc(s.title)}</strong> — ${s.questions.length} questões</p>
       <p style="font-size:13px;color:var(--red);margin-bottom:14px;line-height:1.6">
         Remove matéria, progresso, revisões e favoritos.<br>Esta ação não pode ser desfeita.
@@ -3314,7 +3117,7 @@ const App = {
   /* navegar para Biblioteca com confirmação e salvamento */
   goLibrary() {
     showModal(`
-      <h2>${icon('home')} Voltar para Biblioteca?</h2>
+      <h2>🏠 Voltar para Biblioteca?</h2>
       <p style="font-size:14px;color:var(--muted);margin:12px 0">
         Seu progresso será salvo e você poderá continuar depois.
       </p>
@@ -3620,19 +3423,6 @@ const App = {
     renderQuestion();
   },
 
-  /* alterna tema claro/escuro — só a preferência visual é persistida,
-     em chave própria, isolada de progresso/revisão/favoritos */
-  toggleTheme() {
-    const root    = document.documentElement;
-    const current = root.getAttribute('data-theme')
-      || ((window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark');
-    const next = current === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', next);
-    try { localStorage.setItem('cia_theme_v1', next); } catch(_) {}
-    const btn = $('theme-toggle');
-    if (btn) btn.innerHTML = icon(next === 'dark' ? 'moon' : 'sun');
-  },
-
   /* modal de confirmação antes de finalizar — ação segura é primária */
   confirmFinish() {
     /* ação segura: mesmo auto-verify de nav(), reaproveitado para não
@@ -3641,7 +3431,7 @@ const App = {
     if (S.deck[S.idx].type !== 'disc') this.verify();
     const st = stats();
     showModal(`
-      <h2>${icon('flag-triangle-right')} Finalizar Sessão?</h2>
+      <h2>🏁 Finalizar Sessão?</h2>
       <div class="modal-grid">
         <div class="modal-stat">
           <span class="modal-val" style="color:var(--green)">${st.correct}</span>
@@ -3661,7 +3451,7 @@ const App = {
         </div>
       </div>
       <div class="modal-btns">
-        <button class="btn-p" onclick="hideModal()">${icon('chevron-left')} Continuar</button>
+        <button class="btn-p" onclick="hideModal()">⬅ Continuar</button>
         <button class="btn-d" onclick="App.finishSession()">Finalizar agora</button>
       </div>
     `);
