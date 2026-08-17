@@ -1,8 +1,4 @@
 
-> **Treino:** mesma estrutura, mesma ordem e mesma quantidade de questões do material da P1.
-
----
-
 # 1ª Questão — Dado o gráfico abaixo da função g(x)
 
 Dado o gráfico abaixo da função g(x), determine o que se pede em \(x=2\).
