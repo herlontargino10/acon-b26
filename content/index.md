@@ -11,21 +11,22 @@ title: Início
 
 ## 📚 Disciplinas
 
-- [[Aulas/Meteorologia-Leonardo-Diogo|MET]]
-- [[Aulas/Combate-Incêndio-Avançado-Amadeu|CIA]]
-- [[Aulas/Legislação-Marítima-Anthony|LEG]]
-- [[Aulas/Inglês-Técnico-Marítimo-Jander|ITM]]
-- [[Aulas/Prática-Procedimentos-Passadiço-M-Coelho|PRP]]
-- [[Aulas/Navegação-1-Franco/Apostilas/Material de apoio|NAV-1]]
-- [[Aulas/Estabilidade-1-Quintana/Apostilas/Material de apoio|EST-1]]
-- [[Aulas/Cálculo-1-Franciano/Apostilas/Material de apoio|CAL-1]]
-- [[Aulas/Física-1-Macedo/Apostilas/Material de apoio|FIS-1]]
-- [[Aulas/Proteção-de-Navio-Palhas/Apostilas/Material de apoio|PRN]]
-- [[Aulas/Português-Complementar-Cláudia/Apostilas/Material de apoio|POC]]
-- [[Aulas/Hidrodinâmica-do-Navio-Santos-Maia/Apostilas/Material de apoio|HID]]
-- [[Aulas/Introduções-Embarcações-Offshore-Amanda/Apostilas/Material de apoio|IOM]]
-- [[Aulas/Navegação-2-Paulo-Lima/Apostilas/Material de apoio|NAV-2]]
-- [[Aulas/Oceonografia-Física-Ana-Cristina/Apostilas/Material de apoio|OCF-1]]
+- [[Aulas/Meteorologia-Leonardo-Diogo|METEOROLOGIA]]
+- [[Aulas/Combate-Incêndio-Avançado-Amadeu|COMBATE A INCÊNDIO AVANÇADO]]
+- [[Aulas/Legislação-Marítima-Anthony|LEGISLAÇÃO MARÍTIMA]]
+- [[Aulas/Inglês-Técnico-Marítimo-Jander|INGLÊS TÉCNICO MARÍTIMO]]
+- [[Aulas/Prática-Procedimentos-Passadiço-M-Coelho|PROCED. PASSADIÇO]]
+- [[Aulas/Navegação-1-Franco/Apostilas/Material de apoio|NAVEGAÇÃO]]
+- [[Aulas/Estabilidade-1-Quintana/Apostilas/Material de apoio|ESTABILIDADE]]
+- [[Aulas/Cálculo-1-Franciano/Apostilas/Material de apoio|CÁLCULO I]]
+- [[Aulas/Física-1-Macedo/Apostilas/Material de apoio|FÍSICA]]
+- [[Aulas/Proteção-de-Navio-Palhas/Apostilas/Material de apoio|PROTEÇÃO DE NAVIO]]
+- [[Aulas/Português-Complementar-Cláudia/Apostilas/Material de apoio|PORTUGUÊS]]
+- [[Aulas/Hidrodinâmica-do-Navio-Santos-Maia/Apostilas/Material de apoio|HIDRODINÂMICA]]
+- [[Aulas/Introduções-Embarcações-Offshore-Amanda/Apostilas/Material de apoio|INTRODUÇÃO A EMBARCAÇÕES OFFSHORE]]
+- [[Aulas/Navegação-2-Paulo-Lima/Apostilas/Material de apoio|NAVEGAÇÃO ELETRÔNICA]]
+- [[Aulas/Oceonografia-Física-Ana-Cristina/Apostilas/Material de apoio|OCEONOGRAFIA FÍSICA]]
+- [[Aulas/Operador-ECDIS-Guimarães/Apostilas/Material de apoio|OPERADOR ECDIS]]
 
 ## 📅 Cronograma
 

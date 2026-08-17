@@ -53,7 +53,7 @@ $$
 $$
 
 
-- [ ] **5.2) Não é cálculo direto - Parece com a 5.2 do Trabalho**
+- [ ] **5.2) Não é cálculo direto **
 $$
 g(x)=\frac{2x}{x-3}
 $$

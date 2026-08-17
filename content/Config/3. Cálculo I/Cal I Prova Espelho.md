@@ -28,7 +28,7 @@ tema: Prova-Espelho P1 (5 questões, mesma estrutura da prova)
 
 ---
 
-## 2ª Questão — Calcule os limites abaixo (cálculo direto)
+## 2ª Questão — Calcule os limites abaixo:
 
 **2.1)** $\displaystyle\lim_{x \to 3} \sqrt[4]{16\,x^8}$
 
@@ -36,14 +36,19 @@ tema: Prova-Espelho P1 (5 questões, mesma estrutura da prova)
 
 **2.3)** $\displaystyle\lim_{x \to -1} \left( x^5 + x^4 - x^3 + x^2 - x - 20 \right)$
 
+Falta 1 questão parecida com a 3.1 do trabalho.
+
+falta 1 questão parecida com a 5.2 do trabalho. 
+
 ---
 
-## 3ª Questão — Encontre os limites abaixo
+## 3ª Questão — Encontre os limites abaixo:
 
 **3.1)** $\displaystyle\lim_{x \to 3} \frac{x^3 - 4x^2 + x + 6}{x - 3}$
 
 **3.2)** $\displaystyle\lim_{x \to 3} \frac{x^2 - 7x + 12}{x^2 - 9}$
 
+a 3.1 não está parecida com a 4.1 do trabalho.
 ---
 
 ## 4ª Questão — limites laterais da função por partes, em **x = 2**
