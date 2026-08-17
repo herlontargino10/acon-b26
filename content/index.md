@@ -23,7 +23,7 @@ title: Início
 - [[Aulas/Proteção-de-Navio-Palhas/Apostilas/Material de apoio|PROTEÇÃO DE NAVIO]]
 - [[Aulas/Português-Complementar-Cláudia/Apostilas/Material de apoio|PORTUGUÊS COMPLEMENTAR]]
 - [[Aulas/Hidrodinâmica-do-Navio-Santos-Maia/Apostilas/Material de apoio|HIDRODINÂMICA]]
-- [[Aulas/Introduções-Embarcações-Offshore-Amanda/Apostilas/Material de apoio|INTRODUÇÃO A EMBARCAÇÕES OFFSHORE]]
+- [[Aulas/Introduções-Embarcações-Offshore-Amanda/Apostilas/Material de apoio|INTRODUÇÃO A EMBARC. OFFSHORE]]
 - [[Aulas/Navegação-2-Paulo-Lima/Apostilas/Material de apoio|NAVEGAÇÃO ELETRÔNICA]]
 - [[Aulas/Oceonografia-Física-Ana-Cristina/Apostilas/Material de apoio|OCEONOGRAFIA FÍSICA]]
 - [[Aulas/Operador-ECDIS-Guimarães/Apostilas/Material de apoio|OPERADOR ECDIS]]
