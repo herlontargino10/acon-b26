@@ -1,0 +1,1685 @@
+[
+  {
+    "type": "mc",
+    "category": "Segurança",
+    "question": "Qual a principal causa de acidentes na indústria marítima?",
+    "options": [
+      "Condutas humanas",
+      "Falha estrutural",
+      "Condição climática",
+      "Falha mecânica"
+    ],
+    "correct": 0,
+    "explanation": "A principal causa de acidentes na indústria marítima está associada às condutas humanas."
+  },
+  {
+    "type": "mc",
+    "category": "Prevenção",
+    "question": "Quem é responsável pela prevenção de incêndios a bordo?",
+    "options": [
+      "Todos a bordo",
+      "Apenas comandante",
+      "Apenas brigada",
+      "Apenas oficial de máquinas"
+    ],
+    "correct": 0,
+    "explanation": "A prevenção é responsabilidade coletiva."
+  },
+  {
+    "type": "mc",
+    "category": "Incêndio",
+    "question": "Por que trapos embebidos em óleo oferecem risco?",
+    "options": [
+      "Porque podem entrar em combustão",
+      "Porque aumentam umidade",
+      "Porque reduzem ventilação",
+      "Porque causam corrosão"
+    ],
+    "correct": 0,
+    "explanation": "Trapos oleosos podem sofrer ignição espontânea."
+  },
+  {
+    "type": "mc",
+    "category": "Cozinha",
+    "question": "Qual o risco do acúmulo de gordura nas cozinhas?",
+    "options": [
+      "Incêndio e propagação pelas tubulações",
+      "Corrosão",
+      "Perda de pressão",
+      "Contaminação"
+    ],
+    "correct": 0,
+    "explanation": "Gordura acumulada favorece ignição e propagação."
+  },
+  {
+    "type": "mc",
+    "category": "Soldagem",
+    "question": "Por que serviços de solda oferecem risco?",
+    "options": [
+      "Produzem calor e faíscas",
+      "Produzem fumaça",
+      "Geram vibração",
+      "Geram ruído"
+    ],
+    "correct": 0,
+    "explanation": "Soldagem é operação a quente."
+  },
+  {
+    "type": "mc",
+    "category": "Tanques",
+    "question": "Por que tanques devem ser desgaseificados antes de serviços internos?",
+    "options": [
+      "Remover gases inflamáveis",
+      "Reduzir peso",
+      "Melhorar ventilação",
+      "Evitar corrosão"
+    ],
+    "correct": 0,
+    "explanation": "Evita explosões."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: Reações endotérmicas ______ calor.",
+    "correct": "requerem",
+    "explanation": "Reações endotérmicas absorvem calor."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: Reações exotérmicas ______ calor.",
+    "correct": "liberam",
+    "explanation": "Reações exotérmicas liberam calor."
+  },
+  {
+    "type": "mc",
+    "category": "Combustão",
+    "question": "Quais são os elementos do triângulo do fogo?",
+    "options": [
+      "Combustível, calor e comburente",
+      "Água, calor e vapor",
+      "Oxigênio, pressão e água",
+      "Combustível, espuma e CO₂"
+    ],
+    "correct": 0,
+    "explanation": "Sem um dos três elementos não ocorre combustão."
+  },
+  {
+    "type": "mc",
+    "category": "Classe A",
+    "question": "Qual método é mais usado em incêndios Classe A?",
+    "options": [
+      "Resfriamento com água",
+      "CO₂",
+      "Pó químico",
+      "Abafamento"
+    ],
+    "correct": 0,
+    "explanation": "Classe A normalmente é combatida por resfriamento."
+  },
+  {
+    "type": "mc",
+    "category": "Classe B",
+    "question": "Qual o principal risco dos incêndios Classe B?",
+    "options": [
+      "Espalhamento rápido das chamas",
+      "Explosão nuclear",
+      "Corrosão",
+      "Congelamento"
+    ],
+    "correct": 0,
+    "explanation": "Líquidos inflamáveis espalham rapidamente."
+  },
+  {
+    "type": "mc",
+    "category": "Classe C",
+    "question": "O que caracteriza incêndio Classe C?",
+    "options": [
+      "Equipamentos elétricos energizados",
+      "Madeira",
+      "Metais",
+      "Gases"
+    ],
+    "correct": 0,
+    "explanation": "Classe C envolve eletricidade."
+  },
+  {
+    "type": "mc",
+    "category": "Extintores",
+    "question": "Qual agente atua interrompendo reação em cadeia?",
+    "options": [
+      "Pó químico",
+      "Água",
+      "Espuma",
+      "Areia"
+    ],
+    "correct": 0,
+    "explanation": "O pó químico interrompe a combustão."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Qual característica física do CO₂?",
+    "options": [
+      "Gás incolor, inodoro e mais pesado que o ar",
+      "Gás inflamável",
+      "Gás leve",
+      "Condutor elétrico"
+    ],
+    "correct": 0,
+    "explanation": "CO₂ é agente extintor gasoso."
+  },
+  {
+    "type": "mc",
+    "category": "Treinamento",
+    "question": "Segundo a SOLAS qual frequência mínima dos exercícios?",
+    "options": [
+      "Mensal",
+      "Semanal",
+      "Anual",
+      "Diária"
+    ],
+    "correct": 0,
+    "explanation": "A SOLAS exige exercício mensal."
+  },
+  {
+    "type": "mc",
+    "category": "Caldeiras",
+    "question": "Qual a finalidade de uma caldeira a vapor?",
+    "options": [
+      "Produzir e acumular vapor sob pressão",
+      "Produzir combustível",
+      "Resfriar motores",
+      "Armazenar óleo"
+    ],
+    "correct": 0,
+    "explanation": "Caldeiras produzem vapor sob pressão superior à atmosférica."
+  },
+  {
+    "type": "mc",
+    "category": "Caldeiras",
+    "question": "Qual item impede excesso de pressão na caldeira?",
+    "options": [
+      "Válvula de segurança",
+      "Termômetro",
+      "Ventilador",
+      "Filtro"
+    ],
+    "correct": 0,
+    "explanation": "A válvula de segurança evita sobrepressão."
+  },
+  {
+    "type": "mc",
+    "category": "Caldeiras",
+    "question": "Qual o principal risco do nível baixo na caldeira?",
+    "options": [
+      "Fundição de tubos e explosão",
+      "Perda de combustível",
+      "Congelamento",
+      "Corrosão leve"
+    ],
+    "correct": 0,
+    "explanation": "Baixo nível pode causar superaquecimento e explosão."
+  },
+  {
+    "type": "mc",
+    "category": "Segurança",
+    "question": "Qual o objetivo das normas de segurança a bordo?",
+    "options": [
+      "Prevenir acidentes e proteger vidas",
+      "Reduzir velocidade",
+      "Economizar combustível",
+      "Melhorar conforto"
+    ],
+    "correct": 0,
+    "explanation": "Normas existem para prevenir acidentes e proteger pessoas e equipamentos."
+  },
+  {
+    "type": "mc",
+    "category": "Segurança",
+    "question": "O que significa identificar riscos?",
+    "options": [
+      "Reconhecer perigos antes que causem acidentes",
+      "Eliminar toda operação",
+      "Parar atividades",
+      "Reduzir tripulação"
+    ],
+    "correct": 0,
+    "explanation": "Identificar riscos permite agir antes do acidente."
+  },
+  {
+    "type": "mc",
+    "category": "SOLAS",
+    "question": "Qual convenção da IMO trata da segurança da vida humana no mar?",
+    "options": [
+      "SOLAS",
+      "MARPOL",
+      "STCW",
+      "ISM"
+    ],
+    "correct": 0,
+    "explanation": "SOLAS é a principal convenção de segurança."
+  },
+  {
+    "type": "mc",
+    "category": "Incêndio",
+    "question": "O que é o triângulo do fogo?",
+    "options": [
+      "Representação dos elementos da combustão",
+      "Plano de emergência",
+      "Equipamento de combate",
+      "Tipo de detector"
+    ],
+    "correct": 0,
+    "explanation": "Combustível + calor + comburente."
+  },
+  {
+    "type": "mc",
+    "category": "Classe A",
+    "question": "O que caracteriza incêndio Classe A?",
+    "options": [
+      "Combustíveis sólidos",
+      "Líquidos inflamáveis",
+      "Equipamentos energizados",
+      "Metais"
+    ],
+    "correct": 0,
+    "explanation": "Classe A deixa resíduos como cinzas e brasas."
+  },
+  {
+    "type": "mc",
+    "category": "Classe B",
+    "question": "Como ocorre a queima na Classe B?",
+    "options": [
+      "Na superfície do combustível",
+      "Em profundidade",
+      "Somente em gases",
+      "Sem chama"
+    ],
+    "correct": 0,
+    "explanation": "Classe B queima superficialmente."
+  },
+  {
+    "type": "mc",
+    "category": "Classe D",
+    "question": "O que caracteriza incêndio Classe D?",
+    "options": [
+      "Queima de metais combustíveis",
+      "Queima elétrica",
+      "Queima de papel",
+      "Queima de óleo"
+    ],
+    "correct": 0,
+    "explanation": "Classe D envolve metais e temperaturas elevadas."
+  },
+  {
+    "type": "mc",
+    "category": "Métodos",
+    "question": "Qual o objetivo do resfriamento?",
+    "options": [
+      "Retirar calor",
+      "Adicionar oxigênio",
+      "Adicionar combustível",
+      "Fechar válvulas"
+    ],
+    "correct": 0,
+    "explanation": "Retirar calor interrompe combustão."
+  },
+  {
+    "type": "mc",
+    "category": "Métodos",
+    "question": "Qual o objetivo do abafamento?",
+    "options": [
+      "Retirar oxigênio",
+      "Resfriar combustível",
+      "Reduzir pressão",
+      "Aumentar ventilação"
+    ],
+    "correct": 0,
+    "explanation": "Abafamento reduz oxigênio disponível."
+  },
+  {
+    "type": "mc",
+    "category": "Métodos",
+    "question": "Qual o objetivo do isolamento?",
+    "options": [
+      "Separar combustível",
+      "Resfriar fogo",
+      "Aumentar combustão",
+      "Gerar vapor"
+    ],
+    "correct": 0,
+    "explanation": "Sem combustível o fogo não continua."
+  },
+  {
+    "type": "mc",
+    "category": "Incêndio",
+    "question": "Qual é a lógica principal do combate a incêndio?",
+    "options": [
+      "Eliminar um elemento do triângulo do fogo",
+      "Adicionar água sempre",
+      "Usar espuma sempre",
+      "Evitar alarme"
+    ],
+    "correct": 0,
+    "explanation": "Combate remove um dos elementos da combustão."
+  },
+  {
+    "type": "mc",
+    "category": "Tetraedro",
+    "question": "O que substituiu o Triângulo do Fogo?",
+    "options": [
+      "Tetraedro do Fogo",
+      "Quadrado do Fogo",
+      "Modelo IMO",
+      "Ciclo térmico"
+    ],
+    "correct": 0,
+    "explanation": "Acrescenta reação em cadeia."
+  },
+  {
+    "type": "mc",
+    "category": "Água",
+    "question": "Qual agente extintor é mais utilizado?",
+    "options": [
+      "Água",
+      "CO₂",
+      "Espuma",
+      "Pó químico"
+    ],
+    "correct": 0,
+    "explanation": "A água é considerada o agente extintor universal."
+  },
+  {
+    "type": "mc",
+    "category": "Água",
+    "question": "Como a água atua principalmente no fogo?",
+    "options": [
+      "Resfriamento e abafamento",
+      "Somente isolamento",
+      "Somente reação química",
+      "Compressão"
+    ],
+    "correct": 0,
+    "explanation": "Água reduz temperatura e pode gerar vapor para abafamento."
+  },
+  {
+    "type": "mc",
+    "category": "Classe A",
+    "question": "Melhor aplicação da água em incêndios Classe A?",
+    "options": [
+      "Jato compacto",
+      "Neblina fina",
+      "CO₂",
+      "Espuma química"
+    ],
+    "correct": 0,
+    "explanation": "Classe A normalmente utiliza jato sólido."
+  },
+  {
+    "type": "mc",
+    "category": "Classe B",
+    "question": "Melhor aplicação da água em incêndios Classe B?",
+    "options": [
+      "Neblina ou pulverizada",
+      "Jato sólido",
+      "Areia",
+      "CO₂ líquido"
+    ],
+    "correct": 0,
+    "explanation": "Evita espalhamento do combustível."
+  },
+  {
+    "type": "mc",
+    "category": "Eletricidade",
+    "question": "Por que água salgada não deve ser usada em incêndios Classe C?",
+    "options": [
+      "Conduz eletricidade",
+      "Evapora rápido",
+      "Produz fumaça",
+      "Resfria pouco"
+    ],
+    "correct": 0,
+    "explanation": "Água salgada é boa condutora."
+  },
+  {
+    "type": "mc",
+    "category": "Estabilidade",
+    "question": "Qual principal problema do uso excessivo de água a bordo?",
+    "options": [
+      "Comprometimento da estabilidade",
+      "Corrosão apenas",
+      "Baixa temperatura",
+      "Ruído"
+    ],
+    "correct": 0,
+    "explanation": "Água embarcada altera centro de gravidade."
+  },
+  {
+    "type": "mc",
+    "category": "Estabilidade",
+    "question": "O que é efeito de superfície livre?",
+    "options": [
+      "Movimento da água acumulada",
+      "Entrada de ar",
+      "Evaporação",
+      "Inclinação estrutural"
+    ],
+    "correct": 0,
+    "explanation": "Aumenta instabilidade."
+  },
+  {
+    "type": "mc",
+    "category": "Estabilidade",
+    "question": "Qual situação extrema pode ocorrer pela perda de estabilidade?",
+    "options": [
+      "Emborcamento",
+      "Explosão",
+      "Incêndio",
+      "Corrosão"
+    ],
+    "correct": 0,
+    "explanation": "Excesso de água pode comprometer flutuabilidade."
+  },
+  {
+    "type": "mc",
+    "category": "Espuma",
+    "question": "O que é espuma extintora?",
+    "options": [
+      "Aglomerado de bolhas formadas por água e gás",
+      "Espuma industrial comum",
+      "Gelo químico",
+      "Nuvem de vapor"
+    ],
+    "correct": 0,
+    "explanation": "Espuma atua principalmente por abafamento."
+  },
+  {
+    "type": "mc",
+    "category": "Espuma",
+    "question": "Qual gás é usado na formação da espuma?",
+    "options": [
+      "CO₂",
+      "Nitrogênio",
+      "Oxigênio",
+      "Hélio"
+    ],
+    "correct": 0,
+    "explanation": "CO₂ auxilia na formação das bolhas."
+  },
+  {
+    "type": "mc",
+    "category": "Espuma",
+    "question": "Principal mecanismo da espuma?",
+    "options": [
+      "Abafamento",
+      "Choque térmico",
+      "Compressão",
+      "Evaporação"
+    ],
+    "correct": 0,
+    "explanation": "Impede contato do combustível com oxigênio."
+  },
+  {
+    "type": "mc",
+    "category": "Espuma",
+    "question": "Para quais incêndios a espuma é indicada?",
+    "options": [
+      "Classe B",
+      "Classe D",
+      "Classe C energizado",
+      "Classe A apenas"
+    ],
+    "correct": 0,
+    "explanation": "Muito eficiente em líquidos inflamáveis."
+  },
+  {
+    "type": "mc",
+    "category": "Espuma",
+    "question": "Por que espuma comum não serve para álcool?",
+    "options": [
+      "É dissolvida",
+      "Explode",
+      "Congela",
+      "Oxida"
+    ],
+    "correct": 0,
+    "explanation": "Perde eficiência rapidamente."
+  },
+  {
+    "type": "mc",
+    "category": "Pó Químico",
+    "question": "Principal ação do pó químico?",
+    "options": [
+      "Abafamento",
+      "Resfriamento",
+      "Ventilação",
+      "Condensação"
+    ],
+    "correct": 0,
+    "explanation": "Também interrompe reação em cadeia."
+  },
+  {
+    "type": "mc",
+    "category": "Pó Químico",
+    "question": "Qual ação adicional possui o pó químico?",
+    "options": [
+      "Quebra da reação em cadeia",
+      "Produzir espuma",
+      "Resfriar metais",
+      "Aumentar pressão"
+    ],
+    "correct": 0,
+    "explanation": "Aprisiona radicais livres."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "CO₂ conduz eletricidade?",
+    "options": [
+      "Não",
+      "Sim",
+      "Parcialmente",
+      "Apenas em calor"
+    ],
+    "correct": 0,
+    "explanation": "É eletricamente inerte."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Qual temperatura pode ser atingida pelo CO₂ expandido?",
+    "options": [
+      "-70°C",
+      "-5°C",
+      "0°C",
+      "-20°C"
+    ],
+    "correct": 0,
+    "explanation": "A expansão provoca intenso resfriamento."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "O que é gelo seco?",
+    "options": [
+      "Partículas sólidas de CO₂",
+      "Gelo marítimo",
+      "Espuma química",
+      "Água congelada"
+    ],
+    "correct": 0,
+    "explanation": "Resultado da expansão do CO₂."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Em quais incêndios o CO₂ é indicado?",
+    "options": [
+      "Líquidos inflamáveis e equipamentos elétricos",
+      "Classe D apenas",
+      "Somente sólidos",
+      "Incêndio florestal"
+    ],
+    "correct": 0,
+    "explanation": "Muito usado em compartimentos fechados."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Em quais ambientes o CO₂ é mais efetivo?",
+    "options": [
+      "Compartimentos fechados",
+      "Áreas abertas",
+      "Convés",
+      "Áreas ventiladas"
+    ],
+    "correct": 0,
+    "explanation": "Mantém concentração suficiente para abafamento."
+  },
+  {
+    "type": "mc",
+    "category": "Plano de Contingência",
+    "question": "O que é um Plano de Contingência contra incêndios?",
+    "options": [
+      "Conjunto de medidas para prevenir, controlar e responder a emergências",
+      "Documento financeiro",
+      "Plano de manutenção",
+      "Lista de equipamentos"
+    ],
+    "correct": 0,
+    "explanation": "Plano que define ações, responsabilidades e recursos."
+  },
+  {
+    "type": "mc",
+    "category": "Plano de Contingência",
+    "question": "Qual objetivo principal do Plano de Contingência?",
+    "options": [
+      "Minimizar impactos das emergências",
+      "Aumentar produtividade",
+      "Reduzir consumo",
+      "Diminuir tripulação"
+    ],
+    "correct": 0,
+    "explanation": "Busca reduzir danos e organizar resposta."
+  },
+  {
+    "type": "mc",
+    "category": "Plano",
+    "question": "O Plano de Contingência define o quê?",
+    "options": [
+      "Responsabilidades, ações e recursos",
+      "Apenas alarmes",
+      "Somente inspeções",
+      "Apenas equipamentos"
+    ],
+    "correct": 0,
+    "explanation": "Coordena recursos humanos e materiais."
+  },
+  {
+    "type": "mc",
+    "category": "ISM",
+    "question": "Qual código internacional fundamenta o Plano de Contingência?",
+    "options": [
+      "ISM Code",
+      "STCW",
+      "MARPOL",
+      "SOLAS II"
+    ],
+    "correct": 0,
+    "explanation": "O ISM fortalece cultura de segurança."
+  },
+  {
+    "type": "mc",
+    "category": "Tabela Mestra",
+    "question": "O que é a Tabela Mestra?",
+    "options": [
+      "Documento com funções durante emergências",
+      "Plano de carga",
+      "Livro de máquinas",
+      "Registro médico"
+    ],
+    "correct": 0,
+    "explanation": "Define responsabilidades e postos."
+  },
+  {
+    "type": "mc",
+    "category": "Tabela Mestra",
+    "question": "O que a Tabela Mestra informa sobre tripulantes?",
+    "options": [
+      "Nome, função e posição na emergência",
+      "Salário",
+      "Escala de férias",
+      "Tempo embarcado"
+    ],
+    "correct": 0,
+    "explanation": "Facilita coordenação em emergências."
+  },
+  {
+    "type": "mc",
+    "category": "Tabela Mestra",
+    "question": "Qual convenção exige detalhes da Tabela Mestra?",
+    "options": [
+      "SOLAS",
+      "MARPOL",
+      "NORMAM",
+      "ISM"
+    ],
+    "correct": 0,
+    "explanation": "SOLAS define requisitos mínimos."
+  },
+  {
+    "type": "mc",
+    "category": "Tabela Mestra",
+    "question": "Plano de Contingência e Tabela Mestra são iguais?",
+    "options": [
+      "Não",
+      "Sim",
+      "Parcialmente",
+      "Depende"
+    ],
+    "correct": 0,
+    "explanation": "Tabela Mestra resume aspectos mínimos."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: A Tabela Mestra é um ______ do Plano de Contingência.",
+    "correct": "resumo",
+    "explanation": "A Tabela Mestra resume funções essenciais."
+  },
+  {
+    "type": "mc",
+    "category": "Emergência",
+    "question": "O que são Pontos de Reunião?",
+    "options": [
+      "Locais de concentração em emergências",
+      "Locais de descanso",
+      "Áreas de manutenção",
+      "Áreas administrativas"
+    ],
+    "correct": 0,
+    "explanation": "São definidos previamente."
+  },
+  {
+    "type": "mc",
+    "category": "Treinamento",
+    "question": "Qual a finalidade das simulações periódicas?",
+    "options": [
+      "Treinar resposta rápida da tripulação",
+      "Reduzir consumo",
+      "Melhorar conforto",
+      "Aumentar velocidade"
+    ],
+    "correct": 0,
+    "explanation": "Simulações aumentam prontidão."
+  },
+  {
+    "type": "mc",
+    "category": "Treinamento",
+    "question": "O que os treinamentos ajudam a identificar?",
+    "options": [
+      "Falhas e dificuldades operacionais",
+      "Somente defeitos mecânicos",
+      "Rotas",
+      "Custos"
+    ],
+    "correct": 0,
+    "explanation": "Treinamentos revelam pontos de melhoria."
+  },
+  {
+    "type": "mc",
+    "category": "Treinamento",
+    "question": "Quem deve garantir cumprimento da SOLAS a bordo?",
+    "options": [
+      "Comandante",
+      "Passageiros",
+      "Visitantes",
+      "Fornecedor"
+    ],
+    "correct": 0,
+    "explanation": "Cabe ao comandante garantir conformidade."
+  },
+  {
+    "type": "mc",
+    "category": "SOLAS",
+    "question": "Segundo a SOLAS, qual frequência mínima dos exercícios?",
+    "options": [
+      "Mensal",
+      "Semanal",
+      "Diária",
+      "Semestral"
+    ],
+    "correct": 0,
+    "explanation": "Incêndio e abandono devem ocorrer mensalmente."
+  },
+  {
+    "type": "mc",
+    "category": "Exercício",
+    "question": "O que deve ser acionado durante exercício de incêndio?",
+    "options": [
+      "Uma bomba de incêndio",
+      "Somente alarmes",
+      "Gerador reserva",
+      "Ventilação"
+    ],
+    "correct": 0,
+    "explanation": "Testa capacidade operacional."
+  },
+  {
+    "type": "mc",
+    "category": "Exercício",
+    "question": "Quais jatos devem ser usados nos exercícios?",
+    "options": [
+      "Jato sólido e neblina",
+      "Somente sólido",
+      "Somente espuma",
+      "CO₂"
+    ],
+    "correct": 0,
+    "explanation": "Demonstra funcionamento correto."
+  },
+  {
+    "type": "mc",
+    "category": "Treinamento",
+    "question": "Quando deve ocorrer o adestramento inicial?",
+    "options": [
+      "Até duas semanas após embarque",
+      "Após seis meses",
+      "Após inspeção",
+      "Após emergência"
+    ],
+    "correct": 0,
+    "explanation": "Treinamento inicial é obrigatório."
+  },
+  {
+    "type": "mc",
+    "category": "Manual",
+    "question": "Onde deve existir manual de adestramento?",
+    "options": [
+      "Refeitórios ou salas de recreação",
+      "Somente passadiço",
+      "Praça de máquinas",
+      "Cabine do comandante"
+    ],
+    "correct": 0,
+    "explanation": "Deve estar acessível."
+  },
+  {
+    "type": "mc",
+    "category": "Estratégia",
+    "question": "O que determina a estratégia de combate a incêndio?",
+    "options": [
+      "Local e condições da emergência",
+      "Quantidade de água",
+      "Horário",
+      "Clima externo"
+    ],
+    "correct": 0,
+    "explanation": "Cada cenário exige estratégia própria."
+  },
+  {
+    "type": "mc",
+    "category": "Combate",
+    "question": "O que é tática no combate a incêndio?",
+    "options": [
+      "Emprego específico dos recursos",
+      "Plano anual",
+      "Treinamento",
+      "Inspeção"
+    ],
+    "correct": 0,
+    "explanation": "Tática é aplicação prática da estratégia."
+  },
+  {
+    "type": "mc",
+    "category": "Incêndio",
+    "question": "O que é flashover?",
+    "options": [
+      "Transição rápida para incêndio generalizado",
+      "Explosão elétrica",
+      "Vazamento",
+      "Resfriamento extremo"
+    ],
+    "correct": 0,
+    "explanation": "Fenômeno crítico em ambientes confinados."
+  },
+  {
+    "type": "mc",
+    "category": "Sistema",
+    "question": "Qual sistema automático ajuda a controlar focos?",
+    "options": [
+      "Sprinklers",
+      "Extintor portátil",
+      "Venturi",
+      "Bomba de carga"
+    ],
+    "correct": 0,
+    "explanation": "Sprinklers atuam automaticamente."
+  },
+  {
+    "type": "mc",
+    "category": "Detecção",
+    "question": "O que detectores de gases sinalizam?",
+    "options": [
+      "Vazamentos perigosos",
+      "Temperatura",
+      "Ruído",
+      "Pressão"
+    ],
+    "correct": 0,
+    "explanation": "Permitem resposta antecipada."
+  },
+  {
+    "type": "mc",
+    "category": "Brigada",
+    "question": "Quando a brigada deve entrar em ação?",
+    "options": [
+      "Quando sistemas preventivos não controlarem",
+      "Sempre imediatamente",
+      "Apenas em abandono",
+      "Nunca"
+    ],
+    "correct": 0,
+    "explanation": "Atuação ocorre conforme planejamento."
+  },
+  {
+    "type": "mc",
+    "category": "Brigada",
+    "question": "Qual é a primeira responsabilidade da brigada?",
+    "options": [
+      "Concentrar-se no ponto de reunião",
+      "Combater imediatamente",
+      "Abrir ventilação",
+      "Buscar documentos"
+    ],
+    "correct": 0,
+    "explanation": "Organização antes da ação."
+  },
+  {
+    "type": "mc",
+    "category": "Brigada",
+    "question": "O que a brigada deve vestir antes do combate?",
+    "options": [
+      "Equipamento de proteção individual",
+      "Roupa comum",
+      "Coletes",
+      "Macacão leve"
+    ],
+    "correct": 0,
+    "explanation": "Proteção é prioridade."
+  },
+  {
+    "type": "mc",
+    "category": "Incêndio",
+    "question": "O que deve ser feito com ventilação da área incendiada?",
+    "options": [
+      "Cortar ventilação e extração",
+      "Aumentar ventilação",
+      "Manter aberta",
+      "Ignorar"
+    ],
+    "correct": 0,
+    "explanation": "Reduz fornecimento de oxigênio."
+  },
+  {
+    "type": "mc",
+    "category": "Incêndio",
+    "question": "O que deve ser feito com circuitos elétricos afetados?",
+    "options": [
+      "Desligar",
+      "Aumentar carga",
+      "Isolar parcialmente",
+      "Manter ligados"
+    ],
+    "correct": 0,
+    "explanation": "Evita riscos adicionais."
+  },
+  {
+    "type": "mc",
+    "category": "Incêndio",
+    "question": "O que deve ser feito com áreas próximas ao incêndio?",
+    "options": [
+      "Evacuá-las",
+      "Fechá-las sem aviso",
+      "Ventilar",
+      "Continuar operações"
+    ],
+    "correct": 0,
+    "explanation": "Proteção de pessoas é prioridade."
+  },
+  {
+    "type": "mc",
+    "category": "Estratégia",
+    "question": "Quem decide a estratégia durante um incêndio?",
+    "options": [
+      "Coordenador Geral da emergência",
+      "Brigadista mais antigo",
+      "Comandante do rebocador",
+      "Oficial de convés"
+    ],
+    "correct": 0,
+    "explanation": "A estratégia deve ser centralizada para evitar ações conflitantes."
+  },
+  {
+    "type": "mc",
+    "category": "Emergência",
+    "question": "O plano de contingência fornece o quê?",
+    "options": [
+      "Diretrizes básicas para emergências",
+      "Apenas procedimentos financeiros",
+      "Controle de carga",
+      "Plano de manutenção"
+    ],
+    "correct": 0,
+    "explanation": "Serve como referência operacional."
+  },
+  {
+    "type": "mc",
+    "category": "Combate",
+    "question": "Um incêndio na planta industrial exige a mesma ação da superestrutura?",
+    "options": [
+      "Não",
+      "Sim",
+      "Sempre",
+      "Somente em abandono"
+    ],
+    "correct": 0,
+    "explanation": "Cada área exige estratégia específica."
+  },
+  {
+    "type": "mc",
+    "category": "Ataque",
+    "question": "Em compartimento confinado com risco de flashover qual estratégia usar?",
+    "options": [
+      "Ataque indireto com resfriamento prévio",
+      "Ataque frontal imediato",
+      "Abertura total",
+      "Ventilação forçada"
+    ],
+    "correct": 0,
+    "explanation": "Reduz risco de ignição generalizada."
+  },
+  {
+    "type": "mc",
+    "category": "Sprinklers",
+    "question": "Onde sprinklers costumam ser instalados?",
+    "options": [
+      "Compartimentos conforme os riscos",
+      "Somente passadiço",
+      "Convés aberto",
+      "Banheiros"
+    ],
+    "correct": 0,
+    "explanation": "São distribuídos conforme análise de risco."
+  },
+  {
+    "type": "mc",
+    "category": "Detecção",
+    "question": "O que detectores de chamas identificam?",
+    "options": [
+      "Presença de fogo ou chamas",
+      "Pressão",
+      "Ruído",
+      "Umidade"
+    ],
+    "correct": 0,
+    "explanation": "Detectam foco de incêndio rapidamente."
+  },
+  {
+    "type": "mc",
+    "category": "Sistema",
+    "question": "O que é sistema de dilúvio?",
+    "options": [
+      "Sistema automático com grande descarga de água",
+      "Sistema de ventilação",
+      "Sistema de drenagem",
+      "Sistema de carga"
+    ],
+    "correct": 0,
+    "explanation": "Muito usado em áreas críticas."
+  },
+  {
+    "type": "mc",
+    "category": "Brigada",
+    "question": "Como a brigada mantém preparo operacional?",
+    "options": [
+      "Exercícios simulados e reciclagem",
+      "Experiência apenas",
+      "Observação",
+      "Documentação"
+    ],
+    "correct": 0,
+    "explanation": "Treino constante aumenta desempenho."
+  },
+  {
+    "type": "mc",
+    "category": "Resposta",
+    "question": "O que deve ocorrer após soar o alarme?",
+    "options": [
+      "Identificar o local do incêndio",
+      "Evacuar imediatamente",
+      "Fechar motores",
+      "Acionar abandono"
+    ],
+    "correct": 0,
+    "explanation": "Identificação correta reduz erros."
+  },
+  {
+    "type": "mc",
+    "category": "Análise",
+    "question": "Após localizar o incêndio o que deve ser identificado?",
+    "options": [
+      "Tipo de combustível envolvido",
+      "Quantidade de água",
+      "Horário",
+      "Velocidade do navio"
+    ],
+    "correct": 0,
+    "explanation": "Determina método de combate."
+  },
+  {
+    "type": "mc",
+    "category": "Análise",
+    "question": "Por que identificar combustível é importante?",
+    "options": [
+      "Escolher método correto de combate",
+      "Reduzir ruído",
+      "Aumentar pressão",
+      "Controlar ventilação"
+    ],
+    "correct": 0,
+    "explanation": "Agente errado pode agravar incêndio."
+  },
+  {
+    "type": "mc",
+    "category": "Incêndio",
+    "question": "O que deve ser avaliado quanto ao incêndio?",
+    "options": [
+      "Proporção ou extensão",
+      "Cor da fumaça apenas",
+      "Temperatura externa",
+      "Condição climática"
+    ],
+    "correct": 0,
+    "explanation": "Define recursos necessários."
+  },
+  {
+    "type": "mc",
+    "category": "Segurança",
+    "question": "O que deve ser analisado nas proximidades?",
+    "options": [
+      "Materiais combustíveis presentes",
+      "Documentação",
+      "Tripulação de descanso",
+      "Carga administrativa"
+    ],
+    "correct": 0,
+    "explanation": "Evita propagação."
+  },
+  {
+    "type": "mc",
+    "category": "Controle",
+    "question": "O que fazer com válvulas de interceptação da área?",
+    "options": [
+      "Fechá-las",
+      "Abri-las",
+      "Trocar posição",
+      "Isolar parcialmente"
+    ],
+    "correct": 0,
+    "explanation": "Reduz alimentação do incêndio."
+  },
+  {
+    "type": "mc",
+    "category": "Eletricidade",
+    "question": "Quando desligar circuitos próximos?",
+    "options": [
+      "Quando houver risco de gases inflamáveis",
+      "Sempre",
+      "Nunca",
+      "Somente à noite"
+    ],
+    "correct": 0,
+    "explanation": "Reduz risco de ignição."
+  },
+  {
+    "type": "mc",
+    "category": "Evacuação",
+    "question": "Como escolher método de combate?",
+    "options": [
+      "Conforme tipo e condições do incêndio",
+      "Pela experiência apenas",
+      "Somente água",
+      "Somente espuma"
+    ],
+    "correct": 0,
+    "explanation": "Combate deve ser proporcional."
+  },
+  {
+    "type": "mc",
+    "category": "Brigada",
+    "question": "Onde está previsto o ponto de reunião da brigada?",
+    "options": [
+      "Tabela Mestra",
+      "Plano financeiro",
+      "Diário de bordo",
+      "Plano de viagem"
+    ],
+    "correct": 0,
+    "explanation": "Tabela Mestra organiza resposta."
+  },
+  {
+    "type": "mc",
+    "category": "Brigada",
+    "question": "Para onde a brigada deve se apresentar após equipar-se?",
+    "options": [
+      "Pontos de controle avançado",
+      "Passadiço",
+      "Convés principal",
+      "Refeitório"
+    ],
+    "correct": 0,
+    "explanation": "Coordenação operacional."
+  },
+  {
+    "type": "mc",
+    "category": "Liderança",
+    "question": "Quem orienta tarefas da equipe de combate?",
+    "options": [
+      "Líder da equipe",
+      "Qualquer tripulante",
+      "Observador",
+      "Operador rádio"
+    ],
+    "correct": 0,
+    "explanation": "Centraliza decisões."
+  },
+  {
+    "type": "mc",
+    "category": "Prioridade",
+    "question": "Qual deve ser prioridade permanente da brigada?",
+    "options": [
+      "Garantir segurança para todos",
+      "Salvar equipamentos",
+      "Reduzir custos",
+      "Retomar operação"
+    ],
+    "correct": 0,
+    "explanation": "Vida humana sempre vem primeiro."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: Estratégia é o ______ prévio ao combate.",
+    "correct": "planejamento",
+    "explanation": "Estratégia organiza ações."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: Tática é o emprego específico de ______.",
+    "correct": "recursos",
+    "explanation": "Tática é execução."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: O ataque indireto pode evitar o ______.",
+    "correct": "flashover",
+    "explanation": "Evita generalização do incêndio."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: A brigada deve cortar a ______ da área incendiada.",
+    "correct": "ventilação",
+    "explanation": "Reduz comburente."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: Circuitos ______ devem ser desligados.",
+    "correct": "elétricos",
+    "explanation": "Evita novas ignições."
+  },
+  {
+    "type": "mc",
+    "category": "Sistemas Fixos",
+    "question": "O que são sistemas fixos de extinção de incêndio?",
+    "options": [
+      "Instalações permanentes de proteção contra incêndios",
+      "Equipamentos portáteis",
+      "Sistemas temporários",
+      "Dispositivos elétricos"
+    ],
+    "correct": 0,
+    "explanation": "São instalações permanentes embarcadas."
+  },
+  {
+    "type": "mc",
+    "category": "Sistema Fixo",
+    "question": "Quais são os 3 componentes básicos de um sistema fixo?",
+    "options": [
+      "Reservatório, canalização e dispositivo de descarga",
+      "Motor, válvula e extintor",
+      "Sensor, cabo e bomba",
+      "Tanque, radar e válvula"
+    ],
+    "correct": 0,
+    "explanation": "Esses são os elementos essenciais."
+  },
+  {
+    "type": "mc",
+    "category": "Rede",
+    "question": "Qual sistema geralmente capta água diretamente do mar?",
+    "options": [
+      "Rede de incêndio",
+      "CO₂",
+      "PQS",
+      "Gás inerte"
+    ],
+    "correct": 0,
+    "explanation": "Rede usa água do mar pressurizada."
+  },
+  {
+    "type": "mc",
+    "category": "Sistema Fixo",
+    "question": "Cite os principais sistemas fixos usados a bordo.",
+    "options": [
+      "Rede, borrifo, espuma, CO₂, gás inerte e PQS",
+      "Apenas rede e espuma",
+      "Somente CO₂",
+      "Somente PQS"
+    ],
+    "correct": 0,
+    "explanation": "São os principais sistemas embarcados."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: Sistemas líquidos incluem ____",
+    "correct": "Rede de incêndio, sprinklers e espuma",
+    "explanation": "São sistemas líquidos."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: Sistemas gasosos incluem ____",
+    "correct": "Sistema fixo de CO₂",
+    "explanation": "CO₂ é sistema gasoso."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: Sistemas sólidos incluem ____",
+    "correct": "Sistema fixo de pó químico seco",
+    "explanation": "PQS é sistema sólido."
+  },
+  {
+    "type": "mc",
+    "category": "Rede",
+    "question": "Qual a função da rede de incêndio?",
+    "options": [
+      "Fornecer água para combate em qualquer ponto do navio",
+      "Resfriar motores",
+      "Bombear combustível",
+      "Produzir espuma"
+    ],
+    "correct": 0,
+    "explanation": "Rede deve atender qualquer área."
+  },
+  {
+    "type": "mc",
+    "category": "Rede",
+    "question": "Como se chama a conexão com rede do porto?",
+    "options": [
+      "Conexão internacional de terra",
+      "Tomada externa",
+      "Conexão marítima",
+      "Acoplamento universal"
+    ],
+    "correct": 0,
+    "explanation": "Permite alimentação externa."
+  },
+  {
+    "type": "mc",
+    "category": "Rede",
+    "question": "Navios acima de quantas toneladas precisam dessa conexão?",
+    "options": [
+      "Mais de 500 toneladas",
+      "100 toneladas",
+      "200 toneladas",
+      "1000 toneladas"
+    ],
+    "correct": 0,
+    "explanation": "Exigência SOLAS."
+  },
+  {
+    "type": "mc",
+    "category": "Rede",
+    "question": "Quantos jatos devem alcançar qualquer área acessível?",
+    "options": [
+      "Pelo menos dois",
+      "Um",
+      "Quatro",
+      "Cinco"
+    ],
+    "correct": 0,
+    "explanation": "Garante redundância."
+  },
+  {
+    "type": "mc",
+    "category": "Bombas",
+    "question": "O que pressuriza a rede de incêndio?",
+    "options": [
+      "Bombas de incêndio independentes",
+      "Ventiladores",
+      "Compressores",
+      "Reservatórios"
+    ],
+    "correct": 0,
+    "explanation": "Mantêm pressão disponível."
+  },
+  {
+    "type": "mc",
+    "category": "Tomadas",
+    "question": "Tomadas de incêndio também são chamadas de quê?",
+    "options": [
+      "Hidrantes",
+      "Monitores",
+      "Bombas",
+      "Sprinklers"
+    ],
+    "correct": 0,
+    "explanation": "Termo equivalente."
+  },
+  {
+    "type": "mc",
+    "category": "Sprinklers",
+    "question": "O que ativa um sprinkler?",
+    "options": [
+      "Calor sobre ampola sensível",
+      "Fumaça",
+      "Pressão",
+      "Comando manual"
+    ],
+    "correct": 0,
+    "explanation": "Disparo térmico."
+  },
+  {
+    "type": "mc",
+    "category": "Sprinklers",
+    "question": "Sistema de borrifamento exige ação da tripulação?",
+    "options": [
+      "Não, funciona automaticamente",
+      "Sim",
+      "Somente em emergência",
+      "Depende"
+    ],
+    "correct": 0,
+    "explanation": "Sistema automático."
+  },
+  {
+    "type": "mc",
+    "category": "Espuma",
+    "question": "Em que classe de incêndio espuma é mais indicada?",
+    "options": [
+      "Classe B",
+      "Classe A",
+      "Classe C",
+      "Classe D"
+    ],
+    "correct": 0,
+    "explanation": "Ideal para líquidos inflamáveis."
+  },
+  {
+    "type": "mc",
+    "category": "Espuma",
+    "question": "Qual função do gerador de espuma?",
+    "options": [
+      "Misturar ar para formar espuma",
+      "Produzir calor",
+      "Gerar pressão",
+      "Filtrar água"
+    ],
+    "correct": 0,
+    "explanation": "Permite expansão da espuma."
+  },
+  {
+    "type": "mc",
+    "category": "Heliponto",
+    "question": "O heliponto normalmente é protegido por qual sistema?",
+    "options": [
+      "Sistema fixo de espuma",
+      "CO₂",
+      "PQS",
+      "Água apenas"
+    ],
+    "correct": 0,
+    "explanation": "Alta eficiência em combustíveis aeronáuticos."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Antes da descarga do gás deve existir o quê?",
+    "options": [
+      "Alarme automático sonoro",
+      "Ventilação ligada",
+      "Iluminação apagada",
+      "Pressurização"
+    ],
+    "correct": 0,
+    "explanation": "Permite evacuação."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Tempo mínimo entre alarme e descarga?",
+    "options": [
+      "20 segundos",
+      "10 segundos",
+      "5 segundos",
+      "30 segundos"
+    ],
+    "correct": 0,
+    "explanation": "Delay obrigatório."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Liberação automática do gás é permitida?",
+    "options": [
+      "Não",
+      "Sim",
+      "Só em praça de máquinas",
+      "Só em porto"
+    ],
+    "correct": 0,
+    "explanation": "Necessário acionamento controlado."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Qual princípio de extinção do CO₂?",
+    "options": [
+      "Abafamento",
+      "Resfriamento",
+      "Isolamento",
+      "Diluição"
+    ],
+    "correct": 0,
+    "explanation": "Reduz oxigênio."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Qual principal risco do CO₂?",
+    "options": [
+      "Asfixia",
+      "Explosão",
+      "Choque",
+      "Corrosão"
+    ],
+    "correct": 0,
+    "explanation": "Não sustenta respiração."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Quais os dois tipos de sistema fixo de CO₂?",
+    "options": [
+      "Inundação total e aplicação local",
+      "Automático e manual",
+      "Interno e externo",
+      "Seco e úmido"
+    ],
+    "correct": 0,
+    "explanation": "Duas formas de aplicação."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "Primeiro cuidado antes de liberar CO₂?",
+    "options": [
+      "Evacuar compartimento",
+      "Desligar rádio",
+      "Aumentar ventilação",
+      "Abrir escotilhas"
+    ],
+    "correct": 0,
+    "explanation": "Segurança do pessoal."
+  },
+  {
+    "type": "mc",
+    "category": "CO₂",
+    "question": "O que fazer com ventilação antes da descarga?",
+    "options": [
+      "Parar ventilação e exaustão",
+      "Aumentar fluxo",
+      "Manter aberta",
+      "Despressurizar"
+    ],
+    "correct": 0,
+    "explanation": "Evita perda do agente."
+  },
+  {
+    "type": "gap",
+    "category": "Lacuna",
+    "question": "Complete: CO₂ é um gás ____",
+    "correct": "Asfixiante",
+    "explanation": "Principal risco do sistema."
+  },
+  {
+    "type": "mc",
+    "category": "PQS",
+    "question": "PQS é especialmente eficaz para qual classe?",
+    "options": [
+      "Classe C",
+      "Classe A",
+      "Classe D",
+      "Classe B apenas"
+    ],
+    "correct": 0,
+    "explanation": "Muito usado em equipamentos elétricos."
+  },
+  {
+    "type": "mc",
+    "category": "PQS",
+    "question": "Qual gás normalmente impulsiona o PQS?",
+    "options": [
+      "Nitrogênio",
+      "Oxigênio",
+      "CO₂",
+      "Ar comprimido"
+    ],
+    "correct": 0,
+    "explanation": "Usado como propelente."
+  },
+  {
+    "type": "mc",
+    "category": "SGI",
+    "question": "O que é Sistema de Gás Inerte?",
+    "options": [
+      "Sistema que reduz oxigênio no ambiente",
+      "Sistema de ventilação",
+      "Sistema de bombeamento",
+      "Sistema de espuma"
+    ],
+    "correct": 0,
+    "explanation": "Previne incêndios e explosões."
+  },
+  {
+    "type": "mc",
+    "category": "SGI",
+    "question": "Onde o SGI é mais usado?",
+    "options": [
+      "Tanques de carga",
+      "Heliponto",
+      "Alojamentos",
+      "Passadiço"
+    ],
+    "correct": 0,
+    "explanation": "Muito usado em navios tanque."
+  }
+]

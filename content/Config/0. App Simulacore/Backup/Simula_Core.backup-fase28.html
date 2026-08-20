@@ -870,15 +870,6 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   box-shadow: var(--shadow-sm);
 }
 #lib-btn-wrap.visible { display: block; }
-/* Fase 28 — o botão é fixo à viewport (não ao fluxo do documento), então
-   em questões curtas o suficiente para caber na tela sem rolagem, a
-   última alternativa pode acabar caindo no canto inferior-esquerdo onde
-   ele fica, e o navegador entrega o toque ao botão em vez de à opção.
-   Reserva-se aqui, só enquanto o botão está visível (prova/revisão/
-   resultado), uma folga no rodapé do conteúdo maior que a altura real
-   do botão (~61px, offset incluso) para eliminar essa sobreposição —
-   sem mover, encolher ou desativar o botão. */
-body:has(#lib-btn-wrap.visible) #app { padding-bottom: 90px; }
 
 /* ── Gerenciar matérias ─────────────────────────── */
 .manage-row {
@@ -1839,7 +1830,7 @@ function prepareDeck(source) {
   return shuffle(source || ACTIVE_QUESTIONS).map(q => {
     const base = { ...q, _id: q._id || q.question };
     if (q.type === 'mc') {
-      const idxs = shuffle(q.options.map((_, i) => i));
+      const idxs = shuffle([0,1,2,3]);
       return {
         ...base,
         shuffledOptions: idxs.map(i => q.options[i]),
@@ -2884,13 +2875,13 @@ function renderQuestion() {
           ${esc(q.explanation || '')}
         </div>`;
       }
-    } else if (q.type !== 'disc' && (study || S.reviewMode)) {
+    } else if (q.type !== 'disc' && study) {
       /* Prova (não-DISC): nenhum painel de explicação/feedback — só o
          estado travado das opções já indica que a resposta foi registrada */
       const ok = isCorrectAt(S.idx);
       expHTML = `<div class="explanation show">
         <div class="exp-res ${ok ? 'ok' : 'bad'}">${ok ? icon('check') + ' Correto!' : icon('x') + ' Incorreto'}</div>
-        ${esc(q.explanation || '')}
+        ${esc(q.explanation)}
       </div>`;
     }
   }
@@ -3548,7 +3539,7 @@ const App = {
   async confirmDeleteSubject(key) {
     const keyEl   = $('del-key');
     const errEl   = $('del-err');
-    const entered = keyEl ? keyEl.value.trim().toLowerCase() : '';
+    const entered = keyEl ? keyEl.value.trim().toUpperCase() : '';
     if (!Object.keys(CREDENTIALS).includes(entered)) {
       if (errEl) errEl.textContent = 'Chave incorreta.';
       if (keyEl) { keyEl.value = ''; keyEl.focus(); }

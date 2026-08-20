@@ -870,15 +870,6 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   box-shadow: var(--shadow-sm);
 }
 #lib-btn-wrap.visible { display: block; }
-/* Fase 28 — o botão é fixo à viewport (não ao fluxo do documento), então
-   em questões curtas o suficiente para caber na tela sem rolagem, a
-   última alternativa pode acabar caindo no canto inferior-esquerdo onde
-   ele fica, e o navegador entrega o toque ao botão em vez de à opção.
-   Reserva-se aqui, só enquanto o botão está visível (prova/revisão/
-   resultado), uma folga no rodapé do conteúdo maior que a altura real
-   do botão (~61px, offset incluso) para eliminar essa sobreposição —
-   sem mover, encolher ou desativar o botão. */
-body:has(#lib-btn-wrap.visible) #app { padding-bottom: 90px; }
 
 /* ── Gerenciar matérias ─────────────────────────── */
 .manage-row {
@@ -1380,42 +1371,6 @@ function esc(str) {
     .replace(/"/g,'&quot;');
 }
 
-/* ═══ INSTRUMENTAÇÃO TEMPORÁRIA — FASE 27.1 (diagnóstico de toque) ═══
-   Só executa se App.pick(i) lançar exceção; exibe os detalhes na
-   própria tela (sem depender do DevTools, para teste em celular).
-   Remover após o diagnóstico ser concluído. */
-function _diagReportError(err, fnName) {
-  try {
-    const q = (S.deck && S.deck[S.idx]) || {};
-    const info = {
-      funcao: fnName,
-      mensagem: err && err.message,
-      stack: err && err.stack,
-      'S.idx': S.idx,
-      tipo: q.type,
-      alternativas: Array.isArray(q.options) ? q.options.length
-        : (Array.isArray(q.shuffledOptions) ? q.shuffledOptions.length : 'n/d'),
-      'q.correct': JSON.stringify(q.correct),
-      _id: q._id,
-    };
-    const box = document.createElement('div');
-    box.id = '_diag-error-box';
-    box.style.cssText = 'position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.92);'
-      + 'color:#fff;padding:16px;overflow:auto;font-family:monospace;font-size:12px;white-space:pre-wrap;';
-    box.innerHTML = '<div style="font-weight:900;font-size:15px;color:#ff6b6b;margin-bottom:10px">'
-      + '⚠ ERRO CAPTURADO (diagnóstico temporário — FASE 27.1)</div>'
-      + Object.entries(info).map(([k, v]) =>
-          '<div style="margin-bottom:6px"><b style="color:#4c8dfa">' + esc(k) + ':</b> ' + esc(String(v)) + '</div>'
-        ).join('')
-      + '<button id="_diag-error-close" style="margin-top:14px;padding:10px 16px;font-size:13px;'
-      + 'background:#4c8dfa;color:#fff;border:none;border-radius:8px">Fechar</button>';
-    document.body.appendChild(box);
-    document.getElementById('_diag-error-close').onclick = () => box.remove();
-  } catch (_) {
-    /* o diagnóstico não pode, por si, derrubar o app */
-  }
-}
-
 /* Ícone do sprite Lucide embutido (ver <svg style="display:none"> no
    topo do <body>). "filled" usa a variante preenchida (favoritar/marcar). */
 function icon(name, filled) {
@@ -1839,7 +1794,7 @@ function prepareDeck(source) {
   return shuffle(source || ACTIVE_QUESTIONS).map(q => {
     const base = { ...q, _id: q._id || q.question };
     if (q.type === 'mc') {
-      const idxs = shuffle(q.options.map((_, i) => i));
+      const idxs = shuffle([0,1,2,3]);
       return {
         ...base,
         shuffledOptions: idxs.map(i => q.options[i]),
@@ -2884,13 +2839,13 @@ function renderQuestion() {
           ${esc(q.explanation || '')}
         </div>`;
       }
-    } else if (q.type !== 'disc' && (study || S.reviewMode)) {
+    } else if (q.type !== 'disc' && study) {
       /* Prova (não-DISC): nenhum painel de explicação/feedback — só o
          estado travado das opções já indica que a resposta foi registrada */
       const ok = isCorrectAt(S.idx);
       expHTML = `<div class="explanation show">
         <div class="exp-res ${ok ? 'ok' : 'bad'}">${ok ? icon('check') + ' Correto!' : icon('x') + ' Incorreto'}</div>
-        ${esc(q.explanation || '')}
+        ${esc(q.explanation)}
       </div>`;
     }
   }
@@ -3548,7 +3503,7 @@ const App = {
   async confirmDeleteSubject(key) {
     const keyEl   = $('del-key');
     const errEl   = $('del-err');
-    const entered = keyEl ? keyEl.value.trim().toLowerCase() : '';
+    const entered = keyEl ? keyEl.value.trim().toUpperCase() : '';
     if (!Object.keys(CREDENTIALS).includes(entered)) {
       if (errEl) errEl.textContent = 'Chave incorreta.';
       if (keyEl) { keyEl.value = ''; keyEl.focus(); }
@@ -3743,13 +3698,9 @@ const App = {
 
   /* selecionar opção MC */
   pick(i) {
-    try {
-      if (S.validated[S.idx]) return;
-      S.answers[S.idx] = i;
-      renderQuestion();
-    } catch (err) {
-      _diagReportError(err, 'App.pick'); /* FASE 27.1 — instrumentação temporária */
-    }
+    if (S.validated[S.idx]) return;
+    S.answers[S.idx] = i;
+    renderQuestion();
   },
 
   /* digitar em lacuna — habilita/desabilita "Verificar" sem re-render (preserva o cursor) */

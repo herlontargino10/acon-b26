@@ -1,0 +1,1371 @@
+[
+  {
+    "type": "mc",
+    "question": "Um navio de propulsão mecânica avista outro em rumo de colisão, aproximando-se pelo seu bombordo. De acordo com o RIPEAM, como deve proceder?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Guinar para boreste, pois é a manobradora nesse cruzamento",
+      "Manter rumo e velocidade como embarcação preferencial, pronta a manobrar se necessário",
+      "Guinar imediatamente para bombordo para abrir a distância",
+      "Reduzir a velocidade e aguardar a manobra da outra embarcação"
+    ],
+    "correct": 1,
+    "explanation": "Quem avista a outra por bombordo é a preferencial: mantém rumo e velocidade, intervindo apenas se a manobradora falhar em cumprir o RIPEAM."
+  },
+  {
+    "type": "mc",
+    "question": "Duas embarcações de propulsão mecânica navegam em rumos diretamente opostos, roda a roda, com risco de colisão. Qual manobra o RIPEAM determina?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Ambas guinam para boreste",
+      "A que avista a outra por boreste mantém o rumo; a outra guina",
+      "Ambas reduzem a velocidade e mantêm o rumo",
+      "Ambas guinam para bombordo"
+    ],
+    "correct": 0,
+    "explanation": "Na situação roda a roda (proa com proa), ambas as embarcações guinam para boreste."
+  },
+  {
+    "type": "mc",
+    "question": "A afirmação 'a embarcação privilegiada nunca deve manobrar em situação de risco de colisão' é:",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Incorreta, pois ela deve manobrar quando perceber que a outra não está cumprindo o RIPEAM",
+      "Correta, pois manter rumo e velocidade é obrigação absoluta da privilegiada",
+      "Incorreta, pois a privilegiada deve sempre guinar para boreste por precaução",
+      "Correta, desde que a manobradora esteja a boreste"
+    ],
+    "correct": 0,
+    "explanation": "A privilegiada mantém rumo e velocidade, mas deve manobrar ao perceber que a outra não cumpre o RIPEAM e que a colisão só pode ser evitada por sua ação."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo o RIPEAM, toda embarcação que estiver alcançando outra deve:",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Reduzir a velocidade até que a alcançada se afaste",
+      "Guinar sempre para boreste ao ultrapassar",
+      "Manter rumo e velocidade, cabendo à alcançada abrir caminho",
+      "Manter-se fora do caminho da embarcação alcançada"
+    ],
+    "correct": 3,
+    "explanation": "A embarcação que alcança é sempre a manobradora e deve manter-se fora do caminho da alcançada até ultrapassá-la e ficar completamente livre."
+  },
+  {
+    "type": "mc",
+    "question": "O RIPEAM estabelece que as manobras para evitar abalroamento devem ser feitas de modo:",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Rápido, mínimo e reservado ao último instante",
+      "Gradual, discreto e tardio, para não confundir a outra embarcação",
+      "Amplo, antecipado e aparente",
+      "Amplo, tardio e discreto"
+    ],
+    "correct": 2,
+    "explanation": "As manobras devem ser amplas, antecipadas e aparentes, de modo a serem prontamente percebidas por quem observa visualmente ou pelo radar."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a hierarquia de preferência do RIPEAM, qual sequência apresenta corretamente embarcações que têm preferência sobre uma embarcação de propulsão mecânica?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Sem governo, à vela, de propulsão mecânica menor e engajada na pesca",
+      "Engajada na pesca, à vela, com manobra restrita e sem governo",
+      "À vela, engajada na pesca, manobra restrita e sem governo",
+      "Sem governo, com manobra restrita, engajada na pesca e à vela"
+    ],
+    "correct": 3,
+    "explanation": "Têm preferência sobre a de propulsão mecânica: sem governo, com manobra restrita, engajada na pesca e à vela — nessa ordem de menor capacidade de manobra."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação à vela precisa saber a quais outras deve dar preferência. Segundo o RIPEAM, têm preferência sobre a embarcação à vela:",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Embarcações sem governo, com manobra restrita e engajadas na pesca",
+      "Somente as embarcações sem governo",
+      "Todas as embarcações de propulsão mecânica",
+      "Apenas as embarcações de propulsão mecânica maiores"
+    ],
+    "correct": 0,
+    "explanation": "Sobre a embarcação à vela têm preferência as sem governo, com manobra restrita e engajadas na pesca. Ela mantém preferência sobre a de propulsão mecânica comum."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação engajada na pesca deve dar preferência a quais embarcações, segundo o RIPEAM?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Apenas às embarcações de propulsão mecânica",
+      "Às embarcações à vela e de propulsão mecânica",
+      "A todas as demais embarcações",
+      "Às embarcações sem governo e com capacidade de manobra restrita"
+    ],
+    "correct": 3,
+    "explanation": "A embarcação engajada na pesca só dá preferência às sem governo e às com capacidade de manobra restrita; tem preferência sobre as à vela e de propulsão mecânica."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a distinção correta entre embarcação manobradora e embarcação privilegiada no RIPEAM?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "A manobradora toma a ação para evitar o abalroamento; a privilegiada mantém rumo e velocidade, intervindo apenas quando necessário",
+      "Ambas devem guinar para boreste simultaneamente",
+      "A manobradora mantém rumo e velocidade; a privilegiada toma a ação evasiva",
+      "A privilegiada tem sempre prioridade absoluta e nunca manobra"
+    ],
+    "correct": 0,
+    "explanation": "A manobradora executa a ação evasiva; a privilegiada mantém rumo e velocidade, manobrando apenas quando perceber que a outra não cumpre suas obrigações."
+  },
+  {
+    "type": "mc",
+    "question": "Ao navegar em um canal estreito, o RIPEAM determina que a embarcação deve:",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Manter-se o mais próximo possível do limite exterior do canal por boreste",
+      "Ocupar toda a largura disponível para maior segurança",
+      "Navegar sempre pela margem de bombordo para facilitar cruzamentos",
+      "Manter-se o mais próximo possível do eixo central do canal"
+    ],
+    "correct": 0,
+    "explanation": "Em canal estreito, a embarcação deve manter-se tão próximo quanto seguro do limite exterior do canal que fique a seu boreste."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma manobra de cruzamento, um navio emite a sequência sonora longo-curto-longo-curto. O que ela indica?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Não entendi sua intenção",
+      "Discordância com a manobra proposta",
+      "Concordância com a manobra proposta",
+      "Estou guinando para boreste"
+    ],
+    "correct": 2,
+    "explanation": "A sequência longo-curto-longo-curto indica concordância com a manobra proposta na ultrapassagem em canal estreito."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial ouve dois apitos curtos de outra embarcação. Conforme o RIPEAM, isso significa:",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Não entendi sua intenção",
+      "Estou guinando para bombordo",
+      "Estou dando marcha a ré (máquinas atrás)",
+      "Estou guinando para boreste"
+    ],
+    "correct": 1,
+    "explanation": "Dois apitos curtos indicam 'estou guinando para bombordo'. Um apito curto seria boreste; três, máquinas atrás."
+  },
+  {
+    "type": "mc",
+    "question": "Quatro ou mais apitos curtos em sucessão rápida indicam, segundo o RIPEAM:",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Solicitação de ultrapassagem",
+      "Estou guinando para boreste",
+      "Concordância com a manobra",
+      "Não entendi sua intenção / dúvida sobre a manobra da outra embarcação"
+    ],
+    "correct": 3,
+    "explanation": "Quatro (ou mais) apitos curtos são o sinal de dúvida: 'não entendi sua intenção' ou de que se duvida das ações da outra embarcação para evitar colisão."
+  },
+  {
+    "type": "mc",
+    "question": "Quanto à duração dos sinais sonoros do RIPEAM, é correto afirmar que:",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "O apito curto dura cerca de 1 segundo e o longo de 4 a 6 segundos",
+      "O apito curto dura 2 segundos e o longo 10 segundos",
+      "O apito curto dura de 4 a 6 segundos e o longo cerca de 1 segundo",
+      "Ambos duram cerca de 1 segundo, diferindo apenas no tom"
+    ],
+    "correct": 0,
+    "explanation": "Apito curto: cerca de 1 segundo. Apito longo: entre 4 e 6 segundos. A inversão das durações é o distrator típico."
+  },
+  {
+    "type": "mc",
+    "question": "Conforme o RIPEAM, a velocidade segura de uma embarcação NÃO é determinada diretamente por qual dos fatores abaixo?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Nacionalidade da bandeira e idade do casco",
+      "Estado do mar, vento e limitações do radar",
+      "Capacidade de manobra e de parada da embarcação",
+      "Visibilidade e densidade de tráfego"
+    ],
+    "correct": 0,
+    "explanation": "A velocidade segura considera visibilidade, tráfego, manobrabilidade, luzes, estado do mar, vento, correntes, perigos, calado e limitações do radar. Bandeira e idade do casco não são fatores previstos."
+  },
+  {
+    "type": "mc",
+    "question": "Em condições de visibilidade restrita, qual conjunto de atitudes está de acordo com o RIPEAM?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Manter a velocidade de cruzeiro, reduzir a vigilância e desligar sinais sonoros",
+      "Adotar velocidade segura, reforçar a vigilância, emitir sinais de cerração e usar todos os meios para detectar risco de colisão",
+      "Aumentar a velocidade para sair rapidamente da área de baixa visibilidade",
+      "Confiar exclusivamente no radar e suspender a vigília visual e auditiva"
+    ],
+    "correct": 1,
+    "explanation": "Em visibilidade restrita: velocidade segura, vigilância reforçada, sinais de cerração e uso de todos os meios disponíveis para detectar e avaliar o risco de colisão."
+  },
+  {
+    "type": "mc",
+    "question": "Cite corretamente as quatro limitações de um radar de navegação:",
+    "category": "Navegação — Radar",
+    "options": [
+      "Discriminação em distância, discriminação em marcação, alcance máximo e zonas de eco",
+      "Rain clutter, sea clutter, target swap e zonas de sombra",
+      "Discriminação em distância, discriminação em marcação, alcance mínimo e zonas de sombra",
+      "Alcance mínimo, alcance máximo, largura de feixe e potência"
+    ],
+    "correct": 2,
+    "explanation": "As quatro limitações citadas no material são: discriminação em distância, discriminação em marcação, alcance mínimo e zonas de sombra."
+  },
+  {
+    "type": "mc",
+    "question": "Qual das alternativas NÃO representa uma vantagem do radar, conforme o material?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Calcular rapidamente rumos, velocidades e risco de colisão",
+      "Funcionar à noite e com baixa visibilidade",
+      "Dispensar qualquer interpretação da imagem pelo operador",
+      "Permitir obter a posição a partir de um único objeto fixo"
+    ],
+    "correct": 2,
+    "explanation": "O radar exige interpretação da imagem — isso é justamente uma de suas desvantagens, não uma vantagem."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial descreve o radar como 'muito sensível e sujeito a avarias, necessitando ajuste e sincronização exatos'. Essas afirmações correspondem a:",
+    "category": "Navegação — Radar",
+    "options": [
+      "Tipos de movimento do radar",
+      "Vantagens do radar",
+      "Limitações de discriminação do radar",
+      "Desvantagens do radar"
+    ],
+    "correct": 3,
+    "explanation": "Alta sensibilidade, sujeição a avarias, necessidade de ajuste/sincronização exatos e exigência de interpretação são desvantagens do radar."
+  },
+  {
+    "type": "mc",
+    "question": "Quanto ao tipo de apresentação de movimento, o radar pode operar em:",
+    "category": "Navegação — Radar",
+    "options": [
+      "Movimento por proa e movimento por norte apenas",
+      "Movimento relativo e movimento verdadeiro",
+      "Movimento estabilizado e movimento livre",
+      "Movimento absoluto e movimento aparente"
+    ],
+    "correct": 1,
+    "explanation": "Os tipos de movimento do radar são o relativo (o próprio navio fica fixo no centro) e o verdadeiro (movimentos reais sobre o fundo)."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a característica principal de um Racon?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Aumentar passivamente a refletividade de um objeto na tela do radar",
+      "Registrar continuamente os dados de navegação para análise de acidentes",
+      "Identificar positivamente um alvo no radar, permitindo marcação e distância precisas",
+      "Transmitir alerta de socorro via satélite ao ser ativado"
+    ],
+    "correct": 2,
+    "explanation": "O Racon é um transponder que responde ao sinal do radar identificando positivamente o alvo, permitindo marcação e distância precisas."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o funcionamento de um radar, qual descrição está correta?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Transmite pulsos de rádio e mede o tempo de retorno do eco",
+      "Transmite ondas sonoras e mede a diferença de frequência do eco",
+      "Compara a posição de satélites para triangular os alvos",
+      "Recebe passivamente as emissões dos alvos e calcula sua posição"
+    ],
+    "correct": 0,
+    "explanation": "O radar transmite pulsos de rádio (ondas eletromagnéticas) e mede o tempo de retorno do eco para determinar distância e posição do alvo."
+  },
+  {
+    "type": "mc",
+    "question": "Um GPS é ligado no início de uma navegação. Quais informações básicas ele recebe do sistema de satélites?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Rumo, ETA e waypoints previamente calculados",
+      "Posição dos satélites, hora exata transmitida por eles e informações orbitais",
+      "Correções diferenciais de estações terrestres de posição conhecida",
+      "Latitude, longitude e velocidade já processadas pela estação de controle"
+    ],
+    "correct": 1,
+    "explanation": "O receptor GPS recebe do sistema a posição dos satélites, a hora exata por eles transmitida e as informações orbitais; com isso calcula a própria posição."
+  },
+  {
+    "type": "mc",
+    "question": "Quais são os três segmentos que constituem o sistema GPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Segmento orbital, segmento diferencial e segmento receptor",
+      "Segmento naval, segmento aéreo e segmento terrestre",
+      "Segmento de satélites, segmento de correção e segmento de bordo",
+      "Segmento espacial, segmento de controle e segmento de usuário"
+    ],
+    "correct": 3,
+    "explanation": "O GPS é composto pelos segmentos espacial (satélites), de controle (estações terrestres) e de usuário (receptores)."
+  },
+  {
+    "type": "mc",
+    "question": "O que é o Almanaque para o GPS e qual sua importância?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "É a tábua de correções diferenciais aplicadas pelo DGPS",
+      "É a lista de waypoints da derrota, que define a sequência de navegação",
+      "São os dados orbitais dos satélites, que aceleram a aquisição e o cálculo da posição",
+      "É o registro histórico de posições usado para análise de acidentes"
+    ],
+    "correct": 2,
+    "explanation": "O Almanaque contém dados orbitais dos satélites, que aceleram a aquisição dos sinais e o cálculo da posição pelo receptor GPS."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a diferença essencial entre o GPS padrão e o DGPS?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "O DGPS dispensa a visibilidade de satélites por usar estações terrestres",
+      "O DGPS aplica correções de estações de referência para aumentar a precisão do posicionamento",
+      "O GPS opera apenas em terra e o DGPS apenas no mar",
+      "O GPS usa quatro satélites e o DGPS usa oito"
+    ],
+    "correct": 1,
+    "explanation": "O DGPS aumenta a precisão do GPS por meio de correções diferenciais geradas por estações de referência de posição conhecida."
+  },
+  {
+    "type": "mc",
+    "question": "Em quais situações o uso do DGPS é especialmente indicado?",
+    "category": "Navegação — GNSS/GPS",
+    "options": [
+      "Em travessias oceânicas de longo curso, onde a precisão é menos crítica",
+      "Em áreas que exigem elevada precisão, como canais, águas restritas e portos",
+      "Somente na navegação astronômica de emergência",
+      "Apenas em regiões polares fora do alcance dos satélites"
+    ],
+    "correct": 1,
+    "explanation": "O DGPS é indicado onde se exige alta precisão de posicionamento: canais, águas restritas e portos."
+  },
+  {
+    "type": "mc",
+    "question": "Qual publicação náutica é indispensável especificamente para a navegação astronômica?",
+    "category": "Navegação — Publicações",
+    "options": [
+      "Roteiro",
+      "Almanaque Náutico",
+      "Lista de Faróis",
+      "Catálogo de Cartas Náuticas"
+    ],
+    "correct": 1,
+    "explanation": "O Almanaque Náutico, com dados dos astros, é indispensável para a navegação astronômica."
+  },
+  {
+    "type": "mc",
+    "question": "Um navegante precisa das características, posição e alcance dos faróis da costa brasileira. Qual publicação deve consultar?",
+    "category": "Navegação — Publicações",
+    "options": [
+      "Lista de Auxílio-Rádio",
+      "Lista de Faróis",
+      "Cartas de Correntes",
+      "Roteiro"
+    ],
+    "correct": 1,
+    "explanation": "A Lista de Faróis relaciona faróis e sinais luminosos com características, posição, alcance e demais dados de identificação. Também traz as abreviaturas luminosas."
+  },
+  {
+    "type": "mc",
+    "question": "Qual publicação fornece informações descritivas sobre costa, portos, fundeadouros, perigos, auxílios à navegação e derrotas recomendadas?",
+    "category": "Navegação — Publicações",
+    "options": [
+      "Roteiro",
+      "Lista de Faróis",
+      "Tábuas de Marés",
+      "Almanaque Náutico"
+    ],
+    "correct": 0,
+    "explanation": "O Roteiro fornece a descrição da costa, portos, fundeadouros, perigos, auxílios e derrotas recomendadas, auxiliando o planejamento e a execução da derrota."
+  },
+  {
+    "type": "mc",
+    "question": "No Brasil, o Roteiro é dividido em quantos volumes e como são delimitados?",
+    "category": "Navegação — Publicações",
+    "options": [
+      "Dois volumes: Costa Atlântica e Hidrovias Interiores",
+      "Quatro volumes: Costa Norte, Costa Leste, Costa Sul e Rio Paraguai",
+      "Cinco volumes, um por região geográfica do país",
+      "Três volumes: Costa Norte, Costa Sul e Rio Paraguai"
+    ],
+    "correct": 1,
+    "explanation": "O Roteiro brasileiro tem quatro volumes: Costa Norte, Costa Leste, Costa Sul e Rio Paraguai."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a finalidade da carta náutica número 12000?",
+    "category": "Navegação — Cartas Náuticas",
+    "options": [
+      "Apresentar as tábuas de marés dos principais portos",
+      "Fornecer a lista das correntes de maré da costa",
+      "Apresentar os símbolos, abreviaturas e termos usados nas cartas náuticas nacionais e internacionais",
+      "Relacionar todos os faróis e boias do litoral brasileiro"
+    ],
+    "correct": 2,
+    "explanation": "A carta 12000 (INT 1) apresenta os símbolos, abreviaturas e termos utilizados nas cartas náuticas nacionais e internacionais."
+  },
+  {
+    "type": "mc",
+    "question": "A Lista de Auxílio-Rádio é dividida em nove capítulos. Qual dos itens abaixo NÃO faz parte dela?",
+    "category": "Navegação — Publicações",
+    "options": [
+      "NAVTEX e Avisos-Rádio aos Navegantes",
+      "Tábuas de Marés e Correntes",
+      "Radiogoniometria e Radiobalizas",
+      "GPS e DGPS"
+    ],
+    "correct": 1,
+    "explanation": "Os nove capítulos incluem Introdução, Radiogoniometria, Radiobalizas, OMEGA, TRANSIT, GPS, DGPS, NAVTEX e Avisos-Rádio. Tábuas de Marés e Correntes são publicações à parte."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a periodicidade do 'Aviso aos Navegantes' e sua finalidade, é correto afirmar que:",
+    "category": "Navegação — Avisos aos Navegantes",
+    "options": [
+      "É quinzenal e destina-se a manter cartas e publicações atualizadas",
+      "É anual e consolida as correções de todo o período",
+      "É mensal e destina-se a divulgar tábuas de marés",
+      "É diário e serve apenas para alertas meteorológicos"
+    ],
+    "correct": 0,
+    "explanation": "O Aviso aos Navegantes é publicado quinzenalmente para manter cartas e publicações náuticas atualizadas."
+  },
+  {
+    "type": "mc",
+    "question": "Em função do propósito, os Avisos aos Navegantes classificam-se em:",
+    "category": "Navegação — Avisos aos Navegantes",
+    "options": [
+      "Avisos-Rádio Náuticos, NAVAREAS, Costeiros e Locais",
+      "Radiogoniométricos, NAVTEX, INMARSAT e DSC",
+      "Temporários, preliminares, permanentes e especiais",
+      "Introdutórios, orbitais, diferenciais e permanentes"
+    ],
+    "correct": 0,
+    "explanation": "Quanto ao propósito, dividem-se em Avisos-Rádio Náuticos, NAVAREAS, Costeiros e Locais. A classificação por duração (temporário/preliminar/permanente) é distinta."
+  },
+  {
+    "type": "mc",
+    "question": "Quanto à duração, um Aviso aos Navegantes pode ser classificado em:",
+    "category": "Navegação — Avisos aos Navegantes",
+    "options": [
+      "Temporário, preliminar, permanente e permanente especial",
+      "Preliminar, quinzenal, mensal e permanente",
+      "NAVAREA, costeiro, local e permanente",
+      "Radioaviso, temporário e definitivo"
+    ],
+    "correct": 0,
+    "explanation": "Quanto à duração: temporário, preliminar, permanente e permanente especial. NAVAREA/costeiro/local referem-se ao propósito/difusão."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o sistema de balizamento adotado no Brasil, e o que caracteriza a diferenciação entre IALA A e IALA B?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "IALA A; a distinção se dá pela cor das boias cardinais",
+      "IALA A; a distinção se dá pela forma das marcas de tope",
+      "IALA B; a distinção se dá pela posição/cor dos sinais laterais (boias de boreste e bombordo) na entrada dos portos",
+      "IALA B; a distinção se dá pelo ritmo das luzes de perigo isolado"
+    ],
+    "correct": 2,
+    "explanation": "O Brasil adota o IALA B. A diferença entre A e B é identificada pela posição e cor dos sinais laterais na entrada dos portos."
+  },
+  {
+    "type": "mc",
+    "question": "Ao entrar no porto de Montevidéu (Uruguai), país que adota o IALA B, qual a cor da boia que fica a boreste da embarcação?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Amarela",
+      "Vermelha",
+      "Preta com faixa vermelha",
+      "Verde"
+    ],
+    "correct": 1,
+    "explanation": "No IALA B, ao entrar no porto, o sinal lateral de boreste é vermelho e o de bombordo é verde (o inverso do IALA A)."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a cor correta dos sinais laterais no sistema IALA B (adotado no Brasil)?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Bombordo verde e boreste vermelho",
+      "Bombordo vermelho e boreste verde",
+      "Ambos amarelos, diferenciados pela marca de tope",
+      "Bombordo preto e boreste amarelo"
+    ],
+    "correct": 1,
+    "explanation": "No IALA B, o sinal lateral de bombordo é vermelho e o de boreste é verde."
+  },
+  {
+    "type": "mc",
+    "question": "Numa bifurcação de canal com canal preferencial para boreste (IALA B), qual característica a boia apresenta?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Vermelha com faixa verde, tope cônico vermelho, luz vermelha",
+      "Amarela com tope em X, luz amarela, ritmo Lp(2)",
+      "Preta com faixa vermelha, tope de duas esferas, luz branca",
+      "Verde com uma faixa larga horizontal vermelha, tope cilíndrico verde, luz verde, ritmo Lp(2+1)"
+    ],
+    "correct": 3,
+    "explanation": "Canal preferencial a boreste: boia verde com faixa larga horizontal vermelha, tope cilíndrico verde, luz verde e ritmo de grupo Lp(2+1)."
+  },
+  {
+    "type": "mc",
+    "question": "Uma boia preta com uma ou mais faixas largas horizontais vermelhas, tope com duas esferas pretas e ritmo Lp(2) branco indica:",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Águas seguras",
+      "Sinal especial",
+      "Perigo isolado",
+      "Canal preferencial a bombordo"
+    ],
+    "correct": 2,
+    "explanation": "Boia preta com faixas vermelhas, tope de duas esferas pretas e luz branca em grupo de 2 lampejos marca um perigo isolado."
+  },
+  {
+    "type": "mc",
+    "question": "Uma boia com faixas verticais vermelhas e brancas, tope de uma esfera vermelha e luz branca indica:",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Novo perigo não cartografado",
+      "Sinal especial",
+      "Perigo isolado",
+      "Águas seguras"
+    ],
+    "correct": 3,
+    "explanation": "Faixas verticais encarnadas e brancas, tope de esfera encarnada e luz branca (Iso, Oc, LpL 10s ou Morse A) caracterizam boia de águas seguras."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a cor da boia de sinais especiais?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Preta com faixa vermelha",
+      "Vermelha",
+      "Verde",
+      "Amarela"
+    ],
+    "correct": 3,
+    "explanation": "A boia de sinais especiais é amarela."
+  },
+  {
+    "type": "mc",
+    "question": "Para que servem os sinais cardinais no balizamento?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Sinalizar exclusivamente áreas militares restritas",
+      "Marcar apenas perigos recém-descobertos",
+      "Indicar o limite lateral de canais em portos",
+      "Indicar o setor (norte, sul, leste ou oeste do perigo) onde as águas são navegáveis"
+    ],
+    "correct": 3,
+    "explanation": "Os sinais cardinais indicam de que lado (N, S, E ou W) do perigo se encontram as águas navegáveis."
+  },
+  {
+    "type": "mc",
+    "question": "Para que servem os sinais de novos perigos?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Delimitar canais preferenciais em bifurcações",
+      "Assinalar áreas de águas seguras ao largo",
+      "Marcar zonas de fundeio autorizado",
+      "Indicar perigos recém-descobertos ainda não representados nas cartas"
+    ],
+    "correct": 3,
+    "explanation": "Os sinais de novo perigo assinalam perigos recentemente descobertos e ainda não cartografados."
+  },
+  {
+    "type": "mc",
+    "question": "Como um sinal de balizamento é identificado durante o dia?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Somente pelas características da luz",
+      "Pela forma, cor, marca de tope, numeração, som e sinal radioelétrico",
+      "Exclusivamente pela marca de tope",
+      "Apenas pela cor e pelo ritmo de lampejo"
+    ],
+    "correct": 1,
+    "explanation": "De dia, o sinal de balizamento é identificado pela forma, cor, marca de tope, luzes, numeração, som e sinal radioelétrico. À noite, predominam as características da luz (cor e ritmo)."
+  },
+  {
+    "type": "mc",
+    "question": "À noite, quais elementos identificam os sinais de referência?",
+    "category": "Navegação — Sistemas de Referência",
+    "options": [
+      "Forma, cor e marca de tope",
+      "As características da luz, como cor e ritmo de lampejo",
+      "Marca de tope e sinal radioelétrico",
+      "Numeração e forma do sinal"
+    ],
+    "correct": 1,
+    "explanation": "À noite, os sinais são identificados pelas características da luz (cor e ritmo de lampejo). Forma, cor e marca de tope são elementos diurnos."
+  },
+  {
+    "type": "mc",
+    "question": "O sistema de sinalização náutica e de balizamento divide-se em:",
+    "category": "Navegação — Sistemas de Referência",
+    "options": [
+      "Sistema luminoso e sistema sonoro",
+      "Sistema lateral e sistema cardinal",
+      "Sistema IALA A e sistema IALA B",
+      "Sistema de referência e sistema de balizamento"
+    ],
+    "correct": 3,
+    "explanation": "A sinalização náutica divide-se em sistema de referência (faróis, faroletes, barcas-faróis) e sistema de balizamento (boias e balizas)."
+  },
+  {
+    "type": "mc",
+    "question": "Uma barca-farol pertence a qual sistema de sinalização?",
+    "category": "Navegação — Sistemas de Referência",
+    "options": [
+      "Sistema de balizamento",
+      "Sistema de referência",
+      "Sistema cardinal",
+      "Sistema lateral"
+    ],
+    "correct": 1,
+    "explanation": "A barca-farol, assim como faróis e faroletes, integra o sistema de referência."
+  },
+  {
+    "type": "mc",
+    "question": "De que é composto um sistema de referência?",
+    "category": "Navegação — Sistemas de Referência",
+    "options": [
+      "Boias e balizas",
+      "Sinais laterais e cardinais",
+      "Faróis, faroletes e barcas-faróis",
+      "Racons e Ramarks"
+    ],
+    "correct": 2,
+    "explanation": "O sistema de referência é composto por faróis, faroletes e barcas-faróis. Boias e balizas compõem o sistema de balizamento."
+  },
+  {
+    "type": "mc",
+    "question": "Como se chama a construção de auxílio à navegação menor que um farol, com alcance luminoso inferior a 10 milhas?",
+    "category": "Navegação — Sistemas de Referência",
+    "options": [
+      "Boia luminosa",
+      "Baliza",
+      "Farolete",
+      "Barca-farol"
+    ],
+    "correct": 2,
+    "explanation": "O farolete é uma construção menor que o farol, com alcance luminoso inferior a 10 milhas."
+  },
+  {
+    "type": "mc",
+    "question": "Com relação às luzes de auxílio à navegação, o que é o 'ritmo'?",
+    "category": "Navegação — Sistemas de Referência",
+    "options": [
+      "A sequência de emissões e eclipses regularmente repetida",
+      "O alcance geográfico da luz em milhas náuticas",
+      "A cor predominante emitida pela luz",
+      "A altura da luz acima do nível do mar"
+    ],
+    "correct": 0,
+    "explanation": "O ritmo é a sequência de emissões e eclipses (períodos de luz e escuro) regularmente repetida que caracteriza a luz."
+  },
+  {
+    "type": "mc",
+    "question": "A que se refere o 'alcance geográfico' indicado na identificação de um farol?",
+    "category": "Navegação — Sistemas de Referência",
+    "options": [
+      "Ao raio de cobertura do sinal radioelétrico associado",
+      "À intensidade luminosa da lâmpada, em candelas",
+      "À distância entre dois faróis consecutivos na costa",
+      "Ao alcance, em milhas náuticas, da luz do farol, farolete ou boia"
+    ],
+    "correct": 3,
+    "explanation": "O alcance geográfico é dado em milhas náuticas e refere-se ao alcance da luz do farol, farolete ou boia."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o principal objetivo do sistema VTS (Vessel Traffic Service)?",
+    "category": "Navegação — VTS",
+    "options": [
+      "Transmitir alertas de socorro via satélite",
+      "Fornecer correções diferenciais ao GPS",
+      "Reduzir acidentes e aumentar a eficiência do tráfego marítimo",
+      "Registrar dados da embarcação para análise de acidentes"
+    ],
+    "correct": 2,
+    "explanation": "O VTS visa reduzir acidentes e aumentar a eficiência do tráfego marítimo por meio do monitoramento e organização do tráfego."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função principal do VDR e a que ele é comumente comparado?",
+    "category": "Navegação — VDR",
+    "options": [
+      "Registrar continuamente dados de navegação e comunicações para análise de acidentes; comparado à caixa-preta",
+      "Identificar navios por VHF; comparado a um transponder AIS",
+      "Detectar sobreviventes por radar; comparado a um SART",
+      "Corrigir a posição do GPS; comparado a uma estação diferencial"
+    ],
+    "correct": 0,
+    "explanation": "O VDR registra continuamente dados de navegação e comunicações para análise de acidentes/incidentes, equivalendo à caixa-preta da aeronáutica."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo o Capítulo V, regra 20, da SOLAS, o VDR é obrigatório para:",
+    "category": "Navegação — Regulamentação",
+    "options": [
+      "Somente navios-tanque em qualquer tonelagem",
+      "Apenas embarcações de pesca de arrastão",
+      "Navios de passageiros, navios Ro-Ro e demais navios ≥ 3000 t em viagens internacionais",
+      "Todos os navios de carga acima de 300 AB"
+    ],
+    "correct": 2,
+    "explanation": "A regra 20 do Cap. V da SOLAS torna o VDR obrigatório para navios de passageiros, Ro-Ro e demais navios de arqueação bruta igual ou superior a 3000 t em viagens internacionais."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo o Capítulo V, regra 19, da SOLAS, o AIS é obrigatório (após 31/12/2004) para:",
+    "category": "Navegação — Regulamentação",
+    "options": [
+      "Somente embarcações em viagens costeiras nacionais",
+      "Todos os navios de passageiros e navios com AB superior a 300 t",
+      "Navios de passageiros com mais de 500 t exclusivamente",
+      "Apenas navios de carga acima de 3000 t"
+    ],
+    "correct": 1,
+    "explanation": "A regra 19 do Cap. V exige AIS em todos os navios de passageiros e nos navios com arqueação bruta superior a 300 t (após 31/12/2004)."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo o Capítulo IV da SOLAS, quais navios devem obrigatoriamente possuir equipamentos do GMDSS?",
+    "category": "Navegação — Regulamentação",
+    "options": [
+      "Apenas navios de passageiros, independentemente da rota",
+      "Todas as embarcações, inclusive de pesca artesanal",
+      "Somente navios de carga acima de 3000 t",
+      "Navios de passageiros e navios de carga acima de 300 AB em viagens internacionais"
+    ],
+    "correct": 3,
+    "explanation": "O Cap. IV da SOLAS obriga o GMDSS em navios de passageiros e navios de carga acima de 300 AB em viagens internacionais."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio opera a cerca de 90 milhas da costa, além do alcance da área A1, em região coberta por MF com DSC. Em qual área do GMDSS ele se encontra?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Área A1",
+      "Área A2",
+      "Área A4",
+      "Área A3"
+    ],
+    "correct": 1,
+    "explanation": "A área A2 estende-se além da A1, é coberta por MF com DSC e alcança cerca de 100 milhas. A A1 vai de 20 a 30 milhas."
+  },
+  {
+    "type": "mc",
+    "question": "A área A3 do GMDSS caracteriza-se por:",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Cobertura pelo INMARSAT, entre 70°N e 70°S, fora das áreas A1 e A2",
+      "Regiões polares fora do alcance de qualquer satélite geoestacionário",
+      "Cobertura por VHF com DSC, até 30 milhas",
+      "Cobertura por MF com DSC, até cerca de 100 milhas"
+    ],
+    "correct": 0,
+    "explanation": "A A3 fica fora das A1 e A2 e é coberta pelo INMARSAT (satélites geoestacionários), na faixa aproximada de 70°N a 70°S."
+  },
+  {
+    "type": "mc",
+    "question": "A área A4 do GMDSS corresponde a:",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "A faixa de 20 a 30 milhas da costa coberta por VHF",
+      "A área coberta pelo INMARSAT entre 70°N e 70°S",
+      "As regiões fora das áreas A1, A2 e A3, correspondendo às regiões polares",
+      "A zona de cobertura MF/DSC até 100 milhas"
+    ],
+    "correct": 2,
+    "explanation": "A A4 abrange as regiões fora de A1, A2 e A3 — ou seja, as regiões polares, onde os satélites geoestacionários do INMARSAT não têm cobertura."
+  },
+  {
+    "type": "mc",
+    "question": "Em quantas áreas se divide o GMDSS e como são designadas?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Cinco áreas: A1 a A5",
+      "Três áreas: A1, A2 e A3",
+      "Quatro áreas: A1, A2, A3 e A4",
+      "Duas áreas: costeira e oceânica"
+    ],
+    "correct": 2,
+    "explanation": "O GMDSS divide-se em quatro áreas de cobertura: A1, A2, A3 e A4."
+  },
+  {
+    "type": "mc",
+    "question": "Cite corretamente três propósitos principais do GMDSS:",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Identificação de navios, monitoramento de tráfego e correção de rumo",
+      "Medição de profundidade, aviso de maré e previsão do tempo",
+      "Correção diferencial, cálculo de ETA e registro de acidentes",
+      "Alerta de socorro navio-terra, comunicações SAR e comunicação na cena"
+    ],
+    "correct": 3,
+    "explanation": "São propósitos do GMDSS: alerta de socorro navio-terra, comunicações de coordenação SAR, comunicação na cena e disseminação de alertas de navegação."
+  },
+  {
+    "type": "mc",
+    "question": "Um EPIRB e um SART são acionados em uma emergência. Qual afirmação distingue corretamente seus funcionamentos?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "O EPIRB gera marca na tela do radar; o SART envia posição por AIS",
+      "O EPIRB responde ao radar em 9 GHz; o SART transmite alerta via satélite",
+      "O EPIRB transmite alerta de socorro via satélite; o SART é ativado ao receber sinais de radar (9 GHz) e facilita a localização por radar",
+      "Ambos transmitem exclusivamente por VHF ao serem imersos na água"
+    ],
+    "correct": 2,
+    "explanation": "O EPIRB é uma rádio-baliza que transmite alerta de socorro via satélite; o SART é um transponder ativado por sinais de radar (9 GHz) que facilita a localização de sobreviventes na tela do radar."
+  },
+  {
+    "type": "mc",
+    "question": "Cite três propósitos do sistema AIS conforme o material:",
+    "category": "Navegação — AIS",
+    "options": [
+      "Corrigir a posição do GPS, alertar sobre marés e prever o tempo",
+      "Identificar navios, acompanhar trajetórias e trocar informações",
+      "Detectar sobreviventes, gerar marcas no radar e emitir alertas SAR",
+      "Medir profundidade, calcular ETA e registrar comunicações"
+    ],
+    "correct": 1,
+    "explanation": "Os propósitos do AIS são identificar navios, acompanhar suas trajetórias e permitir a troca de informações entre embarcações e estações."
+  },
+  {
+    "type": "mc",
+    "question": "Entre as informações abaixo, qual NÃO é normalmente fornecida pelo sistema AIS?",
+    "category": "Navegação — AIS",
+    "options": [
+      "ETA (hora estimada de chegada)",
+      "Identificação, posição, rumo e velocidade",
+      "Dimensões, carga, origem e destino",
+      "Profundidade da água sob a quilha"
+    ],
+    "correct": 3,
+    "explanation": "O AIS informa identificação, posição, rumo, velocidade, dimensões, carga, origem, destino e ETA. Profundidade é dada por ecobatímetro, não pelo AIS."
+  },
+  {
+    "type": "mc",
+    "question": "O que é o sistema NAVTEX?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Sistema de radiodifusão automática de avisos à navegação, meteorológicos e de segurança marítima",
+      "Sistema de correção diferencial do GPS por estações terrestres",
+      "Sistema de registro de dados de viagem para análise de acidentes",
+      "Sistema de identificação automática de navios por VHF"
+    ],
+    "correct": 0,
+    "explanation": "O NAVTEX é um sistema de radiodifusão automática de avisos à navegação, meteorológicos e de segurança marítima."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o planejamento da derrota, define-se um ponto além do qual não é mais seguro cancelar a manobra. Como se chama esse ponto?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "No-go área",
+      "Ponto de aborto (abort point)",
+      "Waypoint",
+      "Wheel over position"
+    ],
+    "correct": 1,
+    "explanation": "O ponto de aborto é aquele além do qual não é mais seguro cancelar a manobra planejada."
+  },
+  {
+    "type": "mc",
+    "question": "O que representa a 'wheel over position' no planejamento de derrota?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "O ponto além do qual não se pode abortar a manobra",
+      "A área proibida à navegação definida no planejamento",
+      "A linha paralela usada para monitorar o afastamento lateral",
+      "O ponto onde se inicia a mudança de rumo antes do waypoint, considerando o seguimento e o caimento do navio"
+    ],
+    "correct": 3,
+    "explanation": "A wheel over position é o ponto em que se inicia a guinada antes do waypoint, antecipando o avanço e o caimento do navio (especialmente em águas restritas)."
+  },
+  {
+    "type": "mc",
+    "question": "O que são as 'no-go áreas' no planejamento de derrota?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Áreas proibidas à navegação, definidas durante o planejamento",
+      "Linhas paralelas à rota para monitorar afastamento lateral",
+      "Zonas de fundeio recomendadas ao longo da derrota",
+      "Pontos de início de guinada antes dos waypoints"
+    ],
+    "correct": 0,
+    "explanation": "As no-go áreas são regiões proibidas à navegação (perigos, baixios etc.) identificadas e demarcadas no planejamento da derrota."
+  },
+  {
+    "type": "mc",
+    "question": "O que são as 'paralelas indexadas' (parallel indexing) usadas na navegação?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Pontos de mudança de rumo antes do waypoint",
+      "Correções diferenciais aplicadas à posição do GPS",
+      "Áreas proibidas à navegação demarcadas na carta",
+      "Linhas paralelas à rota usadas para monitorar o afastamento lateral da derrota"
+    ],
+    "correct": 3,
+    "explanation": "As paralelas indexadas são linhas paralelas à rota planejada, usadas (tipicamente no radar) para monitorar o afastamento lateral da embarcação em relação à derrota."
+  },
+  {
+    "type": "mc",
+    "question": "Devemos elaborar o plano de derrota preferencialmente em carta de grande ou pequena escala? Por quê?",
+    "category": "Navegação — Cartas Náuticas",
+    "options": [
+      "Pequena escala, por reduzir o número de cartas necessárias",
+      "É indiferente, pois a escala não afeta a precisão do planejamento",
+      "Pequena escala, pois abrange maior área em uma única carta",
+      "Grande escala, pois oferece maior precisão e margem de segurança no planejamento"
+    ],
+    "correct": 3,
+    "explanation": "A carta de grande escala mostra a região com mais detalhe, oferecendo maior precisão e margem de segurança no planejamento da derrota."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a diferença entre maré de Sizígia e maré de Quadratura?",
+    "category": "Navegação — Marés",
+    "options": [
+      "Sizígia: maior amplitude (lua nova/cheia); Quadratura: menor amplitude (lua crescente/minguante)",
+      "Sizígia: menor amplitude (lua crescente/minguante); Quadratura: maior amplitude (lua nova/cheia)",
+      "Sizígia ocorre só no equinócio; Quadratura só no solstício",
+      "Ambas ocorrem na lua cheia, diferindo apenas no horário"
+    ],
+    "correct": 0,
+    "explanation": "A sizígia (lua nova ou cheia, Sol e Lua alinhados) produz marés de maior amplitude; a quadratura (lua crescente ou minguante) produz marés de menor amplitude."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial observa que a corrente de maré está praticamente nula no intervalo entre a enchente e a vazante. Esse período é chamado de:",
+    "category": "Navegação — Marés",
+    "options": [
+      "Sizígia",
+      "Baixa-mar",
+      "Estofo de maré",
+      "Preamar"
+    ],
+    "correct": 2,
+    "explanation": "O estofo de maré é o período entre a enchente e a vazante em que a corrente é praticamente nula."
+  },
+  {
+    "type": "mc",
+    "question": "Relacione corretamente os níveis e movimentos da maré:",
+    "category": "Navegação — Marés",
+    "options": [
+      "Preamar e baixa-mar ocorrem simultaneamente na sizígia",
+      "Preamar é o nível máximo; baixa-mar é o nível mínimo; vazante é a descida da maré",
+      "Preamar é o nível mínimo; baixa-mar é o nível máximo",
+      "Vazante é a subida da maré; enchente é a descida"
+    ],
+    "correct": 1,
+    "explanation": "Preamar é o nível máximo e baixa-mar o nível mínimo da maré. A vazante é o período de descida (da preamar para a baixa-mar)."
+  },
+  {
+    "type": "mc",
+    "question": "Qual publicação apresenta os horários e alturas das preamares e baixa-mares?",
+    "category": "Navegação — Publicações",
+    "options": [
+      "Cartas de Correntes",
+      "Tábuas de Marés",
+      "Roteiro",
+      "Lista de Faróis"
+    ],
+    "correct": 1,
+    "explanation": "As Tábuas de Marés fornecem os horários e as alturas das preamares e baixa-mares."
+  },
+  {
+    "type": "mc",
+    "question": "Para que se destina a publicação 'Cartas de Correntes' e qual sua utilidade a bordo?",
+    "category": "Navegação — Publicações",
+    "options": [
+      "Apresentar dados das correntes de maré para analisar sua influência na velocidade e no ETA",
+      "Relacionar os avisos-rádio de segurança da navegação",
+      "Apresentar as características dos faróis para identificação noturna",
+      "Fornecer os símbolos e abreviaturas das cartas náuticas"
+    ],
+    "correct": 0,
+    "explanation": "As Cartas de Correntes trazem dados das correntes de maré, permitindo analisar sua influência sobre a velocidade e o ETA da embarcação."
+  },
+  {
+    "type": "mc",
+    "question": "O que é o abatimento (leeway) de uma embarcação?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "O desvio angular da agulha magnética em relação ao norte verdadeiro",
+      "O deslocamento lateral da embarcação provocado principalmente pela ação do vento",
+      "A diferença entre a posição estimada e a observada por corrente",
+      "A redução de velocidade causada pelo atrito do casco"
+    ],
+    "correct": 1,
+    "explanation": "O abatimento é o deslocamento lateral da embarcação causado principalmente pela ação do vento."
+  },
+  {
+    "type": "mc",
+    "question": "Como se pode determinar a existência de uma força (corrente/vento) que esteja afetando a derrota do navio?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Consultando as Tábuas de Marés do porto de partida",
+      "Medindo a velocidade do vento com o anemômetro",
+      "Verificando o almanaque do GPS",
+      "Comparando a posição estimada com a posição observada"
+    ],
+    "correct": 3,
+    "explanation": "A comparação entre a posição estimada (deduzida por rumo e velocidade) e a posição observada revela a ação de forças externas, como corrente e vento."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a diferença entre um anemômetro e um anemoscópio?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "O anemômetro mede a velocidade do vento; o anemoscópio indica sua direção",
+      "O anemômetro indica a direção do vento; o anemoscópio mede sua velocidade",
+      "Ambos medem a velocidade, diferindo apenas na precisão",
+      "O anemômetro mede a pressão e o anemoscópio a umidade do ar"
+    ],
+    "correct": 0,
+    "explanation": "O anemômetro mede a velocidade do vento; o anemoscópio indica a direção do vento."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a diferença entre um higrômetro e um psicrômetro?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "O higrômetro mede a pressão; o psicrômetro mede a temperatura",
+      "O higrômetro mede a umidade do ar; o psicrômetro determina a umidade pela diferença entre os bulbos seco e úmido",
+      "Ambos medem a velocidade do vento por métodos distintos",
+      "O higrômetro determina a umidade por bulbos; o psicrômetro mede a pressão"
+    ],
+    "correct": 1,
+    "explanation": "O higrômetro mede diretamente a umidade do ar; o psicrômetro determina a umidade a partir da diferença de leitura entre os bulbos seco e úmido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é a escala Beaufort e em quantos graus se divide?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Escala de força dos ventos, dividida em 13 graus (0 a 12)",
+      "Escala de pressão atmosférica, dividida em 12 graus",
+      "Escala de altura das ondas, dividida em 10 graus",
+      "Escala de força das correntes, dividida em 9 graus"
+    ],
+    "correct": 0,
+    "explanation": "A escala Beaufort classifica a força dos ventos e é dividida em 13 graus, de 0 a 12."
+  },
+  {
+    "type": "mc",
+    "question": "Basicamente, como se formam os ventos?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Por diferenças de pressão atmosférica causadas por diferenças de temperatura das massas de ar",
+      "Pela rotação da Terra atuando isoladamente sobre o ar parado",
+      "Pela atração gravitacional da Lua sobre a atmosfera",
+      "Pela evaporação da água do mar em altas latitudes"
+    ],
+    "correct": 0,
+    "explanation": "Os ventos resultam de diferenças de pressão atmosférica, que por sua vez decorrem das diferenças de temperatura entre as massas de ar."
+  },
+  {
+    "type": "mc",
+    "question": "Que problemas o ecobatímetro pode ter em relação ao fundo do mar?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "O equipamento só funciona sobre fundos rochosos",
+      "Fundos macios, vegetação, lama e inclinações podem gerar ecos falsos",
+      "Fundos muito duros aceleram a leitura e a tornam mais precisa",
+      "Correntes de maré invertem o valor da profundidade medida"
+    ],
+    "correct": 1,
+    "explanation": "Fundos macios, vegetação, lama e inclinações do leito podem gerar ecos falsos, distorcendo a leitura do ecobatímetro."
+  },
+  {
+    "type": "mc",
+    "question": "Quais são os tipos de indicadores de profundidade existentes?",
+    "category": "Navegação — Ecobatímetro",
+    "options": [
+      "Speed log Doppler e prumo de mão",
+      "Prumo de mão e ecobatímetro",
+      "Odômetro de fundo e odômetro de superfície",
+      "Barômetro e ecobatímetro"
+    ],
+    "correct": 1,
+    "explanation": "Os indicadores de profundidade são o prumo de mão (método tradicional) e o ecobatímetro (método acústico)."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação exibe luzes vermelha-branca-vermelha em linha vertical e as marcas balão-losango-balão. O que isso indica?",
+    "category": "Navegação — Luzes e Marcas",
+    "options": [
+      "Embarcação de arrastão engajada na pesca",
+      "Embarcação sem governo",
+      "Embarcação com capacidade de manobra restrita",
+      "Embarcação restrita pelo calado"
+    ],
+    "correct": 2,
+    "explanation": "Vermelha-branca-vermelha (luzes) e balão-losango-balão (marcas) identificam a embarcação com capacidade de manobra restrita."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação de pesca exibe luzes verde sobre branca e a marca de dois cones unidos pelas pontas. De que tipo de pesca se trata?",
+    "category": "Navegação — Luzes e Marcas",
+    "options": [
+      "Embarcação restrita pelo calado",
+      "Embarcação sem governo",
+      "Pesca sem ser de arrastão",
+      "Pesca de arrastão"
+    ],
+    "correct": 3,
+    "explanation": "Luz verde sobre branca com a marca de dois cones unidos pelas pontas caracteriza a pesca de arrastão. A pesca sem ser de arrastão usa vermelha sobre branca."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto de luzes/marcas identifica uma embarcação de pesca SEM ser de arrastão?",
+    "category": "Navegação — Luzes e Marcas",
+    "options": [
+      "Vermelha-branca-vermelha; balão-losango-balão",
+      "Vermelha sobre branca; dois cones unidos pelas pontas",
+      "Circular branca na proa; esfera preta",
+      "Verde sobre branca; dois cones unidos pelas pontas"
+    ],
+    "correct": 1,
+    "explanation": "A pesca sem ser de arrastão exibe luz vermelha sobre branca e a marca de dois cones unidos pelas pontas. (Verde sobre branca é arrastão.)"
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação fundeada deve exibir, de dia e de noite, respectivamente:",
+    "category": "Navegação — Luzes e Marcas",
+    "options": [
+      "Duas esferas pretas; luzes vermelha e branca",
+      "Um losango; luz vermelha circular",
+      "Um cilindro preto; luz verde circular",
+      "Uma esfera preta; luz circular branca na proa (e outra à ré quando exigido)"
+    ],
+    "correct": 3,
+    "explanation": "Fundeada: de dia exibe uma esfera preta à proa; de noite, luz circular branca na proa (e uma segunda à ré, quando o porte exigir)."
+  },
+  {
+    "type": "mc",
+    "question": "Em que caso NÃO se colocam luzes ou marcas nas embarcações em processo de empurra em movimento?",
+    "category": "Navegação — Luzes e Marcas",
+    "options": [
+      "Quando a empurradora e a empurrada estiverem rigidamente ligadas, formando uma unidade integrada",
+      "Quando houver visibilidade restrita",
+      "Sempre que a empurra ocorrer em águas restritas",
+      "Quando o comboio tiver menos de 200 metros"
+    ],
+    "correct": 0,
+    "explanation": "Quando empurradora e empurrada estão rigidamente ligadas, formando uma unidade integrada, ela é tratada como uma única embarcação de propulsão mecânica, dispensando a marcação específica de empurra."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação de propulsão mecânica com menos de 12 metros pode exibir, em vez do conjunto completo:",
+    "category": "Navegação — Luzes e Marcas",
+    "options": [
+      "Uma luz circular branca e luzes de bordo",
+      "Luz vermelha sobre branca e esfera preta",
+      "Três luzes de mastro e luz de reboque",
+      "Apenas duas luzes de mastro em linha vertical"
+    ],
+    "correct": 0,
+    "explanation": "A embarcação de propulsão mecânica com menos de 12 m pode exibir uma luz circular branca somada às luzes de bordo."
+  },
+  {
+    "type": "mc",
+    "question": "Quais luzes deve exibir uma embarcação a propulsão mecânica em movimento (conjunto de cinco luzes)?",
+    "category": "Navegação — Luzes e Marcas",
+    "options": [
+      "Circular branca, verde, vermelha, amarela e de reboque",
+      "Duas de mastro, uma de bombordo, uma de boreste e duas de reboque",
+      "Vermelha, branca, vermelha, de bordo e de alcançado",
+      "Luz de mastro, luz de mastro de ré, luz de bombordo, luz de boreste e luz de alcançado"
+    ],
+    "correct": 3,
+    "explanation": "As cinco luzes são: mastro, mastro de ré, bombordo, boreste e alcançado (de popa)."
+  },
+  {
+    "type": "tf",
+    "question": "No sistema IALA B, ao entrar em um porto, o sinal lateral de boreste é vermelho e o de bombordo é verde.",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No IALA B (adotado no Brasil, Américas e outros), na entrada de porto o boreste é vermelho e o bombordo é verde."
+  },
+  {
+    "type": "tf",
+    "question": "A embarcação privilegiada deve manter rumo e velocidade em qualquer circunstância, sendo-lhe vedado manobrar mesmo diante da inação da outra embarcação.",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A privilegiada mantém rumo e velocidade como regra, mas DEVE manobrar quando perceber que a manobradora não está cumprindo o RIPEAM."
+  },
+  {
+    "type": "tf",
+    "question": "A maré de sizígia, que ocorre nas luas nova e cheia, apresenta a maior amplitude, enquanto a de quadratura, nas luas crescente e minguante, apresenta a menor.",
+    "category": "Navegação — Marés",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Sizígia (nova/cheia) = maior amplitude; quadratura (crescente/minguante) = menor amplitude."
+  },
+  {
+    "type": "tf",
+    "question": "O SART é ativado automaticamente ao receber sinais de radar na faixa de 9 GHz, facilitando a localização de sobreviventes na tela do radar.",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O SART responde a sinais de radar de 9 GHz, gerando uma marca característica na tela que orienta a localização dos sobreviventes."
+  },
+  {
+    "type": "tf",
+    "question": "A área A1 do GMDSS é coberta pelo INMARSAT e estende-se entre as latitudes 70°N e 70°S.",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "É a área A3 que é coberta pelo INMARSAT (70°N–70°S). A A1 vai de cerca de 20 a 30 milhas, coberta por VHF."
+  },
+  {
+    "type": "tf",
+    "question": "As determinações do RIPEAM aplicam-se a todas as embarcações em alto-mar e nas águas navegáveis a ele ligadas.",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O RIPEAM aplica-se a todas as embarcações em alto-mar e nas águas a ele ligadas acessíveis à navegação marítima."
+  },
+  {
+    "type": "tf",
+    "question": "O sistema de balizamento cardinal é o utilizado especificamente na entrada dos portos para indicar bombordo e boreste da rota.",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Na entrada dos portos usa-se o balizamento lateral. O cardinal é empregado na navegação costeira e de aproximação, indicando o setor navegável em torno de um perigo."
+  },
+  {
+    "type": "tf",
+    "question": "O VDR registra continuamente os dados de navegação e comunicações da embarcação, sendo equiparável à caixa-preta das aeronaves.",
+    "category": "Navegação — VDR",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O VDR grava continuamente dados de navegação e comunicações para análise posterior de acidentes, funcionando como a caixa-preta marítima."
+  },
+  {
+    "type": "tf",
+    "question": "O anemômetro indica a direção do vento, enquanto o anemoscópio mede a sua velocidade.",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "É o contrário: o anemômetro mede a velocidade e o anemoscópio indica a direção do vento."
+  },
+  {
+    "type": "gap",
+    "question": "O regulamento internacional destinado a prevenir colisões e abalroamentos no mar é conhecido pela sigla __________.",
+    "category": "Navegação — RIPEAM",
+    "options": [],
+    "correct": "RIPEAM",
+    "explanation": "RIPEAM = Regulamento Internacional para Evitar Abalroamentos no Mar."
+  },
+  {
+    "type": "gap",
+    "question": "O sistema de balizamento adotado no Brasil é o IALA ___ (letra).",
+    "category": "Navegação — Balizamento",
+    "options": [],
+    "correct": "B",
+    "explanation": "O Brasil adota o sistema IALA B."
+  },
+  {
+    "type": "gap",
+    "question": "O período entre a enchente e a vazante, quando a corrente de maré é praticamente nula, chama-se __________ de maré.",
+    "category": "Navegação — Marés",
+    "options": [],
+    "correct": "Estofo",
+    "explanation": "O estofo de maré é o instante de corrente praticamente nula entre a enchente e a vazante."
+  },
+  {
+    "type": "gap",
+    "question": "A escala usada para classificar a força dos ventos, dividida em 13 graus (0 a 12), chama-se escala __________.",
+    "category": "Navegação — Meteorologia",
+    "options": [],
+    "correct": "Beaufort",
+    "explanation": "A escala Beaufort classifica a força do vento em 13 graus (0 a 12)."
+  },
+  {
+    "type": "gap",
+    "question": "O deslocamento lateral da embarcação provocado principalmente pela ação do vento é denominado __________.",
+    "category": "Navegação — Meteorologia",
+    "options": [],
+    "correct": "Abatimento",
+    "explanation": "Abatimento (leeway) é o deslocamento lateral causado pelo vento."
+  },
+  {
+    "type": "gap",
+    "question": "A publicação que apresenta os símbolos, abreviaturas e termos das cartas náuticas é a carta de número __________.",
+    "category": "Navegação — Cartas Náuticas",
+    "options": [],
+    "correct": "12000",
+    "explanation": "A carta 12000 (INT 1) reúne símbolos, abreviaturas e termos das cartas náuticas."
+  },
+  {
+    "type": "assoc",
+    "question": "Associe cada sistema/equipamento à sua função principal.",
+    "category": "Navegação — Instrumentos",
+    "options": [
+      "AIS → identificar navios e trocar informações por VHF",
+      "VDR → registrar dados para análise de acidentes (caixa-preta)",
+      "VTS → reduzir acidentes e organizar o tráfego marítimo",
+      "SART → facilitar a localização de sobreviventes pelo radar"
+    ],
+    "correct": "1-A; 2-B; 3-C; 4-D",
+    "explanation": "AIS identifica navios; VDR registra dados (caixa-preta); VTS organiza o tráfego; SART auxilia o resgate respondendo ao radar."
+  },
+  {
+    "type": "assoc",
+    "question": "Associe cada tipo de sinal de balizamento à sua finalidade/característica.",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Sinal lateral → indica bombordo/boreste da rota nas entradas de portos",
+      "Sinal cardinal → indica o setor navegável em torno de um perigo",
+      "Boia de águas seguras → faixas verticais vermelhas e brancas, luz branca",
+      "Boia de sinais especiais → cor amarela"
+    ],
+    "correct": "1-A; 2-B; 3-C; 4-D",
+    "explanation": "Laterais marcam os bordos da rota; cardinais indicam o lado navegável do perigo; águas seguras têm faixas verticais vermelho/branco; sinais especiais são amarelos."
+  }
+]

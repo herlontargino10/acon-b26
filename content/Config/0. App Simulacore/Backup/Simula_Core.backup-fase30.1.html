@@ -2884,13 +2884,13 @@ function renderQuestion() {
           ${esc(q.explanation || '')}
         </div>`;
       }
-    } else if (q.type !== 'disc' && (study || S.reviewMode)) {
+    } else if (q.type !== 'disc' && study) {
       /* Prova (não-DISC): nenhum painel de explicação/feedback — só o
          estado travado das opções já indica que a resposta foi registrada */
       const ok = isCorrectAt(S.idx);
       expHTML = `<div class="explanation show">
         <div class="exp-res ${ok ? 'ok' : 'bad'}">${ok ? icon('check') + ' Correto!' : icon('x') + ' Incorreto'}</div>
-        ${esc(q.explanation || '')}
+        ${esc(q.explanation)}
       </div>`;
     }
   }
