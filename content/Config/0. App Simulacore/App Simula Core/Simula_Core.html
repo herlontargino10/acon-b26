@@ -843,6 +843,18 @@ button:disabled { opacity: .4; cursor: not-allowed; }
   border-radius: 8px;
 }
 
+/* ── Progresso por matéria — "Meu Estudo" (Fase 33) ──
+   Cores/tamanhos das peças dinâmicas (pill de status, dots de
+   contagem) vêm inline no HTML gerado — mesmo padrão já usado por
+   .cat-fill (renderResult). Aqui só o esqueleto estrutural. ── */
+.subj-progress       { margin-top: 8px; }
+.subj-progress-track { height: 5px; background: var(--border); border-radius: 999px; overflow: hidden; }
+.subj-progress-fill  { height: 100%; border-radius: 999px; transition: width .5s ease; }
+.subj-progress-meta  { display: flex; align-items: center; flex-wrap: wrap; gap: 9px; margin-top: 6px; }
+.subj-status-pill    { display: inline-flex; align-items: center; border-radius: 99px; padding: 2px 8px; border: 1px solid transparent; white-space: nowrap; }
+.subj-count-dot      { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.subj-count-dot::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: var(--dot, var(--muted)); flex-shrink: 0; }
+
 /* ── Botão fixo — Biblioteca ────────────────────── */
 #lib-btn-wrap {
   display: none;
@@ -1618,6 +1630,10 @@ const S = {
   reviewMode:       false,  // true quando executando sessão de revisão
   editorSubjectKey: null,   // matéria aberta no editor de questões
   editorQIdx:       -1,     // índice da questão em edição (-1 = nova)
+  sessionSize:      null,   // Fase 34.2: tamanho de sessão preferido (Treino).
+                             // null = sem preferência definida ainda (não existe UI
+                             // para isso nesta fase — ver selectAdaptiveDeck): usa o
+                             // banco inteiro da matéria, igual ao comportamento atual.
 };
 
 /* ═══════════════════════════════════════════════════
@@ -1830,6 +1846,317 @@ function toggleFav(q, subj) {
   idx >= 0 ? favs.splice(idx, 1) : favs.push(id);
   try { localStorage.setItem(userScopedKey(FAV_KEY), JSON.stringify(favs)); } catch(_) {}
   return idx < 0;
+}
+
+/* ═══════════════════════════════════════════════════
+   HISTÓRICO — desempenho persistente por questão (Fase 32)
+   Camada só de registro: nada aqui lê o histórico para mudar o
+   comportamento do Treino/Prova/Revisão. Independente da fila de
+   revisão (REVIEW_KEY) e dos favoritos (FAV_KEY) — coexistem sem
+   se sobrepor.
+   ═══════════════════════════════════════════════════ */
+const HISTORY_KEY = 'cia_history_v1';
+
+function loadHistory() {
+  try { return JSON.parse(localStorage.getItem(userScopedKey(HISTORY_KEY))) || {}; } catch(_) { return {}; }
+}
+function saveHistory(hist) {
+  try { localStorage.setItem(userScopedKey(HISTORY_KEY), JSON.stringify(hist)); } catch(_) {}
+}
+
+/* consulta pontual (uso futuro — não usada ainda para alterar comportamento) */
+function getQuestionHistory(subject, q) {
+  const id = q._id || q.question;
+  return loadHistory()[`${subject}::${id}`] || null;
+}
+
+/* contexto da tentativa atual, derivado do estado já existente (S.reviewMode/S.mode) */
+function historyContext() {
+  if (S.reviewMode) return 'review';
+  return S.mode === 'exam' ? 'exam' : 'training';
+}
+
+/* soma/subtrai 1 no par correct/wrong específico do contexto (training/exam/review) */
+function bumpResultBucket(entry, context, result, delta) {
+  const field = context === 'exam'
+    ? (result === 'correct' ? 'examCorrect' : 'examWrong')
+    : context === 'review'
+      ? (result === 'correct' ? 'reviewCorrect' : 'reviewWrong')
+      : (result === 'correct' ? 'trainingCorrect' : 'trainingWrong');
+  entry[field] = Math.max(0, (entry[field] || 0) + delta);
+}
+
+/* registra uma tentativa efetivamente avaliada — chamada por App.verify()
+   (mc/tf/gap/assoc) e por App.selfGradeDisc() (disc). isCorrection=true
+   só ocorre quando o aluno troca a autoavaliação de uma discursiva já
+   avaliada (Acertei ⇄ Errei): corrige o resultado sem contar uma nova
+   tentativa, já que a resposta escrita não mudou — só o julgamento dela. */
+function recordQuestionResult(subject, q, correct, context, isCorrection) {
+  const id  = q._id || q.question;
+  const key = `${subject}::${id}`;
+  const hist  = loadHistory();
+  const entry = hist[key] || {
+    subject, questionId: id, category: q.category, type: q.type,
+    attempts: 0, correct: 0, wrong: 0,
+    lastResult: null, firstSeenAt: null, lastSeenAt: null,
+    trainingAttempts: 0, trainingCorrect: 0, trainingWrong: 0,
+    examAttempts: 0, examCorrect: 0, examWrong: 0,
+    reviewAttempts: 0, reviewCorrect: 0, reviewWrong: 0,
+  };
+
+  if (isCorrection) {
+    const prev = entry.lastResult;
+    if (prev === 'correct') { entry.correct = Math.max(0, entry.correct - 1); bumpResultBucket(entry, context, 'correct', -1); }
+    else if (prev === 'wrong') { entry.wrong = Math.max(0, entry.wrong - 1); bumpResultBucket(entry, context, 'wrong', -1); }
+    correct ? entry.correct++ : entry.wrong++;
+    bumpResultBucket(entry, context, correct ? 'correct' : 'wrong', 1);
+  } else {
+    entry.attempts++;
+    correct ? entry.correct++ : entry.wrong++;
+    if (context === 'exam') entry.examAttempts++;
+    else if (context === 'review') entry.reviewAttempts++;
+    else entry.trainingAttempts++;
+    bumpResultBucket(entry, context, correct ? 'correct' : 'wrong', 1);
+    if (!entry.firstSeenAt) entry.firstSeenAt = Date.now();
+  }
+  entry.lastResult = correct ? 'correct' : 'wrong';
+  entry.lastSeenAt = Date.now();
+
+  hist[key] = entry;
+  saveHistory(hist);
+}
+
+/* remove todo o histórico de uma matéria (usado por cleanupSubjectData ao excluir) */
+function clearSubjectHistory(subject) {
+  const hist = loadHistory();
+  let changed = false;
+  Object.keys(hist).forEach(k => {
+    if (hist[k].subject === subject) { delete hist[k]; changed = true; }
+  });
+  if (changed) saveHistory(hist);
+}
+
+/* ═══════════════════════════════════════════════════
+   PROGRESSO — leitura derivada do histórico (Fase 33)
+   Camada só de LEITURA sobre cia_history_v1 (Fase 32): nada aqui
+   grava, e nada aqui influencia startNew()/prepareDeck() ou qual
+   questão é oferecida — isso continua uma fase futura. Serve só
+   para a Biblioteca/Home mostrarem o progresso já registrado.
+
+   "Número de sessões" foi deliberadamente OMITIDO: o histórico da
+   Fase 32 guarda contadores agregados por questão (attempts/correct/
+   wrong/lastSeenAt), não eventos de sessão — não existe forma segura
+   de reconstruir "quantas sessões" a partir disso sem inventar dado
+   (ex.: agrupar por proximidade de lastSeenAt seria uma heurística,
+   não um fato). Etapa 15 pede parar em vez de improvisar aqui.
+   ═══════════════════════════════════════════════════ */
+
+/* critérios de "Reforçar" — conservadores e isolados aqui de propósito,
+   para serem recalibráveis sem tocar no resto do código:
+   1) quantidade relevante de questões com erro no histórico (>= 3 E
+      >= 30% do que já foi visto), OU
+   2) aproveitamento histórico abaixo de 60% (havendo ao menos 1 tentativa).
+   Cobertura (% visto) e desempenho (% de acerto) são conceitos
+   separados de propósito: dá pra estar 100% percorrido e ainda cair
+   em "reforçar" — por isso esse teste roda ANTES do de "concluída". */
+const REINFORCE_MIN_WRONG_QUESTIONS = 3;
+const REINFORCE_WRONG_RATIO         = 0.3;
+const REINFORCE_MAX_PCT             = 60;
+
+/* Agrega o que o histórico já sabe sobre uma matéria. "Vista" = existe
+   entry no histórico para aquela questão — nunca inferido de deck,
+   IndexedDB, fila de revisão (REVIEW_KEY) ou favoritos (FAV_KEY). */
+function subjectProgress(key, subj) {
+  const hist  = loadHistory();
+  const total = (subj.questions || []).length;
+  let seen = 0, attempts = 0, correct = 0, wrong = 0, wrongQuestions = 0, lastSeenAt = null;
+
+  (subj.questions || []).forEach(q => {
+    const id    = q._id || q.question;
+    const entry = hist[`${key}::${id}`];
+    if (!entry) return;
+    seen++;
+    attempts += entry.attempts || 0;
+    correct  += entry.correct  || 0;
+    wrong    += entry.wrong    || 0;
+    if (entry.wrong > 0) wrongQuestions++;
+    if (entry.lastSeenAt && (!lastSeenAt || entry.lastSeenAt > lastSeenAt)) lastSeenAt = entry.lastSeenAt;
+  });
+
+  const unseen      = total - seen;
+  const coveragePct = total > 0 ? Math.round(seen / total * 100) : 0;
+  const perfPct      = attempts > 0 ? Math.round(correct / attempts * 100) : null;
+
+  const reinforceNeeded = seen > 0 && (
+    (wrongQuestions >= REINFORCE_MIN_WRONG_QUESTIONS && wrongQuestions / seen >= REINFORCE_WRONG_RATIO) ||
+    (perfPct !== null && perfPct < REINFORCE_MAX_PCT)
+  );
+
+  let status;
+  if (seen === 0)               status = 'not_started';
+  else if (reinforceNeeded)     status = 'reinforce';
+  else if (coveragePct === 100) status = 'completed';
+  else                           status = 'in_progress';
+
+  return { total, seen, unseen, attempts, correct, wrong, wrongQuestions, coveragePct, perfPct, lastSeenAt, status };
+}
+
+/* rótulo + cor do status — os 4 estados pedidos, sem inventar mais */
+function subjectStatusMeta(status) {
+  switch (status) {
+    case 'reinforce':   return { label: 'Reforçar',     color: 'var(--red)'   };
+    case 'completed':   return { label: 'Concluída',    color: 'var(--green)' };
+    case 'in_progress': return { label: 'Em andamento', color: 'var(--amber)' };
+    default:              return { label: 'Não iniciada', color: 'var(--muted)' };
+  }
+}
+
+/* "hoje" / "ontem" / "há N dias" / "há N semanas" — nunca inventa data:
+   ts===null (nenhuma tentativa registrada) é tratado por quem chama */
+function friendlyLastStudied(ts) {
+  if (!ts) return null;
+  const d0 = new Date(ts); d0.setHours(0, 0, 0, 0);
+  const d1 = new Date();   d1.setHours(0, 0, 0, 0);
+  const days = Math.round((d1 - d0) / 86400000);
+  if (days <= 0) return 'hoje';
+  if (days === 1) return 'ontem';
+  if (days < 7)  return `há ${days} dias`;
+  const weeks = Math.round(days / 7);
+  if (weeks === 1) return 'há 1 semana';
+  if (weeks < 5)   return `há ${weeks} semanas`;
+  const months = Math.round(days / 30);
+  return months <= 1 ? 'há 1 mês' : `há ${months} meses`;
+}
+
+/* HTML compartilhado por minhasCard() (Biblioteca) e renderHome()
+   (matéria selecionada) — mesmo bloco, sem duplicar marcação */
+function subjectProgressHTML(prog) {
+  const meta    = subjectStatusMeta(prog.status);
+  const lastLbl = friendlyLastStudied(prog.lastSeenAt);
+  const seenOk  = prog.seen - prog.wrongQuestions;
+  return `<div class="subj-progress">
+    <div class="subj-progress-track"><div class="subj-progress-fill" style="width:${prog.coveragePct}%;background:${meta.color}"></div></div>
+    <div class="subj-progress-meta">
+      <span class="subj-status-pill" style="font-size:11px;font-weight:700;color:${meta.color};border-color:color-mix(in srgb, ${meta.color} 35%, transparent);background:color-mix(in srgb, ${meta.color} 10%, transparent)">${meta.label}</span>
+      ${seenOk > 0 ? `<span class="subj-count-dot" style="font-size:11px;color:var(--muted);--dot:var(--green)">${seenOk} vistas</span>` : ''}
+      ${prog.wrongQuestions > 0 ? `<span class="subj-count-dot" style="font-size:11px;color:var(--muted);--dot:var(--amber)">${prog.wrongQuestions} p/ reforçar</span>` : ''}
+      ${prog.unseen > 0 ? `<span class="subj-count-dot" style="font-size:11px;color:var(--muted);--dot:var(--muted)">${prog.unseen} não vistas</span>` : ''}
+    </div>
+    ${(prog.perfPct !== null || lastLbl) ? `<div class="subj-progress-meta" style="margin-top:2px">
+      ${prog.perfPct !== null ? `<span style="font-size:11px;color:var(--muted)">Aproveitamento: ${prog.perfPct}%</span>` : ''}
+      ${lastLbl ? `<span style="font-size:11px;color:var(--muted)">Último estudo: ${lastLbl}</span>` : ''}
+    </div>` : ''}
+  </div>`;
+}
+
+/* ═══════════════════════════════════════════════════
+   SELEÇÃO ADAPTATIVA — Fase 34.2 (Alternativa A, desenhada na Fase 34.1)
+   Só para o TREINO (S.mode === 'study', decidido em App.startNew()).
+   Prova, Revisão (startReview) e Revisar Erros (reviewWrong) continuam
+   chamando prepareDeck() exatamente como antes — nada aqui os afeta.
+
+   Camada de LEITURA sobre cia_history_v1 (Fase 32): lê loadHistory()
+   UMA única vez por chamada, não grava nada, não altera S, não responde
+   questões. prepareDeck() não foi tocada — a seleção só decide QUAIS
+   questões formam o array que é passado para ela.
+
+   Fora de escopo nesta fase (ver Fase 34.1): category, lastSeenAt,
+   lastResult, qualquer lógica temporal/calendário. Só attempts/wrong. ═══ */
+
+/* alvos por balde — pontos de partida, não obrigação rígida. Redistribuídos
+   quando um balde não tem estoque suficiente (distributeBucketTargets).
+   Fáceis de recalibrar sem tocar no resto do algoritmo. */
+const ADAPTIVE_BUCKET_TARGETS = {
+  unseen:     0.40,
+  wrong:      0.30,
+  multiWrong: 0.15,
+  mastered:   0.15,
+};
+/* ordem de prioridade usada tanto para preencher déficit (quando um balde
+   não tem estoque) quanto para absorver sobra de arredondamento — nunca
+   dominadas primeiro, nunca às custas de nunca-vistas/erradas */
+const ADAPTIVE_BUCKET_ORDER = ['unseen', 'wrong', 'multiWrong', 'mastered'];
+/* wrong >= este valor entra no balde "múltiplos erros" (Fase 34.1 §6) */
+const ADAPTIVE_MULTI_WRONG_THRESHOLD = 2;
+
+/* classifica as questões da matéria nos 4 baldes usando só attempts/wrong
+   do histórico — ausência de entrada ou attempts===0 conta como "nunca
+   vista", igual ao critério já usado por subjectProgress() (Fase 33). */
+function classifyAdaptiveBuckets(subjectKey, allQuestions, hist) {
+  const buckets = { unseen: [], wrong: [], multiWrong: [], mastered: [] };
+  allQuestions.forEach(q => {
+    const id    = q._id || q.question;
+    const entry = hist[`${subjectKey}::${id}`];
+    if (!entry || entry.attempts === 0) { buckets.unseen.push(q); return; }
+    if (entry.wrong === 0)                             { buckets.mastered.push(q);   return; }
+    if (entry.wrong >= ADAPTIVE_MULTI_WRONG_THRESHOLD)  { buckets.multiWrong.push(q); return; }
+    buckets.wrong.push(q);
+  });
+  return buckets;
+}
+
+/* decide quantas questões tirar de cada balde para uma sessão de
+   `sessionSize`, a partir do estoque real (`bucketSizes`) de cada um.
+   Nunca deixa a sessão menor que min(sessionSize, total disponível) só
+   por falta de estoque em um balde específico — o que falta é preenchido
+   na ordem de ADAPTIVE_BUCKET_ORDER a partir do que sobrou nos outros. */
+function distributeBucketTargets(bucketSizes, sessionSize) {
+  const totalAvailable = ADAPTIVE_BUCKET_ORDER.reduce((s, k) => s + bucketSizes[k], 0);
+  const size = Math.max(0, Math.min(sessionSize, totalAvailable));
+
+  const take = {};
+  ADAPTIVE_BUCKET_ORDER.forEach(k => {
+    take[k] = Math.min(Math.round(ADAPTIVE_BUCKET_TARGETS[k] * size), bucketSizes[k]);
+  });
+
+  let diff = size - ADAPTIVE_BUCKET_ORDER.reduce((s, k) => s + take[k], 0);
+
+  if (diff > 0) {
+    /* déficit: algum(ns) balde(s) não tinha(m) estoque para o alvo —
+       preenche na ordem de prioridade com o que sobrou nos demais */
+    for (const k of ADAPTIVE_BUCKET_ORDER) {
+      if (diff <= 0) break;
+      const spare = bucketSizes[k] - take[k];
+      const add   = Math.min(spare, diff);
+      take[k] += add; diff -= add;
+    }
+  } else if (diff < 0) {
+    /* sobra de arredondamento (4 percentuais arredondados independentemente
+       podem somar 1-2 a mais que "size") — tira na ordem inversa de
+       prioridade, dominada primeiro, nunca deixando um balde negativo */
+    for (const k of [...ADAPTIVE_BUCKET_ORDER].reverse()) {
+      if (diff >= 0) break;
+      const remove = Math.min(take[k], -diff);
+      take[k] -= remove; diff += remove;
+    }
+  }
+
+  return take;
+}
+
+/* sorteia até `n` itens únicos de `arr` sem repetição — reaproveita o
+   shuffle() já existente (mesmo Fisher-Yates usado por prepareDeck()) */
+function sampleWithoutReplacement(arr, n) {
+  return shuffle(arr).slice(0, Math.max(0, Math.min(n, arr.length)));
+}
+
+/* ponto de entrada — só leitura, sem efeitos colaterais. Retorna o array
+   de questões que App.startNew() passa para prepareDeck() quando o modo
+   é Treino. subjectKey deve ser o mesmo usado por recordQuestionResult()
+   (S.subject || 'cia'), senão a busca no histórico não bate com nada. */
+function selectAdaptiveDeck(subjectKey, allQuestions, sessionSize) {
+  const hist = loadHistory(); // UMA única leitura de todo o histórico do usuário
+  const buckets = classifyAdaptiveBuckets(subjectKey, allQuestions, hist);
+  const bucketSizes = {
+    unseen: buckets.unseen.length, wrong: buckets.wrong.length,
+    multiWrong: buckets.multiWrong.length, mastered: buckets.mastered.length,
+  };
+  const take = distributeBucketTargets(bucketSizes, sessionSize);
+
+  const selected = ADAPTIVE_BUCKET_ORDER
+    .flatMap(k => sampleWithoutReplacement(buckets[k], take[k]));
+
+  return shuffle(selected); // composição respeita os baldes; ordem final não
 }
 
 /* ═══════════════════════════════════════════════════
@@ -2128,11 +2455,13 @@ function renderSubjects() {
     const pending  = getPendingReview(key).length;
     const qCount   = subj.questions.length;
     const qLabel   = questionCountLabel(qCount);
+    const prog     = subjectProgress(key, subj);
     return `<div class="home-opt${hasSaved ? ' has-saved' : ''}" onclick="App.selectSubject('${key}')">
       <span class="home-opt-icon">${esc(subj.icon)}</span>
       <div class="home-opt-text">
         <strong>${esc(subj.label)}</strong>
         <span>${esc(subj.title)} &mdash; ${qLabel}</span>
+        ${subjectProgressHTML(prog)}
       </div>
       <div style="display:flex;gap:5px;flex-shrink:0">
         ${pending > 0 ? `<span class="review-pill">${icon('repeat')} ${pending}</span>` : ''}
@@ -2421,7 +2750,7 @@ function renderQuestionForm(key, qIdx) {
   const qEl = $('qf-question'); if (qEl && isNew) qEl.focus();
 }
 
-/* Remove progresso, revisões e favoritos de uma matéria */
+/* Remove progresso, revisões, favoritos e histórico de uma matéria */
 function cleanupSubjectData(key) {
   try { localStorage.removeItem(subjectProgressKey(KEY, key)); } catch(_) {}
   try { localStorage.removeItem(subjectProgressKey(REVIEW_PROGRESS_KEY, key)); } catch(_) {}
@@ -2433,6 +2762,7 @@ function cleanupSubjectData(key) {
     const favs = loadFavs().filter(f => !f.startsWith(key + '::'));
     localStorage.setItem(userScopedKey(FAV_KEY), JSON.stringify(favs));
   } catch(_) {}
+  try { clearSubjectHistory(key); } catch(_) {}
 }
 
 /* ═══════════════════════════════════════════════════
@@ -2677,6 +3007,7 @@ function renderHome() {
   const saved = loadSaved();
   const subj  = SUBJECTS[S.subject] || SUBJECTS['cia'];
   const hasQ  = ACTIVE_QUESTIONS.length > 0;
+  const prog  = hasQ ? subjectProgress(S.subject || 'cia', subj) : null;
 
   $('app').innerHTML = `
     <div class="card home-wrap entering">
@@ -2687,6 +3018,7 @@ function renderHome() {
       </div>
       <div class="home-sub">${esc(subj.title)} &mdash; ${ACTIVE_QUESTIONS.length} questões</div>
       ${!hasQ ? `<div class="subject-empty">${icon('settings')} Banco de questões em preparação.</div>` : `
+      ${subjectProgressHTML(prog)}
       <div class="home-btn-row" style="margin-top:22px">
         <button class="btn-p" style="flex:1" onclick="App.goModeSelect()">${icon('play')} Iniciar Simulado</button>
         ${saved ? `<button class="btn-s" onclick="App.continueSaved()">${icon('rotate-ccw')} Continuar ${S.mode==='exam'?'(Prova)':'(Treino)'}</button>` : ''}
@@ -3669,7 +4001,14 @@ const App = {
   startNew() {
     S.reviewMode = false;
     clearSave();
-    S.deck      = prepareDeck();
+    /* Fase 34.2: só o Treino usa seleção adaptativa. Prova continua
+       exatamente como antes — prepareDeck() sem argumento = banco
+       inteiro embaralhado. sessionSize null (padrão hoje, sem UI ainda)
+       usa o banco inteiro como tamanho, preservando o comportamento
+       atual até existir uma tela de tamanho de sessão (Fase 34.1 §15). */
+    S.deck      = S.mode === 'study'
+      ? prepareDeck(selectAdaptiveDeck(S.subject || 'cia', ACTIVE_QUESTIONS, S.sessionSize || ACTIVE_QUESTIONS.length))
+      : prepareDeck();
     S.answers   = Array(S.deck.length).fill(undefined);
     S.validated = Array(S.deck.length).fill(false);
     S.flagged   = Array(S.deck.length).fill(false);
@@ -3816,6 +4155,10 @@ const App = {
       /* simulado normal: errou → adiciona à fila */
       if (ok === false) addToReview(q, subj);
     }
+    /* histórico (Fase 32): grava exatamente 1 vez por questão nesta sessão —
+       este ponto só é alcançado quando S.validated[S.idx] acabou de virar
+       true (guard no topo da função impede reexecução) */
+    recordQuestionResult(subj, q, ok === true, historyContext(), false);
     renderQuestion();
   },
 
@@ -3826,6 +4169,7 @@ const App = {
     const subj    = S.subject || 'cia';
     const newEval = correct ? 'correct' : 'wrong';
     if (S.discEval[S.idx] === newEval) return; // mesma autoavaliação já registrada — evita reprocessar a fila
+    const jaAvaliada = S.discEval[S.idx] != null; // true = troca de avaliação (Acertei⇄Errei), não nova tentativa
     S.discEval[S.idx] = newEval;
     if (S.reviewMode) {
       if (correct && !S.flagged[S.idx]) removeFromReview(q, subj);
@@ -3834,6 +4178,9 @@ const App = {
       if (correct) removeFromReview(q, subj);
       else addToReview(q, subj);
     }
+    /* histórico (Fase 32): 1ª avaliação conta tentativa; trocar de ideia
+       (Acertei⇄Errei) só corrige o resultado, sem contar tentativa nova */
+    recordQuestionResult(subj, q, correct, historyContext(), jaAvaliada);
     save();
     renderQuestion();
   },

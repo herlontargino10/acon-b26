@@ -1,0 +1,4128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SimulaCore</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='50' fill='%23181c25'/><circle cx='50' cy='50' r='42' fill='none' stroke='%234c8dfa' stroke-width='6'/><text y='67' x='50' text-anchor='middle' font-family='system-ui,Arial,sans-serif' font-weight='900' font-size='54' fill='%23dde1e8'>S</text></svg>">
+<script>
+/* Aplica o tema salvo (se houver) antes do primeiro paint, para não
+   piscar o tema errado ao abrir. Só lê a preferência visual — nada de
+   progresso/revisão/favoritos é tocado aqui. */
+(function () {
+  try {
+    var t = localStorage.getItem('cia_theme_v1');
+    if (t === 'dark' || t === 'light') document.documentElement.setAttribute('data-theme', t);
+  } catch (_) {}
+})();
+</script>
+<style>
+/* ── Variáveis ──────────────────────────────────── */
+/* Escuro é o padrão em :root. Sem preferência salva, o navegador decide
+   pelo SO (prefers-color-scheme). Com preferência salva, [data-theme]
+   sempre vence — nos dois sentidos — pois attribute selector tem
+   especificidade maior que :root sozinho. O claro NÃO é o escuro
+   invertido: azul/verde/vermelho/âmbar são recalibrados por tema para
+   manter contraste correto contra o fundo oposto. */
+:root {
+  --bg:      #12151c;
+  --surface: #181c25;
+  --card:    #1c212b;
+  --card2:   #232935;
+  --border:  #262c38;
+  --txt:     #dde1e8;
+  --txt-soft:#cbd5e1;
+  --muted:   #8993a4;
+  --blue:    #4c8dfa;
+  --blue2:   #2563eb;
+  --green:   #22a878;
+  --red:     #e4584f;
+  --amber:   #d99a3a;
+  --violet:  #a78bfa;
+  --r:       13px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.3);
+  --shadow-md: 0 6px 20px rgba(0,0,0,.38);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg:      #f4f5f7;
+    --surface: #ffffff;
+    --card:    #ffffff;
+    --card2:   #eef0f3;
+    --border:  #e2e4e9;
+    --txt:     #1a1d24;
+    --txt-soft:#3a4150;
+    --muted:   #5b6270;
+    --blue:    #2f5fd6;
+    --blue2:   #1d47ad;
+    --green:   #16875a;
+    --red:     #c9362b;
+    --amber:   #a66a1a;
+    --violet:  #6d40d6;
+    --shadow-sm: 0 1px 2px rgba(15,23,42,.07);
+    --shadow-md: 0 6px 18px rgba(15,23,42,.1);
+  }
+}
+:root[data-theme="dark"] {
+  --bg:      #12151c;
+  --surface: #181c25;
+  --card:    #1c212b;
+  --card2:   #232935;
+  --border:  #262c38;
+  --txt:     #dde1e8;
+  --txt-soft:#cbd5e1;
+  --muted:   #8993a4;
+  --blue:    #4c8dfa;
+  --blue2:   #2563eb;
+  --green:   #22a878;
+  --red:     #e4584f;
+  --amber:   #d99a3a;
+  --violet:  #a78bfa;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,.3);
+  --shadow-md: 0 6px 20px rgba(0,0,0,.38);
+}
+:root[data-theme="light"] {
+  --bg:      #f4f5f7;
+  --surface: #ffffff;
+  --card:    #ffffff;
+  --card2:   #eef0f3;
+  --border:  #e2e4e9;
+  --txt:     #1a1d24;
+  --txt-soft:#3a4150;
+  --muted:   #5b6270;
+  --blue:    #2f5fd6;
+  --blue2:   #1d47ad;
+  --green:   #16875a;
+  --red:     #c9362b;
+  --amber:   #a66a1a;
+  --violet:  #6d40d6;
+  --shadow-sm: 0 1px 2px rgba(15,23,42,.07);
+  --shadow-md: 0 6px 18px rgba(15,23,42,.1);
+}
+*,*::before,*::after { box-sizing:border-box; margin:0; padding:0; }
+
+body {
+  font-family: system-ui,'Segoe UI',Arial,sans-serif;
+  background: var(--bg);
+  color: var(--txt);
+  min-height: 100vh;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Fundo marítimo (Fase 26) — telas tipo Dashboard/Biblioteca/Login/Revisão
+   compartilham o wrapper .home-wrap; :has() detecta isso sem precisar de
+   classe/JS novos, então a tela de questão (.card sem .home-wrap) permanece
+   sempre neutra. Overlay usa var(--bg), que já muda por tema sozinho. */
+body:has(#app > .home-wrap) {
+  background-image:
+    linear-gradient(color-mix(in srgb, var(--bg) 84%, transparent), color-mix(in srgb, var(--bg) 92%, transparent)),
+    url('fundo-navio.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* ── Ícones (sprite Lucide) ──────────────────────── */
+.icon {
+  width: 1em; height: 1em;
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: -0.15em;
+}
+/* estados preenchidos (favoritar / marcar) — mesmo traço do ícone,
+   mas com a forma preenchida, equivalente ao emoji cheio vs. vazio */
+.icon-filled { fill: currentColor; }
+
+/* ── Cabeçalho fixo ─────────────────────────────── */
+#header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: color-mix(in srgb, var(--bg) 97%, transparent);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid var(--border);
+  padding: 12px 20px 10px;
+}
+.hd-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.hd-brand-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+.hd-brand {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--blue);
+  line-height: 1.2;
+}
+.hd-subject-name {
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--muted);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+/* label de sessão na tela final */
+.result-session-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .12em;
+  color: var(--muted);
+  margin-bottom: 6px;
+}
+
+/* rodapé discreto */
+#app-footer {
+  text-align: center;
+  padding: 28px 20px 16px;
+  font-size: 11px;
+  color: var(--border);
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  user-select: none;
+}
+.hd-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 13px;
+  color: var(--muted);
+}
+/* botão de alternância de tema — compacto, entra no wrap do .hd-meta */
+.theme-toggle {
+  width: 28px; height: 28px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--txt);
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  flex-shrink: 0;
+  font-family: inherit;
+  transition: border-color .15s;
+}
+.theme-toggle:hover { border-color: var(--blue); }
+#timer {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+  color: var(--txt);
+  min-width: 42px;
+  white-space: nowrap;
+  transition: color .4s;
+}
+/* feedback visual do timer por tempo decorrido */
+#timer.warn { color: var(--amber); }
+#timer.crit { color: var(--red); }
+#q-counter { font-weight: 700; color: var(--txt); white-space: nowrap; }
+
+/* barra de progresso */
+.prog-track {
+  height: 5px;
+  background: var(--border);
+  border-radius: 999px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.prog-fill {
+  height: 100%;
+  background: var(--blue);
+  border-radius: 999px;
+  transition: width .4s cubic-bezier(.4,0,.2,1);
+  width: 0%;
+}
+
+/* estatísticas no header */
+.stats-row {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.stat-it { display: flex; align-items: center; gap: 5px; }
+/* aproveitamento destacado no canto direito */
+.stat-pct {
+  margin-left: auto;
+  font-size: 13px;
+  font-weight: 800;
+  color: var(--txt);
+  background: color-mix(in srgb, var(--blue) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--blue) 25%, transparent);
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+.dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.dg { background: var(--green); }
+.dr { background: var(--red); }
+.dm { background: var(--muted); }
+.da { background: var(--amber); }
+
+/* badge de modo */
+.mode-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  transition: .15s;
+  user-select: none;
+  white-space: nowrap;
+}
+.mode-badge.study { border-color: var(--green); color: var(--green); background: color-mix(in srgb, var(--green) 10%, transparent); }
+.mode-badge.exam  { border-color: var(--amber); color: var(--amber); background: color-mix(in srgb, var(--amber) 10%, transparent); }
+
+/* ── Layout principal ───────────────────────────── */
+#app { max-width: 820px; margin: 0 auto; padding: 28px 20px 80px; }
+
+/* ── Card ───────────────────────────────────────── */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  padding: 28px;
+  box-shadow: var(--shadow-sm);
+}
+/* animação só na troca de questão — evita jitter em pick/verify */
+.card.entering { animation: fadeUp .2s ease; }
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(7px); }
+}
+/* entrada da explicação */
+@keyframes slideReveal {
+  from { opacity:0; transform:translateY(-4px); }
+}
+/* resposta errada */
+@keyframes shake {
+  0%,100% { transform:translateX(0); }
+  20%     { transform:translateX(-6px); }
+  40%     { transform:translateX(6px); }
+  60%     { transform:translateX(-4px); }
+  80%     { transform:translateX(4px); }
+}
+/* resposta certa */
+@keyframes pop {
+  0%   { transform:scale(1); }
+  45%  { transform:scale(1.013); }
+  100% { transform:scale(1); }
+}
+
+/* ── Tela Home ──────────────────────────────────── */
+.home-wrap { max-width: 520px; margin: 56px auto 0; }
+.home-title { font-size: 30px; font-weight: 900; margin-bottom: 6px; }
+.home-sub { color: var(--muted); margin-bottom: 26px; font-size: 14px; }
+
+.home-opts { display: flex; flex-direction: column; gap: 8px; margin-bottom: 22px; }
+.home-opt {
+  display: flex; align-items: center; gap: 12px;
+  padding: 11px 14px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color .15s, background .15s, transform .15s, box-shadow .15s;
+}
+.home-opt:hover  { border-color: var(--blue); transform: translateY(-1px); box-shadow: var(--shadow-sm); }
+.home-opt.active { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 8%, transparent); }
+.home-opt-icon { font-size: 19px; flex-shrink: 0; }
+/* nome/contagem de questões: podem quebrar em várias linhas, mas nunca
+   forçar o card a ficar mais largo que a tela (min-width:0 permite ao
+   item flex encolher abaixo do seu conteúdo "natural") */
+.home-opt-text { min-width: 0; overflow-wrap: break-word; }
+.home-opt-text strong { display: block; font-size: 14px; }
+.home-opt-text span   { font-size: 12px; color: var(--muted); }
+.home-btn-row { display: flex; gap: 10px; }
+
+/* ── Biblioteca: paginação discreta ─────────────── */
+.subject-pager {
+  display: flex; align-items: center; justify-content: center;
+  gap: 4px; margin-top: 14px; flex-wrap: wrap;
+}
+.subject-pager-btn {
+  min-width: 30px; height: 30px; padding: 0 6px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 7px;
+  color: var(--txt);
+  font-size: 12px; font-family: inherit; cursor: pointer;
+  transition: border-color .15s, background .15s;
+}
+.subject-pager-btn:hover:not(:disabled) { border-color: var(--blue); }
+.subject-pager-btn.active {
+  border-color: var(--blue);
+  background: color-mix(in srgb, var(--blue) 12%, transparent);
+  color: var(--blue); font-weight: 700;
+}
+.subject-pager-btn:disabled { opacity: .35; cursor: default; }
+
+/* ── Questão ────────────────────────────────────── */
+.q-hd {
+  display: flex; align-items: flex-start;
+  justify-content: space-between; gap: 12px;
+  margin-bottom: 18px;
+}
+.q-tag {
+  display: inline-flex; align-items: center;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--blue) 13%, transparent);
+  border: 1px solid color-mix(in srgb, var(--blue) 28%, transparent);
+  color: var(--blue);
+  font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .07em;
+}
+.btn-flag {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--muted);
+  padding: 5px 10px;
+  cursor: pointer; font-size: 14px;
+  transition: .15s; flex-shrink: 0;
+  font-family: inherit;
+}
+.btn-flag:hover  { border-color: var(--amber); color: var(--amber); }
+.btn-flag.flagged { background: color-mix(in srgb, var(--amber) 14%, transparent); border-color: var(--amber); color: var(--amber); }
+
+.q-text {
+  font-size: 18px; font-weight: 600;
+  color: var(--txt); line-height: 1.55;
+  margin-bottom: 22px;
+  overflow-wrap: break-word;
+}
+
+/* ── Opções MC ──────────────────────────────────── */
+.options { display: flex; flex-direction: column; gap: 10px; }
+.option {
+  padding: 13px 17px;
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: border-color .15s, background .15s;
+  display: flex; align-items: center; gap: 12px;
+  user-select: none;
+  font-size: 15px;
+  overflow-wrap: break-word;
+  min-width: 0;
+}
+.option:hover:not(.locked) { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 6%, transparent); box-shadow: inset 3px 0 0 color-mix(in srgb, var(--blue) 35%, transparent); }
+.option.selected { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 9%, transparent); box-shadow: inset 3px 0 0 color-mix(in srgb, var(--blue) 55%, transparent); }
+.option.correct  { border-color: var(--green); background: color-mix(in srgb, var(--green) 11%, transparent); box-shadow: inset 3px 0 0 color-mix(in srgb, var(--green) 55%, transparent); }
+.option.wrong    { border-color: var(--red);   background: color-mix(in srgb, var(--red) 11%, transparent);  box-shadow: inset 3px 0 0 color-mix(in srgb, var(--red) 55%, transparent); }
+.option.locked   { cursor: default; }
+/* animações de feedback — só no render imediatamente após verificar */
+.option.correct.anim { animation: pop .3s ease; }
+.option.wrong.anim   { animation: shake .38s ease; }
+
+.opt-ltr {
+  width: 27px; height: 27px;
+  border-radius: 50%;
+  border: 1.5px solid var(--muted);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 11px; font-weight: 800;
+  flex-shrink: 0;
+  color: var(--muted);
+  transition: .15s;
+  line-height: 1;
+}
+.option.selected .opt-ltr { border-color: var(--blue);  color: var(--blue); }
+/* ✓/✗ no circle após verificação */
+.option.correct  .opt-ltr { border-color: var(--green); color: var(--green); font-size: 14px; font-weight: 700; }
+.option.wrong    .opt-ltr { border-color: var(--red);   color: var(--red);   font-size: 14px; font-weight: 700; }
+
+/* ── Input Lacuna ───────────────────────────────── */
+.gap-wrap { display: flex; flex-direction: column; gap: 8px; }
+.gap-label { font-size: 13px; color: var(--muted); }
+.gap-input {
+  width: 100%; padding: 13px 15px;
+  background: var(--surface);
+  border: 1.5px solid var(--border);
+  border-radius: 10px;
+  color: var(--txt);
+  font-size: 16px; font-family: inherit;
+  outline: none;
+  transition: border-color .15s;
+}
+.gap-input:focus   { border-color: var(--blue); }
+.gap-input.correct { border-color: var(--green); background: color-mix(in srgb, var(--green) 7%, transparent); }
+.gap-input.wrong   { border-color: var(--red);   background: color-mix(in srgb, var(--red) 7%, transparent); }
+.gap-input:disabled { opacity: .7; }
+.gap-answer-hint { font-size: 13px; color: var(--green); margin-top: 4px; display: none; }
+.gap-answer-hint.show { display: block; }
+
+/* ── Explicação ─────────────────────────────────── */
+.explanation {
+  margin-top: 18px; padding: 14px 17px;
+  border-radius: 10px;
+  border-left: 3px solid var(--blue);
+  background: color-mix(in srgb, var(--blue) 6%, transparent);
+  font-size: 14px; color: var(--txt-soft);
+  display: none;
+}
+.explanation.show { display: block; animation: slideReveal .2s ease; }
+.exp-res { font-weight: 800; margin-bottom: 5px; font-size: 14px; }
+.exp-res.ok      { color: var(--green); }
+.exp-res.bad     { color: var(--red); }
+.exp-res.neutral { color: var(--muted); }
+
+/* ── Barra de botões ────────────────────────────── */
+.btn-bar {
+  display: flex; gap: 9px;
+  margin-top: 24px; flex-wrap: wrap;
+  align-items: center;
+}
+.spacer { flex: 1; }
+/* separador visual entre Próxima e Finalizar — evita cliques acidentais */
+.btn-sep {
+  width: 1px;
+  align-self: stretch;
+  background: var(--border);
+  margin: 4px 2px;
+  flex-shrink: 0;
+}
+
+button {
+  padding: 12px 18px;
+  border: none; border-radius: 10px;
+  cursor: pointer; font-weight: 700;
+  font-size: 14px; font-family: inherit;
+  transition: opacity .15s, transform .1s, background .15s;
+  white-space: nowrap;
+}
+button:active:not(:disabled) { transform: scale(.97); }
+button:disabled { opacity: .4; cursor: not-allowed; }
+
+.btn-p  { background: var(--blue); color: #fff; }
+.btn-p:hover:not(:disabled)  { background: var(--blue2); }
+.btn-s  { background: var(--surface); border: 1px solid var(--border); color: var(--txt); }
+.btn-s:hover:not(:disabled)  { border-color: var(--blue); }
+.btn-d  { background: color-mix(in srgb, var(--red) 14%, var(--bg)); color: var(--red); border: 1px solid color-mix(in srgb, var(--red) 30%, transparent); }
+.btn-d:hover:not(:disabled)  { background: var(--red); color: #fff; }
+.btn-ok { background: color-mix(in srgb, var(--green) 14%, var(--bg)); color: var(--green); border: 1px solid color-mix(in srgb, var(--green) 30%, transparent); }
+.btn-ok:hover:not(:disabled) { background: var(--green); color: #fff; }
+/* botão Finalizar discreto — não compete com Próxima */
+.btn-finish {
+  background: transparent;
+  border: 1px solid color-mix(in srgb, var(--red) 30%, transparent);
+  color: var(--red);
+  padding: 12px 13px;
+  font-size: 13px;
+  opacity: .7;
+}
+.btn-finish:hover:not(:disabled) { opacity: 1; background: color-mix(in srgb, var(--red) 14%, var(--bg)); border-color: var(--red); }
+
+/* ── Modal ──────────────────────────────────────── */
+#modal-overlay {
+  display: none; position: fixed; inset: 0;
+  background: rgba(0,0,0,.78);
+  z-index: 200; align-items: center;
+  justify-content: center; padding: 20px;
+}
+#modal-overlay.open { display: flex; }
+.modal {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 17px; padding: 30px;
+  max-width: 420px; width: 100%;
+  box-shadow: var(--shadow-md);
+  animation: fadeUp .2s ease;
+}
+.modal h2 { font-size: 19px; margin-bottom: 18px; }
+.modal-grid {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 11px; margin-bottom: 22px;
+}
+.modal-stat {
+  background: var(--surface);
+  border-radius: 10px; padding: 14px;
+  text-align: center;
+}
+.modal-val { font-size: 28px; font-weight: 900; display: block; }
+.modal-lbl { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.modal-btns { display: flex; gap: 10px; }
+.modal-btns button { flex: 1; }
+
+/* ── Tela de Resultado ──────────────────────────── */
+.result-hero { text-align: center; padding: 36px 0 28px; }
+.result-pct {
+  font-size: 88px; font-weight: 900; line-height: 1;
+  color: var(--txt);
+}
+.result-grade { font-size: 21px; font-weight: 700; margin-top: 10px; }
+.result-lbl   { font-size: 14px; color: var(--muted); margin-top: 6px; }
+
+.result-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px,1fr));
+  gap: 11px; margin: 24px 0;
+}
+.res-stat {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px; padding: 16px;
+  text-align: center;
+}
+.res-val { font-size: 30px; font-weight: 900; display: block; }
+.res-lbl { font-size: 12px; color: var(--muted); margin-top: 3px; }
+
+/* pontos fortes e pontos a reforçar */
+.highlights {
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 14px; margin-top: 28px;
+}
+.hl-box {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 11px; padding: 16px;
+}
+.hl-box h4 {
+  font-size: 11px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .07em;
+  margin-bottom: 10px;
+}
+.hl-box.good { border-color: color-mix(in srgb, var(--green) 25%, transparent); }
+.hl-box.bad  { border-color: color-mix(in srgb, var(--red) 20%, transparent); }
+.hl-box.good h4 { color: var(--green); }
+.hl-box.bad  h4 { color: var(--red); }
+.hl-item {
+  font-size: 13px; color: var(--txt);
+  padding: 5px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex; justify-content: space-between; gap: 8px;
+}
+.hl-item:last-child { border-bottom: none; padding-bottom: 0; }
+.hl-pct { color: var(--muted); font-size: 12px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+.hl-empty { font-size: 13px; color: var(--muted); font-style: italic; }
+
+/* gráfico por categoria */
+.cat-section { margin-top: 28px; }
+.cat-section h3 {
+  font-size: 12px; font-weight: 700;
+  color: var(--muted); text-transform: uppercase;
+  letter-spacing: .08em; margin-bottom: 14px;
+}
+.cat-row { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-size: 13px; }
+.cat-name {
+  width: 160px; flex-shrink: 0;
+  color: var(--txt); white-space: nowrap;
+  overflow: hidden; text-overflow: ellipsis;
+}
+.cat-track {
+  flex: 1; height: 7px;
+  background: var(--border);
+  border-radius: 999px; overflow: hidden;
+}
+.cat-fill { height: 100%; border-radius: 999px; transition: width .6s .15s; }
+.cat-pct {
+  width: 36px; text-align: right;
+  color: var(--muted); font-variant-numeric: tabular-nums;
+  font-size: 12px;
+}
+
+/* ── Login ──────────────────────────────────────── */
+.login-form  { display: flex; flex-direction: column; gap: 14px; }
+.form-group  { display: flex; flex-direction: column; gap: 5px; }
+.login-err   { font-size: 13px; color: var(--red); min-height: 18px; }
+
+/* ── Info de usuário no cabeçalho ───────────────── */
+.hd-user {
+  display: flex; align-items: center;
+  gap: 8px; font-size: 12px; color: var(--muted);
+}
+.hd-user strong { color: var(--txt); font-weight: 700; }
+.btn-switch {
+  font-size: 11px; color: var(--muted);
+  background: none; border: 1px solid var(--border);
+  border-radius: 6px; padding: 3px 8px;
+  cursor: pointer; font-family: inherit;
+  font-weight: 600; transition: .15s;
+}
+.btn-switch:hover:not(:disabled) { border-color: var(--blue); color: var(--blue); }
+
+/* ── Tela de boas-vindas ────────────────────────── */
+.welcome-info {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  padding: 22px; text-align: center; margin: 20px 0;
+}
+.welcome-q {
+  font-size: 42px; font-weight: 900; line-height: 1;
+  color: var(--txt); font-variant-numeric: tabular-nums;
+}
+.welcome-q span { color: var(--muted); font-weight: 400; font-size: 32px; }
+.welcome-lbl {
+  font-size: 12px; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .07em; margin-top: 6px;
+}
+
+/* ── Modal de aviso de acesso ───────────────────── */
+#notice-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.72);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 300;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+#notice-overlay.open { display: flex; }
+
+.notice-box {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 17px;
+  padding: 32px 28px 24px;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: var(--shadow-md);
+  animation: fadeUp .25s ease;
+  text-align: center;
+}
+.notice-icon  { font-size: 26px; margin-bottom: 10px; }
+.notice-title {
+  font-size: 13px; font-weight: 800;
+  letter-spacing: .12em; text-transform: uppercase;
+  color: var(--txt); margin-bottom: 18px;
+}
+.notice-divider { height: 1px; background: var(--border); margin: 16px 0; }
+.notice-body {
+  font-size: 14px; color: var(--txt-soft);
+  line-height: 1.75; text-align: center;
+}
+.notice-body p { margin-bottom: 10px; }
+.notice-body p:last-child { margin-bottom: 0; }
+.notice-check-row {
+  display: inline-flex; align-items: center;
+  gap: 8px; font-size: 13px; color: var(--muted);
+  cursor: pointer; user-select: none;
+  margin: 18px 0 16px;
+}
+.notice-check-row input[type="checkbox"] {
+  width: 15px; height: 15px;
+  cursor: pointer; accent-color: var(--blue);
+  flex-shrink: 0;
+}
+.notice-footer {
+  font-size: 11px; color: var(--muted);
+  margin-top: 14px; letter-spacing: .03em;
+}
+.notice-footer strong { color: var(--txt); }
+
+/* ── Seleção de modo ────────────────────────────── */
+.mode-card {
+  padding: 20px 22px;
+  border: 2px solid var(--border);
+  border-radius: 13px;
+  cursor: pointer;
+  background: var(--surface);
+  transition: border-color .15s, background .15s, transform .15s, box-shadow .15s;
+}
+.mode-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-sm); }
+.mode-card.exam-card:hover  { border-color: var(--blue);  background: color-mix(in srgb, var(--blue) 6%, transparent); }
+.mode-card.train-card:hover { border-color: var(--green); background: color-mix(in srgb, var(--green) 6%, transparent); }
+.mode-card-icon  { font-size: 30px; margin-bottom: 8px; }
+.mode-card-title { font-size: 16px; font-weight: 800; margin-bottom: 6px; color: var(--txt); }
+.mode-card-desc  { font-size: 13px; color: var(--muted); line-height: 1.65; }
+.mode-card-tags  { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.mode-tag {
+  font-size: 11px; font-weight: 700;
+  padding: 3px 9px; border-radius: 99px;
+}
+.exam-card  .mode-tag { border: 1px solid color-mix(in srgb, var(--blue) 35%, transparent); color: var(--blue); background: color-mix(in srgb, var(--blue) 8%, transparent); }
+.train-card .mode-tag { border: 1px solid color-mix(in srgb, var(--green) 30%, transparent);  color: var(--green); background: color-mix(in srgb, var(--green) 7%, transparent); }
+
+/* ── Sugestões (resultado treino) ───────────────── */
+.suggestion-box {
+  background: color-mix(in srgb, var(--green) 5%, transparent);
+  border: 1px solid color-mix(in srgb, var(--green) 20%, transparent);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-top: 20px;
+}
+.suggestion-box h4 {
+  font-size: 11px; font-weight: 700;
+  color: var(--green); text-transform: uppercase;
+  letter-spacing: .07em; margin-bottom: 9px;
+}
+.suggestion-item {
+  font-size: 13px; color: var(--txt-soft);
+  padding: 4px 0;
+  border-bottom: 1px solid var(--border);
+  display: flex; align-items: baseline; gap: 7px;
+}
+.suggestion-item:last-child { border-bottom: none; }
+
+/* ── Favorito ───────────────────────────────────── */
+.btn-flag.fav-active {
+  background: color-mix(in srgb, var(--amber) 14%, transparent);
+  border-color: var(--amber); color: var(--amber);
+}
+
+/* ── Modo Revisão ───────────────────────────────── */
+.review-pill {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 11px; font-weight: 700; color: var(--amber);
+  background: color-mix(in srgb, var(--amber) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--amber) 28%, transparent);
+  border-radius: 99px; padding: 2px 9px;
+  white-space: nowrap;
+}
+/* card de revisão na home */
+.review-card {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 12px;
+  padding: 14px 18px;
+  background: color-mix(in srgb, var(--amber) 5%, transparent);
+  border: 1.5px solid color-mix(in srgb, var(--amber) 22%, transparent);
+  border-radius: 11px; cursor: pointer;
+  transition: border-color .15s, background .15s, transform .15s;
+  margin-top: 11px;
+}
+.review-card:hover { border-color: var(--amber); background: color-mix(in srgb, var(--amber) 10%, transparent); transform: translateY(-1px); }
+.review-card-left  { display: flex; align-items: center; gap: 12px; }
+.review-card-count { font-size: 22px; font-weight: 900; color: var(--amber); }
+
+/* ── Seleção de matéria ─────────────────────────── */
+.home-opt.has-saved { border-color: color-mix(in srgb, var(--green) 35%, transparent); }
+.home-opt.has-saved:hover { border-color: var(--green); box-shadow: var(--shadow-sm); }
+
+/* cabeçalho de seção na Biblioteca */
+.lib-section-hd {
+  font-size: 11px; font-weight: 700;
+  color: var(--muted); text-transform: uppercase;
+  letter-spacing: .09em;
+  margin-top: 22px; margin-bottom: 8px;
+  display: flex; align-items: center; gap: 6px;
+}
+.subject-badge {
+  margin-left: auto; flex-shrink: 0;
+  font-size: 11px; font-weight: 700;
+  color: var(--green);
+  background: color-mix(in srgb, var(--green) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--green) 30%, transparent);
+  border-radius: 99px; padding: 3px 10px;
+  white-space: nowrap;
+}
+.subject-empty {
+  font-size: 12px; color: var(--muted);
+  margin-top: 14px; text-align: center;
+  padding: 12px; border: 1px dashed var(--border);
+  border-radius: 8px;
+}
+
+/* ── Botão fixo — Biblioteca ────────────────────── */
+#lib-btn-wrap {
+  display: none;
+  position: fixed;
+  bottom: 22px;
+  left: 20px;
+  z-index: 150;
+}
+#lib-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--muted);
+  padding: 9px 14px;
+  font-size: 13px; font-weight: 600;
+  cursor: pointer; font-family: inherit;
+  box-shadow: var(--shadow-sm);
+  transition: border-color .15s, color .15s, background .15s, box-shadow .15s;
+  white-space: nowrap;
+}
+#lib-btn:hover {
+  border-color: var(--blue);
+  color: var(--txt);
+  background: var(--card);
+  box-shadow: var(--shadow-sm);
+}
+#lib-btn-wrap.visible { display: block; }
+/* Fase 28 — o botão é fixo à viewport (não ao fluxo do documento), então
+   em questões curtas o suficiente para caber na tela sem rolagem, a
+   última alternativa pode acabar caindo no canto inferior-esquerdo onde
+   ele fica, e o navegador entrega o toque ao botão em vez de à opção.
+   Reserva-se aqui, só enquanto o botão está visível (prova/revisão/
+   resultado), uma folga no rodapé do conteúdo maior que a altura real
+   do botão (~61px, offset incluso) para eliminar essa sobreposição —
+   sem mover, encolher ou desativar o botão. */
+body:has(#lib-btn-wrap.visible) #app { padding-bottom: 90px; }
+
+/* ── Gerenciar matérias ─────────────────────────── */
+.manage-row {
+  display: flex; align-items: center; gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--border);
+}
+.manage-row:last-child { border-bottom: none; }
+.manage-row-info  { flex: 1; min-width: 0; }
+.manage-row-title { font-size: 14px; font-weight: 700; color: var(--txt); }
+.manage-row-meta  { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.manage-row-btns  { display: flex; gap: 5px; flex-shrink: 0; flex-wrap: wrap; justify-content: flex-end; }
+/* menu de ações por matéria (⋮) — evita amontoar botões na linha */
+.row-menu-wrap { position: relative; flex-shrink: 0; }
+.row-menu-btn {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--txt);
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  cursor: pointer;
+  font-family: inherit;
+  transition: border-color .15s;
+}
+.row-menu-btn:hover { border-color: var(--blue); }
+.row-menu {
+  display: none;
+  flex-direction: column;
+  gap: 1px;
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  min-width: 170px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 11px;
+  padding: 6px;
+  box-shadow: var(--shadow-md);
+  z-index: 60;
+}
+.row-menu.open { display: flex; }
+.row-menu button {
+  background: none;
+  border: none;
+  color: var(--txt);
+  text-align: left;
+  padding: 9px 11px;
+  border-radius: 7px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+.row-menu button:hover:not(:disabled) { background: var(--surface); }
+.row-menu button:disabled { opacity: .4; cursor: not-allowed; }
+.row-menu button.row-menu-danger { color: var(--red); }
+.row-menu button.row-menu-danger:hover:not(:disabled) { background: color-mix(in srgb, var(--red) 14%, var(--bg)); }
+.badge-protected  {
+  display: inline-flex; align-items: center;
+  font-size: 10px; font-weight: 700;
+  padding: 2px 7px; border-radius: 99px;
+  color: var(--amber); background: color-mix(in srgb, var(--amber) 10%, transparent);
+  border: 1px solid color-mix(in srgb, var(--amber) 25%, transparent); margin-left: 4px;
+}
+/* Seção matérias ocultas */
+.hidden-section {
+  margin-top: 20px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.hidden-toggle {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 11px 16px; cursor: pointer;
+  font-size: 13px; color: var(--muted);
+  background: var(--surface); user-select: none;
+  list-style: none;
+}
+.hidden-toggle::-webkit-details-marker { display: none; }
+.hidden-toggle::marker { display: none; }
+.hidden-body { padding: 0 16px; background: var(--surface); }
+
+/* ── Editor de questões ──────────────────────────── */
+.qed-list { display: flex; flex-direction: column; gap: 7px; }
+.qed-row {
+  display: flex; align-items: center; gap: 10px;
+  padding: 11px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  transition: border-color .12s;
+}
+.qed-row:hover { border-color: color-mix(in srgb, var(--blue) 30%, transparent); }
+.qed-badge {
+  font-size: 10px; font-weight: 800; padding: 3px 8px;
+  border-radius: 6px; text-transform: uppercase;
+  letter-spacing: .05em; flex-shrink: 0;
+}
+.qed-mc    { background: color-mix(in srgb, var(--blue) 13%, transparent);  color: var(--blue); }
+.qed-gap   { background: color-mix(in srgb, var(--green) 13%, transparent);  color: var(--green); }
+.qed-tf    { background: color-mix(in srgb, var(--amber) 13%, transparent);  color: var(--amber); }
+.qed-disc  { background: color-mix(in srgb, var(--muted) 14%, transparent); color: var(--muted); }
+.qed-assoc { background: color-mix(in srgb, var(--violet) 14%, transparent); color: var(--violet); }
+.qed-q    { flex:1; font-size:13px; color:var(--txt); overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.qed-acts { display:flex; gap:5px; flex-shrink:0; }
+
+/* ── Formulário de questão ───────────────────────── */
+.qtype-tabs { display:flex; gap:6px; flex-wrap:wrap; margin-top:6px; }
+.qtype-tab {
+  padding: 7px 16px;
+  border: 1.5px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 12px; font-weight: 700;
+  cursor: pointer; font-family: inherit;
+  transition: .13s;
+}
+.qtype-tab:hover  { border-color: var(--blue); color: var(--txt); }
+.qtype-tab.active { border-color: var(--blue); background: color-mix(in srgb, var(--blue) 10%, transparent); color: var(--blue); }
+.qf-opt-row { display:flex; align-items:center; gap:8px; margin-bottom:8px; }
+.qf-opt-row input[type="radio"] { width:16px; height:16px; accent-color:var(--blue); flex-shrink:0; cursor:pointer; }
+/* pares ASSOC do editor: em telas muito estreitas, os dois campos podiam
+   ficar espremidos — permite quebrar a linha em vez de apertar */
+.qf-opt-row[data-assoc-row] { flex-wrap: wrap; }
+.qf-opt-row[data-assoc-row] .gap-input { flex: 1 1 120px; min-width: 0; }
+.qf-opt-lbl { font-size:12px; color:var(--muted); width:14px; flex-shrink:0; }
+textarea.gap-input { resize:vertical; min-height:70px; }
+
+/* ── Responsivo ─────────────────────────────────── */
+@media (max-width: 600px) {
+  #app { padding: 20px 14px 60px; }
+  .card { padding: 18px; }
+  .q-text { font-size: 16px; }
+  button  { padding: 11px 13px; font-size: 13px; }
+  .result-pct { font-size: 64px; }
+  .cat-name { width: 110px; }
+  .hd-brand { font-size: 11px; }
+  .highlights { grid-template-columns: 1fr; }
+
+  /* cabeçalho: marca numa linha, metadados (usuário/modo/tempo/contador)
+     em outra — cada um pode quebrar por conta própria, mas nada é
+     cortado nem ultrapassa a largura da tela */
+  #header { padding: 10px 14px 8px; }
+  .hd-top { flex-direction: column; align-items: stretch; gap: 8px; }
+  .hd-meta {
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+  .hd-user { font-size: 11px; }
+  .btn-switch { padding: 3px 7px; font-size: 10px; }
+
+  /* Biblioteca: cartões ocupam toda a largura disponível, área de
+     toque confortável, e o campo de busca fica em 16px para o iOS
+     não aplicar zoom automático ao focar. */
+  .home-wrap { margin-top: 32px; }
+  .home-opt { padding: 12px 13px; gap: 11px; }
+  #subject-search { font-size: 16px; padding: 11px 13px; }
+  .subject-pager-btn { min-width: 34px; height: 34px; font-size: 13px; }
+
+  /* botão fixo Biblioteca: em telas curtas o rótulo de texto podia se
+     aproximar/sobrepor os botões de navegação da questão (Anterior /
+     Próxima), que ficam no rodapé do card em fluxo normal; reduzir a
+     apenas o ícone diminui bastante essa área de colisão, sem mudar
+     a posição (o usuário continua achando o botão no mesmo canto) */
+  #lib-btn { padding: 9px; }
+  .lib-btn-label { display: none; }
+}
+@media (max-width: 400px) {
+  #app { padding: 16px 10px 60px; }
+  .card { padding: 14px; }
+  .btn-sep { display: none; }
+  .btn-bar { gap: 6px; }
+  .stats-row { gap: 10px; font-size: 11px; }
+  .stat-pct { font-size: 12px; }
+}
+</style>
+</head>
+<body>
+
+<!-- Sprite de ícones (Lucide, MIT/ISC, embutido — sem dependência de CDN).
+     Cada botão/estado usa <svg class="icon"><use href="#i-NOME"/></svg>. -->
+<svg style="display:none" aria-hidden="true">
+<symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4" /><path d="M3 11v-1a4 4 0 0 1 4-4h14" /><path d="m7 22-4-4 4-4" /><path d="M21 13v1a4 4 0 0 1-4 4H3" /></symbol>
+<symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5" /></symbol>
+<symbol id="i-pencil" viewBox="0 0 24 24"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z" /><path d="m15 5 4 4" /></symbol>
+<symbol id="i-book-open" viewBox="0 0 24 24"><path d="M12 5v16" /><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" /></symbol>
+<symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 3v12" /><path d="m17 8-5-5-5 5" /><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /></symbol>
+<symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></symbol>
+<symbol id="i-triangle-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3" /><path d="M12 9v4" /><path d="M12 17h.01" /></symbol>
+<symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401" /></symbol>
+<symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" /><path d="M12 2v2" /><path d="M12 20v2" /><path d="m4.93 4.93 1.41 1.41" /><path d="m17.66 17.66 1.41 1.41" /><path d="M2 12h2" /><path d="M20 12h2" /><path d="m6.34 17.66-1.41 1.41" /><path d="m19.07 4.93-1.41 1.41" /></symbol>
+<symbol id="i-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 10 0v4" /></symbol>
+<symbol id="i-lock-open" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /><path d="M7 11V7a5 5 0 0 1 9.9-1" /></symbol>
+<symbol id="i-home" viewBox="0 0 24 24"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" /><path d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /></symbol>
+<symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" /><circle cx="12" cy="12" r="6" /><circle cx="12" cy="12" r="2" /></symbol>
+<symbol id="i-rotate-ccw" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" /><path d="M3 3v5h5" /></symbol>
+<symbol id="i-settings" viewBox="0 0 24 24"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" /><circle cx="12" cy="12" r="3" /></symbol>
+<symbol id="i-trash-2" viewBox="0 0 24 24"><path d="M10 11v6" /><path d="M14 11v6" /><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" /><path d="M3 6h18" /><path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" /></symbol>
+<symbol id="i-flag-triangle-right" viewBox="0 0 24 24"><path d="M6 22V2.8a.8.8 0 0 1 1.17-.71l11.38 5.69a.8.8 0 0 1 0 1.44L6 15.5" /></symbol>
+<symbol id="i-arrow-left-right" viewBox="0 0 24 24"><path d="M8 3 4 7l4 4" /><path d="M4 7h16" /><path d="m16 21 4-4-4-4" /><path d="M20 17H4" /></symbol>
+<symbol id="i-play" viewBox="0 0 24 24"><path d="M5 5a2 2 0 0 1 3.008-1.728l11.997 6.998a2 2 0 0 1 .003 3.458l-12 7A2 2 0 0 1 5 19z" /></symbol>
+<symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6" /></symbol>
+<symbol id="i-clipboard-list" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1" /><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" /><path d="M12 11h4" /><path d="M12 16h4" /><path d="M8 11h.01" /><path d="M8 16h.01" /></symbol>
+<symbol id="i-eye-off" viewBox="0 0 24 24"><path d="M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49" /><path d="M14.084 14.158a3 3 0 0 1-4.242-4.242" /><path d="M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143" /><path d="m2 2 20 20" /></symbol>
+<symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0" /><circle cx="12" cy="12" r="3" /></symbol>
+<symbol id="i-download" viewBox="0 0 24 24"><path d="M12 15V3" /><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" /><path d="m7 10 5 5 5-5" /></symbol>
+<symbol id="i-save" viewBox="0 0 24 24"><path d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" /><path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7" /><path d="M7 3v4a1 1 0 0 0 1 1h7" /></symbol>
+<symbol id="i-star" viewBox="0 0 24 24"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" /></symbol>
+<symbol id="i-flag" viewBox="0 0 24 24"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" /></symbol>
+<symbol id="i-trophy" viewBox="0 0 24 24"><path d="M10 14.66V17a1 1 0 0 1-1 1 2 2 0 0 0-2 2v2" /><path d="M14 14.66V17a1 1 0 0 0 1 1 2 2 0 0 1 2 2v2" /><path d="M17.916 10H19.5A2.5 2.5 0 0 0 22 7.5V5a1 1 0 0 0-1-1h-3" /><path d="M4 22h16" /><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1z" /><path d="M6.084 10H4.5A2.5 2.5 0 0 1 2 7.5V5a1 1 0 0 1 1-1h3" /></symbol>
+<symbol id="i-rotate-cw" viewBox="0 0 24 24"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8" /><path d="M21 3v5h-5" /></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14" /><path d="M12 5v14" /></symbol>
+<symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6" /></symbol>
+</svg>
+
+<!-- ── Cabeçalho ─────────────────────────────────── -->
+<div id="header">
+  <div class="hd-top">
+    <div class="hd-brand-wrap">
+      <span class="hd-brand">SIMULACORE</span>
+      <span class="hd-subject-name" id="hd-subject-name"></span>
+    </div>
+    <div class="hd-meta">
+      <button id="theme-toggle" class="theme-toggle" onclick="App.toggleTheme()"
+        title="Alternar tema" aria-label="Alternar entre tema claro e escuro"><svg class="icon"><use href="#i-moon"></use></svg></button>
+      <span id="user-info" class="hd-user"></span>
+      <span id="mode-badge" class="mode-badge study" onclick="App.toggleMode()"><svg class="icon"><use href="#i-book-open"></use></svg> Estudo</span>
+      <span id="timer"></span>
+      <span id="q-counter"></span>
+    </div>
+  </div>
+  <div class="prog-track"><div class="prog-fill" id="prog-fill"></div></div>
+  <div class="stats-row" id="stats-row"></div>
+</div>
+<script>
+/* Sincroniza o ícone do botão com o tema já aplicado (script do <head>
+   ou preferência do sistema) — evita mostrar o ícone errado por um
+   instante antes do primeiro clique. */
+(function () {
+  var t = document.documentElement.getAttribute('data-theme');
+  if (!t) t = (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark';
+  var b = document.getElementById('theme-toggle');
+  if (b) b.innerHTML = '<svg class="icon"><use href="#i-' + (t === 'dark' ? 'moon' : 'sun') + '"></use></svg>';
+})();
+</script>
+
+<!-- ── Conteúdo ───────────────────────────────────── -->
+<div id="app"></div>
+
+<!-- ── Modal ─────────────────────────────────────── -->
+<div id="modal-overlay">
+  <div class="modal" id="modal-box"></div>
+</div>
+
+<!-- ── Aviso de acesso restrito ──────────────────── -->
+<div id="notice-overlay">
+  <div class="notice-box">
+    <div class="notice-icon"><svg class="icon"><use href="#i-lock"></use></svg></div>
+    <div class="notice-title">ACESSO RESTRITO</div>
+    <div class="notice-divider"></div>
+    <div class="notice-body">
+      <p>Este material foi disponibilizado<br>para estudo individual.</p>
+      <p>Por favor, não compartilhe<br>o arquivo nem a chave de acesso.</p>
+      <p>Bom estudo.</p>
+    </div>
+    <div class="notice-divider"></div>
+    <label class="notice-check-row">
+      <input type="checkbox" id="notice-check">
+      Não mostrar novamente
+    </label>
+    <button id="notice-btn" class="btn-p" style="width:100%">Entendi</button>
+    <div class="notice-footer">Usuário autorizado: <strong id="notice-user"></strong></div>
+  </div>
+</div>
+
+<!-- Botão fixo de navegação para Biblioteca -->
+<div id="lib-btn-wrap">
+  <button id="lib-btn" onclick="App.goLibrary()" title="Voltar à Biblioteca"><svg class="icon"><use href="#i-home"></use></svg><span class="lib-btn-label"> Biblioteca</span></button>
+</div>
+
+<!-- Seletor de arquivo para importação de banco de questões -->
+<input type="file" id="import-file-input" accept=".json,.txt" style="display:none"
+  onchange="App.handleImportFile(this.files[0]);this.value=''">
+
+<script>
+'use strict';
+
+/* ═══════════════════════════════════════════════════
+   BANCO DE QUESTÕES — não alterar conteúdo
+   ═══════════════════════════════════════════════════ */
+const QUESTIONS = [
+{type:"mc",category:"Segurança",question:"Qual a principal causa de acidentes na indústria marítima?",options:["Condutas humanas","Falha estrutural","Condição climática","Falha mecânica"],correct:0,explanation:"A principal causa de acidentes na indústria marítima está associada às condutas humanas."},
+{type:"mc",category:"Prevenção",question:"Quem é responsável pela prevenção de incêndios a bordo?",options:["Todos a bordo","Apenas comandante","Apenas brigada","Apenas oficial de máquinas"],correct:0,explanation:"A prevenção é responsabilidade coletiva."},
+{type:"mc",category:"Incêndio",question:"Por que trapos embebidos em óleo oferecem risco?",options:["Porque podem entrar em combustão","Porque aumentam umidade","Porque reduzem ventilação","Porque causam corrosão"],correct:0,explanation:"Trapos oleosos podem sofrer ignição espontânea."},
+{type:"mc",category:"Cozinha",question:"Qual o risco do acúmulo de gordura nas cozinhas?",options:["Incêndio e propagação pelas tubulações","Corrosão","Perda de pressão","Contaminação"],correct:0,explanation:"Gordura acumulada favorece ignição e propagação."},
+{type:"mc",category:"Soldagem",question:"Por que serviços de solda oferecem risco?",options:["Produzem calor e faíscas","Produzem fumaça","Geram vibração","Geram ruído"],correct:0,explanation:"Soldagem é operação a quente."},
+{type:"mc",category:"Tanques",question:"Por que tanques devem ser desgaseificados antes de serviços internos?",options:["Remover gases inflamáveis","Reduzir peso","Melhorar ventilação","Evitar corrosão"],correct:0,explanation:"Evita explosões."},
+{type:"gap",category:"Lacuna",question:"Complete: Reações endotérmicas ______ calor.",correct:"requerem",explanation:"Reações endotérmicas absorvem calor."},
+{type:"gap",category:"Lacuna",question:"Complete: Reações exotérmicas ______ calor.",correct:"liberam",explanation:"Reações exotérmicas liberam calor."},
+{type:"mc",category:"Combustão",question:"Quais são os elementos do triângulo do fogo?",options:["Combustível, calor e comburente","Água, calor e vapor","Oxigênio, pressão e água","Combustível, espuma e CO₂"],correct:0,explanation:"Sem um dos três elementos não ocorre combustão."},
+{type:"mc",category:"Classe A",question:"Qual método é mais usado em incêndios Classe A?",options:["Resfriamento com água","CO₂","Pó químico","Abafamento"],correct:0,explanation:"Classe A normalmente é combatida por resfriamento."},
+{type:"mc",category:"Classe B",question:"Qual o principal risco dos incêndios Classe B?",options:["Espalhamento rápido das chamas","Explosão nuclear","Corrosão","Congelamento"],correct:0,explanation:"Líquidos inflamáveis espalham rapidamente."},
+{type:"mc",category:"Classe C",question:"O que caracteriza incêndio Classe C?",options:["Equipamentos elétricos energizados","Madeira","Metais","Gases"],correct:0,explanation:"Classe C envolve eletricidade."},
+{type:"mc",category:"Extintores",question:"Qual agente atua interrompendo reação em cadeia?",options:["Pó químico","Água","Espuma","Areia"],correct:0,explanation:"O pó químico interrompe a combustão."},
+{type:"mc",category:"CO₂",question:"Qual característica física do CO₂?",options:["Gás incolor, inodoro e mais pesado que o ar","Gás inflamável","Gás leve","Condutor elétrico"],correct:0,explanation:"CO₂ é agente extintor gasoso."},
+{type:"mc",category:"Treinamento",question:"Segundo a SOLAS qual frequência mínima dos exercícios?",options:["Mensal","Semanal","Anual","Diária"],correct:0,explanation:"A SOLAS exige exercício mensal."},
+{type:"mc",category:"Caldeiras",question:"Qual a finalidade de uma caldeira a vapor?",options:["Produzir e acumular vapor sob pressão","Produzir combustível","Resfriar motores","Armazenar óleo"],correct:0,explanation:"Caldeiras produzem vapor sob pressão superior à atmosférica."},
+{type:"mc",category:"Caldeiras",question:"Qual item impede excesso de pressão na caldeira?",options:["Válvula de segurança","Termômetro","Ventilador","Filtro"],correct:0,explanation:"A válvula de segurança evita sobrepressão."},
+{type:"mc",category:"Caldeiras",question:"Qual o principal risco do nível baixo na caldeira?",options:["Fundição de tubos e explosão","Perda de combustível","Congelamento","Corrosão leve"],correct:0,explanation:"Baixo nível pode causar superaquecimento e explosão."},
+{type:"mc",category:"Segurança",question:"Qual o objetivo das normas de segurança a bordo?",options:["Prevenir acidentes e proteger vidas","Reduzir velocidade","Economizar combustível","Melhorar conforto"],correct:0,explanation:"Normas existem para prevenir acidentes e proteger pessoas e equipamentos."},
+{type:"mc",category:"Segurança",question:"O que significa identificar riscos?",options:["Reconhecer perigos antes que causem acidentes","Eliminar toda operação","Parar atividades","Reduzir tripulação"],correct:0,explanation:"Identificar riscos permite agir antes do acidente."},
+{type:"mc",category:"SOLAS",question:"Qual convenção da IMO trata da segurança da vida humana no mar?",options:["SOLAS","MARPOL","STCW","ISM"],correct:0,explanation:"SOLAS é a principal convenção de segurança."},
+{type:"mc",category:"Incêndio",question:"O que é o triângulo do fogo?",options:["Representação dos elementos da combustão","Plano de emergência","Equipamento de combate","Tipo de detector"],correct:0,explanation:"Combustível + calor + comburente."},
+{type:"mc",category:"Classe A",question:"O que caracteriza incêndio Classe A?",options:["Combustíveis sólidos","Líquidos inflamáveis","Equipamentos energizados","Metais"],correct:0,explanation:"Classe A deixa resíduos como cinzas e brasas."},
+{type:"mc",category:"Classe B",question:"Como ocorre a queima na Classe B?",options:["Na superfície do combustível","Em profundidade","Somente em gases","Sem chama"],correct:0,explanation:"Classe B queima superficialmente."},
+{type:"mc",category:"Classe D",question:"O que caracteriza incêndio Classe D?",options:["Queima de metais combustíveis","Queima elétrica","Queima de papel","Queima de óleo"],correct:0,explanation:"Classe D envolve metais e temperaturas elevadas."},
+{type:"mc",category:"Métodos",question:"Qual o objetivo do resfriamento?",options:["Retirar calor","Adicionar oxigênio","Adicionar combustível","Fechar válvulas"],correct:0,explanation:"Retirar calor interrompe combustão."},
+{type:"mc",category:"Métodos",question:"Qual o objetivo do abafamento?",options:["Retirar oxigênio","Resfriar combustível","Reduzir pressão","Aumentar ventilação"],correct:0,explanation:"Abafamento reduz oxigênio disponível."},
+{type:"mc",category:"Métodos",question:"Qual o objetivo do isolamento?",options:["Separar combustível","Resfriar fogo","Aumentar combustão","Gerar vapor"],correct:0,explanation:"Sem combustível o fogo não continua."},
+{type:"mc",category:"Incêndio",question:"Qual é a lógica principal do combate a incêndio?",options:["Eliminar um elemento do triângulo do fogo","Adicionar água sempre","Usar espuma sempre","Evitar alarme"],correct:0,explanation:"Combate remove um dos elementos da combustão."},
+{type:"mc",category:"Tetraedro",question:"O que substituiu o Triângulo do Fogo?",options:["Tetraedro do Fogo","Quadrado do Fogo","Modelo IMO","Ciclo térmico"],correct:0,explanation:"Acrescenta reação em cadeia."},
+{type:"mc",category:"Água",question:"Qual agente extintor é mais utilizado?",options:["Água","CO₂","Espuma","Pó químico"],correct:0,explanation:"A água é considerada o agente extintor universal."},
+{type:"mc",category:"Água",question:"Como a água atua principalmente no fogo?",options:["Resfriamento e abafamento","Somente isolamento","Somente reação química","Compressão"],correct:0,explanation:"Água reduz temperatura e pode gerar vapor para abafamento."},
+{type:"mc",category:"Classe A",question:"Melhor aplicação da água em incêndios Classe A?",options:["Jato compacto","Neblina fina","CO₂","Espuma química"],correct:0,explanation:"Classe A normalmente utiliza jato sólido."},
+{type:"mc",category:"Classe B",question:"Melhor aplicação da água em incêndios Classe B?",options:["Neblina ou pulverizada","Jato sólido","Areia","CO₂ líquido"],correct:0,explanation:"Evita espalhamento do combustível."},
+{type:"mc",category:"Eletricidade",question:"Por que água salgada não deve ser usada em incêndios Classe C?",options:["Conduz eletricidade","Evapora rápido","Produz fumaça","Resfria pouco"],correct:0,explanation:"Água salgada é boa condutora."},
+{type:"mc",category:"Estabilidade",question:"Qual principal problema do uso excessivo de água a bordo?",options:["Comprometimento da estabilidade","Corrosão apenas","Baixa temperatura","Ruído"],correct:0,explanation:"Água embarcada altera centro de gravidade."},
+{type:"mc",category:"Estabilidade",question:"O que é efeito de superfície livre?",options:["Movimento da água acumulada","Entrada de ar","Evaporação","Inclinação estrutural"],correct:0,explanation:"Aumenta instabilidade."},
+{type:"mc",category:"Estabilidade",question:"Qual situação extrema pode ocorrer pela perda de estabilidade?",options:["Emborcamento","Explosão","Incêndio","Corrosão"],correct:0,explanation:"Excesso de água pode comprometer flutuabilidade."},
+{type:"mc",category:"Espuma",question:"O que é espuma extintora?",options:["Aglomerado de bolhas formadas por água e gás","Espuma industrial comum","Gelo químico","Nuvem de vapor"],correct:0,explanation:"Espuma atua principalmente por abafamento."},
+{type:"mc",category:"Espuma",question:"Qual gás é usado na formação da espuma?",options:["CO₂","Nitrogênio","Oxigênio","Hélio"],correct:0,explanation:"CO₂ auxilia na formação das bolhas."},
+{type:"mc",category:"Espuma",question:"Principal mecanismo da espuma?",options:["Abafamento","Choque térmico","Compressão","Evaporação"],correct:0,explanation:"Impede contato do combustível com oxigênio."},
+{type:"mc",category:"Espuma",question:"Para quais incêndios a espuma é indicada?",options:["Classe B","Classe D","Classe C energizado","Classe A apenas"],correct:0,explanation:"Muito eficiente em líquidos inflamáveis."},
+{type:"mc",category:"Espuma",question:"Por que espuma comum não serve para álcool?",options:["É dissolvida","Explode","Congela","Oxida"],correct:0,explanation:"Perde eficiência rapidamente."},
+{type:"mc",category:"Pó Químico",question:"Principal ação do pó químico?",options:["Abafamento","Resfriamento","Ventilação","Condensação"],correct:0,explanation:"Também interrompe reação em cadeia."},
+{type:"mc",category:"Pó Químico",question:"Qual ação adicional possui o pó químico?",options:["Quebra da reação em cadeia","Produzir espuma","Resfriar metais","Aumentar pressão"],correct:0,explanation:"Aprisiona radicais livres."},
+{type:"mc",category:"CO₂",question:"CO₂ conduz eletricidade?",options:["Não","Sim","Parcialmente","Apenas em calor"],correct:0,explanation:"É eletricamente inerte."},
+{type:"mc",category:"CO₂",question:"Qual temperatura pode ser atingida pelo CO₂ expandido?",options:["-70°C","-5°C","0°C","-20°C"],correct:0,explanation:"A expansão provoca intenso resfriamento."},
+{type:"mc",category:"CO₂",question:"O que é gelo seco?",options:["Partículas sólidas de CO₂","Gelo marítimo","Espuma química","Água congelada"],correct:0,explanation:"Resultado da expansão do CO₂."},
+{type:"mc",category:"CO₂",question:"Em quais incêndios o CO₂ é indicado?",options:["Líquidos inflamáveis e equipamentos elétricos","Classe D apenas","Somente sólidos","Incêndio florestal"],correct:0,explanation:"Muito usado em compartimentos fechados."},
+{type:"mc",category:"CO₂",question:"Em quais ambientes o CO₂ é mais efetivo?",options:["Compartimentos fechados","Áreas abertas","Convés","Áreas ventiladas"],correct:0,explanation:"Mantém concentração suficiente para abafamento."},
+{type:"mc",category:"Plano de Contingência",question:"O que é um Plano de Contingência contra incêndios?",options:["Conjunto de medidas para prevenir, controlar e responder a emergências","Documento financeiro","Plano de manutenção","Lista de equipamentos"],correct:0,explanation:"Plano que define ações, responsabilidades e recursos."},
+{type:"mc",category:"Plano de Contingência",question:"Qual objetivo principal do Plano de Contingência?",options:["Minimizar impactos das emergências","Aumentar produtividade","Reduzir consumo","Diminuir tripulação"],correct:0,explanation:"Busca reduzir danos e organizar resposta."},
+{type:"mc",category:"Plano",question:"O Plano de Contingência define o quê?",options:["Responsabilidades, ações e recursos","Apenas alarmes","Somente inspeções","Apenas equipamentos"],correct:0,explanation:"Coordena recursos humanos e materiais."},
+{type:"mc",category:"ISM",question:"Qual código internacional fundamenta o Plano de Contingência?",options:["ISM Code","STCW","MARPOL","SOLAS II"],correct:0,explanation:"O ISM fortalece cultura de segurança."},
+{type:"mc",category:"Tabela Mestra",question:"O que é a Tabela Mestra?",options:["Documento com funções durante emergências","Plano de carga","Livro de máquinas","Registro médico"],correct:0,explanation:"Define responsabilidades e postos."},
+{type:"mc",category:"Tabela Mestra",question:"O que a Tabela Mestra informa sobre tripulantes?",options:["Nome, função e posição na emergência","Salário","Escala de férias","Tempo embarcado"],correct:0,explanation:"Facilita coordenação em emergências."},
+{type:"mc",category:"Tabela Mestra",question:"Qual convenção exige detalhes da Tabela Mestra?",options:["SOLAS","MARPOL","NORMAM","ISM"],correct:0,explanation:"SOLAS define requisitos mínimos."},
+{type:"mc",category:"Tabela Mestra",question:"Plano de Contingência e Tabela Mestra são iguais?",options:["Não","Sim","Parcialmente","Depende"],correct:0,explanation:"Tabela Mestra resume aspectos mínimos."},
+{type:"gap",category:"Lacuna",question:"Complete: A Tabela Mestra é um ______ do Plano de Contingência.",correct:"resumo",explanation:"A Tabela Mestra resume funções essenciais."},
+{type:"mc",category:"Emergência",question:"O que são Pontos de Reunião?",options:["Locais de concentração em emergências","Locais de descanso","Áreas de manutenção","Áreas administrativas"],correct:0,explanation:"São definidos previamente."},
+{type:"mc",category:"Treinamento",question:"Qual a finalidade das simulações periódicas?",options:["Treinar resposta rápida da tripulação","Reduzir consumo","Melhorar conforto","Aumentar velocidade"],correct:0,explanation:"Simulações aumentam prontidão."},
+{type:"mc",category:"Treinamento",question:"O que os treinamentos ajudam a identificar?",options:["Falhas e dificuldades operacionais","Somente defeitos mecânicos","Rotas","Custos"],correct:0,explanation:"Treinamentos revelam pontos de melhoria."},
+{type:"mc",category:"Treinamento",question:"Quem deve garantir cumprimento da SOLAS a bordo?",options:["Comandante","Passageiros","Visitantes","Fornecedor"],correct:0,explanation:"Cabe ao comandante garantir conformidade."},
+{type:"mc",category:"SOLAS",question:"Segundo a SOLAS, qual frequência mínima dos exercícios?",options:["Mensal","Semanal","Diária","Semestral"],correct:0,explanation:"Incêndio e abandono devem ocorrer mensalmente."},
+{type:"mc",category:"Exercício",question:"O que deve ser acionado durante exercício de incêndio?",options:["Uma bomba de incêndio","Somente alarmes","Gerador reserva","Ventilação"],correct:0,explanation:"Testa capacidade operacional."},
+{type:"mc",category:"Exercício",question:"Quais jatos devem ser usados nos exercícios?",options:["Jato sólido e neblina","Somente sólido","Somente espuma","CO₂"],correct:0,explanation:"Demonstra funcionamento correto."},
+{type:"mc",category:"Treinamento",question:"Quando deve ocorrer o adestramento inicial?",options:["Até duas semanas após embarque","Após seis meses","Após inspeção","Após emergência"],correct:0,explanation:"Treinamento inicial é obrigatório."},
+{type:"mc",category:"Manual",question:"Onde deve existir manual de adestramento?",options:["Refeitórios ou salas de recreação","Somente passadiço","Praça de máquinas","Cabine do comandante"],correct:0,explanation:"Deve estar acessível."},
+{type:"mc",category:"Estratégia",question:"O que determina a estratégia de combate a incêndio?",options:["Local e condições da emergência","Quantidade de água","Horário","Clima externo"],correct:0,explanation:"Cada cenário exige estratégia própria."},
+{type:"mc",category:"Combate",question:"O que é tática no combate a incêndio?",options:["Emprego específico dos recursos","Plano anual","Treinamento","Inspeção"],correct:0,explanation:"Tática é aplicação prática da estratégia."},
+{type:"mc",category:"Incêndio",question:"O que é flashover?",options:["Transição rápida para incêndio generalizado","Explosão elétrica","Vazamento","Resfriamento extremo"],correct:0,explanation:"Fenômeno crítico em ambientes confinados."},
+{type:"mc",category:"Sistema",question:"Qual sistema automático ajuda a controlar focos?",options:["Sprinklers","Extintor portátil","Venturi","Bomba de carga"],correct:0,explanation:"Sprinklers atuam automaticamente."},
+{type:"mc",category:"Detecção",question:"O que detectores de gases sinalizam?",options:["Vazamentos perigosos","Temperatura","Ruído","Pressão"],correct:0,explanation:"Permitem resposta antecipada."},
+{type:"mc",category:"Brigada",question:"Quando a brigada deve entrar em ação?",options:["Quando sistemas preventivos não controlarem","Sempre imediatamente","Apenas em abandono","Nunca"],correct:0,explanation:"Atuação ocorre conforme planejamento."},
+{type:"mc",category:"Brigada",question:"Qual é a primeira responsabilidade da brigada?",options:["Concentrar-se no ponto de reunião","Combater imediatamente","Abrir ventilação","Buscar documentos"],correct:0,explanation:"Organização antes da ação."},
+{type:"mc",category:"Brigada",question:"O que a brigada deve vestir antes do combate?",options:["Equipamento de proteção individual","Roupa comum","Coletes","Macacão leve"],correct:0,explanation:"Proteção é prioridade."},
+{type:"mc",category:"Incêndio",question:"O que deve ser feito com ventilação da área incendiada?",options:["Cortar ventilação e extração","Aumentar ventilação","Manter aberta","Ignorar"],correct:0,explanation:"Reduz fornecimento de oxigênio."},
+{type:"mc",category:"Incêndio",question:"O que deve ser feito com circuitos elétricos afetados?",options:["Desligar","Aumentar carga","Isolar parcialmente","Manter ligados"],correct:0,explanation:"Evita riscos adicionais."},
+{type:"mc",category:"Incêndio",question:"O que deve ser feito com áreas próximas ao incêndio?",options:["Evacuá-las","Fechá-las sem aviso","Ventilar","Continuar operações"],correct:0,explanation:"Proteção de pessoas é prioridade."},
+{type:"mc",category:"Estratégia",question:"Quem decide a estratégia durante um incêndio?",options:["Coordenador Geral da emergência","Brigadista mais antigo","Comandante do rebocador","Oficial de convés"],correct:0,explanation:"A estratégia deve ser centralizada para evitar ações conflitantes."},
+{type:"mc",category:"Emergência",question:"O plano de contingência fornece o quê?",options:["Diretrizes básicas para emergências","Apenas procedimentos financeiros","Controle de carga","Plano de manutenção"],correct:0,explanation:"Serve como referência operacional."},
+{type:"mc",category:"Combate",question:"Um incêndio na planta industrial exige a mesma ação da superestrutura?",options:["Não","Sim","Sempre","Somente em abandono"],correct:0,explanation:"Cada área exige estratégia específica."},
+{type:"mc",category:"Ataque",question:"Em compartimento confinado com risco de flashover qual estratégia usar?",options:["Ataque indireto com resfriamento prévio","Ataque frontal imediato","Abertura total","Ventilação forçada"],correct:0,explanation:"Reduz risco de ignição generalizada."},
+{type:"mc",category:"Sprinklers",question:"Onde sprinklers costumam ser instalados?",options:["Compartimentos conforme os riscos","Somente passadiço","Convés aberto","Banheiros"],correct:0,explanation:"São distribuídos conforme análise de risco."},
+{type:"mc",category:"Detecção",question:"O que detectores de chamas identificam?",options:["Presença de fogo ou chamas","Pressão","Ruído","Umidade"],correct:0,explanation:"Detectam foco de incêndio rapidamente."},
+{type:"mc",category:"Sistema",question:"O que é sistema de dilúvio?",options:["Sistema automático com grande descarga de água","Sistema de ventilação","Sistema de drenagem","Sistema de carga"],correct:0,explanation:"Muito usado em áreas críticas."},
+{type:"mc",category:"Brigada",question:"Como a brigada mantém preparo operacional?",options:["Exercícios simulados e reciclagem","Experiência apenas","Observação","Documentação"],correct:0,explanation:"Treino constante aumenta desempenho."},
+{type:"mc",category:"Resposta",question:"O que deve ocorrer após soar o alarme?",options:["Identificar o local do incêndio","Evacuar imediatamente","Fechar motores","Acionar abandono"],correct:0,explanation:"Identificação correta reduz erros."},
+{type:"mc",category:"Análise",question:"Após localizar o incêndio o que deve ser identificado?",options:["Tipo de combustível envolvido","Quantidade de água","Horário","Velocidade do navio"],correct:0,explanation:"Determina método de combate."},
+{type:"mc",category:"Análise",question:"Por que identificar combustível é importante?",options:["Escolher método correto de combate","Reduzir ruído","Aumentar pressão","Controlar ventilação"],correct:0,explanation:"Agente errado pode agravar incêndio."},
+{type:"mc",category:"Incêndio",question:"O que deve ser avaliado quanto ao incêndio?",options:["Proporção ou extensão","Cor da fumaça apenas","Temperatura externa","Condição climática"],correct:0,explanation:"Define recursos necessários."},
+{type:"mc",category:"Segurança",question:"O que deve ser analisado nas proximidades?",options:["Materiais combustíveis presentes","Documentação","Tripulação de descanso","Carga administrativa"],correct:0,explanation:"Evita propagação."},
+{type:"mc",category:"Controle",question:"O que fazer com válvulas de interceptação da área?",options:["Fechá-las","Abri-las","Trocar posição","Isolar parcialmente"],correct:0,explanation:"Reduz alimentação do incêndio."},
+{type:"mc",category:"Eletricidade",question:"Quando desligar circuitos próximos?",options:["Quando houver risco de gases inflamáveis","Sempre","Nunca","Somente à noite"],correct:0,explanation:"Reduz risco de ignição."},
+{type:"mc",category:"Evacuação",question:"Como escolher método de combate?",options:["Conforme tipo e condições do incêndio","Pela experiência apenas","Somente água","Somente espuma"],correct:0,explanation:"Combate deve ser proporcional."},
+{type:"mc",category:"Brigada",question:"Onde está previsto o ponto de reunião da brigada?",options:["Tabela Mestra","Plano financeiro","Diário de bordo","Plano de viagem"],correct:0,explanation:"Tabela Mestra organiza resposta."},
+{type:"mc",category:"Brigada",question:"Para onde a brigada deve se apresentar após equipar-se?",options:["Pontos de controle avançado","Passadiço","Convés principal","Refeitório"],correct:0,explanation:"Coordenação operacional."},
+{type:"mc",category:"Liderança",question:"Quem orienta tarefas da equipe de combate?",options:["Líder da equipe","Qualquer tripulante","Observador","Operador rádio"],correct:0,explanation:"Centraliza decisões."},
+{type:"mc",category:"Prioridade",question:"Qual deve ser prioridade permanente da brigada?",options:["Garantir segurança para todos","Salvar equipamentos","Reduzir custos","Retomar operação"],correct:0,explanation:"Vida humana sempre vem primeiro."},
+{type:"gap",category:"Lacuna",question:"Complete: Estratégia é o ______ prévio ao combate.",correct:"planejamento",explanation:"Estratégia organiza ações."},
+{type:"gap",category:"Lacuna",question:"Complete: Tática é o emprego específico de ______.",correct:"recursos",explanation:"Tática é execução."},
+{type:"gap",category:"Lacuna",question:"Complete: O ataque indireto pode evitar o ______.",correct:"flashover",explanation:"Evita generalização do incêndio."},
+{type:"gap",category:"Lacuna",question:"Complete: A brigada deve cortar a ______ da área incendiada.",correct:"ventilação",explanation:"Reduz comburente."},
+{type:"gap",category:"Lacuna",question:"Complete: Circuitos ______ devem ser desligados.",correct:"elétricos",explanation:"Evita novas ignições."},
+{type:"mc",category:"Sistemas Fixos",question:"O que são sistemas fixos de extinção de incêndio?",options:["Instalações permanentes de proteção contra incêndios","Equipamentos portáteis","Sistemas temporários","Dispositivos elétricos"],correct:0,explanation:"São instalações permanentes embarcadas."},
+{type:"mc",category:"Sistema Fixo",question:"Quais são os 3 componentes básicos de um sistema fixo?",options:["Reservatório, canalização e dispositivo de descarga","Motor, válvula e extintor","Sensor, cabo e bomba","Tanque, radar e válvula"],correct:0,explanation:"Esses são os elementos essenciais."},
+{type:"mc",category:"Rede",question:"Qual sistema geralmente capta água diretamente do mar?",options:["Rede de incêndio","CO₂","PQS","Gás inerte"],correct:0,explanation:"Rede usa água do mar pressurizada."},
+{type:"mc",category:"Sistema Fixo",question:"Cite os principais sistemas fixos usados a bordo.",options:["Rede, borrifo, espuma, CO₂, gás inerte e PQS","Apenas rede e espuma","Somente CO₂","Somente PQS"],correct:0,explanation:"São os principais sistemas embarcados."},
+{type:"gap",category:"Lacuna",question:"Complete: Sistemas líquidos incluem ____",correct:"Rede de incêndio, sprinklers e espuma",explanation:"São sistemas líquidos."},
+{type:"gap",category:"Lacuna",question:"Complete: Sistemas gasosos incluem ____",correct:"Sistema fixo de CO₂",explanation:"CO₂ é sistema gasoso."},
+{type:"gap",category:"Lacuna",question:"Complete: Sistemas sólidos incluem ____",correct:"Sistema fixo de pó químico seco",explanation:"PQS é sistema sólido."},
+{type:"mc",category:"Rede",question:"Qual a função da rede de incêndio?",options:["Fornecer água para combate em qualquer ponto do navio","Resfriar motores","Bombear combustível","Produzir espuma"],correct:0,explanation:"Rede deve atender qualquer área."},
+{type:"mc",category:"Rede",question:"Como se chama a conexão com rede do porto?",options:["Conexão internacional de terra","Tomada externa","Conexão marítima","Acoplamento universal"],correct:0,explanation:"Permite alimentação externa."},
+{type:"mc",category:"Rede",question:"Navios acima de quantas toneladas precisam dessa conexão?",options:["Mais de 500 toneladas","100 toneladas","200 toneladas","1000 toneladas"],correct:0,explanation:"Exigência SOLAS."},
+{type:"mc",category:"Rede",question:"Quantos jatos devem alcançar qualquer área acessível?",options:["Pelo menos dois","Um","Quatro","Cinco"],correct:0,explanation:"Garante redundância."},
+{type:"mc",category:"Bombas",question:"O que pressuriza a rede de incêndio?",options:["Bombas de incêndio independentes","Ventiladores","Compressores","Reservatórios"],correct:0,explanation:"Mantêm pressão disponível."},
+{type:"mc",category:"Tomadas",question:"Tomadas de incêndio também são chamadas de quê?",options:["Hidrantes","Monitores","Bombas","Sprinklers"],correct:0,explanation:"Termo equivalente."},
+{type:"mc",category:"Sprinklers",question:"O que ativa um sprinkler?",options:["Calor sobre ampola sensível","Fumaça","Pressão","Comando manual"],correct:0,explanation:"Disparo térmico."},
+{type:"mc",category:"Sprinklers",question:"Sistema de borrifamento exige ação da tripulação?",options:["Não, funciona automaticamente","Sim","Somente em emergência","Depende"],correct:0,explanation:"Sistema automático."},
+{type:"mc",category:"Espuma",question:"Em que classe de incêndio espuma é mais indicada?",options:["Classe B","Classe A","Classe C","Classe D"],correct:0,explanation:"Ideal para líquidos inflamáveis."},
+{type:"mc",category:"Espuma",question:"Qual função do gerador de espuma?",options:["Misturar ar para formar espuma","Produzir calor","Gerar pressão","Filtrar água"],correct:0,explanation:"Permite expansão da espuma."},
+{type:"mc",category:"Heliponto",question:"O heliponto normalmente é protegido por qual sistema?",options:["Sistema fixo de espuma","CO₂","PQS","Água apenas"],correct:0,explanation:"Alta eficiência em combustíveis aeronáuticos."},
+{type:"mc",category:"CO₂",question:"Antes da descarga do gás deve existir o quê?",options:["Alarme automático sonoro","Ventilação ligada","Iluminação apagada","Pressurização"],correct:0,explanation:"Permite evacuação."},
+{type:"mc",category:"CO₂",question:"Tempo mínimo entre alarme e descarga?",options:["20 segundos","10 segundos","5 segundos","30 segundos"],correct:0,explanation:"Delay obrigatório."},
+{type:"mc",category:"CO₂",question:"Liberação automática do gás é permitida?",options:["Não","Sim","Só em praça de máquinas","Só em porto"],correct:0,explanation:"Necessário acionamento controlado."},
+{type:"mc",category:"CO₂",question:"Qual princípio de extinção do CO₂?",options:["Abafamento","Resfriamento","Isolamento","Diluição"],correct:0,explanation:"Reduz oxigênio."},
+{type:"mc",category:"CO₂",question:"Qual principal risco do CO₂?",options:["Asfixia","Explosão","Choque","Corrosão"],correct:0,explanation:"Não sustenta respiração."},
+{type:"mc",category:"CO₂",question:"Quais os dois tipos de sistema fixo de CO₂?",options:["Inundação total e aplicação local","Automático e manual","Interno e externo","Seco e úmido"],correct:0,explanation:"Duas formas de aplicação."},
+{type:"mc",category:"CO₂",question:"Primeiro cuidado antes de liberar CO₂?",options:["Evacuar compartimento","Desligar rádio","Aumentar ventilação","Abrir escotilhas"],correct:0,explanation:"Segurança do pessoal."},
+{type:"mc",category:"CO₂",question:"O que fazer com ventilação antes da descarga?",options:["Parar ventilação e exaustão","Aumentar fluxo","Manter aberta","Despressurizar"],correct:0,explanation:"Evita perda do agente."},
+{type:"gap",category:"Lacuna",question:"Complete: CO₂ é um gás ____",correct:"Asfixiante",explanation:"Principal risco do sistema."},
+{type:"mc",category:"PQS",question:"PQS é especialmente eficaz para qual classe?",options:["Classe C","Classe A","Classe D","Classe B apenas"],correct:0,explanation:"Muito usado em equipamentos elétricos."},
+{type:"mc",category:"PQS",question:"Qual gás normalmente impulsiona o PQS?",options:["Nitrogênio","Oxigênio","CO₂","Ar comprimido"],correct:0,explanation:"Usado como propelente."},
+{type:"mc",category:"SGI",question:"O que é Sistema de Gás Inerte?",options:["Sistema que reduz oxigênio no ambiente","Sistema de ventilação","Sistema de bombeamento","Sistema de espuma"],correct:0,explanation:"Previne incêndios e explosões."},
+{type:"mc",category:"SGI",question:"Onde o SGI é mais usado?",options:["Tanques de carga","Heliponto","Alojamentos","Passadiço"],correct:0,explanation:"Muito usado em navios tanque."}
+];
+
+/* ═══════════════════════════════════════════════════
+   CATÁLOGO DE MATÉRIAS
+   Adicionar novo banco: inserir chave em SUBJECTS
+   com title, label, icon e questions:[...].
+   ═══════════════════════════════════════════════════ */
+let SUBJECTS = {
+  /* CIA é uma matéria NATIVA — vem embutida no HTML (banco QUESTIONS),
+     mas é tratada como matéria real: gerenciável (abrir/editar/exportar/
+     duplicar/ocultar/excluir) como qualquer matéria do usuário.
+     "questions" é uma cópia rasa de QUESTIONS — nunca a mesma referência
+     — para que editar a CIA jamais corrompa o banco nativo original. Se
+     o usuário excluir a CIA, isso fica registrado permanentemente (ver
+     NATIVE_DELETED_KEY) e ela deixa de ser recriada nos próximos loads. */
+  'cia': {
+    title:     'Combate a Incêndio Avançado',
+    label:     'CIA',
+    icon:      '🔥',
+    questions: [...QUESTIONS],
+    isCustom:  true,
+    isNative:  true,
+    protected: false,
+    hidden:    false,
+  },
+};
+
+/* referência dinâmica às questões da matéria ativa */
+let ACTIVE_QUESTIONS = QUESTIONS;   // padrão CIA para compatibilidade
+
+/* ═══════════════════════════════════════════════════
+   UTILITÁRIOS
+   ═══════════════════════════════════════════════════ */
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function fmt(sec) {
+  const h = Math.floor(sec / 3600);
+  const m = Math.floor((sec % 3600) / 60);
+  const s = sec % 60;
+  return h > 0
+    ? `${h}:${pad(m)}:${pad(s)}`
+    : `${pad(m)}:${pad(s)}`;
+}
+function pad(n) { return String(n).padStart(2,'0'); }
+
+/* "1 questão" / "N questões" — nunca concatenar sufixo em cima da
+   palavra inteira (isso é o que gerava "questãoões"/"questãos").
+   NBSP entre número e palavra: não quebra linha ali. */
+function questionCountLabel(n) {
+  const word = n === 1 ? 'questão' : 'questões';
+  return `${n} ${word}`;
+}
+
+/* Escapa HTML para evitar XSS ao inserir texto de questões */
+function esc(str) {
+  return String(str)
+    .replace(/&/g,'&amp;')
+    .replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;')
+    .replace(/"/g,'&quot;');
+}
+
+/* ═══ INSTRUMENTAÇÃO TEMPORÁRIA — FASE 27.1 (diagnóstico de toque) ═══
+   Só executa se App.pick(i) lançar exceção; exibe os detalhes na
+   própria tela (sem depender do DevTools, para teste em celular).
+   Remover após o diagnóstico ser concluído. */
+function _diagReportError(err, fnName) {
+  try {
+    const q = (S.deck && S.deck[S.idx]) || {};
+    const info = {
+      funcao: fnName,
+      mensagem: err && err.message,
+      stack: err && err.stack,
+      'S.idx': S.idx,
+      tipo: q.type,
+      alternativas: Array.isArray(q.options) ? q.options.length
+        : (Array.isArray(q.shuffledOptions) ? q.shuffledOptions.length : 'n/d'),
+      'q.correct': JSON.stringify(q.correct),
+      _id: q._id,
+    };
+    const box = document.createElement('div');
+    box.id = '_diag-error-box';
+    box.style.cssText = 'position:fixed;inset:0;z-index:99999;background:rgba(0,0,0,.92);'
+      + 'color:#fff;padding:16px;overflow:auto;font-family:monospace;font-size:12px;white-space:pre-wrap;';
+    box.innerHTML = '<div style="font-weight:900;font-size:15px;color:#ff6b6b;margin-bottom:10px">'
+      + '⚠ ERRO CAPTURADO (diagnóstico temporário — FASE 27.1)</div>'
+      + Object.entries(info).map(([k, v]) =>
+          '<div style="margin-bottom:6px"><b style="color:#4c8dfa">' + esc(k) + ':</b> ' + esc(String(v)) + '</div>'
+        ).join('')
+      + '<button id="_diag-error-close" style="margin-top:14px;padding:10px 16px;font-size:13px;'
+      + 'background:#4c8dfa;color:#fff;border:none;border-radius:8px">Fechar</button>';
+    document.body.appendChild(box);
+    document.getElementById('_diag-error-close').onclick = () => box.remove();
+  } catch (_) {
+    /* o diagnóstico não pode, por si, derrubar o app */
+  }
+}
+
+/* Ícone do sprite Lucide embutido (ver <svg style="display:none"> no
+   topo do <body>). "filled" usa a variante preenchida (favoritar/marcar). */
+function icon(name, filled) {
+  return `<svg class="icon${filled ? ' icon-filled' : ''}"><use href="#i-${name}"></use></svg>`;
+}
+
+function $(id) { return document.getElementById(id); }
+
+/* ── Credenciais (nome canônico indexado pela chave em maiúsculas) ── */
+const CREDENTIALS  = { 
+  'turma': 'turma',
+  'ohana': 'Ohana',
+  'herlon': 'herlon' };
+const USER_KEY     = 'cia_user_v1';
+const NOTICE_KEY   = 'accessNoticeAccepted';
+const SUBJECT_KEY  = 'cia_last_subject';
+const REVIEW_KEY   = 'cia_review_v1';
+const FAV_KEY      = 'cia_favorites_v1';
+
+/* Fase 23: favoritos, fila de revisão e aviso de acesso passam a ser
+   isolados por usuário — mesmo padrão de subjectProgressKey() (que já
+   isola progresso por matéria), só que por S.userName. */
+function userScopedKey(baseKey) {
+  return baseKey + '::' + (S.userName || 'guest');
+}
+/* chaves nativas (embutidas no HTML) excluídas pelo usuário — impede que
+   voltem a ser recriadas a partir do banco nativo em um próximo load */
+const NATIVE_DELETED_KEY = 'cia_native_deleted_v1';
+function getNativeDeletedSubjects() {
+  try { return JSON.parse(localStorage.getItem(NATIVE_DELETED_KEY)) || []; } catch(_) { return []; }
+}
+function markNativeSubjectDeleted(key) {
+  try {
+    const list = getNativeDeletedSubjects();
+    if (!list.includes(key)) list.push(key);
+    localStorage.setItem(NATIVE_DELETED_KEY, JSON.stringify(list));
+  } catch(_) {}
+}
+const DB_NAME      = 'SimuladoCIA_v1';
+const DB_VER       = 1;
+
+/* ═══════════════════════════════════════════════════
+   INDEXEDDB — bancos customizados
+   ═══════════════════════════════════════════════════ */
+let _db = null;
+
+function openDB() {
+  return new Promise((resolve, reject) => {
+    if (_db) { resolve(_db); return; }
+    const req = indexedDB.open(DB_NAME, DB_VER);
+    req.onupgradeneeded = e => {
+      const d = e.target.result;
+      if (!d.objectStoreNames.contains('subjects'))
+        d.createObjectStore('subjects', { keyPath: 'key' });
+    };
+    req.onsuccess = e => { _db = e.target.result; resolve(_db); };
+    req.onerror   = e => reject(e.target.error);
+  });
+}
+
+async function loadCustomSubjects() {
+  try {
+    const d = await openDB();
+    return new Promise(res => {
+      const req = d.transaction('subjects','readonly').objectStore('subjects').getAll();
+      req.onsuccess = () => res(req.result || []);
+      req.onerror   = () => res([]);
+    });
+  } catch(_) { return []; }
+}
+
+async function saveSubjectToDB(subj) {
+  const d = await openDB();
+  return new Promise((res, rej) => {
+    const req = d.transaction('subjects','readwrite').objectStore('subjects').put(subj);
+    req.onsuccess = () => res();
+    req.onerror   = () => rej(req.error);
+  });
+}
+
+async function deleteSubjectFromDB(key) {
+  try {
+    const d = await openDB();
+    return new Promise(res => {
+      const req = d.transaction('subjects','readwrite').objectStore('subjects').delete(key);
+      req.onsuccess = () => res();
+      req.onerror   = () => res();
+    });
+  } catch(_) {}
+}
+
+/* ═══════════════════════════════════════════════════
+   IMPORTADOR DE QUESTÕES
+   ═══════════════════════════════════════════════════ */
+let _pendingImport = null;
+
+/* estado de navegação da Biblioteca — só UI, nunca persistido */
+let _subjectSearch = '';
+let _subjectPage   = 1;
+const SUBJECTS_PER_PAGE = 12;
+
+/* Valida e normaliza array de questões brutas */
+function parseQuestions(raw) {
+  let data;
+  try { data = JSON.parse(raw); }
+  catch(_) { return { valid: [], invalid: 0, error: 'JSON inválido ou formato não suportado.' }; }
+
+  if (!Array.isArray(data)) {
+    if (data && Array.isArray(data.questions)) data = data.questions;
+    else return { valid: [], invalid: 0, error: 'O JSON deve ser um array de questões.' };
+  }
+
+  const valid = []; let invalid = 0;
+  data.forEach(q => {
+    if (!q || typeof q !== 'object' || !q.question) { invalid++; return; }
+    const type = String(q.type || 'mc').toLowerCase();
+    if (!['mc','gap','tf','disc','assoc'].includes(type)) { invalid++; return; }
+    if (type === 'mc') {
+      if (!Array.isArray(q.options) || q.options.length < 2) { invalid++; return; }
+      if (typeof q.correct !== 'number' || q.correct < 0 || q.correct >= q.options.length) { invalid++; return; }
+    }
+    if ((type === 'gap' || type === 'tf') && (q.correct === undefined || q.correct === '')) { invalid++; return; }
+
+    let options = q.options || [];
+    let correct = q.correct;
+    /* assoc: pares [esquerda, direita] já corretamente casados; "correct" mapeia
+       índice do item da esquerda -> índice (na ordem original de options) do
+       correspondente correto. Segue o formato já usado pelo gerador de questões
+       da plataforma (ver prompt "Gerar questões e importar"). */
+    if (type === 'assoc') {
+      if (!Array.isArray(q.options) || q.options.length < 2) { invalid++; return; }
+      const pairsOk = q.options.every(p => Array.isArray(p) && p.length === 2 &&
+        String(p[0] ?? '').trim() !== '' && String(p[1] ?? '').trim() !== '');
+      if (!pairsOk) { invalid++; return; }
+      const n = q.options.length;
+      correct = Array.isArray(q.correct) && q.correct.length === n &&
+        q.correct.every(x => Number.isInteger(x) && x >= 0 && x < n)
+        ? q.correct
+        : q.options.map((_, i) => i);
+      options = q.options;
+    }
+
+    valid.push({
+      type, question: String(q.question).trim(),
+      category: q.category || 'Geral', options,
+      correct, explanation: q.explanation || '',
+      _id: makeQuestionId(),
+    });
+  });
+  return { valid, invalid };
+}
+
+/* Lê File do sistema e retorna resultado parseado */
+function importQuestions(file) {
+  return new Promise(res => {
+    const r = new FileReader();
+    r.onload  = e => res({ ...parseQuestions(e.target.result), fileName: file.name });
+    r.onerror = () => res({ valid: [], invalid: 0, error: 'Erro ao ler arquivo.' });
+    r.readAsText(file, 'utf-8');
+  });
+}
+
+/* Cria matéria, persiste no IndexedDB e adiciona ao SUBJECTS */
+async function createSubject(key, title, icon, questions) {
+  const subj = { key, title, label: title, icon, questions, isCustom: true, importedAt: Date.now() };
+  await saveSubjectToDB(subj);
+  SUBJECTS[key] = subj;
+  return subj;
+}
+
+function makeSubjectKey(name) {
+  return 'custom_' + name.toLowerCase().replace(/[^a-z0-9]/g,'_').slice(0,20) + '_' + Date.now();
+}
+
+/* ID estável de questão — usado por revisão/favoritos (q._id || q.question).
+   Gerado uma única vez (criação/importação) e preservado ao editar. */
+function makeQuestionId() {
+  return 'q_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 8);
+}
+
+/* ═══════════════════════════════════════════════════
+   ESTADO CENTRAL
+   ═══════════════════════════════════════════════════ */
+const S = {
+  deck:          [],
+  answers:       [],
+  validated:     [],
+  flagged:       [],
+  discEval:      [],       // autoavaliação de questões discursivas: undefined | 'correct' | 'wrong'
+  mode:          'study',
+  idx:           0,
+  timer:         0,
+  timerRef:      null,
+  phase:         'home',   // 'login' | 'subjects' | 'welcome' | 'home' | 'quiz' | 'result'
+  entering:      false,
+  justValidated: false,
+  userName:      null,     // nome do usuário autenticado
+  startedAt:     null,     // timestamp de início do simulado
+  subject:          null,   // chave da matéria ativa (ex: 'cia')
+  reviewMode:       false,  // true quando executando sessão de revisão
+  editorSubjectKey: null,   // matéria aberta no editor de questões
+  editorQIdx:       -1,     // índice da questão em edição (-1 = nova)
+};
+
+/* ═══════════════════════════════════════════════════
+   PERSISTÊNCIA (localStorage)
+   ═══════════════════════════════════════════════════ */
+const KEY = 'cia_sim_v3';
+/* progresso de sessão de REVISÃO tem chave própria — nunca deve
+   sobrescrever o progresso do simulado normal (KEY), e vice-versa. */
+const REVIEW_PROGRESS_KEY = 'cia_review_sim_v1';
+
+/* Fase 20 (C2): cada matéria tem sua própria chave de progresso — evita
+   que iniciar/sair/reiniciar em uma matéria apague o progresso salvo de
+   outra. Duas ou mais matérias podem ter sessão salva simultaneamente. */
+function subjectProgressKey(baseKey, subjectKey) {
+  return baseKey + '::' + (subjectKey || 'cia');
+}
+
+/* migra, uma única vez, progresso salvo no formato antigo (chave única
+   global, sem namespace por matéria) para a chave da matéria a que ele
+   pertence — preserva sessões salvas antes desta correção sem deixar o
+   slot antigo continuar podendo afetar outra matéria. */
+function migrateLegacyProgress() {
+  [KEY, REVIEW_PROGRESS_KEY].forEach(legacyKey => {
+    try {
+      const raw = localStorage.getItem(legacyKey);
+      if (raw) {
+        const p = JSON.parse(raw);
+        const newKey = subjectProgressKey(legacyKey, p.subject);
+        if (!localStorage.getItem(newKey)) localStorage.setItem(newKey, raw);
+      }
+    } catch(_) {}
+    try { localStorage.removeItem(legacyKey); } catch(_) {}
+  });
+}
+
+/* migra, uma única vez, favoritos/fila de revisão/aviso de acesso do
+   formato antigo (chave global, sem usuário) para a chave do usuário
+   atualmente logado. Só roda quando já existe um usuário conhecido —
+   não é possível inferir com segurança a quem pertenciam dados salvos
+   antes desta separação por usuário; como hoje só existe o usuário
+   "Turma" (CREDENTIALS), migrar para quem estiver logado no momento é
+   seguro. Idempotente: a chave antiga é removida ao final, então uma
+   segunda chamada (outro usuário, próximo login) não encontra mais
+   nada para migrar. */
+function migrateLegacyUserData() {
+  if (!S.userName) return;
+  [REVIEW_KEY, FAV_KEY, NOTICE_KEY].forEach(legacyKey => {
+    try {
+      const raw = localStorage.getItem(legacyKey);
+      if (raw !== null) {
+        const newKey = userScopedKey(legacyKey);
+        if (localStorage.getItem(newKey) === null) localStorage.setItem(newKey, raw);
+      }
+    } catch(_) {}
+    try { localStorage.removeItem(legacyKey); } catch(_) {}
+  });
+}
+
+/* save()/loadSaved()/clearSave() continuam sendo o único mecanismo de
+   persistência de progresso; apenas escolhem a chave certa conforme o
+   modo (S.reviewMode) e a matéria (S.subject) atuais no instante da
+   chamada. */
+function progressKey() {
+  return subjectProgressKey(S.reviewMode ? REVIEW_PROGRESS_KEY : KEY, S.subject);
+}
+
+/* indica se a matéria tem simulado normal salvo, recente e do usuário
+   atual — usado pela Biblioteca para destacar "Continuar" por matéria
+   (cada matéria agora tem sua própria chave, ver subjectProgressKey) */
+function hasSavedQuiz(key) {
+  try {
+    const raw = localStorage.getItem(subjectProgressKey(KEY, key));
+    if (!raw) return false;
+    const p = JSON.parse(raw);
+    if (Date.now() - p.ts > 86400000) return false;
+    const pUser = p.userName;
+    return !pUser || !S.userName || pUser === S.userName;
+  } catch(_) { return false; }
+}
+
+function save() {
+  if (S.phase !== 'quiz') return;
+  try {
+    localStorage.setItem(progressKey(), JSON.stringify({
+      deck: S.deck, answers: S.answers,
+      validated: S.validated, flagged: S.flagged,
+      discEval: S.discEval,
+      mode: S.mode, idx: S.idx, timer: S.timer,
+      userName:  S.userName,
+      startedAt: S.startedAt,
+      subject:   S.subject || 'cia',
+      reviewMode: S.reviewMode,   // rótulo de origem — usado por loadSaved() para reconhecer dado antigo/estranho sem apagá-lo
+      ts: Date.now()
+    }));
+  } catch(_) {}
+}
+
+function loadSaved() {
+  try {
+    const raw = localStorage.getItem(progressKey());
+    if (!raw) return null;
+    const p = JSON.parse(raw);
+    if (Date.now() - p.ts > 86400000) { localStorage.removeItem(progressKey()); return null; }
+    /* dado salvo antes da separação normal/revisão (Fase 14) não tem
+       "reviewMode" — trata-se como progresso normal, preservando
+       compatibilidade. Se o rótulo existir e não bater com o modo atual,
+       é um registro de outra origem (ex.: revisão antiga sob a chave
+       normal) — ignora sem apagar, para não perder dados de ninguém. */
+    if (p.reviewMode !== undefined && p.reviewMode !== S.reviewMode) return null;
+    /* ignorar progresso de outro usuário */
+    if (p.userName && S.userName && p.userName !== S.userName) return null;
+    /* ignorar progresso de outra matéria (salvo=undefined → trata como 'cia') */
+    const pSubject = p.subject || 'cia';
+    if (S.subject && pSubject !== S.subject) return null;
+    return p;
+  } catch(_) { return null; }
+}
+
+function clearSave() {
+  try { localStorage.removeItem(progressKey()); } catch(_) {}
+}
+
+/* Salva apenas progresso de simulado normal (não revisão) */
+function saveProgress() {
+  if (S.phase === 'quiz' && !S.reviewMode) save();
+}
+
+/* Retorna progresso salvo para a matéria ativa (ou null) */
+function restoreProgress() {
+  return loadSaved();
+}
+
+/* ── Sessão de usuário ───────────────────────────── */
+function getUser() {
+  try {
+    const raw = localStorage.getItem(USER_KEY);
+    return raw ? JSON.parse(raw) : null;
+  } catch(_) { return null; }
+}
+
+function setUser(name) {
+  try { localStorage.setItem(USER_KEY, JSON.stringify({ name, loginAt: Date.now() })); } catch(_) {}
+}
+
+function clearUser() {
+  try { localStorage.removeItem(USER_KEY); } catch(_) {}
+  clearSave();
+  S.userName = null;
+  stopTimer();
+  renderLogin();
+}
+
+/* ═══════════════════════════════════════════════════
+   REVISÃO — fila persistente
+   ═══════════════════════════════════════════════════ */
+function loadReview() {
+  try { return JSON.parse(localStorage.getItem(userScopedKey(REVIEW_KEY))) || []; } catch(_) { return []; }
+}
+function saveReview(q) {
+  try { localStorage.setItem(userScopedKey(REVIEW_KEY), JSON.stringify(q)); } catch(_) {}
+}
+
+/* addToReview — cria ou atualiza entrada; reason: 'wrong'|'flag' */
+function addToReview(q, subj) {
+  const id    = q._id || q.question;
+  const queue = loadReview();
+  const hit   = queue.find(r => r.questionId === id && r.subject === subj);
+  if (hit) {
+    hit.mistakes++;
+    hit.lastSeen = Date.now();
+    hit.status   = 'pending';
+    delete hit.doneAt;
+  } else {
+    queue.push({ subject: subj, questionId: id, lastSeen: Date.now(), mistakes: 1, status: 'pending' });
+  }
+  saveReview(queue);
+}
+
+/* removeFromReview — marca como concluída */
+function removeFromReview(q, subj) {
+  const id    = q._id || q.question;
+  const queue = loadReview();
+  const hit   = queue.find(r => r.questionId === id && r.subject === subj);
+  if (hit) { hit.status = 'done'; hit.doneAt = Date.now(); saveReview(queue); }
+}
+
+function getPendingReview(subj) {
+  return loadReview().filter(r => r.subject === subj && r.status === 'pending');
+}
+
+function getTodayDone(subj) {
+  const start = new Date(); start.setHours(0,0,0,0);
+  return loadReview().filter(r => r.subject === subj && r.status === 'done' && r.doneAt >= start.getTime()).length;
+}
+
+/* ═══════════════════════════════════════════════════
+   FAVORITOS
+   ═══════════════════════════════════════════════════ */
+function loadFavs() {
+  try { return JSON.parse(localStorage.getItem(userScopedKey(FAV_KEY))) || []; } catch(_) { return []; }
+}
+function isFav(q, subj) {
+  const id = q._id || q.question;
+  return loadFavs().includes(`${subj}::${id}`);
+}
+function toggleFav(q, subj) {
+  const id   = `${subj}::${(q._id || q.question)}`;
+  const favs = loadFavs();
+  const idx  = favs.indexOf(id);
+  idx >= 0 ? favs.splice(idx, 1) : favs.push(id);
+  try { localStorage.setItem(userScopedKey(FAV_KEY), JSON.stringify(favs)); } catch(_) {}
+  return idx < 0;
+}
+
+/* ═══════════════════════════════════════════════════
+   HISTÓRICO — desempenho persistente por questão (Fase 32)
+   Camada só de registro: nada aqui lê o histórico para mudar o
+   comportamento do Treino/Prova/Revisão. Independente da fila de
+   revisão (REVIEW_KEY) e dos favoritos (FAV_KEY) — coexistem sem
+   se sobrepor.
+   ═══════════════════════════════════════════════════ */
+const HISTORY_KEY = 'cia_history_v1';
+
+function loadHistory() {
+  try { return JSON.parse(localStorage.getItem(userScopedKey(HISTORY_KEY))) || {}; } catch(_) { return {}; }
+}
+function saveHistory(hist) {
+  try { localStorage.setItem(userScopedKey(HISTORY_KEY), JSON.stringify(hist)); } catch(_) {}
+}
+
+/* consulta pontual (uso futuro — não usada ainda para alterar comportamento) */
+function getQuestionHistory(subject, q) {
+  const id = q._id || q.question;
+  return loadHistory()[`${subject}::${id}`] || null;
+}
+
+/* contexto da tentativa atual, derivado do estado já existente (S.reviewMode/S.mode) */
+function historyContext() {
+  if (S.reviewMode) return 'review';
+  return S.mode === 'exam' ? 'exam' : 'training';
+}
+
+/* soma/subtrai 1 no par correct/wrong específico do contexto (training/exam/review) */
+function bumpResultBucket(entry, context, result, delta) {
+  const field = context === 'exam'
+    ? (result === 'correct' ? 'examCorrect' : 'examWrong')
+    : context === 'review'
+      ? (result === 'correct' ? 'reviewCorrect' : 'reviewWrong')
+      : (result === 'correct' ? 'trainingCorrect' : 'trainingWrong');
+  entry[field] = Math.max(0, (entry[field] || 0) + delta);
+}
+
+/* registra uma tentativa efetivamente avaliada — chamada por App.verify()
+   (mc/tf/gap/assoc) e por App.selfGradeDisc() (disc). isCorrection=true
+   só ocorre quando o aluno troca a autoavaliação de uma discursiva já
+   avaliada (Acertei ⇄ Errei): corrige o resultado sem contar uma nova
+   tentativa, já que a resposta escrita não mudou — só o julgamento dela. */
+function recordQuestionResult(subject, q, correct, context, isCorrection) {
+  const id  = q._id || q.question;
+  const key = `${subject}::${id}`;
+  const hist  = loadHistory();
+  const entry = hist[key] || {
+    subject, questionId: id, category: q.category, type: q.type,
+    attempts: 0, correct: 0, wrong: 0,
+    lastResult: null, firstSeenAt: null, lastSeenAt: null,
+    trainingAttempts: 0, trainingCorrect: 0, trainingWrong: 0,
+    examAttempts: 0, examCorrect: 0, examWrong: 0,
+    reviewAttempts: 0, reviewCorrect: 0, reviewWrong: 0,
+  };
+
+  if (isCorrection) {
+    const prev = entry.lastResult;
+    if (prev === 'correct') { entry.correct = Math.max(0, entry.correct - 1); bumpResultBucket(entry, context, 'correct', -1); }
+    else if (prev === 'wrong') { entry.wrong = Math.max(0, entry.wrong - 1); bumpResultBucket(entry, context, 'wrong', -1); }
+    correct ? entry.correct++ : entry.wrong++;
+    bumpResultBucket(entry, context, correct ? 'correct' : 'wrong', 1);
+  } else {
+    entry.attempts++;
+    correct ? entry.correct++ : entry.wrong++;
+    if (context === 'exam') entry.examAttempts++;
+    else if (context === 'review') entry.reviewAttempts++;
+    else entry.trainingAttempts++;
+    bumpResultBucket(entry, context, correct ? 'correct' : 'wrong', 1);
+    if (!entry.firstSeenAt) entry.firstSeenAt = Date.now();
+  }
+  entry.lastResult = correct ? 'correct' : 'wrong';
+  entry.lastSeenAt = Date.now();
+
+  hist[key] = entry;
+  saveHistory(hist);
+}
+
+/* remove todo o histórico de uma matéria (usado por cleanupSubjectData ao excluir) */
+function clearSubjectHistory(subject) {
+  const hist = loadHistory();
+  let changed = false;
+  Object.keys(hist).forEach(k => {
+    if (hist[k].subject === subject) { delete hist[k]; changed = true; }
+  });
+  if (changed) saveHistory(hist);
+}
+
+/* ═══════════════════════════════════════════════════
+   PREPARAÇÃO DO DECK — aceita fonte opcional para revisar erros
+   ═══════════════════════════════════════════════════ */
+function prepareDeck(source) {
+  return shuffle(source || ACTIVE_QUESTIONS).map(q => {
+    const base = { ...q, _id: q._id || q.question };
+    if (q.type === 'mc') {
+      const idxs = shuffle(q.options.map((_, i) => i));
+      return {
+        ...base,
+        shuffledOptions: idxs.map(i => q.options[i]),
+        shuffledCorrect: idxs.indexOf(q.correct),
+      };
+    }
+    if (q.type === 'assoc') {
+      const n = (q.options || []).length;
+      return {
+        ...base,
+        /* assocOrder[posição exibida] = índice original do item da direita */
+        assocOrder: shuffle([...Array(n).keys()]),
+      };
+    }
+    return base;
+  });
+}
+
+/* ═══════════════════════════════════════════════════
+   TIMER
+   ═══════════════════════════════════════════════════ */
+function updateTimerColor(sec) {
+  const el = $('timer');
+  if (!el) return;
+  el.classList.toggle('warn', sec >= 1800 && sec < 3600);
+  el.classList.toggle('crit', sec >= 3600);
+}
+
+function startTimer() {
+  stopTimer();
+  S.timerRef = setInterval(() => {
+    S.timer++;
+    const el = $('timer');
+    if (el) el.textContent = fmt(S.timer);
+    updateTimerColor(S.timer);
+    if (S.timer % 30 === 0) save();
+  }, 1000);
+}
+function stopTimer() {
+  if (S.timerRef) { clearInterval(S.timerRef); S.timerRef = null; }
+}
+
+/* ═══════════════════════════════════════════════════
+   ESTATÍSTICAS
+   ═══════════════════════════════════════════════════ */
+function isCorrectAt(i) {
+  const q = S.deck[i];
+  const a = S.answers[i];
+  if (!S.validated[i]) return null;
+
+  if (q.type === 'mc') return a === q.shuffledCorrect;
+
+  if (q.type === 'tf') {
+    const correctBool = (q.correct === true || q.correct === 'true' || q.correct === 1);
+    return a === correctBool;
+  }
+
+  if (q.type === 'assoc') {
+    const n = (q.options || []).length;
+    if (!Array.isArray(a) || a.length !== n) return false;
+    for (let li = 0; li < n; li++) {
+      const expected = (q.correct && q.correct[li] !== undefined) ? q.correct[li] : li;
+      if (a[li] !== expected) return false;
+    }
+    return true;
+  }
+
+  if (q.type === 'disc') {
+    /* corretude não é derivável do texto — depende da autoavaliação do aluno.
+       ev pode ser undefined (nunca avaliada) ou null (idem, após um
+       save()/loadSaved(): JSON não preserva "undefined" em arrays, vira
+       null) — os dois significam a mesma coisa: pendente de avaliação. */
+    const ev = S.discEval[i];
+    if (ev == null) return null;
+    return ev === 'correct';
+  }
+
+  /* gap (padrão) */
+  if (a === undefined) return null;
+  return String(a).trim().toLowerCase() === String(q.correct).trim().toLowerCase();
+}
+
+/* DISC respondida (Prova ou Treino) mas ainda sem autoavaliação — estado
+   "Pendente de avaliação", derivado 100% do estado já existente (sem
+   campo novo): validated=true + discEval ausente. */
+function isPendingDisc(i) {
+  const q = S.deck[i];
+  return q.type === 'disc' && S.validated[i] === true && S.discEval[i] == null;
+}
+
+/* Indica se a resposta atual do aluno já é suficiente para habilitar "Verificar" */
+function answerReady(q, a) {
+  switch (q.type) {
+    case 'mc':    return a !== undefined;
+    case 'tf':    return a === true || a === false;
+    case 'gap':   return a !== undefined && String(a).trim() !== '';
+    case 'disc':  return a !== undefined && String(a).trim() !== '';
+    case 'assoc': {
+      const n = (q.options || []).length;
+      return Array.isArray(a) && a.length === n && a.every(v => v !== undefined);
+    }
+    default: return false;
+  }
+}
+
+function stats() {
+  let correct = 0, wrong = 0, pending = 0, unanswered = 0, flagged = 0;
+  S.deck.forEach((_, i) => {
+    if (S.flagged[i]) flagged++;
+    if (isPendingDisc(i)) { pending++; return; }
+    const r = isCorrectAt(i);
+    if (r === null) unanswered++;
+    else if (r) correct++;
+    else wrong++;
+  });
+  const answered = correct + wrong;
+  const pct = answered ? Math.round(correct / answered * 100) : 0;
+  return { correct, wrong, pending, unanswered, flagged, answered, total: S.deck.length, pct };
+}
+
+function catStats() {
+  const map = {};
+  S.deck.forEach((q, i) => {
+    if (!S.validated[i]) return;
+    if (isPendingDisc(i)) return; // pendente não deve contar como errada na categoria
+    const c = q.category;
+    if (!map[c]) map[c] = { correct: 0, total: 0 };
+    map[c].total++;
+    if (isCorrectAt(i)) map[c].correct++;
+  });
+  return Object.entries(map)
+    .map(([name, d]) => ({ name, ...d, pct: Math.round(d.correct / d.total * 100) }))
+    .sort((a, b) => b.total - a.total);
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — CABEÇALHO
+   ═══════════════════════════════════════════════════ */
+function renderHeader() {
+  const badge   = $('mode-badge');
+  const counter = $('q-counter');
+  const fill    = $('prog-fill');
+  const srow    = $('stats-row');
+  const timerEl = $('timer');
+  const uinfo   = $('user-info');
+
+  /* exibe usuário + botão Trocar em todas as fases exceto login */
+  if (uinfo) {
+    uinfo.innerHTML = S.userName && S.phase !== 'login'
+      ? `<strong>${esc(S.userName)}</strong>
+         <button class="btn-switch" onclick="App.switchUser()">Trocar usuário</button>`
+      : '';
+  }
+
+  /* matéria atual abaixo do brand */
+  const subjNameEl = $('hd-subject-name');
+  if (subjNameEl) {
+    const inSession = ['quiz','review','result','home','modeselect'].includes(S.phase);
+    subjNameEl.textContent = (inSession && S.subject && SUBJECTS[S.subject])
+      ? SUBJECTS[S.subject].label : '';
+  }
+
+  /* botão Biblioteca: visível durante simulado, revisão e resultado */
+  const libWrap = $('lib-btn-wrap');
+  if (libWrap) {
+    libWrap.classList.toggle('visible', ['quiz','review','result'].includes(S.phase));
+  }
+
+  if (S.phase !== 'quiz') {
+    badge.style.display = 'none';
+    counter.textContent = '';
+    fill.style.width    = '0%';
+    srow.innerHTML      = '';
+    timerEl.textContent = '';
+    timerEl.className   = '';
+    return;
+  }
+
+  const pct = ((S.idx + 1) / S.deck.length * 100).toFixed(1);
+  fill.style.width    = pct + '%';
+  counter.textContent = `${S.idx + 1} / ${S.deck.length}`;
+
+  if (S.reviewMode) {
+    /* modo revisão: oculta badge de modo e timer, mostra indicador simples */
+    badge.style.display = 'none';
+    timerEl.textContent = '';
+    timerEl.className   = '';
+    srow.innerHTML = `<span class="review-pill">${icon('repeat')} Revisão</span>`;
+    return;
+  }
+
+  badge.style.display = '';
+  syncBadge();
+  timerEl.textContent = fmt(S.timer);
+  updateTimerColor(S.timer);
+
+  const st = stats();
+  srow.innerHTML = `
+    <div class="stat-it"><span class="dot dg"></span>${st.correct} acertos</div>
+    <div class="stat-it"><span class="dot dr"></span>${st.wrong} erros</div>
+    <div class="stat-it"><span class="dot dm"></span>${st.unanswered} restantes</div>
+    ${st.flagged ? `<div class="stat-it"><span class="dot da"></span>${st.flagged} marcadas</div>` : ''}
+    ${st.answered ? `<span class="stat-pct">${st.pct}% aproveit.</span>` : ''}
+  `;
+}
+
+function syncBadge() {
+  const b = $('mode-badge');
+  if (!b) return;
+  if (S.mode === 'study') {
+    b.innerHTML = icon('book-open') + ' Treino';
+    b.className = 'mode-badge study';
+  } else {
+    b.innerHTML = icon('target') + ' Prova';
+    b.className = 'mode-badge exam';
+  }
+}
+
+/* ═══════════════════════════════════════════════════
+   AVISO DE ACESSO — exibe uma vez por dispositivo
+   ═══════════════════════════════════════════════════ */
+function showAccessNotice(onClose) {
+  /* já aceitou antes e não quer ver novamente */
+  if (localStorage.getItem(userScopedKey(NOTICE_KEY)) === 'true') { onClose(); return; }
+
+  const overlay  = $('notice-overlay');
+  const btn      = $('notice-btn');
+  const userSpan = $('notice-user');
+  const chk      = $('notice-check');
+
+  if (userSpan) userSpan.textContent = S.userName || '';
+  if (chk)      chk.checked = false;
+
+  overlay.classList.add('open');
+
+  btn.onclick = () => {
+    if (chk && chk.checked) {
+      try { localStorage.setItem(userScopedKey(NOTICE_KEY), 'true'); } catch(_) {}
+    }
+    overlay.classList.remove('open');
+    onClose();
+  };
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — SELEÇÃO DE MATÉRIA
+   ═══════════════════════════════════════════════════ */
+function renderSubjects() {
+  S.phase   = 'subjects';
+  S.subject = null;
+  ACTIVE_QUESTIONS = [];
+  renderHeader();
+
+  /* última matéria usada (para destaque) */
+  let lastKey = null;
+  try { lastKey = localStorage.getItem(SUBJECT_KEY); } catch(_) {}
+
+  const allEntries = Object.entries(SUBJECTS);
+
+  /* ── classificação das matérias ─────────────────────────────────
+     Biblioteca mostra só matérias reais: nativas disponíveis (CIA),
+     importadas, criadas manualmente ou duplicadas. Sem catálogo de
+     matérias futuras/placeholders — tudo em SUBJECTS já é real.
+     Ordem alfabética por padrão — sem controle de ordenação visível. ── */
+  const allMinhasEntries = allEntries
+    .filter(([k, s]) => !s.hidden && s.isCustom)
+    .sort((a, b) => a[1].label.localeCompare(b[1].label, 'pt-BR'));
+  const ocultasEntries = allEntries.filter(([_, s]) => s.isCustom && s.hidden);
+
+  /* ── busca (filtra por nome/título, sem estrutura de dados nova) ── */
+  const searchTerm = _subjectSearch.trim().toLowerCase();
+  const minhasEntries = searchTerm
+    ? allMinhasEntries.filter(([_, s]) => `${s.label} ${s.title}`.toLowerCase().includes(searchTerm))
+    : allMinhasEntries;
+
+  /* ── paginação — só a página atual entra no DOM ── */
+  const totalPages = Math.max(1, Math.ceil(minhasEntries.length / SUBJECTS_PER_PAGE));
+  if (_subjectPage > totalPages) _subjectPage = totalPages;
+  if (_subjectPage < 1) _subjectPage = 1;
+  const pageStart   = (_subjectPage - 1) * SUBJECTS_PER_PAGE;
+  const pageEntries = minhasEntries.slice(pageStart, pageStart + SUBJECTS_PER_PAGE);
+
+  /* ── cartão "Minhas Matérias" ─────────────── */
+  function minhasCard([key, subj]) {
+    const hasSaved = hasSavedQuiz(key);
+    const pending  = getPendingReview(key).length;
+    const qCount   = subj.questions.length;
+    const qLabel   = questionCountLabel(qCount);
+    return `<div class="home-opt${hasSaved ? ' has-saved' : ''}" onclick="App.selectSubject('${key}')">
+      <span class="home-opt-icon">${esc(subj.icon)}</span>
+      <div class="home-opt-text">
+        <strong>${esc(subj.label)}</strong>
+        <span>${esc(subj.title)} &mdash; ${qLabel}</span>
+      </div>
+      <div style="display:flex;gap:5px;flex-shrink:0">
+        ${pending > 0 ? `<span class="review-pill">${icon('repeat')} ${pending}</span>` : ''}
+        ${hasSaved    ? `<span class="subject-badge">${icon('rotate-ccw')} Continuar</span>` : ''}
+      </div>
+    </div>`;
+  }
+
+  const searchHTML = allMinhasEntries.length === 0 ? '' : `
+    <input type="text" id="subject-search" class="gap-input" style="margin-bottom:12px;font-size:14px;padding:10px 13px"
+      placeholder="Buscar matéria..." value="${esc(_subjectSearch)}"
+      oninput="App.searchSubjects(this.value)">`;
+
+  /* "‹ 1 2 3 ›" — discreto, só aparece quando há mais de uma página */
+  const pagerHTML = totalPages <= 1 ? '' : `
+    <div class="subject-pager">
+      <button class="subject-pager-btn" onclick="App.goSubjectPage(${_subjectPage - 1})"
+        ${_subjectPage === 1 ? 'disabled' : ''} aria-label="Página anterior">${icon('chevron-left')}</button>
+      ${Array.from({ length: totalPages }, (_, i) => i + 1).map(n => `
+        <button class="subject-pager-btn${n === _subjectPage ? ' active' : ''}" onclick="App.goSubjectPage(${n})">${n}</button>
+      `).join('')}
+      <button class="subject-pager-btn" onclick="App.goSubjectPage(${_subjectPage + 1})"
+        ${_subjectPage === totalPages ? 'disabled' : ''} aria-label="Próxima página">${icon('chevron-right')}</button>
+    </div>`;
+
+  const minhasHTML = allMinhasEntries.length === 0
+    ? `<div class="subject-empty" style="margin-top:12px">
+        <div style="margin-bottom:12px">Nenhuma matéria criada.</div>
+        <div style="display:flex;gap:8px;justify-content:center;flex-wrap:wrap">
+          <button class="btn-p" style="font-size:13px" onclick="App.createEmptySubject()">${icon('plus')} Nova Matéria</button>
+          <button class="btn-s" style="font-size:13px" onclick="App.openImport()">${icon('upload')} Importar</button>
+        </div>
+      </div>`
+    : minhasEntries.length === 0
+      ? `<div class="subject-empty">Nenhuma matéria encontrada para "${esc(_subjectSearch)}".</div>`
+      : `<div class="home-opts">${pageEntries.map(minhasCard).join('')}</div>${pagerHTML}`;
+
+  const ocultasHTML = ocultasEntries.length === 0 ? '' : `
+    <details class="hidden-section" style="margin-top:18px">
+      <summary class="hidden-toggle">
+        <span>${icon('eye-off')} Matérias Ocultas — ${ocultasEntries.length}</span>
+        <span style="font-size:11px">▾</span>
+      </summary>
+      <div class="hidden-body">
+        ${ocultasEntries.map(([key, s]) => `
+          <div class="manage-row" style="padding:10px 0">
+            <span style="font-size:20px;opacity:.5;flex-shrink:0">${esc(s.icon)}</span>
+            <div class="manage-row-info">
+              <div class="manage-row-title" style="color:var(--muted)">${esc(s.title)}</div>
+              <div class="manage-row-meta">${s.questions.length} questões</div>
+            </div>
+            <button class="btn-ok" style="padding:6px 12px;font-size:12px"
+              onclick="App.toggleHideSubject('${key}')">${icon('eye')} Restaurar</button>
+          </div>`).join('')}
+      </div>
+    </details>`;
+
+  $('app').innerHTML = `
+    <div class="card home-wrap entering">
+      <div class="home-title">SIMULACORE</div>
+      <div class="home-sub">Treine &bull; Simule &bull; Evolua</div>
+
+      <div style="display:flex;gap:8px;margin-top:18px">
+        <button class="btn-s" style="flex:1;font-size:12px" onclick="App.openImport()">${icon('upload')} Importar</button>
+        <button class="btn-s" style="font-size:12px" onclick="App.goManageSubjects()">${icon('settings')} Gerenciar</button>
+      </div>
+
+      <div class="lib-section-hd">${icon('book-open')} Minhas Matérias</div>
+      ${searchHTML}
+      ${minhasHTML}
+
+      ${ocultasHTML}
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   EDITOR — utilitários de formulário de questão
+   ═══════════════════════════════════════════════════ */
+
+/* Constrói os campos dinâmicos do formulário de acordo com o tipo */
+function buildDynamicFields(q) {
+  const t = q.type || 'mc';
+  if (t === 'mc') {
+    const opts = [...(q.options || [])];
+    while (opts.length < 4) opts.push('');
+    const ltrs = ['A','B','C','D'];
+    return `<div class="form-group">
+      <label class="gap-label">Alternativas &mdash; marque a correta</label>
+      ${opts.map((o, i) => `<div class="qf-opt-row">
+        <input type="radio" name="qf-correct" id="qfr${i}" value="${i}" ${q.correct===i?'checked':''}>
+        <label for="qfr${i}" class="qf-opt-lbl">${ltrs[i]}</label>
+        <input type="text" id="qfopt${i}" class="gap-input" style="margin:0"
+          value="${esc(o)}" placeholder="Opção ${ltrs[i]}...">
+      </div>`).join('')}
+    </div>`;
+  }
+  if (t === 'tf') {
+    const isTrue = q.correct === true || q.correct === 'true' || q.correct === 1;
+    return `<div class="form-group">
+      <label class="gap-label">Resposta correta</label>
+      <div style="display:flex;gap:18px;margin-top:8px">
+        <label style="display:flex;align-items:center;gap:7px;font-size:14px;cursor:pointer">
+          <input type="radio" name="qf-tf" value="true" ${isTrue?'checked':''}> Verdadeiro
+        </label>
+        <label style="display:flex;align-items:center;gap:7px;font-size:14px;cursor:pointer">
+          <input type="radio" name="qf-tf" value="false" ${!isTrue?'checked':''}> Falso
+        </label>
+      </div>
+    </div>`;
+  }
+  if (t === 'gap') {
+    return `<div class="form-group">
+      <label class="gap-label">Resposta esperada</label>
+      <input type="text" id="qfcorrect" class="gap-input"
+        value="${esc(String(q.correct ?? ''))}" placeholder="Ex: abafamento">
+    </div>`;
+  }
+  if (t === 'disc') {
+    return `<div class="form-group">
+      <label class="gap-label">Gabarito modelo (opcional)</label>
+      <textarea id="qfcorrect" class="gap-input" rows="2" style="resize:vertical"
+        placeholder="Resposta esperada para consulta...">${esc(String(q.correct ?? ''))}</textarea>
+    </div>`;
+  }
+  if (t === 'assoc') {
+    const pairs = (q.options && q.options.length ? q.options : [['',''],['',''],['','']]);
+    return `<div class="form-group">
+      <label class="gap-label">Pares de associação &mdash; item da esquerda ${icon('arrow-left-right')} correspondente</label>
+      <div id="assoc-pairs">
+        ${pairs.map((p, i) => `<div class="qf-opt-row" data-assoc-row="${i}">
+          <input type="text" class="gap-input" style="margin:0" id="assoc-left-${i}"
+            value="${esc((p && p[0]) || '')}" placeholder="Item ${i+1}">
+          <span style="color:var(--muted);flex-shrink:0">${icon('arrow-left-right')}</span>
+          <input type="text" class="gap-input" style="margin:0" id="assoc-right-${i}"
+            value="${esc((p && p[1]) || '')}" placeholder="Correspondente">
+          <button type="button" class="btn-d" style="padding:6px 9px;font-size:12px;flex-shrink:0"
+            onclick="App.removeAssocPair(${i})" title="Remover par">✕</button>
+        </div>`).join('')}
+      </div>
+      <button type="button" class="btn-s" style="margin-top:6px;font-size:12px"
+        onclick="App.addAssocPair()">${icon('plus')} Adicionar par</button>
+    </div>`;
+  }
+  return '';
+}
+
+/* Lê o formulário atual e retorna um objeto de questão */
+function readQuestionForm() {
+  const activeTab = document.querySelector('.qtype-tab.active');
+  const type      = activeTab ? activeTab.dataset.type : 'mc';
+  const category    = ($('qf-category')    || {}).value?.trim() || 'Geral';
+  const question    = ($('qf-question')    || {}).value?.trim() || '';
+  const explanation = ($('qf-explanation') || {}).value?.trim() || '';
+  let options = [], correct;
+  if (type === 'mc') {
+    options = [0,1,2,3].map(i => ($('qfopt' + i) || {}).value?.trim() || '');
+    const r = document.querySelector('input[name="qf-correct"]:checked');
+    correct = r ? parseInt(r.value) : 0;
+  } else if (type === 'tf') {
+    const r = document.querySelector('input[name="qf-tf"]:checked');
+    correct = r ? r.value === 'true' : true;
+  } else if (type === 'assoc') {
+    const rows = document.querySelectorAll('[data-assoc-row]');
+    options = Array.from(rows).map(row => {
+      const i     = row.dataset.assocRow;
+      const left  = ($('assoc-left-'  + i) || {}).value?.trim() || '';
+      const right = ($('assoc-right-' + i) || {}).value?.trim() || '';
+      return [left, right];
+    });
+    correct = options.map((_, i) => i);
+  } else {
+    correct = ($('qfcorrect') || {}).value?.trim() || '';
+  }
+  return { type, category, question, options, correct, explanation };
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — EDITOR DE MATÉRIA
+   ═══════════════════════════════════════════════════ */
+function renderSubjectEditor(key) {
+  S.phase = 'subject-editor';
+  S.editorSubjectKey = key;
+  renderHeader();
+  const subj = SUBJECTS[key];
+  if (!subj) { renderManageSubjects(); return; }
+
+  const qRows = subj.questions.map((q, i) => {
+    const type = (q.type || 'mc').toLowerCase();
+    return `<div class="qed-row">
+      <span class="qed-badge qed-${type}">${type.toUpperCase()}</span>
+      <span class="qed-q" title="${esc(q.question)}">${esc(q.question.slice(0,80))}${q.question.length>80?'…':''}</span>
+      <div class="qed-acts">
+        <button class="btn-s" style="padding:5px 9px;font-size:12px"
+          onclick="App.editQuestion('${key}',${i})" title="Editar">${icon('pencil')}</button>
+        <button class="btn-d" style="padding:5px 9px;font-size:12px"
+          onclick="App.deleteQuestion('${key}',${i})" title="Excluir">${icon('trash-2')}</button>
+      </div>
+    </div>`;
+  }).join('');
+
+  $('app').innerHTML = `
+    <div class="card entering" style="max-width:820px;margin:0 auto;padding:24px">
+      <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:16px">
+        <button class="btn-s" style="padding:6px 11px;font-size:12px"
+          onclick="App.goManageSubjects()">${icon('chevron-left')} Gerenciar</button>
+        <div class="home-title" style="margin:0;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis">
+          ${esc(subj.icon)} ${esc(subj.title)}
+        </div>
+        <button class="btn-s" style="font-size:12px"
+          onclick="App.editSubjectName('${key}')">${icon('pencil')} Nome</button>
+        <button class="btn-s" style="font-size:12px"
+          onclick="App.exportSubjectBank('${key}')">${icon('download')} Exportar</button>
+        <button class="btn-p" style="font-size:12px"
+          onclick="App.addQuestion('${key}')">${icon('plus')} Questão</button>
+      </div>
+      <div class="home-sub" style="margin-bottom:16px">${questionCountLabel(subj.questions.length)}</div>
+      ${subj.questions.length === 0
+        ? `<div class="subject-empty">Nenhuma questão ainda.<br>Adicione a primeira com o botão acima.</div>`
+        : `<div class="qed-list">${qRows}</div>`}
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — FORMULÁRIO DE QUESTÃO (nova / editar)
+   ═══════════════════════════════════════════════════ */
+function renderQuestionForm(key, qIdx) {
+  S.phase = 'question-form';
+  S.editorSubjectKey = key;
+  S.editorQIdx = qIdx;
+  renderHeader();
+
+  const subj = SUBJECTS[key];
+  const isNew = qIdx === -1;
+  const base  = isNew
+    ? { type:'mc', category:'', question:'', options:['','','',''], correct:0, explanation:'' }
+    : { ...subj.questions[qIdx], options:[...(subj.questions[qIdx].options||[])] };
+  /* padding de 4 alternativas vazias só se aplica ao tipo mc */
+  if (base.type === 'mc') { while ((base.options||[]).length < 4) base.options.push(''); }
+
+  const tabs = ['mc','tf','gap','disc','assoc'].map(t =>
+    `<button class="qtype-tab${base.type===t?' active':''}" data-type="${t}"
+       onclick="App.switchQType('${t}')">${t.toUpperCase()}</button>`).join('');
+
+  $('app').innerHTML = `
+    <div class="card entering" style="max-width:680px;margin:0 auto;padding:24px">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:20px">
+        <button class="btn-s" style="padding:6px 11px;font-size:12px"
+          onclick="App.cancelQuestionEdit()">${icon('chevron-left')} Cancelar</button>
+        <div class="home-title" style="margin:0">${isNew ? icon('plus') + ' Nova Questão' : icon('pencil') + ' Editar Questão'}</div>
+      </div>
+
+      <div class="form-group" style="margin-bottom:14px">
+        <label class="gap-label">Tipo</label>
+        <div class="qtype-tabs">${tabs}</div>
+      </div>
+
+      <div class="form-group" style="margin-bottom:14px">
+        <label class="gap-label">Categoria</label>
+        <input type="text" id="qf-category" class="gap-input"
+          value="${esc(base.category)}" placeholder="Ex: Caldeiras, CO₂, Segurança...">
+      </div>
+
+      <div class="form-group" style="margin-bottom:14px">
+        <label class="gap-label">Enunciado</label>
+        <textarea id="qf-question" class="gap-input" rows="3"
+          placeholder="Texto da questão...">${esc(base.question)}</textarea>
+      </div>
+
+      <div id="qf-dynamic">${buildDynamicFields(base)}</div>
+
+      <div class="form-group" style="margin-top:14px">
+        <label class="gap-label">Explicação (opcional)</label>
+        <textarea id="qf-explanation" class="gap-input" rows="2"
+          placeholder="Explicação da resposta correta...">${esc(base.explanation||'')}</textarea>
+      </div>
+
+      <div class="btn-bar" style="margin-top:22px">
+        <button class="btn-s" onclick="App.cancelQuestionEdit()">Cancelar</button>
+        <span class="spacer"></span>
+        <button class="btn-p" onclick="App.saveQuestion()">${icon('save')} Salvar Questão</button>
+      </div>
+    </div>
+  `;
+  const qEl = $('qf-question'); if (qEl && isNew) qEl.focus();
+}
+
+/* Remove progresso, revisões, favoritos e histórico de uma matéria */
+function cleanupSubjectData(key) {
+  try { localStorage.removeItem(subjectProgressKey(KEY, key)); } catch(_) {}
+  try { localStorage.removeItem(subjectProgressKey(REVIEW_PROGRESS_KEY, key)); } catch(_) {}
+  try {
+    const queue = loadReview().filter(r => r.subject !== key);
+    saveReview(queue);
+  } catch(_) {}
+  try {
+    const favs = loadFavs().filter(f => !f.startsWith(key + '::'));
+    localStorage.setItem(userScopedKey(FAV_KEY), JSON.stringify(favs));
+  } catch(_) {}
+  try { clearSubjectHistory(key); } catch(_) {}
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — GERENCIAR MATÉRIAS
+   ═══════════════════════════════════════════════════ */
+function renderManageSubjects() {
+  S.phase = 'manage';
+  renderHeader();
+  const customs = Object.values(SUBJECTS).filter(s => s.isCustom);
+  const visible = customs.filter(s => !s.hidden);
+  const hidden  = customs.filter(s =>  s.hidden);
+
+  /* botões de uma matéria — visível ou oculta. Todas as matérias do
+     usuário disponibilizam o mesmo conjunto de ações (Abrir, Editar,
+     Exportar, Duplicar, Ocultar/Restaurar, Proteger, Excluir); só a
+     ação de ocultar/restaurar e o estilo mudam conforme o estado. */
+  function subjectRow(s) {
+    const prot   = s.protected;
+    const hid    = !!s.hidden;
+    const dimmed = hid ? 'opacity:.5;' : '';
+    return `<div class="manage-row">
+      <span style="font-size:${hid?20:22}px;flex-shrink:0;${dimmed}">${esc(s.icon)}</span>
+      <div class="manage-row-info">
+        <div class="manage-row-title"${hid ? ' style="color:var(--muted)"' : ''}>
+          ${esc(s.title)}
+          ${prot ? '<span class="badge-protected">' + icon('lock') + '</span>' : ''}
+        </div>
+        <div class="manage-row-meta">${s.questions.length} questões${s.importedAt ? ' &bull; ' + new Date(s.importedAt).toLocaleDateString('pt-BR') : ''}</div>
+      </div>
+      <div class="row-menu-wrap">
+        <button class="row-menu-btn" onclick="App.toggleRowMenu(event,'${s.key}')" title="Ações">⋮</button>
+        <div class="row-menu" id="row-menu-${s.key}">
+          <button onclick="App.selectSubject('${s.key}')">Abrir</button>
+          <button onclick="App.openSubjectEditor('${s.key}')">Editar</button>
+          <button onclick="App.exportSubjectBank('${s.key}')">Exportar</button>
+          <button onclick="App.duplicateSubject('${s.key}')">Duplicar</button>
+          ${hid
+            ? `<button onclick="App.toggleHideSubject('${s.key}')">Restaurar</button>`
+            : `<button onclick="App.toggleHideSubject('${s.key}')">Ocultar</button>
+               <button onclick="App.toggleProtectSubject('${s.key}')">${prot ? 'Remover proteção' : 'Proteger'}</button>`}
+          <button class="row-menu-danger" onclick="App.deleteSubject('${s.key}')" ${prot?'disabled':''}>Excluir</button>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  const visibleRows = visible.length === 0
+    ? `<div class="subject-empty">Nenhuma matéria ativa. Crie ou importe uma abaixo.</div>`
+    : visible.map(subjectRow).join('');
+
+  const hiddenSection = hidden.length === 0 ? '' : `
+    <details class="hidden-section">
+      <summary class="hidden-toggle">
+        <span>Matérias Ocultas — ${hidden.length}</span>
+        <span style="font-size:11px">▼</span>
+      </summary>
+      <div class="hidden-body">${hidden.map(subjectRow).join('')}</div>
+    </details>`;
+
+  $('app').innerHTML = `
+    <div class="card home-wrap entering">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:16px;flex-wrap:wrap">
+        <button class="btn-s" style="padding:6px 11px;font-size:12px"
+          onclick="App.goSubjects()">${icon('chevron-left')} Biblioteca</button>
+        <div class="home-title" style="margin:0;flex:1">${icon('settings')} Gerenciar Matérias</div>
+        <button class="btn-p" style="font-size:12px" onclick="App.createEmptySubject()">${icon('plus')} Nova Matéria</button>
+      </div>
+      <div class="home-sub" style="margin-bottom:14px">Matérias customizadas — ${customs.length}</div>
+      ${visibleRows}
+      ${hiddenSection}
+      <div style="display:flex;gap:8px;margin-top:18px">
+        <button class="btn-s" style="flex:1;font-size:12px" onclick="App.openImport()">${icon('upload')} Importar JSON</button>
+      </div>
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — SELEÇÃO DE MODO
+   ═══════════════════════════════════════════════════ */
+function renderModeSelect() {
+  S.phase = 'modeselect';
+  renderHeader();
+  const subj = SUBJECTS[S.subject] || SUBJECTS['cia'];
+
+  $('app').innerHTML = `
+    <div class="card home-wrap entering">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+        <button class="btn-s" style="padding:6px 11px;font-size:12px"
+          onclick="App.goHome()">${icon('chevron-left')} Início</button>
+        <div class="home-title" style="margin:0">Escolha o modo</div>
+      </div>
+      <div class="home-sub">${esc(subj.icon)} ${esc(subj.label)}</div>
+
+      <div style="display:flex;flex-direction:column;gap:12px;margin-top:22px">
+
+        <div class="mode-card exam-card" onclick="App.startExam()">
+          <div class="mode-card-icon">${icon('target')}</div>
+          <div class="mode-card-title">Modo Prova</div>
+          <div class="mode-card-desc">
+            Simula condições de prova real.<br>
+            Sem correção imediata — resultado completo ao finalizar.
+          </div>
+          <div class="mode-card-tags">
+            <span class="mode-tag">Sem feedback</span>
+            <span class="mode-tag">Cronômetro</span>
+            <span class="mode-tag">Nota final</span>
+            <span class="mode-tag">Categorias</span>
+          </div>
+        </div>
+
+        <div class="mode-card train-card" onclick="App.startTraining()">
+          <div class="mode-card-icon">${icon('book-open')}</div>
+          <div class="mode-card-title">Modo Treino</div>
+          <div class="mode-card-desc">
+            Aprenda com feedback imediato após cada resposta.<br>
+            Erros salvos automaticamente para revisão.
+          </div>
+          <div class="mode-card-tags">
+            <span class="mode-tag">Explicações</span>
+            <span class="mode-tag">Resposta correta</span>
+            <span class="mode-tag">Fila de revisão</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — REVISÃO (landing)
+   ═══════════════════════════════════════════════════ */
+function renderReview() {
+  S.phase = 'review';
+  renderHeader();
+  const subj    = S.subject || 'cia';
+  const subjObj = SUBJECTS[subj] || SUBJECTS['cia'];
+  const pending = getPendingReview(subj);
+  const done    = loadReview().filter(r => r.subject === subj && r.status === 'done').length;
+  const today   = getTodayDone(subj);
+
+  $('app').innerHTML = `
+    <div class="card home-wrap entering">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+        <button class="btn-s" style="padding:6px 11px;font-size:12px"
+          onclick="App.goHome()">${icon('chevron-left')} Início</button>
+        <div class="home-title" style="margin:0">${icon('repeat')} Revisão</div>
+      </div>
+      <div class="home-sub">${esc(subjObj.icon)} ${esc(subjObj.title)}</div>
+
+      <div class="result-grid" style="margin:20px 0">
+        <div class="res-stat">
+          <span class="res-val" style="color:var(--blue)">${today}</span>
+          <div class="res-lbl">Hoje</div>
+        </div>
+        <div class="res-stat">
+          <span class="res-val" style="color:var(--amber)">${pending.length}</span>
+          <div class="res-lbl">Pendentes</div>
+        </div>
+        <div class="res-stat">
+          <span class="res-val" style="color:var(--green)">${done}</span>
+          <div class="res-lbl">Concluídas</div>
+        </div>
+      </div>
+
+      ${pending.length === 0
+        ? `<div class="subject-empty">${icon('check')} Nenhuma questão pendente de revisão.</div>`
+        : `<button class="btn-p" style="width:100%;margin-top:4px"
+             onclick="App.startReview()">${icon('play')} Iniciar Revisão (${pending.length} questões)</button>`
+      }
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — LOGIN
+   ═══════════════════════════════════════════════════ */
+function renderLogin() {
+  S.phase = 'login';
+  renderHeader();
+  $('app').innerHTML = `
+    <div class="card home-wrap entering">
+      <div class="home-title">Bem-vindo ao SimulaCore</div>
+      <div class="home-sub">Sua plataforma pessoal de simulados.</div>
+      <div class="login-form">
+        <div class="form-group">
+          <label class="gap-label" for="login-name">Nome</label>
+          <input type="text" id="login-name" class="gap-input"
+            placeholder="Seu nome" autocomplete="off"
+            onkeydown="if(event.key==='Enter')$('login-key').focus()">
+        </div>
+        <div class="form-group">
+          <label class="gap-label" for="login-key">Chave de acesso</label>
+          <input type="password" id="login-key" class="gap-input"
+            placeholder="Chave" autocomplete="off"
+            onkeydown="if(event.key==='Enter')App.doLogin()">
+        </div>
+        <div id="login-err" class="login-err"></div>
+        <button class="btn-p" style="width:100%;margin-top:4px" onclick="App.doLogin()">Entrar</button>
+      </div>
+    </div>
+  `;
+  setTimeout(() => { const el = $('login-name'); if (el) el.focus(); }, 40);
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — BEM-VINDO DE VOLTA
+   ═══════════════════════════════════════════════════ */
+function renderWelcome(saved) {
+  S.phase = 'welcome';
+  renderHeader();
+  const current = saved.idx + 1;
+  const total   = saved.deck.length;
+  const subj    = SUBJECTS[S.subject] || SUBJECTS['cia'];
+  $('app').innerHTML = `
+    <div class="card home-wrap entering">
+      <div class="home-title">Bem-vindo, ${esc(S.userName)}!</div>
+      <div class="home-sub">${esc(subj.icon)} ${esc(subj.title)} — simulado em andamento</div>
+      <div class="welcome-info">
+        <div class="welcome-q">${current}<span> / ${total}</span></div>
+        <div class="welcome-lbl">questão atual</div>
+      </div>
+      <div class="home-btn-row" style="margin-top:22px">
+        <button class="btn-p" style="flex:1" onclick="App.continueSaved()">${icon('rotate-ccw')} Continuar</button>
+        <button class="btn-s" onclick="App.startNew()">⟳ Recomeçar</button>
+      </div>
+      <div style="margin-top:12px;text-align:center">
+        <button class="btn-s" style="font-size:12px;padding:7px 13px"
+          onclick="App.goSubjects()">${icon('chevron-left')} Trocar matéria</button>
+      </div>
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — HOME
+   ═══════════════════════════════════════════════════ */
+function renderHome() {
+  S.phase = 'home';
+  renderHeader();
+  const saved = loadSaved();
+  const subj  = SUBJECTS[S.subject] || SUBJECTS['cia'];
+  const hasQ  = ACTIVE_QUESTIONS.length > 0;
+
+  $('app').innerHTML = `
+    <div class="card home-wrap entering">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:6px">
+        <button class="btn-s" style="padding:6px 11px;font-size:12px"
+          onclick="App.goSubjects()">${icon('chevron-left')} Matérias</button>
+        <div class="home-title" style="margin:0">${esc(subj.icon)} ${esc(subj.label)}</div>
+      </div>
+      <div class="home-sub">${esc(subj.title)} &mdash; ${ACTIVE_QUESTIONS.length} questões</div>
+      ${!hasQ ? `<div class="subject-empty">${icon('settings')} Banco de questões em preparação.</div>` : `
+      <div class="home-btn-row" style="margin-top:22px">
+        <button class="btn-p" style="flex:1" onclick="App.goModeSelect()">${icon('play')} Iniciar Simulado</button>
+        ${saved ? `<button class="btn-s" onclick="App.continueSaved()">${icon('rotate-ccw')} Continuar ${S.mode==='exam'?'(Prova)':'(Treino)'}</button>` : ''}
+      </div>
+      ${(() => { const p = getPendingReview(S.subject||'cia').length; return p > 0 ? `
+      <div class="review-card" onclick="App.goReview()">
+        <div class="review-card-left">
+          <span style="font-size:20px">${icon('repeat')}</span>
+          <div>
+            <div style="font-size:14px;font-weight:700;color:var(--txt)">Revisão</div>
+            <div style="font-size:12px;color:var(--muted)">questões que precisam de atenção</div>
+          </div>
+        </div>
+        <span class="review-card-count">${p}</span>
+      </div>` : ''; })()}`}
+      ${subj.isCustom ? `
+      <div style="margin-top:14px;text-align:center">
+        <button class="btn-s" style="font-size:12px;padding:7px 13px"
+          onclick="App.openSubjectEditor('${S.subject}')">${icon('pencil')} Gerenciar Questões</button>
+      </div>` : ''}
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — QUESTÃO
+   ═══════════════════════════════════════════════════ */
+function renderQuestion() {
+  S.phase = 'quiz';
+  const q     = S.deck[S.idx];
+  const val   = S.validated[S.idx];
+  const flag  = S.flagged[S.idx];
+  const ans   = S.answers[S.idx];
+  const study = S.mode === 'study';
+  /* DISC em Prova não revela gabarito nem autoavaliação — mas Revisão
+     (S.reviewMode) nunca deve ser tratada como Prova aqui, mesmo que
+     S.mode tenha ficado com valor de uma sessão anterior (ex.: o aluno
+     volta à Biblioteca após uma Prova e depois abre a Revisão de outra
+     matéria sem passar por startNew()/restart(), que resetam S.mode) */
+  const discProva = q.type === 'disc' && !study && !S.reviewMode;
+
+  /* consumir flags de animação antes de construir o HTML */
+  const entering      = S.entering;      S.entering      = false;
+  const justValidated = S.justValidated; S.justValidated = false;
+
+  /* — corpo: opções MC, V/F, lacuna, discursiva ou associação — */
+  let bodyHTML = '';
+
+  if (q.type === 'mc') {
+    const ltrs = ['A','B','C','D'];
+    bodyHTML = '<div class="options">' +
+      q.shuffledOptions.map((opt, i) => {
+        let cls = 'option';
+        let sym = ltrs[i];  // símbolo no círculo
+        if (val) {
+          cls += ' locked';
+          /* Prova: trava a opção sem revelar certo/errado — só o Treino
+             mostra a cor e a animação de acerto/erro */
+          if (study) {
+            if (i === q.shuffledCorrect) { cls += ' correct'; sym = icon('check'); }
+            else if (ans === i)          { cls += ' wrong';   sym = icon('x'); }
+            if (justValidated && (i === q.shuffledCorrect || ans === i)) cls += ' anim';
+          } else if (ans === i) {
+            cls += ' selected';
+          }
+        } else if (ans === i) {
+          cls += ' selected';
+        }
+        const click = val ? '' : `onclick="App.pick(${i})"`;
+        return `<div class="${cls}" ${click}>
+          <span class="opt-ltr">${sym}</span>${esc(opt)}
+        </div>`;
+      }).join('') + '</div>';
+
+  } else if (q.type === 'tf') {
+    const correctBool = (q.correct === true || q.correct === 'true' || q.correct === 1);
+    const opts = [{ label: 'Verdadeiro', val: true, sym: 'V' }, { label: 'Falso', val: false, sym: 'F' }];
+    bodyHTML = '<div class="options">' +
+      opts.map(o => {
+        let cls = 'option';
+        let sym = o.sym;
+        if (val) {
+          cls += ' locked';
+          if (study) {
+            if (o.val === correctBool) { cls += ' correct'; sym = icon('check'); }
+            else if (ans === o.val)    { cls += ' wrong';   sym = icon('x'); }
+            if (justValidated && (o.val === correctBool || ans === o.val)) cls += ' anim';
+          } else if (ans === o.val) {
+            cls += ' selected';
+          }
+        } else if (ans === o.val) {
+          cls += ' selected';
+        }
+        const click = val ? '' : `onclick="App.pickTF(${o.val})"`;
+        return `<div class="${cls}" ${click}>
+          <span class="opt-ltr">${sym}</span>${o.label}
+        </div>`;
+      }).join('') + '</div>';
+
+  } else if (q.type === 'gap') {
+    let inputCls = 'gap-input';
+    let hint     = '';
+    /* Prova: input trava (disabled) mas sem cor nem gabarito revelado */
+    if (val && study) {
+      const ok = isCorrectAt(S.idx);
+      inputCls += ok ? ' correct' : ' wrong';
+      if (!ok) {
+        hint = `<div class="gap-answer-hint show">${icon('check')} Resposta esperada: <strong>${esc(q.correct)}</strong></div>`;
+      }
+    }
+    bodyHTML = `<div class="gap-wrap">
+      <div class="gap-label">Digite a palavra ou expressão que completa a frase:</div>
+      <input type="text" id="gap-input" class="${inputCls}"
+        value="${esc(String(ans ?? ''))}"
+        ${val ? 'disabled' : ''}
+        placeholder="Sua resposta..."
+        oninput="App.typeGap(this.value)"
+        onkeydown="if(event.key==='Enter')App.verify()"
+      />
+      ${hint}
+    </div>`;
+
+  } else if (q.type === 'disc') {
+    if (!val) {
+      bodyHTML = `<div class="gap-wrap">
+        <div class="gap-label">Digite sua resposta:</div>
+        <textarea id="disc-input" class="gap-input" rows="4"
+          placeholder="Sua resposta..."
+          oninput="App.typeDisc(this.value)">${esc(String(ans ?? ''))}</textarea>
+      </div>`;
+    } else if (discProva) {
+      /* Prova: resposta fica registrada, sem gabarito nem autoavaliação —
+         a avaliação da discursiva fica pendente até depois de finalizar */
+      bodyHTML = `<div class="gap-wrap">
+        <div class="gap-label">Sua resposta (registrada):</div>
+        <div class="gap-input" style="white-space:pre-wrap">${esc(String(ans || '(sem resposta)'))}</div>
+      </div>`;
+    } else {
+      const evVal = S.discEval[S.idx];
+      bodyHTML = `<div class="gap-wrap">
+        <div class="gap-label">Sua resposta:</div>
+        <div class="gap-input" style="white-space:pre-wrap">${esc(String(ans || '(sem resposta)'))}</div>
+        ${q.correct ? `<div class="gap-label" style="margin-top:10px">Gabarito / resposta esperada:</div>
+        <div class="gap-input" style="white-space:pre-wrap;border-color:var(--blue)">${esc(String(q.correct))}</div>` : ''}
+        <div class="gap-label" style="margin-top:12px">Você acertou?</div>
+        <div style="display:flex;gap:10px">
+          <button class="${evVal==='correct' ? 'btn-ok' : 'btn-s'}" onclick="App.selfGradeDisc(true)">${icon('check')} Acertei</button>
+          <button class="${evVal==='wrong'   ? 'btn-d'  : 'btn-s'}" onclick="App.selfGradeDisc(false)">${icon('x')} Errei</button>
+        </div>
+      </div>`;
+    }
+
+  } else if (q.type === 'assoc') {
+    const n            = (q.options || []).length;
+    const order        = q.assocOrder || [...Array(n).keys()];
+    const currentAns   = Array.isArray(ans) ? ans : Array(n).fill(undefined);
+    bodyHTML = '<div style="display:flex;flex-direction:column;gap:10px">' +
+      q.options.map((pair, li) => {
+        const leftLabel  = pair[0];
+        const selected   = currentAns[li];
+        const correctIdx = (q.correct && q.correct[li] !== undefined) ? q.correct[li] : li;
+        let rowCls = 'option';
+        if (val) {
+          rowCls += ' locked';
+          /* Prova: trava a linha sem indicar se o par está certo */
+          if (study) rowCls += (selected === correctIdx) ? ' correct' : ' wrong';
+        }
+        const optsHTML = `<option value="" ${selected===undefined?'selected':''}>Selecione...</option>` +
+          order.map(origIdx =>
+            `<option value="${origIdx}" ${selected===origIdx?'selected':''}>${esc(q.options[origIdx][1])}</option>`
+          ).join('');
+        return `<div class="${rowCls}" style="justify-content:space-between;gap:12px;flex-wrap:wrap">
+          <span style="flex:1;min-width:0;overflow-wrap:break-word">${esc(leftLabel)}</span>
+          <select class="gap-input" style="width:auto;min-width:170px;margin:0;flex-shrink:0"
+            ${val ? 'disabled' : ''} onchange="App.pickAssoc(${li}, this.value)">
+            ${optsHTML}
+          </select>
+        </div>`;
+      }).join('') + '</div>';
+  }
+
+  /* — explicação — */
+  let expHTML = '';
+  if (val) {
+    if (q.type === 'disc' && !discProva) {
+      const ev = S.discEval[S.idx];
+      if (ev == null) {
+        expHTML = q.explanation ? `<div class="explanation show">
+          <div class="exp-res neutral">Marque acima se você acertou ou errou</div>
+          ${esc(q.explanation)}
+        </div>` : '';
+      } else {
+        expHTML = `<div class="explanation show">
+          <div class="exp-res ${ev==='correct' ? 'ok' : 'bad'}">${ev==='correct' ? icon('check') + ' Você marcou: Acertei' : icon('x') + ' Você marcou: Errei'}</div>
+          ${esc(q.explanation || '')}
+        </div>`;
+      }
+    } else if (q.type !== 'disc' && (study || S.reviewMode)) {
+      /* Prova (não-DISC): nenhum painel de explicação/feedback — só o
+         estado travado das opções já indica que a resposta foi registrada */
+      const ok = isCorrectAt(S.idx);
+      expHTML = `<div class="explanation show">
+        <div class="exp-res ${ok ? 'ok' : 'bad'}">${ok ? icon('check') + ' Correto!' : icon('x') + ' Incorreto'}</div>
+        ${esc(q.explanation || '')}
+      </div>`;
+    }
+  }
+
+  /* — botões de navegação — */
+  const canVerify = !val && answerReady(q, ans);
+  const isLast    = S.idx === S.deck.length - 1;
+  /* Prova: sem botão Verificar para questões objetivas — a verificação
+     acontece silenciosamente ao navegar (App.nav()/App.confirmFinish(),
+     já auto-verificam). DISC mantém o botão em qualquer modo. */
+  const showVerifyBtn = q.type === 'disc' || study;
+  /* discProva (definida acima): o botão só registra a resposta, não
+     corrige — rótulo reflete isso para não sugerir correção imediata */
+  const verifyBtn = showVerifyBtn ? `
+        <button id="btn-verify" class="${val ? 'btn-s' : 'btn-p'}" onclick="App.verify()" ${!canVerify?'disabled':''}>
+          ${discProva
+            ? (val ? icon('check') + ' Resposta registrada' : icon('check') + ' Registrar resposta')
+            : (val ? icon('check') + ' Verificado' : icon('check') + ' Verificar')}
+        </button>` : '';
+
+  /* Na última questão o botão de avanço vira CTA verde de resultado */
+  const nextBtn = isLast
+    ? `<button class="btn-ok" onclick="App.confirmFinish()">${icon('flag-triangle-right')} Ver Resultado</button>`
+    : `<button class="btn-s"  onclick="App.nav(1)">Próxima ${icon('chevron-right')}</button>`;
+
+  /* Botão Finalizar discreto só aparece quando não é a última questão */
+  const finishBtn = isLast ? '' :
+    `<div class="btn-sep"></div>
+     <button class="btn-finish" onclick="App.confirmFinish()" title="Encerrar simulado agora">${icon('flag-triangle-right')}</button>`;
+
+  $('app').innerHTML = `
+    <div class="card${entering ? ' entering' : ''}">
+      <div class="q-hd">
+        <span class="q-tag">${esc(q.category)}</span>
+        <div style="display:flex;gap:6px;flex-shrink:0">
+          <button class="btn-flag ${isFav(q, S.subject||'cia') ? 'fav-active' : ''}"
+            onclick="App.toggleFavorite()" title="Favoritar">
+            ${icon('star', isFav(q, S.subject||'cia'))}
+          </button>
+          <button class="btn-flag ${flag ? 'flagged' : ''}" onclick="App.toggleFlag()" title="Marcar para revisão">
+            ${icon('flag', flag)} ${flag ? 'Marcada' : 'Marcar'}
+          </button>
+        </div>
+      </div>
+      <div class="q-text">${esc(q.question)}</div>
+      ${bodyHTML}
+      ${expHTML}
+      <div class="btn-bar">
+        <button class="btn-s" onclick="App.nav(-1)" ${S.idx===0?'disabled':''}>${icon('chevron-left')} Anterior</button>
+        ${verifyBtn}
+        <span class="spacer"></span>
+        ${nextBtn}
+        ${finishBtn}
+      </div>
+    </div>
+  `;
+
+  renderHeader();
+}
+
+/* ═══════════════════════════════════════════════════
+   RENDER — RESULTADO FINAL
+   ═══════════════════════════════════════════════════ */
+function renderResult() {
+  S.phase = 'result';
+  stopTimer();
+  clearSave();
+  renderHeader();
+
+  const st   = stats();
+  const cs   = catStats();
+  const pct  = Math.round(st.correct / st.total * 100);
+  const time = fmt(S.timer);
+
+  let grade, gc;
+  if (pct >= 90)      { grade = 'Excelente! ' + icon('trophy');          gc = 'var(--green)'; }
+  else if (pct >= 70) { grade = 'Aprovado ' + icon('check');             gc = 'var(--blue)'; }
+  else if (pct >= 50) { grade = 'Regular — continue! ' + icon('triangle-alert'); gc = 'var(--amber)'; }
+  else                { grade = 'Precisa reforçar ' + icon('x');         gc = 'var(--red)'; }
+
+  /* barras por categoria */
+  const catHTML = cs.map(c => {
+    const color = c.pct >= 70 ? 'var(--green)' : c.pct >= 50 ? 'var(--amber)' : 'var(--red)';
+    return `<div class="cat-row">
+      <span class="cat-name" title="${esc(c.name)}">${esc(c.name)}</span>
+      <div class="cat-track">
+        <div class="cat-fill" style="width:${c.pct}%;background:${color}"></div>
+      </div>
+      <span class="cat-pct">${c.pct}%</span>
+    </div>`;
+  }).join('');
+
+  /* pontos fortes (>=70%) e pontos fracos (<50%) com mínimo 2 questões respondidas */
+  const strong = cs.filter(c => c.pct >= 70 && c.total >= 2);
+  const weak   = cs.filter(c => c.pct <  50 && c.total >= 2);
+
+  const strongHTML = strong.length
+    ? strong.map(c => `<div class="hl-item"><span>${esc(c.name)}</span><span class="hl-pct">${c.pct}%</span></div>`).join('')
+    : `<div class="hl-empty">Nenhuma categoria com domínio alto ainda</div>`;
+
+  const weakHTML = weak.length
+    ? weak.map(c => `<div class="hl-item"><span>${esc(c.name)}</span><span class="hl-pct">${c.pct}%</span></div>`).join('')
+    : `<div class="hl-empty">Sem categorias críticas — bom trabalho!</div>`;
+
+  /* label de modo */
+  const modeLabel = S.mode === 'exam'
+    ? `<span class="review-pill" style="border-color:color-mix(in srgb, var(--blue) 35%, transparent);color:var(--blue);background:color-mix(in srgb, var(--blue) 10%, transparent)">${icon('target')} Modo Prova</span>`
+    : `<span class="review-pill" style="border-color:color-mix(in srgb, var(--green) 30%, transparent);color:var(--green);background:color-mix(in srgb, var(--green) 7%, transparent)">${icon('book-open')} Modo Treino</span>`;
+
+  /* sugestões exclusivas do modo treino */
+  const trainingExtra = S.mode === 'study' ? (() => {
+    const pendingNow = getPendingReview(S.subject || 'cia').length;
+    const tips = weak.slice(0, 3).map(c =>
+      `<div class="suggestion-item"><span>${icon('chevron-right')}</span> Revisar <strong>${esc(c.name)}</strong> (${c.pct}% de acerto)</div>`
+    ).join('');
+    return `<div class="suggestion-box">
+      <h4>${icon('clipboard-list')} Próximos passos</h4>
+      ${pendingNow > 0
+        ? `<div class="suggestion-item"><span>${icon('repeat')}</span> <strong>${pendingNow}</strong> questões na fila de revisão</div>`
+        : ''}
+      ${tips || (pendingNow === 0 ? `<div class="suggestion-item"><span>${icon('check')}</span> Boa performance! Continue praticando.</div>` : '')}
+    </div>`;
+  })() : '';
+
+  $('app').innerHTML = `
+    <div class="card entering">
+      <div class="result-hero">
+        <div class="result-session-label">Sessão Concluída</div>
+        <div class="result-pct">${pct}%</div>
+        <div class="result-grade" style="color:${gc}">${grade}</div>
+        <div class="result-lbl">${st.correct} de ${st.total} questões &bull; ${time}</div>
+        <div style="margin-top:10px">${modeLabel}</div>
+      </div>
+
+      <div class="result-grid">
+        <div class="res-stat">
+          <span class="res-val" style="color:var(--green)">${st.correct}</span>
+          <div class="res-lbl">Acertos</div>
+        </div>
+        <div class="res-stat">
+          <span class="res-val" style="color:var(--red)">${st.wrong}</span>
+          <div class="res-lbl">Erros</div>
+        </div>
+        ${st.pending > 0 ? `<div class="res-stat">
+          <span class="res-val" style="color:var(--amber)">${st.pending}</span>
+          <div class="res-lbl">Pendentes</div>
+        </div>` : ''}
+        <div class="res-stat">
+          <span class="res-val" style="color:var(--muted)">${st.unanswered}</span>
+          <div class="res-lbl">Não respondidas</div>
+        </div>
+        <div class="res-stat">
+          <span class="res-val" style="color:var(--blue)">${time}</span>
+          <div class="res-lbl">Tempo total</div>
+        </div>
+      </div>
+
+      <div class="highlights">
+        <div class="hl-box good">
+          <h4>✦ Pontos Fortes</h4>
+          ${strongHTML}
+        </div>
+        <div class="hl-box bad">
+          <h4>✦ Pontos a Reforçar</h4>
+          ${weakHTML}
+        </div>
+      </div>
+
+      ${trainingExtra}
+
+      ${cs.length ? `<div class="cat-section"><h3>Desempenho por Categoria</h3>${catHTML}</div>` : ''}
+
+      <div class="btn-bar" style="margin-top:28px;flex-wrap:wrap">
+        ${S.reviewMode
+          ? `<button class="btn-p" onclick="App.goReview()">${icon('repeat')} Voltar à Revisão</button>
+             <button class="btn-s" onclick="App.restart()">${icon('home')} Início</button>`
+          : `<button class="btn-p" onclick="App.restart()">${icon('rotate-cw')} Novo Simulado</button>
+             ${st.wrong > 0 ? `<button class="btn-s" onclick="App.reviewWrong()">${icon('clipboard-list')} Revisar Erros (${st.wrong})</button>` : ''}`
+        }
+        <button class="btn-s" onclick="App.exportJSON()">${icon('download')} Exportar JSON</button>
+      </div>
+    </div>
+  `;
+}
+
+/* ═══════════════════════════════════════════════════
+   MODAL
+   ═══════════════════════════════════════════════════ */
+function showModal(html) {
+  $('modal-box').innerHTML = html;
+  $('modal-overlay').classList.add('open');
+}
+function hideModal() {
+  $('modal-overlay').classList.remove('open');
+}
+
+/* ═══════════════════════════════════════════════════
+   CONTROLADOR PRINCIPAL
+   ═══════════════════════════════════════════════════ */
+const App = {
+
+  /* ── Importação ──────────────────────────────── */
+  openImport() {
+    const inp = $('import-file-input');
+    if (inp) inp.click();
+  },
+
+  async handleImportFile(file) {
+    if (!file) return;
+    const result = await importQuestions(file);
+    if (result.error) {
+      showModal(`<h2>${icon('triangle-alert')} Erro na Importação</h2>
+        <p style="font-size:14px;color:var(--muted);margin:12px 0">${esc(result.error)}</p>
+        <div class="modal-btns"><button class="btn-p" onclick="hideModal()">OK</button></div>`);
+      return;
+    }
+    _pendingImport = result;
+    const nameDefault = file.name.replace(/\.(json|txt)$/i,'').replace(/[_\-]/g,' ');
+    const types = [...new Set(result.valid.map(q => q.type.toUpperCase()))].join(', ');
+    /* matérias já existentes elegíveis a receber as questões importadas */
+    const customs = Object.values(SUBJECTS).filter(s => s.isCustom && !s.hidden);
+    const targetOptions = customs.length === 0 ? '' : `
+      <div class="form-group" style="margin-bottom:10px">
+        <label class="gap-label">Destino</label>
+        <select id="import-target" class="gap-input" onchange="App.toggleImportTarget()">
+          <option value="">${icon('plus')} Criar nova matéria</option>
+          ${customs.map(s => `<option value="${s.key}">${esc(s.icon)} ${esc(s.title)} — ${s.questions.length} questões</option>`).join('')}
+        </select>
+      </div>`;
+    const statsBlock = `
+      <div class="modal-grid">
+        <div class="modal-stat">
+          <span class="modal-val" style="color:var(--green)">${result.valid.length}</span>
+          <div class="modal-lbl">Importadas</div>
+        </div>
+        <div class="modal-stat">
+          <span class="modal-val" style="color:${result.invalid>0?'var(--red)':'var(--muted)'}">${result.invalid}</span>
+          <div class="modal-lbl">Ignoradas</div>
+        </div>
+      </div>`;
+    showModal(`
+      <h2>${icon('upload')} Importar Questões</h2>
+      ${targetOptions}
+      <div id="import-name-wrap">
+        <div class="form-group" style="margin-bottom:10px">
+          <label class="gap-label">Nome da matéria</label>
+          <input type="text" id="import-name" class="gap-input"
+            value="${esc(nameDefault)}" placeholder="Ex: Navegação Avançada"
+            onkeydown="if(event.key==='Enter')App.confirmImport()">
+        </div>
+        <div style="display:flex;gap:10px;margin-bottom:14px">
+          <div class="form-group" style="flex:0 0 80px">
+            <label class="gap-label">Ícone</label>
+            <input type="text" id="import-icon" class="gap-input"
+              value="📗" style="font-size:20px;text-align:center;padding:8px">
+          </div>
+          <div style="flex:1;align-self:end">${statsBlock}</div>
+        </div>
+      </div>
+      <div id="import-merge-wrap" style="display:none;margin-bottom:14px">
+        <div style="font-size:12px;color:var(--muted);margin-bottom:10px">
+          As questões serão adicionadas à matéria selecionada, preservando as já existentes.
+        </div>
+        ${statsBlock}
+      </div>
+      ${types ? `<div style="font-size:12px;color:var(--muted);margin-bottom:14px">Tipos encontrados: ${esc(types)}</div>` : ''}
+      ${result.valid.length===0 ? `<div class="login-err">Nenhuma questão válida encontrada.</div>` : ''}
+      <div class="modal-btns">
+        <button class="btn-s" onclick="hideModal()">Cancelar</button>
+        ${result.valid.length>0
+          ? `<button id="import-confirm-btn" class="btn-p" onclick="App.confirmImport()">✓ Confirmar (${result.valid.length})</button>`
+          : ''}
+      </div>`);
+    setTimeout(() => { const el=$('import-name'); if(el) el.select(); }, 60);
+  },
+
+  /* alterna entre "criar nova matéria" e "adicionar a matéria existente" */
+  toggleImportTarget() {
+    const targetEl = $('import-target');
+    const isNew    = !targetEl || !targetEl.value;
+    const nameWrap  = $('import-name-wrap');
+    const mergeWrap = $('import-merge-wrap');
+    if (nameWrap)  nameWrap.style.display  = isNew ? '' : 'none';
+    if (mergeWrap) mergeWrap.style.display = isNew ? 'none' : '';
+    const btn = $('import-confirm-btn');
+    if (btn && _pendingImport) {
+      btn.innerHTML = isNew
+        ? `${icon('check')} Confirmar (${_pendingImport.valid.length})`
+        : `${icon('check')} Adicionar (${_pendingImport.valid.length})`;
+    }
+  },
+
+  async confirmImport() {
+    if (!_pendingImport) return;
+    const targetEl = $('import-target');
+    const targetKey = targetEl ? targetEl.value : '';
+    if (targetKey) { App.confirmImportMerge(targetKey); return; }
+
+    const nameEl = $('import-name');
+    const iconEl = $('import-icon');
+    const name   = nameEl ? nameEl.value.trim() : 'Matéria Importada';
+    const icon   = iconEl ? (iconEl.value.trim() || '📗') : '📗';
+    if (!name) { if (nameEl) nameEl.focus(); return; }
+    const key = makeSubjectKey(name);
+    hideModal();
+    await createSubject(key, name, icon, _pendingImport.valid);
+    _pendingImport = null;
+    App.selectSubject(key);
+  },
+
+  /* ── Adicionar questões importadas a uma matéria existente ─────── */
+  confirmImportMerge(targetKey) {
+    const subj = SUBJECTS[targetKey];
+    if (!subj || !_pendingImport) return;
+    /* Não há um identificador confiável entre arquivos diferentes — a
+       única comparação possível é o texto do enunciado. Em vez de
+       deduplicar automaticamente (regra frágil), apenas informa a
+       contagem de possíveis duplicatas e deixa a decisão para o usuário. */
+    const existingTexts = new Set(subj.questions.map(q => q.question.trim().toLowerCase()));
+    const dupCount = _pendingImport.valid.filter(q => existingTexts.has(q.question.trim().toLowerCase())).length;
+    if (dupCount > 0) {
+      showModal(`
+        <h2>${icon('triangle-alert')} Possíveis Duplicatas</h2>
+        <p style="font-size:14px;color:var(--muted);margin:12px 0;line-height:1.6">
+          ${dupCount} de ${_pendingImport.valid.length} questão(ões) do arquivo têm o mesmo enunciado
+          de questões já existentes em <strong>${esc(subj.title)}</strong>.<br><br>
+          Não é possível garantir com certeza se são duplicadas — apenas o texto foi comparado.
+        </p>
+        <div class="modal-btns">
+          <button class="btn-s" onclick="hideModal()">Cancelar</button>
+          <button class="btn-p" onclick="App.doImportMerge('${targetKey}')">Importar mesmo assim</button>
+        </div>`);
+      return;
+    }
+    App.doImportMerge(targetKey);
+  },
+
+  async doImportMerge(targetKey) {
+    const subj = SUBJECTS[targetKey];
+    if (!subj || !_pendingImport) return;
+    /* IDs novos para as questões importadas — evita colisão com as já
+       existentes na matéria (nenhuma questão existente é removida). */
+    const incoming = _pendingImport.valid.map(q => ({ ...q, _id: makeQuestionId() }));
+    subj.questions.push(...incoming);
+    await saveSubjectToDB(subj);
+    hideModal();
+    _pendingImport = null;
+    renderSubjectEditor(targetKey);
+  },
+
+  /* ── Biblioteca: busca e paginação ───────────────
+     Todo o app re-renderiza via innerHTML a cada chamada; sem
+     restaurar foco/cursor manualmente o teclado do celular fecharia
+     a cada tecla digitada no campo de busca. ── */
+  searchSubjects(value) {
+    _subjectSearch = value;
+    _subjectPage = 1;
+    const scrollY = window.scrollY;
+    renderSubjects();
+    const input = $('subject-search');
+    if (input) {
+      input.focus();
+      const pos = value.length;
+      try { input.setSelectionRange(pos, pos); } catch(_) {}
+    }
+    window.scrollTo(0, scrollY);
+  },
+
+  goSubjectPage(n) {
+    _subjectPage = n;
+    renderSubjects();
+    const wrap = document.querySelector('.home-wrap');
+    if (wrap) wrap.scrollIntoView({ block: 'start' });
+  },
+
+  /* ── Gerenciamento ────────────────────────────── */
+  goManageSubjects() { renderManageSubjects(); },
+
+  /* abre/fecha o menu de ações (⋮) de uma matéria, fechando os demais */
+  toggleRowMenu(ev, key) {
+    ev.stopPropagation();
+    const id = 'row-menu-' + key;
+    document.querySelectorAll('.row-menu.open').forEach(m => {
+      if (m.id !== id) m.classList.remove('open');
+    });
+    const menu = $(id);
+    if (menu) menu.classList.toggle('open');
+  },
+
+  async editSubjectName(key) {
+    const s = SUBJECTS[key];
+    if (!s || !s.isCustom) return;
+    showModal(`
+      <h2>${icon('pencil')} Editar Matéria</h2>
+      <div class="form-group" style="margin-bottom:10px">
+        <label class="gap-label">Nome</label>
+        <input type="text" id="edit-name" class="gap-input" value="${esc(s.title)}"
+          onkeydown="if(event.key==='Enter')App.applyEditName('${key}')">
+      </div>
+      <div class="form-group" style="margin-bottom:14px">
+        <label class="gap-label">Ícone</label>
+        <input type="text" id="edit-icon" class="gap-input"
+          value="${esc(s.icon)}" style="width:70px;font-size:20px;text-align:center;padding:8px">
+      </div>
+      <div class="modal-btns">
+        <button class="btn-s" onclick="hideModal()">Cancelar</button>
+        <button class="btn-p" onclick="App.applyEditName('${key}')">Salvar</button>
+      </div>`);
+    setTimeout(() => { const el=$('edit-name'); if(el){el.select();} }, 60);
+  },
+
+  async applyEditName(key) {
+    const s    = SUBJECTS[key];
+    const name = ($('edit-name')||{}).value?.trim();
+    const icon = ($('edit-icon')||{}).value?.trim() || s.icon;
+    if (!name || !s) return;
+    s.title = name; s.label = name; s.icon = icon;
+    await saveSubjectToDB(s);
+    hideModal();
+    /* retorna ao editor se veio de lá, senão ao gerenciar */
+    if (S.phase === 'subject-editor') renderSubjectEditor(key);
+    else renderManageSubjects();
+  },
+
+  /* ── Ocultar / mostrar matéria na Biblioteca ──── */
+  async toggleHideSubject(key) {
+    const s = SUBJECTS[key];
+    if (!s || !s.isCustom) return;
+    s.hidden = !s.hidden;
+    await saveSubjectToDB(s);
+    /* atualiza a tela correta conforme origem */
+    if (S.phase === 'subjects') renderSubjects();
+    else renderManageSubjects();
+  },
+
+  /* ── Proteger / desproteger contra exclusão ──── */
+  async toggleProtectSubject(key) {
+    const s = SUBJECTS[key];
+    if (!s || !s.isCustom) return;
+    s.protected = !s.protected;
+    await saveSubjectToDB(s);
+    renderManageSubjects();
+  },
+
+  /* ── Criar matéria vazia ──────────────────────── */
+  createEmptySubject() {
+    showModal(`
+      <h2>${icon('plus')} Nova Matéria</h2>
+      <div class="form-group" style="margin-bottom:10px">
+        <label class="gap-label">Nome</label>
+        <input type="text" id="new-subj-name" class="gap-input" placeholder="Ex: Física Naval"
+          onkeydown="if(event.key==='Enter')App.confirmCreateSubject()">
+      </div>
+      <div class="form-group" style="margin-bottom:14px">
+        <label class="gap-label">Ícone</label>
+        <input type="text" id="new-subj-icon" class="gap-input"
+          value="📘" style="width:70px;font-size:20px;text-align:center;padding:8px">
+      </div>
+      <div class="modal-btns">
+        <button class="btn-s" onclick="hideModal()">Cancelar</button>
+        <button class="btn-p" onclick="App.confirmCreateSubject()">Criar Matéria</button>
+      </div>`);
+    setTimeout(() => { const el=$('new-subj-name'); if(el) el.focus(); }, 50);
+  },
+
+  async confirmCreateSubject() {
+    const nameEl = $('new-subj-name');
+    const iconEl = $('new-subj-icon');
+    const name   = nameEl ? nameEl.value.trim() : '';
+    const icon   = iconEl ? (iconEl.value.trim() || '📘') : '📘';
+    if (!name) { if (nameEl) nameEl.focus(); return; }
+    const key = makeSubjectKey(name);
+    hideModal();
+    await createSubject(key, name, icon, []);
+    renderSubjectEditor(key);
+  },
+
+  /* ── Abrir editor de uma matéria ─────────────── */
+  openSubjectEditor(key) {
+    renderSubjectEditor(key);
+  },
+
+  /* ── Questões: adicionar / editar / excluir ───── */
+  addQuestion(key) {
+    renderQuestionForm(key, -1);
+  },
+
+  editQuestion(key, qIdx) {
+    renderQuestionForm(key, qIdx);
+  },
+
+  deleteQuestion(key, qIdx) {
+    const subj = SUBJECTS[key];
+    if (!subj) return;
+    const preview = (subj.questions[qIdx]?.question || '').slice(0, 80);
+    showModal(`
+      <h2>${icon('trash-2')} Excluir Questão?</h2>
+      <p style="font-size:13px;color:var(--muted);margin:10px 0 16px">${esc(preview)}${preview.length===80?'…':''}</p>
+      <div class="modal-btns">
+        <button class="btn-p" onclick="hideModal()">Cancelar</button>
+        <button class="btn-d" onclick="App.confirmDeleteQuestion('${key}',${qIdx})">Excluir</button>
+      </div>`);
+  },
+
+  async confirmDeleteQuestion(key, qIdx) {
+    const subj = SUBJECTS[key];
+    if (!subj) return;
+    subj.questions.splice(qIdx, 1);
+    await saveSubjectToDB(subj);
+    hideModal();
+    renderSubjectEditor(key);
+  },
+
+  /* ── Salvar questão do formulário ─────────────── */
+  async saveQuestion() {
+    const key  = S.editorSubjectKey;
+    const qIdx = S.editorQIdx;
+    const subj = SUBJECTS[key];
+    if (!subj) return;
+
+    const q = readQuestionForm();
+    if (!q.question.trim()) {
+      const el = $('qf-question');
+      if (el) { el.style.borderColor = 'var(--red)'; el.focus(); }
+      return;
+    }
+
+    if (q.type === 'assoc') {
+      /* descarta pares em branco e reindexa o mapeamento identidade */
+      q.options = (q.options || []).filter(p => (p[0]||'').trim() !== '' || (p[1]||'').trim() !== '');
+      q.correct = q.options.map((_, i) => i);
+      if (q.options.length < 2) {
+        showModal(`<h2>${icon('triangle-alert')} Pares insuficientes</h2>
+          <p style="font-size:14px;color:var(--muted);margin:12px 0">Adicione pelo menos 2 pares completos de associação.</p>
+          <div class="modal-btns"><button class="btn-p" onclick="hideModal()">OK</button></div>`);
+        return;
+      }
+    }
+
+    if (q.type === 'gap' && !q.correct.trim()) {
+      showModal(`<h2>${icon('triangle-alert')} Resposta esperada em branco</h2>
+        <p style="font-size:14px;color:var(--muted);margin:12px 0">Preencha a resposta esperada da lacuna antes de salvar.</p>
+        <div class="modal-btns"><button class="btn-p" onclick="hideModal()">OK</button></div>`);
+      return;
+    }
+
+    if (qIdx === -1) {
+      q._id = makeQuestionId();
+      subj.questions.push(q);
+    } else {
+      /* preserva a identidade da questão (usada por revisão/favoritos)
+         mesmo que o enunciado tenha mudado */
+      const prev = subj.questions[qIdx];
+      q._id = prev._id || prev.question;
+      subj.questions[qIdx] = q;
+    }
+
+    await saveSubjectToDB(subj);
+    renderSubjectEditor(key);
+  },
+
+  cancelQuestionEdit() {
+    renderSubjectEditor(S.editorSubjectKey);
+  },
+
+  /* Troca o tipo da questão e regenera campos dinâmicos */
+  switchQType(type) {
+    document.querySelectorAll('.qtype-tab').forEach(t =>
+      t.classList.toggle('active', t.dataset.type === type));
+    const q = readQuestionForm();
+    q.type = type;
+    const d = $('qf-dynamic');
+    if (d) d.innerHTML = buildDynamicFields(q);
+  },
+
+  /* Adiciona um par vazio ao formulário de associação (assoc) */
+  addAssocPair() {
+    const q = readQuestionForm();
+    q.type = 'assoc';
+    q.options = [...(q.options || []), ['', '']];
+    const d = $('qf-dynamic');
+    if (d) d.innerHTML = buildDynamicFields(q);
+  },
+
+  /* Remove um par do formulário de associação (assoc) */
+  removeAssocPair(i) {
+    const q = readQuestionForm();
+    q.type = 'assoc';
+    q.options = (q.options || []).filter((_, idx) => idx !== i);
+    const d = $('qf-dynamic');
+    if (d) d.innerHTML = buildDynamicFields(q);
+  },
+
+  /* ── Exportar banco de questões ───────────────── */
+  exportSubjectBank(key) {
+    const subj = SUBJECTS[key];
+    if (!subj) return;
+    const blob = new Blob([JSON.stringify(subj.questions, null, 2)], { type:'application/json' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href = url;
+    a.download = (subj.title || key).toLowerCase().replace(/\s+/g,'_') + '_questoes.json';
+    a.click();
+    URL.revokeObjectURL(url);
+  },
+
+  async duplicateSubject(key) {
+    const src = SUBJECTS[key];
+    if (!src) return;
+    const newKey = makeSubjectKey(src.title + '_copia');
+    /* clonagem profunda — nunca compartilhar o array/objetos de questões
+       com a matéria de origem (editar a cópia não pode afetar a original,
+       e vice-versa). IDs novos por questão: a cópia começa limpa, sem
+       vínculo com progresso/revisão/favoritos da matéria original (que
+       são indexados por matéria + questão). */
+    const clonedQuestions = JSON.parse(JSON.stringify(src.questions))
+      .map(q => ({ ...q, _id: makeQuestionId() }));
+    await createSubject(newKey, src.title + ' (Cópia)', src.icon, clonedQuestions);
+    renderManageSubjects();
+  },
+
+  async deleteSubject(key) {
+    const s = SUBJECTS[key];
+    if (!s || !s.isCustom) return;
+    /* bloqueio de proteção */
+    if (s.protected) {
+      showModal(`
+        <h2>${icon('lock')} Matéria Protegida</h2>
+        <p style="font-size:14px;color:var(--muted);margin:12px 0">
+          Remova a proteção (${icon('lock-open')}) antes de excluir.
+        </p>
+        <div class="modal-btns"><button class="btn-p" onclick="hideModal()">OK</button></div>`);
+      return;
+    }
+    /* validação por chave de acesso */
+    showModal(`
+      <h2>${icon('trash-2')} Excluir Matéria?</h2>
+      <p style="font-size:13px;color:var(--muted);margin:8px 0"><strong>${esc(s.title)}</strong> — ${s.questions.length} questões</p>
+      <p style="font-size:13px;color:var(--red);margin-bottom:14px;line-height:1.6">
+        Remove matéria, progresso, revisões e favoritos.<br>Esta ação não pode ser desfeita.
+      </p>
+      <div class="form-group" style="margin-bottom:6px">
+        <label class="gap-label">Digite sua chave de acesso para confirmar</label>
+        <input type="password" id="del-key" class="gap-input" placeholder="Chave de acesso"
+          autocomplete="off" onkeydown="if(event.key==='Enter')App.confirmDeleteSubject('${key}')">
+      </div>
+      <div id="del-err" class="login-err"></div>
+      <div class="modal-btns">
+        <button class="btn-p" onclick="hideModal()">Cancelar</button>
+        <button class="btn-d" onclick="App.confirmDeleteSubject('${key}')">Excluir</button>
+      </div>`);
+    setTimeout(() => { const el=$('del-key'); if(el) el.focus(); }, 50);
+  },
+
+  async confirmDeleteSubject(key) {
+    const keyEl   = $('del-key');
+    const errEl   = $('del-err');
+    const entered = keyEl ? keyEl.value.trim().toLowerCase() : '';
+    if (!Object.keys(CREDENTIALS).includes(entered)) {
+      if (errEl) errEl.textContent = 'Chave incorreta.';
+      if (keyEl) { keyEl.value = ''; keyEl.focus(); }
+      return;
+    }
+    const wasNative = !!(SUBJECTS[key] && SUBJECTS[key].isNative);
+    hideModal();
+    cleanupSubjectData(key);
+    await deleteSubjectFromDB(key);
+    delete SUBJECTS[key];
+    /* CIA (ou outra matéria nativa) precisa de registro persistente à
+       parte — sem isso, o próximo load recriaria a partir de QUESTIONS */
+    if (wasNative) markNativeSubjectDeleted(key);
+    renderManageSubjects();
+  },
+
+  /* navegar para seleção de modo */
+  /* navegar para Biblioteca com confirmação e salvamento */
+  goLibrary() {
+    showModal(`
+      <h2>${icon('home')} Voltar para Biblioteca?</h2>
+      <p style="font-size:14px;color:var(--muted);margin:12px 0">
+        Seu progresso será salvo e você poderá continuar depois.
+      </p>
+      <div class="modal-btns">
+        <button class="btn-s" onclick="hideModal()">Cancelar</button>
+        <button class="btn-p" onclick="App.confirmGoLibrary()">Voltar</button>
+      </div>
+    `);
+  },
+
+  confirmGoLibrary() {
+    hideModal();
+    saveProgress();   // salva quiz normal; no-op em revisão e resultado
+    stopTimer();
+    S.reviewMode = false;
+    renderSubjects();
+  },
+
+  goModeSelect() { renderModeSelect(); },
+
+  /* iniciar em Modo Prova */
+  startExam() {
+    S.mode = 'exam';
+    this.startNew();
+  },
+
+  /* iniciar em Modo Treino */
+  startTraining() {
+    S.mode = 'study';
+    this.startNew();
+  },
+
+  /* encerrar sessão respeitando o modo ativo */
+  finishSession() {
+    hideModal();
+    renderResult();
+  },
+  finishExam()     { S.mode = 'exam';  this.finishSession(); },
+  finishTraining() { S.mode = 'study'; this.finishSession(); },
+
+  /* validar credenciais e entrar */
+  doLogin() {
+    const nameEl = $('login-name');
+    const keyEl  = $('login-key');
+    const errEl  = $('login-err');
+    const name = nameEl ? nameEl.value.trim() : '';
+    const key  = keyEl  ? keyEl.value.trim() : '';
+
+    const canonical = CREDENTIALS[key];
+    if (!canonical || name.toLowerCase() !== canonical.toLowerCase()) {
+      if (errEl) errEl.textContent = 'Nome ou chave incorretos.';
+      if (keyEl) { keyEl.value = ''; keyEl.focus(); }
+      return;
+    }
+
+    S.userName = canonical;
+    setUser(canonical);
+    migrateLegacyUserData();
+
+    showAccessNotice(() => {
+      renderSubjects();
+    });
+  },
+
+  /* selecionar matéria e ir para home ou boas-vindas */
+  selectSubject(key) {
+    if (!SUBJECTS[key]) return;
+    S.subject        = key;
+    ACTIVE_QUESTIONS = SUBJECTS[key].questions;
+    try { localStorage.setItem(SUBJECT_KEY, key); } catch(_) {}
+    const saved = loadSaved();
+    if (saved) {
+      renderWelcome(saved);
+    } else {
+      renderHome();
+    }
+  },
+
+  /* voltar à seleção de matéria */
+  goSubjects() {
+    stopTimer();
+    renderSubjects();
+  },
+
+  /* encerrar sessão e voltar ao login */
+  switchUser() {
+    clearUser(); // limpa localStorage de usuário e progresso, chama renderLogin
+  },
+
+  setMode(m) {
+    S.mode = m;
+    const os = $('opt-study'), oe = $('opt-exam');
+    if (os) os.classList.toggle('active', m === 'study');
+    if (oe) oe.classList.toggle('active', m === 'exam');
+  },
+
+  startNew() {
+    S.reviewMode = false;
+    clearSave();
+    S.deck      = prepareDeck();
+    S.answers   = Array(S.deck.length).fill(undefined);
+    S.validated = Array(S.deck.length).fill(false);
+    S.flagged   = Array(S.deck.length).fill(false);
+    S.discEval  = Array(S.deck.length).fill(undefined);
+    S.idx       = 0;
+    S.timer     = 0;
+    S.startedAt = Date.now();
+    S.entering  = true;
+    syncBadge();
+    startTimer();
+    renderQuestion();
+  },
+
+  /* iniciar sessão de revisão a partir dos pendentes */
+  startReview() {
+    const subj    = S.subject || 'cia';
+    const pending = getPendingReview(subj);
+    if (!pending.length) return;
+    const allQ    = SUBJECTS[subj]?.questions || [];
+    const revQ    = pending
+      .map(r => allQ.find(q => (q._id || q.question) === r.questionId))
+      .filter(Boolean);
+    if (!revQ.length) return;
+
+    stopTimer();
+    S.reviewMode = true;
+    clearSave();
+    S.deck       = prepareDeck(revQ);
+    S.answers    = Array(S.deck.length).fill(undefined);
+    S.validated  = Array(S.deck.length).fill(false);
+    S.flagged    = Array(S.deck.length).fill(false);
+    S.discEval   = Array(S.deck.length).fill(undefined);
+    S.idx        = 0;
+    S.timer      = 0;
+    S.entering   = true;
+    startTimer();
+    renderQuestion();
+  },
+
+  /* ir para a tela de revisão da matéria atual */
+  goReview() {
+    stopTimer();
+    S.reviewMode = false;
+    renderReview();
+  },
+
+  /* ir para o início da matéria atual */
+  goHome() {
+    stopTimer();
+    S.reviewMode = false;
+    clearSave();
+    S.mode = 'study';
+    renderHome();
+  },
+
+  continueSaved() {
+    const p = loadSaved();
+    if (!p) { this.startNew(); return; }
+    Object.assign(S, {
+      deck: p.deck, answers: p.answers,
+      validated: p.validated, flagged: p.flagged,
+      discEval: p.discEval || Array((p.deck||[]).length).fill(undefined),
+      mode: p.mode, idx: p.idx, timer: p.timer,
+      startedAt: p.startedAt || Date.now(),
+    });
+    S.entering = true;
+    syncBadge();
+    startTimer();
+    renderQuestion();
+  },
+
+  /* selecionar opção MC */
+  pick(i) {
+    try {
+      if (S.validated[S.idx]) return;
+      S.answers[S.idx] = i;
+      renderQuestion();
+    } catch (err) {
+      _diagReportError(err, 'App.pick'); /* FASE 27.1 — instrumentação temporária */
+    }
+  },
+
+  /* digitar em lacuna — habilita/desabilita "Verificar" sem re-render (preserva o cursor) */
+  typeGap(v) {
+    S.answers[S.idx] = v;
+    const btn = $('btn-verify');
+    if (btn) btn.disabled = !v.trim();
+  },
+
+  /* digitar resposta discursiva — habilita "Verificar" sem re-render (preserva o cursor) */
+  typeDisc(v) {
+    S.answers[S.idx] = v;
+    const btn = $('btn-verify');
+    if (btn) btn.disabled = !v.trim();
+  },
+
+  /* selecionar Verdadeiro/Falso */
+  pickTF(v) {
+    if (S.validated[S.idx]) return;
+    S.answers[S.idx] = v;
+    renderQuestion();
+  },
+
+  /* selecionar correspondente de um item da associação (assoc) */
+  pickAssoc(leftIdx, value) {
+    if (S.validated[S.idx]) return;
+    const q = S.deck[S.idx];
+    const n = (q.options || []).length;
+    const arr = Array.isArray(S.answers[S.idx]) ? [...S.answers[S.idx]] : Array(n).fill(undefined);
+    const v = value === '' ? undefined : parseInt(value, 10);
+    arr[leftIdx] = Number.isNaN(v) ? undefined : v;
+    S.answers[S.idx] = arr;
+    renderQuestion();
+  },
+
+  /* verificar resposta */
+  verify() {
+    if (S.validated[S.idx]) return;
+    const q = S.deck[S.idx];
+    if (q.type === 'gap') {
+      const inp = $('gap-input');
+      if (inp) S.answers[S.idx] = inp.value;
+    }
+    if (q.type === 'disc') {
+      const inp = $('disc-input');
+      if (inp) S.answers[S.idx] = inp.value;
+    }
+    if (!answerReady(q, S.answers[S.idx])) return;
+    S.validated[S.idx] = true;
+    S.justValidated    = true;
+    save();
+
+    /* disc: corretude depende da autoavaliação — fila de revisão só é
+       atualizada quando o aluno marcar Acertei/Errei (App.selfGradeDisc) */
+    if (q.type === 'disc') { renderQuestion(); return; }
+
+    const subj = S.subject || 'cia';
+    const ok   = isCorrectAt(S.idx);
+    if (S.reviewMode) {
+      /* em revisão: acertou sem flag → remove da fila; caso contrário → mantém */
+      if (ok === true && !S.flagged[S.idx]) removeFromReview(q, subj);
+      else addToReview(q, subj);
+    } else {
+      /* simulado normal: errou → adiciona à fila */
+      if (ok === false) addToReview(q, subj);
+    }
+    /* histórico (Fase 32): grava exatamente 1 vez por questão nesta sessão —
+       este ponto só é alcançado quando S.validated[S.idx] acabou de virar
+       true (guard no topo da função impede reexecução) */
+    recordQuestionResult(subj, q, ok === true, historyContext(), false);
+    renderQuestion();
+  },
+
+  /* autoavaliação da questão discursiva — chamada após "Verificar" */
+  selfGradeDisc(correct) {
+    if (!S.validated[S.idx]) return;
+    const q       = S.deck[S.idx];
+    const subj    = S.subject || 'cia';
+    const newEval = correct ? 'correct' : 'wrong';
+    if (S.discEval[S.idx] === newEval) return; // mesma autoavaliação já registrada — evita reprocessar a fila
+    const jaAvaliada = S.discEval[S.idx] != null; // true = troca de avaliação (Acertei⇄Errei), não nova tentativa
+    S.discEval[S.idx] = newEval;
+    if (S.reviewMode) {
+      if (correct && !S.flagged[S.idx]) removeFromReview(q, subj);
+      else addToReview(q, subj);
+    } else {
+      if (correct) removeFromReview(q, subj);
+      else addToReview(q, subj);
+    }
+    /* histórico (Fase 32): 1ª avaliação conta tentativa; trocar de ideia
+       (Acertei⇄Errei) só corrige o resultado, sem contar tentativa nova */
+    recordQuestionResult(subj, q, correct, historyContext(), jaAvaliada);
+    save();
+    renderQuestion();
+  },
+
+  /* navegar entre questões */
+  nav(dir) {
+    const next = S.idx + dir;
+    if (next < 0 || next >= S.deck.length) return;
+    /* navegação é ação segura: verifica automaticamente uma resposta já dada
+       mas ainda não confirmada, antes de sair da questão. Reaproveita
+       App.verify() (que já evita dupla contagem e não inventa resposta
+       vazia). Discursiva mantém o fluxo próprio de autoavaliação. */
+    if (S.deck[S.idx].type !== 'disc') this.verify();
+    S.idx      = next;
+    S.entering = true;
+    save();
+    renderQuestion();
+  },
+
+  toggleFlag() {
+    S.flagged[S.idx] = !S.flagged[S.idx];
+    const subj = S.subject || 'cia';
+    /* marcar → adiciona à fila; desmarcar no modo revisão → remove da fila */
+    if (S.flagged[S.idx]) {
+      addToReview(S.deck[S.idx], subj);
+    } else if (S.reviewMode) {
+      removeFromReview(S.deck[S.idx], subj);
+    }
+    save();
+    renderQuestion();
+  },
+
+  toggleFavorite() {
+    const q    = S.deck[S.idx];
+    const subj = S.subject || 'cia';
+    toggleFav(q, subj);
+    renderQuestion();
+  },
+
+  toggleMode() {
+    if (S.phase !== 'quiz') return;
+    S.mode = S.mode === 'study' ? 'exam' : 'study';
+    syncBadge();
+    renderQuestion();
+  },
+
+  /* alterna tema claro/escuro — só a preferência visual é persistida,
+     em chave própria, isolada de progresso/revisão/favoritos */
+  toggleTheme() {
+    const root    = document.documentElement;
+    const current = root.getAttribute('data-theme')
+      || ((window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) ? 'light' : 'dark');
+    const next = current === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', next);
+    try { localStorage.setItem('cia_theme_v1', next); } catch(_) {}
+    const btn = $('theme-toggle');
+    if (btn) btn.innerHTML = icon(next === 'dark' ? 'moon' : 'sun');
+  },
+
+  /* modal de confirmação antes de finalizar — ação segura é primária */
+  confirmFinish() {
+    /* ação segura: mesmo auto-verify de nav(), reaproveitado para não
+       contar como "não respondida" uma questão respondida mas não
+       confirmada no momento de finalizar. Discursiva mantém autoavaliação. */
+    if (S.deck[S.idx].type !== 'disc') this.verify();
+    const st  = stats();
+    /* mesmo cálculo do percentual exibido em renderResult() (correct/total)
+       — antes este modal usava correct/answered (fórmula própria de
+       stats().pct), o que podia mostrar um número diferente do resultado
+       final para a mesma sessão segundos depois */
+    const pct = Math.round(st.correct / st.total * 100);
+    showModal(`
+      <h2>${icon('flag-triangle-right')} Finalizar Sessão?</h2>
+      <div class="modal-grid">
+        <div class="modal-stat">
+          <span class="modal-val" style="color:var(--green)">${st.correct}</span>
+          <div class="modal-lbl">Acertos</div>
+        </div>
+        <div class="modal-stat">
+          <span class="modal-val" style="color:var(--red)">${st.wrong}</span>
+          <div class="modal-lbl">Erros</div>
+        </div>
+        ${st.pending > 0 ? `<div class="modal-stat">
+          <span class="modal-val" style="color:var(--amber)">${st.pending}</span>
+          <div class="modal-lbl">Pendentes</div>
+        </div>` : ''}
+        <div class="modal-stat">
+          <span class="modal-val" style="color:var(--muted)">${st.unanswered}</span>
+          <div class="modal-lbl">Não respondidas</div>
+        </div>
+        <div class="modal-stat">
+          <span class="modal-val" style="color:var(--blue)">${pct}%</span>
+          <div class="modal-lbl">Aproveitamento</div>
+        </div>
+      </div>
+      <div class="modal-btns">
+        <button class="btn-p" onclick="hideModal()">${icon('chevron-left')} Continuar</button>
+        <button class="btn-d" onclick="App.finishSession()">Finalizar agora</button>
+      </div>
+    `);
+  },
+
+  /* deck de revisão com opções re-embaralhadas */
+  reviewWrong() {
+    const wrong = S.deck.filter((_, i) => isCorrectAt(i) === false);
+    if (!wrong.length) return;
+    S.deck      = prepareDeck(wrong);
+    S.answers   = Array(S.deck.length).fill(undefined);
+    S.validated = Array(S.deck.length).fill(false);
+    S.flagged   = Array(S.deck.length).fill(false);
+    S.discEval  = Array(S.deck.length).fill(undefined);
+    S.idx       = 0;
+    S.timer     = 0;
+    S.phase     = 'quiz';
+    S.entering  = true;
+    startTimer();
+    renderQuestion();
+  },
+
+  restart() {
+    stopTimer();
+    clearSave();
+    S.mode       = 'study';
+    S.reviewMode = false;
+    renderHome();
+  },
+
+  exportJSON() {
+    const st = stats();
+    const data = {
+      data: new Date().toISOString(),
+      pontuacao: st.pct + '%',
+      acertos: st.correct, erros: st.wrong,
+      nao_respondidas: st.unanswered, total: st.total,
+      tempo: fmt(S.timer), modo: S.mode,
+      categorias: catStats(),
+      detalhes: S.deck.map((q, i) => ({
+        categoria: q.category,
+        questao: q.question,
+        verificada: S.validated[i],
+        correta: isCorrectAt(i),
+        marcada: S.flagged[i],
+      })),
+    };
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href = url;
+    a.download = `simulado_cia_${new Date().toISOString().slice(0,10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  },
+};
+
+/* ── Fechar modal clicando fora ──────────────────── */
+$('modal-overlay').addEventListener('click', e => {
+  if (e.target === $('modal-overlay')) hideModal();
+});
+
+/* ── Fechar menu de ações (⋮) de matéria ao clicar fora ──────────── */
+document.addEventListener('click', e => {
+  if (!e.target.closest('.row-menu-wrap')) {
+    document.querySelectorAll('.row-menu.open').forEach(m => m.classList.remove('open'));
+  }
+});
+
+/* ── Iniciar ─────────────────────────────────────── */
+async function init() {
+  migrateLegacyProgress();
+
+  /* carregar matérias customizadas (e overrides de matérias nativas
+     editadas/ocultas/protegidas) do IndexedDB antes de renderizar —
+     substitui a definição nativa em memória quando já existe versão
+     persistida com a mesma chave (ex.: 'cia') */
+  try {
+    const customs = await loadCustomSubjects();
+    customs.forEach(s => { SUBJECTS[s.key] = s; });
+  } catch(_) {}
+
+  /* matérias nativas excluídas permanentemente nunca são recriadas,
+     mesmo que o banco embutido (QUESTIONS) ainda as defina no código */
+  getNativeDeletedSubjects().forEach(key => { delete SUBJECTS[key]; });
+
+  const user = getUser();
+  if (!user) { renderLogin(); return; }
+  S.userName = user.name;
+  migrateLegacyUserData();
+  renderSubjects();
+}
+init();
+</script>
+
+<footer id="app-footer">Powered by SimulaCore</footer>
+</body>
+</html>

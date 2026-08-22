@@ -165,17 +165,6 @@ Determine quantas toneladas de óleo devemos transferir para esse tanque, sabend
 
 Determinar a altura metacêntrica de um navio que apresenta deslocamento de **1800 t**, sabendo-se que quando um peso de **15 t** é deslocado transversalmente no convés de **12 m**, provoca uma deflexão de **0,72 m** num sistema pendular de **4,80 m** de comprimento.
 
-### Dados
-
-- Δ = **1800 t**
-- P = **15 t**
-- D = **12 m**
-- CF = **0,72 m**
-- FL = **4,80 m**
-
-### Fórmula usada na sua apostila
-
-**GM = P × D × FL / Δ × CF**
 
 ---
 
