@@ -1,0 +1,165 @@
+QUESTIONÁRIO ECDIS — REVISÃO PARA ÁUDIO
+
+O que é um ECDIS e qual a sua função?
+
+É um sistema eletrônico de informações e apresentação de cartas eletrônicas. Tem como sua principal função contribuir para uma navegação segura e eficiente.
+
+
+Qual a principal diferença de um ECDIS para um ECS?
+
+O ECS não atende todas as exigências de dotação de cartas náuticas a bordo de acordo com a IMO, já o ECDIS atende.
+
+
+Quais são os requisitos de treinamento para uso do ECDIS e quais são esses treinamentos?
+
+Todos os oficiais de quarto de navegação são solicitados a serem treinados. Os treinamentos são: genérico, de familiarização e específico.
+
+
+Quem é responsável por fornecer cada tipo de treinamento?
+
+Genérico: conduzido por centros de treinamento e instrução. Familiarização: conduzido de acordo com os procedimentos internos. Específico: treinamento sobre o equipamento específico de bordo, conduzido pelo fabricante do ECDIS, prático ou online.
+
+
+Quais os principais tipos de cartas eletrônicas?
+
+Raster e Vetorial.
+
+
+Como é apresentada uma carta raster?
+
+É uma imagem digitalizada da carta de papel. Tem a vantagem de não haver custos com a produção e ser similar à carta de papel, em contrapartida, é uma carta morta, sem alarmes, opções de zoom limitada e com correções trabalhosas.
+
+
+Como podemos descrever uma carta vetorial e quais suas vantagens?
+
+É organizada em diversos arquivos ou camadas, o navegador pode selecionar os dados vetoriais a serem exibidos, ajustando de acordo com a sua necessidade. Tem a vantagem de ser interativa com alarmes, zoom ilimitado, informações podem ser adicionadas, mas sua produção pode ser demorada e sua simbologia é diferente da carta impressa.
+
+
+O que é uma carta oficial?
+
+De acordo com a SOLAS, é uma carta produzida por ou sob a responsabilidade de um Governo, Serviço Hidrográfico ou outra instituição relevante.
+
+
+Como podemos definir uma carta não oficial?
+
+São todas as outras cartas náuticas que não atendem aos requisitos para serem chamadas de cartas oficiais.
+
+
+Como posso reconhecer uma ENC quando estou comprando?
+
+Somente fornecedores de serviços autorizados e seus distribuidores vendem ENC, ou seja, diretamente com o Serviço Hidrográfico que as originou ou por um Centro de Coordenação Regional, RENC.
+
+
+Qual é a função de um RENC?
+
+[SEM RESPOSTA]
+
+
+O que é um RNC?
+
+São cópias digitais raster de cartas oficiais impressas em papel. Seu uso no ECDIS não dispensa o uso de um conjunto de cartas de papel.
+
+
+O que significa SENC?
+
+O banco de dados resultante da transformação da ENC pelo ECDIS.
+
+
+Quais os modos de funcionamento do ECDIS?
+
+Modo ECDIS e modo RCDS.
+
+
+Quais os sensores mínimos de um ECDIS?
+
+Aproamento: gyro. Velocidade: speed log. Posição: GPS. São sensores obrigatórios que devem estar conectados diretamente no ECDIS e no backup.
+
+
+Cite 5 sensores adicionais que podem ser conectados no ECDIS?
+
+AIS, ARPA, piloto automático, anemômetro e ecobatímetro.
+
+
+Qual DATUM é utilizado nas ENCs?
+
+WGS-84.
+
+
+Qual a função do COM TRACE?
+
+Testar se os sensores estão se comunicando ou não com o ECDIS.
+
+
+Quais são os esquemas de cores pré definidos no ECDIS?
+
+Dia, crepúsculo e noite.
+
+
+Quais são os modos de exibição de um ECDIS?
+
+Display base, standard display, all layers display e custom display.
+
+
+Qual a diferença entre base e standard display?
+
+Base display contém informações que estão sempre visíveis e necessárias a todo tempo. Não é suficiente para navegação. Standard display: todas as informações do base display e outras como boias, limites de canal, e áreas proibidas ou restritas.
+
+
+Defina safety contour.
+
+Contorno de segurança que utiliza os contornos de profundidade para separar as águas seguras das não navegáveis.
+
+
+Quais as formas de apresentação de alarmes no ECDIS e cite três tipos de alarmes?
+
+Os alarmes podem ser audível, ou audível e visual. Anti-colisão, alarmes de área, cabos submarinos, CPS, TCPA.
+
+
+Qual a função do safety frame?
+
+Permite a geração automática de monitoramento e aviso, e trabalha independente da rota. Usa a melhor carta disponível. O usuário pode escolher quais ações são permitidas e quais podem disparar um alarme.
+
+
+Quais os meios de marcação de posição fixa?
+
+Sobreposição radar, marcação ARPA e marcação visual.
+
+
+Como é o funcionamento da ferramenta sobreposição radar overlay?
+
+Utilizado em águas costeiras, faz a sobreposição da imagem do radar sobre o ECDIS, para checagem de posição e distância dos objetos marcados. Se a posição do radar se encaixa bem sobre os objetos da carta, sua posição é confiável.
+
+
+Quais os vetores de aproamento apresentados no ECDIS?
+
+HDG e COG.
+
+
+O que é o XTD?
+
+É o limite de afastamento de cada pernada da derrota.
+
+
+Quais os períodos de licença ENC e o que acontece quando ela expira?
+
+3, 6, 9 e 12 meses. O serviço de correção para de funcionar e ela se torna uma carta não oficial.
+
+
+Cite 3 modelos básicos de licença de ENC.
+
+Direta, dinâmica e pague conforme navegar, PAYS.
+
+
+Quais as 3 maneiras de atender o requerimento de cartas a bordo?
+
+Só cartas de papel, um ECDIS e cartas de papel ou dois ECDIS independentes.
+
+
+Quando é dispensado as cartas náuticas de papel a bordo?
+
+Com ECDIS duplo conectados em fontes de alimentação independentes e conexões separadas para o sistema de referência, giro e velocidade.
+
+
+Qual a única informação que o ECDIS não é capaz de armazenar?
+
+A sobreposição radar.

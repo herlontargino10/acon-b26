@@ -1,0 +1,37 @@
+No contexto da hidrodinâmica do navio, por que a conservação de energia é frequentemente omitida em favor da massa e quantidade de movimento?	Porque a temperatura raramente é uma variável importante, exceto em estudos específicos de geração de força em propulsores marítimos.
+Qual é a premissa fundamental da lei de conservação de massa aplicada a um fluido em movimento?	A massa não pode ser criada nem desaparecer durante o escoamento do fluido.
+Como se relacionam massa, densidade absoluta e volume em coordenadas cartesianas?	A massa é o produto da densidade absoluta pelo volume: m = ρ Δx Δy Δz.
+O que define um volume de controle?	Um volume fixo no espaço, de forma arbitrária, através do qual o fluido pode entrar ou sair.
+Em um escoamento unidirecional na direção x, como se define a velocidade?	A velocidade é a variação da posição no espaço pelo tempo: u = Δx / Δt.
+Se a vazão mássica de entrada é maior que a de saída, o que ocorre?	Ocorre acúmulo de massa no interior do volume de controle, tornando-o mais cheio e pesado.
+Qual é a interpretação física de ṁ = ρuA?	É a taxa de quantidade de fluido por unidade de tempo, ou vazão mássica, que atravessa uma superfície de área A.
+Por que a variação de massa em um volume de controle fixo depende da variação da densidade?	Porque as dimensões espaciais do volume são fixas; assim, a variação da massa no tempo ocorre através da mudança da densidade.
+O que significa dizer que a conservação de massa é uma lei local?	A massa não pode se deslocar de um ponto A para um ponto B sem passar fisicamente pelo espaço entre eles.
+Qual é a função do sinal negativo na equação de conservação de massa?	Indica que um fluxo líquido positivo para fora do volume, com saída maior que entrada, resulta em diminuição da massa interna.
+Como as áreas das faces opostas do cubo simplificam a equação?	As faces opostas possuem áreas iguais, como A₁ = A₂ = Δy Δz, permitindo simplificar os termos de velocidade e densidade.
+Como é obtida a variação total de vazão no caso 3D?	Somando as variações de vazão mássica nas três direções: Δ(ρu)ΔyΔz + Δ(ρv)ΔxΔz + Δ(ρw)ΔxΔy.
+O que se obtém ao dividir a expressão 3D por Δx Δy Δz e fazer os diferenciais tenderem a zero?	A forma diferencial da equação da continuidade.
+Qual é a interpretação física da equação diferencial da conservação de massa?	A divergência do fluxo de massa em um ponto é igual à taxa negativa de variação da densidade local no tempo.
+Qual é o significado do vetor normal n̂ na forma integral?	É o vetor ortogonal à face da área escolhida que define a direção normal da superfície de controle.
+Como o Princípio da Divergência de Gauss se relaciona com a conservação de massa?	Ele permite relacionar matematicamente a representação integral, baseada na superfície, com a representação diferencial, baseada no volume.
+Quando a densidade pode ser retirada das derivadas parciais da equação da continuidade?	Quando o fluido é considerado incompressível, tornando a densidade uma constante.
+Por que a densidade geralmente desaparece da forma final da continuidade na hidrodinâmica do navio?	Porque água e ar são tratados como incompressíveis, reduzindo a lei ao balanço das derivadas espaciais das velocidades locais.
+Qual é a forma simplificada da continuidade para um fluido incompressível?	∇ · V = 0.
+Em um escoamento incompressível 1D, qual deve ser a relação entre as velocidades de entrada e saída quando a área é a mesma?	A velocidade de saída deve ser igual à velocidade de entrada: u₂ = u₁.
+Em um caso 2D incompressível com entrada em x e saída em y, qual relação deve ser satisfeita?	−∂u/∂x = ∂v/∂y.
+Em um fluxo 3D incompressível, o que significa −∂u/∂x = ∂v/∂y + ∂w/∂z?	Significa que a massa que entra pela direção x é distribuída e expelida pelas saídas nas direções y e z.
+Para aplicar a conservação de massa, é necessário conhecer as velocidades absolutas ou suas variações espaciais?	Basta o conhecimento das variações da velocidade no espaço, ou gradientes, e não necessariamente da velocidade propriamente dita.
+Se a densidade aumenta com o tempo em um ponto fixo, o que deve ocorrer com o fluxo líquido?	Deve haver convergência de massa para o ponto, com fluxo de entrada maior que o de saída.
+Como se comporta a conservação de massa quando ρ é constante e o fluxo é estacionário?	A soma das vazões de entrada deve ser igual à soma das vazões de saída.
+Qual é a diferença física entre ρ e ṁ?	ρ é a massa por unidade de volume, enquanto ṁ é a taxa de transporte de massa através de uma fronteira.
+Qual propriedade da dinâmica de Newton sustenta a segunda lei de conservação mencionada?	A conservação da quantidade de movimento.
+Em que situação específica a temperatura se torna importante na engenharia naval, segundo o material?	No estudo dos princípios de geração de força em propulsores marítimos.
+Se o fluido é comprimido sem perda de matéria e ocupa um volume menor, o que acontece com ρ?	A densidade aumenta para manter a massa constante.
+O que acontece quando a vazão de saída é maior que a de entrada?	O volume de controle perde massa; a taxa de variação da massa interna é negativa.
+Se a área de uma seção de tubo diminui pela metade em um escoamento incompressível 1D, o que acontece com a velocidade?	A velocidade deve dobrar para conservar a massa.
+Qual é a relação entre V e suas componentes u, v e w?	u, v e w são as componentes do vetor velocidade V nas direções x, y e z.
+O que representa a integral tripla de ρ dVol?	Representa a massa total contida no volume de controle em determinado instante.
+O que representam as setas IN e OUT no cubo de controle?	Representam a direção do vetor velocidade em relação às faces de entrada e saída do volume de controle.
+Qual é a unidade típica da vazão mássica?	Massa por unidade de tempo, por exemplo, kg/s.
+O que significa Δt tender a zero na obtenção da forma diferencial?	Representa a análise da conservação em um intervalo infinitesimal de tempo, permitindo descrever o comportamento local e contínuo.
+O que determina o sinal de V · n̂ na superfície de controle?	O ângulo entre o vetor velocidade e o vetor normal; quando apontam no mesmo sentido, como em uma saída, o termo é positivo.

@@ -1,0 +1,83 @@
+HIDRODINÂMICA — LEIS DE CONSERVAÇÃO
+Parte: Conservação da Quantidade de Movimento
+Material preparado para leitura e escuta no AVoice
+
+Nesta parte vamos estudar a segunda lei de conservação apresentada no material: a lei da conservação da quantidade de movimento.
+
+A lei da conservação da quantidade de movimento pode ser expressa na forma diferencial aplicando diretamente a segunda lei de Newton a um elemento de fluido infinitesimal. Newton estabeleceu que qualquer variação da quantidade de movimento de um objeto é causada pela ação de uma força externa. Sem a ação de uma força externa, a quantidade de movimento permanece constante.
+
+A relação fundamental apresentada é: a derivada no tempo da quantidade de movimento, D de m vezes V sobre D t, é igual à força F.
+
+Na mecânica dos fluidos, um elemento de massa, representado por dm, pode não ser constante em um determinado sistema. Por isso, quando analisamos o movimento dos fluidos precisamos tomar cuidado com a forma de observar o escoamento.
+
+Existem duas formas importantes de descrição: a abordagem lagrangeana e a abordagem euleriana.
+
+Na abordagem lagrangeana, acompanhamos uma partícula ou elemento de fluido enquanto ele se movimenta. Na abordagem euleriana, mantemos uma janela de observação fixa no espaço e observamos o fluido passando por essa região.
+
+Na abordagem euleriana surge a necessidade da derivada material. Ela também é chamada de derivada substantiva ou derivada total. A derivada material reúne dois efeitos: a aceleração local, relacionada à variação da velocidade no tempo em um ponto fixo, e a aceleração convectiva, relacionada à variação da velocidade quando a partícula se desloca por regiões onde a velocidade é diferente.
+
+Para entender a aceleração convectiva, o material apresenta o exemplo de um tubo convergente com escoamento incompressível. Na entrada temos velocidade u1, densidade rho1 e área A1. Na saída temos velocidade u2, densidade rho2 e área A2. A abertura de entrada é maior que a abertura de saída.
+
+Como o escoamento é incompressível, a conservação de massa fornece rho2 vezes u2 vezes A2 menos rho1 vezes u1 vezes A1 igual a zero. Como rho1 é igual a rho2, temos u2 vezes A2 igual a u1 vezes A1.
+
+Como A1 é maior que A2, a velocidade u2 precisa ser maior que u1. Portanto, o fluido acelera ao passar pelo tubo convergente. Uma aceleração indica a existência de uma força atuando sobre o escoamento.
+
+Esse exemplo mostra uma diferença importante entre as abordagens lagrangeana e euleriana.
+
+Na abordagem lagrangeana, acompanhamos a partícula de fluido. Se a velocidade da partícula aumenta, observamos diretamente uma aceleração. Portanto, percebemos a atuação da força.
+
+Na abordagem euleriana, observamos o escoamento através de uma janela fixa no espaço. Em um escoamento permanente, a velocidade medida em uma determinada janela não varia com o tempo. Assim, a derivada temporal local da velocidade pode ser igual a zero. Isso, porém, não significa que não exista força.
+
+A força pode estar associada à aceleração convectiva. O observador fixo percebe que o fluido possui velocidades diferentes em posições diferentes. Assim, mesmo que a velocidade em uma determinada posição não varie com o tempo, a partícula pode acelerar ao se deslocar para outra posição.
+
+O material apresenta uma analogia com uma bola descendo uma rampa. Na abordagem lagrangeana, acompanhamos a bola e observamos suas velocidades aumentando ao longo do tempo. Se as velocidades são u1, u2 e u3, temos u1 menor que u2, que é menor que u3. A inclinação do gráfico de velocidade pelo tempo representa a aceleração.
+
+Na abordagem euleriana, escolhemos uma janela fixa em determinado ponto da rampa. Antes de chegar à janela, a bola possui uma velocidade um pouco menor. Ao sair dela, possui uma velocidade um pouco maior. Porém, enquanto observamos exatamente a mesma janela, a velocidade local pode permanecer constante. O gráfico velocidade pelo tempo na janela pode, portanto, parecer indicar que não existe aceleração.
+
+A força existe, mas ela não aparece apenas na derivada temporal local. É necessário incluir os termos de aceleração convectiva.
+
+A aceleração convectiva na direção x pode ser entendida observando como a velocidade u varia com a posição x. A relação apresentada é u vezes a derivada parcial de u em relação a x.
+
+De forma semelhante, a contribuição convectiva associada à direção y é v vezes a derivada parcial de u em relação a y. Em três dimensões também existe a contribuição associada à direção z, dada por w vezes a derivada parcial de u em relação a z.
+
+Assim, mantendo o observador fixo no espaço x, y e z, a aceleração total na direção x é:
+
+a x é igual à derivada parcial de u em relação a t, mais u vezes a derivada parcial de u em relação a x, mais v vezes a derivada parcial de u em relação a y, mais w vezes a derivada parcial de u em relação a z.
+
+A primeira parcela representa a aceleração local. As demais parcelas representam as contribuições convectivas.
+
+Para as direções y e z, o material apresenta:
+
+a y é igual à derivada parcial de v em relação a t, mais u vezes a derivada parcial de v em relação a x, mais v vezes a derivada parcial de v em relação a y, mais w vezes a derivada parcial de v em relação a z.
+
+a z é igual à derivada parcial de w em relação a t, mais u vezes a derivada parcial de w em relação a x, mais v vezes a derivada parcial de w em relação a y, mais w vezes a derivada parcial de w em relação a z.
+
+Em um escoamento permanente, as derivadas parciais de u, v e w em relação ao tempo são iguais a zero. Isso elimina as parcelas de aceleração local, mas não elimina necessariamente a aceleração convectiva.
+
+Depois de determinar a aceleração do fluido, podemos relacioná-la às forças que atuam sobre um elemento de fluido.
+
+Na mecânica dos fluidos é comum trabalhar com grandezas por unidade de volume. A segunda lei de Newton pode então ser escrita relacionando a aceleração material do fluido com a força por unidade de volume.
+
+Como a massa por unidade de volume é a densidade rho, a forma apresentada no material é: a derivada material de rho vezes V é igual à força dividida pelo volume.
+
+Para a hidrodinâmica do navio, o escoamento é considerado incompressível. Nesse caso, a densidade pode ser tratada como constante e a expressão fica, de acordo com o material, rho vezes a derivada material de V igual à força por unidade de volume.
+
+O ponto central desta parte é o seguinte: a conservação da quantidade de movimento conecta a aceleração do fluido às forças que alteram seu movimento. Na descrição euleriana, a aceleração total não deve ser confundida apenas com a variação da velocidade no tempo em um ponto fixo. É necessário considerar também a aceleração convectiva produzida pelas variações espaciais da velocidade.
+
+Resumo mental para estudo:
+
+Conservação da quantidade de movimento significa aplicar a segunda lei de Newton ao fluido.
+
+Lagrange acompanha a partícula.
+
+Euler fixa a janela de observação.
+
+Derivada material reúne aceleração local e aceleração convectiva.
+
+Escoamento permanente significa que a derivada temporal local da velocidade é zero, mas a aceleração convectiva ainda pode existir.
+
+No tubo convergente incompressível, a área diminui, a velocidade aumenta e aparece aceleração.
+
+A aceleração do fluido está relacionada às forças que atuam sobre ele.
+
+Na hidrodinâmica do navio, o material considera o escoamento incompressível.

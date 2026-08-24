@@ -1,0 +1,373 @@
+HIDRODINÂMICA DO NAVIO
+PARTE 1 — LEIS DE CONSERVAÇÃO DA MECÂNICA DOS FLUIDOS
+VERSÃO REVISADA COM CRUZAMENTO DOS FLASHCARDS
+
+Esta versão foi organizada para leitura e escuta no @Voice. As fórmulas foram convertidas para uma forma que a voz consiga pronunciar melhor.
+
+LEIS DE CONSERVAÇÃO
+
+Através das leis de conservação é possível compreender como o fluido se move e como ele responde à ação de forças externas.
+
+Conforme o fluido se move, ele deve seguir as leis da Física.
+
+Três propriedades fundamentais são conservadas quando um fluido se move.
+
+Primeira: conservação de massa. A massa não pode ser criada nem desaparecer.
+
+Segunda: conservação de quantidade de movimento, atendendo aos princípios da lei fundamental da dinâmica de Isaac Newton.
+
+Terceira: conservação de energia. Assim como a massa, a energia não pode ser criada nem desaparecer.
+
+No contexto da Hidrodinâmica do Navio, normalmente são empregados os princípios de conservação de massa e de quantidade de movimento.
+
+A conservação de energia é empregada em casos mais complicados, nos quais a temperatura é uma variável importante. Um exemplo citado no material é o estudo dos princípios de geração de força em propulsores marítimos.
+
+
+PRIMEIRA LEI — CONSERVAÇÃO DE MASSA
+
+A premissa fundamental da lei de conservação de massa é simples: a massa não pode ser criada nem desaparecer durante o escoamento do fluido.
+
+Em mecânica dos fluidos, a massa, representada por eme, é relacionada ao volume pela densidade absoluta, ou massa específica, representada pela letra rô.
+
+A massa é igual à densidade multiplicada pelo volume.
+
+Em coordenadas cartesianas, para um pequeno volume, temos:
+
+A massa é igual a rô vezes delta x vezes delta y vezes delta z.
+
+Ou, em símbolos:
+
+eme é igual a rô vezes delta x vezes delta y vezes delta z.
+
+Se um fluido for comprimido em um volume menor sem perda de matéria, a massa permanece a mesma e a densidade deve aumentar.
+
+
+VOLUME DE CONTROLE
+
+O princípio de conservação de massa é aplicado a um volume fixo no espaço, de forma arbitrária, que contém fluido.
+
+Esse volume é chamado de volume de controle.
+
+O fluido pode entrar ou sair do volume de controle.
+
+As setas de entrada e saída representam a direção do vetor velocidade em relação às faces do volume de controle.
+
+
+ESCOAMENTO UNIDIRECIONAL
+
+Considere inicialmente que o escoamento seja unidirecional, ou um D.
+
+Isso significa que o fluido está passando apenas em uma direção em um dado instante de tempo, por exemplo, na direção x.
+
+As velocidades de entrada e saída são representadas por u um e u dois.
+
+A velocidade u é a variação da posição no espaço pelo tempo.
+
+Portanto:
+
+u é igual a delta x dividido por delta t.
+
+
+BALANÇO DE MASSA
+
+A lei de conservação de massa estabelece que, se existir diferença entre a quantidade de massa que entra e a quantidade de massa que sai, existe variação de massa dentro do volume de controle.
+
+Se a vazão mássica de entrada for maior que a vazão mássica de saída, ocorre acúmulo de massa no interior do volume. Em um tanque, por exemplo, ele ficará mais cheio e pesado.
+
+Se a vazão mássica de saída for maior que a de entrada, o volume estará perdendo massa, ou seja, estará esvaziando.
+
+Em símbolos:
+
+Se eme ponto de entrada for maior que eme ponto de saída, a variação de massa interna é positiva.
+
+Se eme ponto de saída for maior que eme ponto de entrada, a variação de massa interna é negativa.
+
+
+VAZÃO MÁSSICA
+
+Vazão mássica é a taxa de quantidade de fluido por unidade de tempo que atravessa uma superfície de controle.
+
+A unidade física típica é quilograma por segundo.
+
+A vazão mássica é dada por:
+
+eme ponto é igual a rô vezes u vezes A.
+
+A densidade rô representa a massa por unidade de volume, enquanto eme ponto representa a taxa de transporte de massa através de uma fronteira.
+
+Para uma face de área A, a vazão mássica depende da densidade, da velocidade e da área.
+
+
+VARIAÇÃO DE MASSA NO CUBO
+
+Para um volume de controle fixo, a variação de massa interna no tempo só pode ocorrer através da mudança na densidade do fluido.
+
+Por isso, o termo da variação de massa no cubo pode ser escrito como:
+
+Delta rô dividido por delta t, multiplicado por delta x, delta y e delta z.
+
+A função do sinal negativo na equação da conservação de massa é indicar que um fluxo líquido positivo para fora do volume, ou seja, saída maior que entrada, corresponde a uma diminuição da massa interna.
+
+
+GEOMETRIA DO VOLUME DE CONTROLE
+
+No cubo de controle, as faces opostas possuem áreas iguais.
+
+Na direção x:
+
+A um é igual a A dois, que é igual a delta y vezes delta z.
+
+Isso permite simplificar a equação de conservação de massa e relacionar diretamente as velocidades e as densidades.
+
+
+CONSERVAÇÃO LOCAL DA MASSA
+
+A conservação de massa é uma lei local.
+
+Isso significa que a massa não pode ir de um ponto A para um ponto B sem passar fisicamente pelo espaço entre esses pontos.
+
+Podemos relacionar a variação de massa de uma região com o fluxo total de massa para fora dessa região.
+
+No caso unidimensional, o termo menos delta de rô u representa a variação líquida da vazão mássica por unidade de área na direção x.
+
+
+CASO TRIDIMENSIONAL
+
+Para o caso três D, a variação total da vazão no volume de controle é obtida somando as contribuições das três direções.
+
+Na direção x aparece a variação de rô u multiplicada por delta y e delta z.
+
+Na direção y aparece a variação de rô v multiplicada por delta x e delta z.
+
+Na direção z aparece a variação de rô w multiplicada por delta x e delta y.
+
+As três contribuições formam o balanço tridimensional da conservação de massa.
+
+
+FORMA DIFERENCIAL DA CONSERVAÇÃO DE MASSA
+
+Ao dividir a expressão tridimensional por delta x, delta y e delta z e fazer os diferenciais tenderem a zero, obtemos a forma diferencial da equação da continuidade.
+
+A expressão é:
+
+A derivada parcial de rô u em relação a x, mais a derivada parcial de rô v em relação a y, mais a derivada parcial de rô w em relação a z, é igual à derivada parcial negativa de rô em relação ao tempo.
+
+A interpretação física é:
+
+A divergência do fluxo de massa em um ponto é igual à taxa negativa de variação da densidade local no tempo.
+
+Em forma vetorial, a conservação de massa pode ser escrita como:
+
+Nabla ponto rô vezes V, mais a derivada parcial de rô em relação ao tempo, é igual a zero.
+
+O operador nabla representa as derivadas espaciais nas coordenadas cartesianas.
+
+O vetor velocidade V possui as componentes u, v e w ao longo dos eixos x, y e z.
+
+
+FORMA INTEGRAL
+
+Na forma integral, a conservação de massa relaciona o fluxo de massa através da superfície de controle com a variação da massa dentro do volume de controle.
+
+O termo:
+
+Integral tripla de rô d volume
+
+representa a massa total contida dentro do volume de controle em determinado instante.
+
+Na integral de superfície, aparece o produto escalar entre o vetor velocidade V e o vetor normal n com chapéu.
+
+O vetor n com chapéu é ortogonal à face da área escolhida e define a direção normal da superfície de controle.
+
+Se o vetor velocidade aponta no mesmo sentido da normal de saída, o produto V ponto n é positivo.
+
+O Princípio da Divergência de Gauss permite relacionar a representação integral, baseada na superfície, com a representação diferencial, baseada no volume.
+
+
+EQUAÇÃO DA CONTINUIDADE
+
+A lei de conservação de massa também é conhecida como equação da continuidade.
+
+Ela expressa o fato de que a massa não pode simplesmente aparecer ou desaparecer dentro de um volume de controle.
+
+Qualquer aumento de massa interna deve ser balanceado por um fluxo líquido de entrada pelas fronteiras.
+
+
+ESCOAMENTO INCOMPRESSÍVEL
+
+No caso da Hidrodinâmica do Navio, o fluido, seja água ou ar, é tratado como incompressível nas condições consideradas pelo material.
+
+Isso significa que as variações de densidade são desprezíveis e a densidade absoluta rô pode ser tratada como constante.
+
+Quando a densidade é constante, ela pode ser retirada das derivadas parciais da equação da continuidade.
+
+A equação passa então a ser:
+
+A derivada parcial de u em relação a x, mais a derivada parcial de v em relação a y, mais a derivada parcial de w em relação a z, é igual a zero.
+
+Em forma vetorial:
+
+A divergência de V é igual a zero.
+
+Ou:
+
+Nabla ponto V é igual a zero.
+
+
+INTERPRETAÇÃO FÍSICA DO ESCOAMENTO INCOMPRESSÍVEL
+
+A densidade absoluta não aparece nos termos finais da lei de conservação de massa para o escoamento incompressível.
+
+A lei passa a ser aplicada ao balanço das derivadas espaciais das velocidades locais.
+
+Se a derivada parcial de u em relação a x é positiva, existe tendência de saída de massa na direção x.
+
+Se a derivada parcial de v em relação a y é positiva, existe tendência de saída de massa na direção y.
+
+Se a derivada parcial de w em relação a z é positiva, existe tendência de saída de massa na direção z.
+
+Se a divergência de V fosse maior que zero em um ponto de um fluido incompressível, isso indicaria expansão sem a correspondente mudança de densidade, o que não satisfaz a conservação de massa.
+
+
+CASO UM D — ESCOAMENTO INCOMPRESSÍVEL
+
+No caso unidimensional, na direção x, para um escoamento incompressível:
+
+A derivada parcial de u em relação a x é igual a zero.
+
+Assim, não pode existir variação de velocidade ao longo do volume de controle.
+
+A velocidade de saída deve ser igual à velocidade de entrada:
+
+u dois é igual a u um.
+
+Em um escoamento incompressível 1D, se a área da seção diminuir pela metade, a velocidade deve dobrar para conservar a vazão mássica.
+
+De forma geral, para uma área menor, a velocidade precisa aumentar para manter o mesmo fluxo de massa, quando a densidade é constante.
+
+
+CASO DOIS D — ESCOAMENTO INCOMPRESSÍVEL
+
+No caso dois D, considera-se a entrada na direção x e uma saída na direção y.
+
+A saída na direção x é bloqueada.
+
+Existe uma velocidade diferente de zero na direção x, mas a contribuição aparece com sinal negativo porque a normal da superfície está em sentido oposto ao da velocidade u.
+
+A velocidade de saída na direção y equilibra a entrada pela direção x.
+
+A relação é:
+
+Menos a derivada parcial de u em relação a x é igual à derivada parcial de v em relação a y.
+
+Ou:
+
+Menos u x é igual a v y, considerando as derivadas parciais.
+
+
+CASO TRÊS D — ESCOAMENTO INCOMPRESSÍVEL
+
+No caso três D, considera-se a entrada pela direção x e saídas nas direções y e z.
+
+O balanço é:
+
+Menos a derivada parcial de u em relação a x é igual à derivada parcial de v em relação a y, mais a derivada parcial de w em relação a z.
+
+Isso significa que a massa que entra pela direção x é distribuída pelas saídas nas direções y e z.
+
+
+VELOCIDADE E SUAS COMPONENTES
+
+O vetor velocidade V possui três componentes cartesianas:
+
+u na direção x.
+
+v na direção y.
+
+w na direção z.
+
+Para aplicar a lei de conservação de massa, o ponto principal é conhecer as variações espaciais das velocidades, ou seja, seus gradientes, e não necessariamente o valor absoluto da velocidade em cada ponto.
+
+Se u, v e w forem constantes e uniformes no espaço, suas derivadas espaciais serão nulas e a divergência de V será igual a zero.
+
+
+DENSIDADE E FLUXO
+
+A densidade rô é uma propriedade do fluido: representa massa por unidade de volume.
+
+A vazão mássica eme ponto representa a taxa de transporte dessa massa através de uma fronteira.
+
+Se a densidade aumentar com o tempo em um ponto fixo, a conservação de massa exige uma convergência de massa para esse ponto, ou seja, a entrada de massa deve superar a saída.
+
+Se a densidade for constante e o fluxo for estacionário, a vazão volumétrica total que entra deve ser igual à vazão volumétrica total que sai.
+
+
+REGIME PERMANENTE E BALANÇO DE MASSA
+
+Em regime permanente, não existe acúmulo de massa dentro do volume de controle.
+
+Portanto, a massa que entra deve ser igual à massa que sai.
+
+Esse princípio vale para um volume com várias entradas e várias saídas.
+
+Por exemplo, se houver entrada por cinco faces e saída por apenas uma face, a vazão na face de saída deverá igualar a soma das vazões das cinco faces de entrada, desde que o sistema esteja em regime permanente.
+
+
+TEMPO INFINITESIMAL
+
+Quando fazemos delta t tender a zero, passamos da análise em um intervalo de tempo finito para a descrição do comportamento do fluido em um instante infinitesimal.
+
+Esse procedimento permite obter a forma diferencial da conservação de massa.
+
+
+NORMAL DA SUPERFÍCIE
+
+O termo V ponto n com chapéu depende do ângulo entre o vetor velocidade e o vetor normal à superfície.
+
+Quando velocidade e normal apontam no mesmo sentido, como em uma saída, o termo é positivo.
+
+Quando apontam em sentidos opostos, o termo é negativo.
+
+
+VOLUME DE CONTROLE FIXO
+
+O material-base trabalha com um volume de controle fixo no espaço.
+
+Por isso, a formulação apresentada relaciona a variação de massa interna à densidade e aos fluxos através das fronteiras.
+
+O tratamento de um volume de controle que se expande não faz parte do desenvolvimento apresentado nesta parte.
+
+
+PONTOS PARA MEMORIZAR
+
+Conservação de massa: a massa não pode ser criada nem desaparecer.
+
+Massa: densidade multiplicada pelo volume.
+
+Vazão mássica: densidade multiplicada pela velocidade multiplicada pela área.
+
+Volume de controle: região fixa no espaço pela qual o fluido pode entrar ou sair.
+
+Equação da continuidade: forma matemática da conservação de massa.
+
+Fluido incompressível: densidade tratada como constante.
+
+Para fluido incompressível:
+
+Nabla ponto V é igual a zero.
+
+No caso 1D:
+
+A velocidade de entrada é igual à velocidade de saída quando a área é a mesma.
+
+Se a área diminuir pela metade, a velocidade dobra para conservar a vazão.
+
+No caso 2D:
+
+Menos a derivada de u em relação a x é igual à derivada de v em relação a y.
+
+No caso 3D:
+
+Menos a derivada de u em relação a x é igual à derivada de v em relação a y, mais a derivada de w em relação a z.
+
+FIM DA PARTE 1

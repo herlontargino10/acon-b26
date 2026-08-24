@@ -1,0 +1,30 @@
+Qual lei de Newton fundamenta a conservação da quantidade de movimento no material?	A segunda lei de Newton.
+O que acontece com a quantidade de movimento na ausência de força externa?	Ela permanece constante.
+Como é expressa a relação fundamental da conservação da quantidade de movimento?	A derivada no tempo da quantidade de movimento, D(mV)/Dt, é igual à força F.
+Por que a mecânica dos fluidos exige cuidado com a massa de um elemento de fluido?	Porque um elemento de massa dm pode não ser constante em um determinado sistema.
+O que caracteriza a abordagem lagrangeana?	Acompanhamos uma partícula ou elemento de fluido enquanto ele se movimenta.
+O que caracteriza a abordagem euleriana?	Mantemos uma janela de observação fixa no espaço e observamos o fluido passando por ela.
+O que é a derivada material?	É a derivada substantiva ou total que reúne a aceleração local e a aceleração convectiva.
+Quais são os dois componentes da derivada material da velocidade?	A aceleração local e a aceleração convectiva.
+O que representa a aceleração local?	A variação da velocidade no tempo em um ponto fixo do espaço.
+O que representa a aceleração convectiva?	A variação da velocidade causada pelo deslocamento do fluido através de regiões onde a velocidade é diferente.
+No tubo convergente incompressível, qual relação resulta da conservação de massa?	u2 A2 = u1 A1.
+Se a área de entrada A1 é maior que a área de saída A2, o que ocorre com a velocidade?	A velocidade de saída u2 é maior que a velocidade de entrada u1.
+Por que a velocidade aumenta no tubo convergente?	Porque o escoamento é incompressível e a redução da área precisa ser compensada pelo aumento da velocidade para conservar a massa.
+O que a variação da velocidade no tubo convergente indica fisicamente?	Indica aceleração do escoamento e, portanto, a existência de uma força atuando.
+Por que, na abordagem euleriana, uma derivada temporal igual a zero não significa ausência de força?	Porque ainda pode existir aceleração convectiva causada pela variação espacial da velocidade.
+Como o exemplo da bola na rampa ilustra a abordagem lagrangeana?	Ao acompanhar a bola, observamos sua velocidade aumentando com o tempo e identificamos diretamente a aceleração.
+Como o exemplo da bola na rampa ilustra a abordagem euleriana?	Em uma janela fixa, a velocidade local pode permanecer constante, embora a bola acelere ao se deslocar entre posições diferentes.
+O que faltava na análise euleriana quando a força parecia não existir?	Os termos de aceleração convectiva.
+Qual é a contribuição convectiva na direção x para a aceleração de u?	u vezes a derivada parcial de u em relação a x.
+Qual é a contribuição convectiva associada à direção y para a aceleração de u?	v vezes a derivada parcial de u em relação a y.
+Qual é a forma da aceleração total na direção x apresentada no material?	ax = ∂u/∂t + u∂u/∂x + v∂u/∂y + w∂u/∂z.
+Qual é a forma da aceleração total na direção y?	ay = ∂v/∂t + u∂v/∂x + v∂v/∂y + w∂v/∂z.
+Qual é a forma da aceleração total na direção z?	az = ∂w/∂t + u∂w/∂x + v∂w/∂y + w∂w/∂z.
+O que acontece com as parcelas de aceleração local em um escoamento permanente?	As derivadas temporais de u, v e w são zero.
+Em um escoamento permanente, a aceleração total necessariamente é zero?	Não. A aceleração convectiva ainda pode existir.
+Como a segunda lei de Newton é adaptada para trabalhar com um elemento de fluido por unidade de volume?	Relacionando a aceleração material à força por unidade de volume.
+O que representa a densidade rho na relação por unidade de volume?	A massa por unidade de volume.
+Como fica a relação apresentada para um escoamento incompressível na hidrodinâmica do navio?	rho vezes a derivada material de V é igual à força por unidade de volume.
+Qual é a ideia central da conservação da quantidade de movimento?	A aceleração do fluido está ligada às forças que alteram seu movimento.
+Qual é a diferença essencial entre aceleração local e convectiva?	A local ocorre pela variação temporal em um ponto; a convectiva ocorre pela variação espacial da velocidade ao longo do movimento do fluido.
