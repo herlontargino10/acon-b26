@@ -22,7 +22,7 @@ Com base nestes dados e considerando a cota do metacentro inalterada, determine 
 
 # Questão 02 — Tabela Hidrostática
 
-Com base na tabela de dados hidrostáticos do navio **SD-14**, sabendo-se que o calado a vante vale **7,82 m** e o calado a ré **8,38 m**.
+Com base na tabela de dados hidrostáticos do navio **SD-14**, sabendo-se que o calado a vante vale **7,80 m** e o calado a ré **8,20 m**.
 
 Determine:
 

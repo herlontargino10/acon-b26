@@ -1,7 +1,5 @@
 ```txt
 
-**PROMPT – Organizar transcrição do professor e reconstruir possíveis questões da prova**
-
 Vou enviar:
 
 1. Uma transcrição de áudio do professor (pode conter erros de reconhecimento).
