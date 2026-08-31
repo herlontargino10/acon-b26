@@ -1,0 +1,257 @@
+ECDIS — AULA DE REVISÃO
+
+Nesta aula vamos organizar os principais conceitos de ECDIS de forma contínua, como uma explicação de professor. A ideia é entender primeiro o sistema, depois as cartas eletrônicas, os sensores, a apresentação, os alarmes, o planejamento da derrota e, por fim, os cuidados operacionais e o estudo de caso.
+
+Vamos começar pelos fundamentos.
+
+O ECDIS é um sistema eletrônico de informação e apresentação de cartas eletrônicas. Sua principal função é contribuir para uma navegação segura e eficiente.
+
+Uma distinção importante é entre ECDIS e ECS. O ECDIS atende às exigências de dotação de cartas náuticas a bordo. O ECS pode auxiliar a navegação, mas não atende a essas exigências.
+
+Existem três tipos de treinamento relacionados ao ECDIS. O treinamento genérico é conduzido por um centro ou instituição de treinamento aprovado. A familiarização está relacionada aos procedimentos da embarcação. E o treinamento específico do equipamento é conduzido pelo fabricante.
+
+Agora vamos entender as cartas eletrônicas.
+
+Existem dois tipos principais: raster e vetorial. A carta raster é uma imagem digitalizada de uma carta, com os dados em uma única camada e formato. Por isso ela é descrita como uma carta morta. Ela não possui alarmes, tem zoom limitado, exige mais memória, apresenta correções de forma mais trabalhosa e sua apresentação é North-up.
+
+A carta vetorial é diferente. Seus dados são organizados em arquivos e camadas, permitindo selecionar as informações que serão apresentadas pelo ECDIS. Portanto, a diferença essencial é esta: raster é uma imagem digitalizada; vetorial é estruturada em objetos, arquivos e camadas selecionáveis.
+
+Também precisamos diferenciar cartas oficiais e não oficiais. Uma carta oficial é produzida por, ou sob responsabilidade de, um Governo, Serviço Hidrográfico ou instituição governamental relevante. A carta não oficial não se enquadra nessa definição e também pode ser chamada de extraoficial ou privada.
+
+Entre as cartas náuticas digitais oficiais, aparecem a ENC e a RNC.
+
+A ENC é um banco de dados padronizado quanto ao conteúdo, à estrutura e ao formato, emitido para uso com ECDIS sob autoridade dos Serviços Hidrográficos autorizados. A RNC é uma cópia digital raster de uma carta oficial impressa em papel, em conformidade com a S-61 da OHI.
+
+Um ponto que precisa ficar muito claro: utilizar RNC não dispensa as cartas de papel. Quando o ECDIS opera com RNC, devem existir a bordo cartas náuticas de papel atualizadas em conjunto.
+
+Na numeração de uma ENC, os dois primeiros caracteres indicam o produtor da carta. Por exemplo, BR indica Brasil. O terceiro caractere indica o propósito da navegação. Os seis propósitos são: panorâmico, geral, costeiro, aproximação, portuário e atracação.
+
+Quanto às normas, a IEC 61174 define métodos de teste e desempenho para aprovação de tipo do ECDIS. A ISO 19379 especifica os padrões para sistemas ECS. A Resolução IMO A.817, de número 19, estabeleceu o padrão de desempenho da IMO para equipamentos instalados até 2009.
+
+No catálogo S-57 e S-52 são apresentadas aproximadamente 170 classes de objetos e 190 atributos. Esses atributos são classificados em qualitativos ou quantitativos.
+
+Agora vamos para os modos de funcionamento e para os controles do ECDIS.
+
+O sistema possui dois modos de funcionamento: modo ECDIS e modo RCDS. O modo RCDS é utilizado quando não há ENC disponível e são utilizadas RNC. Nesse caso, deve haver a bordo um portfólio adequado de cartas de papel atualizadas.
+
+Na área gráfica, o cursor possui três modos principais. VIEW permite a navegação e a movimentação livre pela carta. ERBL permite medir marcação e distância usando uma linha eletrônica. ZOOM permite selecionar e ampliar um quadrante.
+
+Os sensores mínimos obrigatórios são três. O gyro fornece o aproamento. O Speed Log fornece a velocidade. E o GPS fornece a posição. Esses sensores devem estar conectados diretamente ao ECDIS e também ao backup.
+
+Outros sensores e sistemas podem ser conectados, como AIS, ARPA, Radar, piloto automático, ecobatímetro, NAVTEX, agulha magnética, anemômetro e odômetro.
+
+A qualidade dos sensores é fundamental porque o funcionamento seguro do ECDIS depende da qualidade dos sinais e dos próprios sensores.
+
+Nas ENCs, o datum horizontal utilizado é o WGS-84.
+
+A agulha giroscópica apresenta duas vantagens destacadas no material: utiliza o norte verdadeiro como referência e é independente de campos magnéticos.
+
+O ECDIS gera alarme relacionado aos sensores primários quando eles ficam sem sinal, sem dados ou com dados inválidos. Entre eles, o sensor principal para o ECDIS é o sistema de posicionamento.
+
+Ao verificar rapidamente o sistema de posicionamento, devemos observar a ligação do sistema, cabos e conectores, os satélites e a qualidade do sinal, a atualização da posição a cada segundo, o datum WGS-84 e as condições do DGPS quando utilizado.
+
+Agora vamos falar da apresentação da carta.
+
+Os esquemas de cores predefinidos são dia, crepúsculo e noite.
+
+Existem quatro modos de exibição. O Base Display é o nível com informações sempre visíveis, como linha da costa, escala e sistema de orientação do tráfego. Ele não é suficiente para navegação.
+
+O Standard Display contém o Base Display e acrescenta informações como boias, auxílios à navegação, limites de canais e áreas proibidas ou restritas. Esse nível é suficiente para navegação.
+
+O All Layers Display contém o Standard Display e acrescenta informações como cabos submarinos, nomes de lugares e notas de precaução.
+
+O Custom Display contém o Standard Display acrescido das camadas escolhidas pelo usuário.
+
+Outro conceito importante é SCAMIN. É o valor que determina a escala abaixo da qual determinados objetos da ENC deixam de ser apresentados.
+
+Quanto ao movimento, existem True Motion e Relative Motion. No True Motion, a carta permanece estática e o símbolo do navio se desloca. No Relative Motion, o navio permanece fixo e a carta se desloca sob ele.
+
+Os modos de orientação da carta são North-up, Course-up e Head-up. Para cartas raster, ou RNC, existe uma restrição importante: a RNC só pode ser apresentada em North-up.
+
+Agora entramos nos parâmetros de profundidade e nos alarmes antiencalhe.
+
+Safety Depth é a configuração que faz com que sondagens iguais ou inferiores ao valor estabelecido fiquem mais visíveis.
+
+O Safety Depth deve ter valor igual ou superior ao Safety Contour.
+
+Safety Contour é a isobatimétrica utilizada para separar águas seguras das não navegáveis e apoiar a geração de alarmes antiencalhe. A escolha deve ser próxima ao calado máximo permitido e estar de acordo com a política de segurança da empresa, utilizando os contornos disponíveis na carta.
+
+Se o Safety Contour selecionado não existir na carta, o ECDIS utiliza o próximo contorno de profundidade disponível.
+
+O Shallow Contour é normalmente definido como a profundidade correspondente ao calado do navio mais o squat calculado.
+
+O Deep Contour é normalmente definido como duas vezes a profundidade do calado do navio.
+
+Os alarmes do ECDIS podem ser apresentados de forma audível ou de forma audível e visual.
+
+É importante diferenciar alarme de indicador. O alarme anuncia uma condição que requer atenção, de forma audível ou audível e visual. O indicador fornece informação visual sobre a condição ou o estado de um sistema ou equipamento.
+
+Os alarmes do ECDIS baseiam-se nos dados e parâmetros inseridos pelo operador.
+
+O Safety Frame trabalha independentemente da rota monitorada.
+
+Segundo a distinção apresentada pela IMO, o Alarme, identificado como A, exige atenção ou ação e possui sinal sonoro mandatório. A Indicação, identificada como I, é um aviso visual.
+
+Durante a navegação, ao cruzar o Safety Contour, é gerado Alarme. Durante o planejamento da rota, ao cruzar o Safety Contour, é gerada apenas Indicação.
+
+Agora vamos falar de posição e validação cruzada.
+
+Os meios de marcação de posição fixa são sobreposição radar, marcação ARPA e marcação visual.
+
+O Radar Overlay permite comparar a imagem do radar com os objetos apresentados no ECDIS, verificando posição e distância, principalmente em águas costeiras.
+
+O ECDIS também permite a validação cruzada da posição por LOPs manuais. É possível inserir marcações visuais, distâncias de radar e linhas astronômicas manuais e comparar a posição obtida com a posição do sensor GNSS.
+
+STW significa Speed Through Water, ou velocidade através da água.
+
+A velocidade do Speed Log pode ser conferida comparando GPS e LOG.
+
+A ecosonda fornece a profundidade abaixo do transdutor. Antes de comparar essa profundidade com a profundidade da carta, devem ser considerados a posição do transdutor, o calado, o trim e a maré, conforme os ajustes necessários.
+
+Entre as fontes de erro da ecosonda estão fundo inclinado, fundo desnivelado, ecos múltiplos, fundo falso, erro ecográfico e variações de temperatura e salinidade.
+
+DBK significa Depth Below Keel, ou profundidade abaixo da quilha.
+
+O vetor COG-SOG representa o movimento do navio. Ele não fica necessariamente alinhado com o aproamento verdadeiro porque é influenciado por vento, ondas e correntes.
+
+HDG representa o aproamento e está alinhado ao contorno do navio. COG representa a direção do movimento da embarcação.
+
+Uma diferença significativa entre os vetores de aproamento e velocidade e os vetores COG e SOG pode indicar deriva do navio ou erro do sensor.
+
+Agora vamos entrar no planejamento e no monitoramento da derrota.
+
+XTD significa limite de afastamento de cada pernada da derrota.
+
+Na verificação da derrota, primeiro deve ser realizada a verificação automática. Depois deve ser feita uma verificação visual, sistemática e detalhada. Se houver alterações, as verificações devem ser repetidas até finalizar e aprovar o plano.
+
+A ferramenta de verificação da rota compara a derrota planejada com parâmetros de segurança, incluindo profundidade de segurança, Safety Contour e áreas ou ações proibidas, utilizando as melhores cartas disponíveis.
+
+Se o XTD for configurado inadequadamente, pode ser gerada uma quantidade elevada de alarmes.
+
+Segundo o STCW, o plano de viagem deve ser planejado com antecedência e ser de porto a porto, utilizando cartas adequadas e apropriadas e outras publicações necessárias.
+
+Quando um desvio de rota for necessário, ele deve ser totalmente planejado antes de sua execução.
+
+A revisão e aprovação formal da derrota antes da partida é responsabilidade exclusiva do Comandante.
+
+A ferramenta Schedule integra ETD, velocidade planejada, fuso horário e ETA em cada waypoint.
+
+ETD significa hora estimada de partida.
+
+ETA significa hora estimada de chegada.
+
+A sequência básica para colocar uma rota em monitoramento é: criar, verificar e ativar.
+
+Apenas uma rota pode ser monitorada ativamente ao mesmo tempo.
+
+Durante o monitoramento, as principais informações fornecidas continuamente são posição, rumo e velocidade do navio.
+
+O fallback automático é a seleção automática de uma fonte de dados de backup quando ocorre falha na fonte principal.
+
+Existem três maneiras de atender aos requisitos de cartas a bordo: cartas tradicionais de papel; um ECDIS acompanhado de um grupo apropriado de cartas de papel; ou ECDIS duplo.
+
+Na opção de ECDIS duplo, o segundo ECDIS deve possuir fonte de alimentação independente e conexões separadas para o sistema de referência, giro e velocidade.
+
+Quando o ECDIS está operando em modo RCDS com RNC, é necessário manter um portfólio apropriado de cartas de papel atualizadas.
+
+Agora vamos tratar de licenças e atualizações.
+
+Os períodos de licença ENC mencionados no material são 3, 6, 9 e 12 meses.
+
+Quando uma licença ENC expira, o serviço de correção para e a carta se torna não oficial, embora possa continuar sendo visualizada com indicação de licença vencida.
+
+Existem três modelos básicos de licença ENC: licença direta, licença dinâmica e PAYS, que significa Pay-As-You-Sail.
+
+As atualizações de ENC são cumulativas e incluem as correções desde o último Base CD.
+
+Para manter as cartas atualizadas, é necessário instalar o último Base CD das áreas e o último Correction CD.
+
+Todas as estações ECDIS devem ser atualizadas.
+
+Segundo o SOLAS, Capítulo V, Regra 27, as cartas e publicações náuticas necessárias devem estar adequadas e atualizadas.
+
+Agora vamos aos registros da viagem.
+
+O ECDIS deve manter os elementos mínimos das 12 horas anteriores, com registros em intervalos de 1 minuto.
+
+Os dados do navio registrados nesse período incluem hora, posição, aproamento e velocidade.
+
+Também devem ser registrados os dados da ENC utilizada: fonte da ENC, edição, data, célula e histórico de atualização.
+
+A passagem completa da viagem pode ser registrada por até 3 meses, com intervalos que não excedam 4 horas.
+
+As informações gravadas da viagem não podem ser manipuladas ou alteradas.
+
+O Playback pode ser utilizado para briefing e debriefing, análise de acidentes e incidentes e como evidência em tribunal.
+
+Vamos agora às correções manuais e ao NAVTEX.
+
+Os objetos contidos em uma ENC oficial não podem ser apagados por correção manual. Eles podem ser riscados ou ocultados, e novos objetos podem ser adicionados.
+
+Quando a correção automática correspondente é instalada, a correção manual deve ser deletada manualmente.
+
+As correções manuais são armazenadas em uma camada independente da ENC.
+
+Um receptor NAVTEX pode ser conectado ao ECDIS.
+
+O ECDIS pode posicionar a mensagem NAVTEX na carta quando apropriado e também apresentá-la como texto.
+
+Nem todas as mensagens NAVTEX recebidas são apresentadas. Somente as mensagens das estações selecionadas são apresentadas ou vistas.
+
+Agora chegamos à responsabilidade do operador.
+
+Entre os requisitos e normas relacionados à responsabilidade do operador ECDIS estão RIPEAM, SOLAS, STCW, requisitos da IMO e Código ISM, incluindo familiarização.
+
+O oficial deve evitar excesso de confiança no ECDIS. O ECDIS não é infalível e sua confiabilidade depende do sistema e de seus componentes.
+
+O uso do ECDIS não isenta o Oficial de Quarto de utilizar todos os meios disponíveis. O oficial deve usar todos os meios disponíveis para garantir a segurança da navegação.
+
+Para verificar a acurácia e a integridade dos dados durante a operação, deve-se comparar ECDIS com RADAR, verificar os sensores em seus próprios painéis, comparar diferentes sensores e verificar os indicadores.
+
+O painel COM Trace serve para verificar os dados e a comunicação dos sensores com o ECDIS.
+
+Se nenhum dado de um sensor é apresentado, isso indica que a comunicação com o sensor deve estar interrompida.
+
+Quando um sensor conectado ao ECDIS apresenta mau funcionamento, é disparado um alarme sonoro e visual, e a linha correspondente é apresentada em vermelho.
+
+Algumas giros e sensores de velocidade antigos podem não ser completamente monitorados porque podem utilizar protocolos que não transmitem continuamente os dados.
+
+Ao desligar o sistema de referência primário durante um teste, deve-se observar o tempo até o disparo do alarme, a reação do ECDIS e o comportamento do posicionamento.
+
+Existe ainda o risco de Screen Freeze. É um congelamento quase imperceptível do computador que pode permanecer indetectável por algum tempo.
+
+Por isso, o ECDIS principal e o backup devem ser reiniciados em momentos diferentes, nunca simultaneamente.
+
+Para finalizar, vamos ao estudo de caso apresentado no material.
+
+Entre as causas do encalhe estavam um desvio de rota que não foi inserido no ECDIS, a posição do navio não ter sido verificada, o alarme antiencalhe estar desligado, o limite de segurança estar inadequado e a falta de familiarização com o ECDIS.
+
+O ECDIS detectou o risco de encalhe e ativou um alarme visual. Entretanto, o oficial não o viu e o alarme sonoro estava desligado.
+
+As deficiências identificadas incluíram dependência de equipamentos, falta de treinamento, disposição inadequada dos equipamentos no passadiço e falta de apoio do Comandante.
+
+Após o acidente, foram adotadas algumas medidas: reposicionamento do ECDIS, reconexão do alarme sonoro, treinamento de familiarização e curso de gestão de recursos do passadiço.
+
+RESUMO FINAL
+
+Para memorizar esta aula, pense em uma sequência.
+
+Primeiro, ECDIS é um sistema para informação e apresentação de cartas eletrônicas, voltado para uma navegação segura e eficiente.
+
+Depois, diferencie raster de vetorial e ECDIS de ECS.
+
+Em seguida, memorize ENC e RNC, lembrando que RNC não elimina a necessidade de cartas de papel atualizadas.
+
+Depois, fixe os sensores principais: gyro para aproamento, Speed Log para velocidade e GPS para posição.
+
+Na apresentação, lembre-se de Base Display, Standard Display, All Layers Display e Custom Display.
+
+Nos parâmetros de profundidade, diferencie Safety Depth, Safety Contour, Shallow Contour e Deep Contour.
+
+Nos alarmes, diferencie Alarme e Indicação e lembre-se da diferença entre planejamento e monitoramento ao cruzar o Safety Contour.
+
+Na navegação, compare HDG com COG e GPS com LOG quando necessário, e use os meios disponíveis para validar a posição.
+
+No planejamento, lembre-se da sequência criar, verificar e ativar, do XTD e da responsabilidade do Comandante pela aprovação formal da derrota.
+
+Por fim, mantenha a ideia principal: o ECDIS é uma ferramenta de apoio à navegação. A segurança depende também dos sensores, das verificações cruzadas, da familiarização, do treinamento e da atuação do oficial.

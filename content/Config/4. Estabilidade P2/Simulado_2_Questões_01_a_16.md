@@ -142,8 +142,8 @@ Qual é a distância necessária que se deve movimentar para bombordo um peso de
     *   `Momento de estabilidade` → Δ × GZ
 
 ### 🔥 Ordem Recomendada para Treinar
-- **Bloco 1 — Superfície livre:** 04 → 05 → 06 → 07
+- **Bloco 1 — Superfície livre:** 04 → 05 → 06 → 07 (04 FEITO) (FALTA 05-06-07)
 - **Bloco 2 — Banda e transferência:** 08 → 09 → 10 → 11
 - **Bloco 3 — Experiência pendular:** 12 → 13 → 14 (FEITO)
-- **Bloco 4 — Questões completas:** 01 → 02 → 03
+- **Bloco 4 — Questões completas:** 01 → 02 → 03 (FEITO)
 - **Bloco 5 — Correções de banda :** 15 → 16 (FEITO)
