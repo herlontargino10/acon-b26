@@ -7,11 +7,11 @@
 
 ## 13:20–14:20 — NAV-1 ANKI
 
-- [ ] Fazer revisões vencidas
-- [ ] Fazer cards novos
-- [ ] Revisar cards difíceis
-- [ ] Revisar cards errados
-- [ ] Registrar assuntos com dificuldade
+- [x] Fazer revisões vencidas ✅ 2026-08-31
+- [x] Fazer cards novos ✅ 2026-08-31
+- [x] Revisar cards difíceis ✅ 2026-08-31
+- [x] Revisar cards errados ✅ 2026-08-31
+- [x] Registrar assuntos com dificuldade ✅ 2026-08-31
 
 ## 14:20–15:20 — ESTABILIDADE
 
@@ -22,55 +22,15 @@
 - [x] Registrar erros ✅ 2026-08-30
 - [x] Refazer questões erradas ✅ 2026-08-30
 
-## 15:35–16:35 — INGLÊS — PROVA 2
-
-- [ ] Estudar conteúdo
-- [ ] Revisar vocabulário
-- [ ] Revisar gramática
-- [ ] Fazer exercícios
-- [ ] Corrigir exercícios
-- [ ] Registrar erros
-- [ ] Revisar erros
-
-## 16:35–17:20 — NAV-1 SIMULACORE
-
-- [ ] Fazer questões
-- [ ] Responder sem consulta
-- [ ] Corrigir
-- [ ] Registrar erros
-- [ ] Identificar assuntos dos erros
-- [ ] Refazer questões erradas
-
 ## 17:35–18:15 — ECDIS — LEITURA 1/3
 
-- [ ] Abrir material de ECDIS
-- [ ] Ler bloco 1
-- [ ] Identificar conceitos principais
-- [ ] Marcar pontos importantes
-- [ ] Registrar dúvidas
-- [ ] Separar conceitos para revisão no Anki
-- [ ] Concluir leitura do dia
-
-## 18:15–18:45 — ECDIS ANKI
-
-- [ ] Fazer revisões vencidas
-- [ ] Fazer cards novos
-- [ ] Revisar cards errados
-- [ ] Revisar cards difíceis
-
-## 19:40–20:20 — HIDRODINÂMICA
-
-- [ ] Estudar bloco programado
-- [ ] Fazer recuperação ativa
-- [ ] Resolver questões
-- [ ] Registrar dúvidas
-
-## 20:20–21:00 — FIS
-
-- [ ] Estudar bloco programado
-- [ ] Revisar conceitos
-- [ ] Fazer recuperação ativa
-- [ ] Registrar dúvidas
+- [x] Abrir material de ECDIS ✅ 2026-08-31
+- [x] Ler bloco 1 ✅ 2026-08-31
+- [x] Identificar conceitos principais ✅ 2026-08-31
+- [x] Marcar pontos importantes ✅ 2026-08-31
+- [x] Registrar dúvidas ✅ 2026-08-31
+- [x] Separar conceitos para revisão no Anki ✅ 2026-08-31
+- [x] Concluir leitura do dia ✅ 2026-08-31
 
 ---
 
@@ -78,134 +38,49 @@
 
 ## 14:00–15:00 — NAV-1 ANKI
 
-- [ ] Fazer revisões vencidas
-- [ ] Fazer cards novos
-- [ ] Revisar cards difíceis
-- [ ] Revisar erros do dia anterior
-
-## 15:00–16:15 — ESTABILIDADE
-
-- [ ] Estudar conteúdo
-- [ ] Fazer recuperação ativa
-- [ ] Resolver questões
-- [ ] Corrigir
-- [ ] Registrar erros
-- [ ] Refazer questões erradas
+- [x] Fazer revisões vencidas ✅ 2026-08-31
+- [x] Fazer cards novos ✅ 2026-08-31
+- [x] Revisar cards difíceis ✅ 2026-08-31
+- [x] Revisar erros do dia anterior ✅ 2026-08-31
 
 ## 16:30–17:30 — INGLÊS — PROVA 2
 
-- [ ] Estudar conteúdo
-- [ ] Revisar vocabulário
-- [ ] Revisar gramática
-- [ ] Fazer exercícios
-- [ ] Corrigir
-- [ ] Registrar erros
+- [x] Estudar conteúdo impresso ✅ 2026-08-31
+- [x] Responder questões no Simulacore ✅ 2026-08-31
 
 ## 17:30–18:10 — ECDIS — LEITURA 2/3
 
-- [ ] Revisar rapidamente o bloco anterior
-- [ ] Ler bloco 2
-- [ ] Identificar conceitos principais
-- [ ] Marcar pontos importantes
-- [ ] Registrar dúvidas
-- [ ] Separar conceitos para o Anki
-- [ ] Concluir leitura do dia
+- [x] Separar conceitos para o Anki ✅ 2026-08-31
+- [x] Concluir leitura do dia ✅ 2026-08-31
 
-## 18:10–18:40 — ECDIS ANKI
-
-- [ ] Fazer revisões vencidas
-- [ ] Fazer cards novos
-- [ ] Revisar cards errados
-- [ ] Revisar cards difíceis
-- [ ] Revisar conceitos da leitura de hoje
-
-## 19:40–20:20 — HIDRODINÂMICA
-
-- [ ] Estudar
-- [ ] Fazer recuperação ativa
-- [ ] Resolver questões
-
-## 20:20–21:00 — FIS
-
-- [ ] Estudar
-- [ ] Revisar conceitos
-- [ ] Registrar dificuldades
 
 ---
 
 # TERÇA — 01/09
 
-## 14:00–15:00 — NAV-1 ANKI
+## 08:00–08:30 — ECDIS
 
-- [ ] Fazer revisões
-- [ ] Fazer cards novos
-- [ ] Revisar cards difíceis
-- [ ] Revisar erros
-
-## 15:00–15:50 — NAV-1 SIMULACORE
-
-- [ ] Fazer questões
-- [ ] Responder sem consulta
-- [ ] Corrigir
-- [ ] Registrar erros
-- [ ] Identificar assuntos fracos
-- [ ] Refazer questões erradas
-
-## 16:05–17:20 — ESTABILIDADE
-
-- [ ] Estudar
-- [ ] Fazer recuperação ativa
-- [ ] Resolver questões
-- [ ] Corrigir
-- [ ] Registrar erros
-- [ ] Refazer erros
-
-## 17:20–18:20 — INGLÊS
-
-- [ ] Estudar conteúdo
-- [ ] Revisar vocabulário
-- [ ] Fazer exercícios
-- [ ] Corrigir
-- [ ] Registrar erros
-- [ ] Revisar erros
+- [x] Escutar áudio do material ✅ 2026-09-01
 
 ## 18:20–18:50 — ECDIS ANKI
 
-- [ ] Fazer revisões
-- [ ] Fazer cards novos
-- [ ] Revisar cards errados
-- [ ] Revisar cards difíceis
+- [x] Fazer revisões de todos os baralhos ✅ 2026-09-02
 
-## 19:40–20:20 — HIDRODINÂMICA
+## 17:20–18:20 — INGLÊS
 
-- [ ] Estudar
-- [ ] Fazer recuperação ativa
-- [ ] Resolver questões
-
-## 20:20–21:00 — FIS
-
-- [ ] Estudar
-- [ ] Revisar
-- [ ] Registrar dificuldades
+- [x] Fazer exercícios P2 ✅ 2026-09-02
+- [x] Treinar questão 12 ✅ 2026-09-02
+- [x] Treinar questão 15 ✅ 2026-09-02
+- [x] Treinar questão 16 ✅ 2026-09-02
 
 ---
 
 # QUARTA — 02/09
 
-## 14:00–15:00 — NAV-1 ANKI
-
-- [ ] Fazer revisões
-- [ ] Fazer cards novos
-- [ ] Revisar cards difíceis
-- [ ] Revisar erros
 
 ## 15:00–16:15 — INGLÊS
 
-- [ ] Estudar conteúdo
-- [ ] Fazer exercícios
-- [ ] Corrigir
-- [ ] Revisar vocabulário
-- [ ] Revisar erros
+- [x] Estudar conteúdo ✅ 2026-09-02
 
 ## 16:30–17:45 — ESTABILIDADE
 
@@ -215,17 +90,6 @@
 - [ ] Registrar erros
 - [ ] Refazer questões erradas
 
-## 17:45–18:25 — ECDIS — LEITURA 3/3
-
-- [ ] Abrir material
-- [ ] Revisar pontos anteriores
-- [ ] Ler bloco 3
-- [ ] Identificar conceitos principais
-- [ ] Marcar pontos importantes
-- [ ] Registrar dúvidas
-- [ ] Separar conceitos para revisão
-- [ ] CONCLUIR LEITURA DOS 3 DIAS
-
 ## 18:25–19:00 — ECDIS ANKI
 
 - [ ] Fazer revisões
@@ -233,18 +97,6 @@
 - [ ] Revisar cards errados
 - [ ] Revisar cards difíceis
 - [ ] Revisar conceitos da leitura completa
-
-## 19:40–20:20 — HIDRODINÂMICA
-
-- [ ] Estudar
-- [ ] Fazer recuperação ativa
-- [ ] Resolver questões
-
-## 20:20–21:00 — FIS
-
-- [ ] Estudar
-- [ ] Revisar
-- [ ] Registrar dificuldades
 
 ---
 

@@ -11,7 +11,7 @@ PRN - 8.6
 EST 1 - 8.0
 POC - 9.5
 NAV-1 - 9.5
-FIS P1 - 7.4
+FIS P1 - 8.4
 CAL P1 - 
 NA2 P1 - 10
 

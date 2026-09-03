@@ -1,0 +1,998 @@
+[
+  {
+    "type": "mc",
+    "question": "Durante uma inspeção de bordo, o Oficial verifica que o sistema eletrônico de cartas auxilia a navegação, mas as cartas utilizadas não atendem às exigências de dotação de cartas náuticas. Qual conclusão é compatível com o material?",
+    "category": "ECDIS — Conceitos fundamentais",
+    "options": [
+      "O sistema é um ECDIS, pois qualquer sistema eletrônico de cartas atende às exigências.",
+      "O sistema é um ECS, pois auxilia a navegação sem atender às exigências de dotação.",
+      "O sistema é um RCDS, pois toda carta eletrônica que não é ENC é necessariamente RNC.",
+      "O sistema é um ECDIS apenas se estiver operando simultaneamente com radar."
+    ],
+    "correct": 1,
+    "explanation": "O ECS pode auxiliar a navegação, mas não atende às exigências de dotação de cartas náuticas que caracterizam o uso do ECDIS como meio de cumprimento desses requisitos."
+  },
+  {
+    "type": "mc",
+    "question": "Uma empresa pretende preparar um Oficial para operar um modelo específico de ECDIS recém-instalado. Considerando os três níveis de treinamento apresentados, qual combinação está correta?",
+    "category": "ECDIS — Treinamento",
+    "options": [
+      "Genérico pelo fabricante; familiarização pelo centro aprovado; específico pela embarcação.",
+      "Genérico pela embarcação; familiarização pelo fabricante; específico pelo centro aprovado.",
+      "Genérico por centro aprovado; familiarização segundo os procedimentos da embarcação; específico pelo fabricante.",
+      "Genérico pelo fabricante; familiarização pela empresa; específico por centro aprovado."
+    ],
+    "correct": 2,
+    "explanation": "O treinamento genérico é realizado por centro ou instituição aprovada; a familiarização segue os procedimentos da embarcação; e o treinamento específico é conduzido pelo fabricante."
+  },
+  {
+    "type": "mc",
+    "question": "Ao comparar duas cartas eletrônicas, o Oficial observa que uma apresenta os dados como uma imagem única, enquanto a outra permite selecionar objetos e camadas individualmente. Qual interpretação está correta?",
+    "category": "ECDIS — Cartas raster e vetoriais",
+    "options": [
+      "A primeira é raster e a segunda é vetorial.",
+      "A primeira é vetorial e a segunda é raster.",
+      "Ambas são raster, mas somente uma possui SCAMIN.",
+      "Ambas são vetoriais, mas uma opera somente em North-up."
+    ],
+    "correct": 0,
+    "explanation": "A carta raster é uma imagem digitalizada em uma única camada/formato, enquanto a vetorial organiza os dados em objetos, arquivos e camadas selecionáveis."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a utilização de uma RNC no ECDIS, o Oficial pretende operar sem qualquer portfólio adicional de cartas. Qual procedimento está de acordo com o material?",
+    "category": "ECDIS — RNC e RCDS",
+    "options": [
+      "É permitido, pois a RNC substitui integralmente as cartas de papel.",
+      "É permitido somente se o ECDIS estiver em Standard Display.",
+      "Não é permitido; em RCDS deve existir um portfólio adequado de cartas de papel atualizadas.",
+      "Não é permitido apenas quando a RNC estiver em escala menor que a carta original."
+    ],
+    "correct": 2,
+    "explanation": "Quando o ECDIS opera em modo RCDS com RNC, deve haver a bordo um portfólio adequado de cartas de papel atualizadas."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial precisa medir a distância e a marcação entre dois pontos na carta sem utilizar a ferramenta de ampliação. Qual modo do cursor deve ser selecionado?",
+    "category": "ECDIS — Operação do cursor",
+    "options": [
+      "VIEW, porque permite medir diretamente entre dois pontos.",
+      "ERBL, porque utiliza uma linha eletrônica para medir marcação e distância.",
+      "ZOOM, porque a ampliação permite determinar automaticamente a marcação.",
+      "VIEW, porque ERBL é destinado exclusivamente à alteração da escala."
+    ],
+    "correct": 1,
+    "explanation": "O modo ERBL permite medir marcação e distância utilizando uma linha eletrônica."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma falha do posicionamento, o Oficial verifica os sensores conectados ao ECDIS. Qual conjunto corresponde aos três sensores mínimos obrigatórios apresentados no material?",
+    "category": "ECDIS — Sensores",
+    "options": [
+      "AIS, Radar e ecobatímetro.",
+      "Gyro, Speed Log e GPS.",
+      "ARPA, NAVTEX e piloto automático.",
+      "GPS, Radar e agulha magnética."
+    ],
+    "correct": 1,
+    "explanation": "Os sensores mínimos indicados são Gyro para aproamento, Speed Log para velocidade e GPS para posição."
+  },
+  {
+    "type": "mc",
+    "question": "Um ECDIS recebe uma posição GNSS, mas o Oficial constata que o datum configurado não corresponde ao datum utilizado pelas ENCs. Qual verificação deveria fazer parte da conferência rápida do sistema de posicionamento?",
+    "category": "ECDIS — GNSS e posicionamento",
+    "options": [
+      "Verificar somente a quantidade de satélites, pois o datum é ajustado pela ENC.",
+      "Verificar o datum WGS-84, além da ligação, sinal, atualização da posição e demais condições indicadas.",
+      "Alterar o datum da ENC para coincidir com qualquer datum fornecido pelo receptor.",
+      "Desconsiderar o datum se a posição estiver sendo atualizada a cada segundo."
+    ],
+    "correct": 1,
+    "explanation": "O material determina a verificação do datum WGS-84 juntamente com ligação, cabos, qualidade do sinal, atualização da posição e demais condições do sistema."
+  },
+  {
+    "type": "mc",
+    "question": "Ao preparar o ECDIS para navegação, o Oficial seleciona o Base Display por considerar que ele contém todas as informações necessárias. Qual avaliação está correta?",
+    "category": "ECDIS — Modos de exibição",
+    "options": [
+      "Correta, porque o Base Display é o nível mínimo e suficiente para navegação.",
+      "Incorreta, porque o Base Display não é suficiente para navegação.",
+      "Correta apenas em águas costeiras, pois o Base Display contém os auxílios à navegação.",
+      "Incorreta somente quando a carta estiver em modo Relative Motion."
+    ],
+    "correct": 1,
+    "explanation": "O Base Display contém informações sempre visíveis, mas o material afirma expressamente que ele não é suficiente para navegação."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma configuração de apresentação, o Oficial precisa visualizar boias, auxílios à navegação, limites de canais e áreas proibidas ou restritas, sem necessariamente exibir todas as camadas adicionais. Qual modo atende a essa necessidade?",
+    "category": "ECDIS — Modos de exibição",
+    "options": [
+      "Base Display.",
+      "Standard Display.",
+      "All Layers Display.",
+      "Custom Display sem Standard Display."
+    ],
+    "correct": 1,
+    "explanation": "O Standard Display contém o Base Display e acrescenta, entre outras informações, boias, auxílios à navegação, limites de canais e áreas proibidas ou restritas."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial amplia progressivamente uma ENC e percebe que determinados objetos deixam de aparecer quando a escala ultrapassa determinado limite. Qual parâmetro explica esse comportamento?",
+    "category": "ECDIS — SCAMIN",
+    "options": [
+      "Safety Depth, que controla a visibilidade dos objetos conforme a profundidade.",
+      "SCAMIN, que determina a escala abaixo da qual determinados objetos deixam de ser apresentados.",
+      "Safety Contour, que remove objetos quando o navio se aproxima de águas rasas.",
+      "XTD, que controla a apresentação dos objetos fora da derrota."
+    ],
+    "correct": 1,
+    "explanation": "SCAMIN é o valor que determina a escala abaixo da qual determinados objetos da ENC deixam de ser apresentados."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a navegação em True Motion, qual comportamento deve ser observado na apresentação da carta?",
+    "category": "ECDIS — Movimento e orientação",
+    "options": [
+      "O navio permanece fixo e a carta se desloca sob ele.",
+      "A carta permanece estática e o símbolo do navio se desloca.",
+      "A carta e o símbolo do navio permanecem fixos enquanto o COG muda.",
+      "O navio permanece fixo e somente o vetor COG-SOG se desloca."
+    ],
+    "correct": 1,
+    "explanation": "No True Motion, a carta permanece estática enquanto o símbolo do navio se desloca."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial utiliza uma RNC e tenta selecionar Course-up para acompanhar a navegação. Considerando a restrição apresentada no material, qual deve ser a conclusão?",
+    "category": "ECDIS — RNC e orientação",
+    "options": [
+      "A RNC permite Course-up, mas não Head-up.",
+      "A RNC permite Head-up, mas não Course-up.",
+      "A RNC só pode ser apresentada em North-up.",
+      "A RNC pode usar qualquer orientação se estiver em modo Custom."
+    ],
+    "correct": 2,
+    "explanation": "A restrição indicada é que a carta Raster (RNC) só pode ser apresentada em North-up."
+  },
+  {
+    "type": "mc",
+    "question": "Ao configurar Safety Depth e Safety Contour, um Oficial seleciona Safety Depth menor que o Safety Contour. Qual configuração está em desacordo com o material?",
+    "category": "ECDIS — Safety Depth e Safety Contour",
+    "options": [
+      "Safety Depth menor que Safety Contour.",
+      "Safety Depth igual a Safety Contour.",
+      "Safety Depth superior a Safety Contour.",
+      "Safety Contour próximo ao calado máximo permitido."
+    ],
+    "correct": 0,
+    "explanation": "O material estabelece que o Safety Depth deve ser igual ou superior ao Safety Contour."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o planejamento, o Oficial precisa escolher o Safety Contour, mas o valor exato pretendido não existe entre os contornos disponíveis na carta. O que o ECDIS fará?",
+    "category": "ECDIS — Safety Contour",
+    "options": [
+      "Criará automaticamente um novo contorno com o valor solicitado.",
+      "Selecionará o próximo contorno de profundidade disponível.",
+      "Desativará o alarme antiencalhe até que exista o valor exato.",
+      "Usará obrigatoriamente o Shallow Contour."
+    ],
+    "correct": 1,
+    "explanation": "Quando o Safety Contour selecionado não existe na carta, o ECDIS utiliza o próximo contorno de profundidade disponível."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação possui determinado calado e foi calculado um valor de squat. Ao configurar o Shallow Contour, qual critério é normalmente indicado no material?",
+    "category": "ECDIS — Contornos de segurança",
+    "options": [
+      "Duas vezes a profundidade correspondente ao calado.",
+      "Profundidade correspondente ao calado mais o squat calculado.",
+      "Profundidade correspondente apenas ao squat.",
+      "Profundidade correspondente ao Safety Contour menos o calado."
+    ],
+    "correct": 1,
+    "explanation": "O Shallow Contour é normalmente definido como a profundidade correspondente ao calado do navio mais o squat calculado."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a navegação, o navio cruza o Safety Contour. Qual classificação de alerta está associada a essa condição?",
+    "category": "ECDIS — Alarmes",
+    "options": [
+      "Indicação visual, pois alarmes só ocorrem durante o planejamento.",
+      "Alarme (A), com sinal sonoro mandatório.",
+      "Nenhum alerta, pois o Safety Contour só serve para planejamento.",
+      "Indicação (I), desde que a rota esteja sendo monitorada."
+    ],
+    "correct": 1,
+    "explanation": "Durante a navegação, o cruzamento do Safety Contour gera Alarme (A), que exige atenção/ação e possui sinal sonoro mandatório."
+  },
+  {
+    "type": "mc",
+    "question": "Ao planejar uma rota, o Oficial cruza o Safety Contour intencionalmente para avaliar uma alternativa. Qual alerta deve ser esperado segundo o material?",
+    "category": "ECDIS — Alarmes e planejamento",
+    "options": [
+      "Alarme (A), exatamente como ocorreria durante a navegação.",
+      "Indicação (I), sem o alarme sonoro mandatório.",
+      "Nenhum alerta, porque alarmes só dependem do sensor GNSS.",
+      "Alarme somente se o XTD também for ultrapassado."
+    ],
+    "correct": 1,
+    "explanation": "Durante o planejamento da rota, o cruzamento do Safety Contour gera apenas Indicação (I)."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial utiliza o Safety Frame para monitorar uma rota e considera que qualquer alteração na derrota automaticamente modifica seu funcionamento. Qual avaliação é correta?",
+    "category": "ECDIS — Safety Frame",
+    "options": [
+      "Correta, pois o Safety Frame é calculado exclusivamente a partir da rota.",
+      "Correta somente em modo RCDS.",
+      "Incorreta, pois o Safety Frame funciona independentemente da rota monitorada.",
+      "Incorreta somente quando o ECDIS utiliza cartas raster."
+    ],
+    "correct": 2,
+    "explanation": "O material afirma que o Safety Frame trabalha independentemente da rota monitorada."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma verificação de posição, o Oficial dispõe de radar, ARPA e marcações visuais. Qual conjunto representa os meios de marcação de posição fixa apresentados no material?",
+    "category": "ECDIS — Determinação de posição",
+    "options": [
+      "Sobreposição radar, marcação ARPA e marcação visual.",
+      "COG-SOG, HDG e XTD.",
+      "GPS, Speed Log e Gyro.",
+      "Safety Depth, Safety Contour e radar overlay."
+    ],
+    "correct": 0,
+    "explanation": "Os três meios citados são sobreposição radar, marcação ARPA e marcação visual."
+  },
+  {
+    "type": "mc",
+    "question": "Ao utilizar Radar Overlay, qual é o principal objetivo operacional dessa ferramenta conforme o material?",
+    "category": "ECDIS — Radar Overlay",
+    "options": [
+      "Substituir o GNSS por uma posição calculada exclusivamente pelo radar.",
+      "Comparar a imagem radar com os objetos do ECDIS, especialmente para verificar posição e distância.",
+      "Converter automaticamente a velocidade através da água em velocidade sobre o fundo.",
+      "Determinar o calado do navio pela distância entre ecos."
+    ],
+    "correct": 1,
+    "explanation": "O Radar Overlay permite comparar a imagem radar com os objetos apresentados no ECDIS, principalmente em águas costeiras, para verificar posição e distância."
+  },
+  {
+    "type": "mc",
+    "question": "O Oficial obtém uma posição por marcações visuais e pretende compará-la com a posição fornecida pelo GNSS dentro do ECDIS. Qual procedimento está de acordo com o material?",
+    "category": "ECDIS — LOPs e validação de posição",
+    "options": [
+      "Inserir marcações visuais ou outras LOPs manuais e comparar a posição obtida com a posição do GNSS.",
+      "Alterar a posição GNSS para coincidir com a marcação visual antes da comparação.",
+      "Comparar somente o HDG com a marcação, sem utilizar posição.",
+      "Desativar o GNSS durante a inserção das linhas para evitar interferência."
+    ],
+    "correct": 0,
+    "explanation": "O ECDIS permite inserir marcações visuais, distâncias de radar e linhas astronômicas manuais para comparar a posição obtida com a posição do GNSS."
+  },
+  {
+    "type": "mc",
+    "question": "O Oficial compara a indicação do Speed Log com a do GPS para verificar a velocidade. Qual comparação está sendo realizada?",
+    "category": "ECDIS — Speed Log",
+    "options": [
+      "HDG × COG.",
+      "CPA × TCPA.",
+      "GPS × LOG.",
+      "DBK × Safety Depth."
+    ],
+    "correct": 2,
+    "explanation": "O material recomenda conferir a velocidade do Speed Log comparando GPS × LOG."
+  },
+  {
+    "type": "mc",
+    "question": "A ecosonda indica uma profundidade que parece diferente da profundidade apresentada na carta. Antes de concluir que existe erro em um dos sistemas, quais fatores devem ser considerados?",
+    "category": "ECDIS — Ecobatímetro",
+    "options": [
+      "Somente o valor de COG e o aproamento.",
+      "Posição do transdutor, calado, trim e maré, conforme os ajustes necessários.",
+      "Somente a escala da carta e o XTD.",
+      "Apenas o Safety Contour configurado no ECDIS."
+    ],
+    "correct": 1,
+    "explanation": "A comparação deve considerar posição do transdutor, calado, trim e maré, conforme os ajustes necessários."
+  },
+  {
+    "type": "mc",
+    "question": "Em determinada área, a ecosonda apresenta valores inconsistentes. O Oficial considera que a causa pode estar relacionada à propagação e reflexão do eco. Qual conjunto contém somente fontes de erro citadas no material?",
+    "category": "ECDIS — Ecobatímetro",
+    "options": [
+      "Fundo inclinado, ecos múltiplos, fundo falso e variações de temperatura e salinidade.",
+      "COG divergente, XTD reduzido, licença vencida e SCAMIN.",
+      "North-up, Course-up, Head-up e True Motion.",
+      "Safety Depth, Safety Contour, Shallow Contour e Deep Contour."
+    ],
+    "correct": 0,
+    "explanation": "Entre as fontes citadas estão fundo inclinado ou desnivelado, ecos múltiplos, fundo falso, erro ecográfico e variações de temperatura e salinidade."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a navegação, o vetor COG-SOG não coincide com o contorno do navio. Qual interpretação é mais compatível com o material?",
+    "category": "ECDIS — HDG, COG e SOG",
+    "options": [
+      "Isso necessariamente demonstra erro do GNSS.",
+      "Isso pode ocorrer por deriva causada por vento, ondas e correntes.",
+      "Isso significa que HDG e COG representam exatamente a mesma grandeza.",
+      "Isso indica que o Speed Log está fornecendo a posição incorreta."
+    ],
+    "correct": 1,
+    "explanation": "COG-SOG representa o movimento do navio e pode não estar alinhado com o aproamento devido à influência de vento, ondas e correntes."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial observa diferença significativa entre o aproamento do navio e a direção efetiva do movimento. Qual combinação de conceitos permite interpretar corretamente essa diferença?",
+    "category": "ECDIS — HDG e COG",
+    "options": [
+      "HDG representa o aproamento; COG representa a direção do movimento.",
+      "HDG representa a velocidade através da água; COG representa o calado.",
+      "HDG representa a posição; COG representa a profundidade abaixo da quilha.",
+      "HDG representa o movimento sobre o fundo; COG representa exclusivamente o aproamento."
+    ],
+    "correct": 0,
+    "explanation": "HDG é o aproamento, enquanto COG é a direção do movimento da embarcação."
+  },
+  {
+    "type": "mc",
+    "question": "Ao configurar uma derrota, o Oficial estabelece um XTD muito restrito sem considerar a operação prevista. Durante o monitoramento, surgem muitos alarmes. Qual relação é sustentada pelo material?",
+    "category": "ECDIS — XTD e monitoramento",
+    "options": [
+      "XTD inadequado pode gerar quantidade elevada de alarmes.",
+      "XTD controla somente a apresentação dos objetos da ENC.",
+      "XTD inadequado altera automaticamente o datum da posição.",
+      "XTD é independente da derrota e não influencia alarmes."
+    ],
+    "correct": 0,
+    "explanation": "O material alerta que um XTD configurado inadequadamente pode provocar uma quantidade elevada de alarmes."
+  },
+  {
+    "type": "mc",
+    "question": "Após criar uma derrota, o Oficial deseja colocá-la em monitoramento. Qual sequência básica deve ser seguida?",
+    "category": "ECDIS — Planejamento e monitoramento da rota",
+    "options": [
+      "Ativar → criar → verificar.",
+      "Verificar → ativar → criar.",
+      "Criar → verificar → ativar.",
+      "Criar → ativar → verificar somente após a partida."
+    ],
+    "correct": 2,
+    "explanation": "A sequência básica indicada é criar a rota, verificá-la e então ativá-la."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma alteração de rota, o Oficial pretende executar imediatamente um desvio e só depois verificar a nova pernada. Segundo o material, qual procedimento é correto?",
+    "category": "ECDIS — Planejamento de rota",
+    "options": [
+      "Executar o desvio e verificar somente se houver alarme.",
+      "Planejar totalmente a alteração antes de executar o desvio.",
+      "Alterar apenas o XTD e deixar o restante para depois.",
+      "Executar o desvio se a posição GNSS estiver confiável."
+    ],
+    "correct": 1,
+    "explanation": "Qualquer desvio de rota deve ser totalmente planejado antes de sua execução."
+  },
+  {
+    "type": "mc",
+    "question": "Após uma verificação automática da derrota, o Oficial realiza uma alteração na rota. Qual procedimento posterior é exigido pelo material?",
+    "category": "ECDIS — Verificação da derrota",
+    "options": [
+      "Nenhuma nova verificação é necessária se a alteração for pequena.",
+      "Somente uma verificação do GNSS deve ser feita.",
+      "Devem ser repetidas as verificações automática e visual até finalizar e aprovar o plano.",
+      "Apenas a ferramenta Schedule deve ser executada novamente."
+    ],
+    "correct": 2,
+    "explanation": "Após alterações, as verificações devem ser repetidas até que o plano esteja finalizado e aprovado."
+  },
+  {
+    "type": "mc",
+    "question": "A ferramenta de verificação de rota é utilizada antes da partida. Qual combinação representa parâmetros que ela compara ao longo da derrota?",
+    "category": "ECDIS — Verificação automática",
+    "options": [
+      "Somente velocidade e ETA.",
+      "Derrota planejada, profundidade de segurança, Safety Contour e áreas ou ações proibidas.",
+      "Somente COG, SOG e HDG.",
+      "Apenas objetos visualizados no Base Display."
+    ],
+    "correct": 1,
+    "explanation": "A ferramenta compara a derrota planejada com parâmetros de segurança, incluindo profundidade de segurança, Safety Contour e áreas/ações proibidas."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando o STCW e o material fornecido, qual característica deve possuir o plano de viagem?",
+    "category": "ECDIS — STCW e plano de viagem",
+    "options": [
+      "Ser elaborado somente após a saída e corrigido durante a navegação.",
+      "Ser planejado com antecedência, de porto a porto, utilizando cartas adequadas e outras publicações necessárias.",
+      "Ser elaborado exclusivamente pelo operador do ECDIS.",
+      "Ser limitado às informações exibidas no Standard Display."
+    ],
+    "correct": 1,
+    "explanation": "O plano de viagem deve ser planejado com antecedência e ser de porto a porto, utilizando cartas adequadas e publicações necessárias."
+  },
+  {
+    "type": "mc",
+    "question": "Antes da partida, a derrota foi preparada e verificada pela equipe, mas ainda não recebeu a aprovação formal exigida. Quem deve rever e aprovar formalmente a derrota?",
+    "category": "ECDIS — Aprovação da derrota",
+    "options": [
+      "O Oficial de Quarto responsável pela primeira pernada.",
+      "O operador que realizou a verificação automática.",
+      "O Comandante, exclusivamente.",
+      "O fabricante do ECDIS."
+    ],
+    "correct": 2,
+    "explanation": "Segundo o material, a revisão e aprovação formal da derrota antes da partida cabe exclusivamente ao Comandante."
+  },
+  {
+    "type": "mc",
+    "question": "Ao preencher os dados de planejamento temporal de uma rota, o Oficial utiliza a ferramenta Schedule. Qual conjunto corresponde aos parâmetros integrados por essa ferramenta?",
+    "category": "ECDIS — Schedule",
+    "options": [
+      "ETD, velocidade planejada, fuso horário e ETA em cada waypoint.",
+      "COG, HDG, CPA e TCPA em cada waypoint.",
+      "Calado, squat, Safety Depth e Safety Contour.",
+      "XTD, SCAMIN, escala e orientação da carta."
+    ],
+    "correct": 0,
+    "explanation": "A ferramenta Schedule integra ETD, velocidade planejada, fuso horário e ETA em cada waypoint."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação possui várias rotas previamente preparadas e deseja deixar duas delas simultaneamente em monitoramento ativo para comparação. Qual limitação deve ser considerada?",
+    "category": "ECDIS — Monitoramento da derrota",
+    "options": [
+      "O ECDIS permite no máximo duas rotas simultâneas.",
+      "O ECDIS permite uma rota ativa por sensor.",
+      "Somente uma rota pode ser monitorada ativamente por vez.",
+      "Todas as rotas podem ser monitoradas, desde que tenham o mesmo XTD."
+    ],
+    "correct": 2,
+    "explanation": "O material estabelece que apenas uma rota pode ser monitorada ativamente ao mesmo tempo."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o monitoramento da derrota, quais informações devem estar continuamente disponíveis como elementos principais da navegação?",
+    "category": "ECDIS — Monitoramento da rota",
+    "options": [
+      "Somente profundidade, calado e maré.",
+      "Posição, rumo e velocidade do navio.",
+      "Somente ETA, ETD e velocidade planejada.",
+      "Apenas COG e CPA."
+    ],
+    "correct": 1,
+    "explanation": "As principais informações fornecidas continuamente durante o monitoramento são posição, rumo e velocidade do navio."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma falha do sensor principal, o ECDIS passa automaticamente a utilizar outra fonte de dados previamente disponível. Que função está sendo empregada?",
+    "category": "ECDIS — Fallback automático",
+    "options": [
+      "SCAMIN.",
+      "Fallback automático.",
+      "Radar Overlay.",
+      "Safety Frame."
+    ],
+    "correct": 1,
+    "explanation": "O fallback automático seleciona automaticamente uma fonte de dados de backup quando ocorre falha na fonte principal."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação pretende atender aos requisitos de cartas utilizando ECDIS duplo. Qual característica é exigida para o segundo ECDIS segundo o material?",
+    "category": "ECDIS — Backup e redundância",
+    "options": [
+      "Compartilhar necessariamente a mesma fonte de alimentação e as mesmas conexões.",
+      "Possuir fonte de alimentação independente e conexões separadas para referência, giro e velocidade.",
+      "Operar exclusivamente com RNC para evitar duplicação das ENCs.",
+      "Utilizar apenas dados provenientes do primeiro ECDIS."
+    ],
+    "correct": 1,
+    "explanation": "Na opção de ECDIS duplo, o segundo ECDIS deve possuir alimentação independente e conexões separadas para o sistema de referência, giro e velocidade."
+  },
+  {
+    "type": "mc",
+    "question": "Uma licença ENC chega ao fim de sua validade durante uma viagem. Qual consequência está descrita no material?",
+    "category": "ECDIS — Licenças ENC",
+    "options": [
+      "A carta é automaticamente apagada e não pode mais ser visualizada.",
+      "O serviço de correção para e a carta torna-se não oficial, embora possa continuar sendo visualizada com indicação de licença vencida.",
+      "A carta continua oficial e recebe correções normalmente até o final da viagem.",
+      "Somente a apresentação visual é desativada, mantendo-se as correções."
+    ],
+    "correct": 1,
+    "explanation": "Com a licença expirada, o serviço de correção para e a carta se torna não oficial, embora possa continuar visível com indicação de licença vencida."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação utiliza ENC e precisa manter suas cartas atualizadas por meio de mídia de atualização. Qual procedimento corresponde ao material?",
+    "category": "ECDIS — Atualização de ENC",
+    "options": [
+      "Instalar somente o último Correction CD, pois ele substitui o Base CD.",
+      "Instalar o último Base CD das áreas e o último Correction CD.",
+      "Instalar qualquer Base CD, desde que sua data seja anterior ao último Correction CD.",
+      "Atualizar somente a estação ECDIS que estiver sendo utilizada durante a navegação."
+    ],
+    "correct": 1,
+    "explanation": "Para manter as cartas atualizadas, é necessário instalar o último Base CD das áreas e o último Correction CD."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação possui mais de uma estação ECDIS. Após receber uma atualização, o operador atualiza somente a estação principal. Qual avaliação está de acordo com o material?",
+    "category": "ECDIS — Atualização das estações",
+    "options": [
+      "Está correto, porque somente a estação principal precisa estar atualizada.",
+      "Está correto se o backup receber os dados por sincronização automática.",
+      "Está incorreto, pois todas as estações ECDIS devem ser atualizadas.",
+      "Está incorreto somente se o navio estiver em RCDS."
+    ],
+    "correct": 2,
+    "explanation": "O material afirma que todas as estações ECDIS devem ser atualizadas."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma auditoria, verifica-se que as cartas e publicações necessárias estão disponíveis, porém algumas não foram atualizadas. Qual requisito do SOLAS Capítulo V, Regra 27, está sendo descumprido?",
+    "category": "ECDIS — SOLAS",
+    "options": [
+      "Devem estar apenas disponíveis, independentemente da atualização.",
+      "Devem estar adequadas e atualizadas.",
+      "Devem ser exclusivamente digitais e atualizadas pelo fabricante.",
+      "Devem ser atualizadas somente antes da partida."
+    ],
+    "correct": 1,
+    "explanation": "Segundo o material, o SOLAS Cap. V, Regra 27, exige que as cartas e publicações náuticas necessárias estejam adequadas e atualizadas."
+  },
+  {
+    "type": "mc",
+    "question": "Após um incidente, pretende-se reconstruir a situação do navio nas horas que antecederam o evento. Qual conjunto de dados deve estar registrado pelo ECDIS nos intervalos indicados?",
+    "category": "ECDIS — Registro de dados",
+    "options": [
+      "Hora, posição, aproamento e velocidade, em intervalos de 1 minuto nas 12 horas anteriores.",
+      "Somente posição e COG, em intervalos máximos de 4 horas.",
+      "Hora, ETA, ETD e XTD, em intervalos de 10 minutos nas 24 horas anteriores.",
+      "Somente a rota ativa, sem necessidade de registrar dados do navio."
+    ],
+    "correct": 0,
+    "explanation": "O ECDIS deve manter os elementos mínimos das 12 horas anteriores, com registros em intervalos de 1 minuto, incluindo hora, posição, aproamento e velocidade."
+  },
+  {
+    "type": "mc",
+    "question": "Além dos dados do navio, quais informações relacionadas à ENC utilizada devem fazer parte dos registros exigidos pelo material?",
+    "category": "ECDIS — Registro da ENC",
+    "options": [
+      "Somente o nome comercial do fabricante do ECDIS.",
+      "Fonte da ENC, edição, data, célula e histórico de atualização.",
+      "Somente escala, orientação e esquema de cores.",
+      "Apenas o número da rota e o waypoint ativo."
+    ],
+    "correct": 1,
+    "explanation": "Devem ser registrados fonte da ENC, edição, data, célula e histórico de atualização."
+  },
+  {
+    "type": "mc",
+    "question": "Um investigador deseja analisar uma viagem ocorrida há várias semanas utilizando os dados gravados pelo ECDIS. Qual característica do registro completo da passagem está prevista?",
+    "category": "ECDIS — Playback e registros",
+    "options": [
+      "A passagem completa pode ser registrada por até 3 meses, com intervalos que não excedam 4 horas.",
+      "A passagem completa só pode ser registrada pelas últimas 12 horas.",
+      "A passagem completa pode ser registrada indefinidamente, sem limite de intervalo.",
+      "A passagem completa pode ser registrada por até 3 meses, mas somente se os dados puderem ser editados."
+    ],
+    "correct": 0,
+    "explanation": "O material prevê o registro da passagem completa da viagem por até 3 meses, com intervalos que não excedam 4 horas."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma investigação, um operador pretende alterar os dados gravados para corrigir uma informação que considera incorreta. Qual procedimento é compatível com o material?",
+    "category": "ECDIS — Integridade dos registros",
+    "options": [
+      "A alteração é permitida pelo Oficial de Quarto responsável.",
+      "A alteração é permitida somente durante o Playback.",
+      "As informações gravadas da viagem não podem ser manipuladas ou alteradas.",
+      "A alteração é permitida desde que o Comandante registre a justificativa."
+    ],
+    "correct": 2,
+    "explanation": "O material estabelece que as informações gravadas da viagem não podem ser manipuladas ou alteradas."
+  },
+  {
+    "type": "mc",
+    "question": "Após um incidente, a equipe utiliza o Playback para reconstruir a sequência dos acontecimentos e discutir decisões tomadas. Qual utilização está expressamente prevista no material?",
+    "category": "ECDIS — Playback",
+    "options": [
+      "Somente para treinamento inicial de operadores.",
+      "Briefing/debriefing, análise de acidentes e incidentes e evidências em tribunal.",
+      "Somente para atualizar automaticamente as ENCs.",
+      "Exclusivamente para calcular ETA retrospectivamente."
+    ],
+    "correct": 1,
+    "explanation": "O Playback pode ser usado para briefing/debriefing, análise de acidentes e incidentes e como evidência em tribunal."
+  },
+  {
+    "type": "mc",
+    "question": "Uma correção manual foi aplicada a uma ENC. Posteriormente, a correção automática correspondente foi instalada. O que deve ocorrer com a correção manual?",
+    "category": "ECDIS — Correções manuais",
+    "options": [
+      "Deve permanecer, pois as correções manuais nunca podem ser removidas.",
+      "Deve ser apagada automaticamente pelo ECDIS.",
+      "Deve ser deletada manualmente após a instalação da correção automática correspondente.",
+      "Deve ser incorporada ao Base CD antes de ser removida."
+    ],
+    "correct": 2,
+    "explanation": "Quando a correção automática correspondente é instalada, a correção manual deve ser deletada manualmente."
+  },
+  {
+    "type": "mc",
+    "question": "Ao trabalhar com uma ENC oficial, o Oficial pretende apagar definitivamente um objeto cartográfico por considerá-lo desnecessário. Qual ação é compatível com o material?",
+    "category": "ECDIS — Correções e objetos ENC",
+    "options": [
+      "Apagar definitivamente o objeto para simplificar a apresentação.",
+      "Riscá-lo ou ocultá-lo, sem apagar o objeto oficial por correção manual.",
+      "Substituí-lo por um objeto equivalente de uma RNC.",
+      "Apagar o objeto somente se ele estiver fora do Standard Display."
+    ],
+    "correct": 1,
+    "explanation": "Objetos de uma ENC oficial não podem ser apagados por correção manual; podem ser riscados ou ocultados, e novos objetos podem ser adicionados."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma operação, o ECDIS recebe mensagens NAVTEX. O Oficial observa que algumas não aparecem na carta. Qual explicação está de acordo com o material?",
+    "category": "ECDIS — NAVTEX",
+    "options": [
+      "Somente mensagens das estações selecionadas são apresentadas/vistas.",
+      "O ECDIS nunca pode apresentar NAVTEX graficamente.",
+      "Todas as mensagens recebidas devem obrigatoriamente aparecer na carta.",
+      "Somente mensagens associadas a Radar Overlay são apresentadas."
+    ],
+    "correct": 0,
+    "explanation": "O ECDIS pode posicionar mensagens NAVTEX na carta e apresentá-las como texto, mas somente mensagens das estações selecionadas são apresentadas/vistas."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial passa a confiar exclusivamente na posição e nos alarmes apresentados pelo ECDIS, deixando de comparar seus dados com outros meios disponíveis. Qual princípio do material está sendo violado?",
+    "category": "ECDIS — Responsabilidade do operador",
+    "options": [
+      "O ECDIS substitui todos os demais meios quando está em Standard Display.",
+      "O Oficial deve usar todos os meios disponíveis para garantir a segurança da navegação.",
+      "A comparação com outros sensores só é necessária quando a ENC está vencida.",
+      "O Oficial deve confiar no ECDIS sempre que não houver alarmes ativos."
+    ],
+    "correct": 1,
+    "explanation": "O material enfatiza que o uso do ECDIS não isenta o Oficial de Quarto de utilizar todos os meios disponíveis para garantir a segurança."
+  },
+  {
+    "type": "mc",
+    "question": "Durante um teste, o Oficial observa que um sensor conectado ao ECDIS apresenta mau funcionamento. Qual resposta do sistema é indicada no material?",
+    "category": "ECDIS — Alarmes de sensores",
+    "options": [
+      "O ECDIS apenas registra o evento sem qualquer indicação ao operador.",
+      "É disparado alarme sonoro e visual, e a linha correspondente é apresentada em vermelho.",
+      "Somente a linha do sensor fica amarela, sem sinal sonoro.",
+      "O sistema substitui automaticamente o sensor sem gerar qualquer alerta."
+    ],
+    "correct": 1,
+    "explanation": "Quando um sensor apresenta mau funcionamento, o material indica alarme sonoro e visual e a apresentação da linha correspondente em vermelho."
+  },
+  {
+    "type": "mc",
+    "question": "Ao utilizar o painel COM Trace durante uma inspeção, qual objetivo está sendo atendido?",
+    "category": "ECDIS — COM Trace",
+    "options": [
+      "Verificar os dados e a comunicação dos sensores com o ECDIS.",
+      "Calcular automaticamente o Safety Contour.",
+      "Determinar o propósito de navegação da ENC.",
+      "Alterar a orientação da carta entre North-up e Course-up."
+    ],
+    "correct": 0,
+    "explanation": "O painel COM Trace serve para verificar os dados e a comunicação dos sensores com o ECDIS."
+  },
+  {
+    "type": "mc",
+    "question": "Durante um teste de redundância, o Oficial considera reiniciar simultaneamente o ECDIS principal e o backup para verificar se ambos retornam corretamente. Qual procedimento deve ser adotado?",
+    "category": "ECDIS — Redundância e testes",
+    "options": [
+      "Reiniciar os dois simultaneamente para verificar a sincronização.",
+      "Reiniciar primeiro o backup e imediatamente depois o principal, sem intervalo.",
+      "Reiniciar o principal e o backup em momentos diferentes, nunca simultaneamente.",
+      "Reiniciar somente o principal, pois o backup não deve ser testado."
+    ],
+    "correct": 2,
+    "explanation": "O material determina que o ECDIS principal e o backup sejam reiniciados em momentos diferentes, nunca simultaneamente."
+  },
+  {
+    "type": "mc",
+    "question": "Em um teste, o sistema de referência primário é desligado deliberadamente. Além de verificar se o alarme ocorre, quais aspectos devem ser observados?",
+    "category": "ECDIS — Teste de sensores",
+    "options": [
+      "Somente a mensagem visual apresentada na tela.",
+      "Tempo até o disparo do alarme, reação do ECDIS e comportamento do posicionamento.",
+      "Somente a escala da ENC e o modo de orientação.",
+      "Apenas a velocidade indicada pelo Speed Log."
+    ],
+    "correct": 1,
+    "explanation": "O teste deve observar o tempo até o alarme, a reação do ECDIS e o comportamento do posicionamento."
+  },
+  {
+    "type": "mc",
+    "question": "Um ECDIS apresenta um congelamento quase imperceptível que permanece por algum tempo sem ser identificado pelo operador. Qual situação corresponde ao conceito descrito no material?",
+    "category": "ECDIS — Falhas do sistema",
+    "options": [
+      "Fallback automático.",
+      "Screen Freeze.",
+      "SCAMIN.",
+      "RCDS."
+    ],
+    "correct": 1,
+    "explanation": "Screen Freeze é descrito como um congelamento quase imperceptível do computador que pode permanecer indetectável por algum tempo."
+  },
+  {
+    "type": "mc",
+    "question": "No estudo de caso de encalhe, o ECDIS identificou o risco e ativou uma indicação visual, mas o oficial não a percebeu e o alarme sonoro estava desligado. Qual conclusão é sustentada pelo caso?",
+    "category": "ECDIS — Estudo de caso e fatores humanos",
+    "options": [
+      "O ECDIS não detectou o risco porque o alarme sonoro estava desligado.",
+      "A detecção do risco pelo ECDIS não eliminou a necessidade de atenção do oficial aos alarmes e à navegação.",
+      "O ECDIS deveria ter executado automaticamente a manobra para evitar o encalhe.",
+      "O desligamento do alarme sonoro não teve relação com o resultado do caso."
+    ],
+    "correct": 1,
+    "explanation": "O caso mostra que o ECDIS detectou o risco, mas a indicação não foi percebida e o alarme sonoro estava desligado, evidenciando a importância da atuação do operador."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando as causas identificadas no estudo de caso de encalhe, qual conjunto contém somente deficiências apontadas no material?",
+    "category": "ECDIS — Estudo de caso",
+    "options": [
+      "Desvio não inserido, posição não verificada, alarme antiencalhe desligado e limite de segurança inadequado.",
+      "Excesso de atualizações ENC, velocidade excessiva, RNC em North-up e Radar Overlay ativo.",
+      "Uso de Standard Display, treinamento genérico, presença de AIS e uso de GPS.",
+      "Uso de True Motion, ausência de NAVTEX, COG alinhado ao HDG e XTD adequado."
+    ],
+    "correct": 0,
+    "explanation": "O estudo de caso cita desvio de rota não inserido, posição não verificada, alarme antiencalhe desligado e limite de segurança inadequado, entre outras causas."
+  },
+  {
+    "type": "tf",
+    "question": "Uma carta raster pode ser tratada como uma imagem digitalizada em uma única camada e, conforme o material, apresenta limitações como zoom limitado e correções mais trabalhosas.",
+    "category": "ECDIS — Cartas raster",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essas características são apresentadas no material como limitações da carta raster."
+  },
+  {
+    "type": "tf",
+    "question": "Uma carta vetorial, por ser estruturada em objetos e camadas, permite selecionar quais informações serão apresentadas pelo ECDIS.",
+    "category": "ECDIS — Cartas vetoriais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A organização em objetos, arquivos e camadas permite selecionar as informações apresentadas."
+  },
+  {
+    "type": "tf",
+    "question": "O modo RCDS pode ser utilizado quando não há ENC disponível e são empregadas RNC, mas nessa situação deve existir a bordo um portfólio adequado de cartas de papel atualizadas.",
+    "category": "ECDIS — RCDS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a condição indicada para o uso de RNC em modo RCDS."
+  },
+  {
+    "type": "tf",
+    "question": "No modo Relative Motion, o símbolo do navio permanece fixo enquanto a carta se desloca sob ele.",
+    "category": "ECDIS — Movimento relativo",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a definição apresentada para Relative Motion."
+  },
+  {
+    "type": "tf",
+    "question": "O Base Display é suficiente para a navegação porque contém as informações sempre visíveis, incluindo linha da costa, escala e sistema de orientação do tráfego.",
+    "category": "ECDIS — Modos de exibição",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Embora contenha essas informações, o material afirma que o Base Display não é suficiente para navegação."
+  },
+  {
+    "type": "tf",
+    "question": "O Safety Depth deve ser configurado com valor igual ou superior ao Safety Contour.",
+    "category": "ECDIS — Safety Depth",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa relação entre Safety Depth e Safety Contour é explicitamente indicada no material."
+  },
+  {
+    "type": "tf",
+    "question": "O Safety Contour é escolhido independentemente do calado do navio, pois seu objetivo é apenas definir a escala de apresentação da ENC.",
+    "category": "ECDIS — Safety Contour",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O Safety Contour deve ser próximo ao calado máximo permitido e apoiar a separação entre águas seguras e não navegáveis."
+  },
+  {
+    "type": "tf",
+    "question": "Durante o planejamento de uma rota, o cruzamento do Safety Contour gera apenas Indicação (I), enquanto durante a navegação o cruzamento gera Alarme (A).",
+    "category": "ECDIS — Alarmes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material diferencia explicitamente o comportamento no planejamento e durante a navegação."
+  },
+  {
+    "type": "tf",
+    "question": "Uma diferença significativa entre HDG e COG pode indicar deriva do navio ou erro de sensor.",
+    "category": "ECDIS — HDG e COG",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material apresenta deriva ou erro do sensor como possíveis explicações para diferenças significativas."
+  },
+  {
+    "type": "tf",
+    "question": "O plano de viagem pode ser executado antes que um desvio de rota seja completamente planejado, desde que o Oficial confirme a posição GNSS.",
+    "category": "ECDIS — Planejamento da rota",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Qualquer desvio deve ser totalmente planejado antes de ser executado."
+  },
+  {
+    "type": "tf",
+    "question": "O ECDIS permite que duas rotas sejam monitoradas ativamente ao mesmo tempo, desde que ambas tenham sido previamente verificadas.",
+    "category": "ECDIS — Monitoramento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Apenas uma rota pode ser monitorada ativamente ao mesmo tempo."
+  },
+  {
+    "type": "tf",
+    "question": "Quando a licença de uma ENC expira, o serviço de correção é interrompido e a carta se torna não oficial, embora ainda possa ser visualizada com indicação de licença vencida.",
+    "category": "ECDIS — Licenças ENC",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a consequência da expiração da licença descrita no material."
+  },
+  {
+    "type": "tf",
+    "question": "As correções manuais são armazenadas em uma camada independente da ENC e devem ser removidas manualmente quando a correção automática correspondente for instalada.",
+    "category": "ECDIS — Correções manuais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "As duas características são explicitamente apresentadas no material."
+  },
+  {
+    "type": "tf",
+    "question": "O Oficial de Quarto pode confiar exclusivamente no ECDIS quando seus sensores estão funcionando corretamente, pois o sistema substitui os demais meios disponíveis de navegação.",
+    "category": "ECDIS — Responsabilidade do operador",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material afirma que o Oficial deve utilizar todos os meios disponíveis para garantir a segurança da navegação."
+  },
+  {
+    "type": "tf",
+    "question": "O painel COM Trace pode ser utilizado para verificar os dados e a comunicação dos sensores com o ECDIS.",
+    "category": "ECDIS — COM Trace",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a finalidade do painel COM Trace indicada no material."
+  },
+  {
+    "type": "gap",
+    "question": "As ENCs utilizam como datum horizontal o ________.",
+    "category": "ECDIS — ENC e datum",
+    "options": [],
+    "correct": "WGS-84",
+    "explanation": "O material estabelece WGS-84 como o datum horizontal utilizado nas ENCs."
+  },
+  {
+    "type": "gap",
+    "question": "A velocidade através da água é representada pela sigla ________.",
+    "category": "ECDIS — Speed Log",
+    "options": [],
+    "correct": "STW",
+    "explanation": "STW significa Speed Through Water, ou velocidade através da água."
+  },
+  {
+    "type": "gap",
+    "question": "A profundidade abaixo da quilha é indicada pela sigla ________.",
+    "category": "ECDIS — Ecobatímetro",
+    "options": [],
+    "correct": "DBK",
+    "explanation": "DBK significa Depth Below Keel."
+  },
+  {
+    "type": "gap",
+    "question": "O limite de afastamento de cada pernada da derrota é representado pela sigla ________.",
+    "category": "ECDIS — XTD",
+    "options": [],
+    "correct": "XTD",
+    "explanation": "XTD representa o limite de afastamento de cada pernada da derrota."
+  },
+  {
+    "type": "gap",
+    "question": "A sequência básica para colocar uma rota em monitoramento é criar, verificar e ________.",
+    "category": "ECDIS — Monitoramento da rota",
+    "options": [],
+    "correct": "ativar",
+    "explanation": "A sequência indicada é criar → verificar → ativar."
+  },
+  {
+    "type": "gap",
+    "question": "A hora estimada de chegada é representada pela sigla ________.",
+    "category": "ECDIS — Schedule",
+    "options": [],
+    "correct": "ETA",
+    "explanation": "ETA significa hora estimada de chegada."
+  },
+  {
+    "type": "gap",
+    "question": "A seleção automática de uma fonte de dados de backup após falha da fonte principal é chamada de ________ automático.",
+    "category": "ECDIS — Fallback",
+    "options": [],
+    "correct": "fallback",
+    "explanation": "O fallback automático seleciona uma fonte de dados de backup quando ocorre falha na fonte principal."
+  },
+  {
+    "type": "gap",
+    "question": "O congelamento quase imperceptível do computador do ECDIS que pode permanecer indetectável por algum tempo é denominado ________.",
+    "category": "ECDIS — Falhas do sistema",
+    "options": [],
+    "correct": "Screen Freeze",
+    "explanation": "Screen Freeze é o termo utilizado no material para esse tipo de congelamento do sistema."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial precisa distinguir quatro recursos do ECDIS durante uma operação. Qual alternativa associa corretamente cada recurso à sua função?",
+    "category": "ECDIS — Funções e características",
+    "options": [
+      "VIEW — movimentação livre pela carta; ERBL — medição de marcação e distância; ZOOM — seleção e ampliação de quadrante; SCAMIN — controla a escala abaixo da qual certos objetos deixam de ser apresentados.",
+      "VIEW — medição de marcação e distância; ERBL — movimentação livre pela carta; ZOOM — controle de objetos por escala; SCAMIN — seleção e ampliação de quadrante.",
+      "VIEW — seleção e ampliação de quadrante; ERBL — controle de objetos por escala; ZOOM — medição de marcação e distância; SCAMIN — movimentação livre pela carta.",
+      "VIEW — controle de objetos por escala; ERBL — seleção e ampliação de quadrante; ZOOM — movimentação livre pela carta; SCAMIN — medição de marcação e distância."
+    ],
+    "correct": 0,
+    "explanation": "VIEW permite movimentação livre; ERBL mede marcação e distância; ZOOM seleciona e amplia um quadrante; SCAMIN determina a escala abaixo da qual certos objetos deixam de ser apresentados."
+  }
+]

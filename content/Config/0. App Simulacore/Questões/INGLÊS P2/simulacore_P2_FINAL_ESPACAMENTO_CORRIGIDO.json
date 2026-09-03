@@ -1,0 +1,678 @@
+[
+  {
+    "type": "tf",
+    "question": "INSTRUCTION: Read the report and write if the statements that follow are true or false.\n\n1.1) The engine room flooded first.",
+    "category": "01 — Reading Comprehension",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Resposta conforme o texto do acidente no PDF."
+  },
+  {
+    "type": "tf",
+    "question": "INSTRUCTION: Read the report and write if the statements that follow are true or false.\n\n1.2) Three vessels responded to the Mayday",
+    "category": "01 — Reading Comprehension",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Resposta conforme o texto do acidente no PDF."
+  },
+  {
+    "type": "tf",
+    "question": "INSTRUCTION: Read the report and write if the statements that follow are true or false.\n\n1.3) The vessel had a skipper and a crew of five.",
+    "category": "01 — Reading Comprehension",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta conforme o texto do acidente no PDF."
+  },
+  {
+    "type": "tf",
+    "question": "INSTRUCTION: Read the report and write if the statements that follow are true or false.\n\n1.4) The captain was the last person to leave the vessel.",
+    "category": "01 — Reading Comprehension",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Resposta conforme o texto do acidente no PDF."
+  },
+  {
+    "type": "tf",
+    "question": "INSTRUCTION: Read the report and write if the statements that follow are true or false.\n\n1.5) No one knows why the vessel flooded.",
+    "category": "01 — Reading Comprehension",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Resposta conforme o texto do acidente no PDF."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read the text carefully and choose the correct answer (A, B, C, D, or E).\n\n2.1) What is the main purpose of an AHTS vessel?",
+    "category": "02 — Reading Comprehension",
+    "options": [
+      "To transport tourists between islands",
+      "To support offshore oil and gas operations",
+      "To carry passengers on international flights",
+      "To operate as a fishing boat",
+      "To transport cars between cities"
+    ],
+    "correct": 1,
+    "explanation": "Resposta conforme o texto sobre AHTS vessel no PDF."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read the text carefully and choose the correct answer (A, B, C, D, or E).\n\n2.2) What is the function of a winch on an AHTS vessel?",
+    "category": "02 — Reading Comprehension",
+    "options": [
+      "To produce fresh water",
+      "To control and pull wires, cables, or chains",
+      "To navigate the vessel automatically",
+      "To store food for the crew",
+      "To measure the temperature of the sea"
+    ],
+    "correct": 1,
+    "explanation": "Resposta conforme o texto sobre AHTS vessel no PDF."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read the text carefully and choose the correct answer (A, B, C, D, or E).\n\n2.3) Why does an AHTS vessel need a strong working deck?",
+    "category": "02 — Reading Comprehension",
+    "options": [
+      "To provide a large area for anchors, chains, wires, and equipment",
+      "To accommodate hundreds of passengers",
+      "To provide space for aircraft",
+      "To store fishing nets only",
+      "To operate a large restaurant"
+    ],
+    "correct": 0,
+    "explanation": "Resposta conforme o texto sobre AHTS vessel no PDF."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read the text carefully and choose the correct answer (A, B, C, D, or E).\n\n2.4) Which personnel are responsible for maintaining the vessel's main engines and machinery?",
+    "category": "02 — Reading Comprehension",
+    "options": [
+      "Deck cadets",
+      "Pilots",
+      "Marine engineers and engine-room personnel",
+      "Passengers",
+      "Shore-based tourists"
+    ],
+    "correct": 2,
+    "explanation": "Resposta conforme o texto sobre AHTS vessel no PDF."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read the text carefully and choose the correct answer (A, B, C, D, or E).\n\n2.5) Why can bad weather make AHTS operations more difficult?",
+    "category": "02 — Reading Comprehension",
+    "options": [
+      "It can increase the number of passengers on board.",
+      "It can make navigation equipment unnecessary.",
+      "Strong winds, high waves, and currents can affect anchor handling and towing.",
+      "It can reduce the amount of food carried by the vessel.",
+      "It can stop the vessel from using its radio permanently."
+    ],
+    "correct": 2,
+    "explanation": "Resposta conforme o texto sobre AHTS vessel no PDF."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the verb in parentheses in the correct tense and voice.\n\n3.1) The crew _________________ (attempt) to fix the leak when the alarm sounded.",
+    "category": "03 — Grammar — Tense and Voice",
+    "correct": "was attempting",
+    "explanation": "Use the correct tense and voice for the verb in parentheses."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the verb in parentheses in the correct tense and voice.\n\n3.2) The ship ______________________ (tow) to port after the engine failure last week.",
+    "category": "03 — Grammar — Tense and Voice",
+    "correct": "was towed",
+    "explanation": "Use the correct tense and voice for the verb in parentheses."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the verb in parentheses in the correct tense and voice.\n\n3.3) At the moment, the captain ____________________ (give) orders to abandon ship.",
+    "category": "03 — Grammar — Tense and Voice",
+    "correct": "is giving",
+    "explanation": "Use the correct tense and voice for the verb in parentheses."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the verb in parentheses in the correct tense and voice.\n\n3.4) The vessel ________________________ (sink) slowly after hitting the reef yesterday.",
+    "category": "03 — Grammar — Tense and Voice",
+    "correct": "was sinking",
+    "explanation": "Use the correct tense and voice for the verb in parentheses."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the verb in parentheses in the correct tense and voice.\n\n3.5) The radio operator________________ (send) the distress signal five minutes ago.",
+    "category": "03 — Grammar — Tense and Voice",
+    "correct": "sent",
+    "explanation": "Use the correct tense and voice for the verb in parentheses."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read the words below and put them in the correct order to make a grammatically correct sentence.\n\n4.1) the / cadet / checks / mooring lines / every morning.",
+    "category": "04 — Grammar — Word Order",
+    "correct": "The cadet checks mooring lines every morning.",
+    "explanation": "Put the words in the correct grammatical order."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read the words below and put them in the correct order to make a grammatically correct sentence.\n\n4.2) wear / deck cadets / safety helmets / on deck.",
+    "category": "04 — Grammar — Word Order",
+    "correct": "Deck cadets wear safety helmets on deck.",
+    "explanation": "Put the words in the correct grammatical order."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read the words below and put them in the correct order to make a grammatically correct sentence.\n\n4.3) the / officer / gives / instructions / to the crew.",
+    "category": "04 — Grammar — Word Order",
+    "correct": "The officer gives instructions to the crew.",
+    "explanation": "Put the words in the correct grammatical order."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read the words below and put them in the correct order to make a grammatically correct sentence.\n\n4.4) The vessel / carries / fresh water / and fuel.",
+    "category": "04 — Grammar — Word Order",
+    "correct": "The vessel carries fresh water and fuel.",
+    "explanation": "Put the words in the correct grammatical order."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read the words below and put them in the correct order to make a grammatically correct sentence.\n\n4.5) the / lookout / watches / the sea / carefully.",
+    "category": "04 — Grammar — Word Order",
+    "correct": "The lookout watches the sea carefully.",
+    "explanation": "Put the words in the correct grammatical order."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Fill in the blank with the correct preposition.\n\n5.1) The ship collided ___________________________a floating container.",
+    "category": "05 — Grammar — Prepositions",
+    "correct": "with",
+    "explanation": "Fill in the blank with the correct preposition."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Fill in the blank with the correct preposition.\n\n5.2) The crew abandoned the vessel ____________________________safety reasons.",
+    "category": "05 — Grammar — Prepositions",
+    "correct": "for",
+    "explanation": "Fill in the blank with the correct preposition."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Fill in the blank with the correct preposition.\n\n5.3) We expect the tug to arrive ___________________________________________ noon.",
+    "category": "05 — Grammar — Prepositions",
+    "correct": "by",
+    "explanation": "Fill in the blank with the correct preposition."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Fill in the blank with the correct preposition.\n\n5.4) The captain ordered a reduction ___ _______________________________ speed.",
+    "category": "05 — Grammar — Prepositions",
+    "correct": "in",
+    "explanation": "Fill in the blank with the correct preposition."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Fill in the blank with the correct preposition.\n\n5.5) The vessel is drifting ___________________________________ strong currents.",
+    "category": "05 — Grammar — Prepositions",
+    "correct": "in",
+    "explanation": "Fill in the blank with the correct preposition."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.1) The Master ____________ (check) the ship's position every hour.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "checks",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.2) The Chief Officer ____________ (supervise) the deck crew.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "supervises",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.3) The Second Officer ____________ (prepare) the passage plan.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "prepares",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.4) The Deck Cadet ____________ (help) the officers on the bridge.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "helps",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.5) The AB ____________ (clean) the deck every morning.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "cleans",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.6) The lookout ____________ (watch) for other vessels.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "watches",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.7) The Third Officer ____________ (check) the life-saving equipment.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "checks",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.8) The crew ____________ (work) on deck during the morning.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "works",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.9) The Master ____________ (give) orders to the crew.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "gives",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the correct form of the verb in parentheses. Use the Present Simple.\n\n6.10) The Second Officer ____________ (use) the radar on the bridge.",
+    "category": "06 — Grammar — Present Simple",
+    "correct": "uses",
+    "explanation": "Use the correct Present Simple form."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.1) Yesterday, the vessel ____________ (1) at the port at 06:00.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "arrived",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.2) The Chief Officer ____________ (2) the deck equipment before the cargo operation.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "checked",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.3) At 07:00, the crew ____________ (3) work.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "started",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.4) The Deck Cadet ____________ (4) the Chief Officer during the inspection.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "helped",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.5) At 09:30, the lookout ____________ (5) a small fishing vessel near the ship.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "saw",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.6) The Officer of the Watch ____________ (6) the Master.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "called",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.7) The Officer of the Watch ____________ (7) the situation.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "reported",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.8) The vessel ____________ (8) the operation for a short time.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "stopped",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.9) After the fishing vessel passed, the crew ____________ (9) the work again.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "started",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences with the correct Past Simple form of the verbs in the Word Bank.\n\nWORD BANK: arrive | check | see | call | start | stop | report | help | inspect | finish\n\n7.10) The crew ____________ (10) the operation at 17:00.",
+    "category": "07 — Grammar — Past Simple",
+    "correct": "finished",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.1) The ____________ is the front part of the vessel.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "bow",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.2) The ____________ is the rear part of the vessel.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "stern",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.3) The officers use the ____________ to navigate the ship.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "bridge",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.4) The ____________ is used to detect other vessels and objects.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "radar",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.5) The vessel drops the ____________ when it needs to stay in one position.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "anchor",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.6) The left side of the vessel is the ____________ side.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "port",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.7) The right side of the vessel is the ____________ side.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "starboard",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.8) The ____________ watches for dangers at sea.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "lookout",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.9) The crew carries out many operations on the ____________.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "deck",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentences using the words from the Word Bank.\n\nWORD BANK: bow | stern | deck | bridge | anchor | port | starboard | lookout | radar | berth\n\n8.10) The vessel goes alongside the ____________ in port.",
+    "category": "08 — Vocabulary — Vessel Parts and Terms",
+    "correct": "berth",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read each sentence and choose the correct answer.\n\n9.1) The officers work on the ____________ to navigate the vessel.",
+    "category": "09 — Vocabulary — Multiple Choice",
+    "options": [
+      "engine room",
+      "bridge",
+      "galley"
+    ],
+    "correct": 1,
+    "explanation": "Select the correct answer."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read each sentence and choose the correct answer.\n\n9.2) The vessel uses an ____________ to stay in one position at sea.",
+    "category": "09 — Vocabulary — Multiple Choice",
+    "options": [
+      "anchor",
+      "ladder",
+      "hatch"
+    ],
+    "correct": 0,
+    "explanation": "Select the correct answer."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read each sentence and choose the correct answer.\n\n9.3) The ____________ watches for other vessels and objects.",
+    "category": "09 — Vocabulary — Multiple Choice",
+    "options": [
+      "cook",
+      "lookout",
+      "electrician"
+    ],
+    "correct": 1,
+    "explanation": "Select the correct answer."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read each sentence and choose the correct answer.\n\n9.4) The left side of a vessel is called ____________.",
+    "category": "09 — Vocabulary — Multiple Choice",
+    "options": [
+      "starboard",
+      "port",
+      "forward"
+    ],
+    "correct": 1,
+    "explanation": "Select the correct answer."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read each sentence and choose the correct answer.\n\n9.5) The right side of a vessel is called ____________.",
+    "category": "09 — Vocabulary — Multiple Choice",
+    "options": [
+      "port",
+      "aft",
+      "starboard"
+    ],
+    "correct": 2,
+    "explanation": "Select the correct answer."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read each sentence and choose the correct answer.\n\n9.6) The crew uses a ____________ to secure the vessel alongside the quay.",
+    "category": "09 — Vocabulary — Multiple Choice",
+    "options": [
+      "mooring line",
+      "compass",
+      "radar"
+    ],
+    "correct": 0,
+    "explanation": "Select the correct answer."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read each sentence and choose the correct answer.\n\n9.7) The front part of a vessel is called the ____________.",
+    "category": "09 — Vocabulary — Multiple Choice",
+    "options": [
+      "stern",
+      "bow",
+      "bridge"
+    ],
+    "correct": 1,
+    "explanation": "Select the correct answer."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Read each sentence and choose the correct answer.\n\n9.8) The rear part of a vessel is called the ____________.",
+    "category": "09 — Vocabulary — Multiple Choice",
+    "options": [
+      "stern",
+      "bow",
+      "mast"
+    ],
+    "correct": 0,
+    "explanation": "Select the correct answer."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Match the vessel type with its correct definition. Choose the correct definition below.\n\n10.1) Container Ship",
+    "category": "10 — Vocabulary — Vessel Types",
+    "options": [
+      "A small, powerful vessel used to move or help other ships.",
+      "A ship that carries large amounts of dry cargo such as grain, coal, and ore",
+      "A ship that carries liquid cargo such as oil or chemicals.",
+      "A ship that carries cargo in large metal boxes called containers",
+      "A ship designed to carry vehicles that can drive on and off the ship."
+    ],
+    "correct": 3,
+    "explanation": "Select the correct definition for Container Ship."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Match the vessel type with its correct definition. Choose the correct definition below.\n\n10.2) Tanker",
+    "category": "10 — Vocabulary — Vessel Types",
+    "options": [
+      "A small, powerful vessel used to move or help other ships.",
+      "A ship that carries large amounts of dry cargo such as grain, coal, and ore",
+      "A ship that carries liquid cargo such as oil or chemicals.",
+      "A ship that carries cargo in large metal boxes called containers",
+      "A ship designed to carry vehicles that can drive on and off the ship."
+    ],
+    "correct": 2,
+    "explanation": "Select the correct definition for Tanker."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Match the vessel type with its correct definition. Choose the correct definition below.\n\n10.3) Bulk Carrier",
+    "category": "10 — Vocabulary — Vessel Types",
+    "options": [
+      "A small, powerful vessel used to move or help other ships.",
+      "A ship that carries large amounts of dry cargo such as grain, coal, and ore",
+      "A ship that carries liquid cargo such as oil or chemicals.",
+      "A ship that carries cargo in large metal boxes called containers",
+      "A ship designed to carry vehicles that can drive on and off the ship."
+    ],
+    "correct": 1,
+    "explanation": "Select the correct definition for Bulk Carrier."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Match the vessel type with its correct definition. Choose the correct definition below.\n\n10.4) Ro-Ro Ship",
+    "category": "10 — Vocabulary — Vessel Types",
+    "options": [
+      "A small, powerful vessel used to move or help other ships.",
+      "A ship that carries large amounts of dry cargo such as grain, coal, and ore",
+      "A ship that carries liquid cargo such as oil or chemicals.",
+      "A ship that carries cargo in large metal boxes called containers",
+      "A ship designed to carry vehicles that can drive on and off the ship."
+    ],
+    "correct": 4,
+    "explanation": "Select the correct definition for Ro-Ro Ship."
+  },
+  {
+    "type": "mc",
+    "question": "INSTRUCTION: Match the vessel type with its correct definition. Choose the correct definition below.\n\n10.5) Tugboat",
+    "category": "10 — Vocabulary — Vessel Types",
+    "options": [
+      "A small, powerful vessel used to move or help other ships.",
+      "A ship that carries large amounts of dry cargo such as grain, coal, and ore",
+      "A ship that carries liquid cargo such as oil or chemicals.",
+      "A ship that carries cargo in large metal boxes called containers",
+      "A ship designed to carry vehicles that can drive on and off the ship."
+    ],
+    "correct": 0,
+    "explanation": "Select the correct definition for Tugboat."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the CORRECT rank from the Word Bank. (Some words must be left out.)\n\nWORD BANK: Master | Chief Officer | Second Officer | Third Officer | Deck Cadet | Bosun | Able Seaman (AB) | Ordinary Seaman (OS) | Trainee OS | Lookout\n\n11.1) The ____________________________________________ is the person in charge of the whole vessel.",
+    "category": "11 — Vocabulary — Ranks",
+    "correct": "Master",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the CORRECT rank from the Word Bank. (Some words must be left out.)\n\nWORD BANK: Master | Chief Officer | Second Officer | Third Officer | Deck Cadet | Bosun | Able Seaman (AB) | Ordinary Seaman (OS) | Trainee OS | Lookout\n\n11.2) The _______________________ is the second-in-command and is responsible for the deck department.",
+    "category": "11 — Vocabulary — Ranks",
+    "correct": "Chief Officer",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the CORRECT rank from the Word Bank. (Some words must be left out.)\n\nWORD BANK: Master | Chief Officer | Second Officer | Third Officer | Deck Cadet | Bosun | Able Seaman (AB) | Ordinary Seaman (OS) | Trainee OS | Lookout\n\n11.3) The _________________________ is usually responsible for navigation, charts, and passage planning.",
+    "category": "11 — Vocabulary — Ranks",
+    "correct": "Second Officer",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the CORRECT rank from the Word Bank. (Some words must be left out.)\n\nWORD BANK: Master | Chief Officer | Second Officer | Third Officer | Deck Cadet | Bosun | Able Seaman (AB) | Ordinary Seaman (OS) | Trainee OS | Lookout\n\n11.4) The ___________________________________________ assists with navigation and other deck duties.",
+    "category": "11 — Vocabulary — Ranks",
+    "correct": "Third Officer",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Complete the sentence with the CORRECT rank from the Word Bank. (Some words must be left out.)\n\nWORD BANK: Master | Chief Officer | Second Officer | Third Officer | Deck Cadet | Bosun | Able Seaman (AB) | Ordinary Seaman (OS) | Trainee OS | Lookout\n\n11.5) The ___________________________________ is a trainee who is learning the duties of a deck officer.",
+    "category": "11 — Vocabulary — Ranks",
+    "correct": "Deck Cadet",
+    "explanation": "Complete the sentence using the required form/word from the Word Bank."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read each definition. Complete the words by filling in the missing letters.\n\n13.1) A service that monitors and helps ships in busy waters. V ___ S",
+    "category": "13 — Vocabulary — Missing Letters",
+    "correct": "VTS",
+    "explanation": "Complete the word with the missing letters."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read each definition. Complete the words by filling in the missing letters.\n\n13.2) A ship or boat used to transport people or cargo. V __ S S __ L",
+    "category": "13 — Vocabulary — Missing Letters",
+    "correct": "VESSEL",
+    "explanation": "Complete the word with the missing letters."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read each definition. Complete the words by filling in the missing letters.\n\n13.3) A system that uses radio waves to detect ships. R __ D __ R",
+    "category": "13 — Vocabulary — Missing Letters",
+    "correct": "RADAR",
+    "explanation": "Complete the word with the missing letters."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read each definition. Complete the words by filling in the missing letters.\n\n13.4) A device used to communicate with other ships and VTS. R __ D __ O",
+    "category": "13 — Vocabulary — Missing Letters",
+    "correct": "RADIO",
+    "explanation": "Complete the word with the missing letters."
+  },
+  {
+    "type": "gap",
+    "question": "INSTRUCTION: Read each definition. Complete the words by filling in the missing letters.\n\n13.5) A person who controls or monitors vessel traffic. O F F __ C __ R",
+    "category": "13 — Vocabulary — Missing Letters",
+    "correct": "OFFICER",
+    "explanation": "Complete the word with the missing letters."
+  }
+]

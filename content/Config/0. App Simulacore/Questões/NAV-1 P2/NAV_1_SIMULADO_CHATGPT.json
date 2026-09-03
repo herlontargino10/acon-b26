@@ -1,0 +1,1954 @@
+[
+  {
+    "type": "mc",
+    "question": "A que se refere a abreviatura do alcance geográfico encontrada para identificar um farol?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "A embarcação privilegiada nunca deve manobrar em caso de rumo de colisão.",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "A Lista de Auxílio Rádio é dividida em quantos capítulos? Quais são eles?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Além das Américas, que outros países utilizam o sistema de balizamento IALA B?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Identificar navios, acompanhar trajetórias e trocar informações.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Basicamente, como são criados os ventos?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Cite as quatro limitações de um radar.?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Cite cinco funções de um GPS.?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Velocidade sobre o fundo; hora; waypoints; ETA; correções de rumo e velocidade.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Cite quatro fatores que podem fazer com que uma embarcação se desvie de sua derrota.?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Vento; correntes; estado do mar; imprecisão no governo."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Cite três benefícios do sistema AIS.?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Localização em tempo real; acompanhamento instantâneo de rumo e detecção de alvos encobertos.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Cite três desvantagens de um radar.?",
+    "category": "Navegação — Radar",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "• Muito sensível e sujeito a avarias; • Necessita ajuste e sincronização exatos; • Exige interpretação da imagem; • Cartas náuticas não são adaptadas para identificação na tela.",
+      "Funciona à noite e com baixa visibilidade; Permite obter a posição por um único objeto fixo; Calcula rapidamente rumos, velocidades e risco de colisão.",
+      "Manter-se mais próximo possível do limite exterior do canal por BE. Manter-se próximo da margem de boreste; não atrapalhar outras embarcações; usar sinais sonoros nas ultrapassagens; manobrar com cuidado; fundear apenas quando necessário."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Cite três propósitos do sistema AIS.?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Identificar navios, acompanhar trajetórias e trocar informações.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Cite três propósitos principais do GMDSS.?",
+    "category": "Navegação — AIS",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alerta de socorro navio-terra; comunicações SAR; comunicação na cena; alerta de navegação."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Cite três vantagens de um radar.?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Funciona à noite e com baixa visibilidade; Permite obter a posição por um único objeto fixo; Calcula rapidamente rumos, velocidades e risco de colisão.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "Com relação às luzes de auxílio à navegação, o que é o ritmo.",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Como deve manobrar uma embarcação quando estiver alcançando outra embarcação?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Manter-se fora do caminho da embarcação alcançada.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como deve manobrar uma embarcação quando estiver em rumo de colisão e avistando a outra pelo seu bombordo?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Manter rumo e velocidade como embarcação preferencial, pronta para manobrar se necessário."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como deve manobrar uma embarcação quando estiver em sentido oposto a outra, roda a roda?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Devem guinar ambos para boreste.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Identificar navios, acompanhar trajetórias e trocar informações."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como deve proceder uma embarcação em um canal estreito?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "• Muito sensível e sujeito a avarias; • Necessita ajuste e sincronização exatos; • Exige interpretação da imagem; • Cartas náuticas não são adaptadas para identificação na tela.",
+      "Manter-se mais próximo possível do limite exterior do canal por BE. Manter-se próximo da margem de boreste; não atrapalhar outras embarcações; usar sinais sonoros nas ultrapassagens; manobrar com cuidado; fundear apenas quando necessário.",
+      "Funciona à noite e com baixa visibilidade; Permite obter a posição por um único objeto fixo; Calcula rapidamente rumos, velocidades e risco de colisão.",
+      "Visibilidade, tráfego, capacidade de manobra e parada, luzes, estado do mar, vento, correntes, perigos à navegação, calado e limitações do radar."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como devem ser feitas as manobras de uma embarcação?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Ampla, antecipada e aparente.",
+      "Identificar navios, acompanhar trajetórias e trocar informações."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como é dividido o sistema de sinalização náutica e de balizamento?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Sistema de referência e sistema de balizamento."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como funciona um radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Transmite pulsos de rádio e mede o tempo de retorno do eco.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como podemos determinar o vento real durante uma navegação?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Pela Rosa de Manobra (DHN-0618) ou rosa dos ventos da carta.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como podemos fazer uma correção de um abatimento de uma derrota?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Compensando mar, vento e corrente com correções de rumo e velocidade do GPS.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como são identificados os sinais de referência durante a NOITE?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Pelas características da luz, como cor e ritmo de lampejo."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como são identificados os sinais de referência durante o dia?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Pela forma, cor, marca de tope e numeração.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como são produzidas as correntes de maré?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Pelo fenômeno das marés e comportam-se como correntes oceânicas superficiais.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como se identifica, de dia, um sinal de balizamento?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Pela forma, cor, marca de tope, luzes, numeração, som e sinal radioelétrico.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como se pode determinar uma força que esteja afetando a derrota de um navio?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Comparando a posição estimada com a posição observada."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como um GPS determina a posição de um navio?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Pelas informações de três ou quatro satélites visíveis.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "Conforme o modo de difusão e as características das alterações que irão introduzir, como são classificadas as informações constantes em um \"\"Aviso aos Navegantes\"\".",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Conforme o RIPEAM, a velocidade de uma embarcação é função de:?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Visibilidade, tráfego, capacidade de manobra e parada, luzes, estado do mar, vento, correntes, perigos à navegação, calado e limitações do radar.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Conforme sua duração, um aviso pode ser classificado em:?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Temporário, preliminar, permanente e permanente especial"
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "De acordo com as prescrições contidas no capítulo IV da Convenção SOLAS, que tipos de navios devem ser dotados, obrigatoriamente, dos equipamentos do sistema GMDSS?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Navios de passageiros e navios de carga acima de 300 AB em viagens internacionais.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "De acordo com as prescrições contidas no capítulo V, regra 19 da Convenção SOLAS, que tipos de navios devem ser dotados, obrigatoriamente, dos equipamentos do sistema AIS após 31 de dezembro de 2004.",
+    "category": "Navegação — AIS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "De acordo com as prescrições contidas no capítulo V, regra 20 da Convenção SOLAS, que tipos de navios devem ser dotados, obrigatoriamente, dos equipamentos do sistema VDR?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Navios de passageiros; navios Ro-Ro; navios ≥3000 t em viagens internacionais.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "gap",
+    "question": "De que é composto um sistema de balizamento.",
+    "category": "Navegação — Balizamento",
+    "correct": "Boias e balizas.",
+    "explanation": "Resposta conforme o material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que devemos nos atentar quanto análise meteorológica de uma derrota?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Previsão do tempo, ventos, correntes, visibilidade, marés e estado do mar.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é Baixa-mar?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Nível mínimo atingido pela maré",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Identificar navios, acompanhar trajetórias e trocar informações."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é preamar?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Nível máximo atingido pela maré",
+      "Identificar navios, acompanhar trajetórias e trocar informações."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é Almanaque para o GPS, e qual a sua importância?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Dados orbitais dos satélites que aceleram a aquisição e o cálculo da posição pelo GPS."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é apresentado na publicação \"\"Lista de Auxílio Rádios\"\"?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Auxílios-rádio à navegação, suas características, frequências, horários e informações operacionais.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é DGPS?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Sistema que aumenta a precisão do GPS por meio de correções de estações de referência.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é escala Belfort? Em quantas partes essa escala é dividida?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Escala utilizada para classificar a força dos ventos. É dividida em 13 graus (0 a 12).",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é Estofo de Maré?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Período entre enchente e vazante, quando a corrente é praticamente nula."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é maré de Quadratura?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Maré de menor amplitude na lua crescente ou minguante.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é maré de Sizígea?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Maré de maior amplitude na lua nova ou cheia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é o abatimento?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deslocamento lateral da embarcação provocado principalmente pela ação do vento.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é um Catálogo de Cartas Náuticas e Publicações? A que se destina?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Publicação que relaciona cartas e publicações náuticas, orientando sua seleção e aquisição."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é GMDSS?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Sistema Global de Socorro e Segurança Marítima para comunicações de emergência.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é um SART?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Transponder de Busca e Salvamento que facilita a localização de sobreviventes pelo radar.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é um sistema AIS?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Sistema de identificação automática DE NAVIOS que opera em VHF.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é um sistema Navtex?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Sistema de radiodifusão automática de avisos à navegação, meteorológicos e de segurança marítima."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que é Vazante?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Período em que a maré está baixando, da preamar para a baixa-mar.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que são \"\"Ponto de aborto\"\"?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Ponto além do qual não é mais seguro cancelar a manobra.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que são \"\"no-go áreas\"\"?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Áreas proibidas para navegação definidas durante o planejamento da minha viagem.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que são \"\"Paralela Indexada\"\"?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Linhas paralelas à rota usadas para monitorar afastamento lateral do navio."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que são \"\"Wheel over position\"\"? (Ponto para mudança de rumo)?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Pontos onde se inicia a mudança de rumo antes do waypoint, considerando o seguimento e o caimento do navio. Especialmente em águas restritas. - 0.3 NM antes da guinada",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Localização em tempo real; acompanhamento instantâneo de rumo e detecção de alvos encobertos."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que são as características das luzes de auxílio à navegação?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "São os elementos que identificam uma luz: cor, ritmo, período, alcance luminoso e elevação.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que são Tabelas e Tábuas de Navegação?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Publicações com tabelas para cálculos e determinação da posição, principalmente astronômica.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que se deve fazer nos casos em que uma embarcação ou objeto rebocado não puder exibir as luzes prescritas?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Exibir as luzes ou marcas mais semelhantes possíveis, indicar sua presença e informar sua condição."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve ser informado ao GPS no início de uma derrota composta?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Os waypoints da derrota e a sequência de navegação entre eles.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais informações devem ser informadas ao GPS quando ele for ligado?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Posição aproximada, data, hora e verificar o almanaque, quando necessário.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que significa dois apitos curtos?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Estou ginando para bombordo.",
+      "Sequência de emissões e eclipses regularmente repetida."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que significa quatro apitos curtos?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Sequência de emissões e eclipses regularmente repetida.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Não entendi sua intenção."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Onde encontramos as abreviaturas luminosas dos faróis, farolete ou boias, para a sua identificação durante a navegação?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Na Lista de Faróis.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Manter-se fora do caminho da embarcação alcançada.",
+      "Devem guinar ambos para boreste."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Onde se aplicam as determinações do RIPEAM?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Aplica-se a todas as embarcações em alto mar e água navegáveis a ele ligado.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Onde um DGPS deve ser utilizado?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Em áreas que exigem elevada precisão, como canais, águas restritas e portos.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que são empregados os sinais cardinais?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Para indicar o setor onde as águas são navegáveis."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que são utilizados os barômetros?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Medir a pressão atmosférica e auxiliar na previsão do tempo.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que se destina a publicação \"\"Cartas de Correntes\"\"? Qual a sua utilidade a bordo de uma embarcação?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Apresentam dados das correntes de maré para analisar sua influência na velocidade e no ETA.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que se destina a publicação \"\"Lista de Faróis\"\" e o que ela fornece ao navegante?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Relaciona os faróis e sinais luminosos, com suas características, posição, alcance e demais informações de identificação.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que se destina a publicação \"\"Tábuas de Marés\"\"? Que informações oferece ao navegante?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Fornece horários e alturas das preamares e baixa-mares."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que se destina a publicação náutica \"\"Roteiro\"\"?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Fornecer informações descritivas da costa, portos, perigos, fundeadouros e auxílios à navegação, auxiliando o planejamento e a execução da derrota.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que se destina um DGPS?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Para aumentar a precisão do posicionamento obtido pelo GPS por meio de correções diferenciais.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que servem os sinais de novos perigos?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Indicar perigos recentemente descobertos ainda não representados nas cartas.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Por que existem as correntes oceânicas?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Pela ação dos ventos, diferenças de temperatura e salinidade, rotação da Terra e configuração dos continentes."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Por que existem esses tipos de ventos?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Pelas diferenças de aquecimento da superfície terrestre, que geram diferenças de pressão atmosférica.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais embarcações têm preferência sobre uma embarcação de propulsão mecânica?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Embarcações sem governo, manobra restrita, engajadas na pesca e à vela.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais luzes e marcas deve exibir uma embarcação com capacidade de manobra restrita?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Luzes: circulares vermelha, branca e vermelha. Marcas: balão, losango e balão.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais as luzes e marcas necessárias para uma embarcação em manobra restrita devido ao calado?",
+    "category": "Navegação — AIS",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "- Três luzes circulares encarnadas verticalmente. - Luzes de bordo, de mastro e de alcançado. - Marca: Um cilindro."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais as luzes e marcas necessárias para uma embarcação em pesca de arrastão?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Luzes: verde sobre branca. Marcas: dois cones unidos pelas pontas. Em movimento: luzes de bordo, alcançado e mastro.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais as luzes e marcas necessárias para uma embarcação em pesca sem ser de arrastão?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Luzes: vermelha sobre branca. Marcas: dois cones unidos pelas pontas; se aparelho >150 m, luz branca ou cone indicando a direção.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais as luzes e marcas necessárias para uma embarcação fundeada?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Luz circular branca na proa (e outra à ré quando exigido). Marca: esfera preta.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais luzes e marcas deve exibir uma embarcação sem governo?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "- 2 luzes circulares encarnadas dispostas em linha vertical. - Com seguimento: luzes de bordo e de alcançado. - Marca: 2 esferas."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais as partes de um radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Fonte de alimentação, Modulador, Transmissor, Sistema de Antena, Receptor e Indicador.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais as três informações básicas que um aparelho de GPS recebe do sistema?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Posição dos satélites, hora exata transmitida pelos satélites e informações orbitais.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais embarcações têm preferência sobre uma embarcação à vela?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Embarcações sem governo, manobra restrita e engajadas na pesca.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais embarcações têm preferência sobre uma embarcação engajada na pesca?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Embarcações sem governo e com capacidade de manobra restrita."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais informações são fornecidas pelo sistema AIS?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Identificação, posição, rumo, velocidade, dimensões, carga, origem, destino e ETA.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais os tipos de indicadores de profundidade existentes?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Prumo de mão e ecobatímetro.",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Sequência de emissões e eclipses regularmente repetida."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais os tipos de movimentos de um radar?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Movimento relativo e movimento verdadeiro.",
+      "Vento; correntes; estado do mar; imprecisão no governo."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais os tipos de odômetros existentes?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Odômetro de fundo e odômetro de superfície."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais os tipos de ventos existentes em uma travessia?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Vento real, relativo, de proa e popa.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais os tipos existentes de barômetros?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Barômetro de mercúrio e barômetro aneroide.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais partes constituem um GPS?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Segmento espacial, controle e usuário.",
+      "Vento; correntes; estado do mar; imprecisão no governo."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a característica principal de um Racon?",
+    "category": "Navegação — Radar",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Identificar positivamente um alvo no radar, permitindo marcação e distância precisas."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a cor da bóia de sinais especiais?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Amarela.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Devem guinar ambos para boreste.",
+      "Ampla, antecipada e aparente."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a cor da boia que fica a boreste de uma embarcação ao entrar no porto de Montevidéu (Uruguai)?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vermelha.",
+      "Devem guinar ambos para boreste.",
+      "Ampla, antecipada e aparente."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a cor do sinal lateral de Bombordo?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Devem guinar ambos para boreste.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vermelha.",
+      "Ampla, antecipada e aparente."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a cor do sinal lateral de Boreste?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Ampla, antecipada e aparente.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Devem guinar ambos para boreste.",
+      "Verde."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a diferença de um Higrômetro e um Psicrômetro?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Higrômetro: mede a umidade do ar. Psicrômetro: determina a umidade pela diferença entre os bulbos seco e úmido.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a diferença entre embarcação manobradora e privilegiada?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "A embarcação manobradora deve tomar a ação para evitar o abalroamento; a privilegiada deve manter rumo e velocidade, intervindo apenas quando necessário.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a diferença entre maré de Sizígea e maré de Quadratura?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Sizígea: Maré maior amplitude (Lua nova ou cheia); Quadratura: Maré menor amplitude (Lua crescente ou minguante).",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a duração de um apito curto e de um apito longo?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Apito curto: Cerca de 1 segundo Apito longo: Entre 4 e 6 segundos."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a finalidade de uma carta 12000?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Apresentar os símbolos, abreviaturas e termos utilizados nas cartas náuticas nacionais e internacionais.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a função principal de um sistema VDR?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Registrar continuamente os dados da navegação e comunicações da embarcação para análises de acidentes ou incidentes.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a periodicidade de um \"\"Aviso aos Navegantes\"\" e a que se destinam?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Publicados quinzenalmente para manter cartas e publicações atualizadas.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual sequência de apitos indica concordância com a manobra proposta?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Sequência de emissões e eclipses regularmente repetida.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Longo-curto-longo-curto"
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o sistema de balizamento adotado no Brasil?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Sistema IALA B.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Manter-se fora do caminho da embarcação alcançada.",
+      "Devem guinar ambos para boreste."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o alcance da área 1 do GMDSS?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Aproximadamente 20 a 30 milhas.",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Identificar navios, acompanhar trajetórias e trocar informações."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o alcance da área 2 do GMDSS?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Além da A1, coberta por MF com DSC, até cerca de 100 milhas.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o alcance da área 3 do GMDSS?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Fora das A1 e A2, coberta pelo INMARSAT (70°N–70°S)."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o alcance da área 4 do GMDSS?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Áreas fora das A1, A2 e A3 (regiões polares).",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o conceito de marés?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Movimento periódico do nível do mar causado pela atração do Sol e da Lua.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o objetivo do Código Internacional de Sinais?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Prover comunicação para a segurança da navegação e das pessoas entre diferentes idiomas.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o objetivo do sistema VDR e a que se pode comparar?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Registrar os dados da embarcação para análise de acidentes. Equivale à caixa-preta."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o objetivo do sistema VTS?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Reduzir acidentes e aumentar a eficiência do tráfego marítimo.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual o principal objetivo de um sistema de referência?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Fornecer referências para determinar e controlar a posição da embarcação.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quando é ativado um SART?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Automaticamente ao receber sinais de radar (9 GHz).",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o formato da marca de tope da boia de bombordo para uma embarcação que sai do porto de Maracaibo (Venezuela)?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Ampla, antecipada e aparente.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Devem guinar ambos para boreste.",
+      "Um cilindro."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Que informações o Roteiro fornece ao navegante?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Fornecer informações descritivas da costa, portos, perigos, fundeadouros e auxílios à navegação, auxiliando o planejamento e a execução da derrota.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como se chama uma construção menor que um farol, com alcance luminoso inferior a 10 milhas?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Farolete.",
+      "Devem guinar ambos para boreste.",
+      "Ampla, antecipada e aparente."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Que nome é dado aos sinais utilizados em canais, entradas de portos e rios, e indicam bombordo e boreste da rota a ser seguida?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Manter-se fora do caminho da embarcação alcançada.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Sinais laterais.",
+      "Devem guinar ambos para boreste."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Que problemas podemos ter com o ecobatímetro em relação ao fundo do mar?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Fundos macios, vegetação, lama e inclinações podem gerar ecos falsos."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Que tipo de sistema de sinalização é utilizado na entrada dos portos?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Sistema de balizamento lateral.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Identificar navios, acompanhar trajetórias e trocar informações."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "Que tipo de sistema de sinalização é utilizado para navegação costeira e de aproximação de portos.",
+    "category": "Navegação — Geral",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Uma barca-farol é um elemento de qual sistema de sinalização?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Sistema de referência.",
+      "Sequência de emissões e eclipses regularmente repetida."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais luzes uma embarcação de propulsão mecânica com menos de 12 m pode exibir?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Uma luz circular branca e luzes de bordo."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "De que é composto um sistema de referência?",
+    "category": "Navegação — Geral",
+    "options": [
+      "Faróis, faroletes e barcas-faróis.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Identificar navios, acompanhar trajetórias e trocar informações."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "Defina Balizas num sistema de sinalização..",
+    "category": "Navegação — Geral",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Defina RIPEAM.?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Regulamento Internacional para Evitar Abalroamentos no Mar. Objetivo: previnir colisões e abalroamentos no mar.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Devemos elaborar um plano de derrota numa carta de grande escala? Por quê?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Sim. Porque oferece maior precisão e margem de segurança no planejamento da derrota."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Diferencie anemômetro e anemoscópio.?",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Anemômetro mede a velocidade do vento; anemoscópio indica sua direção.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "Em função do propósito a que se destinam os Avisos aos Navegantes podem ser classificados em:.",
+    "category": "Navegação — Geral",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Em quantas áreas é dividido um GMDSS?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Quatro áreas (A1, A2, A3 e A4).",
+      "Identificar navios, acompanhar trajetórias e trocar informações."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Em que caso não se deve colocar as luzes ou marcas em embarcações em processo de empurra em movimento?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Quando a empurradora e a empurrada estiverem rigidamente ligadas, formando uma unidade integrada."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Em que consiste um EPIRB?",
+    "category": "Navegação — GMDSS",
+    "options": [
+      "Rádio-baliza de emergência que transmite alerta de socorro via satélite.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc.."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "Em que publicação podemos encontrar as características dos faróis existentes na costa brasileira.",
+    "category": "Navegação — Geral",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Embarcações em operação de reboque, superior a 200 metros, ou empurra, deverão apresentar que tipos de luzes?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Três luzes de mastro em linha vertical, luzes de bordo, luz de alcançado e luz de reboque (quando aplicável).",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Informe algumas utilizações de um sistema de balizamento.?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Demarcar canais, indicar águas seguras, alertar perigos e indicar áreas especiais."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Informe as 5 luzes de navegação de uma embarcação a propulsão mecânica em movimento.?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Luz de mastro, luz de mastro de ré, luz de bombordo, luz de boreste e luz de alcançado.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Informe as características de uma boia indicando águas seguras. *Colocar foto?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Cor: faixas verticais encarnadas e branca; tope: uma esfera encarnada; formato: esférico, pilar ou charuto; luz: branca; ritmo: Iso. B, Oc. B, LpL. 10s ou Mo (A).",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "Localização em tempo real; acompanhamento instantâneo de rumo e detecção de alvos encobertos."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Informe as características de uma boia indicando perigo isolado. *Colocar foto?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Cor: preta com uma ou mais faixas largas horizontais encarnadas; tope: duas esferas pretas; formato: pilar ou charuto; luz branca; ritmo Lp (2) B.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Informe quatro atitudes que se deve tomar em casos de navegação em visibilidade restrita.?",
+    "category": "Navegação — Geral",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Velocidade segura; vigilância reforçada; sinais de cerração; usar todos os meios para detectar risco de colisão."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Informe quatro dados fornecidos por um equipamento GPS.?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Latitude, longitude, velocidade e rumo.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "tf",
+    "question": "No Brasil, o Roteiro é dividido em quantas partes? Quais são elas e como se delimitam.",
+    "category": "Navegação — AIS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde à informação apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Numa bifurcação de canal, é colocada uma boia que orienta o canal preferencial. Caso o canal preferencial seja para boreste, qual a característica apresentada pela boia?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Cor: Verde, com uma faixa larga horizontal encarnada; tope: cilíndrico verde; formato cilíndrico, pilar ou charuto; luz verde; ritmo Lp (2+1).",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O Almanaque Náutico é indispensável para que tipo de navegação?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Sequência de emissões e eclipses regularmente repetida.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo.",
+      "Navegação astronômica."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais fatores afetam o estado do mar?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Intensidade, duração e pista do vento.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Argentina, Chile, Peru, Equador e etc..",
+      "Vento; correntes; estado do mar; imprecisão no governo."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve ser feito no planejamento de uma derrota?",
+    "category": "Navegação — Planejamento de Derrota",
+    "options": [
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Definir a derrota, identificar perigos, estabelecer margens de segurança, pontos de referência e procedimentos para uma navegação segura.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Quais fatores devemos levar em conta no planejamento da derrota de um navio?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Diferenças de pressão atmosférica causadas pelas diferenças de temperatura das massas de ar.",
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Cartas e publicações atualizadas, profundidades, marés, meteorologia, correntes, auxílios à navegação, limitações do navio e margens de segurança.",
+      "Discriminação em distância; discriminação em marcação; alcance mínimo; zonas de sombra."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  },
+  {
+    "type": "mc",
+    "question": "Como se pode saber qual sistema de balizamento (IALA A ou IALA B) é adotado por um determinado país?",
+    "category": "Navegação — Balizamento",
+    "options": [
+      "09 capítulos: Introdução; Radiogoniometria; Radiobalizas; OMEGA; TRANSIT; GPS; DGPS; NAVTEX; Avisos-Rádio aos Navegantes.",
+      "Alcance geográfico, em milhas náuticas (M), da luz do farol, farolete ou boia.",
+      "Deve manobrar quando perceber que a outra não está cumprindo o RIPEAM.",
+      "Pela posição dos sinais laterais (boias de boreste e bombordo) na entrada dos portos."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa correta reproduz a informação sustentada pelo material fornecido."
+  }
+]
