@@ -1,0 +1,200 @@
+[
+  {
+    "type": "TF",
+    "question": "1.1) De acordo com a Resolução MSC.530(106) Rev.1 da IMO, o equipamento do tipo ECDIS, com as devidas configurações de suporte (back-up), pode ser considerado em conformidade com as exigências de dotação de carta atualizada das Regras V/19 e V/27 da Convenção SOLAS.",
+    "category": "ECDIS — Requisitos SOLAS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O gabarito do material considera a afirmação verdadeira: com as configurações de suporte (back-up) adequadas, o ECDIS pode atender às exigências de dotação de carta atualizada indicadas."
+  },
+  {
+    "type": "TF",
+    "question": "1.2) O Sistema de Cartas Eletrônicas (ECS), especificado na norma ISO 19379, atende a todas as exigências da IMO para dotação de ECDIS a bordo de embarcações, servindo como meio primário de navegação.",
+    "category": "ECDIS — ECS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O ECS é apresentado como auxílio à navegação e não atende às exigências de dotação de ECDIS da IMO/SOLAS."
+  },
+  {
+    "type": "TF",
+    "question": "1.3) O SENC (System Electronic Navigational Chart) é o banco de dados de cartas otimizado resultante da conversão direta dos dados da ENC oficial pelo software ECDIS do fabricante.",
+    "category": "ECDIS — SENC",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação corresponde ao conceito apresentado: a SENC resulta da transformação da ENC pelo software ECDIS."
+  },
+  {
+    "type": "TF",
+    "question": "1.4) Objetos originais contidos em uma carta ENC oficial homologada podem ser apagados manualmente pelo operador caso entrem em conflito com o plano de derrota do navio.",
+    "category": "ECDIS — Correção Manual",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Objetos originais da ENC oficial não podem ser apagados pelo operador. Podem ser riscados e novos objetos podem ser adicionados."
+  },
+  {
+    "type": "MC",
+    "question": "2.1) De acordo com os requisitos internacionais de treinamento para o uso do ECDIS estabelecidos pela Convenção STCW, em quais regras do anexo da convenção está fundamentado o Treino Genérico de ECDIS (IMO Model Course 1.27)?",
+    "category": "ECDIS — Treinamento",
+    "options": [
+      "Regras V/19, V/27 e Código ISM.",
+      "Regra I/14 e procedimentos internos do Código ISM.",
+      "Regras II/1, II/2 e II/3 do Anexo da Convenção STCW.",
+      "Regras III/1, III/2 e III/3 relativas à familiarização."
+    ],
+    "correct": 2,
+    "explanation": "O gabarito do material indica as Regras II/1, II/2 e II/3 como fundamento do treino genérico associado ao IMO Model Course 1.27."
+  },
+  {
+    "type": "MC",
+    "question": "2.2) No sistema ECDIS Transas Navi-Sailor 4000, o módulo de logbook eletrônico está em conformidade com a resolução da IMO A.916(22). Sobre suas especificações técnicas, assinale a opção correta:",
+    "category": "ECDIS — Logbook",
+    "options": [
+      "A frequência de armazenamento dos dados do logbook pode ser livremente alterada para 1 minuto por qualquer operador do passadiço.",
+      "Os dados contidos no logbook do ECDIS são permanentemente bloqueados para leitura externa, não sendo passíveis de conversão ou cópia.",
+      "O sistema realiza o registro de eventos de forma manual exclusivamente, necessitando que o operador insira dados de hora em hora.",
+      "Todo evento importante dentro do sistema ECDIS é armazenado de forma automática e, a qualquer momento, o operador pode fazer uma entrada manual pressionando as teclas EVENT ou MOB."
+    ],
+    "correct": 3,
+    "explanation": "O material aponta o registro automático de eventos importantes e a possibilidade de entradas manuais pelas teclas EVENT ou MOB."
+  },
+  {
+    "type": "MC",
+    "question": "2.3) No sistema Transas Navi-Sailor 4000, o operador pode criar e carregar Maps customizados sobre as cartas exibidas. Qual característica funcional está correta?",
+    "category": "ECDIS — Maps",
+    "options": [
+      "O sistema suporta o carregamento de até dez camadas de mapas gerados pelo usuário simultaneamente.",
+      "Os mapas criados pelo usuário possuem configuração de tempo (time control) para cada objeto individual.",
+      "Existem apenas duas camadas disponíveis para carregar os mapas criados; sua exclusão é irreversível e não há opção de configurar tempo.",
+      "Os mapas do usuário, após criados, mesclam-se de forma irreversível com as informações originais da ENC da distribuidora."
+    ],
+    "correct": 2,
+    "explanation": "O gabarito indica a alternativa C: há duas camadas disponíveis, a exclusão não permite restauração e não existe configuração de tempo para os Maps."
+  },
+  {
+    "type": "MC",
+    "question": "3.1) Na correlação apresentada, qual norma corresponde às especificações de desempenho para sistemas ECS (Cartas Eletrônicas)?",
+    "category": "ECDIS — Normas",
+    "options": [
+      "S-52.",
+      "S-57.",
+      "S-63.",
+      "ISO 19379."
+    ],
+    "correct": 3,
+    "explanation": "A ISO 19379 é a norma associada às especificações de desempenho para sistemas ECS."
+  },
+  {
+    "type": "MC",
+    "question": "3.2) Qual norma está associada às especificações de cores e símbolos para a apresentação visual de dados no ECDIS?",
+    "category": "ECDIS — Normas IHO",
+    "options": [
+      "S-52.",
+      "S-57.",
+      "S-63.",
+      "S-66."
+    ],
+    "correct": 0,
+    "explanation": "A S-52 é a norma associada à apresentação de dados no ECDIS, incluindo cores e símbolos."
+  },
+  {
+    "type": "MC",
+    "question": "3.3) Qual norma corresponde aos padrões de transferência de dados hidrográficos digitais em formatos vetoriais de ENC?",
+    "category": "ECDIS — Normas IHO",
+    "options": [
+      "S-52.",
+      "S-57.",
+      "S-63.",
+      "S-66."
+    ],
+    "correct": 1,
+    "explanation": "A S-57 corresponde aos padrões de transferência de dados hidrográficos digitais usados para dados vetoriais de ENC."
+  },
+  {
+    "type": "MC",
+    "question": "3.4) Qual norma está relacionada à criptografia e proteção dos dados hidrográficos digitais da ENC?",
+    "category": "ECDIS — Normas IHO",
+    "options": [
+      "S-57.",
+      "S-52.",
+      "S-63.",
+      "S-66."
+    ],
+    "correct": 2,
+    "explanation": "A S-63 trata da proteção e criptografia dos dados digitais de ENC."
+  },
+  {
+    "type": "MC",
+    "question": "3.5) Qual norma reúne fatos e informações sobre o uso de cartas eletrônicas digitais e as exigências de dotação a bordo?",
+    "category": "ECDIS — Normas IHO",
+    "options": [
+      "S-52.",
+      "S-57.",
+      "S-63.",
+      "S-66."
+    ],
+    "correct": 3,
+    "explanation": "A S-66 é a norma associada às informações sobre cartas eletrônicas digitais e requisitos de dotação a bordo."
+  },
+  {
+    "type": "GAP",
+    "question": "4.1) A característica mais importante do sistema ECDIS para garantir a segurança da navegação marítima é que todos os __________ são inteiramente baseados nos dados e limites inseridos pelo próprio __________.",
+    "category": "ECDIS — Alarmes",
+    "options": [],
+    "correct": "alarmes / operador",
+    "explanation": "O material destaca que os alarmes dependem dos dados e limites inseridos pelo operador."
+  },
+  {
+    "type": "GAP",
+    "question": "4.2) Durante a checagem regular de sensores, o aproamento (Heading) envolve a verificação do alinhamento e __________, ao passo que a velocidade compara as leituras de __________ e LOG.",
+    "category": "ECDIS — Verificação de Sensores",
+    "options": [],
+    "correct": "docagem / GNSS",
+    "explanation": "A verificação do heading inclui alinhamento e docagem; para velocidade, o material compara GNSS/GPS/DGPS com LOG. A resposta aceita é GNSS."
+  },
+  {
+    "type": "GAP",
+    "question": "4.3) Para o monitoramento de alvos oriundos do ARPA/AIS, o sistema ECDIS calcula continuamente a aproximação e dispara alarmes de colisão com base nos valores de __________ e __________.",
+    "category": "ECDIS — CPA e TCPA",
+    "options": [],
+    "correct": "CPA / TCPA",
+    "explanation": "CPA e TCPA são os parâmetros utilizados pelo ECDIS para monitorar a aproximação de alvos e gerar os alarmes de colisão."
+  },
+  {
+    "type": "MC",
+    "question": "5.1) Sobre a Correção Manual (Manual Correction) no sistema ECDIS, qual alternativa reproduz corretamente o procedimento descrito no material?",
+    "category": "ECDIS — Correção Manual",
+    "options": [
+      "As correções são incorporadas diretamente à ENC original e, quando uma atualização automática chega, o sistema apaga automaticamente qualquer correção manual correspondente.",
+      "As correções são armazenadas em uma camada independente da ENC original; se uma atualização automática posterior contiver os mesmos dados, o navegador deve deletar manualmente as correções correspondentes, permanecendo uma sombra visual do objeto excluído. As Correções Manuais possuem controle de tempo.",
+      "As correções manuais só podem ser feitas quando a carta estiver sem licença e não podem possuir tempo de utilização ou expiração.",
+      "As correções são armazenadas no mesmo conjunto de dados da ENC e nunca precisam ser revistas após uma atualização automática."
+    ],
+    "correct": 1,
+    "explanation": "O material informa que as correções ficam em camada independente. Quando uma atualização automática contém os mesmos dados, o navegador deve remover manualmente as correções correspondentes; diferentemente dos Maps, elas possuem controle de tempo."
+  },
+  {
+    "type": "MC",
+    "question": "5.2) Qual conjunto apresenta três finalidades práticas do Playback (reprodução da derrota executada) citadas no material?",
+    "category": "ECDIS — Playback",
+    "options": [
+      "Atualização automática de ENC, definição do safety contour e calibração do GPS.",
+      "Instruções operacionais a bordo, investigação/análise de incidentes e acidentes e utilização opcional como evidência legal ou prova documental.",
+      "Gerenciamento de licenças, correção automática de cartas e seleção de sensores primários.",
+      "Somente planejamento de rota, cálculo de UKC e configuração de SCAMIN."
+    ],
+    "correct": 1,
+    "explanation": "O material cita briefing/debriefing e repetição de passagens, análise de acidentes/incidentes e eventual utilização como evidência legal ou documental."
+  }
+]

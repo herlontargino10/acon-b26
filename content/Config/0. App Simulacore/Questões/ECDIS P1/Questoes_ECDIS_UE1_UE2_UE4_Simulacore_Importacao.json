@@ -1,0 +1,262 @@
+[
+  {
+    "type": "MC",
+    "question": "1. De acordo com o conceito apresentado para ECDIS, qual alternativa melhor caracteriza o sistema?",
+    "category": "ECDIS — Conceito e Requisitos",
+    "options": [
+      "Um RADAR com carta eletrônica de fundo, utilizado apenas para anticolisão.",
+      "Um sistema de informação para navegação que, com configuração de backup adequada, pode atender às exigências de cartas atualizadas previstas na SOLAS.",
+      "Um visualizador de cartas raster que substitui automaticamente todas as publicações náuticas.",
+      "Um sistema de posicionamento por satélite integrado a um piloto automático."
+    ],
+    "correct": 1,
+    "explanation": "O ECDIS é um sistema de informação para navegação e, quando configurado conforme os requisitos aplicáveis, pode atender às exigências de dotação de cartas previstas na SOLAS."
+  },
+  {
+    "type": "MC",
+    "question": "2. A diferença fundamental entre o Modo ECDIS e o Modo RCDS, conforme os slides, é que:",
+    "category": "ECDIS — Modos ECDIS e RCDS",
+    "options": [
+      "O Modo ECDIS utiliza ENC; o Modo RCDS é empregado quando ENC apropriada não está disponível e utiliza RNC.",
+      "O Modo ECDIS utiliza apenas RNC; o Modo RCDS utiliza ENC.",
+      "Ambos utilizam exclusivamente ENC, diferenciando-se apenas pela escala.",
+      "O Modo RCDS é utilizado somente quando o radar está indisponível."
+    ],
+    "correct": 0,
+    "explanation": "O modo ECDIS está associado ao uso de ENC. Quando não há ENC apropriada disponível, o equipamento pode operar em modo RCDS utilizando RNC, sujeito aos requisitos aplicáveis."
+  },
+  {
+    "type": "MC",
+    "question": "3. Quando um ECDIS passa a operar em modo RCDS devido à inexistência de ENC adequada para determinado trecho da derrota, qual requisito está de acordo com a NORMAM-511/DHN vigente?",
+    "category": "ECDIS — RCDS e NORMAM-511/DHN",
+    "options": [
+      "A RNC passa a ter, em qualquer situação, o mesmo status operacional da ENC, dispensando qualquer meio adicional de backup.",
+      "O ECDIS pode utilizar RNC, porém a operação em modo RASTER requer a manutenção a bordo de uma andaina de cartas em papel como backup.",
+      "A utilização de RNC somente é permitida em navegação interior e mediante autorização específica da Capitania dos Portos.",
+      "O emprego de RNC exige obrigatoriamente um segundo ECDIS operando simultaneamente em modo RCDS."
+    ],
+    "correct": 1,
+    "explanation": "Na situação descrita, o uso de RNC em modo RASTER não elimina a necessidade do meio de backup em cartas de papel indicada pela norma."
+  },
+  {
+    "type": "MC",
+    "question": "4. Para verificar o sensor de aproamento (heading), o material recomenda observar principalmente:",
+    "category": "ECDIS — Verificação de Sensores",
+    "options": [
+      "ETA e TTG.",
+      "Alinhamento e docagem.",
+      "Profundidade e calado.",
+      "Escala da ENC e datum."
+    ],
+    "correct": 1,
+    "explanation": "O material apresenta alinhamento e docagem como referências para verificar a informação de aproamento."
+  },
+  {
+    "type": "MC",
+    "question": "5. Para uma verificação básica da informação de velocidade apresentada ao ECDIS, o material propõe comparar:",
+    "category": "ECDIS — Verificação de Sensores",
+    "options": [
+      "Radar x AIS.",
+      "Ecobatímetro x GPS.",
+      "GPS x LOG.",
+      "Giro x radar."
+    ],
+    "correct": 2,
+    "explanation": "A verificação básica indicada consiste em comparar a velocidade obtida pelo GPS com a informação do LOG."
+  },
+  {
+    "type": "MC",
+    "question": "6. Qual nível de apresentação contém informações que permanecem visíveis e são necessárias continuamente?",
+    "category": "ECDIS — Apresentação de Informações",
+    "options": [
+      "All Layers Display.",
+      "Custom Display.",
+      "Display Base.",
+      "Route Monitoring Display."
+    ],
+    "correct": 2,
+    "explanation": "O Display Base reúne as informações mínimas que permanecem na apresentação e não podem ser removidas."
+  },
+  {
+    "type": "MC",
+    "question": "7. Sobre o Display Base, assinale a alternativa correta:",
+    "category": "ECDIS — Display Base",
+    "options": [
+      "É apresentado no material como suficiente, por si só, para a navegação.",
+      "Contém o conjunto mínimo de informações que não pode ser removido da apresentação.",
+      "Contém necessariamente todas as sondagens e nomes de lugares.",
+      "É uma apresentação criada livremente pelo usuário."
+    ],
+    "correct": 1,
+    "explanation": "O Display Base corresponde ao conjunto mínimo de informações que deve permanecer disponível na apresentação."
+  },
+  {
+    "type": "MC",
+    "question": "8. O Standard Display é melhor descrito como:",
+    "category": "ECDIS — Standard Display",
+    "options": [
+      "O Display Base acrescido de outras informações relevantes, constituindo a apresentação padrão para navegação.",
+      "Uma apresentação contendo apenas linha de costa e escala.",
+      "Uma apresentação reservada exclusivamente ao planejamento.",
+      "Uma apresentação que exclui auxílios à navegação e áreas restritas."
+    ],
+    "correct": 0,
+    "explanation": "O Standard Display acrescenta informações relevantes ao Display Base e constitui a apresentação padrão indicada para a navegação."
+  },
+  {
+    "type": "MC",
+    "question": "9. Qual dos itens abaixo foi apresentado como exemplo de informação adicional do Standard Display?",
+    "category": "ECDIS — Standard Display",
+    "options": [
+      "Somente nomes de lugares.",
+      "Boias, balizas/beacons e outros auxílios à navegação.",
+      "Apenas cabos submarinos.",
+      "Exclusivamente profundidades pontuais."
+    ],
+    "correct": 1,
+    "explanation": "Boias, balizas/beacons e outros auxílios à navegação foram apresentados como exemplos de informações adicionais do Standard Display."
+  },
+  {
+    "type": "MC",
+    "question": "10. A apresentação denominada All Layers Display caracteriza-se por:",
+    "category": "ECDIS — Níveis de Apresentação",
+    "options": [
+      "Mostrar menos informação que o Display Base.",
+      "Mostrar apenas os objetos selecionados pelo usuário.",
+      "Incluir as informações do Standard Display e outras informações adicionais, como cabos submarinos, nomes, notas de precaução e profundidades.",
+      "Ser obrigatória de forma contínua durante toda a navegação."
+    ],
+    "correct": 2,
+    "explanation": "O All Layers Display apresenta o Standard Display juntamente com informações adicionais, como cabos submarinos, nomes, notas de precaução e profundidades."
+  },
+  {
+    "type": "MC",
+    "question": "11. O Custom Display permite ao operador:",
+    "category": "ECDIS — Custom Display",
+    "options": [
+      "Eliminar também os elementos obrigatórios do Display Base.",
+      "Combinar o Standard Display com camadas/informações escolhidas de acordo com a tarefa de navegação.",
+      "Converter automaticamente uma RNC em ENC.",
+      "Alterar o conteúdo oficial da ENC."
+    ],
+    "correct": 1,
+    "explanation": "O Custom Display permite acrescentar ao Standard Display as camadas e informações selecionadas pelo operador conforme a tarefa de navegação, sem alterar o conteúdo oficial da ENC."
+  },
+  {
+    "type": "MC",
+    "question": "12. Qual é uma aplicação operacional importante da sobreposição RADAR (RADAR overlay) no ECDIS?",
+    "category": "ECDIS — RADAR Overlay",
+    "options": [
+      "Substituir a necessidade de qualquer sensor de posição.",
+      "Verificar a coerência entre a imagem RADAR e os objetos cartografados, contribuindo para a avaliação da posição e da integração dos sensores.",
+      "Atualizar automaticamente as células ENC.",
+      "Transformar uma carta raster em carta vetorial."
+    ],
+    "correct": 1,
+    "explanation": "A sobreposição permite comparar a imagem RADAR com objetos conhecidos da carta, contribuindo para verificar a coerência da posição e das entradas dos sensores."
+  },
+  {
+    "type": "MC",
+    "question": "13. Se a imagem RADAR não estiver adequadamente alinhada com objetos cartografados conhecidos, a atitude correta é:",
+    "category": "ECDIS — RADAR Overlay e Verificação",
+    "options": [
+      "Considerar imediatamente a ENC incorreta.",
+      "Ignorar a diferença, pois RADAR e ECDIS utilizam referências independentes.",
+      "Investigar possíveis discrepâncias de posição, aproamento, alinhamento e demais entradas/sensores antes de confiar na sobreposição.",
+      "Desligar o GNSS e navegar somente pelo RADAR."
+    ],
+    "correct": 2,
+    "explanation": "Uma discrepância na sobreposição deve ser investigada antes de se confiar nela. É necessário considerar posição, aproamento, alinhamento e demais entradas ou sensores."
+  },
+  {
+    "type": "MC",
+    "question": "14. Segundo o material, as atualizações regulares das ENC são normalmente sincronizadas com:",
+    "category": "ECDIS — Atualização de ENC",
+    "options": [
+      "As correções divulgadas pela publicação nacional de Avisos aos Navegantes para as áreas afetadas.",
+      "A inspeção anual do navio.",
+      "A troca de tripulação.",
+      "O vencimento do certificado do ECDIS."
+    ],
+    "correct": 0,
+    "explanation": "As atualizações regulares das ENC acompanham as correções divulgadas pelos Avisos aos Navegantes para as áreas correspondentes."
+  },
+  {
+    "type": "MC",
+    "question": "15. Qual alternativa apresenta meios de distribuição de atualizações de ENC citados no material?",
+    "category": "ECDIS — Atualização e Distribuição de ENC",
+    "options": [
+      "Somente atualização presencial pelo fabricante.",
+      "Mídia de distribuição de dados e transmissão eletrônica, inclusive por SATCOM, conforme o serviço e as comunicações de bordo.",
+      "Exclusivamente NAVTEX.",
+      "Exclusivamente AIS."
+    ],
+    "correct": 1,
+    "explanation": "O material cita mídia de distribuição de dados e transmissão eletrônica, incluindo SATCOM, conforme o serviço e as comunicações disponíveis a bordo."
+  },
+  {
+    "type": "MC",
+    "question": "16. No modelo de Licença Direta apresentado, o usuário:",
+    "category": "ECDIS — Licenciamento de ENC",
+    "options": [
+      "Tem acesso a um grupo fixo de cartas por um período definido de licença.",
+      "Paga apenas pelas cartas efetivamente atravessadas pelo navio, sem licença prévia.",
+      "Recebe todas as ENC mundiais gratuitamente e permanentemente.",
+      "Só pode utilizar RNC."
+    ],
+    "correct": 0,
+    "explanation": "Na Licença Direta, o acesso é concedido a um grupo definido de cartas durante o período estabelecido na licença."
+  },
+  {
+    "type": "MC",
+    "question": "17. A Licença Dinâmica apresentada no material pode ser entendida como:",
+    "category": "ECDIS — Licenciamento de ENC",
+    "options": [
+      "Uma licença exclusiva para cartas de papel.",
+      "Um serviço do tipo 'pay per view', no qual o acesso é disponibilizado e a cobrança se relaciona às cartas vistas ou utilizadas, conforme o serviço.",
+      "Uma licença que impede alterações de rota.",
+      "Um mecanismo de atualização do software do RADAR."
+    ],
+    "correct": 1,
+    "explanation": "A Licença Dinâmica é apresentada como um modelo semelhante a 'pay per view', relacionando a cobrança às cartas vistas ou utilizadas conforme o serviço."
+  },
+  {
+    "type": "MC",
+    "question": "18. No conceito PAYS (Pay-As-You-Sail) apresentado, qual é a lógica principal?",
+    "category": "ECDIS — PAYS",
+    "options": [
+      "Comprar antecipadamente todas as cartas de uma região por 12 meses.",
+      "Disponibilizar cobertura para planejamento e cobrar as cartas utilizadas ao longo da derrota, conforme o rastreamento/serviço.",
+      "Cobrar somente pelo tempo de funcionamento do ECDIS.",
+      "Substituir ENC por cartas de papel durante a viagem."
+    ],
+    "correct": 1,
+    "explanation": "No PAYS, a cobertura pode ser disponibilizada para planejamento e a cobrança é relacionada às cartas efetivamente utilizadas durante a derrota, conforme o serviço."
+  },
+  {
+    "type": "MC",
+    "question": "19. Em uma embarcação SOLAS que pretende utilizar o ECDIS como meio primário de atendimento à dotação de cartas náuticas, qual configuração permite, segundo a NORMAM-511/DHN, a dispensa das cartas náuticas em papel?",
+    "category": "ECDIS — Backup e Requisitos SOLAS",
+    "options": [
+      "Um único ECDIS utilizando ENC oficiais, desde que conectado simultaneamente ao RADAR e ao AIS.",
+      "Um ECDIS utilizando ENC oficiais, acompanhado de RNC atualizadas armazenadas em mídia independente.",
+      "Um ECDIS utilizando ENC oficiais e um segundo ECDIS como backup do principal, instalado de acordo com os requisitos aplicáveis.",
+      "Um ECDIS utilizando qualquer carta digital oficial, independentemente de ser ENC ou RASTER, desde que exista fonte de energia de emergência."
+    ],
+    "correct": 2,
+    "explanation": "Para que o ECDIS atenda à dotação de cartas em uma embarcação SOLAS, a configuração deve utilizar ENC oficiais e possuir um segundo ECDIS como backup conforme os requisitos aplicáveis."
+  },
+  {
+    "type": "MC",
+    "question": "20. Em um arranjo com ECDIS principal e ECDIS de backup, qual característica é essencial para que uma falha única no sistema principal não comprometa simultaneamente a capacidade de navegação de contingência?",
+    "category": "ECDIS — Backup e Redundância",
+    "options": [
+      "Ambos os ECDIS devem utilizar necessariamente o mesmo circuito elétrico e as mesmas interfaces de sensores para assegurar que apresentem dados idênticos.",
+      "O equipamento de backup deve possuir fonte de energia independente do equipamento principal, preservando a redundância necessária à continuidade da navegação.",
+      "O segundo ECDIS deve permanecer desligado durante toda a viagem, sendo energizado somente após a falha do principal.",
+      "A independência do backup é atendida exclusivamente pela existência de dois monitores, ainda que ambos utilizem o mesmo processador e a mesma alimentação."
+    ],
+    "correct": 1,
+    "explanation": "A independência da alimentação do backup reduz a possibilidade de uma única falha comprometer simultaneamente os dois meios de navegação e preserva a redundância necessária."
+  }
+]
