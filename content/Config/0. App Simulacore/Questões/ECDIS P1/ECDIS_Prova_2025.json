@@ -1,0 +1,312 @@
+[
+  {
+    "type": "MC",
+    "question": "1.1) O que é necessário instalar para que o sistema ECDIS permaneça sempre atualizado, conforme o procedimento apresentado?",
+    "category": "ECDIS — Atualização",
+    "options": [
+      "O último Base CD das áreas e o último Correction CD.",
+      "Somente o último Correction CD, independentemente da Base CD instalada.",
+      "Apenas a última licença ENC, sem necessidade de atualização de dados.",
+      "Somente um novo software de radar compatível com a ENC."
+    ],
+    "correct": 0,
+    "explanation": "O material indica a instalação do último Base CD das áreas e do último Correction CD para manter o sistema atualizado."
+  },
+  {
+    "type": "MC",
+    "question": "1.2) Quais são os tipos de licença de ENC apresentados no material?",
+    "category": "ECDIS — Licenciamento",
+    "options": [
+      "Direta, Dinâmica e PAYS.",
+      "Direta, Raster e SENC.",
+      "PAYS, RCDS e ECS.",
+      "Dinâmica, S-57 e S-63."
+    ],
+    "correct": 0,
+    "explanation": "Os três modelos apresentados são Licença Direta, Licença Dinâmica e PAYS (Pay-As-You-Sail)."
+  },
+  {
+    "type": "MC",
+    "question": "1.3) O que é uma SENC no contexto do ECDIS?",
+    "category": "ECDIS — SENC",
+    "options": [
+      "O banco de dados resultante da transformação da ENC pelo ECDIS, utilizado pelo sistema para apresentação e funções de navegação.",
+      "Uma carta raster oficial distribuída diretamente pelo serviço hidrográfico.",
+      "Um banco de dados independente produzido pelo RENC para substituir a ENC.",
+      "Um arquivo de correção que altera diretamente os objetos originais da ENC."
+    ],
+    "correct": 0,
+    "explanation": "A SENC é o banco de dados resultante da transformação da ENC pelo ECDIS; cada fabricante pode utilizar seu próprio formato interno de SENC."
+  },
+  {
+    "type": "MC",
+    "question": "1.4) Quais são as duas classes de sistemas eletrônicos de apresentação de cartas citadas no material?",
+    "category": "ECDIS — ECDIS e ECS",
+    "options": [
+      "ECDIS e ECS.",
+      "ENC e RNC.",
+      "SENC e RENC.",
+      "ARPA e AIS."
+    ],
+    "correct": 0,
+    "explanation": "As duas classes apresentadas são ECDIS e ECS."
+  },
+  {
+    "type": "MC",
+    "question": "1.5) Quais são os quatro modos de exibição de display apresentados para o ECDIS?",
+    "category": "ECDIS — Modos de Exibição",
+    "options": [
+      "Base Display, Standard Display, All Layers Display e Custom Display.",
+      "North Up, Head Up, Course Up e True Motion.",
+      "ENC, RNC, SENC e RENC.",
+      "Safety Depth, Safety Contour, Shallow e Deep."
+    ],
+    "correct": 0,
+    "explanation": "Os quatro níveis de apresentação são Display Base, Standard, All Layers e Custom Display."
+  },
+  {
+    "type": "MC",
+    "question": "1.6) Qual é a função principal atribuída ao RENC no material?",
+    "category": "ECDIS — RENC",
+    "options": [
+      "Atuar como canal de distribuição por atacado de ENC, fornecendo serviços aos usuários e participando da distribuição e atualização.",
+      "Transformar a ENC em SENC dentro do equipamento ECDIS.",
+      "Produzir exclusivamente cartas raster para navegação em RCDS.",
+      "Definir os sensores obrigatórios que devem ser conectados ao ECDIS."
+    ],
+    "correct": 0,
+    "explanation": "O RENC é apresentado como fornecedor de serviço aos usuários, distribuidor e atualizador de ENC e canal de vendas por atacado."
+  },
+  {
+    "type": "MC",
+    "question": "1.6) Qual conjunto apresenta duas vantagens das cartas vetoriais citadas no material?",
+    "category": "ECDIS — Cartas Vetoriais",
+    "options": [
+      "Alarmes e zoom ilimitado.",
+      "Produção sem custo e apresentação idêntica à carta impressa.",
+      "Ausência de alarmes e correções por nova carta.",
+      "Maior necessidade de memória e zoom limitado."
+    ],
+    "correct": 0,
+    "explanation": "Entre as vantagens das cartas vetoriais estão alarmes, informações opcionais, zoom ilimitado, fácil correção e pequena necessidade de memória."
+  },
+  {
+    "type": "GAP",
+    "question": "2.1) De acordo com a SOLAS, cartas produzidas por ou sob a responsabilidade de um Governo, Serviço Hidrográfico ou instituições governamentais relevantes são __________ e podem ser utilizadas para cumprir as exigências de dotação de carta náutica a bordo.",
+    "category": "ECDIS — Cartas Oficiais",
+    "options": [],
+    "correct": "oficiais",
+    "explanation": "O termo esperado é “oficiais”, conforme a classificação apresentada no material."
+  },
+  {
+    "type": "GAP",
+    "question": "2.2) A carta tipo __________ possui como vantagem a produção sem custos e é similar a uma carta impressa.",
+    "category": "ECDIS — Cartas Raster",
+    "options": [],
+    "correct": "raster",
+    "explanation": "O material apresenta a carta raster como uma imagem digitalizada, com produção sem custo e aparência semelhante à carta impressa."
+  },
+  {
+    "type": "GAP",
+    "question": "2.3) Quando pressionado, o botão __________ sobrepõe a imagem RADAR ao ECDIS, sendo utilizado como ferramenta de checagem de posição.",
+    "category": "ECDIS — Radar Overlay",
+    "options": [],
+    "correct": "RADAR overlay",
+    "explanation": "O RADAR overlay sobrepõe a imagem do radar aos objetos cartografados para auxiliar na verificação da posição."
+  },
+  {
+    "type": "GAP",
+    "question": "2.4) O ECDIS trabalha no modo __________ quando a área a ser navegada não é coberta por uma carta ENC. Com isso, o ECDIS trabalha com uma carta do tipo __________.",
+    "category": "ECDIS — RCDS e RNC",
+    "options": [],
+    "correct": "RCDS / RNC",
+    "explanation": "Na situação apresentada, o equipamento opera em RCDS utilizando RNC."
+  },
+  {
+    "type": "MC",
+    "question": "3.1) Um oficial precisa selecionar o nível de apresentação que é suficiente para navegação e constitui o mínimo utilizado durante o planejamento e monitoramento da derrota. Qual deve escolher?",
+    "category": "ECDIS — Standard Display",
+    "options": [
+      "Base Display.",
+      "Standard Display.",
+      "Custom Display.",
+      "All Layers Display."
+    ],
+    "correct": 1,
+    "explanation": "O Standard Display contém as informações do Base Display e é apresentado como suficiente para navegação, sendo o mínimo utilizado no planejamento e monitoramento."
+  },
+  {
+    "type": "MC",
+    "question": "3.2) Qual nível de apresentação não é suficiente, por si só, para a navegação, embora contenha informações que permanecem visíveis e necessárias continuamente?",
+    "category": "ECDIS — Display Base",
+    "options": [
+      "Standard Display.",
+      "All Layers Display.",
+      "Base Display.",
+      "Custom Display."
+    ],
+    "correct": 2,
+    "explanation": "O Base Display contém informações sempre visíveis e necessárias, mas o material afirma que ele não é suficiente para navegação."
+  },
+  {
+    "type": "MC",
+    "question": "3.3) Um oficial precisa visualizar, além do Standard Display, informações adicionais como cabos submarinos, nomes de lugares e notas de precaução. Qual nível atende a essa necessidade?",
+    "category": "ECDIS — All Layers Display",
+    "options": [
+      "Base Display.",
+      "Standard Display.",
+      "Custom Display.",
+      "All Layers Display."
+    ],
+    "correct": 3,
+    "explanation": "O All Layers Display contém todas as informações do Standard Display e outras informações adicionais."
+  },
+  {
+    "type": "MC",
+    "question": "3.4) O oficial deseja manter o Standard Display e acrescentar somente as camadas escolhidas de acordo com a navegação pretendida. Qual modo deve utilizar?",
+    "category": "ECDIS — Custom Display",
+    "options": [
+      "Base Display.",
+      "Standard Display.",
+      "Custom Display.",
+      "All Layers Display."
+    ],
+    "correct": 2,
+    "explanation": "O Custom Display combina as informações do Standard Display com as camadas escolhidas pelo usuário."
+  },
+  {
+    "type": "MC",
+    "question": "1.1) Quais sensores devem, obrigatoriamente, estar conectados ao ECDIS, conforme o material?",
+    "category": "ECDIS — Sensores Obrigatórios",
+    "options": [
+      "Aproamento por giro, velocidade por speedlog e posição por GPS.",
+      "AIS, ARPA e radar.",
+      "Piloto automático, ecobatímetro e NAVTEX.",
+      "Agulha magnética, anemômetro e AIS."
+    ],
+    "correct": 0,
+    "explanation": "O material lista giro para aproamento, speedlog para velocidade e GPS para posição como sensores obrigatórios, conectados ao ECDIS e ao backup."
+  },
+  {
+    "type": "MC",
+    "question": "1.2) Qual alternativa descreve corretamente o funcionamento da licença Pay-As-You-Sail (PAYS)?",
+    "category": "ECDIS — PAYS",
+    "options": [
+      "Fornece cobertura global para planejamento e cobra pelas cartas utilizadas ao longo da derrota, conforme o rastreamento da posição do navio.",
+      "Concede acesso apenas a um grupo fixo de cartas durante um período fixo, sem relação com o uso.",
+      "Cobra exclusivamente pelo tempo em que o ECDIS permanece ligado.",
+      "Exige a compra antecipada de todas as cartas da região antes do planejamento."
+    ],
+    "correct": 0,
+    "explanation": "No PAYS, há cobertura para planejamento e o serviço de rastreamento relaciona a cobrança às cartas usadas durante a derrota."
+  },
+  {
+    "type": "MC",
+    "question": "1.3) Qual é a diferença fundamental entre ECDIS e ECS apresentada no material?",
+    "category": "ECDIS — ECDIS e ECS",
+    "options": [
+      "O ECDIS, com configuração adequada e cartas oficiais, pode atender às exigências de dotação; o ECS serve como auxílio à navegação e não atende às exigências de dotação da IMO/SOLAS.",
+      "O ECS atende à dotação SOLAS, enquanto o ECDIS serve somente para planejamento.",
+      "O ECDIS utiliza apenas cartas raster, enquanto o ECS utiliza apenas ENC.",
+      "Não existe diferença operacional ou regulamentar entre os dois sistemas."
+    ],
+    "correct": 0,
+    "explanation": "O material diferencia o ECDIS, que pode atender aos requisitos de dotação quando devidamente configurado, do ECS, que não atende a essas exigências."
+  },
+  {
+    "type": "MC",
+    "question": "1.4) Uma embarcação possui dois equipamentos ECDIS, mas eles não são independentes. Qual conclusão é mais adequada para o arranjo de backup?",
+    "category": "ECDIS — Backup",
+    "options": [
+      "O simples fato de existirem dois equipamentos garante independência completa.",
+      "O arranjo não proporciona a independência necessária se os dois dependem das mesmas fontes ou conexões críticas; o backup adequado requer independência conforme os requisitos aplicáveis.",
+      "O segundo ECDIS deve obrigatoriamente permanecer desligado durante toda a viagem.",
+      "A independência é dispensada quando os dois monitores apresentam a mesma imagem."
+    ],
+    "correct": 1,
+    "explanation": "O material estabelece que o ECDIS duplo deve possuir fonte de alimentação independente e conexões separadas para referência, giro e velocidade."
+  },
+  {
+    "type": "MC",
+    "question": "1.5) Durante o monitoramento de uma derrota no ECDIS, a derrota apresentada passa a ficar vermelha. O que isso indica no procedimento descrito?",
+    "category": "ECDIS — Monitoramento de Derrota",
+    "options": [
+      "Que a rota está sendo monitorada no modo de monitoramento da derrota.",
+      "Que a ENC utilizada perdeu automaticamente sua validade.",
+      "Que o navio entrou obrigatoriamente em uma área proibida.",
+      "Que o radar overlay foi desativado."
+    ],
+    "correct": 0,
+    "explanation": "No procedimento prático apresentado, após a checagem e ativação da derrota para monitoramento, a rota fica vermelha."
+  },
+  {
+    "type": "MC",
+    "question": "1.6) Qual conjunto contém duas vantagens das cartas vetoriais apresentadas no material?",
+    "category": "ECDIS — Cartas Vetoriais",
+    "options": [
+      "Alarmes e fácil correção.",
+      "Produção sem custo e aparência idêntica à carta impressa.",
+      "Zoom limitado e maior necessidade de memória.",
+      "Ausência de alarmes e correções por nova carta."
+    ],
+    "correct": 0,
+    "explanation": "Alarmes e facilidade de correção estão entre as vantagens explicitamente atribuídas às cartas vetoriais."
+  },
+  {
+    "type": "GAP",
+    "question": "2.1) Cartas produzidas sob responsabilidade de Governo ou Serviço Hidrográfico autorizado são consideradas cartas __________.",
+    "category": "ECDIS — Cartas Oficiais",
+    "options": [],
+    "correct": "oficiais",
+    "explanation": "O termo esperado é “oficiais”."
+  },
+  {
+    "type": "GAP",
+    "question": "2.2) As cartas náuticas digitais podem ser classificadas como __________ ou __________.",
+    "category": "ECDIS — Cartas Digitais",
+    "options": [],
+    "correct": "oficiais/não oficiais",
+    "explanation": "O material distingue dados e cartas oficiais dos dados não oficiais."
+  },
+  {
+    "type": "GAP",
+    "question": "2.3) O modo de exibição que pode ser usado durante o planejamento e monitoramento da derrota e é suficiente para a navegação é o __________.",
+    "category": "ECDIS — Standard Display",
+    "options": [],
+    "correct": "Standard Display",
+    "explanation": "O Standard Display é descrito como suficiente para navegação e mínimo utilizado no planejamento e monitoramento da derrota."
+  },
+  {
+    "type": "TF",
+    "question": "3.1) Um ECS pode ser utilizado como meio primário de navegação e atende às exigências de dotação de cartas da IMO/SOLAS.",
+    "category": "ECDIS — ECS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material afirma que o ECS pode auxiliar a navegação, mas não atende às exigências de dotação de carta náutica da IMO/SOLAS."
+  },
+  {
+    "type": "TF",
+    "question": "3.2) O modo de exibição “All Layers” contém todas as informações do Standard Display e as camadas escolhidas pelo usuário, de acordo com a navegação pretendida.",
+    "category": "ECDIS — Modos de Exibição",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A afirmação mistura dois modos: o All Layers contém o Standard e outras informações; as camadas escolhidas pelo usuário caracterizam o Custom Display."
+  },
+  {
+    "type": "TF",
+    "question": "3.3) Quando operando no modo ECDIS com ENC adequada, é necessário ter a bordo um portfólio de cartas de papel atualizadas para substituir o ECDIS durante a navegação normal.",
+    "category": "ECDIS — ECDIS e RCDS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material associa a necessidade de cartas de papel ao uso de RNC em modo RCDS, enquanto o ECDIS com ENC e backup adequado pode atender à dotação."
+  }
+]
