@@ -1,0 +1,252 @@
+[
+  {
+    "type": "mc",
+    "question": "1. A condição que torna o equilíbrio instável em um navio é o(a):",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "alinhamento dos centros de gravidade e o de carena.",
+      "centro de gravidade posicionado acima do centro de carena.",
+      "sua flutuação sem banda e sem trim.",
+      "igualdade do deslocamento e do empuxo.",
+      "metacentro posicionado abaixo do seu centro de gravidade."
+    ],
+    "correct": 4,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "2. Qual das alternativas a seguir descreve o que ocorre quando um navio está em equilíbrio estável?",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "O navio tende a continuar na mesma posição em que foi inclinado, sem retornar à vertical.",
+      "O navio retorna à posição vertical original após ser inclinado.",
+      "O navio não muda sua posição ao ser inclinado, independentemente da força aplicada.",
+      "O navio tende a afundar quando inclinado.",
+      "O navio se inclina ainda mais quando uma força externa o empurra."
+    ],
+    "correct": 1,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "3. Assinale a opção INCORRETA sobre um navio em equilíbrio indiferente ou neutro:",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "tem o metacentro coincidindo com o centro de gravidade.",
+      "o navio não tem tendência de retornar à posição original nem de continuar inclinando.",
+      "apresenta os braços de endireitamento (GZ) que o faz retornar para posição de equilíbrio adriçado.",
+      "pode apresentar uma banda permanente.",
+      "está com uma altura metacêntrica transversal inicial nula."
+    ],
+    "correct": 2,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "4. O braço de estabilidade (GZ) do navio é um dado muito importante na estabilidade inicial. Se o braço de estabilidade de um navio for pequeno, o que isso significa para sua estabilidade inicial?",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "O navio terá maior tendência a se recuperar de uma inclinação (banda).",
+      "O navio será mais suscetível a inclinar ou emborcar.",
+      "O navio terá melhor capacidade de manobra.",
+      "O navio será mais resistente ao impacto com ondas.",
+      "O navio terá maior capacidade de carga."
+    ],
+    "correct": 1,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "5. A curva gerada pela posição do metacentro, a medida que o navio se inclina é chamada de:",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "raio metacêntrico.",
+      "altura metacêntrica.",
+      "diâmetro metacêntrico.",
+      "evoluta metacêntrica.",
+      "elipsóide metacêntrica."
+    ],
+    "correct": 3,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "6. Na prática, se considera invariável o metacentro inicial para certas inclinações. Em navios mercantes, a variação é de 5° a 15°, aproximadamente. Por esta razão, a IMO estabeleceu para efeito de estudo e calculo o valor de:",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "10°.",
+      "11°.",
+      "12°.",
+      "13°.",
+      "14°."
+    ],
+    "correct": 2,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "7. Assinale a opção correta sobre a estabilidade inicial de navios:",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "Quanto mais baixo o centro de gravidade, mais estável o navio.",
+      "Quanto mais alto o centro de gravidade, mais estável o navio.",
+      "O centro de gravidade não afeta a estabilidade inicial do navio.",
+      "O centro de gravidade afeta apenas a estabilidade dinâmica, não a inicial.",
+      "O centro de gravidade não deve ser posicionado abaixo do metacentro."
+    ],
+    "correct": 0,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "8. O que é a \"superfície livre\" de um navio?",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "A área externa do casco do navio que entra em contato com a água.",
+      "A diferença de altura entre o centro de massa e o centro de flutuabilidade do navio.",
+      "A superfície do líquido (geralmente água) dentro de um compartimento, como um tanque ou porão, que não está completamente imersa ou contida.",
+      "A linha de flutuação do navio quando este está em pleno carregamento.",
+      "O espaço vazio dentro do casco que não é ocupado por qualquer carga ou lastro."
+    ],
+    "correct": 2,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "9. Assinale a opção correta em relação ao efeito de superfície livre em tanques de embarcações:",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "a superfície livre provoca a diminuição da cota do centro de gravidade.",
+      "havendo deslocamento de peso, o centro de gravidade “G” se mantém constante.",
+      "o efeito de superfície livre é proporcional à diminuição da cota do centro de gravidade.",
+      "em situações de superfície livre, o momento de inércia sempre se manterá constante, havendo apenas variações do centro de gravidade do compartimento.",
+      "quando existir mais de um compartimento com superfície livre, o GGv (ascensão do centro de gravidade devido à superfície livre dos líquidos) total será o somatório de todos eles. Essa elevação virtual do centro de gravidade devido à superfície livre de líquidos é conhecida como correção para superfície livre."
+    ],
+    "correct": 4,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "mc",
+    "question": "10. Qual das alternativas abaixo descreve uma maneira de minimizar os efeitos da superfície livre em um navio?",
+    "category": "Estabilidade — Estabilidade Inicial",
+    "options": [
+      "reduzir a quantidade de carga a bordo.",
+      "usar anteparas longitudinais ou compartimentos internos para limitar o movimento do líquido.",
+      "aumentar o calado do navio.",
+      "instalar sistemas de bombeamento para remover o líquido da superfície livre.",
+      "utilizar o lastro sólido ao invés de líquido nos tanques."
+    ],
+    "correct": 1,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.1. O ponto de encontro de dois raios de uma curva infinitamente pequena, descrita pela sucessiva mudança de posição do centro de carena de um navio, que oscila em flutuações isocarenas, ou seja, de mesmo volume submerso chama-se metacentro.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.2. A cota do centro de gravidade do navio (KG) pode ser verificada numa representação gráfica, num plano da seção transversal, onde o valor do KG é obtido através da distância do centro de gravidade do navio, “G”, até o ponto K (situado no plano de base).",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.3. O ponto de aplicação das forças de empuxo que atuam ao longo da carena, de baixo para cima, e que permitem a embarcação flutuar chama-se centro de gravidade.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.4. O raio metacêntrico (BM) estabelece a verdadeira condição de estabilidade transversal da embarcação, por isto, é, por alguns, chamado de medida da estabilidade.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.5. O valor da cota do centro de gravidade do navio (KG) somente pode ser obtido analiticamente e utilizando o teorema de “Varignon” cujo enunciado é o seguinte: o momento da resultante é igual ao somatório dos momentos das componentes.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.6. As cotas do centro de carena (KB) e do metacentro (KM) não podem ser obtidas utilizando a tabela de dados hidrostáticos.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.7. O braço de estabilidade (GZ) é definido como a distância vertical, medida em metros, entre o centro de gravidade (G) e a linha vertical de ação do empuxo (B) que atua a partir do centro de empuxo (B1) quando o navio aderna.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.8. Quando o navio, ao balançar, retorna à sua posição normal de equilíbrio é dito que o navio está em equilíbrio indiferente.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.9. O termo BM · sen θ indica a estabilidade de formas, pois o raio metacêntrico BM depende das formas do navio.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  },
+  {
+    "type": "tf",
+    "question": "2.10. Para atenuar (diminuir) o efeito da superfície livre de tanques de carga e lastro do navio, é comum dividir o tanque por anteparas estanques transversais.",
+    "category": "Estabilidade — Conceitos e Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Gabarito conforme a prova de EST-1."
+  }
+]

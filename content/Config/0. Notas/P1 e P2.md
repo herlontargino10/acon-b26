@@ -1,6 +1,7 @@
 PRP - 7.1 
 PRP P2 - 8.5
 ITM - 7.0
+ITM P2 - 8.6
 MET - 7.4
 MET P2 - 9.4
 CIA P1 - 8.5 

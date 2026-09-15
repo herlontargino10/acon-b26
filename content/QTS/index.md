@@ -23,7 +23,9 @@ title: Cronograma
 - [Semana 19](./20260817_QTS_Semana_19.jpeg)
 - [Semana 20](./20260824_QTS_Semana_20.png)
 - [Semana 21](./20260831_QTS_Semana_21.png)
+- [Semana 22](./20260907_QTS_Semana_22.png)
+- [Semana 23](./20260914_QTS_Semana_23.png)
 
-- Semana 22 *(em breve)*
+- Semana 24 *(em breve)*
 
 
