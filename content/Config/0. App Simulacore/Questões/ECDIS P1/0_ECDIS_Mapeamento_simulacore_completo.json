@@ -1,0 +1,928 @@
+[
+  {
+    "type": "mc",
+    "question": "Um navio utiliza um sistema com hardware e software aprovados, instalação aprovada, operador habilitado e cartas oficiais atualizadas. Entretanto, em determinada região são utilizadas cartas privadas. Considerando os critérios apresentados no material, como esse sistema deve ser considerado?",
+    "category": "ECDIS — Requisitos",
+    "options": [
+      "ECDIS plenamente conforme, pois a aprovação do hardware e software prevalece sobre a origem da carta",
+      "ECS, pois o uso de cartas privadas impede o cumprimento das exigências de dotação de carta da IMO",
+      "ECDIS restrito, desde que o operador tenha recebido treinamento específico para aquela carta",
+      "RCDS, pois qualquer carta não oficial transforma automaticamente o sistema em modo raster"
+    ],
+    "correct": 1,
+    "explanation": "O uso de cartas privadas faz o sistema operar como ECS, não atendendo às exigências de dotação de carta da IMO."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a preparação de uma viagem, o Oficial precisa distinguir o banco de dados usado internamente pelo ECDIS da ENC recebida do serviço hidrográfico. Qual sequência representa corretamente o processamento descrito no material?",
+    "category": "ECDIS — ENC e SENC",
+    "options": [
+      "SENC é carregada e convertida em ENC para permitir a apresentação dos objetos",
+      "ENC é carregada e transformada pelo ECDIS em SENC para apresentação e funções de navegação",
+      "ENC e SENC permanecem simultaneamente como formatos idênticos e independentes dentro do ECDIS",
+      "RNC é convertida em ENC antes de qualquer processamento, independentemente do modo de operação"
+    ],
+    "correct": 1,
+    "explanation": "A ENC carregada no ECDIS é convertida em SENC, banco utilizado para apresentação e funções de navegação."
+  },
+  {
+    "type": "mc",
+    "question": "Dois ECDIS de fabricantes diferentes recebem a mesma ENC. Ao analisar os bancos de dados internos resultantes, qual situação é compatível com o material?",
+    "category": "ECDIS — ENC e SENC",
+    "options": [
+      "Os dois sistemas necessariamente utilizarão exatamente o mesmo formato SENC",
+      "Cada sistema poderá utilizar seu próprio formato SENC, definido pelo fabricante do software ECDIS",
+      "A ENC permanecerá no formato original, pois o ECDIS não cria banco de dados interno",
+      "O formato SENC será determinado exclusivamente pelo RENC responsável pela distribuição"
+    ],
+    "correct": 1,
+    "explanation": "Cada fabricante de software ECDIS possui seu próprio formato SENC."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial consulta a função INFO sobre um objeto apresentado na carta e deseja saber quais características foram atribuídas a esse objeto. Qual é a finalidade diretamente associada a essa ferramenta?",
+    "category": "ECDIS — Apresentação",
+    "options": [
+      "Verificar os atributos do objeto selecionado",
+      "Alterar automaticamente a categoria de segurança do objeto",
+      "Executar a verificação visual completa da derrota planejada",
+      "Determinar automaticamente o CPA e o TCPA do alvo selecionado"
+    ],
+    "correct": 0,
+    "explanation": "A ferramenta INFO é utilizada para consultar os atributos dos objetos."
+  },
+  {
+    "type": "mc",
+    "question": "Ao configurar a apresentação do ECDIS, o Oficial seleciona o Standard Display e acrescenta determinadas camadas escolhidas por ele. Qual configuração está sendo utilizada?",
+    "category": "ECDIS — Apresentação",
+    "options": [
+      "Base Display",
+      "Custom Display",
+      "Safety Frame",
+      "RCDS"
+    ],
+    "correct": 1,
+    "explanation": "O Custom Display contém o Standard Display acrescido das camadas escolhidas pelo usuário."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma inspeção da qualidade dos dados hidrográficos, o Oficial deseja visualizar a informação de CATZOC no ECDIS. Em qual camada deve procurar essa apresentação?",
+    "category": "ECDIS — CATZOC",
+    "options": [
+      "Base Display",
+      "Standard Display exclusivamente",
+      "Custom Display",
+      "Safety Frame"
+    ],
+    "correct": 2,
+    "explanation": "A apresentação da acurácia hidrográfica por CATZOC está disponível na camada Custom Display."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial ajusta o ECDIS esperando que determinados alarmes sejam gerados automaticamente apenas pela existência de perigos na carta. Considerando o princípio apresentado no material, qual aspecto deve ser levado em conta?",
+    "category": "ECDIS — Alarmes",
+    "options": [
+      "Os alarmes dependem dos dados inseridos pelo operador",
+      "Os alarmes são definidos exclusivamente pelo fabricante do sensor de posição",
+      "Os alarmes são independentes dos parâmetros e dados introduzidos pelo operador",
+      "Os alarmes dependem somente da escala de apresentação selecionada"
+    ],
+    "correct": 0,
+    "explanation": "Os alarmes do ECDIS dependem dos dados inseridos pelo operador."
+  },
+  {
+    "type": "mc",
+    "question": "Ao preparar o Safety Frame/Look-Ahead, o Oficial deseja configurar o enquadramento de segurança de modo completo. Qual conjunto reúne os parâmetros e ações indicados no material?",
+    "category": "ECDIS — Safety Frame",
+    "options": [
+      "Ativar, definir Ahead, configurar Port/Starboard em NM e selecionar áreas ou ações que geram alarme",
+      "Ativar, definir somente Ahead e deixar largura lateral e alarmes em configuração automática",
+      "Definir CPA e TCPA, selecionar a escala e escolher somente o sensor principal de posição",
+      "Selecionar COG e HDG, configurar a profundidade e definir a frequência de atualização da ENC"
+    ],
+    "correct": 0,
+    "explanation": "O Safety Frame requer ativação, tempo Ahead, largura lateral de Port e Starboard em NM e seleção das condições que geram alarme."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a navegação, o Oficial compara a imagem do radar com os objetos representados na carta eletrônica. A imagem apresenta bom encaixe com referências fixas da carta. Qual é a interpretação compatível com o material?",
+    "category": "ECDIS — Verificação da Posição",
+    "options": [
+      "A posição do navio torna-se mais confiável por haver concordância entre radar e carta",
+      "A posição é considerada comprovadamente correta, independentemente de outros sistemas",
+      "A comparação só é válida quando o radar estiver operando sem qualquer função ARPA",
+      "O encaixe elimina a necessidade de verificar a posição por qualquer outro método"
+    ],
+    "correct": 0,
+    "explanation": "Quando a imagem do radar se encaixa nos objetos da carta, a posição do navio é mais confiável."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma verificação independente da velocidade, o Oficial dispõe de GPS e de um Speed Log tradicional. Qual comparação corresponde ao procedimento descrito no material?",
+    "category": "ECDIS — Velocidade",
+    "options": [
+      "Comparar SOG fornecida pelo GPS com STW fornecida pelo Speed Log",
+      "Comparar HDG fornecida pelo GPS com COG fornecida pelo Speed Log",
+      "Comparar CPA do GPS com TCPA fornecido pelo Speed Log",
+      "Comparar apenas STW entre dois receptores GPS independentes"
+    ],
+    "correct": 0,
+    "explanation": "O material orienta a comparação entre GPS e LOG para verificar a velocidade."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial observa diferença entre a velocidade indicada pelo DGPS e a indicada por um Speed Log eletromagnético. Qual interpretação das grandezas é compatível com o material?",
+    "category": "ECDIS — SOG e STW",
+    "options": [
+      "DGPS fornece STW, enquanto o Speed Log fornece SOG",
+      "DGPS fornece SOG, enquanto o Speed Log fornece STW",
+      "Ambos fornecem STW, mas em unidades diferentes",
+      "Ambos fornecem SOG, sendo a diferença causada apenas pela escala do ECDIS"
+    ],
+    "correct": 1,
+    "explanation": "DGPS e Doppler Log fornecem SOG, enquanto Speed Log eletromagnético ou de hélice fornece STW."
+  },
+  {
+    "type": "mc",
+    "question": "Em determinada região, o Oficial pretende usar a comparação entre SOG e STW para verificar os sensores de velocidade. Qual condição deve estar presente para que essa comparação tenha a validade indicada no material?",
+    "category": "ECDIS — SOG e STW",
+    "options": [
+      "Deve haver corrente conhecida e constante durante toda a comparação",
+      "Deve-se ter certeza de que não há influência de vento e/ou corrente na região",
+      "O navio deve estar necessariamente em manobra de guinada constante",
+      "A comparação só pode ser feita quando o radar estiver em modo ARPA"
+    ],
+    "correct": 1,
+    "explanation": "A comparação entre SOG e STW pode ser usada quando não há influência de vento e/ou corrente."
+  },
+  {
+    "type": "mc",
+    "question": "Após uma guinada brusca, o Oficial percebe uma alteração temporária na indicação de rumo da agulha giroscópica. Segundo os valores apresentados no material, qual combinação corresponde ao erro de aceleração?",
+    "category": "ECDIS — Agulha Giroscópica",
+    "options": [
+      "Desvio de 1° a 5°, amortecido e desaparecendo após 5 a 20 minutos",
+      "Desvio de 5° a 10°, desaparecendo necessariamente em menos de 1 minuto",
+      "Desvio inferior a 1°, mantido por 20 a 40 minutos após a guinada",
+      "Desvio de 10° a 20°, corrigido somente por comparação com a agulha magnética"
+    ],
+    "correct": 0,
+    "explanation": "O erro de aceleração pode introduzir desvio de 1° a 5°, desaparecendo após 5 a 20 minutos."
+  },
+  {
+    "type": "mc",
+    "question": "Ao analisar os vetores apresentados no ECDIS, um Oficial precisa distinguir HDG de COG. Qual associação está de acordo com o material?",
+    "category": "ECDIS — HDG e COG",
+    "options": [
+      "HDG vem da giro e do log; COG vem do sistema de referência",
+      "HDG vem do sistema de referência; COG vem exclusivamente da giro",
+      "HDG e COG são grandezas equivalentes, obtidas por sensores diferentes",
+      "HDG vem do radar; COG é calculado diretamente pelo Speed Log"
+    ],
+    "correct": 0,
+    "explanation": "HDG vem da giro e do log, enquanto COG vem do sistema de referência."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma situação de acompanhamento de tráfego, o Oficial analisa simultaneamente informações do ARPA e do AIS no ECDIS. Qual representação corresponde ao material?",
+    "category": "ECDIS — ARPA e AIS",
+    "options": [
+      "ARPA: triângulo com vetor verdadeiro; AIS: círculo com vetor",
+      "ARPA: círculo com vetor; AIS: triângulo com vetor verdadeiro",
+      "ARPA: quadrado sem vetor; AIS: círculo sem vetor",
+      "ARPA: triângulo sem vetor; AIS: círculo com vetor relativo"
+    ],
+    "correct": 1,
+    "explanation": "ARPA é apresentado como círculo com vetor; AIS como triângulo com vetor verdadeiro."
+  },
+  {
+    "type": "mc",
+    "question": "Um alvo acompanhado pelo sistema passa a violar os parâmetros configurados de CPA/TCPA. Qual comportamento do ECDIS é indicado no material?",
+    "category": "ECDIS — CPA e TCPA",
+    "options": [
+      "O sistema apenas altera a escala da carta para aumentar a área de acompanhamento",
+      "É disparado um alarme e o símbolo do alvo começa a piscar em vermelho",
+      "O alvo é automaticamente removido para evitar sobreposição de símbolos",
+      "O sistema altera automaticamente o rumo do navio para restabelecer o CPA"
+    ],
+    "correct": 1,
+    "explanation": "A violação de CPA/TCPA dispara um alarme e faz o símbolo do alvo piscar em vermelho."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a avaliação da derrota, o Oficial executa o Check Route e o sistema não identifica determinados perigos. Qual procedimento continua sendo necessário segundo o material?",
+    "category": "ECDIS — Planejamento de Rota",
+    "options": [
+      "Apenas confirmar o resultado automático, pois o Check Route substitui a inspeção visual",
+      "Realizar verificação visual detalhada e sistemática de toda a derrota na maior escala de compilação disponível",
+      "Repetir somente a verificação automática em uma escala menor",
+      "Substituir a verificação visual pela análise exclusiva dos alarmes do Safety Frame"
+    ],
+    "correct": 1,
+    "explanation": "O Check Route não substitui a verificação visual detalhada e sistemática do Oficial."
+  },
+  {
+    "type": "mc",
+    "question": "Uma rota já havia passado pelas verificações de segurança, mas um trecho foi posteriormente alterado. Qual procedimento deve ser adotado antes do início da derrota?",
+    "category": "ECDIS — Planejamento de Rota",
+    "options": [
+      "Repetir apenas a verificação automática do novo trecho",
+      "Repetir integralmente as verificações automáticas e visuais de segurança do trecho correspondente",
+      "Manter as verificações anteriores, pois a alteração não invalida a análise já realizada",
+      "Executar somente uma conferência do ETA e do ETD antes da partida"
+    ],
+    "correct": 1,
+    "explanation": "Qualquer alteração na rota exige repetir integralmente as verificações automáticas e visuais do trecho correspondente."
+  },
+  {
+    "type": "mc",
+    "question": "Ao utilizar a ferramenta Schedule durante o planejamento de uma viagem, quais informações são consideradas como base para o planejamento temporal?",
+    "category": "ECDIS — Schedule",
+    "options": [
+      "CPA, TCPA, HDG e COG",
+      "ETD, velocidade, fuso horário e ETA",
+      "SOG, STW, profundidade e CATZOC",
+      "Ganho, sintonia, sea clutter e rain clutter"
+    ],
+    "correct": 1,
+    "explanation": "O Schedule utiliza ETD, velocidade, fuso horário e ETA."
+  },
+  {
+    "type": "mc",
+    "question": "Em um sistema que utiliza Pay-As-You-Sail, o navio possui acesso para planejamento a cartas de uma grande região. Em que momento ocorre a cobrança descrita no material?",
+    "category": "ECDIS — Licenciamento PAYS",
+    "options": [
+      "No momento em que todas as cartas da região são carregadas no ECDIS",
+      "À medida que o navio navega e cruza as células correspondentes, com base no rastro do GPS",
+      "Somente quando o Oficial executa a ferramenta INFO em cada célula",
+      "Quando o ECDIS muda automaticamente de Standard Display para Custom Display"
+    ],
+    "correct": 1,
+    "explanation": "No PAYS, a cobrança ocorre conforme o navio navega e cruza as células correspondentes, com base no rastro do GPS."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio opera em RCDS devido ao uso de cartas raster. Considerando o requisito de backup apresentado, qual medida é obrigatória?",
+    "category": "ECDIS — RCDS e Backup",
+    "options": [
+      "Manter um portfólio apropriado de cartas náuticas físicas em papel",
+      "Manter somente uma cópia digital adicional das mesmas cartas raster",
+      "Utilizar obrigatoriamente cartas privadas atualizadas pelo fornecedor comercial",
+      "Manter exclusivamente um segundo receptor DGPS independente"
+    ],
+    "correct": 0,
+    "explanation": "No modo RCDS, é obrigatório manter a bordo um portfólio apropriado de cartas físicas em papel."
+  },
+  {
+    "type": "mc",
+    "question": "Ao avaliar se o portfólio de cartas de papel mantido como suporte ao RCDS é apropriado, qual autoridade define 'apropriado' segundo o material?",
+    "category": "ECDIS — RCDS e Backup",
+    "options": [
+      "O fabricante do ECDIS",
+      "O RENC responsável pela região",
+      "O Estado de Bandeira",
+      "O operador responsável pelo quarto de navegação"
+    ],
+    "correct": 2,
+    "explanation": "O Estado de Bandeira define o que constitui um portfólio apropriado."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando a distinção entre ECS e ECDIS, qual situação caracteriza um sistema que pode auxiliar a navegação, mas não satisfaz as exigências de dotação de carta náutica da OMI/SOLAS?",
+    "category": "ECDIS — ECS",
+    "options": [
+      "Sistema que utiliza cartas oficiais atualizadas, hardware aprovado e operador treinado",
+      "Sistema de cartas eletrônicas que não atende aos requisitos necessários para cumprir a dotação de carta a bordo",
+      "ECDIS equipado com backup apropriado e instalado conforme aprovação",
+      "ECDIS operando exclusivamente com ENC oficial disponível"
+    ],
+    "correct": 1,
+    "explanation": "O ECS pode auxiliar a navegação, mas não atende às exigências de dotação de carta náutica da OMI/SOLAS."
+  },
+  {
+    "type": "mc",
+    "question": "Um equipamento independente conectado ao sistema do navio é utilizado para apresentação de cartas eletrônicas, mas não atende aos requisitos de um ECDIS. Qual classificação é compatível com o material?",
+    "category": "ECDIS — ECS",
+    "options": [
+      "Necessariamente ECDIS, pois está conectado ao sistema do navio",
+      "ECS, pois essa categoria pode abranger equipamentos independentes de diferentes níveis de sofisticação",
+      "RCDS, pois todo equipamento independente utiliza necessariamente cartas raster",
+      "RENC, pois equipamentos conectados ao sistema do navio atuam na distribuição das ENCs"
+    ],
+    "correct": 1,
+    "explanation": "O material inclui equipamentos independentes de diferentes níveis de sofisticação na categoria ECS."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial precisa relacionar corretamente uma norma ao sistema a que ela se aplica. Qual associação corresponde ao material?",
+    "category": "ECDIS — Normas",
+    "options": [
+      "IEC 61174 — padrões para ECS; ISO 19379 — aprovação de tipo do ECDIS",
+      "IEC 61174 — operação, desempenho e métodos de teste do ECDIS; ISO 19379 — padrões para ECS",
+      "IEC 61174 — proteção de dados ENC; ISO 19379 — produção de RNC",
+      "IEC 61174 — distribuição por RENC; ISO 19379 — apresentação S-52"
+    ],
+    "correct": 1,
+    "explanation": "A IEC 61174 trata de operação, desempenho e testes do ECDIS; a ISO 19379 especifica padrões para ECS."
+  },
+  {
+    "type": "mc",
+    "question": "Ao estudar a evolução dos padrões de desempenho do ECDIS, qual foi a função atribuída à Resolução IMO A.817(19) no material?",
+    "category": "ECDIS — Normas",
+    "options": [
+      "Estabelecer o padrão de desempenho da IMO para equipamentos instalados até 2009",
+      "Definir exclusivamente a proteção criptográfica das ENCs distribuídas por RENC",
+      "Estabelecer os padrões atuais de produção das RNC",
+      "Determinar o formato SENC utilizado por todos os fabricantes de ECDIS"
+    ],
+    "correct": 0,
+    "explanation": "A Resolução A.817(19) estabeleceu o padrão de desempenho da IMO para equipamentos instalados até 2009."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial revisa as principais normas IHO relacionadas ao ECDIS e precisa identificar a associação correta entre padrão e finalidade. Qual alternativa está de acordo com o material?",
+    "category": "ECDIS — Normas IHO",
+    "options": [
+      "S-57 — ENC e transferência de dados hidrográficos; S-52 — exibição e apresentação do ECDIS",
+      "S-57 — proteção dos dados ENC; S-52 — produção de RNC",
+      "S-63 — exibição do ECDIS; S-61 — proteção dos dados da ENC",
+      "S-66 — transferência de dados hidrográficos; S-57 — exigências de dotação a bordo"
+    ],
+    "correct": 0,
+    "explanation": "S-57 está associado à ENC e transferência de dados hidrográficos; S-52 à exibição e apresentação do ECDIS."
+  },
+  {
+    "type": "mc",
+    "question": "Ao analisar cartas raster, o Oficial percebe que não consegue modificar facilmente um elemento individual da mesma forma que em uma base de dados estruturada. Qual é a razão apresentada no material?",
+    "category": "ECDIS — Cartas Raster",
+    "options": [
+      "Os elementos da carta raster não estão separados em arquivos de dados",
+      "As cartas raster possuem exclusivamente dados vetoriais protegidos pelo RENC",
+      "Os elementos são automaticamente convertidos em SENC antes de serem armazenados",
+      "A alteração individual é impedida porque todas as cartas raster são necessariamente privadas"
+    ],
+    "correct": 0,
+    "explanation": "A alteração individual é difícil porque os elementos não estão separados em arquivos de dados."
+  },
+  {
+    "type": "mc",
+    "question": "Uma ENC é adquirida para uso em um ECDIS. Qual circunstância, segundo o material, ajuda a reconhecer que se trata de uma ENC fornecida por canal autorizado?",
+    "category": "ECDIS — Distribuição de ENC",
+    "options": [
+      "É comercializada por fornecedores de serviços autorizados ou seus distribuidores, com serviço de atualização",
+      "É fornecida somente por qualquer fabricante de GPS, sem necessidade de atualização",
+      "É necessariamente criada pelo próprio Oficial a partir de dados do radar",
+      "É identificada exclusivamente pelo formato SENC específico do fabricante"
+    ],
+    "correct": 0,
+    "explanation": "Fornecedores de serviços autorizados e seus distribuidores vendem ENC com serviço de atualização."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a navegação, o ECDIS identifica dados não oficiais na apresentação. Qual combinação descreve os dois recursos de identificação indicados no material?",
+    "category": "ECDIS — Dados Não Oficiais",
+    "options": [
+      "Mensagem de aviso intermitente e linha vermelha unilateral com traços diagonais no lado dos dados não oficiais",
+      "Alarme sonoro permanente e linha azul bilateral envolvendo todos os dados não oficiais",
+      "Símbolo triangular amarelo e linha verde com traços diagonais voltados para o navio",
+      "Mensagem silenciosa e linha preta contínua delimitando exclusivamente a célula oficial"
+    ],
+    "correct": 0,
+    "explanation": "O material indica mensagem de aviso intermitente e linha vermelha unilateral com traços diagonais no lado dos dados não oficiais."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial precisa identificar quem pode participar da distribuição e atualização das ENCs. Qual alternativa corresponde ao fluxo descrito?",
+    "category": "ECDIS — Distribuição de ENC",
+    "options": [
+      "Somente fabricantes de ECDIS podem distribuir e atualizar ENCs",
+      "Escritórios hidrográficos nacionais ou RENCs podem atuar na distribuição e atualização",
+      "Apenas o Oficial de Quarto pode validar e distribuir as ENCs utilizadas a bordo",
+      "Somente organizações responsáveis pelo AIS podem distribuir ENCs aos navios"
+    ],
+    "correct": 1,
+    "explanation": "A distribuição e atualização podem ser feitas pelos escritórios hidrográficos nacionais ou por RENCs."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando as funções atribuídas aos RENCs no material, qual descrição é mais adequada?",
+    "category": "ECDIS — RENC",
+    "options": [
+      "Atuam apenas como fabricantes de hardware para ECDIS homologados",
+      "Validam e distribuem ENCs ao usuário final, coordenando conferência e atualização na região",
+      "Definem o significado de portfólio apropriado para o Estado de Bandeira",
+      "Determinam exclusivamente os parâmetros de CPA e TCPA de cada navio"
+    ],
+    "correct": 1,
+    "explanation": "Os RENCs validam e distribuem ENCs e coordenam sua conferência e atualização na região."
+  },
+  {
+    "type": "mc",
+    "question": "Ao selecionar uma escala de exibição para uma ENC de Propósito 2, qual faixa corresponde à classificação apresentada no material?",
+    "category": "ECDIS — Escalas ENC",
+    "options": [
+      "Escala maior que 1:4.000",
+      "Escala entre 1:4.000 e 1:21.999",
+      "Escala entre 1:350.000 e 1:1.499.999",
+      "Escala menor que 1:1.499.999"
+    ],
+    "correct": 2,
+    "explanation": "O Propósito 2, General, corresponde às escalas entre 1:350.000 e 1:1.499.999."
+  },
+  {
+    "type": "mc",
+    "question": "Uma ENC está sendo utilizada em uma escala de exibição maior que 1:4.000. Segundo a tabela apresentada no material, a escala corresponde a qual propósito?",
+    "category": "ECDIS — Escalas ENC",
+    "options": [
+      "Propósito 1 — Panorâmico",
+      "Propósito 2 — Geral",
+      "Propósito 5 — Portuário",
+      "Propósito 6 — Atracação"
+    ],
+    "correct": 3,
+    "explanation": "O Propósito 6, Berthing/Atracação, corresponde a escalas maiores que 1:4.000."
+  },
+  {
+    "type": "tf",
+    "question": "O ECDIS pode cumprir as exigências de dotação de carta a bordo utilizando cartas privadas, desde que o hardware e o software sejam aprovados e o operador seja treinado.",
+    "category": "ECDIS — Requisitos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O uso de cartas privadas faz o sistema ser considerado ECS e não cumprir as exigências de dotação da IMO."
+  },
+  {
+    "type": "tf",
+    "question": "Quando disponível, a ENC deve ser utilizada para que o ECDIS cumpra as exigências de dotação de carta a bordo.",
+    "category": "ECDIS — Requisitos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material determina o uso de ENC onde ela estiver disponível."
+  },
+  {
+    "type": "tf",
+    "question": "O formato SENC é padronizado de modo que todos os fabricantes de software ECDIS utilizem exatamente a mesma estrutura interna.",
+    "category": "ECDIS — ENC e SENC",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Cada fabricante de software ECDIS possui seu próprio formato SENC."
+  },
+  {
+    "type": "tf",
+    "question": "A camada Custom Display pode apresentar a informação de acurácia hidrográfica CATZOC das cartas ENC.",
+    "category": "ECDIS — CATZOC",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "CATZOC ou M-quality objects está disponível no Custom Display."
+  },
+  {
+    "type": "tf",
+    "question": "A verificação automática Check Route elimina a necessidade de o Oficial de Quarto realizar uma verificação visual sistemática da derrota.",
+    "category": "ECDIS — Planejamento de Rota",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O Check Route não substitui a verificação visual detalhada e sistemática realizada pelo Oficial."
+  },
+  {
+    "type": "tf",
+    "question": "Após qualquer alteração na rota, as verificações automáticas e visuais de segurança do trecho correspondente devem ser repetidas antes do início da derrota.",
+    "category": "ECDIS — Planejamento de Rota",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa repetição é indicada como procedimento de segurança obrigatório."
+  },
+  {
+    "type": "tf",
+    "question": "O modelo Pay-As-You-Sail cobra pelas cartas de uma região inteira no momento em que o navio recebe a licença para planejamento.",
+    "category": "ECDIS — Licenciamento PAYS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "No PAYS, a cobrança ocorre conforme o navio navega e cruza as células correspondentes."
+  },
+  {
+    "type": "tf",
+    "question": "O erro de aceleração da agulha giroscópica é um erro dinâmico associado a guinadas ou acelerações bruscas do navio.",
+    "category": "ECDIS — Agulha Giroscópica",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O erro de aceleração é dinâmico e associado a guinadas ou acelerações bruscas."
+  },
+  {
+    "type": "tf",
+    "question": "A comparação entre SOG e STW pode ser usada para verificar sensores de velocidade mesmo quando há influência significativa de vento ou corrente na região.",
+    "category": "ECDIS — SOG e STW",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A comparação é condicionada à certeza de que não há influência de vento e/ou corrente."
+  },
+  {
+    "type": "tf",
+    "question": "O princípio de não depender de um único sistema implica comparar e avaliar os dados apresentados pelo ECDIS por meio de fontes ou métodos de verificação disponíveis.",
+    "category": "ECDIS — Verificação de Dados",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material orienta a não depender de um único sistema e a comparar e avaliar os dados apresentados."
+  },
+  {
+    "type": "tf",
+    "question": "No RCDS, a definição de quais cartas físicas compõem um portfólio apropriado de backup cabe ao fabricante do ECDIS.",
+    "category": "ECDIS — RCDS e Backup",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O Estado de Bandeira define o que constitui um portfólio apropriado."
+  },
+  {
+    "type": "gap",
+    "question": "Qual banco de dados resulta da transformação da ENC pelo ECDIS e é utilizado para apresentação e funções de navegação?",
+    "category": "ECDIS — ENC e SENC",
+    "options": [],
+    "correct": "SENC",
+    "explanation": "A ENC é transformada pelo ECDIS em SENC."
+  },
+  {
+    "type": "gap",
+    "question": "Qual é a sigla da velocidade do navio em relação ao fundo fornecida pelo DGPS e pelo Doppler Log?",
+    "category": "ECDIS — SOG e STW",
+    "options": [],
+    "correct": "SOG",
+    "explanation": "DGPS e Doppler Log fornecem velocidade em relação ao fundo, denominada SOG."
+  },
+  {
+    "type": "gap",
+    "question": "Qual função do ECDIS apresenta a acurácia dos dados hidrográficos por meio de M-quality objects?",
+    "category": "ECDIS — CATZOC",
+    "options": [],
+    "correct": "CATZOC",
+    "explanation": "A função é denominada CATZOC."
+  },
+  {
+    "type": "gap",
+    "question": "Qual camada contém o Standard Display acrescido das camadas escolhidas pelo usuário?",
+    "category": "ECDIS — Apresentação",
+    "options": [],
+    "correct": "Custom Display",
+    "explanation": "O Custom Display reúne o Standard Display e as camadas selecionadas pelo usuário."
+  },
+  {
+    "type": "mc",
+    "question": "Ao comparar as funções das normas relacionadas ao ECDIS, qual associação está de acordo com o material fornecido?",
+    "category": "ECDIS — Normas IHO",
+    "options": [
+      "S-57 trata da transferência de dados hidrográficos/ENC, enquanto S-63 trata da proteção dos dados da ENC",
+      "S-57 trata da proteção da ENC, enquanto S-63 trata da apresentação do ECDIS",
+      "S-61 trata da apresentação, enquanto S-52 trata da produção de RNC",
+      "S-66 trata da proteção da ENC, enquanto S-63 trata das exigências de dotação"
+    ],
+    "correct": 0,
+    "explanation": "O material associa S-57 à ENC/transferência de dados hidrográficos e S-63 à proteção dos dados da ENC."
+  },
+  {
+    "type": "mc",
+    "question": "Um aluno afirma que S-61 e S-52 possuem a mesma finalidade porque ambos estão relacionados à apresentação de cartas eletrônicas. Qual distinção do material permite identificar o erro?",
+    "category": "ECDIS — Normas IHO",
+    "options": [
+      "S-61 está associado à RNC/produção, enquanto S-52 trata da exibição e apresentação do ECDIS",
+      "S-61 trata da proteção da ENC, enquanto S-52 trata exclusivamente do formato SENC",
+      "S-61 trata da transferência da ENC, enquanto S-52 define os RENCs",
+      "S-61 define o hardware aprovado, enquanto S-52 define o treinamento do operador"
+    ],
+    "correct": 0,
+    "explanation": "O material associa S-61 à RNC/produção e S-52 à exibição e apresentação do ECDIS."
+  },
+  {
+    "type": "mc",
+    "question": "No catálogo S-57/S-52, o Oficial encontra grande quantidade de informações associadas aos objetos. Aproximadamente qual dimensão do catálogo é indicada no material?",
+    "category": "ECDIS — S-57/S-52",
+    "options": [
+      "170 classes de objetos e 190 atributos",
+      "190 classes de objetos e 170 atributos",
+      "170 classes de objetos e 170 atributos",
+      "190 classes de objetos e 190 atributos"
+    ],
+    "correct": 0,
+    "explanation": "O material cita aproximadamente 170 classes de objetos e 190 atributos."
+  },
+  {
+    "type": "mc",
+    "question": "Ao analisar os atributos de um objeto no catálogo S-57/S-52, como eles são classificados segundo o material?",
+    "category": "ECDIS — S-57/S-52",
+    "options": [
+      "Em oficiais e privados",
+      "Em qualitativos e quantitativos",
+      "Em vetoriais e raster",
+      "Em estáticos e dinâmicos"
+    ],
+    "correct": 1,
+    "explanation": "Os atributos são classificados em qualitativos ou quantitativos."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma navegação noturna, o Oficial percebe que a luminosidade do mostrador está prejudicando sua adaptação visual ao ambiente. Qual princípio de apresentação do ECDIS está diretamente relacionado a essa situação?",
+    "category": "ECDIS — Apresentação",
+    "options": [
+      "Utilizar fundo escuro para não prejudicar a visão noturna do navegante",
+      "Utilizar fundo claro para aumentar a separação entre os objetos",
+      "Manter sempre a mesma luminosidade usada durante a navegação diurna",
+      "Aumentar a luminosidade para que os objetos da carta predominem sobre o ambiente"
+    ],
+    "correct": 0,
+    "explanation": "O material indica o uso de fundo escuro à noite para não prejudicar a visão noturna."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a verificação da posição do navio, o Oficial deseja utilizar mais de uma fonte de confirmação. Qual conjunto contém métodos citados no material?",
+    "category": "ECDIS — Verificação da Posição",
+    "options": [
+      "Marcações visuais ou radar, indicadores e alarmes, posição manual, sensor secundário e OVERLAY",
+      "Somente GPS, AIS e CPA, pois são os únicos métodos independentes",
+      "Apenas COG, HDG e TCPA, pois todos representam diretamente a posição",
+      "Somente a escala da carta e a ferramenta INFO, pois substituem sensores externos"
+    ],
+    "correct": 0,
+    "explanation": "O material cita marcações visuais ou radar, indicadores e alarmes, posição manual, sensor secundário e OVERLAY."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial precisa verificar o aproamento do navio sem depender exclusivamente de uma indicação eletrônica. Qual procedimento está de acordo com o material?",
+    "category": "ECDIS — Verificação do Aproamento",
+    "options": [
+      "Comparar com referências visuais, azimutes ou agulhas giroscópica e magnética",
+      "Comparar exclusivamente SOG e STW, pois ambas representam o rumo do navio",
+      "Comparar apenas CPA e TCPA, pois esses parâmetros determinam o aproamento",
+      "Usar somente a escala da ENC e a função INFO para confirmar o rumo"
+    ],
+    "correct": 0,
+    "explanation": "O material cita referências visuais, azimutes e agulhas giroscópica e magnética, além de alinhamento e docagem."
+  },
+  {
+    "type": "mc",
+    "question": "Ao configurar um radar para melhorar a interpretação da situação de navegação, quais ajustes são destacados no material?",
+    "category": "ECDIS — RADAR/ARPA",
+    "options": [
+      "Sintonia, ganho, sea clutter e rain clutter",
+      "CPA, TCPA, ETD e ETA",
+      "CATZOC, SENC, RNC e ENC",
+      "Port, Starboard, Ahead e fuso horário"
+    ],
+    "correct": 0,
+    "explanation": "Os principais ajustes indicados são sintonia, ganho, sea clutter e rain clutter."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial avalia o emprego do RADAR/ARPA durante a navegação. Qual conjunto reúne finalidades apresentadas no material?",
+    "category": "ECDIS — RADAR/ARPA",
+    "options": [
+      "Conhecimento da situação, determinação da posição de ponto fixo e anticolisão",
+      "Somente atualização de ENC, correção de cartas e determinação de CATZOC",
+      "Apenas cálculo de ETA, ETD e planejamento temporal da derrota",
+      "Somente conversão da ENC para SENC e consulta dos atributos dos objetos"
+    ],
+    "correct": 0,
+    "explanation": "O material cita conhecimento da situação, posição de ponto fixo e anticolisão."
+  },
+  {
+    "type": "mc",
+    "question": "A Base Display está sendo utilizada durante uma navegação e o Oficial considera retirar uma de suas informações mínimas. Qual conjunto corresponde aos três exemplos citados no material como informações que nunca podem ser retiradas?",
+    "category": "ECDIS — Base Display",
+    "options": [
+      "Linha da costa, escala e sistema de orientação do tráfego",
+      "CPA, TCPA e SOG",
+      "CATZOC, SENC e RNC",
+      "HDG, COG e STW"
+    ],
+    "correct": 0,
+    "explanation": "Os três exemplos literais do material são linha da costa, escala e sistema de orientação do tráfego."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial considera que a presença da Base Display, por si só, fornece todas as informações necessárias para conduzir a navegação. Qual interpretação corresponde ao material?",
+    "category": "ECDIS — Base Display",
+    "options": [
+      "Correta, porque a Base Display contém todas as informações necessárias à navegação",
+      "Incorreta, porque a camada mínima de informações da Base Display não é suficiente para a navegação",
+      "Correta somente quando o ECDIS estiver operando com cartas privadas",
+      "Incorreta apenas quando o ECDIS estiver operando em RCDS"
+    ],
+    "correct": 1,
+    "explanation": "O material observa expressamente que a camada mínima da Base Display não é suficiente para a navegação."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial compara diferentes fontes de informação antes de aceitar um dado apresentado pelo ECDIS. Qual princípio de operação está sendo aplicado?",
+    "category": "ECDIS — Verificação de Dados",
+    "options": [
+      "Confiar prioritariamente no sistema que apresentar o primeiro resultado",
+      "Não depender de um único sistema e comparar e avaliar os dados apresentados",
+      "Usar apenas o sensor principal e ignorar discrepâncias menores",
+      "Substituir a verificação por alarmes sempre que estes estiverem ativos"
+    ],
+    "correct": 1,
+    "explanation": "O material destaca que não se deve depender de um único sistema e que os dados devem ser comparados e avaliados."
+  },
+  {
+    "type": "mc",
+    "question": "Ao comparar as representações de alvos, o Oficial identifica um símbolo circular com vetor e outro triangular com vetor verdadeiro. Qual identificação está de acordo com o material?",
+    "category": "ECDIS — ARPA e AIS",
+    "options": [
+      "O circular corresponde ao ARPA e o triangular ao AIS",
+      "O circular corresponde ao AIS e o triangular ao ARPA",
+      "Ambos correspondem ao ARPA, mas representam escalas diferentes",
+      "Ambos correspondem ao AIS, sendo um vetor relativo e outro absoluto"
+    ],
+    "correct": 0,
+    "explanation": "ARPA é representado por círculo com vetor; AIS por triângulo com vetor verdadeiro."
+  },
+  {
+    "type": "mc",
+    "question": "Um sistema possui apenas parte dos requisitos necessários para que seja tratado como ECDIS em vez de ECS. Qual conjunto contém requisitos explicitamente listados no material?",
+    "category": "ECDIS — Requisitos",
+    "options": [
+      "Hardware e software aprovados, instalação aprovada, cartas oficiais atualizadas e operador habilitado e treinado",
+      "Somente GPS atualizado, radar operacional, AIS ativo e cartas privadas",
+      "Hardware aprovado, cartas privadas, operador habilitado e ausência de backup",
+      "Software aprovado, cartas raster privadas e treinamento opcional do operador"
+    ],
+    "correct": 0,
+    "explanation": "O material lista hardware aprovado, software aprovado, instalação aprovada, cartas oficiais, cartas corrigidas/atualizadas e operador habilitado/treinado."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio precisa cumprir as exigências de dotação de carta a bordo e o ECDIS se propõe a atender a essa finalidade. Em qual condição o backup passa a ser exigido segundo o material?",
+    "category": "ECDIS — Backup",
+    "options": [
+      "Sempre que o radar estiver integrado ao ECDIS",
+      "Quando o ECDIS se propõe a cumprir as exigências de dotação de carta a bordo",
+      "Somente quando o navio estiver utilizando cartas privadas",
+      "Apenas quando o operador não possuir treinamento STCW"
+    ],
+    "correct": 1,
+    "explanation": "O backup é exigido quando o ECDIS se propõe a cumprir as exigências de dotação de carta a bordo."
+  },
+  {
+    "type": "mc",
+    "question": "Um Oficial analisa a atuação do RENC e precisa diferenciá-la de um simples fornecedor comercial ao usuário final. Qual descrição corresponde ao material?",
+    "category": "ECDIS — RENC",
+    "options": [
+      "O RENC atua como canal de distribuição por atacado, fornecendo ENCs aos fornecedores comerciais de serviços aos usuários",
+      "O RENC vende exclusivamente hardware ECDIS diretamente aos Oficiais de Quarto",
+      "O RENC determina os valores de CPA/TCPA utilizados pelo navio",
+      "O RENC define qual portfólio de papel é apropriado para cada Estado de Bandeira"
+    ],
+    "correct": 0,
+    "explanation": "O material descreve os RENCs como canais de distribuição por atacado para fornecedores comerciais de serviços aos usuários."
+  },
+  {
+    "type": "tf",
+    "question": "Um ECS pode abranger desde um GPS manual habilitado até equipamentos independentes sofisticados conectados ao sistema do navio.",
+    "category": "ECDIS — ECS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa faixa de equipamentos é explicitamente indicada no material como exemplo de ECS."
+  },
+  {
+    "type": "tf",
+    "question": "A resolução IMO MSC.232(82) é apresentada no material como a norma que especifica o ECS, enquanto a ISO 19379 especifica o ECDIS.",
+    "category": "ECDIS — Normas",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material associa MSC.232(82) ao ECDIS e ISO 19379 ao ECS."
+  },
+  {
+    "type": "tf",
+    "question": "Os atributos do catálogo S-57/S-52 são classificados em qualitativos ou quantitativos.",
+    "category": "ECDIS — S-57/S-52",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a classificação indicada no material."
+  },
+  {
+    "type": "tf",
+    "question": "A Base Display pode ser considerada suficiente para a navegação porque contém a camada mínima de informações que não pode ser retirada pelo operador.",
+    "category": "ECDIS — Base Display",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material ressalta que essa camada mínima não é suficiente para a navegação."
+  },
+  {
+    "type": "tf",
+    "question": "O RADAR/ARPA pode ser utilizado para conhecimento da situação, determinação da posição de ponto fixo e anticolisão.",
+    "category": "ECDIS — RADAR/ARPA",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essas três finalidades são citadas no material."
+  },
+  {
+    "type": "tf",
+    "question": "A verificação do aproamento pode incluir comparação com referências visuais, azimutes e agulhas giroscópica e magnética.",
+    "category": "ECDIS — Verificação do Aproamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Esses métodos de verificação são citados no material."
+  },
+  {
+    "type": "tf",
+    "question": "A apresentação em fundo escuro durante a noite tem como finalidade aumentar a intensidade luminosa do ECDIS para compensar a ausência de luz ambiente.",
+    "category": "ECDIS — Apresentação",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O fundo escuro é utilizado para não prejudicar a visão noturna do navegante."
+  },
+  {
+    "type": "tf",
+    "question": "A distribuição e atualização das ENCs pode envolver os escritórios hidrográficos nacionais ou RENCs.",
+    "category": "ECDIS — Distribuição de ENC",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Esses dois canais são indicados no material."
+  },
+  {
+    "type": "tf",
+    "question": "O RENC é responsável por definir o significado de 'apropriado' para o portfólio de backup utilizado pelo navio.",
+    "category": "ECDIS — RENC",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Quem define o significado de 'apropriado' é o Estado de Bandeira."
+  },
+  {
+    "type": "gap",
+    "question": "Qual sigla identifica a velocidade do navio em relação à água fornecida pelo Speed Log eletromagnético ou de hélice?",
+    "category": "ECDIS — SOG e STW",
+    "options": [],
+    "correct": "STW",
+    "explanation": "O Speed Log tradicional fornece STW, velocidade através da água."
+  },
+  {
+    "type": "gap",
+    "question": "Qual resolução IMO é apresentada como padrão de desempenho do ECDIS no material?",
+    "category": "ECDIS — Normas",
+    "options": [],
+    "correct": "MSC.232(82)",
+    "explanation": "O material associa a Resolução MSC.232(82) ao ECDIS."
+  },
+  {
+    "type": "gap",
+    "question": "Qual é a sigla do sistema de cartas eletrônicas que não atende às exigências de dotação de carta da OMI/SOLAS?",
+    "category": "ECDIS — ECS",
+    "options": [],
+    "correct": "ECS",
+    "explanation": "ECS é o Sistema de Cartas Eletrônicas que pode auxiliar a navegação sem cumprir essas exigências."
+  }
+]
