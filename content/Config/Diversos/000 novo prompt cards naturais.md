@@ -1,3 +1,5 @@
+```txt
+
 Crie cards para Anki usando EXCLUSIVAMENTE o conteúdo das fontes que forneci.
 
 OBJETIVO:

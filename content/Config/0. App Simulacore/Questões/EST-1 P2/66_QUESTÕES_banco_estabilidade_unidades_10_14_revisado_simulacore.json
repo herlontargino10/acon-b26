@@ -1,0 +1,824 @@
+[
+  {
+    "type": "mc",
+    "question": "Um navio aderna e, após a inclinação, as forças peso e empuxo formam um binário que tende a fazê-lo retornar à posição inicial. Como devem ser classificados GZ e Me nessa situação?",
+    "category": "Estabilidade — GZ e Momento de Estabilidade",
+    "options": [
+      "GZ > 0 e Me > 0, caracterizando braços e momentos de adriçamento.",
+      "GZ < 0 e Me < 0, caracterizando braços e momentos de emborcamento.",
+      "GZ = 0 e Me = 0, caracterizando equilíbrio indiferente.",
+      "GZ > 0 e Me < 0, pois todo momento de inclinação é de emborcamento."
+    ],
+    "correct": 0,
+    "explanation": "GZ e Me positivos indicam que o momento contraria a inclinação e tende a retornar o navio."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma inclinação, o binário formado por peso e empuxo passa a colaborar com a própria inclinação do navio. Qual classificação corresponde ao caso descrito?",
+    "category": "Estabilidade — GZ e Momento de Estabilidade",
+    "options": [
+      "Braço de adriçamento e momento de adriçamento.",
+      "Braço de emborcamento e momento de emborcamento.",
+      "Braço de adriçamento e momento de emborcamento.",
+      "Braço de emborcamento e momento de adriçamento."
+    ],
+    "correct": 1,
+    "explanation": "Quando o binário favorece a inclinação, GZ < 0 e Me < 0."
+  },
+  {
+    "type": "tf",
+    "question": "O momento de estabilidade é apresentado no material como a medida real da estabilidade do navio, pois expressa a intensidade da tendência de retorno à posição inicial.",
+    "category": "Estabilidade — Momento de Estabilidade",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material afirma que Me é a real medida da estabilidade do navio."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio, depois de adernar, volta naturalmente para sua posição de equilíbrio. Qual condição de equilíbrio está sendo observada?",
+    "category": "Estabilidade — Condições de Equilíbrio",
+    "options": [
+      "Equilíbrio estável.",
+      "Equilíbrio indiferente.",
+      "Equilíbrio instável.",
+      "Equilíbrio de superfície livre."
+    ],
+    "correct": 0,
+    "explanation": "No equilíbrio estável, o navio tende naturalmente a retornar à posição de equilíbrio."
+  },
+  {
+    "type": "mc",
+    "question": "Após receber uma pequena inclinação, uma embarcação permanece em equilíbrio na nova posição, sem tendência de retornar à posição de equilíbrio inicial. Segundo o material, essa condição é:",
+    "category": "Estabilidade — Condições de Equilíbrio",
+    "options": [
+      "Estável, porque qualquer posição é uma posição de retorno.",
+      "Indiferente, porque não existe tendência de retorno à posição inicial.",
+      "Instável, porque toda inclinação provoca emborcamento imediato.",
+      "Estável, porque a banda permanente representa um braço positivo."
+    ],
+    "correct": 1,
+    "explanation": "No equilíbrio indiferente não há tendência de retornar à posição de equilíbrio inicial."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação aderna e apresenta tendência de adquirir uma banda cada vez maior. Como essa situação é classificada?",
+    "category": "Estabilidade — Condições de Equilíbrio",
+    "options": [
+      "Equilíbrio estável.",
+      "Equilíbrio indiferente.",
+      "Equilíbrio instável.",
+      "Equilíbrio de adriçamento."
+    ],
+    "correct": 2,
+    "explanation": "A tendência de aumento progressivo da banda caracteriza equilíbrio instável."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação apresenta GM negativo de pequena magnitude. Qual evolução é indicada no material para essa condição?",
+    "category": "Estabilidade — GM Negativo",
+    "options": [
+      "B' poderá alcançar a vertical que passa por G, levando à condição de equilíbrio indiferente e banda permanente.",
+      "B' necessariamente permanecerá afastado da vertical de G e o navio sempre emborcará.",
+      "O navio necessariamente retornará à posição adriçada por possuir GM negativo.",
+      "A banda será eliminada automaticamente pelo aumento do calado."
+    ],
+    "correct": 0,
+    "explanation": "Com GM negativo pequeno, B' pode alcançar a vertical de G, produzindo equilíbrio indiferente e banda permanente."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma condição de GM negativo de grande magnitude, qual possibilidade deve ser considerada conforme o material?",
+    "category": "Estabilidade — GM Negativo",
+    "options": [
+      "B' poderá não atingir a vertical de G e o navio continuará a adernar até emborcar.",
+      "B' sempre atingirá G e a embarcação ficará indiferente.",
+      "O navio retornará espontaneamente à posição adriçada.",
+      "A superfície livre deixará de produzir qualquer efeito sobre a estabilidade."
+    ],
+    "correct": 0,
+    "explanation": "GM negativo muito grande pode impedir B' de atingir a vertical de G, mantendo a tendência de adernamento até o emborcamento."
+  },
+  {
+    "type": "tf",
+    "question": "As condições de equilíbrio indiferente e instável são consideradas indesejáveis no material porque o navio perde sua capacidade de adriçamento após cada inclinação, podendo emborcar.",
+    "category": "Estabilidade — Condições de Equilíbrio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a conclusão apresentada após a comparação das três condições."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando o efeito de superfície livre, qual comparação é apresentada para um navio que possui um tanque parcialmente cheio?",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "GvM é menor que GM, representando uma redução virtual da altura metacêntrica.",
+      "GvM é maior que GM, pois o líquido aumenta virtualmente a estabilidade.",
+      "GvM é sempre igual a GM, pois o deslocamento total não muda.",
+      "GvM é necessariamente negativo, independentemente de GM."
+    ],
+    "correct": 0,
+    "explanation": "O material afirma que GvM é nitidamente menor que GM devido ao efeito de superfície livre."
+  },
+  {
+    "type": "mc",
+    "question": "Um tanque de líquido está parcialmente cheio e o navio aderna. O CG efetivo do navio se desloca paralelamente e no mesmo sentido da mudança do CG do líquido. Qual consequência é destacada?",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "O braço G'Z' torna-se menor que o braço que existiria sem a alteração do CG.",
+      "O braço G'Z' torna-se necessariamente maior que o braço original.",
+      "O empuxo deixa de atuar verticalmente.",
+      "O navio passa automaticamente para GM negativo."
+    ],
+    "correct": 0,
+    "explanation": "O deslocamento do CG para G' reduz o braço de adriçamento e o momento correspondente."
+  },
+  {
+    "type": "tf",
+    "question": "Quando um navio transporta carga líquida em um tanque completamente cheio, sem espaço para o líquido se deslocar, o líquido se comporta, quanto ao efeito descrito, de maneira semelhante a uma carga sólida.",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material afirma que, sem espaço para expansão/deslocamento, o líquido se comporta de modo semelhante a um sólido."
+  },
+  {
+    "type": "mc",
+    "question": "No tratamento do efeito de superfície livre, Gv representa:",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "O centro de gravidade virtual do navio devido ao efeito de superfície livre.",
+      "O centro de gravidade exclusivamente do líquido antes da inclinação.",
+      "O centro de carena correspondente ao calado médio.",
+      "O centro geométrico do tanque parcialmente cheio."
+    ],
+    "correct": 0,
+    "explanation": "Gv é definido no material como centro de gravidade virtual do navio devido à superfície livre."
+  },
+  {
+    "type": "mc",
+    "question": "Por que o efeito de superfície livre é tratado como uma redução virtual de GM?",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "Porque a superfície livre desloca o CG efetivo para Gv, reduzindo GvM em relação a GM.",
+      "Porque o deslocamento do navio aumenta e eleva automaticamente G.",
+      "Porque o empuxo passa a atuar para baixo quando o navio aderna.",
+      "Porque a superfície livre aumenta a distância entre G e M."
+    ],
+    "correct": 0,
+    "explanation": "A mudança do CG efetivo reduz a altura metacêntrica disponível para o adriçamento."
+  },
+  {
+    "type": "mc",
+    "question": "Um oficial precisa aplicar a convenção de sinais para calcular momentos transversais. Qual combinação está correta segundo o material?",
+    "category": "Estabilidade — Distribuição Transversal de Pesos",
+    "options": [
+      "Boreste positivo e bombordo negativo.",
+      "Boreste negativo e bombordo positivo.",
+      "Ambos positivos em relação à linha central.",
+      "Ambos negativos em relação à linha central."
+    ],
+    "correct": 0,
+    "explanation": "Afastamentos para boreste são positivos e para bombordo negativos."
+  },
+  {
+    "type": "mc",
+    "question": "Após várias movimentações transversais, o somatório dos momentos transversais é igual a zero. Qual condição é indicada?",
+    "category": "Estabilidade — Distribuição Transversal de Pesos",
+    "options": [
+      "O navio está adriçado.",
+      "O navio necessariamente está adernado.",
+      "O navio possui GM igual a zero.",
+      "O navio possui GM negativo."
+    ],
+    "correct": 0,
+    "explanation": "O material estabelece que somatório dos momentos transversais igual a zero corresponde ao navio adriçado."
+  },
+  {
+    "type": "mc",
+    "question": "O somatório dos momentos transversais de uma embarcação é diferente de zero. O que isso indica segundo a regra apresentada?",
+    "category": "Estabilidade — Distribuição Transversal de Pesos",
+    "options": [
+      "A embarcação está adernada.",
+      "A embarcação está necessariamente em equilíbrio indiferente.",
+      "A embarcação possui superfície livre nula.",
+      "A embarcação possui necessariamente GM negativo."
+    ],
+    "correct": 0,
+    "explanation": "Somatório diferente de zero indica que o navio está adernado."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o objetivo principal da experiência de estabilidade descrita no material?",
+    "category": "Estabilidade — Experiência de Estabilidade",
+    "options": [
+      "Determinar a cota vertical do centro de gravidade do navio em deslocamento leve.",
+      "Determinar diretamente o porte comerciável do navio.",
+      "Determinar somente o calado máximo de operação.",
+      "Eliminar experimentalmente todas as superfícies livres."
+    ],
+    "correct": 0,
+    "explanation": "A experiência busca determinar o KG do navio leve."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma experiência de estabilidade, por que se utiliza um peso móvel conhecido que possa ser deslocado transversalmente?",
+    "category": "Estabilidade — Experiência de Estabilidade",
+    "options": [
+      "Para produzir uma inclinação mensurável que permita obter dados para a determinação da estabilidade.",
+      "Para aumentar permanentemente o deslocamento leve do navio.",
+      "Para eliminar o efeito de superfície livre dos tanques.",
+      "Para determinar diretamente a densidade da água."
+    ],
+    "correct": 0,
+    "explanation": "O peso móvel produz a condição de inclinação usada na experiência."
+  },
+  {
+    "type": "mc",
+    "question": "Na sequência da experiência de estabilidade, os calados a vante e a ré são utilizados para determinar qual grandeza antes da consulta às curvas hidrostáticas?",
+    "category": "Estabilidade — Experiência de Estabilidade",
+    "options": [
+      "Calado médio.",
+      "Afastamento transversal de G.",
+      "Porte bruto.",
+      "Momento de inércia do tanque."
+    ],
+    "correct": 0,
+    "explanation": "O material determina o calado médio a partir dos calados AV e AR."
+  },
+  {
+    "type": "mc",
+    "question": "Obtido o calado médio durante a experiência de estabilidade, qual grandeza é procurada no plano de curvas hidrostáticas?",
+    "category": "Estabilidade — Experiência de Estabilidade",
+    "options": [
+      "KM.",
+      "KG do navio leve diretamente.",
+      "Gv.",
+      "Banda permanente."
+    ],
+    "correct": 0,
+    "explanation": "Com o calado médio obtém-se KM nas curvas hidrostáticas."
+  },
+  {
+    "type": "mc",
+    "question": "Além dos calados, qual informação é necessária, segundo o procedimento descrito, para corrigir o deslocamento calculado a partir do volume de carena?",
+    "category": "Estabilidade — Experiência de Estabilidade",
+    "options": [
+      "Densidade da água em que o navio está flutuando.",
+      "Afastamento do peso móvel em relação à linha central.",
+      "Ângulo de indiferença.",
+      "Comprimento do tanque parcialmente cheio."
+    ],
+    "correct": 0,
+    "explanation": "O material determina o deslocamento usando o volume de carena e a densidade da água."
+  },
+  {
+    "type": "mc",
+    "question": "Qual expressão representa, no material, a forma de obter o volume de carena a partir de Lpp, B, HMED e do coeficiente de bloco?",
+    "category": "Estabilidade — Experiência de Estabilidade",
+    "options": [
+      "∇ = Lpp · B · HMED · α",
+      "∇ = Lpp + B + HMED + α",
+      "∇ = Lpp · B / HMED · α",
+      "∇ = Lpp · HMED / B · α"
+    ],
+    "correct": 0,
+    "explanation": "A relação apresentada é volume de carena = Lpp · B · HMED · α."
+  },
+  {
+    "type": "tf",
+    "question": "Na experiência de estabilidade, a deflexão de um pêndulo de grande comprimento é medida a partir da linha central em uma régua graduada.",
+    "category": "Estabilidade — Experiência de Estabilidade",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa medição faz parte da sequência experimental descrita."
+  },
+  {
+    "type": "mc",
+    "question": "A distribuição transversal dos pesos pode provocar banda permanente principalmente quando:",
+    "category": "Estabilidade — Banda por Descentralização",
+    "options": [
+      "A resultante de todos os pesos fica fora da linha central do navio.",
+      "Todos os pesos estão necessariamente abaixo do metacentro.",
+      "O somatório dos momentos transversais é exatamente zero.",
+      "O navio possui apenas cargas sólidas."
+    ],
+    "correct": 0,
+    "explanation": "A resultante fora do plano longitudinal coloca o centro de gravidade fora da linha central."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio apresenta banda permanente por descentralização de pesos. Qual alternativa reúne as duas providências gerais indicadas no material?",
+    "category": "Estabilidade — Correção da Banda",
+    "options": [
+      "Aliviar o bordo em banda ou criar um momento igual no bordo oposto.",
+      "Aumentar KG ou criar uma superfície livre adicional.",
+      "Descarregar somente pesos abaixo de G ou aumentar KM.",
+      "Transferir todos os pesos para o bordo da banda."
+    ],
+    "correct": 0,
+    "explanation": "O material apresenta essas duas formas gerais de correção."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação apresenta GM inicial igual a zero. Qual descrição corresponde ao comportamento indicado?",
+    "category": "Estabilidade — GM Zero",
+    "options": [
+      "Está em equilíbrio indiferente e pode permanecer inclinada até a região em que o metacentro começa a subir.",
+      "Está em equilíbrio estável e sempre retorna à posição adriçada.",
+      "Está em equilíbrio instável e necessariamente emborca imediatamente.",
+      "Possui GM negativo e deve ser lastrada no bordo oposto."
+    ],
+    "correct": 0,
+    "explanation": "GM = 0 corresponde ao equilíbrio indiferente; a estabilidade pode surgir quando M começa a subir."
+  },
+  {
+    "type": "mc",
+    "question": "Como é denominado o ângulo limite associado à estabilidade indiferente de um navio com GM inicial igual a zero?",
+    "category": "Estabilidade — GM Zero",
+    "options": [
+      "Ângulo de indiferença.",
+      "Ângulo de emborcamento.",
+      "Ângulo de adriçamento.",
+      "Ângulo de superfície livre."
+    ],
+    "correct": 0,
+    "explanation": "O material denomina esse limite de ângulo de indiferença."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio com GM inicial igual a zero está permanentemente adernado. O que o material alerta sobre tentar corrigir a banda movendo cargas horizontalmente para o bordo oposto?",
+    "category": "Estabilidade — GM Zero",
+    "options": [
+      "O navio pode voltar violentamente para o bordo contrário e ficar ainda mais adernado.",
+      "A movimentação sempre produz uma correção suave e definitiva.",
+      "A movimentação elimina automaticamente o GM zero.",
+      "A movimentação não produz qualquer alteração de banda."
+    ],
+    "correct": 0,
+    "explanation": "O material alerta para o risco de um violento tombo para o bordo contrário."
+  },
+  {
+    "type": "mc",
+    "question": "Para corrigir uma condição de GM inicialmente igual a zero e obter GM positivo, qual é a providência inicial indicada?",
+    "category": "Estabilidade — Correção de GM Zero",
+    "options": [
+      "Mover o centro de gravidade para baixo, iniciando pela eliminação das superfícies livres.",
+      "Mover o centro de gravidade para cima e manter as superfícies livres.",
+      "Criar uma banda maior para elevar o metacentro.",
+      "Transferir pesos para o convés."
+    ],
+    "correct": 0,
+    "explanation": "O procedimento indicado é reduzir KG, começando pela eliminação das superfícies livres."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação apresenta KG = 8,20 m e KM = 7,90 m antes de considerar outras correções. Qual condição de GM é compatível com a regra apresentada no material?",
+    "category": "Estabilidade — GM Negativo",
+    "options": [
+      "GM negativo.",
+      "GM positivo.",
+      "GM igual a zero.",
+      "Não é possível relacionar KG e KM com GM."
+    ],
+    "correct": 0,
+    "explanation": "Como KG > KM, GM = KM − KG é negativo."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto contém somente soluções apresentadas para corrigir uma condição de GM negativo?",
+    "category": "Estabilidade — Correção de GM Negativo",
+    "options": [
+      "Aliviar pesos acima de G; mover pesos acima de G para baixo; adicionar pesos abaixo de G; corrigir superfícies livres.",
+      "Adicionar pesos acima de G; aumentar superfícies livres; elevar KG; retirar pesos abaixo de G.",
+      "Mover pesos para cima; aumentar KG; criar banda oposta; manter superfícies livres.",
+      "Aumentar a altura dos pesos de convés; aumentar KG; retirar lastro baixo; aumentar superfície livre."
+    ],
+    "correct": 0,
+    "explanation": "As quatro soluções correspondem às apresentadas no material."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio possui pesos acima de G e pode deslocá-los para posições inferiores. Qual é o objetivo dessa operação na correção de GM negativo?",
+    "category": "Estabilidade — Correção de GM Negativo",
+    "options": [
+      "Reduzir KG e, consequentemente, melhorar GM.",
+      "Aumentar KG e reduzir GM.",
+      "Manter KG e alterar apenas a densidade da água.",
+      "Aumentar a superfície livre para elevar GM."
+    ],
+    "correct": 0,
+    "explanation": "Mover pesos de cima para baixo reduz a cota do centro de gravidade."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma situação de GM negativo, qual providência é indicada como viável no porto quando houver carga a embarcar?",
+    "category": "Estabilidade — Correção de GM Negativo",
+    "options": [
+      "Estivar a carga que irá embarcar nos espaços mais baixos.",
+      "Estivar a carga no convés mais alto disponível.",
+      "Aumentar deliberadamente a altura dos pesos.",
+      "Manter os pesos acima de G para evitar alteração de KG."
+    ],
+    "correct": 0,
+    "explanation": "O material considera recomendável receber carga nos espaços mais baixos."
+  },
+  {
+    "type": "mc",
+    "question": "Em viagem, quando não for possível aplicar as demais providências para melhorar GM negativo, qual recurso é indicado no material?",
+    "category": "Estabilidade — Correção de GM Negativo",
+    "options": [
+      "Lastrar com água salgada os tanques vazios do duplo-fundo.",
+      "Adicionar pesos ao convés superior.",
+      "Transferir carga para posições mais altas.",
+      "Criar superfícies livres adicionais."
+    ],
+    "correct": 0,
+    "explanation": "O material aponta o lastro com água salgada nos tanques vazios do D.F."
+  },
+  {
+    "type": "mc",
+    "question": "Ao corrigir superfícies livres antes de outras medidas para GM negativo, qual ação é colocada em primeiro lugar?",
+    "category": "Estabilidade — Superfície Livre e Correção",
+    "options": [
+      "Completar todos os tanques parcialmente cheios.",
+      "Lastrar primeiro o tanque do bordo oposto à banda.",
+      "Aumentar o número de tanques parcialmente cheios.",
+      "Descarregar primeiro os pesos abaixo de G."
+    ],
+    "correct": 0,
+    "explanation": "O primeiro passo indicado é eliminar as superfícies livres completando os tanques."
+  },
+  {
+    "type": "mc",
+    "question": "Por que o material recomenda lastrar um tanque de cada vez durante a correção de GM negativo?",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "Para limitar a quantidade de superfícies livres simultâneas.",
+      "Para aumentar deliberadamente a quantidade de superfícies livres.",
+      "Para produzir simultaneamente momentos em todos os bordos.",
+      "Para evitar que o deslocamento do navio seja alterado."
+    ],
+    "correct": 0,
+    "explanation": "Lastrar um tanque por vez limita a existência de várias superfícies livres simultaneamente."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o enchimento de um tanque, existe um intervalo entre o início e o término da operação. Qual risco é destacado nesse intervalo?",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "O líquido admitido terá superfície livre e poderá agravar a condição de GM negativa.",
+      "O líquido não terá qualquer efeito sobre GM até o tanque estar cheio.",
+      "O líquido sempre produzirá GM positivo independentemente de sua posição.",
+      "A banda desaparecerá antes de o peso do líquido produzir qualquer efeito."
+    ],
+    "correct": 0,
+    "explanation": "Durante o enchimento, a superfície livre provoca perda de GM."
+  },
+  {
+    "type": "mc",
+    "question": "Por que se deve começar preferencialmente pelos tanques menores ao corrigir GM negativo por lastro?",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "Porque o tanque não se enche imediatamente e seu período de superfície livre deve ser limitado.",
+      "Porque tanques menores sempre estão acima de G.",
+      "Porque o tanque menor produz necessariamente maior banda.",
+      "Porque o tanque menor elimina o momento transversal."
+    ],
+    "correct": 0,
+    "explanation": "O material relaciona a preferência aos efeitos de superfície livre durante o intervalo de enchimento."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio apresenta banda para bombordo e será corrigido por lastro. O material estabelece que iniciar o lastro pelo bordo oposto à banda é:",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "Errado e muito perigoso.",
+      "Obrigatório para evitar o embolsamento.",
+      "Preferível em qualquer situação.",
+      "Indiferente, desde que o tanque seja grande."
+    ],
+    "correct": 0,
+    "explanation": "O material afirma expressamente que esse procedimento é errado e muito perigoso."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o lastro de um tanque situado no mesmo bordo da banda, qual conjunto de efeitos iniciais é descrito?",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "A banda aumenta; o baixo KG tende a aumentar GM; e a superfície livre provoca perda de GM.",
+      "A banda diminui imediatamente; o baixo KG reduz GM; e a superfície livre aumenta GM.",
+      "A banda permanece constante; somente KM muda; e não existe superfície livre.",
+      "A banda muda para o bordo oposto; KG aumenta; e a superfície livre deixa de existir."
+    ],
+    "correct": 0,
+    "explanation": "Os três efeitos são explicitamente descritos nessa ordem geral."
+  },
+  {
+    "type": "mc",
+    "question": "No procedimento denominado 'embolsamento', o que ocorre depois que o líquido atinge rapidamente a altura máxima no bordo correspondente à banda?",
+    "category": "Estabilidade — Embolsamento",
+    "options": [
+      "A superfície livre diminui e o CG do líquido passa a deslocar-se em direção à linha central.",
+      "A superfície livre aumenta continuamente e o CG do líquido se afasta da linha central.",
+      "O líquido deixa de possuir peso significativo e a banda permanece constante.",
+      "O CG do líquido passa imediatamente para o bordo oposto."
+    ],
+    "correct": 0,
+    "explanation": "No embolsamento, a superfície livre diminui e o CG do líquido desloca-se em direção à linha central."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o embolsamento, em que momento a banda atinge seu valor máximo, segundo a descrição do material?",
+    "category": "Estabilidade — Embolsamento",
+    "options": [
+      "Antes de começar a diminuir, quando o processo passa da fase inicial de aumento para a fase de redução.",
+      "Somente depois que todos os tanques do navio estiverem cheios.",
+      "Antes de admitir qualquer quantidade de líquido.",
+      "Somente após o navio passar para o bordo oposto."
+    ],
+    "correct": 0,
+    "explanation": "O material afirma que a banda aumenta até atingir um máximo e, a partir daí, começa a diminuir."
+  },
+  {
+    "type": "mc",
+    "question": "Após terminar o enchimento do tanque usado no embolsamento, qual causa de banda permanece descrita no material?",
+    "category": "Estabilidade — Embolsamento",
+    "options": [
+      "A banda causada pelo momento transversal do peso de líquido admitido naquele bordo.",
+      "Uma banda causada exclusivamente pela superfície livre, que permanece máxima.",
+      "Uma banda causada por GM negativo que necessariamente aumenta.",
+      "Nenhuma banda, pois o tanque cheio sempre adriça completamente o navio."
+    ],
+    "correct": 0,
+    "explanation": "Depois de cheio, o líquido ainda produz momento transversal devido à sua localização."
+  },
+  {
+    "type": "mc",
+    "question": "Depois que um tanque do bordo da banda foi completamente cheio e a banda existente passa a ser causada pelo momento do líquido, por que o outro bordo pode então ser lastrado sem o mesmo risco inicial?",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "Porque só depois de completamente cheio o tanque do outro bordo produzirá momento transversal equivalente ao existente.",
+      "Porque o outro tanque não possui superfície livre durante o enchimento.",
+      "Porque o navio passa automaticamente a ter GM zero.",
+      "Porque o peso do primeiro tanque deixa de existir."
+    ],
+    "correct": 0,
+    "explanation": "O material explica que o outro tanque pode ser operado depois, pois o momento transversal relevante surge quando ele fica completamente cheio."
+  },
+  {
+    "type": "mc",
+    "question": "Qual sequência geral de cuidados está de acordo com a conclusão apresentada para correção de banda permanente devido a GM negativo?",
+    "category": "Estabilidade — Procedimento de Correção",
+    "options": [
+      "Eliminar superfícies livres; aplicar as providências possíveis; lastrar um tanque por vez; preferir tanques menores; escolher central ou mesmo bordo da banda.",
+      "Lastrar todos os tanques; começar pelo bordo oposto; depois criar superfícies livres e aumentar KG.",
+      "Começar pelo maior tanque; escolher sempre o bordo oposto; manter tanques parcialmente cheios.",
+      "Aumentar KG; eliminar pesos abaixo de G; lastrar simultaneamente todos os tanques."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa reproduz a sequência e prioridades apresentadas no material."
+  },
+  {
+    "type": "mc",
+    "question": "Na escolha da localização do tanque para iniciar o lastro, qual ordem de preferência é apresentada?",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "Tanques centrais; depois tanques do mesmo bordo da banda; nunca o bordo oposto à banda.",
+      "Tanques do bordo oposto; depois centrais; por último o mesmo bordo da banda.",
+      "Sempre o maior tanque disponível, independentemente da localização.",
+      "Sempre o bordo oposto à banda, seguido dos tanques centrais."
+    ],
+    "correct": 0,
+    "explanation": "Essa é a ordem de preferência indicada no material."
+  },
+  {
+    "type": "tf",
+    "question": "O material recomenda iniciar a operação de lastro preferencialmente por tanques centrais quando houver essa possibilidade.",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Tanques centrais são a primeira preferência indicada na localização."
+  },
+  {
+    "type": "tf",
+    "question": "Na correção de GM negativo, se não houver tanque central disponível, o material recomenda preferencialmente um tanque do bordo oposto à banda.",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Na ausência de tanque central, prefere-se o tanque do mesmo bordo da banda; o bordo oposto nunca deve ser usado para iniciar."
+  },
+  {
+    "type": "mc",
+    "question": "Qual afirmação relaciona corretamente GM, KG e KM dentro da condição descrita no material?",
+    "category": "Estabilidade — GM Negativo",
+    "options": [
+      "GM negativo ocorre quando KG > KM.",
+      "GM negativo ocorre quando KG < KM.",
+      "GM negativo ocorre somente quando KG = KM.",
+      "GM não depende da relação entre KG e KM."
+    ],
+    "correct": 0,
+    "explanation": "O material afirma explicitamente que, em GM negativo, KG > KM."
+  },
+  {
+    "type": "mc",
+    "question": "Qual afirmação melhor representa o efeito geral da superfície livre sobre a estabilidade?",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "Ela equivale a uma redução virtual de GM e, consequentemente, reduz a estabilidade do navio.",
+      "Ela aumenta virtualmente GM e sempre melhora a estabilidade.",
+      "Ela não altera a posição virtual do CG do navio.",
+      "Ela produz somente uma alteração longitudinal, sem efeito na estabilidade transversal."
+    ],
+    "correct": 0,
+    "explanation": "O material conclui que a superfície livre reduz virtualmente GM e a estabilidade."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação possui GM negativo e apresenta banda permanente. Qual alternativa NÃO corresponde às soluções listadas no material para melhorar essa condição?",
+    "category": "Estabilidade — Correção de GM Negativo",
+    "options": [
+      "Adicionar deliberadamente pesos acima de G.",
+      "Aliviar pesos situados acima de G.",
+      "Remover para baixo pesos situados acima de G.",
+      "Adicionar pesos abaixo de G."
+    ],
+    "correct": 0,
+    "explanation": "Adicionar pesos acima de G aumenta KG e não está entre as soluções apresentadas."
+  },
+  {
+    "type": "mc",
+    "question": "Ao corrigir uma condição de GM negativo por remoção de líquidos, qual transferência vertical é apontada como exemplo de boa providência?",
+    "category": "Estabilidade — Correção de GM Negativo",
+    "options": [
+      "Mover líquidos de tanques elevados para tanques de duplo-fundo.",
+      "Mover líquidos de duplo-fundo para tanques elevados.",
+      "Transferir líquidos para o convés.",
+      "Mover líquidos apenas transversalmente, sem alteração vertical."
+    ],
+    "correct": 0,
+    "explanation": "O material cita a transferência de água e óleo de tanques elevados para o D.F."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a principal razão apresentada para considerar a movimentação de pesos para baixo uma providência muito boa quando possível?",
+    "category": "Estabilidade — Correção de GM Negativo",
+    "options": [
+      "Pode ser rápida, econômica e realizada com recursos de bordo.",
+      "Exige necessariamente descarregar a carga no porto.",
+      "Aumenta KG sem alterar GM.",
+      "Cria uma superfície livre controlada."
+    ],
+    "correct": 0,
+    "explanation": "O material destaca que essa providência pode ser rápida, econômica e feita com recursos de bordo."
+  },
+  {
+    "type": "mc",
+    "question": "Considere uma embarcação com GM inicial igual a zero que aderna até uma região em que o metacentro começa a subir. Qual consequência teórica é descrita?",
+    "category": "Estabilidade — GM Zero",
+    "options": [
+      "O aumento do metacentro pode criar GM positivo e, portanto, braço de adriçamento.",
+      "O aumento do metacentro necessariamente cria GM mais negativo.",
+      "O navio perde definitivamente qualquer possibilidade de estabilidade.",
+      "O navio passa automaticamente a ter equilíbrio instável."
+    ],
+    "correct": 0,
+    "explanation": "Quando M começa a subir, pode surgir GM positivo e braço de adriçamento."
+  },
+  {
+    "type": "mc",
+    "question": "A curva de braços de adriçamento de um navio com GM inicial igual a zero é descrita como:",
+    "category": "Estabilidade — GM Zero",
+    "options": [
+      "Igual para ambos os bordos.",
+      "Positiva apenas para boreste.",
+      "Positiva apenas para bombordo.",
+      "Sempre negativa para ambos os bordos."
+    ],
+    "correct": 0,
+    "explanation": "O material afirma que a curva é igual para ambos os bordos."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a experiência de estabilidade, qual conjunto de elementos participa da determinação do GM experimental descrita no material?",
+    "category": "Estabilidade — Experiência de Estabilidade",
+    "options": [
+      "Peso móvel e seu deslocamento transversal, deflexão do pêndulo, comprimento do pêndulo e dados de KM/deslocamento.",
+      "Somente KG e KM obtidos antes da experiência.",
+      "Somente calado a vante e porte bruto.",
+      "Somente densidade da água e comprimento do navio."
+    ],
+    "correct": 0,
+    "explanation": "A experiência combina a inclinação produzida pelo peso e a deflexão medida com os dados hidrostáticos."
+  },
+  {
+    "type": "gap",
+    "question": "Na convenção transversal do material, o afastamento para bombordo é considerado ________.",
+    "category": "Estabilidade — Distribuição Transversal de Pesos",
+    "options": [],
+    "correct": "negativo",
+    "explanation": "Bombordo recebe sinal negativo."
+  },
+  {
+    "type": "gap",
+    "question": "O ponto Gv é denominado centro de gravidade ________ do navio devido ao efeito de superfície livre.",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [],
+    "correct": "virtual",
+    "explanation": "Gv é o centro de gravidade virtual."
+  },
+  {
+    "type": "gap",
+    "question": "Quando o somatório dos momentos transversais é igual a zero, o navio está ________.",
+    "category": "Estabilidade — Distribuição Transversal de Pesos",
+    "options": [],
+    "correct": "adriçado",
+    "explanation": "Somatório nulo corresponde ao navio adriçado."
+  },
+  {
+    "type": "gap",
+    "question": "A banda permanente associada ao GM inicial igual a zero ocorre no chamado ângulo de ________.",
+    "category": "Estabilidade — GM Zero",
+    "options": [],
+    "correct": "indiferença",
+    "explanation": "Esse é o nome dado ao ângulo limite da estabilidade indiferente."
+  },
+  {
+    "type": "tf",
+    "question": "Para corrigir GM negativo, o material recomenda completar todos os tanques parcialmente cheios antes de iniciar as demais providências possíveis.",
+    "category": "Estabilidade — Procedimento de Correção",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Eliminar as superfícies livres é colocado como primeiro passo."
+  },
+  {
+    "type": "tf",
+    "question": "Durante a correção de GM negativo, o material recomenda iniciar o lastro pelo bordo oposto à banda porque o momento transversal produzido reduz imediatamente a banda sem riscos.",
+    "category": "Estabilidade — Procedimento de Lastro",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material afirma exatamente o contrário: esse procedimento é errado e muito perigoso."
+  },
+  {
+    "type": "mc",
+    "question": "Um tanque parcialmente cheio provoca efeito de superfície livre. Se o navio aderna, a força da gravidade passa a atuar segundo qual vertical, conforme o modelo apresentado?",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "A vertical que passa por G'.",
+      "A vertical que passa obrigatoriamente pelo M original.",
+      "A vertical que passa pelo centro geométrico do tanque, independentemente do líquido.",
+      "A vertical que passa por B antes da inclinação."
+    ],
+    "correct": 0,
+    "explanation": "Com a mudança do CG efetivo para G', a força da gravidade passa pela vertical de G'."
+  },
+  {
+    "type": "mc",
+    "question": "Sem considerar a mudança do CG causada pela superfície livre, o braço de adriçamento seria GZ. Após considerar o efeito, o material utiliza qual braço?",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "G'Z'.",
+      "GvZ apenas quando GM é negativo.",
+      "BZ' exclusivamente.",
+      "MG'."
+    ],
+    "correct": 0,
+    "explanation": "O braço efetivo após a superfície livre é representado por G'Z'."
+  },
+  {
+    "type": "mc",
+    "question": "Na descrição do material, o momento de adriçamento após considerar superfície livre também sofre qual alteração em relação ao caso sem essa correção?",
+    "category": "Estabilidade — Superfície Livre",
+    "options": [
+      "Torna-se menor, acompanhando a redução do braço de adriçamento.",
+      "Torna-se necessariamente maior.",
+      "Permanece sempre igual, pois o deslocamento não muda.",
+      "Passa necessariamente a ser negativo."
+    ],
+    "correct": 0,
+    "explanation": "A redução do braço G'Z' implica redução do momento de adriçamento."
+  }
+]

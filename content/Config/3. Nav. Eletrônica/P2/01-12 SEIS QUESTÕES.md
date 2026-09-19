@@ -1,3 +1,6 @@
+___
+
+
 **2. Diferencie LPS, VTS e VTMIS**
 
 O LPS geralmente utiliza comunicação VHF e não necessita ser autorizada pela Autoridade Marítima e não segue padrões internacionais definidos. O VTS adiciona: radar, AIS e CCTV para monitoramento ativo; pessoal certificado (VTSO/VTSS); serviços INS, TOS e NAS; capacidade de intervenção para evitar colisões. O VTMIS integra ainda dados logísticos portuários, planejamento de berços e troca de dados com agências externas.

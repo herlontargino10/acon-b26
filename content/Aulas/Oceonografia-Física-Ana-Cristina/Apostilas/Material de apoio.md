@@ -1,1 +1,2 @@
 - [01 - Estudo dos Oceanos](01_Estudo_dos_Oceanos.pdf)
+- [02 - Estudo das Marés ](02_Maré.pdf)
