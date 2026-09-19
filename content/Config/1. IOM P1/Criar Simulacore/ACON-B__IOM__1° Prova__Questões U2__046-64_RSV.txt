@@ -1,0 +1,38 @@
+#separator:tab
+#html:false
+O que significa RSV no contexto das embarcações offshore?	ROV Support Vessel.
+Quais são as principais atividades de um RSV relacionadas aos ativos submarinos?	Inspeções, instalações e manutenções de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.
+Que apoio um RSV pode prestar ao lançamento de dutos?	Pode prestar apoio ao lançamento de dutos.
+Quais são algumas características de um RSV destacadas no material?	ROV, sistema hidro acústico, guindastes/guinchos de grande capacidade e A-Frame.
+O que pode existir nos guindastes ou guinchos de grande capacidade de um RSV?	Eles podem ter anti-heeling.
+Para que o ROV é utilizado em trabalhos que seriam realizados por mergulhadores?	Para realizar trabalhos em profundidades ou situações que não são possíveis de serem realizados por mergulhadores.
+Que tipos de intervenções em estruturas submarinas podem ser realizadas com ROV?	Inspeções e intervenções em dutos, linhas de ancoragem, poços, cascos, entre outros.
+Quais operações específicas podem ser realizadas com ROV segundo o material?	Dragagem, corte, medição de potencial eletroquímico, aperto de parafusos e conexões de flanges.
+Para que o ROV pode ser usado em situações de avarias, incidentes ou acidentes?	Para investigação, contenção de avarias e reparos de naturezas diversas.
+Que apoio o ROV pode dar em operações com âncoras?	Pode dar apoio às operações com manuseio de âncoras.
+Quais pontos operacionais são destacados nas operações com ROV a bordo do RSV?	Comunicação entre a tripulação e a equipe de operações/ROV, POB maior, fiscalização do cliente e complexidade das operações DP.
+O que é um ROV?	É um robô de operação remota.
+Quais sistemas e recursos são destacados no ROV?	Sistema de câmeras, PRS, sonar e autonomia de controle para uso de ferramentas.
+O que o cabo de conexão do ROV transporta?	Eletricidade, telemetria, sensores e sinais.
+Que controles são atribuídos ao ROV no material?	Controle de lastro e propulsão.
+O que é o Tether de um ROV?	É o cabo secundário, mais fino, que conecta o ROV ao TMS.
+Quais são as principais funções do Tether?	Transmitir energia elétrica, permitir o controle remoto do ROV, reduzir a influência da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.
+Por que o Tether é importante para a mobilidade do ROV?	Ele confere mobilidade fina, ideal para inspeção e intervenções subsea.
+O que é o TMS?	É o Tether Management System, responsável por gerenciar, armazenar e controlar o tether.
+A que o TMS conecta o tether?	O tether conecta o ROV ao sistema principal de lançamento por meio do gerenciamento feito pelo TMS.
+O que a garagem do ROV pode ter?	Pode ter TMS ou não ter TMS.
+O que a garagem com TMS abriga?	Abriga o tambor do tether.
+Quais são as funções do TMS Top-hat?	Armazenar o tether em um pequeno tambor interno, pagar e recolher o tether, reduzir o esforço no ROV e melhorar a estabilidade.
+Como o TMS Top-hat reduz o esforço no ROV?	Sem ele, o ROV teria que puxar todo o peso do umbilical principal.
+Como o TMS Top-hat melhora a estabilidade?	Diminuindo a influência da corrente e a tensão excessiva.
+Como é o TMS do tipo gaiola?	É o modelo mais comum, com estrutura semelhante a uma gaiola metálica.
+Quais são as funções do TMS do tipo gaiola?	Proteger o ROV durante a descida e a subida e funcionar como ponto intermediário entre o umbilical principal e o ROV.
+O que é um AOV?	É o Autonomous Observation Vehicle, um veículo submarino autônomo sem cabo umbilical.
+Para que o AOV é usado principalmente?	Para inspeções visuais, coleta de dados ambientais, mapeamento e reconhecimento.
+Como o AOV se diferencia do ROV quanto à forma de operação?	O AOV navega de forma programada ou semi-autônoma, enquanto o ROV é pilotado em tempo real.
+Quais são as principais características do AOV destacadas no material?	Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões pré-programadas e tem foco em observação.
+Como são definidas as missões do AOV?	Por rotas definidas antes do lançamento.
+O que significa USV no exemplo de operação remota apresentado?	Unmanned Surface Vehicle.
+O que significa MASS no exemplo apresentado?	Maritime Autonomous Surface Ships.
+Qual exemplo de operação remota com ROV é citado no material?	Em março de 2025, o USV/MASS Fugro Vaquita, no Campo de Garoupa – BC, com ROVe elétrico.
+Quanto tempo durou o teste citado para o ROVe elétrico em Rio das Ostras?	9 meses.

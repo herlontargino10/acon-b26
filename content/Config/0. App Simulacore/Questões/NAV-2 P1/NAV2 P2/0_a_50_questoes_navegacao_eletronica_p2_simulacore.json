@@ -1,0 +1,441 @@
+[
+  {
+    "type": "mc",
+    "question": "Em uma área portuária, o serviço de acompanhamento do tráfego utiliza VHF, radar, AIS e CCTV, conta com pessoal certificado e pode intervir na operação do tráfego. Considerando a estrutura descrita no material, qual sistema corresponde a essa configuração?",
+    "category": "Navegação — VTS/VTMIS",
+    "options": [
+      "LPS, pois utiliza comunicação VHF sem necessidade de integração de sensores",
+      "VTS, pois reúne sensores, pessoal certificado e serviços de tráfego com capacidade de intervenção",
+      "VTMIS, pois qualquer sistema com AIS e radar já integra necessariamente dados logísticos",
+      "LPS, pois a utilização de CCTV caracteriza apenas comunicação local entre embarcações"
+    ],
+    "correct": 1,
+    "explanation": "O VTS acrescenta radar, AIS, CCTV, pessoal certificado e serviços INS, TOS e NAS ao acompanhamento do tráfego."
+  },
+  {
+    "type": "mc",
+    "question": "Uma autoridade pretende ampliar um sistema de gerenciamento de tráfego para integrar, além dos recursos de acompanhamento marítimo, informações logísticas portuárias, planejamento de berços e troca de dados com agências externas. Qual configuração corresponde ao objetivo?",
+    "category": "Navegação — VTS/VTMIS",
+    "options": [
+      "LPS, por concentrar a comunicação entre embarcações por VHF",
+      "VTS, por acrescentar radar, AIS e CCTV ao serviço de comunicação",
+      "VTMIS, por integrar dados operacionais marítimos e informações logísticas portuárias",
+      "SOTDMA, por coordenar automaticamente os intervalos de transmissão das embarcações"
+    ],
+    "correct": 2,
+    "explanation": "O VTMIS amplia o VTS ao integrar dados logísticos portuários, planejamento de berços e troca de dados com agências externas."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação transmite continuamente informações de nome, MMSI e dimensões, enquanto também transmite posição, velocidade e rumo. Como essas informações devem ser classificadas no AIS?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Nome, MMSI e dimensões são dados dinâmicos; posição, velocidade e rumo são dados estáticos",
+      "Nome, MMSI e dimensões são dados de viagem; posição, velocidade e rumo são dados estáticos",
+      "Nome, MMSI e dimensões são dados estáticos; posição, velocidade e rumo são dados dinâmicos",
+      "Ambos os grupos são dados de viagem, pois são transmitidos durante a navegação"
+    ],
+    "correct": 2,
+    "explanation": "Dados estáticos são permanentes, como nome e MMSI; dados dinâmicos variam com o movimento, como posição, velocidade e rumo."
+  },
+  {
+    "type": "mc",
+    "question": "Ao analisar uma mensagem AIS de uma embarcação, o oficial identifica destino, ETA e calado, mas não encontra informações sobre posição instantânea. Em qual categoria se enquadram os dados observados?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Dados estáticos, porque permanecem associados à identificação da embarcação",
+      "Dados dinâmicos, porque são utilizados durante a navegação",
+      "Dados de viagem, porque representam informações do percurso atual",
+      "Dados de posicionamento, porque permitem determinar a posição tridimensional"
+    ],
+    "correct": 2,
+    "explanation": "Destino, ETA e calado são exemplos de dados de viagem transmitidos pelo AIS."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma situação de tráfego intenso, o AIS precisa permitir que diversas embarcações transmitam sem depender de uma estação central para distribuir os intervalos. Qual função do SOTDMA atende diretamente a essa necessidade?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Integrar informações logísticas portuárias às mensagens de viagem",
+      "Alocar automaticamente intervalos de transmissão entre as embarcações",
+      "Determinar a posição da embarcação por trilateração de satélites",
+      "Comparar ecos fixos de terra com a posição indicada pelo GPS"
+    ],
+    "correct": 1,
+    "explanation": "O SOTDMA permite a alocação automática dos intervalos de transmissão, evitando interferências sem estação de controle central."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os critérios de obrigatoriedade apresentados no material, qual embarcação está enquadrada na exigência de utilização do AIS?",
+    "category": "Navegação — AIS",
+    "options": [
+      "Navio em viagem internacional com arqueação bruta de 250 GT",
+      "Navio em viagem internacional com arqueação bruta de 350 GT",
+      "Embarcação que não realiza viagens internacionais e possui 350 GT",
+      "Embarcação de carga em viagem internacional com arqueação bruta de 200 GT"
+    ],
+    "correct": 1,
+    "explanation": "O material estabelece obrigatoriedade para navios em viagens internacionais com arqueação bruta superior a 300 GT."
+  },
+  {
+    "type": "tf",
+    "question": "No AIS, nome, MMSI, tipo e dimensões da embarcação pertencem à categoria de dados estáticos, enquanto posição, velocidade e rumo pertencem à categoria de dados dinâmicos.",
+    "category": "Navegação — AIS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material classifica nome, MMSI, tipo e dimensões como estáticos e posição, velocidade e rumo como dinâmicos."
+  },
+  {
+    "type": "tf",
+    "question": "O SOTDMA depende de uma estação de controle central para distribuir os intervalos de transmissão entre as embarcações participantes do AIS.",
+    "category": "Navegação — AIS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material indica que o SOTDMA permite a alocação automática dos intervalos sem estação de controle central."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma navegação, o oficial utiliza o ECDIS como principal sistema de apresentação cartográfica. Para manter a segurança operacional, qual combinação de limitações apresentada no material justifica não utilizá-lo como único meio de navegação?",
+    "category": "Navegação — ECDIS",
+    "options": [
+      "Possibilidade de falha do sistema e ocorrência de erros humanos de configuração",
+      "Ausência de dados estáticos do AIS e impossibilidade de receber mensagens VHF",
+      "Dependência exclusiva de radar e impossibilidade de utilizar cartas eletrônicas",
+      "Necessidade de substituir o GPS por sistemas de referência ópticos"
+    ],
+    "correct": 0,
+    "explanation": "O material aponta como dois motivos as falhas do sistema e os erros humanos de configuração."
+  },
+  {
+    "type": "mc",
+    "question": "Ao avaliar uma ENC antes de utilizá-la para apoiar a navegação, o oficial verifica a indicação de Zone of Confidence (ZoC). O que essa informação permite avaliar?",
+    "category": "Navegação — ECDIS",
+    "options": [
+      "A qualidade e a precisão dos dados hidrográficos da área representada",
+      "A velocidade e o rumo transmitidos pela embarcação através do AIS",
+      "A disponibilidade de intervalos de transmissão definidos pelo SOTDMA",
+      "A distância relativa entre duas embarcações durante uma operação offshore"
+    ],
+    "correct": 0,
+    "explanation": "As ZoC indicam a qualidade e a precisão dos dados hidrográficos de cada área da carta eletrônica."
+  },
+  {
+    "type": "mc",
+    "question": "Um ECDIS integrado ao radar ARPA apresenta ecos fixos de terra sobre a carta eletrônica. O oficial percebe uma diferença entre a posição indicada pelo sistema e a referência terrestre. Qual é a principal finalidade dessa sobreposição segundo o material?",
+    "category": "Navegação — ECDIS",
+    "options": [
+      "Avaliar a precisão do posicionamento GPS e identificar possíveis erros de posição ou da carta",
+      "Determinar automaticamente o ETA e o destino informado pela embarcação",
+      "Distribuir intervalos de transmissão para os alvos identificados pelo radar",
+      "Substituir a carta eletrônica por informações provenientes exclusivamente do radar"
+    ],
+    "correct": 0,
+    "explanation": "A sobreposição de ecos fixos de terra permite verificar a precisão do posicionamento GPS e identificar possíveis erros de posição ou da própria carta."
+  },
+  {
+    "type": "mc",
+    "question": "Uma ENC precisa ser distribuída para revendedores após passar por verificação independente de conformidade com os padrões da IHO. Qual entidade exerce essa função segundo o material?",
+    "category": "Navegação — ECDIS",
+    "options": [
+      "RENCS",
+      "VTS",
+      "SOTDMA",
+      "CCTV"
+    ],
+    "correct": 0,
+    "explanation": "O material informa que as ENCs são distribuídas por meio das RENCs, organizações sem fins lucrativos que verificam a conformidade das ENCs."
+  },
+  {
+    "type": "mc",
+    "question": "Ao preparar a documentação cartográfica para utilização no ECDIS em conformidade com a Regra V da SOLAS, qual padrão de carta eletrônica é indicado pelo material?",
+    "category": "Navegação — ECDIS",
+    "options": [
+      "S-57",
+      "SOTDMA",
+      "VTMIS",
+      "DARPS"
+    ],
+    "correct": 0,
+    "explanation": "O material indica o padrão S-57 como o padrão ENC que atende aos requisitos da IMO para o ECDIS."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o material, a atualização das cartas ENC no ECDIS pode ser realizada por mídia removível, sendo necessária a aplicação da atualização pelo usuário.",
+    "category": "Navegação — ECDIS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa afirmação corresponde ao conteúdo apresentado no item sobre atualização das cartas ENC."
+  },
+  {
+    "type": "mc",
+    "question": "Um oficial utiliza o ECDIS conectado ao piloto automático e passa a considerar que o acompanhamento humano da derrota deixou de ser necessário. Qual aspecto da integração está sendo interpretado incorretamente?",
+    "category": "Navegação — ECDIS",
+    "options": [
+      "A rota planejada pode ser fornecida ao controle automático do leme, mas isso não elimina o monitoramento humano",
+      "O piloto automático recebe apenas dados estáticos do AIS e não pode utilizar uma rota planejada",
+      "O ECDIS substitui todas as funções do AIS quando conectado ao piloto automático",
+      "A integração impede que a rota planejada seja utilizada pelo controle automático do leme"
+    ],
+    "correct": 0,
+    "explanation": "O material indica que o ECDIS pode fornecer a rota planejada ao controle automático do leme, mas não elimina a necessidade de monitoramento humano."
+  },
+  {
+    "type": "tf",
+    "question": "A integração do ECDIS com o piloto automático permite fornecer a rota planejada para o controle automático do leme, mas não elimina a necessidade de monitoramento humano da derrota.",
+    "category": "Navegação — ECDIS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A integração auxilia o controle automático, mas o material não sustenta a eliminação do monitoramento humano."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma operação de posicionamento dinâmico, um sistema utiliza um guincho de tensão constante conectado a um peso no fundo. Sensores acompanham a inclinação do cabo para fornecer dados de posição ao sistema DP. Qual sistema de referência está sendo descrito?",
+    "category": "Navegação — Posicionamento Dinâmico",
+    "options": [
+      "Taut Wire",
+      "DARPS",
+      "CyScan",
+      "FanBeam"
+    ],
+    "correct": 0,
+    "explanation": "No Taut Wire, um cabo tensionado ligado a um peso no fundo tem seu ângulo monitorado por sensores para fornecer dados de posição ao DP."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma operação offshore, o sistema de posicionamento precisa fornecer alta precisão relativa entre duas embarcações durante o offloading. Qual combinação tecnológica corresponde ao DARPS descrito no material?",
+    "category": "Navegação — Posicionamento Dinâmico",
+    "options": [
+      "GPS e rádio UHF",
+      "Laser e sensores de inclinação",
+      "Radar ARPA e CCTV",
+      "VHF e SOTDMA"
+    ],
+    "correct": 0,
+    "explanation": "O DARPS combina GPS com rádio UHF para fornecer posicionamento relativo de alta precisão entre duas embarcações."
+  },
+  {
+    "type": "mc",
+    "question": "Duas embarcações offshore utilizam sistemas de referência de posição diferentes. Um mede alcance e rumo por laser, enquanto o outro emprega micro-ondas para medir distância e ângulo. Qual identificação corresponde corretamente aos sistemas?",
+    "category": "Navegação — Posicionamento Dinâmico",
+    "options": [
+      "CyScan utiliza laser; Artemis utiliza micro-ondas",
+      "Artemis utiliza laser; CyScan utiliza micro-ondas",
+      "DARPS utiliza laser; Taut Wire utiliza micro-ondas",
+      "FanBeam utiliza micro-ondas; DARPS utiliza laser"
+    ],
+    "correct": 0,
+    "explanation": "O material diferencia o CyScan pela tecnologia laser e o Artemis pelo uso de micro-ondas."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação offshore necessita de um sistema de referência baseado em tecnologia laser. O material apresenta dois sistemas nessa categoria. Qual alternativa contém somente esses sistemas?",
+    "category": "Navegação — Posicionamento Dinâmico",
+    "options": [
+      "CyScan e FanBeam",
+      "DARPS e Artemis",
+      "Taut Wire e DARPS",
+      "Artemis e SOTDMA"
+    ],
+    "correct": 0,
+    "explanation": "O material identifica CyScan e FanBeam como sistemas de referência de posição baseados em tecnologia laser."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma operação de posicionamento dinâmico, o sistema precisa manter automaticamente posição e rumo enquanto compensa efeitos externos. De acordo com o material, qual elemento é necessário para fornecer ao DP as informações de posição?",
+    "category": "Navegação — Posicionamento Dinâmico",
+    "options": [
+      "Um conjunto de sistemas de referência de posição",
+      "Um conjunto exclusivo de dados estáticos do AIS",
+      "Somente os dados logísticos do VTMIS",
+      "Somente a rota armazenada no ECDIS"
+    ],
+    "correct": 0,
+    "explanation": "O material afirma que o sistema DP depende de um conjunto de sistemas de referência de posição."
+  },
+  {
+    "type": "mc",
+    "question": "O serviço TOS está sendo utilizado dentro de uma área VTS na qual o fluxo de embarcações precisa ser regulado para reduzir situações de congestionamento e risco. Qual finalidade corresponde ao TOS?",
+    "category": "Navegação — VTS/VTMIS",
+    "options": [
+      "Organizar e regular o fluxo de tráfego marítimo",
+      "Transmitir dados estáticos de identificação pelo AIS",
+      "Determinar a posição por trilateração de satélites",
+      "Atualizar automaticamente as cartas ENC"
+    ],
+    "correct": 0,
+    "explanation": "O TOS tem como objetivo organizar e regular o fluxo de tráfego marítimo, prevenindo congestionamentos, separações e colisões."
+  },
+  {
+    "type": "mc",
+    "question": "Uma prova apresenta os três serviços principais prestados pelo VTS e solicita a identificação do conjunto completo. Qual alternativa corresponde ao material?",
+    "category": "Navegação — VTS/VTMIS",
+    "options": [
+      "Informação, organização de tráfego e assistência à navegação",
+      "Informação, posicionamento dinâmico e atualização cartográfica",
+      "Organização de tráfego, SOTDMA e assistência à navegação",
+      "Assistência à navegação, logística portuária e comunicação VHF"
+    ],
+    "correct": 0,
+    "explanation": "O material apresenta como serviços do VTS: informação, organização de tráfego e assistência à navegação."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação necessita transmitir informações para aumentar a segurança marítima, permitindo o intercâmbio automático de identidade, posição, curso e velocidade por rádio VHF. Qual sistema atende diretamente a essa finalidade?",
+    "category": "Navegação — AIS",
+    "options": [
+      "AIS",
+      "VTMIS",
+      "Taut Wire",
+      "ECDIS"
+    ],
+    "correct": 0,
+    "explanation": "O AIS permite a troca automática de informações como identidade, posição, curso e velocidade por sinais de rádio VHF."
+  },
+  {
+    "type": "tf",
+    "question": "O objetivo principal do AIS apresentado no material está relacionado ao aumento da segurança marítima, à prevenção de colisões e ao auxílio no monitoramento do tráfego.",
+    "category": "Navegação — AIS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material relaciona diretamente o AIS ao aumento da segurança marítima, à prevenção de colisões e ao monitoramento do tráfego."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma navegação em mar aberto, uma autoridade pretende ampliar o monitoramento para além do alcance navio-navio utilizando satélites em órbita baixa que recebem os sinais AIS e os retransmitem para estações terrestres. Qual solução corresponde à descrição?",
+    "category": "Navegação — AIS",
+    "options": [
+      "SAT-AIS",
+      "SOTDMA",
+      "TOS",
+      "RENCS"
+    ],
+    "correct": 0,
+    "explanation": "O material descreve o SAT-AIS como solução para monitoramento global em mar aberto por meio de satélites em órbita baixa."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o material, o SAT-AIS utiliza satélites em órbita baixa para receber sinais de embarcações e retransmiti-los a estações terrestres, permitindo monitoramento global em mar aberto.",
+    "category": "Navegação — AIS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a função atribuída ao SAT-AIS no material."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o dia, uma embarcação fundeada precisa apresentar a marca correspondente à sua condição. Qual elemento deve ser exibido segundo o material?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Uma esfera preta",
+      "Duas esferas pretas em linha vertical",
+      "Duas luzes circulares encarnadas em linha vertical",
+      "Uma luz circular encarnada sobre uma esfera preta"
+    ],
+    "correct": 0,
+    "explanation": "O material especifica que, durante o dia, uma embarcação fundeada exibe uma esfera preta."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação encontra-se sem governo. Considerando a sinalização indicada no material, qual combinação corresponde à condição durante a noite e à marca diurna?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Duas luzes circulares encarnadas em linha vertical e duas esferas",
+      "Duas luzes circulares verdes em linha vertical e duas esferas",
+      "Uma luz branca circular e uma esfera preta",
+      "Duas luzes de bordo e uma luz de alcançado, sem marca correspondente"
+    ],
+    "correct": 0,
+    "explanation": "O material indica duas luzes circulares encarnadas em linha vertical e, como marca, duas esferas."
+  },
+  {
+    "type": "mc",
+    "question": "Ao estudar o GNSS, um aluno afirma que a posição é obtida simplesmente pela direção de um único satélite. Qual alternativa descreve corretamente o princípio apresentado no material?",
+    "category": "Navegação — GNSS",
+    "options": [
+      "O receptor utiliza sinais de pelo menos quatro satélites, mede tempos de propagação e calcula distâncias para determinar posição tridimensional e tempo",
+      "O receptor utiliza exclusivamente sinais AIS de uma embarcação próxima para determinar sua posição tridimensional",
+      "O receptor calcula a posição a partir da inclinação de um cabo ligado a um peso no fundo",
+      "O receptor determina a posição comparando ecos fixos de terra exclusivamente com dados do radar ARPA"
+    ],
+    "correct": 0,
+    "explanation": "O material descreve o GNSS como um processo de trilateração com sinais de pelo menos quatro satélites, usando tempos de propagação e distâncias."
+  },
+  {
+    "type": "tf",
+    "question": "No princípio de funcionamento apresentado, o GNSS utiliza sinais de pelo menos quatro satélites e calcula as distâncias a partir do tempo de propagação para determinar a posição tridimensional e o tempo exato.",
+    "category": "Navegação — GNSS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa descrição corresponde ao princípio de trilateração apresentado no material."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a preparação da navegação, o oficial consulta uma publicação destinada a divulgar alterações e informações de segurança que devem ser incorporadas às cartas e publicações náuticas. Qual é a finalidade dessa publicação?",
+    "category": "Navegação — Avisos aos Navegantes",
+    "options": [
+      "Manter cartas e publicações náuticas atualizadas",
+      "Distribuir intervalos de transmissão do AIS",
+      "Determinar a posição relativa entre embarcações offshore",
+      "Controlar automaticamente o leme por meio da rota do ECDIS"
+    ],
+    "correct": 0,
+    "explanation": "Os Avisos aos Navegantes divulgam alterações e informações de segurança para manter cartas e publicações náuticas atualizadas."
+  },
+  {
+    "type": "tf",
+    "question": "Os Avisos aos Navegantes têm como finalidade divulgar alterações e informações de segurança utilizadas para manter atualizadas as cartas e publicações náuticas.",
+    "category": "Navegação — Avisos aos Navegantes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A afirmação reproduz a função atribuída aos Avisos aos Navegantes no material."
+  },
+  {
+    "type": "mc",
+    "question": "Uma questão de prova apresenta três sistemas e pede a associação entre cada um e sua característica principal. Qual alternativa faz as três associações corretamente?",
+    "category": "Navegação — Sistemas Integrados",
+    "options": [
+      "AIS — intercâmbio automático de informações; ECDIS — apresentação cartográfica eletrônica; DP — manutenção automática de posição e rumo",
+      "AIS — manutenção automática de posição; ECDIS — transmissão VHF; DP — atualização das cartas ENC",
+      "AIS — planejamento de berços; ECDIS — posicionamento relativo offshore; DP — classificação dos dados de viagem",
+      "AIS — medição por cabo tensionado; ECDIS — comunicação VHF; DP — distribuição das ENCs aos revendedores"
+    ],
+    "correct": 0,
+    "explanation": "Cada associação da alternativa correta corresponde à função apresentada para AIS, ECDIS e DP no material."
+  },
+  {
+    "type": "mc",
+    "question": "Um sistema local utiliza comunicação VHF, mas não possui autorização da Autoridade Marítima nem padrões internacionais definidos. Ao compará-lo com VTS e VTMIS, qual identificação corresponde ao sistema descrito?",
+    "category": "Navegação — VTS/VTMIS",
+    "options": [
+      "LPS",
+      "VTS",
+      "VTMIS",
+      "SAT-AIS"
+    ],
+    "correct": 0,
+    "explanation": "O material caracteriza o LPS pela comunicação VHF, sem autorização da Autoridade Marítima e sem padrões internacionais definidos."
+  }
+]

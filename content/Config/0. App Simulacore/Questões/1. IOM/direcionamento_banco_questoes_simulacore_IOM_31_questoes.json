@@ -1,0 +1,393 @@
+[
+  {
+    "type": "mc",
+    "question": "Durante a análise de uma área com potencial para produção de hidrocarbonetos, observa-se uma grande depressão da crosta onde se acumularam e se comprimiram camadas de sedimentos. Qual relação com a ocorrência de petróleo e gás natural é compatível com essa característica?",
+    "category": "Petróleo e Gás — Bacias Sedimentares",
+    "options": [
+      "A bacia sedimentar constitui uma depressão onde podem se acumular sedimentos e matéria orgânica associada à formação de petróleo e gás natural.",
+      "A bacia sedimentar é uma estrutura metálica destinada a armazenar petróleo produzido antes do seu transporte para terra.",
+      "A bacia sedimentar corresponde exclusivamente à região onde o gás natural é separado do petróleo durante a produção.",
+      "A bacia sedimentar é uma unidade flutuante empregada para perfuração em águas profundas e ultraprofundas."
+    ],
+    "correct": 0,
+    "explanation": "O material caracteriza a bacia sedimentar como uma grande depressão onde se acumulam sedimentos e que pode conter recursos orgânicos associados à formação de petróleo e gás natural."
+  },
+  {
+    "type": "mc",
+    "question": "Ao comparar a composição básica do petróleo com a do gás natural, qual afirmação está de acordo com o material?",
+    "category": "Petróleo e Gás — Hidrocarbonetos",
+    "options": [
+      "O petróleo é constituído basicamente por hidrocarbonetos, enquanto o gás natural é uma mistura de hidrocarbonetos cuja composição vai do metano ao hexano.",
+      "O petróleo é constituído exclusivamente por metano, enquanto o gás natural é formado principalmente por carbono sólido e hidrogênio.",
+      "O petróleo é formado apenas por hidrocarbonetos gasosos, enquanto o gás natural corresponde ao petróleo em estado líquido.",
+      "O petróleo e o gás natural possuem exatamente a mesma composição e diferem apenas pelo local onde são encontrados."
+    ],
+    "correct": 0,
+    "explanation": "O material define o petróleo como uma mistura de hidrocarbonetos e o gás natural como uma mistura cuja composição vai do metano ao hexano, podendo estar livre ou associada ao óleo."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma inspeção de uma instalação offshore, são identificados hidrocarbonetos em diferentes estados físicos. Qual associação está de acordo com o material?",
+    "category": "Petróleo e Gás — Estados Físicos",
+    "options": [
+      "Gasoso — gás natural; líquido — petróleo ou óleo cru; sólido/viscoso — betume ou asfalto.",
+      "Gasoso — petróleo bruto; líquido — gás natural; sólido/viscoso — metano.",
+      "Gasoso — betume; líquido — metano; sólido/viscoso — petróleo bruto.",
+      "Gasoso — asfalto; líquido — metano; sólido/viscoso — gás natural."
+    ],
+    "correct": 0,
+    "explanation": "O material apresenta exemplos de hidrocarbonetos nos estados gasoso, líquido e sólido/viscoso, respectivamente gás natural, petróleo/óleo cru e betume/asfalto."
+  },
+  {
+    "type": "tf",
+    "question": "A classificação das plataformas quanto à fixação distingue unidades fixas, móveis e flutuantes, sendo que as unidades fixas permanecem estacionárias e são fixadas ao fundo.",
+    "category": "Plataformas Offshore — Classificação",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material diferencia as unidades fixas como estruturas estacionárias fixadas ao fundo, em contraste com móveis e flutuantes."
+  },
+  {
+    "type": "mc",
+    "question": "Uma operação será realizada em lâmina d'água superior a 1.500 m. Considerando a classificação apresentada no material, qual grupo de unidades é indicado para esse cenário?",
+    "category": "Plataformas Offshore — Águas Profundas",
+    "options": [
+      "Unidades flutuantes, como semissubmersíveis, navios-sonda e FPSOs.",
+      "Somente plataformas fixas, por permanecerem rigidamente apoiadas no fundo.",
+      "Somente plataformas móveis, pois unidades flutuantes não podem operar em grandes profundidades.",
+      "Apenas unidades fixas e móveis, excluindo FPSOs e semissubmersíveis."
+    ],
+    "correct": 0,
+    "explanation": "O material indica unidades flutuantes para águas profundas, acima de 1.500 m, incluindo semissubmersíveis, navios-sonda e FPSOs."
+  },
+  {
+    "type": "mc",
+    "question": "Uma plataforma semissubmersível está operando em determinada locação sem utilizar um sistema convencional de ancoragem. Qual condição permite manter sua posição?",
+    "category": "Plataformas Offshore — Posicionamento Dinâmico",
+    "options": [
+      "Operação em DP, utilizando propulsão para manter o posicionamento da unidade.",
+      "Utilização do rolo de popa para manter a plataforma presa ao fundo.",
+      "Utilização da coroa de Barbotin para substituir integralmente o sistema de propulsão.",
+      "Utilização do turret para transformar a semissubmersível em uma unidade fixa."
+    ],
+    "correct": 0,
+    "explanation": "O material afirma que uma semissubmersível pode operar em DP, utilizando propulsão para manter o posicionamento sem depender de ancoragem."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma operação offshore, uma unidade precisa produzir, armazenar e transferir petróleo e gás e, ao mesmo tempo, operar como unidade flutuante em águas profundas e ultraprofundas. Qual unidade corresponde a essa descrição?",
+    "category": "Plataformas Offshore — FPSO",
+    "options": [
+      "FPSO, por reunir produção, armazenamento e transferência em uma unidade flutuante.",
+      "PSV, por realizar produção e armazenamento de petróleo em seus tanques de carga.",
+      "RSV, por utilizar ROVs para armazenar o petróleo produzido.",
+      "DSV, por utilizar câmaras hiperbáricas como sistema principal de armazenamento."
+    ],
+    "correct": 0,
+    "explanation": "O material caracteriza o FPSO como um navio-plataforma capaz de produzir, armazenar e transferir petróleo e gás, adequado a águas profundas e ultraprofundas."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a operação de um FPSO ancorado, qual é a principal consequência funcional do turret para o comportamento do navio e dos risers?",
+    "category": "FPSO — Turret",
+    "options": [
+      "Permite ao FPSO girar 360° e se alinhar aos ventos e correntes, reduzindo picos de tensão nos risers e amarras.",
+      "Permite ao FPSO deslocar-se livremente para outra locação sem necessidade de desatracação.",
+      "Substitui os risers por cabos de aço e impede qualquer movimento de rotação do casco.",
+      "Atua como equipamento de recolhimento de óleo, reduzindo a necessidade de barreiras de contenção."
+    ],
+    "correct": 0,
+    "explanation": "O turret articula e ancora o FPSO, permitindo sua rotação de 360° para alinhamento ambiental e redução dos picos de tensão nos risers e amarras."
+  },
+  {
+    "type": "tf",
+    "question": "A função de uma OSRV pode incluir combate a incêndio, resgate de náufragos e reboque de emergência, além das atividades relacionadas à contenção e recolhimento de poluição.",
+    "category": "Embarcações Offshore — OSRV",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material deixa explícito que a atuação da OSRV não se limita à contenção de poluição."
+  },
+  {
+    "type": "mc",
+    "question": "Uma empresa pretende utilizar uma embarcação equipada com ROV para inspeção e intervenção submarina. Qual conclusão está de acordo com o material?",
+    "category": "Embarcações Offshore — ROV/AOV",
+    "options": [
+      "O RSV é especializado nessa atividade, mas PLSVs, AHTSs, DSVs e USVs também podem utilizar ROV/AOV conforme a operação.",
+      "Somente RSVs podem operar ROV/AOV, pois essas atividades são proibidas para qualquer outra embarcação.",
+      "Somente DSVs podem utilizar ROV/AOV, pois veículos submarinos substituem obrigatoriamente os mergulhadores.",
+      "Apenas USVs podem utilizar ROV/AOV, pois unidades tripuladas não podem operar veículos submarinos."
+    ],
+    "correct": 0,
+    "explanation": "O RSV é especializado em operações com ROV/AOV, mas o material cita outras embarcações que também podem utilizar esses equipamentos."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma operação offshore, a atividade envolve mergulho saturado e exposição dos mergulhadores a altas pressões. Qual tipo de embarcação está diretamente associado a esse cenário?",
+    "category": "Embarcações Offshore — DSV",
+    "options": [
+      "DSV, por ser destinada a operações de mergulho, incluindo mergulho saturado.",
+      "PSV, por ser destinada principalmente ao transporte de cargas entre a base e as plataformas.",
+      "OSRV, por concentrar suas operações no recolhimento mecânico de óleo.",
+      "AHTS, por utilizar a coroa de Barbotin para executar operações de mergulho."
+    ],
+    "correct": 0,
+    "explanation": "O material associa o DSV às operações de mergulho e aos riscos de HPNS, hipotermia, embolia e outros riscos."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o manuseio de cabos e amarras na popa de um AHTS, busca-se reduzir atrito e desgaste e facilitar a movimentação de cargas pesadas entre o mar e o convés. Qual equipamento exerce essa função?",
+    "category": "AHTS — Rolo de Popa",
+    "options": [
+      "Rolo de popa, constituído por um rolo cilíndrico de aço instalado transversalmente na popa.",
+      "Coroa de Barbotin, constituída por uma roda dentada destinada a guiar qualquer cabo sem contato com a amarra.",
+      "Turret, destinado a articular o casco e alinhar a embarcação com ventos e correntes.",
+      "Skimmer, destinado a recolher mecanicamente óleo concentrado na superfície do mar."
+    ],
+    "correct": 0,
+    "explanation": "O rolo de popa é descrito como um rolo cilíndrico de aço que reduz atrito e desgaste e facilita o manuseio de cargas, cabos e amarras."
+  },
+  {
+    "type": "mc",
+    "question": "Ao recolher uma amarra, qual componente deve engrenar diretamente nos elos da corrente para realizar a tração e o recolhimento?",
+    "category": "AHTS — Coroa de Barbotin",
+    "options": [
+      "Coroa de Barbotin, uma roda dentada na qual os elos da amarra se encaixam.",
+      "Rolo de popa, cuja superfície cilíndrica engrena nos elos da amarra.",
+      "Turret, cuja articulação transmite diretamente a tração para a corrente.",
+      "Skimmer, cuja bomba hidráulica movimenta mecanicamente os elos da amarra."
+    ],
+    "correct": 0,
+    "explanation": "A coroa de Barbotin é a roda dentada em que os elos da amarra se encaixam para tracionar, recolher ou pagar a corrente."
+  },
+  {
+    "type": "mc",
+    "question": "Qual situação diferencia corretamente o rolo de popa da coroa de Barbotin durante uma operação com amarras?",
+    "category": "AHTS — Rolo de Popa e Barbotin",
+    "options": [
+      "O rolo de popa guia e reduz o atrito, enquanto a coroa de Barbotin engrena nos elos para tracionar a amarra.",
+      "O rolo de popa engrena nos elos para tracionar a corrente, enquanto a coroa de Barbotin apenas reduz o atrito.",
+      "Ambos são rodas dentadas utilizadas exclusivamente para tracionar os elos da amarra.",
+      "Ambos são rolos cilíndricos destinados exclusivamente a reduzir o desgaste dos cabos."
+    ],
+    "correct": 0,
+    "explanation": "O material diferencia o rolo de popa pela função de guia e redução do atrito e a coroa de Barbotin pelo engrenamento e tração da amarra."
+  },
+  {
+    "type": "mc",
+    "question": "Durante um mergulho saturado, por que a câmara hiperbárica deve permanecer pressurizada em condição compatível com a profundidade de trabalho?",
+    "category": "Mergulho — Câmara Hiperbárica",
+    "options": [
+      "Para evitar descompressões diárias e reduzir o risco de doença descompressiva.",
+      "Para permitir que a câmara funcione como um tanque de armazenamento de óleo durante o mergulho.",
+      "Para eliminar completamente os riscos de hipotermia e surdez associados ao mergulho.",
+      "Para permitir que os mergulhadores permaneçam sem qualquer sistema de suporte de vida."
+    ],
+    "correct": 0,
+    "explanation": "A pressão da câmara é mantida equivalente à profundidade de trabalho para evitar descompressões diárias e reduzir o risco de doença descompressiva."
+  },
+  {
+    "type": "tf",
+    "question": "A câmara hiperbárica utilizada no mergulho saturado é descrita como um vaso de pressão estanque e habitável, cuja pressão deve ser mantida equivalente à profundidade de trabalho.",
+    "category": "Mergulho — Câmara Hiperbárica",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a caracterização apresentada no material para a câmara hiperbárica no mergulho saturado."
+  },
+  {
+    "type": "mc",
+    "question": "Um mergulhador está submetido a uma operação de mergulho com possibilidade de exposição a alta pressão. Qual conjunto apresenta exclusivamente riscos ocupacionais citados no material?",
+    "category": "Mergulho — Riscos Ocupacionais",
+    "options": [
+      "Hipotermia, embolia, surdez e alteração na voz.",
+      "Hipotermia, corrosão do casco, falha do radar e alteração na voz.",
+      "Embolia, falha do DP, surdez e perda de amarras.",
+      "Surdez, cavitação de propulsores, hipotermia e falha de comunicação."
+    ],
+    "correct": 0,
+    "explanation": "O material cita hipotermia, embolia, surdez e alteração na voz como riscos ocupacionais dos mergulhadores."
+  },
+  {
+    "type": "mc",
+    "question": "Uma operação exige mergulho saturado com uma estrutura fechada e pressurizada para acesso e transporte dos mergulhadores. Qual equipamento corresponde à descrição?",
+    "category": "Mergulho — Sino de Mergulho e Sinete",
+    "options": [
+      "Sino de mergulho, associado ao mergulho saturado e caracterizado como estrutura fechada e pressurizada.",
+      "Sinete, associado ao mergulho saturado e caracterizado como estrutura fechada e pressurizada.",
+      "Rolo de popa, associado ao mergulho raso e utilizado para acomodar mergulhadores.",
+      "Skimmer, associado ao mergulho saturado e utilizado como câmara de pressão."
+    ],
+    "correct": 0,
+    "explanation": "O material diferencia o sino de mergulho como estrutura fechada e pressurizada usada no mergulho saturado."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma operação de mergulho raso, qual equipamento corresponde à estrutura aberta e não pressurizada mencionada no material?",
+    "category": "Mergulho — Sino de Mergulho e Sinete",
+    "options": [
+      "Sinete, também denominado sardinha, associado ao mergulho raso.",
+      "Sino de mergulho, associado exclusivamente ao mergulho raso e sem necessidade de pressurização.",
+      "Câmara hiperbárica, utilizada como estrutura aberta durante o mergulho raso.",
+      "Turret, utilizado como estrutura aberta para acesso dos mergulhadores ao mar."
+    ],
+    "correct": 0,
+    "explanation": "O sinete, também chamado de sardinha no material, é descrito como estrutura aberta e não pressurizada associada ao mergulho raso."
+  },
+  {
+    "type": "mc",
+    "question": "Após a concentração de uma mancha de óleo por barreiras de contenção, qual equipamento de uma OSRV é empregado para realizar a coleta mecânica do óleo e bombeá-lo para tanques de armazenamento?",
+    "category": "OSRV — Skimmers",
+    "options": [
+      "Skimmer, que recolhe mecanicamente o óleo concentrado e o bombeia para os tanques da embarcação.",
+      "Turret, que recolhe o óleo por meio da rotação do casco e o direciona aos tanques.",
+      "Coroa de Barbotin, que suga o óleo e o transfere para os tanques por meio da amarra.",
+      "Rolo de popa, que separa o óleo da água e realiza seu armazenamento."
+    ],
+    "correct": 0,
+    "explanation": "Os skimmers são equipamentos de recolhimento mecânico do óleo na superfície, bombeando-o para os tanques de armazenamento."
+  },
+  {
+    "type": "tf",
+    "question": "Os skimmers são utilizados para recolher mecanicamente o óleo na superfície do mar, podendo receber o óleo concentrado pelas barreiras de contenção e bombeá-lo para tanques da embarcação.",
+    "category": "OSRV — Skimmers",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa sequência de operação é descrita diretamente no material."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma operação de offloading, o planejamento prevê atuação conjunta do FPSO, do navio aliviador e de um AHTS. Como essa configuração é caracterizada no material?",
+    "category": "Offloading — Comboio",
+    "options": [
+      "Como um comboio, no qual FPSO, Shuttle Tanker e AHTS atuam em apoio mútuo durante a transferência de petróleo.",
+      "Como uma operação exclusiva entre FPSO e PSV, com o AHTS realizando apenas transporte de carga geral.",
+      "Como uma operação de mergulho saturado, na qual o AHTS substitui o navio aliviador.",
+      "Como uma operação de recolhimento de óleo, na qual o FPSO atua como OSRV e o Shuttle Tanker como DSV."
+    ],
+    "correct": 0,
+    "explanation": "O material define o comboio de offloading como a operação conjunta entre FPSO, Navio Aliviador e AHTS."
+  },
+  {
+    "type": "mc",
+    "question": "Durante um offloading, qual pode ser a função do AHTS dentro do comboio descrito no material?",
+    "category": "Offloading — AHTS",
+    "options": [
+      "Permanecer em stand-by ou aplicar tração, prestando suporte à operação.",
+      "Realizar obrigatoriamente o armazenamento de todo o petróleo transferido pelo FPSO.",
+      "Substituir o FPSO na produção e processamento do petróleo durante o offloading.",
+      "Operar exclusivamente como embarcação de mergulho para inspeção dos tanques."
+    ],
+    "correct": 0,
+    "explanation": "O material informa que o AHTS pode ficar em stand-by ou aplicar tração para dar suporte ao offloading."
+  },
+  {
+    "type": "mc",
+    "question": "Qual associação entre tipo de embarcação e função principal está correta segundo o material?",
+    "category": "Embarcações Offshore — Classificação",
+    "options": [
+      "PSV — transporte de carga geral no convés e cargas a granel nos tanques entre a base em terra e as plataformas.",
+      "OSRV — suporte principal a mergulho saturado por meio de câmaras hiperbáricas.",
+      "RSV — transporte de suprimentos a granel como função principal, sem relação com ROV/AOV.",
+      "SDSV — recolhimento mecânico de manchas de óleo como sua principal finalidade."
+    ],
+    "correct": 0,
+    "explanation": "O PSV é definido no material como Platform Supply Vessel, destinado ao apoio e suprimento offshore."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação foi projetada para detectar, conter e recolher manchas de óleo, utilizando radares específicos, barreiras e skimmers. Qual classificação corresponde a essa embarcação?",
+    "category": "Embarcações Offshore — OSRV",
+    "options": [
+      "OSRV — Oil Spill Recovery Vessel.",
+      "RSV — ROV Support Vessel.",
+      "PSV — Platform Supply Vessel.",
+      "SDSV — embarcação de apoio a operações de mergulho."
+    ],
+    "correct": 0,
+    "explanation": "A descrição corresponde à função da OSRV apresentada no material: detecção, contenção e recolhimento de manchas de óleo."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade offshore necessita lançar, operar e recolher ROV/AOV para inspeção, manutenção e intervenção em estruturas submarinas. Qual tipo de embarcação está diretamente associado a essa função?",
+    "category": "Embarcações Offshore — RSV",
+    "options": [
+      "RSV — ROV Support Vessel.",
+      "PSV — Platform Supply Vessel.",
+      "OSRV — Oil Spill Recovery Vessel.",
+      "SDSV — embarcação de apoio ao mergulho humano."
+    ],
+    "correct": 0,
+    "explanation": "O RSV é definido como embarcação de apoio a operações com ROV/AOV, incluindo lançamento, operação e recolhimento."
+  },
+  {
+    "type": "mc",
+    "question": "Uma operação requer suporte de vida para mergulhadores, câmaras hiperbáricas e sistemas de lançamento como sino ou sinete. Qual embarcação atende especificamente a essa descrição?",
+    "category": "Embarcações Offshore — SDSV",
+    "options": [
+      "SDSV, destinada ao apoio a operações de mergulho humano.",
+      "RSV, destinada exclusivamente ao lançamento de ROV/AOV.",
+      "OSRV, destinada principalmente ao recolhimento de óleo na superfície.",
+      "PSV, destinada principalmente ao transporte de carga geral e granéis."
+    ],
+    "correct": 0,
+    "explanation": "O material define a SDSV como embarcação de apoio a operações de mergulho humano, incluindo suporte de vida, câmaras hiperbáricas e sistemas de lançamento."
+  },
+  {
+    "type": "tf",
+    "question": "O fato de o RSV ser especializado em operações com ROV/AOV significa que PLSVs, AHTSs, DSVs e USVs não podem utilizar esses equipamentos em nenhuma circunstância.",
+    "category": "Embarcações Offshore — ROV/AOV",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material afirma que outras embarcações também podem utilizar ROV/AOV conforme a atividade."
+  },
+  {
+    "type": "tf",
+    "question": "Uma semissubmersível pode ser operada sem ancoragem convencional quando utiliza posicionamento dinâmico para manter sua posição por meio de propulsão.",
+    "category": "Plataformas Offshore — Posicionamento Dinâmico",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A operação em DP permite manter a posição sem depender de ancoragem, conforme indicado no material."
+  },
+  {
+    "type": "mc",
+    "question": "Considere as seguintes associações: I — OSRV: recolhimento de óleo; II — RSV: suporte a ROV/AOV; III — SDSV: suporte a mergulho humano; IV — PSV: suprimento offshore. Qual alternativa apresenta somente associações compatíveis com o material?",
+    "category": "Embarcações Offshore — Funções",
+    "options": [
+      "I, II, III e IV.",
+      "I e II apenas.",
+      "II e IV apenas.",
+      "I, III e IV apenas."
+    ],
+    "correct": 0,
+    "explanation": "Todas as quatro associações correspondem às funções descritas no material para OSRV, RSV, SDSV e PSV."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma comparação entre unidades offshore e embarcações de apoio, qual afirmação está tecnicamente compatível com o material?",
+    "category": "Operações Offshore — Integração de Unidades",
+    "options": [
+      "Um FPSO pode atuar na produção, armazenamento e transferência, enquanto um PSV tem função de apoio e suprimento.",
+      "Um PSV realiza produção e armazenamento de petróleo, enquanto um FPSO é utilizado exclusivamente para transporte de suprimentos.",
+      "Um OSRV é empregado principalmente para produção de petróleo, enquanto um FPSO atua apenas no recolhimento de óleo derramado.",
+      "Um DSV tem como função principal transportar carga geral e granéis entre a base e as plataformas."
+    ],
+    "correct": 0,
+    "explanation": "O material diferencia claramente o FPSO pelas funções de produção, armazenamento e transferência e o PSV pelo apoio e suprimento offshore."
+  }
+]

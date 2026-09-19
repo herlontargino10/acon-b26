@@ -1,0 +1,41 @@
+#separator:tab
+#html:false
+O que significa AHTS?	Anchor Handling Tug Supply Vessel.
+Qual foi a origem do AHTS?	Começou como embarcação para manuseio de âncoras nos EUA.
+Por que a tecnologia do AHTS precisou evoluir no Mar do Norte?	Porque eram necessárias operações multitarefas em águas mais profundas, incluindo reboque e manuseio.
+Qual foi o primeiro AHTS lançado pela Smit-Lloyd e em que ano?	O Smit-Lloyd 10, lançado em 1965.
+Como era a concepção do primeiro AHTS da Smit-Lloyd?	Uma concepção de embarcação offshore multipropósito.
+Qual é uma das principais atividades do AHTS no manuseio de âncoras?	Dar suporte às operações de posicionamento, manutenção e retirada de sistemas de ancoragem.
+Quais fatores influenciam o sucesso de uma operação de manuseio de âncora?	Peso da âncora, tipo de solo, equipamento, profundidade e condições.
+O que uma operação de manuseio de âncora pode alterar na embarcação?	A manobrabilidade e a estabilidade da embarcação.
+Como é classificada a atividade de manuseio de âncora quanto à criticidade?	É uma atividade de alta criticidade, com taxas de acidentes e incidentes.
+Qual é uma das atividades de reboque do AHTS?	O cabo do guincho de reboque é ligado à cabresteira da unidade.
+O que é a cabresteira?	É um sistema de amarração composto por dois cabos ou amarras ao qual se talinga um cabo de reboque.
+Como pode ser composta a cabresteira?	Por cabos de aço ou amarras conectados às pernas da unidade.
+Por meio de qual dispositivo a cabresteira pode ser conectada à perna da unidade?	Por um dispositivo chamado smit bracket.
+Onde se unem o pendente e os cabos da cabresteira?	Numa placa triangular denominada monkey plate, triangular plate ou delta plate.
+O que são os horns no AHTS?	São estruturas metálicas robustas instaladas na popa do convés, usadas para guiar e conter cabos e amarras durante operações de manuseio e reboque.
+Qual é a principal função dos horns durante uma operação de reboque?	Evitar que a linha escape lateralmente sob alta carga.
+Como os horns contribuem para a segurança da embarcação?	Ajudam a evitar problemas maiores de estabilidade e o risco de emborcamento.
+Quais características de propulsão e capacidade são citadas para o AHTS?	Propulsão convencional e Bollard pull.
+Quais tipos de guinchos são citados no AHTS?	Guinchos de trabalho/manuseio e guinchos secundários.
+Qual é a função do guincho de trabalho/manuseio?	Posicionar a âncora e fazer o tensionamento.
+Onde fica o guincho de trabalho/manuseio e qual característica de capacidade ele possui?	No convés principal e com maior capacidade de carga.
+Qual é a característica do guincho secundário?	Tem menor força.
+Para que o guincho secundário é geralmente utilizado?	Para estivar cabos de ancoragem, dispostos no sarilho (tambor).
+Para que servem os paios no AHTS?	Para armazenamento de cabos e amarras.
+Quais acessórios de convés são citados entre os principais equipamentos do AHTS?	Shark jaw/Karm fork, pinos de reboque, guide e stop pins, rolo de popa e horn.
+O que são os pinos hidráulicos Guide e Stop?	São pinos do convés principal, acionados remotamente.
+Por que os Guide e Stop pins são importantes para a segurança da força de trabalho no convés?	Porque mantêm o sistema sobre o rolo de popa, evitando que “corram” pelo convés.
+O que é o A-Frame citado no material?	É um tipo de guincho em formato de “A” (pórtico), localizado na popa em embarcações de manuseio.
+Qual é a função do A-Frame?	Facilitar o lançamento e recolhimento de equipamentos.
+O que aparece associado ao Pull-back no material?	SIMOPS: Turret, ROV, Estimulação, PSV, etc.
+Que apoio o AHTS presta a Terminais Oceânicos (T.O.)?	Suporte a operações em terminal oceânico (monoboia) e de transferência de petróleo com aliviadores.
+Que atividade relacionada aos mangotes é atribuída ao AHTS no apoio a Terminais Oceânicos?	Manutenção e inspeções de mangotes.
+Quando a assistência de um AHTS é obrigatória para aliviadores sem DP?	Para aliviadores sem DP, a assistência de um AHTS é obrigatória.
+Quando o AHTS é requerido para aliviadores com DP?	Quando a operação ultrapassa 36 horas ou mediante solicitação do CMT.
+Quais são os principais riscos operacionais citados para o AHTS?	Desgaste de material, falha na comunicação passadiço/convés ou passadiço/plataforma, desgaste de equipamentos do convés, erros de avaliação e pesos suspensos.
+Qual desgaste de material recebe destaque nos riscos operacionais?	Principalmente o desgaste dos cabos de aço, que são submetidos a grandes esforços.
+Que falhas de comunicação são citadas como risco operacional?	Falha na comunicação passadiço/convés ou passadiço/plataforma.
+Por que os equipamentos do convés devem ser considerados nos riscos operacionais?	Porque o desgaste dos equipamentos do convés é um fator de risco.
+Quais fatores de risco humanos ou operacionais são citados além do desgaste de materiais?	Erros de avaliação e pesos suspensos.

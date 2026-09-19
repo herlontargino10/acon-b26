@@ -1,0 +1,842 @@
+[
+  {
+    "type": "mc",
+    "question": "Uma área offshore apresenta uma grande depressão natural da crosta terrestre, onde se acumularam camadas de areia, argila e carbonatos ao longo do tempo. Considerando a definição apresentada no material, qual estrutura está sendo descrita?",
+    "category": "Geologia — Bacias Sedimentares",
+    "options": [
+      "Unidade flutuante, formada por colunas e flutuadores para apoiar operações offshore.",
+      "Bacia oceânica de produção, destinada exclusivamente ao armazenamento de petróleo.",
+      "Plataforma fixa, que corresponde a uma estrutura apoiada sobre camadas de sedimentos.",
+      "Bacia sedimentar, que corresponde a uma depressão onde se acumulam camadas de sedimentos."
+    ],
+    "correct": 3,
+    "explanation": "O material define a bacia sedimentar como uma grande depressão natural da crosta onde se depositam camadas de sedimentos."
+  },
+  {
+    "type": "mc",
+    "question": "Ao avaliar o potencial econômico de uma bacia sedimentar, qual conjunto de recursos está de acordo com o material?",
+    "category": "Geologia — Bacias Sedimentares",
+    "options": [
+      "Somente gás natural e minérios metálicos associados às plataformas offshore.",
+      "Exclusivamente carvão mineral e gás natural, sem possibilidade de ocorrência de petróleo.",
+      "Carvão mineral, hulha, gás natural e petróleo.",
+      "Apenas petróleo e água doce, devido à ausência de outros recursos orgânicos."
+    ],
+    "correct": 2,
+    "explanation": "O material destaca que bacias sedimentares podem conter recursos orgânicos utilizados como fontes de energia, incluindo carvão mineral, hulha, gás natural e petróleo."
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa reúne exclusivamente bacias sedimentares brasileiras citadas no material?",
+    "category": "Geologia — Bacias Brasileiras",
+    "options": [
+      "Campos, Santos e Espírito Santo.",
+      "Campos, Santos e Solimões.",
+      "Santos, Paraná e Espírito Santo.",
+      "Campos, Potiguar e Espírito Santo."
+    ],
+    "correct": 0,
+    "explanation": "As bacias de Campos, Santos e Espírito Santo são as três citadas no material."
+  },
+  {
+    "type": "mc",
+    "question": "A Bacia de Campos é destacada no material principalmente por qual contribuição ao setor offshore brasileiro?",
+    "category": "Geologia — Bacia de Campos",
+    "options": [
+      "Pelo pioneirismo tecnológico brasileiro em águas profundas e ultraprofundas e pela contribuição à consolidação da Petrobras nesse segmento.",
+      "Pela substituição da produção offshore por operações de transporte marítimo de petróleo.",
+      "Pela utilização predominante de unidades autoelevatórias em águas ultraprofundas.",
+      "Pela introdução das primeiras plataformas fixas exclusivamente destinadas à exploração em águas rasas."
+    ],
+    "correct": 0,
+    "explanation": "O material relaciona a Bacia de Campos ao pioneirismo tecnológico em águas profundas e ultraprofundas e à consolidação da Petrobras como líder mundial nesse segmento."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando a localização e a extensão indicadas no material, qual descrição corresponde ao Pré-Sal?",
+    "category": "Petróleo e Gás — Pré-Sal",
+    "options": [
+      "Região de produção exclusivamente em águas rasas entre Espírito Santo e Bahia, com cerca de 800 km de extensão.",
+      "Área petrolífera terrestre entre Rio de Janeiro e São Paulo, com aproximadamente 800 km por 200 km.",
+      "Grande área petrolífera marítima brasileira entre Santa Catarina e Espírito Santo, com cerca de 800 km por 200 km.",
+      "Área marítima concentrada apenas na Bacia de Campos, com extensão aproximada de 200 km por 800 m."
+    ],
+    "correct": 2,
+    "explanation": "O material descreve o Pré-Sal como uma grande área petrolífera marítima entre Santa Catarina e Espírito Santo, com cerca de 800 km por 200 km."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o material, a exploração do Pré-Sal começou em 2005 e suas reservas possuem grande importância para a produção de petróleo do Brasil.",
+    "category": "Petróleo e Gás — Pré-Sal",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material informa 2005 como início da exploração e destaca a importância das reservas para a produção brasileira."
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa apresenta somente operações ou atividades offshore mencionadas no material?",
+    "category": "Operações Offshore — Atividades",
+    "options": [
+      "Transporte ferroviário, mineração terrestre, produção agrícola e defesa exclusivamente em portos.",
+      "Apenas pesca e aquicultura, pois a produção de petróleo ocorre exclusivamente em terra.",
+      "Somente perfuração de poços e armazenamento de petróleo, sem atividades de transporte ou pesquisa.",
+      "Exploração e produção de petróleo e gás, energia eólica offshore, transporte marítimo e pesquisa científica."
+    ],
+    "correct": 3,
+    "explanation": "O material cita exploração e produção de petróleo e gás, energia eólica offshore, transporte marítimo e pesquisa científica, entre várias outras atividades."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade offshore está sendo empregada para apoiar a perfuração e produção de poços, alojar trabalhadores e participar do armazenamento e escoamento da produção. Qual interpretação é compatível com o material?",
+    "category": "Operações Offshore — Unidades e Plataformas",
+    "options": [
+      "As unidades ou plataformas podem funcionar como bases de operações para essas diferentes atividades offshore.",
+      "Toda unidade offshore possui obrigatoriamente como única função a perfuração de poços.",
+      "O alojamento da força de trabalho é incompatível com a função de uma unidade offshore.",
+      "Armazenamento e escoamento são atividades exclusivas de embarcações de apoio, nunca de unidades offshore."
+    ],
+    "correct": 0,
+    "explanation": "O material apresenta as unidades e plataformas como bases para perfuração, produção, alojamento, armazenamento e escoamento."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando a distinção apresentada no material, qual afirmação diferencia corretamente plataforma e unidade?",
+    "category": "Unidades Offshore — Conceitos",
+    "options": [
+      "Plataforma é uma estrutura estacionária, enquanto unidade é a plataforma associada a embarcações móveis.",
+      "Plataforma é sempre uma embarcação móvel, enquanto unidade é necessariamente uma estrutura fixa.",
+      "Plataforma e unidade são termos equivalentes, sem distinção relacionada à mobilidade.",
+      "Unidade é exclusivamente uma estrutura fixa, enquanto plataforma é sempre flutuante."
+    ],
+    "correct": 0,
+    "explanation": "O material diferencia plataforma como estrutura estacionária e unidade como plataforma associada a embarcações móveis."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto corresponde aos principais tipos de unidades offshore apresentados no material?",
+    "category": "Unidades Offshore — Classificação",
+    "options": [
+      "Flutuantes, terrestres, ferroviárias, de apoio e agrícolas.",
+      "Móveis, terrestres, submarinas, portuárias e aéreas.",
+      "Fixas, ferroviárias, aéreas, fluviais e especiais.",
+      "Fixas, móveis, flutuantes, de apoio e especiais."
+    ],
+    "correct": 3,
+    "explanation": "O material apresenta cinco grupos: fixas, móveis, flutuantes, de apoio e especiais."
+  },
+  {
+    "type": "mc",
+    "question": "Uma operação de perfuração exige que a sonda e o alvo estejam fora da mesma reta vertical. Qual classificação de poço corresponde ao cenário?",
+    "category": "Perfuração — Tipos de Poços",
+    "options": [
+      "Poço de completação, pois qualquer desvio vertical ocorre somente após a produção.",
+      "Poço vertical, pois todo poço mantém necessariamente a mesma direção até o alvo.",
+      "Poço direcional, pois a sonda e o alvo não estão na mesma reta vertical.",
+      "Poço de produção, pois a posição do alvo define obrigatoriamente sua finalidade."
+    ],
+    "correct": 2,
+    "explanation": "O material caracteriza o poço direcional pela condição em que a sonda e o alvo não estão na mesma reta vertical."
+  },
+  {
+    "type": "tf",
+    "question": "Em um poço vertical, a sonda e o alvo encontram-se na mesma reta vertical, conforme a classificação apresentada no material.",
+    "category": "Perfuração — Tipos de Poços",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é exatamente a característica atribuída ao poço vertical no material."
+  },
+  {
+    "type": "mc",
+    "question": "Ao término da perfuração, o poço ainda não está preparado para produzir hidrocarbonetos. Qual etapa deve ser realizada para equipá-lo para produção ou injeção de fluidos?",
+    "category": "Perfuração — Completação",
+    "options": [
+      "Offloading, que transfere o fluido do poço diretamente para outra embarcação.",
+      "Completação, que reúne operações destinadas a equipar o poço para produzir hidrocarbonetos ou injetar fluidos.",
+      "Flare, que prepara o poço por meio da queima do gás acumulado.",
+      "Posicionamento dinâmico, que equipa o poço por meio da propulsão da unidade."
+    ],
+    "correct": 1,
+    "explanation": "A completação é definida no material como o conjunto de operações destinado a equipar o poço para produção ou injeção."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a operação de um poço, é necessário controlar a produção ou a injeção de fluidos diretamente na cabeça do poço. Qual equipamento exerce essa função?",
+    "category": "Produção — Árvore de Natal",
+    "options": [
+      "Árvore de Natal, responsável por conter e controlar a produção ou a injeção de fluido no poço.",
+      "Flotel, responsável por controlar a pressão e armazenar o fluido produzido.",
+      "Mesa rotativa, responsável por conter a produção depois do término da perfuração.",
+      "Catraca, responsável por regular a produção e transferir o fluido para o FPSO."
+    ],
+    "correct": 0,
+    "explanation": "O material atribui à Árvore de Natal a função de conter e controlar a produção ou a injeção de fluido no poço."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade opera em uma lâmina d'água de 1.200 m. Segundo a classificação apresentada no material, em qual faixa essa profundidade se enquadra?",
+    "category": "Operações Offshore — Lâmina d'Água",
+    "options": [
+      "Águas rasas, até 400 m.",
+      "Águas profundas, entre 400 e 1.500 m.",
+      "Águas rasas, entre 400 e 1.500 m.",
+      "Águas ultraprofundas, acima de 1.500 m."
+    ],
+    "correct": 1,
+    "explanation": "O material classifica águas profundas como aquelas entre 400 e 1.500 m."
+  },
+  {
+    "type": "mc",
+    "question": "Uma instalação está localizada a 1.700 m de profundidade. Considerando exclusivamente os limites apresentados no material, como essa lâmina d'água deve ser classificada?",
+    "category": "Operações Offshore — Lâmina d'Água",
+    "options": [
+      "Ultraprofundas, pois estão acima de 1.500 m.",
+      "Profundas, pois estão entre 400 e 2.000 m.",
+      "Rasas, pois qualquer profundidade abaixo de 2.000 m é considerada rasa.",
+      "Profundas, pois águas ultraprofundas começam somente a partir de 3.000 m."
+    ],
+    "correct": 0,
+    "explanation": "Segundo o material, águas ultraprofundas são aquelas acima de 1.500 m."
+  },
+  {
+    "type": "tf",
+    "question": "Toda unidade offshore apresentada no material necessariamente executa tanto a perfuração quanto a produção de petróleo e gás.",
+    "category": "Unidades Offshore — Funções",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material afirma explicitamente que nem toda unidade offshore perfura e produz."
+  },
+  {
+    "type": "mc",
+    "question": "Uma plataforma será instalada em águas rasas e precisa permanecer rigidamente fixada ao fundo por meio de estacas ou fundações. Qual unidade corresponde a essa descrição?",
+    "category": "Plataformas Fixas — Jaqueta",
+    "options": [
+      "Jack-up, que permanece integralmente flutuante sem apoiar as pernas no fundo.",
+      "FPSO, que utiliza armazenamento próprio para permanecer rigidamente fixado ao fundo.",
+      "Jaqueta, cuja estabilidade é proporcionada pela fixação rígida ao fundo.",
+      "Spar, cuja estabilidade depende de um corpo cilíndrico vertical e amarras."
+    ],
+    "correct": 2,
+    "explanation": "A jaqueta é descrita como estrutura rígida fixada ao fundo por estacas ou fundações e utilizada em águas rasas."
+  },
+  {
+    "type": "mc",
+    "question": "Uma plataforma fixa do tipo jaqueta está sendo selecionada para uma operação. Qual faixa de profundidade está de acordo com o material?",
+    "category": "Plataformas Fixas — Jaqueta",
+    "options": [
+      "Até 400 m.",
+      "De 400 a 1.500 m.",
+      "Acima de 1.500 m.",
+      "A partir de 3.000 m."
+    ],
+    "correct": 0,
+    "explanation": "O material indica o uso das jaquetas em águas rasas, até 400 m."
+  },
+  {
+    "type": "mc",
+    "question": "Qual característica diferencia uma plataforma fixa de gravidade de uma jaqueta, segundo o material?",
+    "category": "Plataformas Fixas — Gravidade",
+    "options": [
+      "A plataforma de gravidade depende obrigatoriamente de pernas retráteis para se apoiar no fundo.",
+      "A plataforma de gravidade é uma estrutura rígida de concreto ou aço apoiada sobre o próprio peso.",
+      "A plataforma de gravidade utiliza propulsão própria para manter posição durante a produção.",
+      "A plataforma de gravidade permanece suspensa por cabos tensionados sem contato com o fundo."
+    ],
+    "correct": 1,
+    "explanation": "O material caracteriza a plataforma de gravidade como estrutura rígida de concreto ou aço apoiada pelo próprio peso."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o material, plataformas de gravidade podem apresentar resistência ao gelo, sendo citada como exemplo sua utilização no Mar do Norte.",
+    "category": "Plataformas Fixas — Gravidade",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A resistência ao gelo no Mar do Norte é uma característica explicitamente citada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Uma plataforma de gravidade será empregada para perfuração e produção em uma lâmina d'água de 450 m. Considerando os limites apresentados no material, qual conclusão é compatível?",
+    "category": "Plataformas Fixas — Gravidade",
+    "options": [
+      "A profundidade está dentro do limite indicado para plataformas de gravidade, de até 500 m.",
+      "A profundidade exige obrigatoriamente uma plataforma Spar, pois toda unidade acima de 400 m é ultraprofundida.",
+      "A profundidade impede o uso de qualquer plataforma fixa, pois unidades fixas são limitadas a 170 m.",
+      "A profundidade excede o limite indicado, pois plataformas de gravidade são usadas somente até 400 m."
+    ],
+    "correct": 0,
+    "explanation": "O material indica plataformas de gravidade para águas rasas até 500 m, enquanto 450 m permanece dentro desse limite."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o transporte de uma unidade autoelevatória, o casco permanece flutuante e as pernas podem ser recolhidas. Ao chegar à locação, qual condição proporciona estabilidade durante a operação?",
+    "category": "Unidades Móveis — Jack-up",
+    "options": [
+      "O casco é rigidamente fixado ao fundo por estacas, eliminando a necessidade das pernas.",
+      "A unidade permanece totalmente suspensa por amarras tensionadas, sem contato das pernas com o fundo.",
+      "As pernas retráteis descem até o fundo e se apoiam no leito marinho, enquanto o casco permanece sobre a água.",
+      "A estabilidade é obtida exclusivamente por propulsão em DP, sem apoio das pernas."
+    ],
+    "correct": 2,
+    "explanation": "A Jack-up possui três ou quatro pernas retráteis que se apoiam no leito marinho, proporcionando estabilidade enquanto o casco permanece flutuante."
+  },
+  {
+    "type": "mc",
+    "question": "Qual condição de profundidade e mobilidade corresponde à unidade autoelevatória apresentada no material?",
+    "category": "Unidades Móveis — Jack-up",
+    "options": [
+      "Pode operar até 170 m e pode ser rebocada.",
+      "Pode operar acima de 1.500 m e desloca-se exclusivamente por propulsão própria.",
+      "Opera somente acima de 3.000 m e depende de amarras permanentes.",
+      "Opera até 400 m e permanece permanentemente fixada ao fundo."
+    ],
+    "correct": 0,
+    "explanation": "O material indica uso das autoelevatórias até 170 m e informa que elas podem ser rebocadas."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade móvel será utilizada para perfuração e manutenção de projetos de infraestrutura, como turbinas eólicas e pontes, em profundidades compatíveis com seu projeto. Qual unidade corresponde à descrição?",
+    "category": "Unidades Móveis — Jack-up",
+    "options": [
+      "Spar, utilizada para produção e armazenamento de petróleo em águas ultraprofundas.",
+      "FPSO, utilizada principalmente para armazenamento e transferência de petróleo.",
+      "Jack-up, utilizada para perfuração e manutenção de projetos de infraestrutura.",
+      "Flotel, utilizado principalmente para apoio logístico e hotelaria."
+    ],
+    "correct": 2,
+    "explanation": "O material apresenta a Jack-up como unidade utilizada para perfuração e manutenção de projetos de infraestrutura, como turbinas eólicas e pontes."
+  },
+  {
+    "type": "mc",
+    "question": "Uma operação requer uma unidade cuja principal função seja a perfuração de poços em águas ultraprofundas, a partir de 3.000 m, dispondo de propulsão e torre de perfuração no convés. Qual unidade é adequada?",
+    "category": "Unidades Flutuantes — Navio-Sonda",
+    "options": [
+      "Navio-sonda (Drillship).",
+      "Plataforma de gravidade.",
+      "Jack-up.",
+      "Flotel."
+    ],
+    "correct": 0,
+    "explanation": "O material caracteriza o navio-sonda pela perfuração de poços, operação a partir de 3.000 m e presença de propulsão e torre de perfuração no convés."
+  },
+  {
+    "type": "mc",
+    "question": "Ao comparar o navio-sonda com uma semissubmersível, qual característica do navio-sonda é destacada como limitação no material?",
+    "category": "Unidades Flutuantes — Navio-Sonda",
+    "options": [
+      "Menor estabilidade em mar agitado.",
+      "Impossibilidade de possuir propulsão própria.",
+      "Incapacidade de realizar perfuração de poços.",
+      "Limitação obrigatória a águas rasas de até 400 m."
+    ],
+    "correct": 0,
+    "explanation": "O material aponta menor estabilidade em mar agitado como uma limitação do navio-sonda."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o material, o navio-sonda apresenta alto custo de construção em relação à operação.",
+    "category": "Unidades Flutuantes — Navio-Sonda",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa relação de custo é explicitamente indicada para o navio-sonda."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade flutuante possui colunas ocas ligadas a flutuadores horizontais, mantendo parte da estrutura submersa. Qual unidade está sendo descrita?",
+    "category": "Unidades Flutuantes — Semissubmersível",
+    "options": [
+      "Semissubmersível.",
+      "Spar Buoy.",
+      "Jack-up.",
+      "Plataforma de gravidade."
+    ],
+    "correct": 0,
+    "explanation": "O casco da semissubmersível é formado por colunas ocas ligadas a flutuadores horizontais, mantendo a unidade parcialmente submersa."
+  },
+  {
+    "type": "mc",
+    "question": "Uma semissubmersível precisa manter sua posição em uma locação offshore sem depender necessariamente de ancoragem convencional. Qual alternativa apresenta uma possibilidade prevista no material?",
+    "category": "Unidades Flutuantes — Semissubmersível",
+    "options": [
+      "Permanecer rigidamente presa por estacas, como uma jaqueta.",
+      "Operar em DP utilizando propulsão.",
+      "Apoiar pernas retráteis no fundo, como uma Jack-up.",
+      "Utilizar o próprio peso para se apoiar diretamente no fundo."
+    ],
+    "correct": 1,
+    "explanation": "O material informa que a semissubmersível pode ser ancorada por cabos especiais ou permanecer em DP com propulsão."
+  },
+  {
+    "type": "mc",
+    "question": "Ao comparar a capacidade de armazenamento de uma semissubmersível com a de um FPSO, qual afirmação corresponde ao material?",
+    "category": "Unidades Flutuantes — Semissubmersível",
+    "options": [
+      "A semissubmersível é a unidade especificamente destinada ao armazenamento de toda a produção.",
+      "A semissubmersível possui obrigatoriamente maior armazenamento que o FPSO.",
+      "A semissubmersível possui capacidade de armazenamento menor que a dos FPSOs.",
+      "Ambas possuem exatamente a mesma capacidade de armazenamento."
+    ],
+    "correct": 2,
+    "explanation": "O material afirma que a capacidade de armazenamento da semissubmersível é menor que a dos FPSOs."
+  },
+  {
+    "type": "mc",
+    "question": "Além da perfuração, qual conjunto de utilizações é apresentado para uma semissubmersível no material?",
+    "category": "Unidades Flutuantes — Semissubmersível",
+    "options": [
+      "Produção e apoio, inclusive como flotel.",
+      "Somente transporte de carga e recolhimento de óleo.",
+      "Apenas armazenamento e transferência de petróleo.",
+      "Somente manutenção de pontes e turbinas eólicas."
+    ],
+    "correct": 0,
+    "explanation": "O material indica que a semissubmersível pode realizar perfuração, produção e apoio, como flotel."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade será empregada principalmente para apoio logístico, possuindo propulsão em DP, geração de energia, hotelaria e capacidade de manutenção. Qual unidade corresponde à descrição?",
+    "category": "Unidades Offshore — Flotel",
+    "options": [
+      "Navio-sonda.",
+      "Flotel.",
+      "FPSO.",
+      "Plataforma de gravidade."
+    ],
+    "correct": 1,
+    "explanation": "O material descreve o Flotel como unidade de apoio logístico com DP, geração de energia, hotelaria e capacidade de manutenção."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o material, o Flotel apresenta alto custo de construção em relação à operação.",
+    "category": "Unidades Offshore — Flotel",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa característica de custo é indicada para o Flotel."
+  },
+  {
+    "type": "mc",
+    "question": "Duas unidades flutuantes são descritas como ancoradas por cabos tensionados e com boa estabilidade. Quais são elas?",
+    "category": "Unidades Flutuantes — TLP e Spar",
+    "options": [
+      "PSV e Flotel.",
+      "FPS e FPSO.",
+      "TLP e Spar.",
+      "Jack-up e jaqueta."
+    ],
+    "correct": 2,
+    "explanation": "O material caracteriza TLP e Spar como plataformas flutuantes ancoradas por cabos tensionados e com boa estabilidade."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo o material, uma operação está localizada acima de 1.500 m de profundidade e exige uma unidade adequada às águas profundas ou ultraprofundas. Qual conjunto é citado como adequado?",
+    "category": "Unidades Flutuantes — Águas Profundas",
+    "options": [
+      "Semissubmersível, navio-sonda e Spar.",
+      "Jaqueta, plataforma de gravidade e Jack-up.",
+      "Flotel, PSV e plataforma de gravidade.",
+      "Somente jaqueta e plataforma de gravidade."
+    ],
+    "correct": 0,
+    "explanation": "O material cita semissubmersível, navio-sonda e Spar como unidades adequadas para águas profundas acima de 1.500 m."
+  },
+  {
+    "type": "mc",
+    "question": "Uma plataforma flutuante apresenta corpo cilíndrico vertical, posicionamento por amarras e conexão com risers flexíveis. Qual unidade corresponde a essa descrição?",
+    "category": "Unidades Flutuantes — Spar Buoy",
+    "options": [
+      "Spar Buoy.",
+      "Semissubmersível.",
+      "FPSO.",
+      "Jack-up."
+    ],
+    "correct": 0,
+    "explanation": "O material caracteriza a Spar Buoy por corpo cilíndrico vertical, posicionamento por amarras e conexão com risers flexíveis."
+  },
+  {
+    "type": "mc",
+    "question": "Ao analisar os esforços ambientais sobre uma Spar Buoy, quais forças devem ser consideradas conforme o material?",
+    "category": "Unidades Flutuantes — Spar Buoy",
+    "options": [
+      "Vento, onda e corrente.",
+      "Somente vento e pressão atmosférica.",
+      "Apenas corrente e peso próprio da unidade.",
+      "Somente ondas, pois vento e corrente são desprezíveis."
+    ],
+    "correct": 0,
+    "explanation": "O material cita vento, onda e corrente como forças atuantes sobre a Spar Buoy."
+  },
+  {
+    "type": "mc",
+    "question": "Qual característica distingue a estabilidade de uma semissubmersível da configuração de uma Spar Buoy, segundo o material?",
+    "category": "Unidades Flutuantes — Estabilidade",
+    "options": [
+      "A semissubmersível se mantém estável por lastro em colunas, enquanto a Spar possui corpo cilíndrico vertical e posicionamento por amarras.",
+      "A semissubmersível se apoia pelo próprio peso no fundo, enquanto a Spar utiliza pernas retráteis.",
+      "A semissubmersível utiliza exclusivamente estacas, enquanto a Spar permanece sem qualquer sistema de amarração.",
+      "Ambas possuem exatamente o mesmo sistema de estabilidade e geometria estrutural."
+    ],
+    "correct": 0,
+    "explanation": "O material relaciona a estabilidade da semissubmersível ao lastro em colunas e caracteriza a Spar por seu corpo cilíndrico vertical e amarras."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade de produção flutuante não possui capacidade própria de armazenamento. Qual denominação corresponde a essa característica?",
+    "category": "Produção Offshore — FPS",
+    "options": [
+      "FPS, uma plataforma flutuante de produção sem armazenamento próprio.",
+      "FPSO, um navio-plataforma que necessariamente possui armazenamento.",
+      "Flotel, que possui tanques de armazenamento de petróleo como função principal.",
+      "Spar Buoy, que armazena toda a produção no próprio casco."
+    ],
+    "correct": 0,
+    "explanation": "O material define FPS como plataforma flutuante de produção e ressalta que não possui armazenamento próprio."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma comparação entre duas unidades de produção flutuantes, uma delas possui armazenamento próprio e a outra não. Qual distinção está correta?",
+    "category": "Produção Offshore — FPS e FPSO",
+    "options": [
+      "O FPS possui armazenamento próprio, enquanto o FPSO não possui.",
+      "O FPS não possui armazenamento próprio, enquanto o FPSO possui armazenamento.",
+      "Nenhum dos dois possui armazenamento, pois a produção é sempre transferida diretamente.",
+      "Ambos possuem armazenamento próprio, mas somente o FPSO pode produzir."
+    ],
+    "correct": 1,
+    "explanation": "Essa é a principal diferença entre FPS e FPSO apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade offshore recebe petróleo de poços submarinos, separa os fluidos, armazena o petróleo e posteriormente o transfere para outras embarcações. Qual unidade corresponde ao processo?",
+    "category": "Produção Offshore — FPSO",
+    "options": [
+      "FPSO.",
+      "FPS.",
+      "Jack-up.",
+      "Flotel."
+    ],
+    "correct": 0,
+    "explanation": "O material descreve o FPSO como unidade que recebe petróleo, separa os fluidos, armazena o petróleo e depois o transfere para outras embarcações."
+  },
+  {
+    "type": "mc",
+    "question": "Como o petróleo chega ao FPSO, segundo o processo de produção descrito no material?",
+    "category": "Produção Offshore — FPSO",
+    "options": [
+      "Por cabos tensionados ligados diretamente ao casco.",
+      "Por pernas retráteis conectadas ao leito marinho.",
+      "Por guinchos de lama instalados na torre de perfuração.",
+      "Por dutos flexíveis conectados aos poços submarinos."
+    ],
+    "correct": 3,
+    "explanation": "O material informa que o petróleo chega ao FPSO por dutos flexíveis conectados aos poços submarinos."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o material, os dutos flexíveis que conectam os poços submarinos ao FPSO possuem profundidade média indicada de aproximadamente 2.000 m.",
+    "category": "Produção Offshore — FPSO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A profundidade média indicada no material para esses dutos é de aproximadamente 2.000 m."
+  },
+  {
+    "type": "mc",
+    "question": "Após receber os fluidos provenientes dos poços submarinos, qual sequência corresponde ao funcionamento básico do FPSO apresentado no material?",
+    "category": "Produção Offshore — FPSO",
+    "options": [
+      "Armazenamento, produção de gás, reboque do FPSO e posterior separação dos fluidos.",
+      "Recebimento, perfuração de novos poços, descarte do petróleo e armazenamento em terra.",
+      "Recebimento, separação dos fluidos, armazenamento do petróleo e transferência para outras embarcações.",
+      "Separação, perfuração, lançamento de pernas e transferência direta para o fundo do mar."
+    ],
+    "correct": 2,
+    "explanation": "Essa é a sequência básica apresentada para o funcionamento do FPSO."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma unidade FPSO, o petróleo já processado precisa permanecer armazenado até a chegada de uma embarcação para transportá-lo. Onde o armazenamento ocorre?",
+    "category": "Produção Offshore — FPSO",
+    "options": [
+      "Exclusivamente em um Flotel de apoio logístico.",
+      "No próprio FPSO.",
+      "Obrigatoriamente em uma plataforma fixa próxima ao FPSO.",
+      "Em uma Jack-up posicionada ao lado do FPSO."
+    ],
+    "correct": 1,
+    "explanation": "O material informa que o petróleo permanece armazenado no próprio FPSO até ser transferido para outras embarcações."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a finalidade do flare em um FPSO, conforme a descrição apresentada no material?",
+    "category": "Produção Offshore — FPSO",
+    "options": [
+      "Conduzir e queimar gás, principalmente em situações de excesso de gás ou parada do processamento.",
+      "Bombear óleo concentrado para tanques durante uma operação de contenção.",
+      "Manter o posicionamento do FPSO por meio da propulsão durante a produção.",
+      "Armazenar petróleo líquido durante a transferência para o navio aliviador."
+    ],
+    "correct": 0,
+    "explanation": "O flare conduz e queima o gás, sendo utilizado principalmente em situações de excesso de gás ou parada do processamento."
+  },
+  {
+    "type": "tf",
+    "question": "O flare de um FPSO é destinado principalmente ao armazenamento de petróleo excedente antes da transferência para outras embarcações.",
+    "category": "Produção Offshore — FPSO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material define o flare como sistema usado para conduzir e queimar gás, não para armazenar petróleo."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma revisão dos principais componentes de um navio-sonda, qual conjunto contém somente itens citados no material?",
+    "category": "Navio-Sonda — Estrutura e Equipamentos",
+    "options": [
+      "Câmara hiperbárica, sinete, barreiras de contenção e guincho de amarra.",
+      "Flare, riser flexível, pernas retráteis e hotelaria.",
+      "Turret, skimmer, coroa de Barbotin e rolo de popa.",
+      "Bloco de coroamento, catraca, gancho e cabeça de injeção."
+    ],
+    "correct": 3,
+    "explanation": "Bloco de coroamento, catraca, gancho e cabeça de injeção são itens listados no material entre os componentes do navio-sonda."
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa apresenta outro conjunto de equipamentos explicitamente citado como parte da estrutura de um navio-sonda?",
+    "category": "Navio-Sonda — Estrutura e Equipamentos",
+    "options": [
+      "Guincho, mesa rotativa e bombas de lama.",
+      "Skimmers, barreiras e tanques de óleo.",
+      "Turret, amarras e risers flexíveis.",
+      "Pernas retráteis, flutuadores horizontais e colunas ocas."
+    ],
+    "correct": 0,
+    "explanation": "O material cita guincho, mesa rotativa e bombas de lama entre os itens da estrutura de um navio-sonda."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma revisão dos conceitos básicos de petróleo, qual composição corresponde ao petróleo conforme o material?",
+    "category": "Petróleo e Gás — Petróleo",
+    "options": [
+      "Mistura de compostos químicos orgânicos chamados hidrocarbonetos, formados por carbono e hidrogênio.",
+      "Mistura formada exclusivamente por água, carbono e oxigênio, sem compostos de hidrogênio.",
+      "Substância constituída somente por metano e hexano, sem outros hidrocarbonetos.",
+      "Mistura de minerais metálicos dissolvidos em água e formada predominantemente por oxigênio."
+    ],
+    "correct": 0,
+    "explanation": "O material define o petróleo como uma mistura de compostos orgânicos chamados hidrocarbonetos, formados por carbono e hidrogênio."
+  },
+  {
+    "type": "mc",
+    "question": "Uma amostra de gás natural é analisada quanto à sua composição. Qual descrição está de acordo com o material?",
+    "category": "Petróleo e Gás — Gás Natural",
+    "options": [
+      "É uma mistura de hidrocarbonetos cuja composição vai do metano ao hexano e pode estar livre ou associada ao óleo.",
+      "É constituída somente por petróleo líquido vaporizado e não pode ocorrer associada ao óleo.",
+      "É formada apenas por hidrocarbonetos sólidos e viscosos, como betume e asfalto.",
+      "É uma mistura exclusivamente de carbono e hidrogênio na forma sólida, sem possibilidade de fase gasosa."
+    ],
+    "correct": 0,
+    "explanation": "O material descreve o gás natural como mistura de hidrocarbonetos do metano ao hexano, podendo estar livre ou associado ao óleo."
+  },
+  {
+    "type": "mc",
+    "question": "Uma classificação dos hidrocarbonetos precisa considerar seu estado físico. Qual alternativa reproduz corretamente os exemplos apresentados no material?",
+    "category": "Petróleo e Gás — Hidrocarbonetos",
+    "options": [
+      "Gasoso: óleo cru; líquido: asfalto; sólido: metano.",
+      "Gasoso: betume; líquido: asfalto natural; sólido: gás natural.",
+      "Gasoso: petróleo bruto; líquido: gás natural; sólido: óleo cru.",
+      "Gasoso: gás natural; líquido: petróleo/óleo cru; sólido ou viscoso: betume/asfalto."
+    ],
+    "correct": 3,
+    "explanation": "O material apresenta gás natural como exemplo gasoso, petróleo/óleo cru como líquido e betume/asfalto como sólido ou viscoso."
+  },
+  {
+    "type": "mc",
+    "question": "Uma unidade será escolhida para uma operação em águas ultraprofundas. Considerando a classificação por fixação apresentada no material, qual tipo é indicado?",
+    "category": "Unidades Offshore — Classificação",
+    "options": [
+      "Unidade flutuante, como semissubmersível, navio-sonda ou FPSO.",
+      "Plataforma fixa, obrigatoriamente apoiada por estacas no fundo.",
+      "Unidade móvel autoelevatória, limitada a 170 m no material.",
+      "Plataforma fixa de gravidade, indicada no material para águas rasas."
+    ],
+    "correct": 0,
+    "explanation": "O material indica unidades flutuantes para águas profundas acima de 1.500 m, incluindo semissubmersíveis, navios-sonda e FPSOs."
+  },
+  {
+    "type": "mc",
+    "question": "Um FPSO está ancorado por um sistema que permite ao navio girar 360° e se alinhar às condições ambientais. Qual componente exerce essa função?",
+    "category": "Produção Offshore — Turret",
+    "options": [
+      "Flare, sistema destinado à queima de gás durante excesso de gás ou parada do processamento.",
+      "Rolo de popa, destinado a reduzir atrito e desgaste de cabos e amarras.",
+      "Turret, sistema de articulação e ancoragem ligado ao casco do FPSO.",
+      "Coroa de Barbotin, destinada a engrenar nos elos da amarra."
+    ],
+    "correct": 2,
+    "explanation": "O material descreve o turret como sistema de articulação e ancoragem que permite ao FPSO girar 360°, alinhando-se aos ventos e correntes."
+  },
+  {
+    "type": "tf",
+    "question": "O turret de um FPSO contribui para reduzir picos de tensão nos risers e nas amarras ao permitir que o navio se alinhe aos ventos e correntes.",
+    "category": "Produção Offshore — Turret",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa função do turret é explicitamente indicada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação precisa transportar carga geral no convés e cargas a granel em tanques entre uma base em terra e plataformas offshore. Qual embarcação corresponde à função descrita?",
+    "category": "Embarcações de Apoio — PSV",
+    "options": [
+      "RSV.",
+      "SDSV.",
+      "PSV.",
+      "OSRV."
+    ],
+    "correct": 2,
+    "explanation": "O PSV é descrito no material como embarcação de apoio e suprimento offshore, transportando carga geral e cargas a granel."
+  },
+  {
+    "type": "mc",
+    "question": "Após um derramamento de óleo, uma embarcação emprega radares específicos, barreiras e skimmers para detectar, conter e recolher a mancha. Qual tipo de embarcação está sendo empregado?",
+    "category": "Embarcações de Apoio — OSRV",
+    "options": [
+      "OSRV.",
+      "PSV.",
+      "RSV.",
+      "DSV."
+    ],
+    "correct": 0,
+    "explanation": "O material caracteriza o OSRV como embarcação de recolhimento de óleo, utilizando radares, barreiras e skimmers."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação apoia o lançamento, a operação e o recolhimento de ROV/AOV para inspeção e intervenção em estruturas submarinas. Qual classificação corresponde à embarcação?",
+    "category": "Embarcações de Apoio — RSV",
+    "options": [
+      "PSV.",
+      "RSV.",
+      "SDSV.",
+      "OSRV."
+    ],
+    "correct": 1,
+    "explanation": "O RSV é a embarcação especializada em apoio a operações com ROV/AOV, conforme o material."
+  },
+  {
+    "type": "mc",
+    "question": "Uma operação exige suporte de vida, câmaras hiperbáricas e sistemas de lançamento para mergulho humano. Qual embarcação está diretamente associada a essa função?",
+    "category": "Embarcações de Apoio — SDSV",
+    "options": [
+      "SDSV.",
+      "RSV.",
+      "PSV.",
+      "OSRV."
+    ],
+    "correct": 0,
+    "explanation": "O SDSV presta apoio a operações de mergulho humano, incluindo suporte de vida, câmaras hiperbáricas e sistemas de lançamento."
+  },
+  {
+    "type": "mc",
+    "question": "Uma operação de mergulho envolve exposição a altas pressões e riscos como HPNS, hipotermia e embolia. Em qual embarcação esse tipo de atividade é mais diretamente associado no material?",
+    "category": "Embarcações de Apoio — DSV",
+    "options": [
+      "DSV.",
+      "AHTS.",
+      "PSV.",
+      "OSRV."
+    ],
+    "correct": 0,
+    "explanation": "O material associa o DSV às operações de mergulho, incluindo mergulho saturado e exposição aos riscos mencionados."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o manuseio de cabos e amarras na popa de um AHTS, qual componente tem a função de reduzir atrito e desgaste e facilitar a movimentação de cargas pesadas entre o mar e o convés?",
+    "category": "Embarcações de Apoio — AHTS",
+    "options": [
+      "Coroa de Barbotin.",
+      "Turret.",
+      "Rolo de popa.",
+      "Skimmer."
+    ],
+    "correct": 2,
+    "explanation": "O rolo de popa é descrito como um rolo cilíndrico de aço que guia cabos e amarras, reduzindo atrito e desgaste."
+  },
+  {
+    "type": "mc",
+    "question": "Em um AHTS, é necessário tracionar e recolher uma amarra cujos elos precisam se encaixar mecanicamente no equipamento de manuseio. Qual componente desempenha essa função?",
+    "category": "Embarcações de Apoio — Coroa de Barbotin",
+    "options": [
+      "Turret.",
+      "Coroa de Barbotin.",
+      "Rolo de popa.",
+      "Flare."
+    ],
+    "correct": 1,
+    "explanation": "A coroa de Barbotin é uma roda dentada na qual os elos da amarra se encaixam para tracionar, recolher ou pagar a corrente."
+  },
+  {
+    "type": "mc",
+    "question": "Qual situação diferencia corretamente o rolo de popa da coroa de Barbotin durante o manuseio de amarras?",
+    "category": "Embarcações de Apoio — Equipamentos de Manuseio",
+    "options": [
+      "Ambos são rolos cilíndricos destinados exclusivamente a reduzir desgaste dos cabos.",
+      "O rolo engrena nos elos para movimentar a corrente; a coroa apenas guia cabos sem contato com a amarra.",
+      "O rolo guia cabos e amarras reduzindo atrito; a coroa engrena nos elos para movimentar a corrente.",
+      "Ambos são rodas dentadas destinadas exclusivamente a recolher correntes."
+    ],
+    "correct": 2,
+    "explanation": "O material diferencia o rolo de popa pela função de guia e redução de atrito e a coroa de Barbotin pelo engrenamento nos elos."
+  },
+  {
+    "type": "mc",
+    "question": "Durante um mergulho saturado, qual condição da câmara hiperbárica é necessária segundo o material?",
+    "category": "Mergulho — Câmara Hiperbárica",
+    "options": [
+      "Deve permanecer aberta e sem pressão para permitir a circulação livre do mergulhador.",
+      "Deve ser pressurizada em pressão equivalente à profundidade de trabalho.",
+      "Deve ser preenchida com água para reproduzir a pressão externa.",
+      "Deve permanecer à pressão atmosférica para acelerar a descompressão diária."
+    ],
+    "correct": 1,
+    "explanation": "A câmara é pressurizada à pressão equivalente à profundidade de trabalho para evitar descompressões diárias e reduzir o risco de doença descompressiva."
+  },
+  {
+    "type": "mc",
+    "question": "Um mergulhador está em operação de mergulho saturado. Qual conjunto apresenta somente riscos ocupacionais citados no material?",
+    "category": "Mergulho — Riscos Ocupacionais",
+    "options": [
+      "Fratura de casco, falha de propulsão, encalhe e colisão.",
+      "Hipotermia, embolia, surdez e alteração na voz.",
+      "Desgaste de amarras, incêndio de flare, vazamento de óleo e falha de guindaste.",
+      "Corrosão, cavitação, perda de estabilidade e sobrecarga elétrica."
+    ],
+    "correct": 1,
+    "explanation": "Esses quatro riscos são explicitamente citados no material como riscos ocupacionais dos mergulhadores."
+  }
+]

@@ -1,0 +1,17 @@
+#separator:tab
+#html:false
+O que é um Navio Sísmico?	É uma embarcação utilizada para pesquisa sísmica marítima e prospecção de O&G nas camadas do substrato marinho.
+Qual é a finalidade da pesquisa sísmica marítima realizada pelo Navio Sísmico?	Realizar a prospecção de O&G nas camadas do substrato marinho.
+Em que velocidade opera o Navio Sísmico?	Em velocidades baixas, de 3 a 4 nós.
+Qual é uma das principais características do Navio Sísmico em relação aos cabos?	Ele realiza o reboque de cabos de 6 km de comprimento.
+Como são identificadas as extremidades dos cabos rebocados pelo Navio Sísmico?	Por boias com luzes nas extremidades dos cabos.
+Que tipo de equipamentos o Navio Sísmico utiliza?	Equipamentos de tecnologia avançada.
+Que tipo de embarcação auxilia o Navio Sísmico?	Uma embarcação “batedora” ou assistente.
+O que as fontes de ar comprimido fazem na operação do Navio Sísmico?	Emitem ondas de baixa frequência que vão até as camadas do substrato marinho e retornam à superfície.
+Como as ondas que retornam à superfície são captadas?	São captadas por hidrofones presos aos cabos.
+Qual é a sequência básica da operação sísmica descrita no material?	Fontes de ar comprimido emitem ondas de baixa frequência; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.
+Com o que a operação do Navio Sísmico é comparada no material?	Com a funcionalidade de radares e sonares.
+O que as imagens geradas pela operação sísmica podem indicar?	Os pontos passíveis de possuir reservas de petróleo e gás.
+Qual é a condição de manobra do Navio Sísmico durante a operação?	É uma operação de manobra restrita.
+Como é feita a comunicação prévia formal para a operação do Navio Sísmico?	Por Aviso aos Navegantes e via VHF.
+Qual é a função da embarcação “batedora” ou assistente?	Fornecer assistência com suprimentos e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.

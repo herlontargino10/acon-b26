@@ -1,0 +1,35 @@
+#separator:tab
+#html:false
+O que significa DSV?	Diving Support Vessel.
+Qual é a principal finalidade de um DSV?	Dar apoio logístico e técnico às operações de mergulho.
+Que tipos de mergulho podem ser apoiados por um DSV?	Mergulho raso ou profundo.
+Qual é a faixa de comprimento indicada para os DSV?	De 50 a 150 m.
+Quantas pessoas podem estar a bordo de um DSV (POB)?	O POB pode chegar a 200 pessoas.
+Quais são as principais características de um DSV?	Câmara hiperbárica, sino ou sinete, compressores de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.
+Quais operações são realizadas com apoio de um DSV?	Inspeções, manutenções, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.
+Qual é a profundidade máxima indicada para o mergulho saturado no material?	350 m.
+Como é descrito o confinamento no mergulho saturado?	20 dias entre câmara, sino e mar.
+Quanto tempo diário é indicado para a preparação física e psicológica da equipe no mergulho saturado?	8 h por dia.
+Por que o mergulho saturado envolve isolamento em câmara hiperbárica?	Porque a operação envolve altas pressões e confinamento entre câmara, sino e mar.
+Quais riscos são associados ao mergulho saturado?	Ataque de vida marinha, altas pressões, exposição a predadores e doenças cumulativas.
+Quais consequências à saúde são citadas para o mergulho saturado?	Surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e HPNS.
+O que significa HPNS no contexto do material?	Síndrome neurológica das altas pressões.
+Qual é a profundidade indicada para o mergulho raso?	Até 50 m.
+Quais riscos são citados no mergulho raso?	Contato com predadores, ações de corrente, fadiga e defeito de equipamentos.
+Como pode ser fornecido o ar comprimido no mergulho raso?	Por equipamento autônomo ou dependente.
+Que embarcação de apoio é citada para o mergulho raso?	Barco de apoio (LDB).
+Qual é a função do sino no apoio aos mergulhadores?	Suprir ar aos mergulhadores e transportá-los até o local de trabalho, além de fornecer água de arrefecimento.
+Quais tipos de sino são citados no material?	Livre, autônomo e semiautônomo.
+O que é o sinete no contexto do DSV?	Uma alternativa para o barco de apoio.
+Para que serve o sinete segundo o material?	Para transporte até as proximidades do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.
+Que apelido é associado ao sinete no material?	Sardinha.
+Por que a gestão do umbilical é um ponto de atenção principal nas operações com DSV?	Para evitar enroscamento nos propulsores, considerar o raio seguro de trabalho do mergulhador e controlar massa, arrasto hidrodinâmico e tensão.
+O que deve ser feito com a tensão do umbilical durante a operação?	Monitoramento contínuo da tensão com alarmes programados.
+Quais verificações devem ser realizadas antes da operação com o mergulhador?	Inspeções pré-operação e ensaios de recuperação do mergulhador.
+O que deve ser previsto em caso de perda de posição DP durante a operação?	Procedimentos de recuperação do mergulhador.
+Que cuidados são indicados para a câmara hiperbárica?	Regulagem da câmara e controle do tempo de permanência.
+Que verificação é indicada para o bote de trabalho?	Conferência e testes de rotina.
+O que pode acontecer com o umbilical quando há perda de posição e deriva do DSV?	Podem ocorrer picos de tensão, arrasto do mergulhador ou ruptura do sistema de suporte de vida.
+O que pode ocorrer com a perda simultânea dos sistemas de referência (falha de PRS)?	Pode ocorrer passeio do navio, aumento do risco de colisão com estruturas e sobrecarga do umbilical.
+Qual é a consequência de uma falha de energia ou propulsão durante a operação?	A redução da capacidade de manter a posição, podendo exigir a evacuação de emergência do mergulhador.
+Como o erro humano e a comunicação podem afetar uma operação com DP?	Decisões tardias do DPO ou falhas na coordenação com a equipe de mergulho podem atrasar a mitigação e levar a respostas inadequadas aos alarmes DP e à recuperação.

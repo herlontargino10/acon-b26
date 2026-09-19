@@ -1,0 +1,42 @@
+#separator:tab
+#html:false
+O que significa PSV?	Platform Supply Vessel.
+Para que são utilizadas as embarcações PSV?	Para transporte de materiais, suprimentos e pessoas.
+Que tipo de apoio o PSV presta nas atividades Offshore?	Suporte à construção, manutenção e trabalho submarino.
+Por que o PSV requer grandes áreas de convés e tanques?	Para receber granéis líquidos e sólidos.
+Como é feita a transferência de cargas gerais no PSV?	Via guindaste.
+O que deve ser conferido nas operações de carga geral?	As documentações e as cargas, incluindo manifestos e RT's (requisição de transporte).
+O que é Offload?	É a carga que vai da Terra para as Unidades.
+O que é Backload?	É a carga que vai da Unidade para terra.
+O que é Transbordo?	São cargas transferidas entre Unidades.
+Quem realiza e quem aprova o plano de carga do PSV?	O IMT realiza e o CMT aprova.
+O que representa o plano de carga?	A distribuição das cargas ao longo do convés principal.
+O que é considerado no plano de carga em relação à fixação das cargas?	A peação da carga.
+O que deve acompanhar previamente o carregamento?	Uma cópia das documentações das cargas e da programação: Roteiro, RT's e Manifesto de Cargas.
+Quais aspectos devem ser considerados na elaboração do plano de carga?	Estabilidade, ordem de movimentação da carga, alcance do guindaste da U.M., localização do container frigorífico, característica da carga e facilidade de peação.
+O que deve ser considerado sobre a estabilidade na elaboração do plano de carga?	A estabilidade.
+O que deve ser considerado sobre a ordem de movimentação da carga?	A ordem de movimentação da carga.
+O que deve ser verificado sobre a localização da carga em relação ao guindaste?	Se a localização permitirá o alcance do guindaste da U.M.
+Quando a localização do container frigorífico deve ser considerada no plano de carga?	Se houver container frigorífico.
+O que deve ser considerado sobre a característica da carga?	Se é perigosa e a segurança desta.
+Em quais cargas a facilidade de peação merece atenção especial?	Em especial nas cargas cilíndricas e altas.
+Para que os equipamentos e a arquitetura do PSV são adaptados nas operações de carga a granel?	Para contenção, sucção, armazenamento e bombeamento de suprimentos e consumíveis de naturezas diversas.
+As cargas a granel transportadas pelo PSV podem ser de quais tipos?	Líquidas ou sólidas.
+Quais exemplos de cargas a granel são citados no material?	Baritina, O.D., cimento, cascalho, água, bentonita, calcário, metanol e fluidos de perfuração.
+Por que alguns tanques requerem cuidados e limpeza especiais entre operações?	Pela possibilidade de incompatibilidade entre os produtos destinados aos tanques.
+O que deve ser considerado em relação aos produtos nas operações de carga a granel?	A toxicidade dos produtos.
+Qual risco existe para redes e tanques se a carga a granel não for manuseada corretamente?	Risco de petrificar redes e tanques.
+O que deve ser verificado para evitar a petrificação de redes e tanques?	A necessidade de uso de agitadores.
+Como são realizadas as operações de carga a granel?	Por mangotes de carga.
+Quais requisitos os mangotes de carga devem atender?	Devem ser certificados e inspecionados periodicamente.
+Quando alguns produtos podem exigir mangotes exclusivos?	Quando demandarem mangotes exclusivos para seu uso.
+Que cuidado extra pode ser necessário para produtos de alta periculosidade?	Alguns produtos podem demandar cuidados extras; o material cita o metanol, que demanda um sistema de contenção extra com gases inertes — nitrogênio.
+Qual risco ambiental é citado nas operações de carga a granel?	Risco de poluição ambiental.
+Onde deve haver atenção especial ao posicionamento da força de trabalho durante operações com mangotes?	No convés, sobretudo durante conexão, desconexão de mangotes ou quando houver risco de chicoteamento.
+O que deve ser respeitado para evitar acidentes por rompimento do mangote?	Os limites operacionais.
+O que pode acontecer com o mangote em condições adversas?	Um passeio maior da embarcação poderá ocasionar o rompimento ou a desconexão forçada do mangote.
+O que deve ser considerado nas operações com DP?	As diretrizes de DP para aproximações e operações.
+Como deve ser escolhida a aproximação pelo bordo favorável?	Deve-se considerar sempre o melhor bordo de aproximação e, sempre que possível, escolher a aproximação pelo “bordo favorável”.
+O que deve ser considerado no dimensionamento do número de pessoas na atividade?	A quantidade de pessoas no convés, passadiço e máquinas.
+Quais limites devem ser observados durante as operações do PSV?	Os limites operacionais da embarcação e da atividade em curso, além dos limites de carga que o guindaste consegue suportar e da condição de operação deste.
+Quais aspectos são citados como parte da segurança da operação?	Comunicação, posicionamento seguro, isolamento de energia, inspeção de materiais e peação, segregação de carga e SOPEP.

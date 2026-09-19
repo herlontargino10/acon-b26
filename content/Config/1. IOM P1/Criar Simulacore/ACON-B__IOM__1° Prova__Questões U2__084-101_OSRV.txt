@@ -1,0 +1,39 @@
+#separator:tab
+#html:false
+O que significa OSRV?	Oil Spill Recovery Vessel.
+Qual é a principal finalidade do OSRV nas operações apresentadas no material?	Atuar na resposta a derramamentos de óleo e em situações de emergência.
+Quais são as principais etapas apresentadas para uma operação de derramamento de óleo com OSRV?	Identificação, definição do tipo de óleo, confinamento com barreira, remoção com skimmer/equipamento e armazenamento em tanque.
+Para que serve a barreira de contenção em uma operação de derramamento de óleo?	Para confinar o óleo em uma área controlada, permitindo sua remoção.
+Como a barreira pode ser lançada pelo OSRV?	Com ou sem embarcação de apoio, usando o guincho de popa, guindaste ou lançamento manual.
+O que é o Boomvane?	É um acessório utilizado para “abrir” a barreira.
+Como o OSRV deve navegar durante o lançamento da barreira?	Deve navegar devagar enquanto realiza o lançamento.
+Quais estratégias de formação podem ser utilizadas no lançamento da barreira?	Formações em “J”, “U” ou “V”.
+O que é feito depois que o óleo é confinado pela barreira?	Utilizam-se skimmers para remover o óleo da área contida.
+Qual é a função dos skimmers na operação de derramamento de óleo?	Remover, por sucção, a substância nociva da área contida.
+Quais são as três ações destacadas na operação de recuperação de óleo?	Lançamento, sucção e bombeamento.
+Quais equipamentos são apresentados para detecção de manchas de óleo?	Radar, sensores infravermelhos e câmeras ópticas.
+Qual é a função do radar de Banda X na detecção de manchas de óleo?	Identificar a área geral e a direção da mancha por meio do reflexo na superfície do mar.
+Por que o óleo pode ser identificado pelo radar na superfície do mar?	Porque o óleo amortece as ondas do mar, criando áreas mais escuras ou padrões específicos detectáveis pelo radar.
+Qual é a função do infravermelho na detecção de manchas de óleo?	Medir a temperatura e a espessura da mancha, ajudando a identificar seu “espessamento”.
+Por que o infravermelho é importante em operações noturnas ou de baixa visibilidade?	Porque permite identificar a mancha por meio da diferença de absorção da luz solar entre o óleo e a água.
+Como ocorre a integração dos sistemas de detecção de manchas de óleo?	Os dados do radar, infravermelho e câmeras são cruzados para auxiliar o posicionamento da embarcação.
+Quais sistemas são citados como exemplos de integração operacional para detecção de óleo?	Miros Oil Spill Detection e Furuno Oil Radar.
+Qual é a função dos sistemas de detecção integrados no posicionamento da embarcação?	Guiar automaticamente o posicionamento da embarcação em relação à mancha.
+Quais características de segurança são apresentadas para as embarcações OSRV?	Prontidão para respostas à emergência e sistemas blindados para evitar a produção de faíscas.
+Além da recuperação de óleo, quais outras atividades são apresentadas para o OSRV?	Resgate de náufragos e reboque de embarcações à deriva.
+Qual sistema de combate a incêndio pode estar presente no OSRV?	O sistema Fire-Fighting (FiFi), cuja configuração é definida pela classe.
+Quais classes de FiFi são apresentadas no material?	Classes 1, 2 e 3.
+Como é caracterizada a operação FiFi Classe 1?	Tem sistema básico de combate externo, proteção limitada, operação manual ou semiautomática e espuma de baixa expansão.
+Para que tipo de incêndio a FiFi Classe 1 é apresentada?	Incêndios menores.
+Em quais locais a FiFi Classe 1 é apresentada como aplicável?	Terminais portuários.
+Qual é a característica da função FiFi em uma embarcação Classe 1?	A função FiFi é secundária.
+Como é caracterizada a operação FiFi Classe 2?	Tem sistema avançado de combate externo, maior capacidade operacional e operação automática ou semiautomática.
+Que tipo de espuma é utilizada na FiFi Classe 2?	Espuma de baixa expansão de maior capacidade.
+Para que tipo de incêndio a FiFi Classe 2 é apresentada?	Incêndios de médio e grande porte.
+Em quais instalações a FiFi Classe 2 é apresentada como aplicável?	Plataformas offshore, FPSOs e terminais marítimos.
+Como pode ser a função FiFi de uma embarcação Classe 2?	Pode ser função principal ou de apoio especializado em FiFi.
+Como é caracterizada a operação FiFi Classe 3?	Tem sistema de combate de máxima capacidade, alta redundância e operação totalmente automatizada com sistemas redundantes.
+Que característica diferencia a capacidade de espuma da FiFi Classe 3?	Utiliza espuma de baixa expansão de alta capacidade e autonomia prolongada.
+Para que tipo de incêndio a FiFi Classe 3 é apresentada?	Incêndios de grande porte e elevada complexidade.
+Em quais instalações a FiFi Classe 3 é apresentada como aplicável?	Grandes plataformas offshore, FPSOs, terminais de petróleo e instalações de alto risco.
+Qual é a função das embarcações FiFi Classe 3?	São dedicadas ao combate a incêndio, com elevada capacidade de resposta.

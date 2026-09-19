@@ -1,0 +1,68 @@
+#separator:tab
+#html:false
+O que é uma bacia sedimentar?	É uma grande depressão natural da crosta terrestre onde, ao longo dos anos, foram depositadas camadas de sedimentos como areia, argila e carbonatos.
+Por que as bacias sedimentares são importantes economicamente?	Porque podem conter recursos orgânicos usados como fontes de energia, como carvão mineral, hulha, gás natural e petróleo.
+Quais são exemplos de bacias sedimentares no Brasil citados no material?	Bacias de Campos, Santos e Espírito Santo.
+Qual é a importância da Bacia de Campos?	É uma importante bacia sedimentar brasileira, marcada pelo pioneirismo tecnológico brasileiro em águas profundas e ultraprofundas.
+Qual foi uma contribuição da Bacia de Campos para a Petrobras?	Contribuiu para consolidar a Petrobras como uma das líderes mundiais no segmento de águas profundas.
+O que é o Pré-Sal?	É uma grande área petrolífera marítima brasileira, localizada entre Santa Catarina e Espírito Santo.
+Qual é aproximadamente a extensão do Pré-Sal indicada no material?	Cerca de 800 km por 200 km.
+Quando começou a exploração do Pré-Sal?	Em 2005.
+Por que o Pré-Sal é importante para o Brasil?	Porque suas reservas têm grande importância para a produção de petróleo do Brasil.
+Quais tipos de operações ocorrem no offshore?	Exploração e produção de petróleo e gás, energia eólica offshore, transporte marítimo, logística, pesca e aquicultura, produção de alimentos, pesquisa científica e defesa e segurança.
+Para que servem as unidades ou plataformas offshore?	Servem como base de operações para perfuração e produção de poços, produção de petróleo e gás, alojamento da força de trabalho e armazenamento e escoamento da produção.
+Qual é a diferença entre plataforma e unidade?	Plataforma é uma estrutura estacionária; unidade é a plataforma associada a embarcações móveis.
+Quais são os principais tipos de unidades offshore apresentados no material?	Fixas, móveis, flutuantes, de apoio e especiais.
+Quais são os tipos de poços apresentados no material?	Poço vertical e poço direcional.
+O que caracteriza um poço vertical?	A sonda e o alvo estão na mesma reta vertical.
+O que caracteriza um poço direcional?	A sonda e o alvo não estão na mesma reta vertical.
+O que é necessário fazer ao término da perfuração de um poço?	É necessário colocá-lo em condições de produção.
+O que é completação?	É o conjunto de operações destinadas a equipar o poço para produzir hidrocarbonetos ou injetar fluidos.
+Qual é a função da Árvore de Natal?	Conter e controlar a produção ou a injeção de fluido no poço.
+Como são classificadas as lâminas d’água no material?	Águas rasas: até 400 m; águas profundas: de 400 a 1.500 m; águas ultraprofundas: acima de 1.500 m.
+Toda unidade offshore perfura e produz?	Não. Nem toda unidade perfura e produz.
+Quais são as características das plataformas fixas tipo jaqueta?	São estruturas rígidas fixadas no fundo por estacas ou fundações, com estabilidade proporcionada pela fixação.
+Em que profundidade são usadas as jaquetas?	Em águas rasas, até 400 m.
+Para que são utilizadas as jaquetas?	Para perfuração e produção de petróleo e gás.
+Como é caracterizada uma plataforma fixa de gravidade?	É uma estrutura rígida de concreto ou aço apoiada sobre o próprio peso.
+Qual é uma característica das plataformas de gravidade em relação ao ambiente?	Podem apresentar resistência ao gelo, como no Mar do Norte.
+Em que profundidade são usadas as plataformas de gravidade?	Em águas rasas, até 500 m.
+Para que são utilizadas as plataformas de gravidade?	Para perfuração e produção de petróleo e gás.
+Como funciona uma unidade autoelevatória (Jack-up)?	Tem 3 ou 4 pernas retráteis que chegam ao fundo do mar e se apoiam no leito marinho para proporcionar estabilidade, enquanto o casco permanece flutuante sobre a água.
+Até que profundidade as autoelevatórias são utilizadas?	Até 170 m.
+Qual é uma característica de mobilidade das autoelevatórias?	Podem ser rebocadas.
+Para que as autoelevatórias são utilizadas?	Para perfuração e manutenção de projetos de infraestrutura, como turbinas eólicas e pontes.
+Qual é a principal função do navio-sonda (Drillship)?	Perfuração de poços.
+Em que profundidade os navios-sonda podem operar?	Em águas ultraprofundas, a partir de 3.000 m.
+Quais são características estruturais do navio-sonda?	Possui propulsão e torre de perfuração no convés.
+Como é o sistema de perfuração do navio-sonda?	É similar ao das semissubmersíveis.
+Qual é uma limitação do navio-sonda?	Tem menor estabilidade em mar agitado.
+Como é caracterizado o custo do navio-sonda no material?	Apresenta alto custo de construção em relação à operação.
+Como é formado o casco de uma semissubmersível?	Por colunas ocas ligadas a flutuadores horizontais, mantendo a unidade parcialmente submersa.
+Até que profundidade as semissubmersíveis são utilizadas?	Até 3.000 m.
+Como uma semissubmersível pode manter seu posicionamento?	Pode ser ancorada por cabos especiais ou permanecer em DP com propulsão.
+Como é a capacidade de armazenamento da semissubmersível em comparação com o FPSO?	É menor que a dos FPSOs.
+Quais operações podem ser realizadas por uma semissubmersível?	Perfuração, produção e apoio, como flotel.
+Qual é uma característica de custo das semissubmersíveis?	Apresentam alto custo de construção em relação à operação.
+Para que é utilizado um Flotel?	Para apoio logístico.
+Quais são as principais características de um Flotel?	Possui propulsão em DP, geração de energia, hotelaria e capacidade de manutenção.
+Como é caracterizado o custo de um Flotel?	Apresenta alto custo de construção em relação à operação.
+Como são caracterizadas as plataformas TLP e Spar?	São plataformas flutuantes ancoradas por cabos tensionados e apresentam boa estabilidade.
+Quais unidades são adequadas para águas profundas acima de 1.500 m, segundo o material?	Semissubmersível, navio-sonda e Spar.
+Como é caracterizada uma plataforma Spar Buoy?	Tem corpo cilíndrico vertical, posicionamento por amarras e conexão com risers flexíveis.
+Quais forças atuam sobre uma Spar Buoy?	Vento, onda e corrente.
+O que caracteriza uma semissubmersível em relação à estabilidade?	Flutua e se mantém estável por lastro em colunas.
+Para que uma semissubmersível pode ser utilizada?	Para perfuração e produção.
+O que é um FPS?	É uma plataforma flutuante de produção.
+Uma FPS possui armazenamento próprio?	Não. Ao contrário do FPSO, não possui armazenamento próprio.
+Qual é a principal diferença entre FPS e FPSO apresentada no material?	O FPS não possui armazenamento próprio, enquanto o FPSO possui.
+O que é um FPSO?	É um navio-plataforma que pode produzir, armazenar e transferir petróleo e gás.
+Como o petróleo chega ao FPSO?	Por dutos flexíveis conectados aos poços submarinos.
+Qual é a profundidade média indicada para os dutos flexíveis conectados aos poços?	2.000 m.
+Quais são as etapas básicas do funcionamento de um FPSO apresentadas no material?	O petróleo chega a bordo, ocorre a separação dos fluidos, o petróleo é armazenado e depois transferido para outras embarcações.
+O que acontece com os fluidos recebidos pelo FPSO?	Ocorre a separação dos fluidos.
+Onde o petróleo fica armazenado após o processamento no FPSO?	No próprio FPSO.
+Para onde o óleo armazenado no FPSO é transferido?	Para outras embarcações que se aproximam do FPSO para transportá-lo.
+O que é o flare em um FPSO?	É o sistema usado para conduzir e queimar o gás.
+Em quais situações o flare é utilizado?	Principalmente em situações de excesso de gás ou parada do processamento.
+Quais são alguns itens da estrutura de um navio-sonda citados no material?	Bloco de coroamento, catraca, gancho, cabeça de injeção, guincho, mesa rotativa e bombas de lama.
