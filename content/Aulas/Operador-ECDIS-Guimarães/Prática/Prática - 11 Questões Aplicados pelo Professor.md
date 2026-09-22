@@ -8,6 +8,6 @@
 - 6. Inserir 2 pontos de referência.
 - 7. Ativar os vetores do navio.
 - 8. Adquirir alvos no AIS e ARPA e monitorá-los no ECDIS.
-- 9. Configurar o Safety Contour.
+- 9. Configurar o Safety Frame. 
 - 10. Verificar a altura da maré local para a hora de chegada.
 - 11. Enviar uma mensagem AIS para um navio próximo, a fim de realizar experiência com o equipamento.

@@ -1,4 +1,4 @@
-
+____
 
 ### Questão 01 - Carregamento, KG, GM, PB e Estabilidade
 O navio Almirante Tamandaré, para o deslocamento leve de 6.000 t, apresenta KG = 6,30 m e KM = 7,25 m.

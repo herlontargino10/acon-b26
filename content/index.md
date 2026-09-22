@@ -27,7 +27,7 @@ title: Início
 - [[Aulas/Introduções-Embarcações-Offshore-Amanda/Apostilas/Material de apoio|INTRODUÇÃO A EMBARC. OFFSHORE]]
 - [[Aulas/Navegação-2-Paulo-Lima/Apostilas/Material de apoio|NAVEGAÇÃO ELETRÔNICA]]
 - [[Aulas/Oceonografia-Física-Ana-Cristina/Apostilas/Material de apoio|OCEONOGRAFIA FÍSICA]]
-- [[Aulas/Operador-ECDIS-Guimarães/Apostilas/Material de apoio|OPERADOR ECDIS]]
+- [[\Aulas\Operador-ECDIS-Guimarães|OPERADOR ECDIS]]
 
 ## 📅 Cronograma
 

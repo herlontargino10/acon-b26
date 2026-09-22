@@ -173,7 +173,7 @@
 
 -  Configure o **vetor do navio**.
     
-- `Painel de controle / ... / min`
+- `Painel de controle / ... / min` fica ao lado direito, fixo e posso escolher vários minutos. 
     
 
 ### 14. Alterar fuso horário

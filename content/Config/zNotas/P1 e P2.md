@@ -10,6 +10,7 @@ LEG P1 - 9.8
 LEG P1 - 9.7 
 PRN - 8.6 
 EST 1 - 8.0
+EST 1 P2 - 10
 POC - 9.5
 NAV-1 - 9.5
 FIS P1 - 8.4
