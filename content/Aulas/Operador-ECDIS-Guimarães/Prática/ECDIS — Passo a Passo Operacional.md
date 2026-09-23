@@ -81,7 +81,7 @@ Configurações / Settings
 → Ship Parameters
 ````
 
-### Dados
+### Configurar os dados do navio
 
 - Comprimento: **40 m**
 
@@ -239,7 +239,7 @@ Selecionar WP
 Verificar Rota / Check Route
 ```
 
-Conferir se os alarmes gerados não impedem a navegação:
+Conferir se os alarmes gerados não impedem a navegação.
 
 -  Sem áreas rasas
     
@@ -380,6 +380,9 @@ Voltar para a tela principal.
 Os navios deverão aparecer como triângulos.
 
 Selecionar um alvo e verificar seus dados.
+
+
+As configurações funcionam apenas se o AIS não estiver marcado em cor vermelha no menu display. 
 
 ---
 
@@ -573,7 +576,7 @@ Criar uma derrota com:
 5 Way Points
 ```
 
-Monitorar:
+### Route Data — Monitorar dados da derrota
 
 - **CRS**
     
@@ -582,7 +585,18 @@ Monitorar:
 - **BTW**
     
 - **DTX**
-    
+
+**Caminho:**
+
+`Control Panel → Display Panel → Route Data`
+
+**Se não aparecerem os dados da derrota:**
+1. Verificar a opção atualmente selecionada no Display Panel.
+2. Alterar para **Route Data**.
+3. Confirmar a exibição dos dados da derrota.
+
+![[Pasted image 20260922105448.png]]
+
 
 ---
 
