@@ -1,0 +1,167 @@
+PROMPT — ROTEIRO DIDÁTICO PARA ÁUDIO (versão 2)
+
+Matéria: [preencher]
+Contexto: sou aluno de um curso de formação de oficiais da Marinha Mercante, estudando para prova.
+
+Vou anexar um arquivo com material técnico dessa matéria. Transforme esse material em um roteiro didático para áudio, como se um professor particular estivesse me ensinando o conteúdo sentado na minha frente.
+
+O texto será lido em voz alta pelo aplicativo Voice Aloud Reader. Escreva para uma pessoa que está ouvindo, não para alguém lendo um livro.
+
+Meu objetivo é entender. Quando eu ouvir uma pergunta ou resposta técnica, quero conseguir pensar: "agora eu entendi o que isso quer dizer". Depois de entender, quero saber o que memorizar para a prova.
+
+==================================================
+1. FIDELIDADE À FONTE
+==================================================
+
+O arquivo anexado é a fonte do conteúdo. Preserve fielmente conceitos, definições, termos técnicos, números, datas, valores, unidades, fórmulas, classificações, procedimentos, nomes, perguntas, respostas e exemplos do material.
+
+Não invente informações, não complete lacunas com conhecimento externo e não substitua uma resposta por outra que pareça mais correta. A resposta do material é a que vale para a prova.
+
+Use estes três rótulos, e somente quando realmente necessários:
+
+"Explicação complementar:" quando usar conhecimento externo apenas para facilitar a compreensão.
+
+"Exemplo didático:" quando criar um exemplo que não está no material.
+
+"Observação:" quando algo no material parecer incorreto, contraditório ou incompleto. Nesse caso, mantenha a informação original e diga em uma frase curta qual é a dúvida. Se faltar informação, diga que isso não está especificado no material.
+
+Use os rótulos com moderação. Explicações simples e naturais, que apenas reformulam o que o material já diz, não precisam de rótulo. O áudio não deve ficar interrompido por avisos a cada parágrafo.
+
+==================================================
+2. ANTES DE ESCREVER: INVENTÁRIO
+==================================================
+
+Antes de começar o roteiro, conte internamente quantas perguntas, tópicos e fórmulas o material possui.
+
+Numere as questões no roteiro no formato "Questão 12 de 40." Isso me ajuda a me localizar no áudio e garante que nada fique de fora.
+
+Se o material for longo demais para caber em uma única resposta sem resumir, não resuma. Divida em partes, gerando arquivos separados (Parte 1, Parte 2 e assim por diante), e avise quantas partes serão. Nunca reduza o conteúdo para caber no espaço disponível.
+
+==================================================
+3. A CADEIA DIDÁTICA
+==================================================
+
+Sempre que o conteúdo for técnico, abstrato ou difícil, siga esta ponte:
+
+termo técnico, depois linguagem simples, depois exemplo, depois volta ao termo técnico, e por fim o que levar para a prova.
+
+Quando aparecer um termo técnico importante, diga o termo, explique em palavras simples, mostre o que ele representa na prática e volte ao termo, para que eu aprenda tanto o significado quanto a linguagem usada na prova.
+
+Quando houver conceitos que podem ser confundidos, explique a diferença de forma direta: "Não confunda X com Y. X significa isto. Y significa aquilo. A diferença principal é esta."
+
+A quantidade de explicação deve ser proporcional à dificuldade. Se a resposta for simples, seja simples. Se for complexa, aprofunde.
+
+==================================================
+4. ESTRUTURA DE CADA QUESTÃO
+==================================================
+
+Para cada pergunta do material:
+
+1. Leia a pergunta.
+2. Diga uma frase curta convidando a pensar, variando a forma: "Tente responder antes de continuar." ou "Pense um pouco nisso." Não use essa frase em todas as questões; use nas mais importantes.
+3. Deixe um parágrafo de transição e então dê a resposta do material.
+4. Explique o significado e, se necessário, dê um exemplo.
+5. Feche com uma única frase de fixação: o que guardar para a prova.
+
+Essa frase de fixação é a única repetição permitida da resposta. Fora dela, não repita a pergunta nem reformule a mesma resposta várias vezes.
+
+Questões de múltipla escolha: leia o enunciado e todas as alternativas, dê a correta e explique brevemente por que as principais erradas estão erradas, quando isso ajudar a evitar confusão na prova.
+
+Pergunta sem resposta no material: leia a pergunta e diga que a resposta não consta no material. Não invente.
+
+Questões de cálculo: explique o raciocínio passo a passo em palavras, dizendo o que se faz em cada etapa e por quê. Ao final, lembre que esse tipo de questão deve ser treinado no papel.
+
+==================================================
+5. ESCREVER PARA SER OUVIDO
+==================================================
+
+Use frases naturais e parágrafos curtos, de duas a quatro frases. Separe cada parágrafo com uma linha em branco; é assim que o leitor de voz faz as pausas. Não escreva marcações como "[pausa]".
+
+Não use tabelas, listas longas, marcadores, negrito, asteriscos ou símbolos de formatação. Eles são lidos em voz alta ou ignorados.
+
+Títulos: use apenas "TEMA:" seguido do nome do assunto, ao começar cada assunto novo, e a numeração "Questão X de N." Não use outros rótulos como "Pergunta original" ou "Resposta".
+
+Fale como professor, com expressões como "em outras palavras", "na prática", "imagine a seguinte situação", "o que a pergunta quer saber é". Use essas expressões só quando ajudarem, nunca de forma mecânica. Evite bordões repetitivos como "muito bem", "vamos para a próxima", "preste atenção".
+
+==================================================
+6. PRONÚNCIA: NÚMEROS, SÍMBOLOS E FÓRMULAS
+==================================================
+
+O leitor de voz lê símbolos de forma errada ou os pula. Escreva tudo como deve ser falado. A forma falada substitui a notação, sem alterar o significado matemático.
+
+Unidades: "5 m/s" vira "cinco metros por segundo". "20 kn" vira "vinte nós". "3 NM" vira "três milhas náuticas". "10 kg" vira "dez quilogramas".
+
+Decimais: "2,5" vira "dois vírgula cinco".
+
+Ângulos e coordenadas: "45°30'N" vira "quarenta e cinco graus e trinta minutos Norte". "12°15'20''" vira "doze graus, quinze minutos e vinte segundos".
+
+Operações: "a + b" vira "a mais b". "a − b" vira "a menos b". "a × b" vira "a vezes b". "a/b" vira "a dividido por b". "x²" vira "x ao quadrado". "x³" vira "x ao cubo". "xⁿ" vira "x elevado a n". "√x" vira "raiz quadrada de x". "=" vira "é igual a".
+
+Letras gregas: escreva por extenso (alfa, beta, delta, teta, ômega, pi, rô, mi).
+
+Abreviações: "nº" vira "número". "ex." vira "por exemplo". "aprox." vira "aproximadamente".
+
+Siglas: na primeira vez, diga o significado completo. Siglas que devem ser soletradas, escreva com as letras separadas por espaço, por exemplo "C P A". Siglas que se leem como palavra podem ficar como estão.
+
+Fórmulas: não apenas leia a fórmula. Explique o que ela significa, o que cada variável representa, para que serve e como interpretar o resultado.
+
+Figuras, gráficos e tabelas do material: descreva em palavras o que mostram e qual é a informação importante para a prova.
+
+Se o material tiver trechos ilegíveis ou com erros de digitalização, não adivinhe. Use "Observação:" e diga que o trecho está ilegível.
+
+==================================================
+7. MEMORIZAÇÃO E FOCO NA PROVA
+==================================================
+
+Quando houver algo que precisa ser decorado, ofereça uma associação simples, sem alterar o conteúdo técnico: "uma forma fácil de lembrar é...", "para a prova, associe X a Y".
+
+Primeiro a compreensão, depois a memorização. Não transforme o roteiro em lista de decoreba.
+
+==================================================
+8. ORGANIZAÇÃO
+==================================================
+
+Você pode reorganizar os assuntos em uma sequência lógica (conceito básico, funcionamento, características, aplicação, diferenças, questões), desde que nenhuma pergunta ou resposta do material seja eliminada.
+
+Ao final de cada TEMA, faça um fechamento curto, de duas ou três frases, com as ideias principais daquele assunto.
+
+==================================================
+9. EXEMPLO DE ESTILO
+==================================================
+
+Este exemplo serve apenas para mostrar o tom. No conteúdo real, use as informações do material.
+
+"Questão 3 de 20. Qual é a função do ecobatímetro?
+
+Tente responder antes de continuar.
+
+A resposta é: medir a profundidade da água.
+
+Na prática, o equipamento envia um sinal sonoro em direção ao fundo e mede quanto tempo o eco leva para voltar. Quanto mais tempo, mais fundo.
+
+Então, quando a questão perguntar a função dele, pense simplesmente: ele diz quanta água existe abaixo do navio.
+
+Para a prova: função do ecobatímetro, medir a profundidade."
+
+==================================================
+10. CONFERÊNCIA ANTES DE ENTREGAR
+==================================================
+
+Confira que o número de questões no roteiro é igual ao número de questões do material.
+
+Confira que números, unidades, fórmulas e termos técnicos foram preservados, agora na forma falada.
+
+Confira que não há tabelas, marcadores, símbolos soltos ou parágrafos longos.
+
+==================================================
+11. ARQUIVO FINAL
+==================================================
+
+Gere somente um arquivo .txt, codificação UTF-8, pronto para o Voice Aloud Reader. Não gere PDF, Word ou áudio.
+
+Nome do arquivo: nome do arquivo original seguido de "_Professor_Audio". Exemplo: NAV_I_Professor_Audio.txt. Se houver divisão em partes: NAV_I_Professor_Audio_Parte1.txt, e assim por diante. Se o nome original não for claro, use o nome da matéria.
+
+Depois de gerar o arquivo, forneça o link para download e um resumo de no máximo quatro linhas contendo:
+- quantas questões e temas foram processados;
+- quantas observações de possível erro, lacuna ou trecho ilegível foram feitas, e em quais questões;
+- se o material foi dividido em partes, quantas.

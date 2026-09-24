@@ -1,0 +1,463 @@
+INTRODUÇÃO A EMBARCAÇÕES OFFSHORE. Roteiro de estudo em áudio. Parte 2 de 3.
+
+Nesta parte vamos da questão 45 à questão 99. Os assuntos são o navio sísmico, o R S V, o R O V com seus sistemas, o A O V e o D S V.
+
+TEMA: Navio Sísmico
+
+Questão 45 de 137. O que é um Navio Sísmico?
+
+A resposta é: é uma embarcação utilizada para pesquisa sísmica marítima e prospecção de O e G nas camadas do substrato marinho.
+
+O e G vem do inglês oil and gas, óleo e gás. Substrato marinho são as camadas de rocha e sedimento abaixo do fundo do mar. Prospecção é procurar. Então o navio sísmico procura petróleo e gás escondidos debaixo do fundo do mar.
+
+Para a prova: navio sísmico, pesquisa sísmica marítima e prospecção de óleo e gás no substrato marinho.
+
+Questão 46 de 137. Qual é a finalidade da pesquisa sísmica marítima realizada pelo Navio Sísmico?
+
+A resposta é: realizar a prospecção de O e G nas camadas do substrato marinho.
+
+Para a prova: finalidade da sísmica, prospecção de óleo e gás no substrato.
+
+Questão 47 de 137. Qual é uma das principais características do Navio Sísmico em relação aos cabos?
+
+A resposta é: ele realiza o reboque de cabos de seis quilômetros de comprimento.
+
+Seis quilômetros é uma distância enorme atrás do navio. Guarde esse número, porque ele explica várias outras respostas deste tema.
+
+Para a prova: navio sísmico reboca cabos de seis quilômetros.
+
+Questão 48 de 137. Como são identificadas as extremidades dos cabos rebocados pelo Navio Sísmico?
+
+A resposta é: por boias com luzes nas extremidades dos cabos.
+
+Com seis quilômetros de cabo, quem passa perto precisa saber onde ele termina. As boias com luzes marcam isso.
+
+Para a prova: extremidade dos cabos, boias com luzes.
+
+Questão 49 de 137. Que tipo de equipamentos o Navio Sísmico utiliza?
+
+A resposta é: equipamentos de tecnologia avançada.
+
+Para a prova: navio sísmico, equipamentos de tecnologia avançada.
+
+Questão 50 de 137. Que tipo de embarcação auxilia o Navio Sísmico?
+
+A resposta é: uma embarcação batedora ou assistente.
+
+Para a prova: o navio sísmico é auxiliado pela batedora, ou assistente.
+
+Questão 51 de 137. O que as fontes de ar comprimido fazem na operação do Navio Sísmico?
+
+A resposta é: emitem ondas de baixa frequência que vão até as camadas do substrato marinho e retornam à superfície.
+
+Para a prova: fontes de ar comprimido emitem ondas de baixa frequência que descem ao substrato e voltam.
+
+Questão 52 de 137. Qual é a sequência básica da operação sísmica?
+
+Tente responder antes de continuar.
+
+A resposta é: fontes de ar comprimido emitem ondas de baixa frequência; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.
+
+Hidrofone é um microfone que funciona debaixo d'água. Pense no ecobatímetro, que manda um som e escuta o eco. A sísmica faz algo parecido, só que o som penetra abaixo do fundo, e os ecos das várias camadas viram uma imagem do subsolo.
+
+Para lembrar, cinco verbos em sequência: emite, desce, volta, capta, gera imagem.
+
+Para a prova: ar comprimido emite, a onda desce ao substrato, retorna, é captada pelos hidrofones dos cabos, e gera imagens.
+
+Questão 53 de 137. Qual é a condição de manobra do Navio Sísmico durante a operação?
+
+A resposta é: é uma operação de manobra restrita.
+
+Volte aos seis quilômetros de cabo. Com tudo isso rebocado, o navio não pode guinar rápido nem parar de repente. Por isso sua manobra fica restrita.
+
+Para a prova: navio sísmico em operação, manobra restrita.
+
+Questão 54 de 137. Qual é a função da embarcação batedora ou assistente?
+
+A resposta é: fornecer assistência com suprimentos e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.
+
+Como o navio sísmico tem manobra restrita, a batedora vai à frente e ao redor, avisando outras embarcações, cuidando da comunicação e levando suprimentos.
+
+Para a prova: batedora, suprimentos, segurança da navegação, comunicação e prevenção de acidentes.
+
+Fechando o tema: o navio sísmico procura óleo e gás no substrato marinho, rebocando cabos de seis quilômetros marcados por boias com luzes. As fontes de ar comprimido emitem ondas, os hidrofones captam o retorno e isso gera imagens. Como tem manobra restrita, conta com uma embarcação batedora.
+
+TEMA: R S V, embarcação de apoio ao R O V
+
+Questão 55 de 137. O que significa R S V no contexto das embarcações offshore?
+
+A resposta é: R O V Support Vessel.
+
+Ou seja, embarcação de apoio ao R O V. O R O V é o robô submarino, que vamos detalhar logo adiante.
+
+Para a prova: R S V, R O V Support Vessel.
+
+Questão 56 de 137. Quais são as principais atividades de um R S V relacionadas aos ativos submarinos?
+
+A resposta é: inspeções, instalações e manutenções de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.
+
+Ativo submarino é qualquer bem que fica debaixo d'água. Para lembrar, três ações com I e M: inspecionar, instalar e manter.
+
+Para a prova: R S V inspeciona, instala e mantém ativos submarinos, como linhas de ancoragem, dutos, poços e Unidades Marítimas.
+
+Questão 57 de 137. Que apoio um R S V pode prestar ao lançamento de dutos?
+
+A resposta é: pode prestar apoio ao lançamento de dutos.
+
+O material apenas afirma que o R S V apoia o lançamento de dutos, sem detalhar de que forma.
+
+Para a prova: o R S V pode apoiar o lançamento de dutos.
+
+Questão 58 de 137. Quais são algumas características de um R S V?
+
+A resposta é: R O V, sistema hidroacústico, guindastes ou guinchos de grande capacidade e A-Frame.
+
+Explicação complementar: o sistema hidroacústico usa som debaixo d'água, principalmente para saber a posição de equipamentos submersos.
+
+Para a prova: R S V tem R O V, sistema hidroacústico, guindastes ou guinchos de grande capacidade e A-Frame.
+
+Questão 59 de 137. Para que o R O V é utilizado em trabalhos que seriam realizados por mergulhadores?
+
+A resposta é: para realizar trabalhos em profundidades ou situações que não são possíveis de serem realizados por mergulhadores.
+
+Em outras palavras, onde o mergulhador não pode ir, por ser fundo demais ou perigoso demais, vai o robô.
+
+Para a prova: R O V faz o que o mergulhador não pode, pela profundidade ou pela situação.
+
+Questão 60 de 137. Que tipos de intervenções em estruturas submarinas podem ser realizadas com R O V?
+
+A resposta é: inspeções e intervenções em dutos, linhas de ancoragem, poços, cascos, entre outros.
+
+Para a prova: R O V inspeciona e intervém em dutos, linhas de ancoragem, poços e cascos.
+
+Questão 61 de 137. Quais operações específicas podem ser realizadas com R O V segundo o material?
+
+Pense um pouco nisso.
+
+A resposta é: dragagem, corte, medição de potencial eletroquímico, aperto de parafusos e conexões de flanges.
+
+Dragagem é retirar sedimento do fundo. Explicação complementar: a medição de potencial eletroquímico serve para verificar a proteção contra corrosão das estruturas de aço. Flange é o anel que une dois trechos de tubo, apertado com parafusos.
+
+Para a prova: dragagem, corte, potencial eletroquímico, aperto de parafusos e conexão de flanges.
+
+Questão 62 de 137. Que apoio o R O V pode dar em operações com âncoras?
+
+A resposta é: pode dar apoio às operações com manuseio de âncoras.
+
+Aqui ele se liga ao A H T S da Parte 1: enquanto o A H T S maneja a âncora na superfície, o R O V pode acompanhar lá embaixo.
+
+Para a prova: R O V pode apoiar o manuseio de âncoras.
+
+Fechando o tema: o R S V é a embarcação de apoio ao R O V. Ela inspeciona, instala e mantém ativos submarinos, apoia lançamento de dutos, e tem R O V, sistema hidroacústico, guindastes ou guinchos de grande capacidade e A-Frame.
+
+TEMA: O R O V, o Tether e o T M S
+
+Questão 63 de 137. O que é um R O V?
+
+A resposta é: é um robô de operação remota.
+
+Explicação complementar: a sigla vem de Remotely Operated Vehicle, veículo operado remotamente. Ele fica ligado à embarcação por cabo e é pilotado por uma pessoa a bordo.
+
+Para a prova: R O V, robô de operação remota.
+
+Questão 64 de 137. Quais sistemas e recursos são destacados no R O V?
+
+A resposta é: sistema de câmeras, P R S, sonar e autonomia de controle para uso de ferramentas.
+
+Observação: o material não explica o que significa a sigla P R S.
+
+As câmeras permitem ver, o sonar permite "enxergar" com som quando a água está turva, e a autonomia de controle permite usar ferramentas.
+
+Para a prova: R O V tem câmeras, P R S, sonar e controle para uso de ferramentas.
+
+Questão 65 de 137. O que é o Tether de um R O V?
+
+Tente responder antes de continuar.
+
+A resposta é: é o cabo secundário, mais fino, que conecta o R O V ao T M S.
+
+Para a prova: tether, cabo secundário e mais fino, entre o R O V e o T M S.
+
+Questão 66 de 137. Quais são as principais funções do Tether?
+
+A resposta é: transmitir energia elétrica, permitir o controle remoto do R O V, reduzir a influência da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.
+
+Por ser fino, o tether sofre menos com a corrente marítima. E como o peso fica com o conjunto do T M S e o cabo principal só sustenta esse conjunto, o esforço é bem distribuído.
+
+Para lembrar, quatro palavras: energia, controle, corrente e peso.
+
+Para a prova: tether transmite energia, permite o controle remoto, reduz a influência da corrente e absorve o peso.
+
+Questão 67 de 137. Por que o Tether é importante para a mobilidade do R O V?
+
+A resposta é: ele confere mobilidade fina, ideal para inspeção e intervenções subsea.
+
+Subsea quer dizer submarino. Mobilidade fina é poder fazer movimentos pequenos e precisos, que um cabo grosso e pesado não permitiria.
+
+Para a prova: tether dá mobilidade fina para inspeção e intervenção subsea.
+
+Questão 68 de 137. O que é o T M S?
+
+A resposta é: é o Tether Management System, responsável por gerenciar, armazenar e controlar o tether.
+
+Management é gerenciamento. Então é o sistema de gerenciamento do tether.
+
+Para a prova: T M S, Tether Management System, gerencia, armazena e controla o tether.
+
+Questão 69 de 137. A que o T M S conecta o tether?
+
+A resposta é: o tether conecta o R O V ao sistema principal de lançamento por meio do gerenciamento feito pelo T M S.
+
+Exemplo didático: pense numa guia retrátil de cachorro. O cabo principal desce da embarcação até o T M S, que é como o carretel. Do carretel sai a fita fina, que é o tether, até o cachorro, que é o R O V. O carretel solta e recolhe a fita conforme o cachorro se move.
+
+Então a sequência é: embarcação, cabo principal, T M S, tether, R O V.
+
+Para a prova: pelo T M S, o tether liga o R O V ao sistema principal de lançamento.
+
+Questão 70 de 137. O que a garagem do R O V pode ter?
+
+A resposta é: pode ter T M S ou não ter T M S.
+
+Para a prova: garagem do R O V, com T M S ou sem T M S.
+
+Questão 71 de 137. O que a garagem com T M S abriga?
+
+A resposta é: abriga o tambor do tether.
+
+Para a prova: garagem com T M S abriga o tambor do tether.
+
+Questão 72 de 137. Quais são as funções do T M S Top-hat?
+
+A resposta é: armazenar o tether em um pequeno tambor interno, pagar e recolher o tether, reduzir o esforço no R O V e melhorar a estabilidade.
+
+Pagar cabo, na linguagem marinheira, é soltar cabo. Então o top-hat solta e recolhe o tether. Top-hat, em inglês, é cartola, o que pode ajudar a lembrar do tambor pequeno guardado em cima.
+
+Para a prova: T M S top-hat, armazena o tether em pequeno tambor interno, paga e recolhe, reduz esforço no R O V e melhora a estabilidade.
+
+Questão 73 de 137. Como é o T M S do tipo gaiola?
+
+A resposta é: é o modelo mais comum, com estrutura semelhante a uma gaiola metálica.
+
+Para a prova: T M S tipo gaiola, o mais comum, parece uma gaiola metálica.
+
+Questão 74 de 137. Quais são as funções do T M S do tipo gaiola?
+
+A resposta é: proteger o R O V durante a descida e a subida e funcionar como ponto intermediário entre o umbilical principal e o R O V.
+
+Umbilical principal é o cabo principal que vem da embarcação. A gaiola desce com o R O V dentro, protegido, e lá embaixo o robô sai, preso pelo tether.
+
+Não confunda os dois tipos. O top-hat destaca armazenar o tether num pequeno tambor, pagar e recolher, reduzir esforço e dar estabilidade. A gaiola é a mais comum e destaca proteger o R O V na descida e na subida, sendo o ponto intermediário entre o umbilical e o R O V.
+
+Para a prova: gaiola protege o R O V na descida e na subida e é o ponto intermediário entre umbilical principal e R O V.
+
+Fechando o tema: o R O V é o robô de operação remota, com câmeras, sonar e ferramentas. O tether é o cabo fino entre o R O V e o T M S, que dá mobilidade fina. O T M S gerencia o tether, e pode ser do tipo top-hat ou do tipo gaiola, que é o mais comum.
+
+TEMA: O A O V
+
+Questão 75 de 137. O que é um A O V?
+
+A resposta é: é o Autonomous Observation Vehicle, um veículo submarino autônomo sem cabo umbilical.
+
+Autonomous é autônomo, Observation é observação. É um veículo de observação que anda sozinho, sem cabo.
+
+Para a prova: A O V, Autonomous Observation Vehicle, veículo autônomo sem umbilical.
+
+Questão 76 de 137. Para que o A O V é usado principalmente?
+
+A resposta é: para inspeções visuais, coleta de dados ambientais, mapeamento e reconhecimento.
+
+Repare que todas são tarefas de olhar e registrar, não de mexer em nada.
+
+Para a prova: A O V, inspeção visual, dados ambientais, mapeamento e reconhecimento.
+
+Questão 77 de 137. Como o A O V se diferencia do R O V quanto à forma de operação?
+
+Tente responder antes de continuar.
+
+A resposta é: o A O V navega de forma programada ou semi-autônoma, enquanto o R O V é pilotado em tempo real.
+
+Não confunda. O R O V tem piloto, ligado por cabo, controlando cada movimento na hora. O A O V recebe uma missão programada e vai sozinho.
+
+Para a prova: A O V programado ou semi-autônomo, R O V pilotado em tempo real.
+
+Questão 78 de 137. Quais são as principais características do A O V?
+
+A resposta é: não usa tether, utiliza baterias internas e navegação autônoma, realiza missões pré-programadas e tem foco em observação.
+
+Tudo se encaixa: se não tem cabo, a energia precisa vir de baterias internas, e se ninguém está pilotando, a missão precisa ser pré-programada.
+
+Para a prova: A O V, sem tether, baterias internas, navegação autônoma, missões pré-programadas e foco em observação.
+
+Fechando o tema: o A O V é o veículo autônomo de observação, sem cabo, com baterias, cumprindo missões programadas. A diferença central em relação ao R O V é que o R O V é pilotado em tempo real, por cabo, e faz intervenções, enquanto o A O V observa.
+
+TEMA: D S V, Diving Support Vessel
+
+Questão 79 de 137. O que significa D S V?
+
+A resposta é: Diving Support Vessel.
+
+Diving é mergulho. Então é embarcação de apoio ao mergulho.
+
+Para a prova: D S V, Diving Support Vessel.
+
+Questão 80 de 137. Qual é a principal finalidade de um D S V?
+
+A resposta é: dar apoio logístico e técnico às operações de mergulho.
+
+Para a prova: D S V, apoio logístico e técnico ao mergulho.
+
+Questão 81 de 137. Que tipos de mergulho podem ser apoiados por um D S V?
+
+A resposta é: mergulho raso ou profundo.
+
+Para a prova: D S V apoia mergulho raso ou profundo.
+
+Questão 82 de 137. Quantas pessoas podem estar a bordo de um D S V?
+
+A resposta é: o P O B pode chegar a duzentas pessoas.
+
+P O B vem de persons on board, pessoas a bordo.
+
+Para a prova: D S V, P O B de até duzentas pessoas.
+
+Questão 83 de 137. Quais são as principais características de um D S V?
+
+Pense um pouco nisso.
+
+A resposta é: câmara hiperbárica, sino ou sinete, compressores de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.
+
+Câmara hiperbárica é uma câmara com pressão acima da atmosférica, onde os mergulhadores ficam. Sino e sinete levam os mergulhadores até o trabalho. Compressores fornecem o ar. O guindaste movimenta o sino e as cargas. E o sistema de comunicação submarina permite falar com quem está no fundo.
+
+Para lembrar, siga o mergulhador: mora na câmara, desce no sino, respira pelo compressor, é içado pelo guindaste, conta com o barco de apoio e fala pela comunicação submarina.
+
+Para a prova: câmara hiperbárica, sino ou sinete, compressores de ar, guindaste, barco de apoio e comunicação submarina.
+
+Questão 84 de 137. Quais operações são realizadas com apoio de um D S V?
+
+A resposta é: inspeções, manutenções, soldas, pull in e pull out, e limpezas de caixa de mar de U Ms e riser.
+
+U M é Unidade Marítima. Explicação complementar: pull in e pull out é puxar a linha para conectar ou desconectar da unidade. Riser é o tubo que sobe do fundo até a unidade. Caixa de mar é a abertura no casco por onde entra água do mar para os sistemas de bordo.
+
+Para a prova: D S V apoia inspeções, manutenções, soldas, pull in e pull out e limpeza de caixa de mar de Unidades Marítimas e riser.
+
+Questão 85 de 137. Qual é a profundidade máxima indicada para o mergulho saturado no material?
+
+A resposta é: trezentos e cinquenta metros.
+
+Explicação complementar: no mergulho saturado, o mergulhador vive por dias numa câmara pressurizada, com o corpo já adaptado àquela pressão. Assim ele não precisa descomprimir a cada descida, só no final de todo o período.
+
+Para a prova: mergulho saturado, até trezentos e cinquenta metros.
+
+Questão 86 de 137. Por que o mergulho saturado envolve isolamento em câmara hiperbárica?
+
+A resposta é: porque a operação envolve altas pressões e confinamento entre câmara, sino e mar.
+
+O mergulhador circula entre três ambientes: a câmara, o sino e o mar, sempre sob alta pressão. Por isso fica isolado.
+
+Para a prova: saturado, altas pressões e confinamento entre câmara, sino e mar.
+
+Questão 87 de 137. Quais riscos são associados ao mergulho saturado?
+
+A resposta é: ataque de vida marinha, altas pressões, exposição a predadores e doenças cumulativas.
+
+Doenças cumulativas são as que vão se somando com o tempo de profissão.
+
+Para a prova: riscos do saturado, vida marinha, altas pressões, predadores e doenças cumulativas.
+
+Questão 88 de 137. Quais consequências à saúde são citadas para o mergulho saturado?
+
+A resposta é: surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e H P N S.
+
+Explicação complementar: H P N S significa High Pressure Nervous Syndrome, síndrome nervosa de alta pressão, que afeta o sistema nervoso em grandes profundidades.
+
+Para lembrar, vá da cabeça para o corpo todo. Na cabeça: surdez, voz alterada, traumas faciais e dentais. No corpo: osteoporose, embolia, hipotermia. E no sistema nervoso: H P N S.
+
+Para a prova: surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e H P N S.
+
+Questão 89 de 137. Qual é a profundidade indicada para o mergulho raso?
+
+A resposta é: até cinquenta metros.
+
+Não confunda os números. Raso vai até cinquenta metros. Saturado vai até trezentos e cinquenta metros. São trezentos metros de diferença.
+
+Para a prova: mergulho raso, até cinquenta metros.
+
+Questão 90 de 137. Quais riscos são citados no mergulho raso?
+
+A resposta é: contato com predadores, ações de corrente, fadiga e defeito de equipamentos.
+
+Para a prova: riscos do raso, predadores, corrente, fadiga e defeito de equipamento.
+
+Questão 91 de 137. Como pode ser fornecido o ar comprimido no mergulho raso?
+
+A resposta é: por equipamento autônomo ou dependente.
+
+Explicação complementar: no autônomo, o mergulhador leva o próprio ar em cilindro. No dependente, o ar vem da superfície por mangueira.
+
+Para a prova: ar no raso, equipamento autônomo ou dependente.
+
+Questão 92 de 137. Que embarcação de apoio é citada para o mergulho raso?
+
+A resposta é: barco de apoio, L D B.
+
+Observação: o material não explica o que significa a sigla L D B.
+
+Para a prova: mergulho raso, barco de apoio L D B.
+
+Questão 93 de 137. Qual é a função do sino no apoio aos mergulhadores?
+
+A resposta é: suprir ar aos mergulhadores e transportá-los até o local de trabalho, além de fornecer água de arrefecimento.
+
+Água de arrefecimento aqui é a água usada para controlar a temperatura do mergulhador.
+
+Para lembrar: o sino dá ar, dá transporte e dá água.
+
+Para a prova: sino supre ar, transporta ao local de trabalho e fornece água de arrefecimento.
+
+Questão 94 de 137. Quais são os tipos de sino?
+
+A resposta é: livre, autônomo e semiautônomo.
+
+Para a prova: sino livre, autônomo e semiautônomo.
+
+Questão 95 de 137. O que é o sinete no contexto do D S V?
+
+A resposta é: uma alternativa para o barco de apoio.
+
+Para a prova: sinete, alternativa ao barco de apoio.
+
+Questão 96 de 137. Para que serve o sinete?
+
+A resposta do material é: para transporte até as proximidades do local, a mais de quinze metros; pode haver um no local de trabalho e um sinete.
+
+Observação: a segunda parte da resposta está confusa e parece incompleta. Não fica claro no material o que exatamente pode haver no local de trabalho junto com o sinete.
+
+A parte clara é esta: o sinete transporta o mergulhador até perto do local de trabalho, em profundidades de mais de quinze metros.
+
+Para a prova: sinete, transporte até as proximidades do local, a mais de quinze metros.
+
+Questão 97 de 137. Que apelido é associado ao sinete no material?
+
+A resposta é: sardinha.
+
+Uma forma fácil de lembrar é pensar num espaço pequeno e apertado, como lata de sardinha.
+
+Para a prova: sinete, apelido sardinha.
+
+Questão 98 de 137. Quais verificações devem ser realizadas antes da operação com o mergulhador?
+
+A resposta é: inspeções pré-operação e ensaios de recuperação do mergulhador.
+
+Ensaio de recuperação é treinar como trazer o mergulhador de volta caso algo dê errado, antes que isso precise acontecer de verdade.
+
+Para a prova: antes da operação, inspeções pré-operação e ensaios de recuperação do mergulhador.
+
+Questão 99 de 137. Que cuidados são indicados para a câmara hiperbárica?
+
+A resposta é: regulagem da câmara e controle do tempo de permanência.
+
+Para a prova: câmara hiperbárica, regulagem e controle do tempo de permanência.
+
+Fechando o tema: o D S V apoia o mergulho raso e o profundo, com até duzentas pessoas a bordo. Os números-chave são trezentos e cinquenta metros para o saturado e cinquenta metros para o raso. O sino supre ar, transporta e fornece água de arrefecimento, e o sinete, apelidado de sardinha, é alternativa ao barco de apoio.
+
+Fim da Parte 2. Na Parte 3, vamos estudar o O S R V, o navio aliviador e o P L S V.

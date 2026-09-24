@@ -1,0 +1,385 @@
+INTRODUÇÃO A EMBARCAÇÕES OFFSHORE. Roteiro de estudo em áudio. Parte 1 de 3.
+
+O material tem cento e trinta e sete questões, divididas em três partes. Nesta primeira parte, vamos da questão 1 à questão 44.
+
+Primeiro vamos ver o panorama geral do mundo offshore. Depois entramos em duas embarcações de apoio muito cobradas: o P S V e o A H T S.
+
+TEMA: Panorama das operações e unidades offshore
+
+Offshore quer dizer, literalmente, fora da costa. É tudo o que acontece no mar, longe da terra. Antes de estudar cada embarcação, vale entender em que cenário elas trabalham.
+
+Questão 1 de 137. Quais tipos de operações ocorrem no offshore?
+
+Tente responder antes de continuar.
+
+O material traz oito tipos: petróleo e gás, eólica offshore, transporte marítimo, logística, pesca e aquicultura, produção de alimentos, pesquisa científica, e defesa e segurança.
+
+Em outras palavras, o mar não serve só para tirar petróleo. Ele também gera energia com o vento, é caminho para cargas, fornece comida, é campo de pesquisa e precisa ser protegido.
+
+Uma forma fácil de lembrar é agrupar em quatro pares. Energia: petróleo e gás, e eólica. Movimento: transporte marítimo e logística. Comida: pesca e aquicultura, e produção de alimentos. Conhecimento e proteção: pesquisa científica, e defesa e segurança.
+
+Para a prova: são oito tipos de operação offshore, em quatro pares, energia, movimento, comida, e conhecimento com proteção.
+
+Questão 2 de 137. Quais são os principais tipos de unidades offshore apresentados no material?
+
+A resposta é: fixas, móveis, flutuantes, de apoio e especiais.
+
+Unidade offshore é qualquer estrutura que trabalha no mar. O material separa essas estruturas em cinco grupos, conforme a forma como ficam no mar e o papel que cumprem.
+
+Uma forma de lembrar é ir do mais preso ao mais livre: fixas, móveis, flutuantes. Depois, as que ajudam, que são as de apoio. E por fim as diferentes, que são as especiais.
+
+Para a prova: unidades offshore, fixas, móveis, flutuantes, de apoio e especiais.
+
+Questão 3 de 137. Quais são os tipos de poços apresentados no material?
+
+A resposta é: poço vertical e poço direcional.
+
+Explicação complementar: o poço vertical desce reto, diretamente abaixo do ponto de perfuração. O poço direcional é desviado de propósito, em ângulo, para alcançar um reservatório que não está exatamente embaixo da unidade.
+
+Para a prova: dois tipos de poço, vertical e direcional.
+
+Questão 4 de 137. Quais são características estruturais do navio-sonda?
+
+A resposta é: possui propulsão e torre de perfuração no convés.
+
+O próprio nome ajuda. É um navio, então tem propulsão e pode navegar por conta própria. E é sonda, então carrega a torre de perfuração ali no convés.
+
+Para a prova: navio lembra propulsão, sonda lembra torre de perfuração no convés.
+
+Questão 5 de 137. Quais são as principais características de um Flotel?
+
+A resposta é: possui propulsão em D P, geração de energia, hotelaria e capacidade de manutenção.
+
+Explicação complementar: Flotel vem de floating hotel, hotel flutuante. É a unidade que hospeda gente no mar. E D P significa Dynamic Positioning, posicionamento dinâmico: um sistema que mantém a embarcação parada numa posição usando os próprios propulsores, controlados por computador. Essa sigla vai aparecer muitas vezes no curso.
+
+Na prática, pense num hotel que precisa ficar parado ao lado da plataforma, ter energia própria, cuidar das pessoas e ainda dar suporte à manutenção.
+
+Para a prova: Flotel, propulsão em D P, geração de energia, hotelaria e capacidade de manutenção.
+
+Questão 6 de 137. Quais unidades são adequadas para águas profundas acima de mil e quinhentos metros, segundo o material?
+
+Pense um pouco nisso.
+
+A resposta é: semissubmersível, navio-sonda e Spar.
+
+Acima de mil e quinhentos metros de lâmina d'água, estruturas presas ao fundo deixam de ser viáveis. Por isso as três unidades citadas são unidades que trabalham flutuando.
+
+Para lembrar: S, N, S. Semissubmersível, Navio-sonda, Spar.
+
+Para a prova: águas profundas acima de mil e quinhentos metros, semissubmersível, navio-sonda e Spar.
+
+Fechando o tema: o offshore envolve oito tipos de operação, cinco tipos de unidades e dois tipos de poço. O navio-sonda tem propulsão e torre de perfuração, o Flotel é o hotel flutuante com D P, e para mais de mil e quinhentos metros usamos semissubmersível, navio-sonda e Spar.
+
+TEMA: P S V, Platform Supply Vessel
+
+Questão 7 de 137. O que significa P S V?
+
+A resposta é: Platform Supply Vessel.
+
+Traduzindo: Platform é plataforma, Supply é suprimento, Vessel é embarcação. Ou seja, embarcação de suprimento de plataforma. É o caminhão de entregas do mundo offshore.
+
+Para a prova: P S V, Platform Supply Vessel.
+
+Questão 8 de 137. Para que são utilizadas as embarcações P S V?
+
+A resposta é: para transporte de materiais, suprimentos e pessoas.
+
+Na prática, tudo o que a plataforma precisa e não produz sozinha chega por essas embarcações.
+
+Para a prova: P S V transporta materiais, suprimentos e pessoas.
+
+Questão 9 de 137. Que tipo de apoio o P S V presta nas atividades offshore?
+
+A resposta é: suporte à construção, manutenção e trabalho submarino.
+
+Então o P S V não só entrega carga. Ele também apoia quem está construindo, mantendo ou trabalhando debaixo d'água.
+
+Para a prova: apoio do P S V, construção, manutenção e trabalho submarino.
+
+Questão 10 de 137. Por que o P S V requer grandes áreas de convés e tanques?
+
+A resposta é: para receber granéis líquidos e sólidos.
+
+Granel é carga solta, sem embalagem, que vai direto num tanque ou compartimento. Como o P S V leva muito granel, precisa de muito espaço.
+
+Para a prova: grandes áreas de convés e tanques, para receber granéis líquidos e sólidos.
+
+Questão 11 de 137. Para que os equipamentos e a arquitetura do P S V são adaptados nas operações de carga a granel?
+
+A resposta é: para contenção, sucção, armazenamento e bombeamento de suprimentos e consumíveis diversos.
+
+Pense no caminho da carga. Contenção é segurar a carga dentro. Sucção é puxar. Armazenamento é guardar. Bombeamento é empurrar para outro lugar, como para a plataforma.
+
+Uma forma fácil de lembrar é a sigla falada C S A B: contenção, sucção, armazenamento, bombeamento.
+
+Para a prova: P S V adaptado para contenção, sucção, armazenamento e bombeamento.
+
+Questão 12 de 137. As cargas a granel transportadas pelo P S V podem ser de quais tipos?
+
+A resposta é: líquidas ou sólidas.
+
+Para a prova: granel do P S V, líquido ou sólido.
+
+Questão 13 de 137. Dê cinco exemplos de cargas a granel.
+
+Tente responder antes de continuar.
+
+A resposta do material é: baritina, O D, água, cimento, cascalhos, e outros.
+
+Explicação complementar: a baritina é um mineral pesado usado nos fluidos de perfuração.
+
+Observação: o material não explica a sigla O D. No meio offshore ela costuma indicar óleo diesel, mas isso não está especificado no material.
+
+Para lembrar, pense numa obra no mar: água e cimento, como em qualquer obra, mais baritina, cascalhos e O D.
+
+Para a prova: exemplos de granel, baritina, O D, água, cimento e cascalhos.
+
+Questão 14 de 137. O que deve ser verificado para evitar a petrificação de redes e tanques?
+
+A resposta é: a necessidade de uso de agitadores.
+
+Petrificação quer dizer virar pedra. Alguns granéis, se ficam parados, endurecem dentro das redes e dos tanques. O agitador mantém a carga em movimento para isso não acontecer.
+
+Para a prova: evitar petrificação, verificar a necessidade de agitadores.
+
+Questão 15 de 137. Onde deve haver atenção especial ao posicionamento da força de trabalho durante operações com mangotes?
+
+A resposta é: no convés, durante conexão, desconexão de mangotes ou quando houver risco de chicoteamento.
+
+Mangote é a mangueira grossa usada para transferir a carga entre a embarcação e a plataforma. Chicoteamento é quando o mangote, sob pressão ou ao se soltar, se mexe com violência, como um chicote. Quem estiver no caminho pode ser atingido.
+
+Para a prova: atenção à força de trabalho no convés, na conexão, na desconexão e quando houver risco de chicoteamento.
+
+Questão 16 de 137. O que deve ser respeitado para evitar acidentes por rompimento do mangote?
+
+A resposta é: os limites operacionais.
+
+Para a prova: evitar rompimento do mangote, respeitar os limites operacionais.
+
+Questão 17 de 137. O que pode acontecer com o mangote em condições adversas?
+
+A resposta é: o maior passeio da embarcação pode causar o rompimento ou a desconexão forçada do mangote.
+
+Passeio é o quanto a embarcação se desloca da posição onde deveria estar. Com mar e vento ruins, ela se mexe mais. O mangote tem comprimento limitado, então se a embarcação se afasta demais, ele estica até romper ou se soltar à força.
+
+Essa questão se liga à anterior: é justamente por isso que existem limites operacionais.
+
+Para a prova: condição adversa, maior passeio, rompimento ou desconexão forçada do mangote.
+
+Fechando o tema: o P S V é a embarcação de suprimento de plataforma, que leva materiais, suprimentos e pessoas, e carrega muito granel líquido e sólido. Os cuidados principais são os agitadores contra a petrificação e a segurança nas operações com mangote: posição das pessoas, limites operacionais e passeio da embarcação.
+
+TEMA: A H T S, Anchor Handling Tug Supply Vessel
+
+Questão 18 de 137. O que significa A H T S?
+
+A resposta é: Anchor Handling Tug Supply Vessel.
+
+O nome já conta as funções. Anchor Handling é manuseio de âncoras. Tug é rebocador. Supply é suprimento. Vessel é embarcação. Então é uma embarcação que maneja âncoras, reboca e também leva suprimento.
+
+Para a prova: A H T S, Anchor Handling Tug Supply Vessel, âncora, reboque e suprimento.
+
+Questão 19 de 137. Qual foi a origem do A H T S?
+
+A resposta é: começou como embarcação para manuseio de âncoras nos Estados Unidos.
+
+Para a prova: o A H T S nasceu nos Estados Unidos, para manuseio de âncoras.
+
+Questão 20 de 137. Por que a tecnologia do A H T S precisou evoluir no Mar do Norte?
+
+A resposta é: porque eram necessárias operações multitarefas em águas mais profundas, incluindo reboque e manuseio.
+
+Então a história é esta: nasce nos Estados Unidos só para manusear âncoras, e evolui no Mar do Norte porque lá precisavam de uma embarcação que fizesse várias coisas em águas mais profundas.
+
+Para a prova: Estados Unidos, origem. Mar do Norte, evolução para multitarefa em águas mais profundas.
+
+Questão 21 de 137. Qual é uma das principais atividades do A H T S no manuseio de âncoras?
+
+A resposta é: dar suporte às operações de posicionamento, manutenção e retirada de sistemas de ancoragem.
+
+Em palavras simples: colocar a ancoragem, cuidar dela e tirar.
+
+Para a prova: posicionamento, manutenção e retirada de sistemas de ancoragem.
+
+Questão 22 de 137. Quais fatores influenciam o sucesso de uma operação de manuseio de âncora?
+
+Pense um pouco nisso.
+
+A resposta é: peso da âncora, tipo de solo, equipamento, profundidade e condições.
+
+Uma forma de lembrar é fazer cinco perguntas. Quão pesada é a âncora? Em que solo ela vai cravar? Com que equipamento vou trabalhar? Qual a profundidade? E como estão as condições de mar e tempo?
+
+Para a prova: peso da âncora, tipo de solo, equipamento, profundidade e condições.
+
+Questão 23 de 137. O que uma operação de manuseio de âncora pode alterar na embarcação?
+
+A resposta é: a manobrabilidade e a estabilidade da embarcação.
+
+Imagine a embarcação com uma âncora pesada e cabos tensionados pendurados na popa. Esse peso e essa tração mudam o jeito como ela responde ao leme e como ela se equilibra.
+
+Para a prova: manuseio de âncora altera manobrabilidade e estabilidade.
+
+Questão 24 de 137. Como é classificada a atividade de manuseio de âncora quanto à criticidade?
+
+A resposta é: é uma atividade de alta criticidade, com taxas de acidentes e incidentes.
+
+Para a prova: manuseio de âncora, alta criticidade.
+
+Questão 25 de 137. Qual é uma das atividades de reboque do A H T S?
+
+A resposta é: reboque e movimentação de unidades semissubmersíveis, F P S O e outras embarcações.
+
+Explicação complementar: F P S O significa Floating Production Storage and Offloading, uma unidade flutuante que produz, armazena e transfere petróleo.
+
+Para a prova: o A H T S reboca e movimenta semissubmersíveis, F P S O e outras embarcações.
+
+Questão 26 de 137. O que é a cabresteira?
+
+Tente responder antes de continuar.
+
+A resposta é: é um sistema de amarração composto por dois cabos ou amarras ao qual se talinga um cabo de reboque.
+
+Talingar é prender, conectar. Então a cabresteira são dois ramos presos à unidade que será rebocada, e nesse conjunto se prende o cabo de reboque que vai até o A H T S.
+
+Exemplo didático: pense na letra Y. Os dois braços de cima são os dois cabos ou amarras presos à unidade. A perna de baixo é o cabo de reboque indo para o rebocador.
+
+Para a prova: cabresteira, dois cabos ou amarras aos quais se talinga o cabo de reboque.
+
+Questão 27 de 137. Como pode ser composta a cabresteira?
+
+A resposta é: por cabos de aço ou amarras conectados às pernas da unidade.
+
+Não confunda cabo de aço com amarra. Cabo de aço é o cabo trançado de fios de aço. Amarra é a corrente. A cabresteira pode usar um ou outro.
+
+Para a prova: cabresteira, cabos de aço ou amarras, ligados às pernas da unidade.
+
+Questão 28 de 137. Por meio de qual dispositivo a cabresteira pode ser conectada à perna da unidade?
+
+A resposta é: por um dispositivo chamado smit bracket.
+
+Para a prova: cabresteira na perna da unidade, smit bracket.
+
+Questão 29 de 137. O que são os horns no A H T S?
+
+A resposta é: são estruturas metálicas robustas instaladas na popa do convés, usadas para guiar e conter cabos e amarras durante operações de manuseio e reboque.
+
+Horn, em inglês, é chifre. E é bem essa a imagem: duas peças resistentes na popa, como chifres, entre as quais passa o cabo.
+
+Para a prova: horns, estruturas metálicas na popa que guiam e contêm cabos e amarras.
+
+Questão 30 de 137. Qual é a principal função dos horns durante uma operação de reboque?
+
+A resposta é: evitar que a linha escape lateralmente sob alta carga.
+
+Para a prova: horns no reboque, impedir que a linha escape para o lado.
+
+Questão 31 de 137. Como os horns contribuem para a segurança da embarcação?
+
+A resposta é: evitam problemas de estabilidade e risco de emborcamento.
+
+Imagine um cabo sob tração enorme que escapa para o través. Ele passa a puxar a embarcação de lado, e isso pode inclinar e até emborcar o barco. Segurando a linha no lugar, o horn evita esse puxão lateral.
+
+Para a prova: horns evitam problemas de estabilidade e emborcamento.
+
+Questão 32 de 137. Quais características de propulsão e capacidade são citadas para o A H T S?
+
+A resposta é: propulsão convencional e Bollard pull.
+
+Explicação complementar: Bollard pull é a força de tração estática, ou seja, quanto a embarcação consegue puxar estando praticamente parada. É a medida da força de um rebocador.
+
+Para a prova: A H T S, propulsão convencional e Bollard pull.
+
+Questão 33 de 137. Para que o guincho secundário é geralmente utilizado?
+
+A resposta é: para estivar cabos de ancoragem, dispostos no sarilho, que é o tambor.
+
+Estivar é arrumar e guardar. Então o guincho secundário serve para guardar os cabos de ancoragem enrolados no tambor.
+
+Para a prova: guincho secundário, estivar cabos de ancoragem no sarilho.
+
+Questão 34 de 137. Quais acessórios de convés são citados entre os principais equipamentos do A H T S?
+
+A resposta é: Shark jaw ou Karm fork, pinos de reboque, Guide e stop pins, rolo de popa e horn.
+
+Explicação complementar: shark jaw e karm fork são dispositivos que prendem e seguram o cabo ou a amarra no convés durante o manuseio.
+
+Uma forma de lembrar é seguir o cabo pela popa. Ele passa pelo rolo de popa, é contido pelo horn, guiado e travado pelos pinos, e preso pelo shark jaw ou karm fork.
+
+Para a prova: shark jaw ou karm fork, pinos de reboque, guide e stop pins, rolo de popa e horn.
+
+Questão 35 de 137. O que são os pinos hidráulicos Guide e Stop?
+
+A resposta é: são pinos do convés principal, acionados remotamente.
+
+Para a prova: guide e stop pins, pinos hidráulicos do convés principal, acionados remotamente.
+
+Questão 36 de 137. Por que os Guide e Stop pins são importantes para a segurança da força de trabalho no convés?
+
+A resposta é: porque mantêm o sistema sobre o rolo de popa, evitando que corra pelo convés.
+
+Um cabo ou amarra sob carga correndo solto pelo convés é extremamente perigoso para quem está lá. Os pinos seguram o sistema no lugar, sobre o rolo de popa. E como são acionados remotamente, ninguém precisa chegar perto.
+
+Para a prova: guide e stop pins mantêm o sistema sobre o rolo de popa e evitam que corra pelo convés.
+
+Questão 37 de 137. O que é o A-Frame?
+
+A resposta é: tipo de guincho em formato de A, um pórtico, localizado na popa em embarcações de manuseio.
+
+Para a prova: A-Frame, pórtico em forma de A na popa.
+
+Questão 38 de 137. Qual é a função do A-Frame?
+
+A resposta é: facilitar o lançamento e recolhimento de equipamentos.
+
+Para a prova: A-Frame, lançar e recolher equipamentos.
+
+Questão 39 de 137. Que apoio o A H T S presta a Terminais Oceânicos?
+
+A resposta é: suporte a operações em terminal oceânico, a monoboia, e de transferência de petróleo com aliviadores.
+
+A monoboia é uma boia única ancorada no mar, onde o navio se conecta para transferir petróleo. Aliviador é o navio que leva o petróleo embora, e ele vai ser estudado na parte três.
+
+Para a prova: A H T S apoia terminal oceânico, monoboia, e transferência de petróleo com aliviadores.
+
+Questão 40 de 137. Que atividade relacionada aos mangotes é atribuída ao A H T S no apoio a Terminais Oceânicos?
+
+A resposta é: manutenção e inspeções de mangotes.
+
+Para a prova: no terminal oceânico, o A H T S faz manutenção e inspeção de mangotes.
+
+Questão 41 de 137. Quando a assistência de um A H T S é obrigatória para aliviadores sem D P?
+
+A resposta do material é: para aliviadores sem D P, a assistência de um A H T S é obrigatória.
+
+Observação: a resposta apenas repete a pergunta. O sentido é que, para aliviador sem D P, a assistência é sempre obrigatória, sem condição.
+
+Faz sentido: sem posicionamento dinâmico, o aliviador não consegue se manter na posição sozinho, então precisa de ajuda.
+
+Para a prova: aliviador sem D P, A H T S sempre obrigatório.
+
+Questão 42 de 137. Quando o A H T S é requerido para aliviadores com D P?
+
+Tente responder antes de continuar.
+
+A resposta é: quando a operação ultrapassa trinta e seis horas ou mediante solicitação do Comandante.
+
+Não confunda os dois casos. Sem D P, o A H T S é sempre obrigatório. Com D P, só é requerido se a operação passar de trinta e seis horas ou se o Comandante pedir.
+
+Para a prova: aliviador com D P, A H T S acima de trinta e seis horas ou a pedido do Comandante.
+
+Questão 43 de 137. Quais são os principais riscos operacionais citados para o A H T S?
+
+A resposta é: desgaste de materiais e equipamentos do convés; falhas de comunicação passadiço e convés, ou passadiço e plataforma; erros de avaliação e pesos suspensos.
+
+Para lembrar, pense em quatro palavras: desgaste, comunicação, avaliação e peso.
+
+Para a prova: riscos do A H T S, desgaste, falha de comunicação, erro de avaliação e pesos suspensos.
+
+Questão 44 de 137. Qual material apresenta maior destaque entre os riscos de desgaste operacional?
+
+A resposta é: principalmente o desgaste dos cabos de aço, que são submetidos a grandes esforços.
+
+Para a prova: desgaste mais destacado, cabos de aço.
+
+Fechando o tema: o A H T S maneja âncoras, reboca e leva suprimento. Nasceu nos Estados Unidos e evoluiu no Mar do Norte. No reboque, usa a cabresteira, com smit bracket, e os horns na popa, que evitam que a linha escape e protegem a estabilidade. No terminal oceânico, é sempre obrigatório para aliviador sem D P, e para aliviador com D P só acima de trinta e seis horas ou a pedido do Comandante.
+
+Fim da Parte 1. Na Parte 2, vamos estudar o navio sísmico, o R S V com o R O V e o A O V, e o D S V.
