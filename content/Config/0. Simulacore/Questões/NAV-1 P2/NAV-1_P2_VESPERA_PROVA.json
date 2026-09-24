@@ -1,0 +1,879 @@
+[
+  {
+    "type": "mc",
+    "question": "Um navegante identifica um sinal lateral durante o dia e precisa classificá-lo sem depender da característica luminosa. Qual conjunto de informações é diretamente aplicável à identificação diurna dos sinais laterais?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Som emitido; período da luz; altitude do foco luminoso",
+      "Cor da luz; ritmo da luz; alcance luminoso",
+      "Setor de visibilidade; alcance geográfico; período da luz",
+      "Forma e cor da estrutura; marca e tope; numeração ou letras, quando aplicáveis"
+    ],
+    "correct": 3,
+    "explanation": "A identificação diurna considera forma, cor, marcas/topes e, nos sinais laterais, numeração ou letras."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a navegação noturna, um oficial consulta a carta para interpretar uma boia luminosa. Qual combinação deve receber prioridade para caracterizar o sinal?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Som e pintura, independentemente da característica luminosa",
+      "Numeração ou letras, complementadas pelo alcance geográfico",
+      "Forma e pintura da estrutura, complementadas pela altitude do foco",
+      "Cor e ritmo da luz, complementados por som ou sinal radioelétrico quando houver"
+    ],
+    "correct": 3,
+    "explanation": "À noite, a característica luminosa — cor e ritmo — é fundamental, juntamente com sinais sonoros ou radioelétricos quando existentes."
+  },
+  {
+    "type": "mc",
+    "question": "Ao interpretar a característica luminosa registrada na carta, o oficial encontra abreviaturas referentes à cor, ao período e à altitude. Qual associação está correta?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Cor: cor apresentada; período: duração da característica luminosa; altitude: altura da emissão em relação ao nível do mar ou rio",
+      "Cor: setor visível; período: alcance em milhas; altitude: duração da luz",
+      "Cor: alcance geográfico; período: altura do foco; altitude: ritmo da luz",
+      "Cor: altura do foco; período: cor da luz; altitude: setor de visibilidade"
+    ],
+    "correct": 0,
+    "explanation": "As três abreviaturas correspondem, respectivamente, à cor, ao período da característica luminosa e à altitude da emissão."
+  },
+  {
+    "type": "tf",
+    "question": "O setor de visibilidade de um sinal luminoso corresponde à indicação dos limites, em graus, dentro dos quais a luz é visível.",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O setor de visibilidade é expresso pelos limites angulares, em graus, dentro dos quais a luz pode ser vista."
+  },
+  {
+    "type": "mc",
+    "question": "Dois sinais apresentam características luminosas diferentes e estão representados na carta. Por que o navegante deve interpretar as abreviaturas próximas à posição do sinal, em vez de presumir uma característica padronizada?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Porque faróis, faroletes e boias podem possuir características luminosas próprias, registradas por abreviaturas na carta",
+      "Porque a característica luminosa depende somente da altitude e não da identificação do sinal",
+      "Porque somente as boias possuem características luminosas e os faróis são identificados exclusivamente pela forma",
+      "Porque a carta registra apenas o alcance geográfico e o navegante deve calcular a característica luminosa"
+    ],
+    "correct": 0,
+    "explanation": "As características luminosas não são padronizadas de forma única; por isso, o navegante deve interpretar as abreviaturas registradas na carta."
+  },
+  {
+    "type": "mc",
+    "question": "Um perigo isolado de dimensões limitadas está cercado por águas navegáveis. Qual tipo de sinalização corresponde especificamente a essa situação?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Sinal Lateral de Canal Preferencial",
+      "Sinal de Perigo Isolado",
+      "Sinal Cardinal",
+      "Sinal de Águas Seguras"
+    ],
+    "correct": 1,
+    "explanation": "O sinal de perigo isolado indica um perigo isolado de tamanho limitado cercado por águas navegáveis."
+  },
+  {
+    "type": "mc",
+    "question": "Ao aproximar-se de uma região em que o objetivo principal é indicar o setor no qual as águas são navegáveis, qual sistema de sinalização deve ser interpretado considerando os quadrantes Norte, Sul, Leste e Oeste?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Sinais Laterais",
+      "Sinais de Perigo Isolado",
+      "Sinais Cardinais",
+      "Sinais de Águas Seguras"
+    ],
+    "correct": 2,
+    "explanation": "Os sinais cardinais indicam o setor de águas navegáveis por referência aos quadrantes Norte, Sul, Leste e Oeste."
+  },
+  {
+    "type": "mc",
+    "question": "Um sinal cardinal é empregado próximo a uma bifurcação de canal. Qual utilização está coerente com o material?",
+    "category": "Navegação — Sinalização Náutica",
+    "options": [
+      "Identificar somente a margem de bombordo de um canal",
+      "Indicar exclusivamente a existência de um perigo isolado cercado por águas navegáveis",
+      "Informar exclusivamente a presença de águas seguras em torno da própria posição",
+      "Chamar a atenção para um ponto notável, como mudança de direção, junção ou bifurcação"
+    ],
+    "correct": 3,
+    "explanation": "Uma das utilizações dos sinais cardinais é chamar atenção para pontos notáveis do canal, incluindo mudanças de direção, junções e bifurcações."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando a estrutura do RIPEAM apresentada no material, qual conjunto reúne apenas temas abrangidos por suas regras?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Planejamento financeiro; carga perigosa; abastecimento; comunicações administrativas",
+      "Regras de governo e navegação; luzes e marcas; sinais sonoros e luminosos; isenções",
+      "Previsão meteorológica; cálculo astronômico; estabilidade; manutenção de máquinas",
+      "Construção naval; inspeção de casco; cálculo estrutural; pintura de convés"
+    ],
+    "correct": 1,
+    "explanation": "O material lista esses temas entre os componentes do RIPEAM, incluindo regras de governo e navegação, luzes e marcas, sinais sonoros/luminosos e isenções."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a condução de embarcações no visual uma da outra, uma embarcação aproxima-se por uma direção situada mais de 22,5° para ré do través da outra. Como essa situação é classificada segundo o material?",
+    "category": "Navegação — RIPEAM",
+    "options": [
+      "Manobra de emergência",
+      "Ultrapassagem",
+      "Encontro de proa",
+      "Rumo cruzado"
+    ],
+    "correct": 1,
+    "explanation": "O material define como ultrapassagem a aproximação vinda de uma direção de mais de 22,5° para ré do través da outra embarcação."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação de propulsão mecânica está sem calado e opera nas condições descritas no material. Qual sinal adicional é indicado?",
+    "category": "Navegação — RIPEAM — Luzes e Marcas",
+    "options": [
+      "Uma luz circular intermitente amarela",
+      "Duas luzes circulares verticais, verde sobre branca",
+      "Uma luz circular âmbar com três flashes de um segundo",
+      "Uma luz branca de mastro adicional"
+    ],
+    "correct": 0,
+    "explanation": "O material indica que, quando operando sem calado, a embarcação exibe ainda uma luz circular intermitente amarela."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação de propulsão mecânica tem comprimento inferior a 12 m. Qual combinação de luzes é admitida segundo o material?",
+    "category": "Navegação — RIPEAM — Luzes e Marcas",
+    "options": [
+      "Uma luz circular branca e as luzes de bordos",
+      "Uma luz circular amarela intermitente e uma luz de alcançado",
+      "Duas luzes circulares, verde sobre branca, e luz de mastro",
+      "Uma luz âmbar com três flashes e luzes de bordo"
+    ],
+    "correct": 0,
+    "explanation": "Para embarcação de propulsão mecânica menor de 12 m, o material admite uma luz circular branca e as luzes de bordos."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação de pesca de arrastão está com seguimento. Qual combinação de sinalização corresponde ao material?",
+    "category": "Navegação — Pesca",
+    "options": [
+      "Duas luzes circulares, encarnada sobre branca; quando com seguimento, somente luz de mastro",
+      "Duas luzes circulares, branca sobre verde; quando com seguimento, somente luzes de bordo",
+      "Uma luz circular branca e uma amarela intermitente; quando com seguimento, somente luz de alcançado",
+      "Duas luzes circulares, verde sobre branca; quando com seguimento, luzes de bordo e de alcançado"
+    ],
+    "correct": 3,
+    "explanation": "Na pesca de arrastão, as luzes são verde sobre branca; com seguimento, acrescentam-se as luzes de bordo e de alcançado."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação de pesca que não está realizando arrastão apresenta as luzes específicas dessa condição. Qual configuração está de acordo com o material?",
+    "category": "Navegação — Pesca",
+    "options": [
+      "Duas luzes circulares em linha vertical, superior encarnada e inferior branca",
+      "Duas luzes circulares em linha vertical, superior verde e inferior branca",
+      "Uma luz circular branca sobre uma luz circular encarnada",
+      "Uma luz circular amarela sobre uma luz circular branca"
+    ],
+    "correct": 0,
+    "explanation": "Na pesca que não é de arrastão, o material indica duas luzes circulares verticais, encarnada sobre branca."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação com capacidade de manobra restrita precisa exibir sua marca durante o dia. Qual configuração deve ser identificada?",
+    "category": "Navegação — RIPEAM — Luzes e Marcas",
+    "options": [
+      "Uma esfera entre dois cones unidos pelo vértice",
+      "Dois cones unidos pelo vértice",
+      "Um cesto, independentemente do comprimento da embarcação",
+      "Duas esferas separadas por dois cones unidos pela base"
+    ],
+    "correct": 3,
+    "explanation": "A marca diurna indicada para embarcação com capacidade de manobra restrita é composta por duas esferas separadas por dois cones unidos pela base."
+  },
+  {
+    "type": "tf",
+    "question": "Uma embarcação de pesca cujo equipamento se estende horizontalmente por mais de 150 m deve exibir uma luz circular branca na direção do equipamento.",
+    "category": "Navegação — Pesca",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa condição específica é indicada no material para equipamento com extensão horizontal superior a 150 m."
+  },
+  {
+    "type": "mc",
+    "question": "Em visibilidade restrita, uma embarcação de comprimento inferior a 12 m opta por não emitir os sinais sonoros previstos para embarcações maiores. Qual condição deve ser observada?",
+    "category": "Navegação — RIPEAM — Sinais Sonoros",
+    "options": [
+      "Deve emitir outros sinais sonoros eficazes a intervalos não superiores a 2 minutos",
+      "Deve emitir os sinais apenas quando detectar outro navio no radar",
+      "Deve substituir os sinais sonoros por uma luz circular amarela",
+      "Pode permanecer sem qualquer sinal sonoro durante toda a visibilidade restrita"
+    ],
+    "correct": 0,
+    "explanation": "O material estabelece que, se não emitir os sinais mencionados, a embarcação menor de 12 m deve emitir outros sinais sonoros eficazes em intervalos de até 2 minutos."
+  },
+  {
+    "type": "mc",
+    "question": "Um oficial precisa selecionar um indicador de direção de bordo. Qual conjunto contém apenas os tipos apresentados no material?",
+    "category": "Navegação — Instrumentos",
+    "options": [
+      "Radar, GPS e ecobatímetro",
+      "Superfície, fundo e magnética",
+      "Magnética, giroscópica e eletrônica",
+      "Doppler, eletromagnética e giroscópica"
+    ],
+    "correct": 2,
+    "explanation": "O material apresenta agulhas de bordo magnética, giroscópica e eletrônica como indicadores de direção."
+  },
+  {
+    "type": "mc",
+    "question": "Ao comparar os indicadores de velocidade apresentados no material, qual conjunto corresponde às categorias citadas?",
+    "category": "Navegação — Instrumentos",
+    "options": [
+      "Radar, Racon, GPS e DGPS",
+      "Magnético, giroscópico, eletrônico e Doppler",
+      "Odômetro de superfície, de fundo, eletromagnético e Doppler",
+      "Superfície, altitude, setor e alcance"
+    ],
+    "correct": 2,
+    "explanation": "Os indicadores de velocidade listados são odômetro de superfície, de fundo, eletromagnético e Doppler."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a interpretação dos movimentos no radar, o oficial seleciona o movimento verdadeiro. Qual comportamento da apresentação está de acordo com o material?",
+    "category": "Navegação — Radar",
+    "options": [
+      "O navio permanece no centro, os alvos apresentam somente movimento relativo e a terra permanece fixa",
+      "O navio permanece no centro, os alvos apresentam rumo e velocidade reais e a terra se move",
+      "O navio se movimenta na tela, os alvos apresentam rumo e velocidade reais e a terra permanece fixa",
+      "O navio se movimenta na tela, os alvos apresentam apenas rumo relativo e a terra se move"
+    ],
+    "correct": 2,
+    "explanation": "No movimento verdadeiro, o próprio navio se movimenta na tela, os alvos têm rumo e velocidade reais e a terra é fixa."
+  },
+  {
+    "type": "mc",
+    "question": "Em movimento relativo no radar, qual descrição corresponde ao modelo apresentado no material?",
+    "category": "Navegação — Radar",
+    "options": [
+      "O navio se move; os alvos têm rumo e velocidade reais e a terra permanece fixa",
+      "O navio fica parado; os alvos têm somente velocidade real e a terra permanece fixa",
+      "O navio fica parado no centro; os alvos têm rumo e velocidade relativos e a terra se move em relação ao navio",
+      "O navio se move; os alvos têm rumo relativo, mas a terra permanece fixa"
+    ],
+    "correct": 2,
+    "explanation": "No movimento relativo, o navio permanece no centro e os movimentos dos alvos e da terra são apresentados relativamente ao movimento do navio."
+  },
+  {
+    "type": "mc",
+    "question": "Dois alvos estão praticamente na mesma marcação, mas separados por uma pequena distância. O radar passa a representá-los como um único eco. Qual limitação está diretamente envolvida?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Alcance geográfico",
+      "Alcance máximo",
+      "Discriminação em marcação",
+      "Discriminação em distância"
+    ],
+    "correct": 3,
+    "explanation": "A discriminação em distância trata da capacidade de separar dois alvos na mesma marcação, mas em distâncias próximas."
+  },
+  {
+    "type": "mc",
+    "question": "Dois alvos estão na mesma distância, porém com pequena separação angular. O radar não consegue mais distingui-los separadamente. Qual capacidade foi ultrapassada?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Discriminação em marcação",
+      "Limitação de alcance mínimo",
+      "Setor de visibilidade",
+      "Discriminação em distância"
+    ],
+    "correct": 0,
+    "explanation": "A discriminação em marcação é a capacidade de diferenciar alvos na mesma distância quando suas marcações são próximas."
+  },
+  {
+    "type": "tf",
+    "question": "A limitação de alcance mínimo corresponde à distância máxima na qual o radar consegue obter alvos.",
+    "category": "Navegação — Radar",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O alcance mínimo é a menor distância radar-alvo em que o alvo pode ser apresentado sem ser confundido com o borrão central; a distância máxima corresponde ao alcance máximo."
+  },
+  {
+    "type": "mc",
+    "question": "Um alvo está muito próximo da embarcação e sua apresentação pode ser confundida com o borrão no centro da tela. Qual conceito do radar descreve essa condição?",
+    "category": "Navegação — Radar",
+    "options": [
+      "Discriminação em marcação",
+      "Limitação de alcance máximo",
+      "Limitação de alcance mínimo",
+      "Discriminação em distância"
+    ],
+    "correct": 2,
+    "explanation": "A limitação de alcance mínimo trata da menor distância na qual o alvo é apresentado sem ser confundido com o borrão central."
+  },
+  {
+    "type": "mc",
+    "question": "Uma estação de auxílio à navegação instalada em uma boia responde automaticamente quando excitada pelo radar do navio, produzindo um sinal distinto que permite identificar o alvo e obter sua marcação e distância. Qual equipamento é esse?",
+    "category": "Navegação — Radar",
+    "options": [
+      "VDR",
+      "Racon",
+      "VTS",
+      "DGPS"
+    ],
+    "correct": 1,
+    "explanation": "O Racon é um radar transponder beacon que responde ao radar e produz uma apresentação distinta para identificação do alvo."
+  },
+  {
+    "type": "mc",
+    "question": "Durante uma aproximação portuária, o oficial deseja utilizar um sistema diferencial baseado em sinais de uma estação fixa terrestre de posição conhecida para obter medidas de posicionamento mais precisas. Qual sistema corresponde à descrição?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "VTS",
+      "DGPS",
+      "Racon",
+      "VDR"
+    ],
+    "correct": 1,
+    "explanation": "O DGPS utiliza sinais de correção diferencial associados a uma estação fixa de posição conhecida e é indicado no material para maior precisão."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a finalidade principal da Rede de Estações de Referência DGPS no Brasil descrita no material?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Transmitir mensagens de socorro recebidas de EPIRBs para os centros SAR",
+      "Controlar o tráfego portuário por meio de radares costeiros",
+      "Fornecer características luminosas de faróis e faroletes em tempo real",
+      "Transmitir correções diferenciais para corrigir alguns dos principais erros de posicionamento observados no GPS"
+    ],
+    "correct": 3,
+    "explanation": "A rede emprega radiofaróis marítimos para transmitir correções diferenciais, oferecendo um meio de corrigir erros de posicionamento do GPS."
+  },
+  {
+    "type": "mc",
+    "question": "Um plano de navegação possui vários pontos de mudança de rumo até o destino. No GPS, qual sequência de operações corresponde ao procedimento descrito no material?",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Inserir as coordenadas dos pontos na função de waypoint e usar Go To para obter DTK e ATD entre os WPT",
+      "Inserir as coordenadas na função Racon e usar DTK para determinar o alcance radar",
+      "Inserir somente o destino e usar Go To para obter automaticamente todos os waypoints intermediários",
+      "Inserir os pontos como marcas de pesca e usar ETA para calcular a característica luminosa"
+    ],
+    "correct": 0,
+    "explanation": "Na derrota composta, as coordenadas dos pontos são inseridas como waypoints; usando Go To, o GPS fornece DTK e ATD entre os WPT."
+  },
+  {
+    "type": "tf",
+    "question": "Durante a navegação por uma derrota composta, o GPS pode fornecer rumo a navegar e distância até o waypoint, além de informações relacionadas à ETA e à duração da travessia.",
+    "category": "Navegação — GPS/GNSS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material lista entre os dados fornecidos durante a navegação o rumo a navegar, distâncias/duração até waypoint e ETA."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação em emergência transmite automaticamente, por meio de uma baliza de flutuação livre, um sinal de socorro que é recebido por satélites e encaminhado às estações terrestres para acionamento do SAR. Qual equipamento inicia essa cadeia?",
+    "category": "Navegação — GMDSS — COSPAS-SARSAT",
+    "options": [
+      "ELT",
+      "EPIRB",
+      "VDR",
+      "PLB"
+    ],
+    "correct": 1,
+    "explanation": "A EPIRB é a rádio baliza indicadora de posição em emergência para uso marítimo e pode transmitir automaticamente o sinal de socorro."
+  },
+  {
+    "type": "mc",
+    "question": "Um sistema de busca e salvamento precisa distinguir uma baliza marítima de uma utilizada por aeronaves e de outra destinada ao uso terrestre. Qual associação está correta?",
+    "category": "Navegação — GMDSS — COSPAS-SARSAT",
+    "options": [
+      "PLB — marítimo; ELT — terrestre; EPIRB — aeronaves",
+      "EPIRB — marítimo; ELT — aeronaves; PLB — terrestre",
+      "EPIRB — terrestre; PLB — aeronaves; ELT — marítimo",
+      "ELT — marítimo; EPIRB — aeronaves; PLB — terrestre"
+    ],
+    "correct": 1,
+    "explanation": "O material associa EPIRB ao uso marítimo, ELT a aeronaves e PLB ao uso terrestre/pessoal."
+  },
+  {
+    "type": "mc",
+    "question": "Qual sistema emprega comunicações digitais por satélite em substituição ao sistema convencional de radiotelegrafia Morse, conforme o material?",
+    "category": "Navegação — Comunicações",
+    "options": [
+      "Racon",
+      "VTS",
+      "VDR",
+      "GMDSS"
+    ],
+    "correct": 3,
+    "explanation": "O material identifica o GMDSS como sistema que emprega comunicações digitais por satélite em substituição ao sistema convencional de radiotelegrafia Morse."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio recebe automaticamente a bordo mensagens MSI transmitidas por estações costeiras em frequência preestabelecida, com alcance indicado de cerca de 400 milhas da costa. Qual sistema é descrito?",
+    "category": "Navegação — Comunicações",
+    "options": [
+      "Racon",
+      "Telex",
+      "DGPS",
+      "VTS"
+    ],
+    "correct": 1,
+    "explanation": "A descrição do material corresponde ao sistema de Telex para recebimento automático de mensagens MSI."
+  },
+  {
+    "type": "mc",
+    "question": "Um sistema utiliza quatro satélites geoestacionários e oferece recursos de alerta de socorro e comunicações por radioteleimpressão e radiotelefonia. Qual sistema corresponde à descrição?",
+    "category": "Navegação — Comunicações",
+    "options": [
+      "VTS",
+      "DGPS",
+      "INMARSAT",
+      "COSPAS-SARSAT"
+    ],
+    "correct": 2,
+    "explanation": "O material atribui essa configuração ao INMARSAT."
+  },
+  {
+    "type": "mc",
+    "question": "Uma administração portuária avalia que o volume de tráfego e os riscos envolvidos justificam a implantação de um sistema previsto na Regra 12 do Capítulo V do SOLAS. Qual sistema é indicado?",
+    "category": "Navegação — Segurança Marítima",
+    "options": [
+      "VTS",
+      "VDR",
+      "Racon",
+      "GMDSS"
+    ],
+    "correct": 0,
+    "explanation": "O material identifica o VTS como sistema que pode ser implantado quando o volume de tráfego e os riscos justificarem."
+  },
+  {
+    "type": "mc",
+    "question": "Após um acidente, a investigação necessita recuperar dados relativos à posição, movimentos, estados físicos, comando e controle da embarcação antes e depois do evento. Qual recurso atende a essa finalidade?",
+    "category": "Navegação — Segurança Marítima",
+    "options": [
+      "VTS",
+      "Telex",
+      "DGPS",
+      "VDR"
+    ],
+    "correct": 3,
+    "explanation": "O VDR mantém arquivos seguros e recuperáveis com informações relativas à posição, movimentos, status físicos, comando e controle da embarcação."
+  },
+  {
+    "type": "mc",
+    "question": "Durante o planejamento de uma derrota, o oficial consulta uma publicação que reúne pontos geográficos característicos, descrição da costa, estruturas isoladas, auxílios à navegação, ventos, correntes, fundeadouros e profundidades de barras e canais. Qual publicação está sendo utilizada?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Almanaque Náutico",
+      "Lista de Auxílios-Rádio",
+      "Avisos Rádio Locais",
+      "Roteiro"
+    ],
+    "correct": 3,
+    "explanation": "Esses são exemplos de informações fornecidas pelo Roteiro."
+  },
+  {
+    "type": "mc",
+    "question": "Um navegante precisa prever a direção e a velocidade da corrente de maré em determinado local e avaliar seu efeito sobre a velocidade do navio e a ETA. Qual publicação/conjunto de cartas fornece essas informações?",
+    "category": "Navegação — Marés e Correntes",
+    "options": [
+      "Tabelas de Navegação",
+      "Almanaque Náutico",
+      "Cartas de Correntes de Maré",
+      "Lista de Faróis"
+    ],
+    "correct": 2,
+    "explanation": "As cartas de correntes de maré apresentam elementos da corrente e permitem predizer direção e velocidade em função das referências de preamar e baixa-mar, além de avaliar efeitos na ETA."
+  },
+  {
+    "type": "mc",
+    "question": "Um oficial precisa consultar características, frequências, horários e procedimentos dos serviços radiotelegráficos das estações costeiras. Qual publicação atende diretamente a essa necessidade?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Almanaque Náutico",
+      "Roteiro",
+      "Lista de Faróis",
+      "Lista de Auxílios-Rádio"
+    ],
+    "correct": 3,
+    "explanation": "A Lista de Auxílios-Rádio apresenta as informações referentes aos serviços radiotelegráficos das estações costeiras necessárias ao navegante."
+  },
+  {
+    "type": "mc",
+    "question": "Uma informação urgente precisa chegar aos navegantes por rádio e/ou satélite, sem depender da atualização física imediata da carta. Como essa informação é classificada no material?",
+    "category": "Navegação — Avisos Náuticos",
+    "options": [
+      "Roteiro",
+      "Aviso Rádio Local",
+      "Aviso Permanente Especial",
+      "Aviso Rádio Náutico"
+    ],
+    "correct": 3,
+    "explanation": "Os Avisos Rádio Náuticos são destinados a informações urgentes transmitidas via rádio e/ou satélite."
+  },
+  {
+    "type": "mc",
+    "question": "Um aviso contém informação referente à área oceânica sob responsabilidade do Brasil, relevante para a navegação de longo curso, e sua transmissão é precedida pela expressão NAVAREA. Qual tipo é esse?",
+    "category": "Navegação — Avisos Náuticos",
+    "options": [
+      "Aviso Rádio Local",
+      "Aviso Rádio Costeiro",
+      "Aviso Rádio de Área",
+      "Aviso Permanente Especial"
+    ],
+    "correct": 2,
+    "explanation": "Os Avisos Rádio de Área divulgam informações de interesse da navegação de longo curso na área oceânica sob responsabilidade do Brasil e são precedidos por NAVAREA."
+  },
+  {
+    "type": "mc",
+    "question": "Uma informação interessa à navegação de cabotagem em faixa oceânica entre 3 e 50 milhas náuticas da costa ou em faixa de 700 milhas náuticas em torno da NAVAREA V. Qual classificação corresponde?",
+    "category": "Navegação — Avisos Náuticos",
+    "options": [
+      "Avisos Rádio Costeiros",
+      "Avisos Rádio Locais",
+      "Avisos Rádio de Área",
+      "Avisos Permanentes Especiais"
+    ],
+    "correct": 0,
+    "explanation": "O material atribui essas áreas de interesse aos Avisos Rádio Costeiros."
+  },
+  {
+    "type": "mc",
+    "question": "Um aviso se refere a uma área litorânea até 3 milhas da costa, ao interior de portos, canais de acesso e vias navegáveis interiores. Qual classificação é adequada?",
+    "category": "Navegação — Avisos Náuticos",
+    "options": [
+      "Aviso Rádio Local",
+      "Aviso Rádio Costeiro",
+      "Aviso Permanente Especial",
+      "Aviso Rádio de Área"
+    ],
+    "correct": 0,
+    "explanation": "Os Avisos Rádio Locais abrangem informações restritas a áreas litorâneas até 3 milhas, portos, canais e vias interiores."
+  },
+  {
+    "type": "tf",
+    "question": "O Aviso Permanente Especial é destinado a divulgar informações gerais de caráter permanente importantes para os navegantes, embora não altere as cartas náuticas.",
+    "category": "Navegação — Avisos Náuticos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é exatamente a finalidade descrita no material para o Aviso Permanente Especial."
+  },
+  {
+    "type": "mc",
+    "question": "Um oficial de navegação astronômica precisa obter elementos para determinar a posição utilizando o Sol, a Lua, quatro planetas e 57 estrelas. Qual publicação anual deve consultar?",
+    "category": "Navegação — Navegação Astronômica",
+    "options": [
+      "Almanaque Náutico",
+      "Tabelas de Navegação",
+      "Lista de Faróis",
+      "Roteiro"
+    ],
+    "correct": 0,
+    "explanation": "O Almanaque Náutico fornece os elementos essenciais para a navegação astronômica com esses astros."
+  },
+  {
+    "type": "mc",
+    "question": "Além dos elementos para posicionamento astronômico, qual conjunto de informações está associado ao Almanaque Náutico no material?",
+    "category": "Navegação — Navegação Astronômica",
+    "options": [
+      "Rumos planejados; waypoints; UKC; squat; wheel-over positions",
+      "Correntes oceânicas; fundeadouros; profundidades de barras; áreas proibidas",
+      "Características de radiofaróis; frequências; horários de estações costeiras; procedimentos radiotelegráficos",
+      "Nascer e pôr do Sol e Lua; passagem meridiana; crepúsculos; estrela Polar; correções de sextante; hora legal e fusos"
+    ],
+    "correct": 3,
+    "explanation": "Esses elementos são listados como informações fornecidas pelo Almanaque Náutico."
+  },
+  {
+    "type": "mc",
+    "question": "Um navegante deseja utilizar uma coletânea de tabelas para facilitar cálculos e trabalhos de navegação, sabendo que sua utilização é opcional. Como esse conjunto é classificado?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Tabelas e Tábuas de Navegação",
+      "Lista de Auxílios-Rádio",
+      "Roteiro",
+      "Avisos Rádio de Área"
+    ],
+    "correct": 0,
+    "explanation": "O material classifica essas coletâneas como Tabelas e Tábuas de Navegação, de utilização opcional."
+  },
+  {
+    "type": "mc",
+    "question": "Ao estimar o tempo de viagem para avaliar necessidades de rancho, água potável e combustível, qual aplicação da tábua de distância está sendo utilizada?",
+    "category": "Navegação — Publicações Náuticas",
+    "options": [
+      "Determinação do setor cardinal seguro para ultrapassar um perigo",
+      "Determinação da característica luminosa de um farol a partir do alcance geográfico",
+      "Cálculo da direção e velocidade de uma corrente de maré a partir da preamar",
+      "Avaliação do tempo de viagem e, a partir dele, estimativa de recursos necessários para a viagem"
+    ],
+    "correct": 3,
+    "explanation": "O material relaciona a tábua de distância à avaliação do tempo de viagem e à estimativa de recursos necessários."
+  },
+  {
+    "type": "mc",
+    "question": "Na prática, uma embarcação é desviada de sua derrota planejada pela ação da corrente. Como esse efeito é denominado no material?",
+    "category": "Navegação — Derrota e Correntes",
+    "options": [
+      "Discriminação em distância",
+      "Setor de visibilidade",
+      "Efeito da corrente",
+      "Alcance geográfico"
+    ],
+    "correct": 2,
+    "explanation": "O material chama de efeitos da corrente os fatores que fazem a embarcação se desviar da derrota."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a análise das condições ambientais, o oficial observa o ar em movimento produzido por diferenças de pressão atmosférica resultantes das diferenças de temperatura das massas de ar. Esse fenômeno é o:",
+    "category": "Navegação — Meteorologia",
+    "options": [
+      "Abatimento",
+      "Vento",
+      "Maré",
+      "Alcance geográfico"
+    ],
+    "correct": 1,
+    "explanation": "O material define vento como ar em movimento associado às diferenças de pressão atmosférica produzidas por diferenças de temperatura das massas de ar."
+  },
+  {
+    "type": "mc",
+    "question": "Um navio mantém um rumo na superfície, mas a corrente faz com que seu rumo sobre o fundo seja diferente. O ângulo entre esses dois rumos, contado para BE ou BB a partir do rumo na superfície, representa o:",
+    "category": "Navegação — Derrota e Correntes",
+    "options": [
+      "Abatimento",
+      "Rumo de fundo",
+      "Setor de visibilidade",
+      "Alcance geográfico"
+    ],
+    "correct": 0,
+    "explanation": "O abatimento é o ângulo entre o rumo na superfície e o rumo no fundo, contado para BE ou BB a partir do rumo na superfície."
+  },
+  {
+    "type": "tf",
+    "question": "O abatimento representa a diferença entre o rumo planejado na superfície e o rumo efetivamente seguido sobre o fundo em função da corrente.",
+    "category": "Navegação — Derrota e Correntes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material apresenta essa relação como definição operacional do abatimento."
+  },
+  {
+    "type": "mc",
+    "question": "O nível das águas apresenta movimento rítmico e periódico, associado às forças de atração dos astros. Qual fenômeno corresponde a essa descrição?",
+    "category": "Navegação — Marés",
+    "options": [
+      "Maré",
+      "Corrente oceânica",
+      "Vento",
+      "Abatimento"
+    ],
+    "correct": 0,
+    "explanation": "O material define maré como movimento rítmico do nível das águas, função periódica do tempo."
+  },
+  {
+    "type": "mc",
+    "question": "Em determinada lunação, as forças de atração da Lua e do Sol se somam duas vezes. Qual tipo de maré resulta dessa condição?",
+    "category": "Navegação — Marés",
+    "options": [
+      "Maré de Corrente",
+      "Maré de Amplitude",
+      "Maré de Sizígia",
+      "Maré de Quadratura"
+    ],
+    "correct": 2,
+    "explanation": "Quando as forças de atração da Lua e do Sol se somam, ocorre a condição de maré de sizígia."
+  },
+  {
+    "type": "mc",
+    "question": "Em determinada lunação, as forças de atração da Lua e do Sol se opõem duas vezes. Qual classificação corresponde?",
+    "category": "Navegação — Marés",
+    "options": [
+      "Maré de Sizígia",
+      "Maré de Amplitude",
+      "Maré de Alcance",
+      "Maré de Quadratura"
+    ],
+    "correct": 3,
+    "explanation": "A oposição entre as forças de atração da Lua e do Sol corresponde à maré de quadratura."
+  },
+  {
+    "type": "mc",
+    "question": "Um oficial calcula a distância vertical entre uma preamar e a baixa-mar consecutiva. Qual grandeza está sendo determinada?",
+    "category": "Navegação — Marés",
+    "options": [
+      "Abatimento",
+      "Setor de visibilidade",
+      "Alcance geográfico",
+      "Amplitude de maré"
+    ],
+    "correct": 3,
+    "explanation": "A distância vertical entre uma preamar e uma baixa-mar consecutivas é a amplitude de maré."
+  },
+  {
+    "type": "mc",
+    "question": "Ao elaborar o plano de viagem, o oficial precisa avaliar condições ambientais, segurança, perigos à navegação, auxílios e pontos críticos. Qual conjunto adicional de pontos críticos está expressamente indicado no material?",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Abortion points, parallel indexing, wheel-over positions e mudanças de carta",
+      "Somente faróis, faroletes, boias e sinais sonoros",
+      "Somente ETA, ATD, DTK e velocidade de superfície",
+      "Somente preamar, baixa-mar, sizígia e quadratura"
+    ],
+    "correct": 0,
+    "explanation": "O material destaca esses elementos como pontos críticos a considerar no planejamento da viagem."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto reúne elementos que devem ser avaliados no plano de viagem segundo o material?",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Somente rumo e distância, sem considerar calado ou emergência",
+      "Características luminosas; alcance geográfico; setor de visibilidade; período",
+      "Velocidade segura; regime de máquinas; waypoints; UKC considerando squat; métodos de posição em pontos críticos; desvios em emergências",
+      "Correntes, ventos e marés, sem considerar métodos de posicionamento"
+    ],
+    "correct": 2,
+    "explanation": "Esses elementos são listados como principais itens a avaliar no plano de viagem."
+  },
+  {
+    "type": "mc",
+    "question": "Um plano de viagem está sendo detalhado para navegação em águas restritas. Qual conjunto contém somente elementos que o material determina incorporar ao plano?",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Somente correntes, ventos, marés e condições meteorológicas",
+      "Somente profundidades, calado, squat e UKC",
+      "Rumos, distâncias, velocidades, pontos críticos e de mudança de rumo, curvas de raio constante e margens de segurança",
+      "Somente waypoints, ETA, DTK e ATD"
+    ],
+    "correct": 2,
+    "explanation": "O material lista esses elementos como detalhes a serem incorporados ao plano de viagem."
+  },
+  {
+    "type": "mc",
+    "question": "Ao planejar uma derrota oceânica, o oficial utiliza cartas de pequena escala e precisa considerar condições oceânicas, zonas de linhas de carga e cartas de rotas oceânicas. Essa abordagem corresponde ao:",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Planejamento da derrota oceânica",
+      "Cálculo da discriminação radar",
+      "Planejamento de sinalização lateral",
+      "Planejamento de manobra em águas restritas"
+    ],
+    "correct": 0,
+    "explanation": "O material descreve o planejamento da derrota oceânica dessa forma."
+  },
+  {
+    "type": "mc",
+    "question": "Uma área possui profundidade inferior ao calado máximo do navio acrescido da profundidade mínima de segurança abaixo da quilha. Como essa área deve ser tratada no planejamento?",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Wheel-over position",
+      "Área de águas seguras",
+      "No-go area",
+      "Ponto de não-retorno"
+    ],
+    "correct": 2,
+    "explanation": "No-go areas são áreas cuja profundidade não atende ao calado acrescido da margem mínima de segurança abaixo da quilha, considerando também maré e squat."
+  },
+  {
+    "type": "mc",
+    "question": "Ao definir uma no-go area, qual conjunto de fatores deve ser considerado para verificar se a profundidade disponível atende à margem de segurança?",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Somente velocidade, rumo e ETA",
+      "Somente corrente de maré e setor de visibilidade",
+      "Calado máximo, altura da maré, efeito squat e profundidade mínima de segurança abaixo da quilha",
+      "Somente calado estático e alcance geográfico"
+    ],
+    "correct": 2,
+    "explanation": "O material determina considerar calado máximo, altura da maré, squat e profundidade mínima de segurança abaixo da quilha."
+  },
+  {
+    "type": "mc",
+    "question": "Em águas restritas, o navio alcança uma posição na qual não existe outra opção de manobra por meios próprios a não ser seguir em frente. Como essa posição é denominada?",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Wheel-over position",
+      "Waypoint final",
+      "Ponto de não-retorno",
+      "Abortion point"
+    ],
+    "correct": 2,
+    "explanation": "O material denomina essa posição de ponto de não-retorno."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a navegação, o oficial utiliza o radar para determinar o abatimento do navio em relação à rota planejada. Qual técnica está sendo aplicada?",
+    "category": "Navegação — Radar — Planejamento da Derrota",
+    "options": [
+      "Paralelas Indexadas",
+      "Discriminação em distância",
+      "Movimento Verdadeiro",
+      "Go To"
+    ],
+    "correct": 0,
+    "explanation": "Paralelas Indexadas são apresentadas no material como técnica de uso do radar para determinar o abatimento em relação à rota planejada."
+  },
+  {
+    "type": "mc",
+    "question": "Em águas restritas, o próximo waypoint ainda não foi alcançado, mas o rumo precisa começar a ser alterado para compensar o caimento do navio devido ao seu seguimento. Qual posição define o início dessa alteração?",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Wheel-over position",
+      "Ponto de não-retorno",
+      "Abortion point",
+      "No-go area"
+    ],
+    "correct": 0,
+    "explanation": "A Wheel-over Position é o ponto em que o rumo começa a ser alterado antes do waypoint, considerando o caimento do navio devido ao seguimento."
+  },
+  {
+    "type": "tf",
+    "question": "Na navegação em águas restritas, a Wheel-over Position corresponde ao ponto em que o rumo começa a ser alterado antes do waypoint seguinte devido ao caimento do navio causado pelo seu seguimento.",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a definição operacional apresentada no material."
+  },
+  {
+    "type": "mc",
+    "question": "Um oficial compara duas posições de planejamento: uma em que não há alternativa de manobra além de seguir em frente e outra em que o rumo deve começar a ser alterado antes do waypoint devido ao seguimento. Qual associação está correta?",
+    "category": "Navegação — Planejamento da Derrota",
+    "options": [
+      "Abortion point; no-go area",
+      "No-go area; ponto de não-retorno",
+      "Ponto de não-retorno; Wheel-over Position",
+      "Wheel-over Position; ponto de não-retorno"
+    ],
+    "correct": 2,
+    "explanation": "O ponto de não-retorno representa a posição sem alternativa de manobra por meios próprios; a Wheel-over Position define o início antecipado da mudança de rumo."
+  },
+  {
+    "type": "gap",
+    "question": "A distância vertical entre uma preamar e uma baixa-mar consecutivas é denominada ________ de maré.",
+    "category": "Navegação — Marés",
+    "correct": "amplitude",
+    "explanation": "O material define essa distância como amplitude de maré."
+  }
+]
