@@ -178,7 +178,7 @@ Depois:
 
 ```text
 Editor de Rota / Route Editor
-→ Nova Rota / New
+→ Advanced Plannig -> New
 ```
 
 ### Primeiro ponto
@@ -216,9 +216,10 @@ Na lista de pontos:
 ### Primeiro ponto
 
 ```text
-Selecionar WP
+Advanced Plannig
+Selecionar WP desejado, da um duplo clique
 → Renomear / Rename
-→ WP1 — PARTIDA
+→ Exemplo: Través com Cabo Frio.
 ```
 
 ### Segundo ponto
