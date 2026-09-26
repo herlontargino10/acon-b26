@@ -135,7 +135,7 @@ Indicação dos **limites, em graus**, dentro dos quais a luz é visível.
 ## Q10 — Alcance Geográfico
 
 **Pergunta:**  
-Também chamado de _____________, é indicado na carta em milhas.
+Também chamado de ______ _____________, é indicado na carta em milhas.
 
 **Resposta:**  
 **Alcance geográfico.**
@@ -229,7 +229,7 @@ Como está estruturado o RIPEAM?
 
 - **38 regras**;
     
-- Regiões onde se aplicam as responsabilidades e definições gerais;
+ Regiões onde se aplicam as responsabilidades e definições gerais;
     
 - Regras de governo e de navegação;
     
