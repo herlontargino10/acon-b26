@@ -1,0 +1,1562 @@
+[
+  {
+    "type": "mc",
+    "question": "Um corpo está se movendo em linha reta com velocidade constante. Qual situação é compatível com esse movimento?",
+    "category": "Física — U3 — Leis de Newton",
+    "options": [
+      "A força resultante é necessariamente diferente de zero.",
+      "A força resultante é nula.",
+      "A aceleração é necessariamente diferente de zero.",
+      "A massa do corpo está diminuindo."
+    ],
+    "correct": 1,
+    "explanation": "Velocidade constante implica aceleração nula; pela 1ª Lei, a força resultante é nula."
+  },
+  {
+    "type": "mc",
+    "question": "Um estudante afirma: 'Se a força resultante sobre um corpo é zero, o corpo obrigatoriamente está parado.' Qual alternativa corrige a afirmação?",
+    "category": "Física — U3 — Leis de Newton",
+    "options": [
+      "Sim, força nula sempre implica repouso.",
+      "Não; ele pode estar em movimento retilíneo uniforme.",
+      "Não; ele deve estar em movimento circular uniforme.",
+      "Sim, desde que sua massa seja constante."
+    ],
+    "correct": 1,
+    "explanation": "Força resultante nula significa aceleração nula, podendo haver repouso ou MRU."
+  },
+  {
+    "type": "mc",
+    "question": "Ao empurrar uma parede, uma pessoa exerce uma força sobre ela. Sobre o par de ação e reação, é correto afirmar:",
+    "category": "Física — U3 — Leis de Newton",
+    "options": [
+      "As duas forças atuam sobre a pessoa.",
+      "As duas forças atuam sobre a parede.",
+      "As duas forças atuam em corpos diferentes.",
+      "Elas se anulam porque têm sentidos opostos."
+    ],
+    "correct": 2,
+    "explanation": "Ação e reação têm mesma intensidade e sentidos opostos, mas atuam em corpos diferentes."
+  },
+  {
+    "type": "mc",
+    "question": "Uma força de ação e sua reação não se anulam na análise de um único corpo porque:",
+    "category": "Física — U3 — Leis de Newton",
+    "options": [
+      "têm módulos diferentes.",
+      "têm direções diferentes.",
+      "atuam em corpos diferentes.",
+      "aparecem em instantes diferentes."
+    ],
+    "correct": 2,
+    "explanation": "O critério decisivo é que o par de ação-reação atua em corpos diferentes."
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa diferencia corretamente massa e peso?",
+    "category": "Física — U3 — Massa e peso",
+    "options": [
+      "Massa é força gravitacional; peso é medida da inércia.",
+      "Massa mede a inércia; peso é uma força gravitacional e depende de g.",
+      "Massa e peso são a mesma grandeza em unidades diferentes.",
+      "Peso não varia quando a gravidade local muda."
+    ],
+    "correct": 1,
+    "explanation": "A massa é associada à inércia; o peso é a força gravitacional P=mg."
+  },
+  {
+    "type": "mc",
+    "question": "Um mesmo corpo é levado para uma região onde a gravidade é menor. O que acontece, de acordo com os conceitos da Unidade 3?",
+    "category": "Física — U3 — Massa e inércia",
+    "options": [
+      "Sua massa diminui e seu peso permanece igual.",
+      "Sua massa permanece e seu peso diminui.",
+      "Sua massa e seu peso permanecem iguais.",
+      "Sua massa aumenta e seu peso diminui."
+    ],
+    "correct": 1,
+    "explanation": "A massa não depende da gravidade local, enquanto o peso P=mg varia com g."
+  },
+  {
+    "type": "mc",
+    "question": "Dois corpos recebem a mesma força resultante. O corpo de maior massa tende a apresentar:",
+    "category": "Física — U3 — Inércia",
+    "options": [
+      "maior resistência à mudança do movimento.",
+      "menor resistência à mudança do movimento.",
+      "necessariamente maior velocidade final.",
+      "aceleração necessariamente maior."
+    ],
+    "correct": 0,
+    "explanation": "A massa é a medida quantitativa da inércia."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma mola ideal, se a deformação for duplicada, mantendo a constante elástica, a intensidade da força elástica:",
+    "category": "Física — U3 — Lei de Hooke",
+    "options": [
+      "cai pela metade.",
+      "permanece igual.",
+      "dobra.",
+      "quadruplica."
+    ],
+    "correct": 2,
+    "explanation": "Pela relação F=kx, a força é diretamente proporcional à deformação."
+  },
+  {
+    "type": "mc",
+    "question": "Na Lei de Hooke apresentada no material, x representa:",
+    "category": "Física — U3 — Lei de Hooke",
+    "options": [
+      "a massa da mola.",
+      "a deformação em relação ao comprimento relaxado.",
+      "o peso do corpo preso à mola.",
+      "o período de oscilação."
+    ],
+    "correct": 1,
+    "explanation": "x é a deformação por alongamento ou compressão em relação ao comprimento relaxado."
+  },
+  {
+    "type": "mc",
+    "question": "Uma partícula realiza MCU. Qual afirmação está correta?",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "O módulo da velocidade varia continuamente.",
+      "O módulo da velocidade permanece constante, enquanto sua direção varia.",
+      "O vetor velocidade permanece constante.",
+      "A aceleração é nula."
+    ],
+    "correct": 1,
+    "explanation": "No MCU, a velocidade escalar é constante, mas a direção do vetor velocidade muda."
+  },
+  {
+    "type": "mc",
+    "question": "Por que uma partícula em MCU está acelerada mesmo mantendo velocidade escalar constante?",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "Porque sua massa aumenta.",
+      "Porque seu raio aumenta.",
+      "Porque o vetor velocidade muda de direção.",
+      "Porque sua velocidade escalar aumenta."
+    ],
+    "correct": 2,
+    "explanation": "A aceleração existe porque há mudança do vetor velocidade, ainda que seu módulo seja constante."
+  },
+  {
+    "type": "mc",
+    "question": "Em um ponto qualquer de uma trajetória circular, o vetor velocidade instantânea aponta:",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "radialmente para o centro.",
+      "radialmente para fora.",
+      "tangencialmente à trajetória, no sentido do movimento.",
+      "sempre verticalmente para baixo."
+    ],
+    "correct": 2,
+    "explanation": "A velocidade instantânea é tangente à trajetória."
+  },
+  {
+    "type": "mc",
+    "question": "Em MCU, o vetor aceleração centrípeta aponta:",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "na direção tangente e no sentido do movimento.",
+      "para o centro da circunferência.",
+      "para fora da circunferência.",
+      "sempre na direção da velocidade."
+    ],
+    "correct": 1,
+    "explanation": "A aceleração centrípeta é radial e orientada para o centro."
+  },
+  {
+    "type": "mc",
+    "question": "Se uma partícula mantém o mesmo módulo de velocidade e passa a descrever uma curva de menor raio, a aceleração centrípeta:",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "diminui.",
+      "permanece igual.",
+      "aumenta.",
+      "torna-se nula."
+    ],
+    "correct": 2,
+    "explanation": "a_c=v²/R; mantendo v, diminuir R aumenta a_c."
+  },
+  {
+    "type": "mc",
+    "question": "Duas partículas têm a mesma velocidade escalar em trajetórias circulares. A que possui menor raio apresenta:",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "menor aceleração centrípeta.",
+      "maior aceleração centrípeta.",
+      "a mesma aceleração centrípeta.",
+      "aceleração necessariamente nula."
+    ],
+    "correct": 1,
+    "explanation": "Com mesmo v, a_c é inversamente proporcional ao raio."
+  },
+  {
+    "type": "mc",
+    "question": "O período de uma partícula em MCU representa:",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "a distância percorrida em uma volta.",
+      "o tempo necessário para completar uma volta.",
+      "a velocidade média da partícula.",
+      "a aceleração dirigida ao centro."
+    ],
+    "correct": 1,
+    "explanation": "Período é o intervalo de tempo para uma revolução completa."
+  },
+  {
+    "type": "mc",
+    "question": "Mantendo a velocidade escalar constante, se o raio da trajetória circular dobrar, o período:",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "cai pela metade.",
+      "permanece igual.",
+      "dobra.",
+      "quadruplica."
+    ],
+    "correct": 2,
+    "explanation": "T=2πR/v; com v constante, T é proporcional a R."
+  },
+  {
+    "type": "mc",
+    "question": "No MCU, quais módulos permanecem constantes segundo o material?",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "Apenas o módulo da velocidade.",
+      "Apenas o módulo da aceleração.",
+      "Os módulos da velocidade e da aceleração.",
+      "Nem velocidade nem aceleração."
+    ],
+    "correct": 2,
+    "explanation": "O material afirma que ambos os módulos permanecem constantes; suas direções mudam."
+  },
+  {
+    "type": "mc",
+    "question": "Se uma partícula muda de posição de r1 para r2, seu vetor deslocamento é:",
+    "category": "Física — U3 — Cinemática vetorial",
+    "options": [
+      "r1+r2.",
+      "r1-r2.",
+      "r2-r1.",
+      "r1/r2."
+    ],
+    "correct": 2,
+    "explanation": "O deslocamento é a diferença entre a posição final e a inicial."
+  },
+  {
+    "type": "mc",
+    "question": "Qual propriedade geométrica caracteriza a velocidade instantânea?",
+    "category": "Física — U3 — Cinemática vetorial",
+    "options": [
+      "É sempre perpendicular à trajetória.",
+      "É sempre tangente à trajetória.",
+      "Aponta sempre para o centro de curvatura.",
+      "É sempre paralela à aceleração."
+    ],
+    "correct": 1,
+    "explanation": "A velocidade instantânea é tangente à trajetória."
+  },
+  {
+    "type": "mc",
+    "question": "No lançamento de projéteis no vácuo, a componente horizontal do movimento é tratada como:",
+    "category": "Física — U3 — Movimento balístico",
+    "options": [
+      "movimento uniformemente variado com aceleração g.",
+      "movimento uniforme com aceleração horizontal nula.",
+      "movimento circular uniforme.",
+      "movimento sem velocidade."
+    ],
+    "correct": 1,
+    "explanation": "No eixo horizontal, a aceleração é nula e a velocidade horizontal permanece constante."
+  },
+  {
+    "type": "mc",
+    "question": "No lançamento oblíquo no vácuo, a componente vertical da velocidade varia porque:",
+    "category": "Física — U3 — Movimento balístico",
+    "options": [
+      "existe aceleração gravitacional vertical.",
+      "existe aceleração horizontal.",
+      "a massa do projétil muda.",
+      "o raio da trajetória é constante."
+    ],
+    "correct": 0,
+    "explanation": "A gravidade produz aceleração vertical dirigida para baixo."
+  },
+  {
+    "type": "mc",
+    "question": "No ponto mais alto de um lançamento oblíquo ideal:",
+    "category": "Física — U3 — Movimento balístico",
+    "options": [
+      "vx=0 e vy=0.",
+      "vx permanece e vy=0.",
+      "vx=0 e vy permanece.",
+      "a aceleração é zero."
+    ],
+    "correct": 1,
+    "explanation": "A componente vertical zera momentaneamente, mas a horizontal permanece."
+  },
+  {
+    "type": "mc",
+    "question": "Um estudante diz que o projétil 'para' no ponto mais alto. Qual resposta está correta?",
+    "category": "Física — U3 — Movimento balístico",
+    "options": [
+      "Correto, pois todas as componentes da velocidade são zero.",
+      "Correto apenas se o lançamento for vertical.",
+      "Incorreto, pois a componente horizontal permanece diferente de zero no lançamento oblíquo.",
+      "Incorreto porque a velocidade vertical aumenta nesse ponto."
+    ],
+    "correct": 2,
+    "explanation": "No topo, vy=0, mas vx permanece no lançamento oblíquo."
+  },
+  {
+    "type": "mc",
+    "question": "No modelo ideal do material, o alcance máximo do lançamento oblíquo ocorre para:",
+    "category": "Física — U3 — Movimento balístico",
+    "options": [
+      "15°.",
+      "30°.",
+      "45°.",
+      "90°."
+    ],
+    "correct": 2,
+    "explanation": "Para o alcance horizontal R=v0² sen(2θ0)/g, o máximo ocorre em 45°."
+  },
+  {
+    "type": "mc",
+    "question": "Considerando resistência do ar em um lançamento oblíquo, qual alteração é esperada?",
+    "category": "Física — U3 — Movimento balístico",
+    "options": [
+      "Aumentam alcance e altura máxima.",
+      "A trajetória mantém exatamente a simetria parabólica ideal.",
+      "O alcance e a altura máxima diminuem.",
+      "O arrasto aumenta a energia mecânica."
+    ],
+    "correct": 2,
+    "explanation": "O arrasto retira energia mecânica e reduz alcance e altura máxima."
+  },
+  {
+    "type": "mc",
+    "question": "Em um movimento curvilíneo variado, a aceleração tangencial é responsável principalmente por:",
+    "category": "Física — U3 — Aceleração curvilínea",
+    "options": [
+      "alterar a direção da velocidade.",
+      "alterar o módulo da velocidade.",
+      "apontar sempre para o centro.",
+      "manter o módulo da velocidade constante."
+    ],
+    "correct": 1,
+    "explanation": "a_t=dv/dt altera o módulo da velocidade."
+  },
+  {
+    "type": "mc",
+    "question": "Em um movimento curvilíneo variado, a aceleração centrípeta é responsável principalmente por:",
+    "category": "Física — U3 — Aceleração curvilínea",
+    "options": [
+      "alterar o módulo da velocidade.",
+      "alterar a direção da velocidade.",
+      "eliminar a gravidade.",
+      "produzir deslocamento nulo."
+    ],
+    "correct": 1,
+    "explanation": "a_c=v²/R é radial e altera a direção do vetor velocidade."
+  },
+  {
+    "type": "mc",
+    "question": "Se a velocidade escalar aumenta enquanto a trajetória também é curva, é possível afirmar que:",
+    "category": "Física — U3 — Aceleração curvilínea",
+    "options": [
+      "existe somente aceleração centrípeta.",
+      "existe somente aceleração tangencial.",
+      "pode existir aceleração tangencial e centrípeta simultaneamente.",
+      "a aceleração total é necessariamente zero."
+    ],
+    "correct": 2,
+    "explanation": "Em uma curva com velocidade variável, as componentes tangencial e centrípeta podem coexistir."
+  },
+  {
+    "type": "mc",
+    "question": "No topo de uma lombada, a força resultante radial é dirigida para baixo. A relação apresentada no material é:",
+    "category": "Física — U3 — Dinâmica circular",
+    "options": [
+      "N-P=mv²/R.",
+      "P-N=mv²/R.",
+      "P+N=mv²/R.",
+      "N=0 sempre."
+    ],
+    "correct": 1,
+    "explanation": "No topo, peso aponta para o centro e normal para fora: P-N=mv²/R."
+  },
+  {
+    "type": "mc",
+    "question": "Um veículo perde contato com uma lombada quando, no modelo apresentado, a força normal:",
+    "category": "Física — U3 — Dinâmica circular",
+    "options": [
+      "atinge seu valor máximo.",
+      "fica igual ao peso.",
+      "se torna zero.",
+      "se torna negativa."
+    ],
+    "correct": 2,
+    "explanation": "A condição de perda de contato é N=0."
+  },
+  {
+    "type": "mc",
+    "question": "No fundo de uma depressão, a relação radial apresentada é:",
+    "category": "Física — U3 — Dinâmica circular",
+    "options": [
+      "N-P=mv²/R.",
+      "P-N=mv²/R.",
+      "N+P=0.",
+      "P=0."
+    ],
+    "correct": 0,
+    "explanation": "No fundo, a normal aponta para o centro e o peso para fora: N-P=mv²/R."
+  },
+  {
+    "type": "mc",
+    "question": "No topo de um looping vertical, para manter contato com a pista, a condição mínima ocorre quando:",
+    "category": "Física — U3 — Dinâmica circular",
+    "options": [
+      "N<0.",
+      "N=0.",
+      "P=0.",
+      "v=0."
+    ],
+    "correct": 1,
+    "explanation": "A condição limite é N=0; daí resulta v_min=sqrt(gR)."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma curva plana com atrito, o atrito estático fornece a força centrípeta. Para não derrapar:",
+    "category": "Física — U3 — Dinâmica circular",
+    "options": [
+      "F_at > μ_eN.",
+      "F_at = 0 sempre.",
+      "F_at ≤ μ_eN.",
+      "F_at depende apenas da massa."
+    ],
+    "correct": 2,
+    "explanation": "A condição de não derrapagem apresentada é F_at≤μ_eN."
+  },
+  {
+    "type": "mc",
+    "question": "Dois referenciais se movem com velocidade constante um em relação ao outro. Para uma partícula observada por ambos, a aceleração medida é:",
+    "category": "Física — U3 — Movimento relativo",
+    "options": [
+      "sempre diferente.",
+      "a mesma em ambos os referenciais inerciais.",
+      "sempre zero.",
+      "dependente apenas da massa."
+    ],
+    "correct": 1,
+    "explanation": "Com velocidade relativa constante, sua derivada é zero; as acelerações coincidem."
+  },
+  {
+    "type": "mc",
+    "question": "No movimento relativo apresentado, a velocidade da partícula em A pode ser escrita como:",
+    "category": "Física — U3 — Movimento relativo",
+    "options": [
+      "v_PA=v_PB−v_BA.",
+      "v_PA=v_PB+v_BA.",
+      "v_PA=v_BA−v_PB sempre.",
+      "v_PA=v_PB/v_BA."
+    ],
+    "correct": 1,
+    "explanation": "A relação vetorial apresentada é v_PA=v_PB+v_BA."
+  },
+  {
+    "type": "mc",
+    "question": "Se a posição x(t) é conhecida, a velocidade instantânea é obtida por:",
+    "category": "Física — U3 — Cálculo aplicado à cinemática",
+    "options": [
+      "integral de x em relação a t.",
+      "primeira derivada de x em relação a t.",
+      "segunda derivada de x em relação a t.",
+      "produto x·t."
+    ],
+    "correct": 1,
+    "explanation": "v=dx/dt."
+  },
+  {
+    "type": "mc",
+    "question": "Se a aceleração variável a(t) é conhecida, a variação de velocidade pode ser obtida por:",
+    "category": "Física — U3 — Cálculo aplicado à cinemática",
+    "options": [
+      "área sob o gráfico a×t.",
+      "área sob o gráfico x×t.",
+      "produto a·x sempre.",
+      "derivada de a em relação a x."
+    ],
+    "correct": 0,
+    "explanation": "A integral de a(t) no tempo fornece Δv."
+  },
+  {
+    "type": "mc",
+    "question": "A área algébrica sob um gráfico v×t representa:",
+    "category": "Física — U3 — Gráficos cinemáticos",
+    "options": [
+      "a aceleração instantânea.",
+      "o deslocamento.",
+      "a força resultante.",
+      "a massa."
+    ],
+    "correct": 1,
+    "explanation": "A integração da velocidade no tempo fornece Δx."
+  },
+  {
+    "type": "mc",
+    "question": "A área algébrica sob um gráfico a×t representa:",
+    "category": "Física — U3 — Gráficos cinemáticos",
+    "options": [
+      "a variação de velocidade.",
+      "a posição absoluta.",
+      "a energia cinética.",
+      "o período."
+    ],
+    "correct": 0,
+    "explanation": "A integração da aceleração no tempo fornece Δv."
+  },
+  {
+    "type": "mc",
+    "question": "Uma força constante atua sobre um corpo que se desloca. Qual componente da força realiza trabalho?",
+    "category": "Física — U4 — Trabalho",
+    "options": [
+      "Somente a componente perpendicular ao deslocamento.",
+      "Somente a componente paralela ao deslocamento.",
+      "Somente a componente vertical, sempre.",
+      "Todas as componentes com o mesmo sinal."
+    ],
+    "correct": 1,
+    "explanation": "W=Fd cosφ; apenas a componente paralela ao deslocamento contribui."
+  },
+  {
+    "type": "mc",
+    "question": "Uma força atua em sentido oposto ao deslocamento. Seu trabalho é:",
+    "category": "Física — U4 — Trabalho",
+    "options": [
+      "positivo.",
+      "necessariamente zero.",
+      "negativo.",
+      "infinito."
+    ],
+    "correct": 2,
+    "explanation": "Quando a força se opõe ao deslocamento, o trabalho é resistente e negativo."
+  },
+  {
+    "type": "mc",
+    "question": "Se uma força é perpendicular ao deslocamento, seu trabalho é:",
+    "category": "Física — U4 — Trabalho",
+    "options": [
+      "máximo e positivo.",
+      "máximo e negativo.",
+      "zero.",
+      "igual à energia cinética."
+    ],
+    "correct": 2,
+    "explanation": "cos 90°=0, portanto W=0."
+  },
+  {
+    "type": "mc",
+    "question": "O Teorema do Trabalho e Energia Cinética estabelece que o trabalho total realizado sobre uma partícula é igual:",
+    "category": "Física — U4 — TEC",
+    "options": [
+      "à massa total.",
+      "à variação da energia cinética.",
+      "à energia potencial final.",
+      "ao deslocamento total."
+    ],
+    "correct": 1,
+    "explanation": "W_total=ΔK."
+  },
+  {
+    "type": "mc",
+    "question": "Um problema fornece forças e deslocamentos, mas não fornece o tempo. Qual ferramenta do material é especialmente útil para relacionar trabalho e velocidade?",
+    "category": "Física — U4 — TEC",
+    "options": [
+      "TEC.",
+      "Lei de Hooke apenas.",
+      "Período do MCU.",
+      "Centroide."
+    ],
+    "correct": 0,
+    "explanation": "O TEC relaciona trabalho total à variação da energia cinética sem exigir o tempo."
+  },
+  {
+    "type": "mc",
+    "question": "O trabalho da força gravitacional depende, no modelo apresentado, principalmente:",
+    "category": "Física — U4 — Trabalho gravitacional",
+    "options": [
+      "apenas da trajetória completa.",
+      "da variação vertical de posição.",
+      "da distância horizontal percorrida.",
+      "do tempo de movimento."
+    ],
+    "correct": 1,
+    "explanation": "W_g=-mgΔy; depende da variação de altura."
+  },
+  {
+    "type": "mc",
+    "question": "Um corpo sobe de altura. O trabalho da gravidade sobre ele é:",
+    "category": "Física — U4 — Trabalho gravitacional",
+    "options": [
+      "positivo.",
+      "negativo.",
+      "sempre zero.",
+      "independente do sentido vertical."
+    ],
+    "correct": 1,
+    "explanation": "Na subida Δy>0, então W_g=-mgΔy<0."
+  },
+  {
+    "type": "mc",
+    "question": "Um corpo é elevado lentamente, permanecendo em equilíbrio. Qual relação é válida?",
+    "category": "Física — U4 — Trabalho e equilíbrio",
+    "options": [
+      "W_aplicado=W_g.",
+      "W_aplicado=-W_g.",
+      "W_aplicado=0 sempre.",
+      "W_g=0 sempre."
+    ],
+    "correct": 1,
+    "explanation": "Como ΔK=0, os trabalhos se equilibram: W_aplicado+W_g=0."
+  },
+  {
+    "type": "mc",
+    "question": "Uma mola deformada retorna em direção à posição de equilíbrio. O trabalho da força elástica tende a ser:",
+    "category": "Física — U4 — Trabalho elástico",
+    "options": [
+      "positivo.",
+      "negativo.",
+      "sempre zero.",
+      "indefinido."
+    ],
+    "correct": 0,
+    "explanation": "O material afirma que o trabalho elástico é positivo quando a mola retorna em direção ao equilíbrio."
+  },
+  {
+    "type": "mc",
+    "question": "Em um gráfico F×x, o trabalho realizado por uma força variável é representado por:",
+    "category": "Física — U4 — Trabalho variável",
+    "options": [
+      "inclinação da curva.",
+      "área sob a curva no intervalo.",
+      "valor máximo de F.",
+      "produto F+t."
+    ],
+    "correct": 1,
+    "explanation": "W=∫F(x)dx, representado pela área algébrica sob F×x."
+  },
+  {
+    "type": "mc",
+    "question": "Qual expressão representa a potência instantânea?",
+    "category": "Física — U4 — Potência",
+    "options": [
+      "P=WΔt.",
+      "P=W/Δt apenas.",
+      "P=dW/dt=F·v.",
+      "P=F/v."
+    ],
+    "correct": 2,
+    "explanation": "A potência instantânea é a taxa temporal de transferência de energia."
+  },
+  {
+    "type": "mc",
+    "question": "Quando força e velocidade instantâneas são perpendiculares, a potência instantânea dessa força é:",
+    "category": "Física — U4 — Potência",
+    "options": [
+      "máxima positiva.",
+      "máxima negativa.",
+      "zero.",
+      "igual a Fv."
+    ],
+    "correct": 2,
+    "explanation": "P=Fv cosφ e cos90°=0."
+  },
+  {
+    "type": "mc",
+    "question": "Para uma força conservativa, a variação de energia potencial relaciona-se ao trabalho da força por:",
+    "category": "Física — U4 — Energia potencial",
+    "options": [
+      "ΔU=W_cons.",
+      "ΔU=-W_cons.",
+      "ΔU=W_cons².",
+      "ΔU=0 sempre."
+    ],
+    "correct": 1,
+    "explanation": "A relação apresentada é ΔU=-W_cons."
+  },
+  {
+    "type": "mc",
+    "question": "Qual característica diferencia uma força conservativa de uma dissipativa no material?",
+    "category": "Física — U4 — Forças conservativas",
+    "options": [
+      "O trabalho da conservativa depende sempre da trajetória.",
+      "A dissipativa permite sempre definir uma energia potencial.",
+      "O trabalho da conservativa entre dois pontos independe da trajetória.",
+      "A conservativa sempre aumenta a energia mecânica."
+    ],
+    "correct": 2,
+    "explanation": "O trabalho da força conservativa independe da trajetória entre os pontos."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto contém as expressões apresentadas para energia potencial gravitacional e elástica?",
+    "category": "Física — U4 — Energia potencial",
+    "options": [
+      "Ug=mg/y e Ue=k/x.",
+      "Ug=mgy e Ue=1/2 kx².",
+      "Ug=mv² e Ue=mgx.",
+      "Ug=mg/y e Ue=mv²."
+    ],
+    "correct": 1,
+    "explanation": "São as expressões apresentadas no material."
+  },
+  {
+    "type": "mc",
+    "question": "Ao mudar o nível de referência y=0, o que ocorre?",
+    "category": "Física — U4 — Referencial de energia",
+    "options": [
+      "As diferenças de energia potencial entre dois estados mudam.",
+      "O valor absoluto de U pode mudar, mas ΔU permanece o mesmo.",
+      "Toda energia mecânica deixa de ser conservada.",
+      "A massa do corpo muda."
+    ],
+    "correct": 1,
+    "explanation": "O zero de energia potencial é arbitrário; a variação entre estados permanece a mesma."
+  },
+  {
+    "type": "mc",
+    "question": "A conservação da energia mecânica pode ser escrita como:",
+    "category": "Física — U4 — Conservação da energia mecânica",
+    "options": [
+      "K+U=constante.",
+      "K−U=0 sempre.",
+      "K=0 sempre.",
+      "U=0 sempre."
+    ],
+    "correct": 0,
+    "explanation": "Em condições de aplicação, E_mec=K+U permanece constante."
+  },
+  {
+    "type": "mc",
+    "question": "Qual situação viola as condições apresentadas para aplicar diretamente a conservação da energia mecânica?",
+    "category": "Física — U4 — Conservação da energia mecânica",
+    "options": [
+      "Sistema isolado com forças conservativas.",
+      "Sistema sem forças dissipativas realizando trabalho.",
+      "Presença de atrito realizando trabalho no sistema.",
+      "Conversão entre K e U."
+    ],
+    "correct": 2,
+    "explanation": "Atrito é dissipativo e altera a energia mecânica."
+  },
+  {
+    "type": "mc",
+    "question": "No monte hemisférico sem atrito, a perda de contato ocorre quando:",
+    "category": "Física — U4 — Monte hemisférico",
+    "options": [
+      "a velocidade é zero.",
+      "a energia potencial é zero.",
+      "a força normal se anula.",
+      "a gravidade desaparece."
+    ],
+    "correct": 2,
+    "explanation": "A condição de perda de contato é N=0."
+  },
+  {
+    "type": "mc",
+    "question": "No problema do monte hemisférico apresentado, a altura de perda de contato medida a partir da base é:",
+    "category": "Física — U4 — Monte hemisférico",
+    "options": [
+      "R/3.",
+      "R/2.",
+      "2R/3.",
+      "R."
+    ],
+    "correct": 2,
+    "explanation": "O resultado apresentado é H=2R/3."
+  },
+  {
+    "type": "mc",
+    "question": "Para uma força conservativa, como se determina a força a partir do gráfico U(x)?",
+    "category": "Física — U4 — Gráfico U(x)",
+    "options": [
+      "F=dU/dx.",
+      "F=-dU/dx.",
+      "F=U/x.",
+      "F=U·x."
+    ],
+    "correct": 1,
+    "explanation": "A força é o negativo da inclinação do gráfico de energia potencial."
+  },
+  {
+    "type": "mc",
+    "question": "Se o gráfico U(x) está subindo com a posição, a força conservativa aponta:",
+    "category": "Física — U4 — Gráfico U(x)",
+    "options": [
+      "no sentido positivo de x.",
+      "no sentido negativo de x.",
+      "sempre verticalmente.",
+      "para fora da página."
+    ],
+    "correct": 1,
+    "explanation": "Inclinação positiva implica F<0, portanto força para a esquerda."
+  },
+  {
+    "type": "mc",
+    "question": "Em um ponto em que a inclinação de U(x) é zero, a força conservativa é:",
+    "category": "Física — U4 — Gráfico U(x)",
+    "options": [
+      "máxima.",
+      "necessariamente positiva.",
+      "zero.",
+      "necessariamente negativa."
+    ],
+    "correct": 2,
+    "explanation": "F=-dU/dx; inclinação zero implica força zero."
+  },
+  {
+    "type": "mc",
+    "question": "Em um ponto de retorno de uma partícula sob força conservativa, qual condição ocorre?",
+    "category": "Física — U4 — Ponto de retorno",
+    "options": [
+      "K=E_mec.",
+      "K=0 e E_mec=U.",
+      "U=0 sempre.",
+      "F necessariamente é máxima."
+    ],
+    "correct": 1,
+    "explanation": "No turning point a energia cinética é zero, logo E_mec=U."
+  },
+  {
+    "type": "mc",
+    "question": "Um mínimo local de U(x) corresponde a:",
+    "category": "Física — U4 — Equilíbrio em U(x)",
+    "options": [
+      "equilíbrio estável.",
+      "equilíbrio instável.",
+      "equilíbrio necessariamente neutro.",
+      "ponto de retorno obrigatório."
+    ],
+    "correct": 0,
+    "explanation": "Mínimo local representa equilíbrio estável."
+  },
+  {
+    "type": "mc",
+    "question": "Um máximo local de U(x) corresponde a:",
+    "category": "Física — U4 — Equilíbrio em U(x)",
+    "options": [
+      "equilíbrio estável.",
+      "equilíbrio instável.",
+      "equilíbrio neutro.",
+      "ausência de força."
+    ],
+    "correct": 1,
+    "explanation": "Máximo local representa equilíbrio instável."
+  },
+  {
+    "type": "mc",
+    "question": "Em um ponto de equilíbrio onde dU/dx=0, uma segunda derivada positiva indica:",
+    "category": "Física — U4 — Segunda derivada",
+    "options": [
+      "equilíbrio estável.",
+      "equilíbrio instável.",
+      "equilíbrio necessariamente neutro.",
+      "ausência de energia potencial."
+    ],
+    "correct": 0,
+    "explanation": "d²U/dx²>0 indica concavidade para cima e mínimo local."
+  },
+  {
+    "type": "mc",
+    "question": "Se dU/dx=0 e d²U/dx²<0, o equilíbrio é:",
+    "category": "Física — U4 — Segunda derivada",
+    "options": [
+      "estável.",
+      "instável.",
+      "neutro.",
+      "impossível de classificar pela fonte."
+    ],
+    "correct": 1,
+    "explanation": "Segunda derivada negativa indica máximo local e equilíbrio instável."
+  },
+  {
+    "type": "mc",
+    "question": "Se dU/dx=0 e d²U/dx²=0, o teste da segunda derivada é:",
+    "category": "Física — U4 — Segunda derivada",
+    "options": [
+      "conclusivo para estabilidade.",
+      "conclusivo para instabilidade.",
+      "inconclusivo; é necessário analisar outras condições.",
+      "prova de equilíbrio neutro."
+    ],
+    "correct": 2,
+    "explanation": "A própria fonte informa que o teste é inconclusivo quando a segunda derivada é zero."
+  },
+  {
+    "type": "mc",
+    "question": "Em um sistema não isolado, a expressão geral apresentada relaciona o trabalho externo a:",
+    "category": "Física — U4 — Conservação geral de energia",
+    "options": [
+      "apenas ΔK.",
+      "ΔE_mec+ΔE_term+ΔE_int.",
+      "apenas ΔU.",
+      "apenas energia cinética."
+    ],
+    "correct": 1,
+    "explanation": "A expressão é W=ΔE_mec+ΔE_term+ΔE_int."
+  },
+  {
+    "type": "mc",
+    "question": "Em um sistema com atrito, a energia mecânica pode diminuir enquanto a energia total é conservada porque:",
+    "category": "Física — U4 — Atrito e energia",
+    "options": [
+      "energia desaparece.",
+      "parte da energia é convertida em energia térmica e/ou interna.",
+      "a massa desaparece.",
+      "a gravidade deixa de agir."
+    ],
+    "correct": 1,
+    "explanation": "O atrito transfere energia mecânica para formas térmicas e internas."
+  },
+  {
+    "type": "mc",
+    "question": "Na situação da patinadora que empurra a parede, por que a força normal da parede realiza trabalho nulo?",
+    "category": "Física — U4 — Patinadora",
+    "options": [
+      "Porque a força é zero.",
+      "Porque a parede se desloca junto com a patinadora.",
+      "Porque o ponto de aplicação da força não se desloca.",
+      "Porque não há ganho de energia cinética."
+    ],
+    "correct": 2,
+    "explanation": "O ponto de contato permanece estático, então d=0 para essa força."
+  },
+  {
+    "type": "mc",
+    "question": "Se a força da parede realiza trabalho nulo e a patinadora ganha energia cinética, de onde vem essa energia?",
+    "category": "Física — U4 — Patinadora",
+    "options": [
+      "Da parede.",
+      "Da energia química interna dos músculos.",
+      "Da massa da parede.",
+      "Do desaparecimento da energia potencial gravitacional."
+    ],
+    "correct": 1,
+    "explanation": "O material atribui o ganho à conversão da energia química interna dos músculos."
+  },
+  {
+    "type": "mc",
+    "question": "O centro de massa de um sistema discreto pode ser entendido como:",
+    "category": "Física — U4 — Centro de massa",
+    "options": [
+      "média simples das posições, independentemente das massas.",
+      "média ponderada das posições pelas massas.",
+      "posição do corpo mais pesado sempre.",
+      "centro geométrico em qualquer situação."
+    ],
+    "correct": 1,
+    "explanation": "x_CM=Σm_i x_i/M, uma média ponderada pelas massas."
+  },
+  {
+    "type": "mc",
+    "question": "Quando o centroide coincide com o centro de massa, segundo o material?",
+    "category": "Física — U4 — Centroide e CM",
+    "options": [
+      "Sempre.",
+      "Quando a densidade é perfeitamente uniforme e homogênea.",
+      "Apenas quando o corpo está acelerado.",
+      "Apenas no campo gravitacional zero."
+    ],
+    "correct": 1,
+    "explanation": "A coincidência é dada para distribuição de massa uniforme e homogênea."
+  },
+  {
+    "type": "mc",
+    "question": "Qual distinção está correta?",
+    "category": "Física — U4 — CM e CG",
+    "options": [
+      "CM depende da distribuição de massa; CG é o ponto de aplicação da resultante do peso.",
+      "CM é sempre igual ao CG, independentemente do campo gravitacional.",
+      "CG depende apenas da geometria; CM apenas da gravidade.",
+      "CM e CG são forças."
+    ],
+    "correct": 0,
+    "explanation": "CM é determinado pela distribuição de massa; CG pela resultante do peso."
+  },
+  {
+    "type": "mc",
+    "question": "Um rojão explode no ar e seus fragmentos se dispersam. Desprezando a resistência do ar, a trajetória do centro de massa:",
+    "category": "Física — U4 — Centro de massa",
+    "options": [
+      "passa a seguir necessariamente um dos fragmentos.",
+      "muda devido apenas às forças internas da explosão.",
+      "mantém a trajetória que o rojão teria sob a força externa gravitacional.",
+      "torna-se circular."
+    ],
+    "correct": 2,
+    "explanation": "As forças internas da explosão não alteram a aceleração do CM; a força externa relevante continua sendo a gravidade."
+  },
+  {
+    "type": "mc",
+    "question": "O momento linear de uma partícula é definido por:",
+    "category": "Física — U4 — Momento linear",
+    "options": [
+      "p=m/v.",
+      "p=mv.",
+      "p=m+a.",
+      "p=v/m."
+    ],
+    "correct": 1,
+    "explanation": "A definição apresentada é p=mv."
+  },
+  {
+    "type": "mc",
+    "question": "O momento linear total de um sistema de partículas é relacionado ao centro de massa por:",
+    "category": "Física — U4 — Momento linear de sistema",
+    "options": [
+      "P=Mv_CM.",
+      "P=M/a_CM.",
+      "P=v_CM/M.",
+      "P=M+v_CM."
+    ],
+    "correct": 0,
+    "explanation": "O material apresenta P=Mv_CM."
+  },
+  {
+    "type": "mc",
+    "question": "O Teorema do Impulso-Momento estabelece:",
+    "category": "Física — U4 — Impulso-momento",
+    "options": [
+      "J=K.",
+      "J=Δp.",
+      "J=ΔU.",
+      "J=mv²."
+    ],
+    "correct": 1,
+    "explanation": "O impulso da força resultante é igual à variação do momento linear."
+  },
+  {
+    "type": "mc",
+    "question": "Em um gráfico F×t, o impulso é interpretado como:",
+    "category": "Física — U4 — Impulso-momento",
+    "options": [
+      "a inclinação da curva.",
+      "a área sob a curva no intervalo.",
+      "o maior valor de F.",
+      "o tempo total ao quadrado."
+    ],
+    "correct": 1,
+    "explanation": "O impulso é a integral da força no tempo, representada pela área sob F×t."
+  },
+  {
+    "type": "mc",
+    "question": "Durante um impacto, mantendo a mesma variação de momento, aumentar o tempo de contato tende a:",
+    "category": "Física — U4 — Força média",
+    "options": [
+      "aumentar a força média.",
+      "diminuir a força média.",
+      "não alterar a força média.",
+      "tornar o impulso zero."
+    ],
+    "correct": 1,
+    "explanation": "F_med=Δp/Δt; aumentando Δt, a força média diminui."
+  },
+  {
+    "type": "mc",
+    "question": "A conservação exata do momento linear total ocorre quando:",
+    "category": "Física — U4 — Conservação do momento",
+    "options": [
+      "F_ext é máxima.",
+      "F_ext=0.",
+      "a energia cinética é zero.",
+      "o sistema tem uma única partícula."
+    ],
+    "correct": 1,
+    "explanation": "A condição apresentada é resultante externa nula."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma colisão muito rápida, forças externas como o peso podem ser desprezadas no balanço de momento porque:",
+    "category": "Física — U4 — Aproximação do impulso",
+    "options": [
+      "a força externa deixa de existir.",
+      "o impulso externo F_extΔt pode ser aproximadamente nulo quando Δt é muito pequeno.",
+      "a massa desaparece.",
+      "a energia cinética sempre se conserva."
+    ],
+    "correct": 1,
+    "explanation": "A aproximação decorre do pequeno intervalo de tempo, que torna o impulso externo desprezível."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma colisão elástica ideal, quais grandezas do sistema são conservadas?",
+    "category": "Física — U4 — Colisões",
+    "options": [
+      "Apenas momento linear.",
+      "Apenas energia cinética.",
+      "Momento linear e energia cinética.",
+      "Nem momento nem energia cinética."
+    ],
+    "correct": 2,
+    "explanation": "O material classifica a colisão elástica pela conservação de P e K."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma colisão perfeitamente inelástica, os corpos:",
+    "category": "Física — U4 — Colisões",
+    "options": [
+      "se separam com energia cinética máxima.",
+      "permanecem sempre em repouso.",
+      "unem-se e passam a ter a mesma velocidade final.",
+      "não conservam momento."
+    ],
+    "correct": 2,
+    "explanation": "Essa é a característica indicada para a colisão perfeitamente inelástica."
+  },
+  {
+    "type": "mc",
+    "question": "Qual grandeza diferencia principalmente colisões elásticas de inelásticas, assumindo a conservação do momento no sistema?",
+    "category": "Física — U4 — Colisões",
+    "options": [
+      "Massa total.",
+      "Energia cinética total.",
+      "Número de corpos.",
+      "Posição do centroide."
+    ],
+    "correct": 1,
+    "explanation": "A distinção é feita pela conservação ou perda de energia cinética."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma colisão bidimensional, a conservação do momento deve ser aplicada:",
+    "category": "Física — U4 — Momento em 2D/3D",
+    "options": [
+      "apenas ao módulo total.",
+      "apenas ao eixo x.",
+      "independentemente nos eixos x e y.",
+      "apenas ao eixo y."
+    ],
+    "correct": 2,
+    "explanation": "Como o momento é vetorial, a conservação é aplicada por componentes cartesianas."
+  },
+  {
+    "type": "mc",
+    "question": "Em uma colisão tridimensional, além dos eixos x e y, deve-se considerar:",
+    "category": "Física — U4 — Momento em 3D",
+    "options": [
+      "somente o tempo.",
+      "o eixo z.",
+      "apenas o módulo da massa.",
+      "apenas a energia potencial."
+    ],
+    "correct": 1,
+    "explanation": "A conservação vetorial é tratada nos eixos x, y e z."
+  },
+  {
+    "type": "mc",
+    "question": "No vácuo, o princípio que permite a propulsão de um foguete é:",
+    "category": "Física — U4 — Foguetes",
+    "options": [
+      "conservação do momento do sistema foguete+gases.",
+      "necessidade de ar empurrando o foguete.",
+      "conservação da energia potencial gravitacional.",
+      "força centrípeta."
+    ],
+    "correct": 0,
+    "explanation": "O foguete adquire momento para frente ao ejetar gases para trás."
+  },
+  {
+    "type": "mc",
+    "question": "Se a força resultante é nula, a aceleração é ________.",
+    "category": "Física — U3 — Leis de Newton",
+    "options": [
+      "nula",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "A 1ª Lei implica aceleração nula quando a força resultante é zero."
+  },
+  {
+    "type": "mc",
+    "question": "As forças de ação e reação atuam em corpos ________.",
+    "category": "Física — U3 — Leis de Newton",
+    "options": [
+      "diferentes",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "Esse é o ponto que impede que elas se anulem na análise de um único corpo."
+  },
+  {
+    "type": "mc",
+    "question": "O peso é uma força gravitacional dada por P=________.",
+    "category": "Física — U3 — Massa e peso",
+    "options": [
+      "mg",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "O peso depende da gravidade local."
+  },
+  {
+    "type": "mc",
+    "question": "No MCU, o módulo da velocidade permanece ________, mas sua direção varia.",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "constante",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "Essa é a característica central do MCU."
+  },
+  {
+    "type": "mc",
+    "question": "A velocidade instantânea em uma trajetória circular é sempre ________ à trajetória.",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "tangente",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "A direção instantânea da velocidade é tangente à trajetória."
+  },
+  {
+    "type": "mc",
+    "question": "A aceleração centrípeta aponta para o ________ da circunferência.",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "centro",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "Ela é radial e dirigida para o centro."
+  },
+  {
+    "type": "mc",
+    "question": "A aceleração centrípeta é dada por a_c=________.",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "v²/R",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "A expressão relaciona velocidade escalar e raio."
+  },
+  {
+    "type": "mc",
+    "question": "No ponto mais alto do lançamento oblíquo, a componente ________ da velocidade é zero.",
+    "category": "Física — U3 — Movimento balístico",
+    "options": [
+      "vertical",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "vy=0 no topo."
+  },
+  {
+    "type": "mc",
+    "question": "A área sob o gráfico a×t representa a variação de ________.",
+    "category": "Física — U3 — Gráficos",
+    "options": [
+      "velocidade",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "A integral de a no tempo fornece Δv."
+  },
+  {
+    "type": "mc",
+    "question": "Se a força favorece o deslocamento, o trabalho é chamado ________.",
+    "category": "Física — U4 — Trabalho",
+    "options": [
+      "motor",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "Trabalho motor é positivo no enquadramento do material."
+  },
+  {
+    "type": "mc",
+    "question": "O trabalho total é igual à variação da energia ________.",
+    "category": "Física — U4 — TEC",
+    "options": [
+      "cinética",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "W_total=ΔK."
+  },
+  {
+    "type": "mc",
+    "question": "A relação entre energia potencial e trabalho conservativo é ΔU=________.",
+    "category": "Física — U4 — Energia potencial",
+    "options": [
+      "−W_cons",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "O sinal negativo indica que aumento de U corresponde a trabalho conservativo negativo."
+  },
+  {
+    "type": "mc",
+    "question": "A energia potencial gravitacional apresentada é U_g=________.",
+    "category": "Física — U4 — Energia potencial",
+    "options": [
+      "mgy",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "Expressão apresentada na fonte."
+  },
+  {
+    "type": "mc",
+    "question": "A força conservativa pode ser obtida do gráfico U(x) por F=________.",
+    "category": "Física — U4 — Gráfico U(x)",
+    "options": [
+      "−dU/dx",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "A força é o negativo da inclinação."
+  },
+  {
+    "type": "mc",
+    "question": "No ponto de retorno, a energia cinética é ________.",
+    "category": "Física — U4 — Ponto de retorno",
+    "options": [
+      "zero",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "Nesse ponto E_mec=U."
+  },
+  {
+    "type": "mc",
+    "question": "O Teorema do Impulso-Momento é J=________.",
+    "category": "Física — U4 — Impulso",
+    "options": [
+      "Δp",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "O impulso corresponde à variação do momento."
+  },
+  {
+    "type": "mc",
+    "question": "A força média é dada por F_med=________.",
+    "category": "Física — U4 — Força média",
+    "options": [
+      "Δp/Δt",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "Para uma mesma variação de momento, aumentar o tempo reduz a força média."
+  },
+  {
+    "type": "mc",
+    "question": "O momento linear de uma partícula é p=________.",
+    "category": "Física — U4 — Momento",
+    "options": [
+      "mv",
+      "A afirmação não pode ser determinada a partir do enunciado.",
+      "A relação apresentada é necessariamente oposta à descrita.",
+      "A grandeza indicada não participa da situação física."
+    ],
+    "correct": 0,
+    "explanation": "Definição do momento linear."
+  },
+  {
+    "type": "mc",
+    "question": "Explique por que uma partícula em MCU possui aceleração mesmo com velocidade escalar constante.",
+    "category": "Física — U3 — MCU",
+    "options": [
+      "Porque o vetor velocidade muda continuamente de direção. Essa mudança do vetor velocidade caracteriza uma aceleração centrípeta dirigida para o centro da trajetória.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Explique por que as forças de ação e reação não se anulam quando analisamos um único corpo.",
+    "category": "Física — U3 — Leis de Newton",
+    "options": [
+      "Porque as duas forças do par atuam em corpos diferentes. Assim, ao fazer o diagrama de um único corpo, apenas uma delas pertence à análise desse corpo.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Explique o que acontece com as componentes da velocidade de um projétil no ponto mais alto de um lançamento oblíquo ideal.",
+    "category": "Física — U3 — Movimento balístico",
+    "options": [
+      "A componente vertical torna-se zero momentaneamente, enquanto a componente horizontal permanece. Portanto, a velocidade total não é zero nesse ponto.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Diferencie aceleração tangencial e centrípeta em um movimento curvilíneo variado.",
+    "category": "Física — U3 — Aceleração curvilínea",
+    "options": [
+      "A aceleração tangencial altera o módulo da velocidade; a aceleração centrípeta altera sua direção e aponta radialmente para o centro da curva.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Por que dois observadores em referenciais inerciais com velocidade constante entre si medem a mesma aceleração para uma partícula?",
+    "category": "Física — U3 — Movimento relativo",
+    "options": [
+      "Porque a velocidade relativa entre os referenciais é constante; sua derivada temporal é zero. Assim, a transformação entre as velocidades não altera a aceleração medida.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Explique por que uma força perpendicular ao deslocamento realiza trabalho nulo.",
+    "category": "Física — U4 — Trabalho",
+    "options": [
+      "Porque o trabalho é W=Fd cosφ. Para uma força perpendicular, φ=90° e cos90°=0, portanto o trabalho é zero.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Explique por que mudar o nível de referência da energia potencial não altera as previsões físicas baseadas em diferenças de energia.",
+    "category": "Física — U4 — Energia potencial",
+    "options": [
+      "A escolha de y=0 é arbitrária. Ela pode alterar o valor absoluto de U, mas não altera a variação ΔU entre dois estados.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Como você identifica um ponto de equilíbrio estável em um gráfico de energia potencial U(x)?",
+    "category": "Física — U4 — Gráfico U(x)",
+    "options": [
+      "Ele corresponde a um mínimo local de U(x). Nesse ponto dU/dx=0 e, quando o teste da segunda derivada é aplicável, d²U/dx²>0.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Explique por que as forças internas da explosão de um rojão não alteram a trajetória do seu centro de massa.",
+    "category": "Física — U4 — Centro de massa",
+    "options": [
+      "As forças internas aparecem em pares de ação e reação e não alteram a força externa resultante sobre o sistema. Desprezando a resistência do ar, a gravidade continua determinando a aceleração do centro de massa.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Explique por que aumentar o tempo de contato em um impacto pode reduzir a força média sofrida.",
+    "category": "Física — U4 — Impulso",
+    "options": [
+      "Como F_med=Δp/Δt, mantendo a mesma variação de momento, aumentar Δt reduz a força média.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Diferencie colisão elástica, inelástica e perfeitamente inelástica segundo o material.",
+    "category": "Física — U4 — Colisões",
+    "options": [
+      "Na elástica, conservam-se momento linear e energia cinética. Na inelástica, conserva-se o momento, mas há perda de energia cinética. Na perfeitamente inelástica, os corpos se unem e passam a ter a mesma velocidade final.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  },
+  {
+    "type": "mc",
+    "question": "Explique, em termos de conservação do momento, por que um foguete pode acelerar no vácuo.",
+    "category": "Física — U4 — Foguetes",
+    "options": [
+      "Ao ejetar gases para trás, o sistema foguete+gases conserva o momento; o momento adquirido pelos gases em uma direção é acompanhado por momento do foguete na direção oposta.",
+      "A situação depende apenas de uma mudança de referencial.",
+      "A grandeza permanece sempre nula, independentemente da situação.",
+      "Não é possível estabelecer a relação a partir do conteúdo."
+    ],
+    "correct": 0,
+    "explanation": "Resposta-modelo convertida para múltipla escolha para compatibilidade com o formato de importação do Simulacore."
+  }
+]

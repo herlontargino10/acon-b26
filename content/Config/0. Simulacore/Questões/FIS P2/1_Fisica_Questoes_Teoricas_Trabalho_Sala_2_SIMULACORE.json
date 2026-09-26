@@ -1,0 +1,562 @@
+[
+  {
+    "type": "mc",
+    "question": "Sobre o conceito de energia, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "A energia é uma propriedade exclusiva de corpos em movimento e deixa de existir quando o corpo está em repouso.",
+      "A energia corresponde à capacidade que um corpo tem de realizar trabalho e pode manifestar-se de diferentes formas.",
+      "A energia pode se manifestar apenas nas formas cinética e potencial.",
+      "A energia é uma grandeza associada somente à aplicação de forças externas sobre um corpo.",
+      "A energia e o trabalho representam exatamente a mesma grandeza física, sem distinção entre seus significados."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a energia cinética de uma partícula, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "A energia cinética está associada ao estado de movimento do objeto e é nula quando ele está em repouso.",
+      "A energia cinética depende somente da altura do objeto em relação ao solo.",
+      "A energia cinética permanece constante sempre que a força resultante sobre o objeto é diferente de zero.",
+      "A energia cinética é uma forma de energia associada exclusivamente à deformação de uma mola.",
+      "A energia cinética independe da velocidade do objeto."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Em relação ao trabalho realizado por uma força, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "O trabalho é uma grandeza exclusivamente associada ao tempo de atuação de uma força.",
+      "O trabalho é realizado apenas quando a força e o deslocamento possuem sentidos opostos.",
+      "O trabalho corresponde à energia transferida para um objeto ou dele por intermédio de uma força que atua sobre o objeto.",
+      "O trabalho é sempre positivo, independentemente da orientação da força em relação ao deslocamento.",
+      "O trabalho pode ser definido mesmo quando não ocorre deslocamento do objeto."
+    ],
+    "correct": 2,
+    "explanation": "Alternativa correta: C."
+  },
+  {
+    "type": "mc",
+    "question": "Considere uma força atuando sobre uma partícula que se desloca. Sobre a contribuição das componentes dessa força para o trabalho, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "A componente perpendicular ao deslocamento é a única responsável pelo trabalho.",
+      "Todas as componentes da força realizam sempre a mesma quantidade de trabalho.",
+      "Apenas a componente paralela ao deslocamento contribui para o trabalho da força.",
+      "A componente paralela ao deslocamento nunca realiza trabalho.",
+      "O trabalho depende somente da componente perpendicular ao deslocamento."
+    ],
+    "correct": 2,
+    "explanation": "Alternativa correta: C."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o Teorema do Trabalho e Energia Cinética, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "O trabalho total realizado sobre uma partícula está relacionado à variação de sua energia cinética.",
+      "O trabalho total independe da variação da energia cinética da partícula.",
+      "O teorema afirma que somente o trabalho da força gravitacional modifica a energia cinética.",
+      "O trabalho total é sempre igual à energia cinética inicial da partícula.",
+      "O teorema é aplicável apenas quando a partícula permanece em repouso."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Uma partícula sofre a ação de várias forças durante um deslocamento. Segundo o material, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "A energia cinética final depende apenas da força de maior intensidade.",
+      "A variação da energia cinética está relacionada ao trabalho total realizado pelas forças que atuam sobre a partícula.",
+      "Somente forças que atuam na direção perpendicular ao deslocamento devem ser consideradas.",
+      "Forças que se opõem ao deslocamento aumentam necessariamente a energia cinética.",
+      "A energia cinética não pode diminuir em consequência do trabalho das forças."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o trabalho realizado pela força gravitacional durante o movimento vertical de uma partícula, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "Durante a subida, a força gravitacional realiza trabalho positivo porque possui o mesmo sentido do deslocamento.",
+      "Durante a descida, a força gravitacional realiza trabalho negativo porque sempre se opõe ao movimento.",
+      "Durante a subida, o trabalho da força gravitacional é negativo, enquanto durante a descida ele é positivo.",
+      "O trabalho da força gravitacional é sempre nulo em movimentos verticais.",
+      "O sinal do trabalho gravitacional independe do sentido do deslocamento."
+    ],
+    "correct": 2,
+    "explanation": "Alternativa correta: C."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o trabalho realizado por uma força elástica em uma mola ideal, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "A força elástica sempre atua no mesmo sentido do deslocamento da extremidade livre da mola.",
+      "A força elástica é uma força constante, independentemente da deformação da mola.",
+      "A força elástica tende a restaurar a mola à sua posição de equilíbrio, sendo chamada de força restauradora.",
+      "O trabalho da força elástica é sempre positivo, independentemente do sentido do movimento.",
+      "A constante elástica da mola representa sua massa total."
+    ],
+    "correct": 2,
+    "explanation": "Alternativa correta: C."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o trabalho de uma força variável, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "Uma força variável realiza o mesmo trabalho que uma força constante de qualquer valor.",
+      "O trabalho de uma força variável pode ser determinado considerando a área sob o gráfico força versus posição, no caso unidimensional apresentado.",
+      "Uma força variável nunca pode realizar trabalho.",
+      "O trabalho de uma força variável depende apenas do tempo de atuação, independentemente da posição.",
+      "O trabalho de uma força variável é sempre igual ao produto entre sua intensidade máxima e o deslocamento."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre potência de uma força, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "A potência mede a quantidade total de trabalho, sem considerar o tempo.",
+      "A potência é a taxa com que o trabalho é realizado ou, de forma equivalente no material, a taxa com que a força transfere energia.",
+      "A potência somente pode ser definida para forças constantes.",
+      "A potência média e a potência instantânea são necessariamente iguais em qualquer situação.",
+      "A potência é uma medida da posição ocupada pelo corpo durante o movimento."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Uma força realiza trabalho negativo sobre uma partícula. Assinale a alternativa correta sobre a interpretação apresentada no material.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "O trabalho negativo significa que a força favorece o deslocamento.",
+      "O trabalho negativo implica necessariamente que a partícula está em repouso.",
+      "O trabalho negativo indica que a força se opõe ao deslocamento e representa transferência de energia do objeto.",
+      "O trabalho negativo significa que nenhuma energia está envolvida no processo.",
+      "O trabalho negativo só pode ocorrer quando a força gravitacional atua."
+    ],
+    "correct": 2,
+    "explanation": "Alternativa correta: C."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre energia potencial, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "Energia potencial é a energia associada exclusivamente à velocidade de um corpo.",
+      "Energia potencial está associada à configuração ou ao arranjo de um sistema de objetos que interagem entre si.",
+      "Energia potencial existe somente quando o corpo está em movimento.",
+      "Energia potencial é independente da configuração do sistema.",
+      "Um sistema só pode apresentar energia potencial quando não há forças entre seus componentes."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o ponto de referência para a energia potencial, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "O ponto de referência é obrigatoriamente o nível do mar.",
+      "O ponto de referência deve ser sempre o centro do objeto.",
+      "O ponto de referência é uma posição escolhida como referência para definir a energia potencial nula.",
+      "O ponto de referência não pode ser alterado durante uma análise física.",
+      "A energia potencial de um sistema não depende da escolha do ponto de referência."
+    ],
+    "correct": 2,
+    "explanation": "Alternativa correta: C."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre forças conservativas, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "Forças conservativas modificam necessariamente a energia mecânica do sistema.",
+      "Peso e força elástica são exemplos de forças conservativas apresentados no material.",
+      "A força de atrito é apresentada como força conservativa.",
+      "Uma força conservativa realiza trabalho diferente para cada trajetória entre os mesmos pontos.",
+      "Forças conservativas não podem estar associadas à energia potencial."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a independência da trajetória para uma força conservativa, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "O trabalho de uma força conservativa entre dois pontos depende da trajetória seguida.",
+      "O trabalho de uma força conservativa entre dois pontos independe da trajetória seguida.",
+      "O trabalho de uma força conservativa é sempre negativo.",
+      "O trabalho de uma força conservativa é sempre positivo.",
+      "A independência da trajetória ocorre apenas quando o corpo permanece em repouso."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Qual afirmação está de acordo com uma propriedade das forças conservativas apresentada no material?",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "O trabalho total de uma força conservativa em uma trajetória fechada é nulo.",
+      "O trabalho em uma trajetória fechada é sempre máximo.",
+      "O trabalho em uma trajetória fechada depende da velocidade média do corpo.",
+      "O trabalho em uma trajetória fechada só é nulo quando há atrito.",
+      "O trabalho em uma trajetória fechada nunca pode ser definido."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a relação entre trabalho de uma força conservativa e energia potencial, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "O trabalho de uma força conservativa aumenta a energia potencial em qualquer situação.",
+      "A variação da energia potencial está relacionada ao negativo do trabalho realizado pela força conservativa.",
+      "A energia potencial não possui relação com o trabalho de uma força conservativa.",
+      "A energia potencial e o trabalho possuem sempre o mesmo sinal.",
+      "O trabalho de uma força conservativa só pode alterar a energia térmica."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a conservação da energia mecânica em um sistema isolado, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "Quando atuam somente forças conservativas, a energia mecânica do sistema permanece constante, embora as energias cinética e potencial possam variar.",
+      "As energias cinética e potencial são obrigatoriamente constantes em qualquer movimento conservativo.",
+      "A energia mecânica só se conserva quando existe atrito.",
+      "Um sistema conservativo não pode transformar energia potencial em energia cinética.",
+      "A conservação da energia mecânica implica que nenhuma forma de energia pode variar dentro do sistema."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a atuação da força gravitacional em um sistema partícula-Terra, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "Na subida, a energia cinética é transferida para a energia potencial gravitacional do sistema.",
+      "Na subida, a energia potencial gravitacional é transferida obrigatoriamente para a energia cinética.",
+      "Na descida, o trabalho da gravidade é sempre negativo.",
+      "A força gravitacional não realiza trabalho durante movimentos verticais.",
+      "A energia potencial gravitacional independe da posição vertical."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre forças dissipativas e energia mecânica, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "Forças dissipativas conservam a energia mecânica e impedem qualquer transformação de energia.",
+      "O atrito e a resistência do ar são exemplos de forças dissipativas que podem reduzir a energia mecânica, transformando parte dela em energia térmica.",
+      "Forças dissipativas só podem aumentar a energia mecânica.",
+      "A presença de atrito implica perda de toda a energia do sistema.",
+      "Em um sistema com atrito, a energia total do sistema deixa de existir."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a conservação da energia total de um sistema isolado, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "A energia total de um sistema isolado pode variar espontaneamente sem qualquer transferência de energia.",
+      "Em um sistema isolado, a energia total não varia, embora possa haver transferências internas entre diferentes formas de energia.",
+      "A energia total deixa de ser conservada sempre que existe atrito.",
+      "Somente a energia mecânica pode fazer parte da energia total.",
+      "A conservação da energia total exige que a energia cinética permaneça constante."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre sistemas dissipativos, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "Quando há atrito, a energia mecânica pode diminuir enquanto a energia térmica do sistema aumenta.",
+      "Quando há atrito, a energia total necessariamente diminui na mesma proporção da energia mecânica.",
+      "A energia térmica gerada pelo atrito não pertence ao sistema considerado.",
+      "A presença de atrito impede qualquer transferência de energia.",
+      "Em sistemas dissipativos, toda a energia mecânica é sempre transformada em energia potencial."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre potência como taxa de transferência de energia, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "Quanto maior o tempo necessário para uma mesma transferência de energia, necessariamente maior a potência.",
+      "A potência mede a rapidez com que uma força transfere energia de uma forma para outra.",
+      "A potência só existe quando o trabalho é negativo.",
+      "A potência é independente do intervalo de tempo da transferência de energia.",
+      "A potência representa diretamente a energia total armazenada no sistema."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o centro de massa de um sistema de partículas, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "O centro de massa é sempre um ponto material onde toda a massa do sistema está fisicamente concentrada.",
+      "O centro de massa é um ponto utilizado para representar de forma simplificada o movimento do sistema, como se a massa total estivesse concentrada nesse ponto.",
+      "O centro de massa só pode existir no interior geométrico do objeto.",
+      "O centro de massa depende exclusivamente da velocidade das partículas.",
+      "O centro de massa é definido apenas para partículas isoladas, não para corpos extensos."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o centro de massa de um corpo extenso, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "O centro de massa necessariamente coincide com o centro geométrico do corpo.",
+      "O centro de massa deve estar sempre no material que constitui o objeto.",
+      "O centro de massa pode ser utilizado mesmo para um corpo extenso que apresenta simultaneamente translação e rotação.",
+      "O centro de massa existe somente para objetos homogêneos.",
+      "O centro de massa não pode ser utilizado para analisar o movimento de corpos rígidos."
+    ],
+    "correct": 2,
+    "explanation": "Alternativa correta: C."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a Segunda Lei de Newton aplicada ao movimento do centro de massa de um sistema de partículas, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "As forças internas entre as partes do sistema são as únicas consideradas na determinação do movimento do centro de massa.",
+      "O movimento do centro de massa é determinado pela força resultante das forças externas que atuam sobre o sistema.",
+      "O centro de massa não pode sofrer aceleração.",
+      "A força resultante externa não influencia o movimento do centro de massa.",
+      "O movimento do centro de massa depende apenas da posição inicial das partículas."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o momento linear de uma partícula, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "O momento linear é uma grandeza escalar relacionada apenas à massa.",
+      "O momento linear é uma grandeza vetorial relacionada à massa e à velocidade da partícula.",
+      "O momento linear é uma grandeza que existe somente durante colisões.",
+      "O momento linear independe da velocidade da partícula.",
+      "O momento linear é definido apenas para corpos em repouso."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a relação entre força resultante e momento linear de uma partícula, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "Uma força resultante não pode alterar o momento linear.",
+      "A força resultante está relacionada à taxa de variação do momento linear com o tempo.",
+      "O momento linear só pode variar quando a massa do corpo aumenta.",
+      "Uma partícula pode sofrer uma força resultante e manter necessariamente o mesmo momento linear.",
+      "A força resultante e o momento linear são a mesma grandeza física."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o momento linear total de um sistema de partículas, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "O momento linear total depende apenas da partícula de maior massa.",
+      "O momento linear total de um sistema está relacionado à massa total e à velocidade do centro de massa.",
+      "O momento linear total é necessariamente nulo para qualquer sistema com várias partículas.",
+      "O momento linear total independe do movimento do centro de massa.",
+      "O momento linear total só pode ser definido para duas partículas."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Em relação às forças internas de um sistema, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "As forças internas entre partes do sistema alteram diretamente a trajetória do centro de massa do sistema.",
+      "As forças internas são sempre maiores que as forças externas.",
+      "Na análise do centro de massa, as forças internas não são incluídas na força resultante externa do sistema.",
+      "As forças internas podem ser ignoradas apenas quando o sistema possui uma única partícula.",
+      "As forças internas determinam exclusivamente a aceleração do centro de massa."
+    ],
+    "correct": 2,
+    "explanation": "Alternativa correta: C."
+  },
+  {
+    "type": "mc",
+    "question": "Uma partícula está submetida a uma situação em que a força resultante que atua sobre ela é nula. Sobre seu momento linear, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "Permanece constante, pois não existe força resultante para alterá-lo.",
+      "Aumenta necessariamente, mesmo sem força resultante.",
+      "Diminui continuamente, independentemente do movimento da partícula.",
+      "Passa a ser nulo imediatamente após a força resultante se tornar nula.",
+      "Pode variar livremente, mesmo na ausência de qualquer força resultante."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a correspondência entre as grandezas cinemáticas de translação e rotação, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "Na rotação, a posição, a velocidade e a aceleração são substituídas, respectivamente, por deslocamento linear, momento linear e torque.",
+      "Na rotação, as grandezas correspondentes à posição, velocidade e aceleração de translação são, respectivamente, posição angular, velocidade angular e aceleração angular.",
+      "Na rotação, não existem grandezas equivalentes às grandezas cinemáticas de translação.",
+      "Velocidade angular e aceleração angular são grandezas exclusivas de movimentos retilíneos.",
+      "A velocidade angular corresponde diretamente à força aplicada ao corpo."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o vetor velocidade angular, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "O vetor velocidade angular é sempre tangente à trajetória circular.",
+      "O vetor velocidade angular possui direção ao longo do eixo de rotação.",
+      "O vetor velocidade angular possui sempre a mesma direção do vetor velocidade linear de qualquer ponto do corpo.",
+      "O vetor velocidade angular não possui sentido definido.",
+      "O vetor velocidade angular existe apenas quando o corpo está em movimento retilíneo."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a regra da mão direita aplicada à velocidade angular, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "O polegar indica o sentido do vetor velocidade angular quando os dedos acompanham o sentido da rotação.",
+      "O polegar indica sempre o sentido da velocidade linear tangencial.",
+      "A regra da mão direita determina apenas a intensidade da velocidade angular.",
+      "A regra da mão direita é aplicável somente a movimentos retilíneos.",
+      "O sentido da velocidade angular é definido pela força gravitacional."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Um corpo executa movimento circular com velocidade angular constante. Sobre esse movimento, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "Como a velocidade angular é constante, o corpo não possui aceleração.",
+      "O corpo pode possuir aceleração porque o vetor velocidade linear muda de direção durante o movimento circular.",
+      "Como o módulo da velocidade linear é constante, sua direção também permanece constante.",
+      "A aceleração só existe se houver aumento do módulo da velocidade linear.",
+      "Um movimento circular uniforme não pode estar associado a nenhuma força."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o torque no movimento de rotação, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "O torque depende apenas da massa do corpo.",
+      "O torque caracteriza a capacidade de uma força produzir ou alterar um movimento de rotação e depende da forma como a força é aplicada.",
+      "O torque e a força são a mesma grandeza física.",
+      "O torque independe do ponto de aplicação da força.",
+      "O torque existe somente quando a força resultante sobre o corpo é diferente de zero."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o momento de inércia de um corpo, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "O momento de inércia representa a resistência de um corpo à alteração de seu movimento de rotação e depende da distribuição de massa em relação ao eixo.",
+      "O momento de inércia depende somente da velocidade angular.",
+      "O momento de inércia é sempre o mesmo para qualquer eixo de rotação de um corpo.",
+      "Quanto mais distante a massa estiver do eixo, menor será o momento de inércia.",
+      "O momento de inércia possui exatamente o mesmo significado físico da força."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre o momento angular, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "O momento angular é uma grandeza que só pode existir quando a partícula descreve uma circunferência.",
+      "O momento angular é o análogo rotacional do momento linear e sua definição depende do ponto de referência escolhido.",
+      "O momento angular não possui direção ou sentido.",
+      "O momento angular é independente da posição da partícula.",
+      "O momento angular e o torque são grandezas idênticas."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a conservação do momento angular, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "O momento angular total de um sistema é conservado quando o torque resultante externo sobre o sistema é nulo.",
+      "O momento angular é conservado somente quando o corpo está em repouso.",
+      "O momento angular é sempre conservado, independentemente dos torques externos.",
+      "A conservação do momento angular exige que o corpo não tenha massa.",
+      "O momento angular só pode ser conservado em movimentos retilíneos."
+    ],
+    "correct": 0,
+    "explanation": "Alternativa correta: A."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre a energia cinética de rotação de um corpo rígido, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "A energia cinética de rotação não possui relação com o movimento de rotação do corpo.",
+      "A energia cinética de rotação pode ser tratada como o análogo rotacional da energia cinética associada ao movimento de translação.",
+      "A energia cinética de rotação só existe quando há movimento retilíneo.",
+      "A energia cinética de rotação independe do momento de inércia.",
+      "O trabalho e a energia cinética não possuem relação no movimento de rotação."
+    ],
+    "correct": 1,
+    "explanation": "Alternativa correta: B."
+  }
+]
