@@ -1,0 +1,679 @@
+[
+  {
+    "id": 1,
+    "type": "mc",
+    "question": "Um operário segura uma caixa e a levanta verticalmente, com velocidade constante, do chão até uma prateleira. Sobre o trabalho realizado pela força aplicada pelo operário e pela força gravitacional durante essa subida, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "Ambas as forças realizam trabalho positivo, pois a caixa se desloca para cima.",
+      "A força aplicada realiza trabalho positivo e a força gravitacional realiza trabalho negativo, pois a força aplicada favorece o deslocamento e a gravitacional se opõe a ele.",
+      "A força aplicada realiza trabalho negativo e a força gravitacional realiza trabalho positivo.",
+      "Nenhuma das duas forças realiza trabalho, pois a velocidade da caixa é constante durante a subida.",
+      "Apenas a força gravitacional realiza trabalho, já que a força aplicada pelo operário não é uma força de campo."
+    ],
+    "correct": 1,
+    "explanation": "No movimento vertical para cima, a força aplicada transfere energia para o objeto (trabalho positivo), enquanto a força gravitacional, que aponta para baixo e portanto se opõe ao deslocamento, retira energia do objeto (trabalho negativo) — exatamente o padrão descrito no material para o levantamento de um objeto. A alternativa (a) erra ao supor que toda força no sentido do deslocamento é positiva sem considerar a gravidade; (c) inverte os sinais; (d) confunde velocidade constante (que implica trabalho total nulo) com trabalho nulo de cada força individual — cada força pode realizar trabalho não nulo mesmo que a soma seja zero; (e) ignora que qualquer força que atua ao longo de um deslocamento realiza trabalho, seja de campo ou de contato."
+  },
+  {
+    "id": 2,
+    "type": "mc",
+    "question": "Uma partícula de massa 2 kg parte do repouso. A resultante das forças que atuam sobre ela realiza um trabalho total de 16 J ao longo de certo deslocamento. Qual é a velocidade final da partícula?",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "2 m/s",
+      "4 m/s",
+      "8 m/s",
+      "16 m/s",
+      "32 m/s"
+    ],
+    "correct": 1,
+    "explanation": "Pelo Teorema do Trabalho e Energia Cinética, ΔK = W_total. Como a partícula parte do repouso, K_i = 0, logo K_f = 16 J = (1/2)(2)v². Isso dá v² = 16 e v = 4 m/s. Os demais valores surgem de erros comuns, como esquecer o fator 1/2 (que levaria a 4 m/s de outra forma incorreta) ou confundir v² com v diretamente (que levaria a 16 m/s)."
+  },
+  {
+    "id": 3,
+    "type": "fill_in",
+    "question": "Qual teorema estabelece que a variação da energia cinética de uma partícula é igual ao trabalho total realizado por todas as forças que atuam sobre ela?",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "answer": "Teorema do Trabalho e Energia Cinética",
+    "acceptable_answers": [
+      "teorema do trabalho e energia cinética",
+      "teorema trabalho-energia cinética",
+      "teorema da energia cinética e trabalho",
+      "tec"
+    ],
+    "explanation": "O material define esse resultado (ΔK = W_total) explicitamente como o Teorema do Trabalho e Energia Cinética, relacionando a mudança na energia cinética da partícula diretamente ao trabalho resultante das forças que atuam sobre ela."
+  },
+  {
+    "id": 4,
+    "type": "mc",
+    "question": "Uma bola é lançada verticalmente para cima e, após atingir a altura máxima, retorna ao ponto de lançamento, percorrendo a mesma distância vertical na subida e na descida. Comparando o trabalho realizado pela força gravitacional durante a subida (W_subida) com o trabalho realizado durante a descida (W_descida), assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "W_subida e W_descida são iguais e positivos.",
+      "W_subida é negativo e W_descida é positivo, e ambos têm o mesmo módulo.",
+      "W_subida é positivo e W_descida é negativo.",
+      "W_subida e W_descida são nulos, pois a bola retorna ao ponto de partida.",
+      "W_subida e W_descida são ambos negativos, pois a força gravitacional nunca realiza trabalho positivo."
+    ],
+    "correct": 1,
+    "explanation": "Durante a subida, a força gravitacional aponta para baixo enquanto o deslocamento é para cima, logo o trabalho é negativo; durante a descida, força e deslocamento têm o mesmo sentido (para baixo), logo o trabalho é positivo. Como o deslocamento vertical tem o mesmo módulo nos dois trechos, os trabalhos têm módulos iguais e sinais opostos. A alternativa (d) erra ao confundir o deslocamento total nulo do trajeto completo com o trabalho de cada etapa separadamente, que não é nulo."
+  },
+  {
+    "id": 5,
+    "type": "mc",
+    "question": "Um bloco preso a uma mola horizontal é deslocado para a direita, afastando-se da posição de equilíbrio da mola, e em seguida retorna, se movendo de volta em direção à posição de equilíbrio. Sobre o trabalho realizado pela força elástica nessas duas fases, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "É negativo enquanto o bloco se afasta do equilíbrio e positivo quando o bloco retorna.",
+      "É positivo enquanto o bloco se afasta do equilíbrio e negativo quando o bloco retorna.",
+      "É sempre positivo nas duas fases, pois a força elástica favorece o movimento do bloco.",
+      "É sempre negativo nas duas fases, independentemente do sentido do deslocamento do bloco.",
+      "É nulo nas duas fases, pois a mola é considerada ideal."
+    ],
+    "correct": 0,
+    "explanation": "A força elástica é uma força restauradora: ela sempre aponta na direção da posição de equilíbrio. Quando o bloco se afasta do equilíbrio, a força elástica se opõe a esse deslocamento (trabalho negativo); quando o bloco retorna, a força e o deslocamento têm o mesmo sentido (trabalho positivo). As alternativas (c) e (d) ignoram que o sinal do trabalho da força elástica depende do sentido do deslocamento em relação ao equilíbrio, não é fixo."
+  },
+  {
+    "id": 6,
+    "type": "fill_in",
+    "question": "Como é chamada a força elástica de uma mola, que tende sempre a restaurá-la ao seu estado relaxado (posição de equilíbrio)?",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "answer": "Força restauradora",
+    "acceptable_answers": [
+      "força restauradora",
+      "forca restauradora"
+    ],
+    "explanation": "O material define explicitamente que a força elástica tende sempre a restaurar a mola ao seu estado relaxado, sendo por isso denominada força restauradora."
+  },
+  {
+    "id": 7,
+    "type": "mc",
+    "question": "Um bloco em movimento colide com uma mola ideal de constante elástica k = 200 N/m e começa a comprimi-la. No instante em que o bloco para momentaneamente, toda a sua energia cinética inicial de 4 J foi convertida em energia potencial elástica da mola. Qual é a deformação máxima da mola nesse instante?",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "0,02 m",
+      "0,1 m",
+      "0,2 m",
+      "0,4 m",
+      "2,0 m"
+    ],
+    "correct": 2,
+    "explanation": "Pela conservação da energia mecânica, a energia cinética inicial se converte inteiramente em energia potencial elástica: (1/2)kx² = 4 J. Substituindo k = 200 N/m: x² = 8/200 = 0,04, logo x = 0,2 m. O valor 0,4 m surgiria de um erro ao esquecer a raiz quadrada, e 0,02 m de trocar x² por x diretamente na equação."
+  },
+  {
+    "id": 8,
+    "type": "fill_in",
+    "question": "Qual grandeza física é definida como a taxa temporal com que uma força realiza trabalho ou, de forma equivalente, a taxa com que uma força transfere energia?",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "answer": "Potência",
+    "acceptable_answers": [
+      "potência",
+      "potencia"
+    ],
+    "explanation": "O material define a potência precisamente dessa forma: a taxa de variação do trabalho com o tempo (P = dW/dt), equivalente à taxa com que uma força transfere energia de uma forma para outra."
+  },
+  {
+    "id": 9,
+    "type": "mc",
+    "question": "Uma pessoa carrega uma caixa, segurando-a com os braços estendidos para cima, e caminha em linha reta com velocidade constante sobre um piso horizontal. Considerando apenas a força que a pessoa exerce para sustentar a caixa (vertical, para cima) e o deslocamento horizontal da caixa, assinale a alternativa correta.",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "A força realiza trabalho positivo, pois exige esforço muscular da pessoa.",
+      "A força realiza trabalho nulo sobre a caixa, pois é perpendicular ao deslocamento horizontal.",
+      "A força realiza trabalho negativo, pois se opõe ao peso da caixa.",
+      "O trabalho realizado pela força depende da velocidade da caminhada.",
+      "A força realiza trabalho positivo apenas se a caminhada for muito longa."
+    ],
+    "correct": 1,
+    "explanation": "Para calcular o trabalho de uma força sobre um deslocamento, usa-se apenas a componente da força paralela ao deslocamento; a componente perpendicular não realiza trabalho. Como a força de sustentação é vertical e o deslocamento é horizontal, elas são perpendiculares, e o trabalho dessa força sobre a caixa é nulo — mesmo exigindo esforço fisiológico da pessoa (esforço muscular não é sinônimo de trabalho físico sobre o objeto)."
+  },
+  {
+    "id": 10,
+    "type": "mc",
+    "question": "O gráfico de uma força F(x) que atua sobre uma partícula ao longo do eixo x é uma reta que parte de F = 0 em x = 0 e cresce linearmente até F = 10 N em x = 4 m. Qual é o trabalho realizado por essa força entre x = 0 e x = 4 m?",
+    "category": "Física — Capítulo 7 — Energia Cinética e Trabalho",
+    "options": [
+      "2,5 J",
+      "4 J",
+      "10 J",
+      "20 J",
+      "40 J"
+    ],
+    "correct": 3,
+    "explanation": "O trabalho de uma força unidimensional variável é dado pela área sob a curva de F(x) no intervalo considerado. Como a região é um triângulo de base 4 m e altura 10 N, a área (trabalho) é (1/2)(4)(10) = 20 J. O valor 40 J corresponde ao erro de calcular a área de um retângulo em vez de um triângulo."
+  },
+  {
+    "id": 11,
+    "type": "fill_in",
+    "question": "Como se chamam as forças que não alteram a energia mecânica total de um sistema, permitindo que ela se conserve (como o peso e a força elástica)?",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "answer": "Forças conservativas",
+    "acceptable_answers": [
+      "forças conservativas",
+      "forcas conservativas",
+      "força conservativa"
+    ],
+    "explanation": "O material classifica peso e força elástica como forças conservativas justamente porque, sob sua ação exclusiva, a energia mecânica do sistema se mantém constante, sendo a elas associado o conceito de energia potencial."
+  },
+  {
+    "id": 12,
+    "type": "fill_in",
+    "question": "Como se chamam as forças, como o atrito, que retiram energia mecânica de um sistema, convertendo parte dela em energia térmica?",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "answer": "Forças dissipativas",
+    "acceptable_answers": [
+      "forças dissipativas",
+      "forcas dissipativas",
+      "força dissipativa"
+    ],
+    "explanation": "O material afirma explicitamente que, na presença de forças de atrito, a energia mecânica do sistema não se conserva, pois parte dela se dissipa em forma de calor — por isso essas forças são chamadas dissipativas, em oposição às forças conservativas."
+  },
+  {
+    "id": 13,
+    "type": "mc",
+    "question": "Uma criança desce um escorregador sem atrito, partindo do repouso a uma altura de 5 m em relação à base. Adotando g = 10 m/s², qual é aproximadamente a velocidade da criança ao chegar à base?",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "5 m/s",
+      "7 m/s",
+      "10 m/s",
+      "50 m/s",
+      "100 m/s"
+    ],
+    "correct": 2,
+    "explanation": "Como não há atrito, a energia mecânica se conserva: mgh = (1/2)mv². A massa se cancela, restando v = √(2gh) = √(2·10·5) = √100 = 10 m/s. O valor 100 m/s corresponde ao erro de não extrair a raiz quadrada."
+  },
+  {
+    "id": 14,
+    "type": "mc",
+    "question": "Dois blocos de massas diferentes, m1 e m2 (com m1 > m2), partem do repouso do topo de um mesmo escorregador sem atrito, ambos a uma mesma altura h. Comparando as velocidades dos dois blocos ao chegarem à base, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "O bloco de maior massa chega com velocidade maior, pois parte com mais energia potencial.",
+      "O bloco de menor massa chega com velocidade maior, pois é acelerado com mais facilidade.",
+      "Os dois blocos chegam à base com a mesma velocidade, pois a massa se cancela na equação de conservação da energia mecânica.",
+      "É impossível determinar a comparação sem conhecer os valores exatos das massas.",
+      "O bloco de maior massa chega com velocidade menor, pois possui maior inércia."
+    ],
+    "correct": 2,
+    "explanation": "Da conservação da energia mecânica, mgh = (1/2)mv², a massa aparece nos dois lados da equação e se cancela, resultando em v = √(2gh), que não depende da massa do bloco. Esse é exatamente o ponto destacado no material ao resolver um problema semelhante: a massa não influencia a velocidade final quando o atrito é desprezível. As alternativas (a), (b) e (e) atribuem incorretamente um papel à massa que a própria equação descarta."
+  },
+  {
+    "id": 15,
+    "type": "mc",
+    "question": "Um bloco desce uma rampa a partir de uma altura h em duas situações: (I) rampa sem atrito; (II) rampa com atrito cinético atuando sobre o bloco durante toda a descida. Comparando a velocidade do bloco ao final da rampa nas duas situações, assinale a alternativa correta.",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "options": [
+      "A velocidade final é maior na situação II, pois o atrito também realiza trabalho positivo sobre o bloco.",
+      "A velocidade final é igual nas duas situações, pois a altura percorrida é a mesma.",
+      "A velocidade final é menor na situação II, pois parte da energia mecânica é dissipada em energia térmica pelo atrito.",
+      "A velocidade final é menor na situação I, pois nela não há nenhuma força atuando sobre o bloco.",
+      "É impossível comparar as duas situações sem conhecer o coeficiente de atrito."
+    ],
+    "correct": 2,
+    "explanation": "O atrito é uma força dissipativa: parte da energia mecânica do bloco é convertida em energia térmica ao longo do trajeto, reduzindo a energia cinética disponível ao final da rampa. Logo, para a mesma altura h, a velocidade final na situação com atrito é necessariamente menor que na situação sem atrito. A alternativa (a) inverte o efeito do atrito, que sempre se opõe ao movimento e retira, não adiciona, energia mecânica do bloco."
+  },
+  {
+    "id": 16,
+    "type": "fill_in",
+    "question": "Como se chama a energia associada à configuração (arranjo) de um sistema de objetos que exercem forças uns sobre os outros, como um sistema massa-Terra ou um sistema bloco-mola?",
+    "category": "Física — Capítulo 8 — Energia Potencial e Conservação de Energia",
+    "answer": "Energia potencial",
+    "acceptable_answers": [
+      "energia potencial"
+    ],
+    "explanation": "O material define energia potencial exatamente como a energia que pode ser associada à configuração (arranjo) de um sistema de objetos que interagem por meio de forças, como no caso do sistema atleta-Terra na queda livre ou do sistema bloco-mola na deformação elástica."
+  },
+  {
+    "id": 17,
+    "type": "fill_in",
+    "question": "Qual é o ponto que se move como se toda a massa de um sistema de partículas estivesse concentrada nele, e sobre o qual se pode considerar aplicada a força externa resultante que atua sobre o sistema?",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "answer": "Centro de massa",
+    "acceptable_answers": [
+      "centro de massa",
+      "cm"
+    ],
+    "explanation": "O material define o centro de massa exatamente com essas duas propriedades: é o ponto que se comporta como se toda a massa do sistema estivesse concentrada nele e como se todas as forças externas estivessem aplicadas nesse ponto."
+  },
+  {
+    "id": 18,
+    "type": "mc",
+    "question": "Um foguete de fogos de artifício é lançado e, no ar, explode em vários fragmentos que se espalham em diferentes direções. Desprezando a resistência do ar, sobre a trajetória do centro de massa do conjunto de fragmentos após a explosão, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "O centro de massa passa a seguir uma trajetória irregular, pois a explosão introduz novas forças externas ao sistema.",
+      "O centro de massa continua a seguir a mesma trajetória parabólica que o foguete descreveria caso não tivesse explodido, pois as forças da explosão são internas ao sistema.",
+      "O centro de massa para instantaneamente no ponto onde ocorreu a explosão.",
+      "O centro de massa passa a se mover em linha reta, pois a explosão anula o efeito da gravidade sobre o sistema.",
+      "Cada fragmento passa a definir seu próprio centro de massa, independente do sistema original."
+    ],
+    "correct": 1,
+    "explanation": "As forças geradas pela explosão atuam entre os próprios fragmentos, sendo portanto internas ao sistema; forças internas não alteram o movimento do centro de massa. A única força externa relevante continua sendo a gravidade, de modo que o centro de massa dos fragmentos mantém a mesma trajetória parabólica que o foguete intacto teria seguido. As alternativas (a) e (d) atribuem à explosão um efeito externo que ela não tem sobre o sistema como um todo."
+  },
+  {
+    "id": 19,
+    "type": "mc",
+    "question": "Uma bailarina realiza um salto (grand jeté) levantando os braços e esticando as pernas horizontalmente logo após deixar o solo, enquanto seu centro de massa segue uma trajetória parabólica normal. Esse movimento dos braços e pernas cria a ilusão de que ela “flutua no ar” porque:",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "O centro de massa da bailarina deixa de seguir a trajetória parabólica nesse tipo de salto.",
+      "A cabeça e o tronco, ao se moverem de forma aproximadamente horizontal em relação ao centro de massa, compensam a subida deste, dando a impressão de flutuação.",
+      "A força da gravidade deixa de atuar sobre a bailarina durante o salto.",
+      "O momento linear da bailarina se torna nulo durante todo o salto.",
+      "A bailarina, na realidade, não sobe nem desce durante o movimento."
+    ],
+    "correct": 1,
+    "explanation": "O centro de massa da bailarina sempre segue a trajetória parabólica esperada, já que a única força externa relevante é a gravidade. Porém, ao levantar braços e pernas, a bailarina desloca o centro de massa para cima em relação ao seu próprio corpo, o que faz a cabeça e o tronco se moverem de forma mais horizontal do que o centro de massa — criando a ilusão de flutuação, exatamente como descrito no material."
+  },
+  {
+    "id": 20,
+    "type": "fill_in",
+    "question": "Como se chamam as forças trocadas entre as partes que compõem um sistema, que se cancelam aos pares (ação e reação) e não alteram o movimento do centro de massa do sistema?",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "answer": "Forças internas",
+    "acceptable_answers": [
+      "forças internas",
+      "forcas internas",
+      "força interna"
+    ],
+    "explanation": "O material distingue forças internas (entre as próprias partículas do sistema, que se cancelam aos pares e não afetam o movimento do centro de massa) das forças externas (exercidas por agentes fora do sistema, que são as únicas capazes de alterar a trajetória do centro de massa)."
+  },
+  {
+    "id": 21,
+    "type": "mc",
+    "question": "Duas partículas de massas m1 = 2 kg e m2 = 3 kg estão ligadas por uma haste rígida de massa desprezível, formando um sistema. Uma força externa resultante de 10 N atua sobre esse sistema. Qual é o módulo da aceleração do centro de massa do sistema?",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "0,5 m/s²",
+      "2,0 m/s²",
+      "3,3 m/s²",
+      "5,0 m/s²",
+      "10,0 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "A Segunda Lei de Newton para um sistema de partículas estabelece que a força externa resultante é igual ao produto da massa total do sistema pela aceleração do centro de massa: F_ext = M_total·a_cm. Com M_total = 2 + 3 = 5 kg e F_ext = 10 N, a_cm = 10/5 = 2,0 m/s²."
+  },
+  {
+    "id": 22,
+    "type": "fill_in",
+    "question": "Qual grandeza vetorial é definida pelo produto entre a massa de uma partícula e sua velocidade?",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "answer": "Momento linear",
+    "acceptable_answers": [
+      "momento linear",
+      "quantidade de movimento",
+      "momento linear (quantidade de movimento)"
+    ],
+    "explanation": "O material define o momento linear de uma partícula como p = m·v, uma grandeza vetorial diretamente relacionada à massa e à velocidade da partícula, sendo a base para a Segunda Lei de Newton na forma F_res = dp/dt."
+  },
+  {
+    "id": 23,
+    "type": "mc",
+    "question": "O gráfico do módulo do momento linear p de uma partícula, em função do tempo t, apresenta quatro trechos sucessivos: no trecho I, p cresce rapidamente; no trecho II, p permanece constante; no trecho III, p cresce lentamente; no trecho IV, p decresce. Em qual desses trechos o módulo da força resultante sobre a partícula é nulo?",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "Trecho I",
+      "Trecho II",
+      "Trecho III",
+      "Trecho IV",
+      "Em nenhum dos trechos a força é nula"
+    ],
+    "correct": 1,
+    "explanation": "Como a força resultante é igual à taxa de variação do momento linear (F = dp/dt), a força é nula exatamente quando p não varia com o tempo, ou seja, quando a inclinação do gráfico p × t é zero. Isso ocorre no trecho II, onde p permanece constante."
+  },
+  {
+    "id": 24,
+    "type": "mc",
+    "question": "Sobre o momento linear total de um sistema de partículas, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "É igual à soma vetorial dos momentos lineares individuais das partículas, e pode também ser calculado como o produto da massa total do sistema pela velocidade do centro de massa.",
+      "É sempre igual a zero, independentemente das velocidades das partículas do sistema.",
+      "Depende apenas da partícula de maior massa do sistema.",
+      "É uma grandeza escalar, pois representa a soma dos módulos dos momentos individuais.",
+      "Só pode ser definido quando todas as partículas do sistema possuem a mesma velocidade."
+    ],
+    "correct": 0,
+    "explanation": "O momento linear total de um sistema de partículas é definido como a soma vetorial dos momentos individuais, e o material mostra que esse total é igual ao produto da massa total do sistema pela velocidade do centro de massa (P = M·v_cm). As demais alternativas introduzem restrições que a definição não exige."
+  },
+  {
+    "id": 25,
+    "type": "mc",
+    "question": "Duas partículas de mesma massa se movem em sentidos opostos, com velocidades de mesmo módulo, ao longo de uma mesma reta. Sobre o momento linear total e a energia cinética total do sistema formado pelas duas partículas, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "Ambos são nulos, pois as velocidades das partículas se cancelam.",
+      "O momento linear total é nulo, mas a energia cinética total não é nula, pois esta depende do quadrado da velocidade de cada partícula.",
+      "O momento linear total não é nulo, mas a energia cinética total é nula.",
+      "Ambos são não nulos e numericamente iguais.",
+      "É fisicamente impossível que o momento linear total seja nulo se as partículas estão em movimento."
+    ],
+    "correct": 1,
+    "explanation": "O momento linear é uma grandeza vetorial: como as velocidades têm sentidos opostos e mesmo módulo, os momentos se cancelam e o momento linear total é nulo. Já a energia cinética é uma grandeza escalar sempre positiva quando há velocidade (K = (1/2)mv²), de modo que a energia cinética total é a soma de dois valores positivos e, portanto, não nula. Essa diferença entre grandezas vetoriais e escalares é o ponto central da questão."
+  },
+  {
+    "id": 26,
+    "type": "fill_in",
+    "question": "Qual é a condição sobre as forças externas que precisa ser satisfeita para que o momento linear total de um sistema de partículas se conserve?",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "answer": "A força externa resultante deve ser nula",
+    "acceptable_answers": [
+      "força externa resultante nula",
+      "resultante das forças externas nula",
+      "resultante das forças externas igual a zero",
+      "nenhuma força externa resultante atuando sobre o sistema"
+    ],
+    "explanation": "Assim como o momento linear de uma partícula isolada se conserva quando a força resultante sobre ela é nula, o momento linear total de um sistema se conserva quando a resultante das forças externas que atuam sobre o sistema é nula — condição análoga à usada para a conservação do momento angular no material."
+  },
+  {
+    "id": 27,
+    "type": "mc",
+    "question": "Um astronauta, inicialmente em repouso junto a uma nave no espaço (sistema isolado, sem forças externas relevantes), empurra a nave com as mãos e passa a se afastar dela. Sobre o momento linear do sistema astronauta-nave, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "O momento total do sistema aumenta, pois o astronauta passou a ter velocidade.",
+      "O momento total do sistema permanece nulo, pois a força de empurrão é interna ao sistema, de modo que astronauta e nave passam a se mover em sentidos opostos com momentos de mesmo módulo.",
+      "O momento total do sistema se anula apenas para a nave, não para o astronauta.",
+      "O momento total do sistema se torna indefinido, já que não há forças externas atuando.",
+      "Apenas a nave passa a ter momento linear não nulo após o empurrão."
+    ],
+    "correct": 1,
+    "explanation": "A força que o astronauta exerce sobre a nave e a reação que a nave exerce sobre o astronauta formam um par de forças internas ao sistema astronauta-nave. Como não há força externa resultante, o momento linear total do sistema se conserva; partindo de zero, ele continua igual a zero, o que exige que astronauta e nave se movam em sentidos opostos com momentos de mesmo módulo."
+  },
+  {
+    "id": 28,
+    "type": "mc",
+    "question": "Duas partículas estão sobre o eixo x: uma de massa 1 kg na posição x = 0, e outra de massa 3 kg na posição x = 4 m. Qual é a posição do centro de massa desse sistema de duas partículas?",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "x = 0,75 m",
+      "x = 1 m",
+      "x = 2 m",
+      "x = 3 m",
+      "x = 4 m"
+    ],
+    "correct": 3,
+    "explanation": "A posição do centro de massa de um sistema de duas partículas é dada por x_cm = (m1x1 + m2x2)/(m1 + m2) = (1·0 + 3·4)/(1+3) = 12/4 = 3 m. Como a partícula mais massiva está mais afastada da origem, o centro de massa fica mais próximo dela do que do ponto médio geométrico (que seria x = 2 m)."
+  },
+  {
+    "id": 29,
+    "type": "mc",
+    "question": "Um sistema é composto por dois blocos ligados por uma mola comprimida, em repouso sobre uma superfície sem atrito. Ao ser solta, a mola empurra os blocos, fazendo-os se afastarem um do outro. Sobre as forças que a mola exerce sobre cada bloco, assinale a alternativa correta.",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "São forças externas ao sistema bloco-mola-bloco.",
+      "São forças internas ao sistema, formam um par de ação e reação e não alteram o momento linear total do sistema.",
+      "Alteram o momento linear total do sistema, pois são forças reais aplicadas nos blocos.",
+      "Atuam apenas sobre o bloco de maior massa do sistema.",
+      "Fazem com que a energia cinética total do sistema permaneça nula após a liberação da mola."
+    ],
+    "correct": 1,
+    "explanation": "A mola faz parte do sistema considerado (bloco-mola-bloco), de modo que as forças que ela exerce sobre cada bloco são internas ao sistema e formam pares de ação e reação. Como não há força externa resultante (a superfície não tem atrito), o momento linear total do sistema permanece constante — igual a zero, já que o sistema partiu do repouso —, embora a energia cinética total deixe de ser nula, pois os blocos passam a se mover em sentidos opostos."
+  },
+  {
+    "id": 30,
+    "type": "mc",
+    "question": "Considere um sistema definido como “o carro e seus ocupantes”. A força de atrito exercida pelo asfalto sobre os pneus e a força peso exercida pela Terra sobre o carro devem ser classificadas, em relação a esse sistema, respectivamente como:",
+    "category": "Física — Capítulo 9 — Centro de Massa e Momento Linear",
+    "options": [
+      "Ambas são forças internas ao sistema.",
+      "A força entre pneu e asfalto é interna, e o peso é externo ao sistema.",
+      "Ambas são forças externas ao sistema, pois tanto o asfalto quanto a Terra são corpos que não pertencem ao sistema definido.",
+      "Ambas são internas, pois envolvem contato direto com o carro.",
+      "A força entre pneu e asfalto é externa, mas o peso é interno, pois atua sobre o próprio carro."
+    ],
+    "correct": 2,
+    "explanation": "A classificação de uma força como interna ou externa depende exclusivamente de como o sistema é definido: se o sistema inclui apenas o carro e seus ocupantes, qualquer força exercida por um corpo fora dessa fronteira — seja o asfalto, seja a Terra — é uma força externa. O fato de o peso atuar 'sobre' o carro não o torna interno, pois seu agente (a Terra) está fora do sistema escolhido."
+  },
+  {
+    "id": 31,
+    "type": "fill_in",
+    "question": "Em um movimento circular uniforme, o módulo da velocidade permanece constante, mas sua direção muda continuamente. Qual aceleração explica essa mudança de direção?",
+    "category": "Física — Capítulo 4 — Movimento Circular Uniforme",
+    "answer": "Aceleração centrípeta",
+    "acceptable_answers": [
+      "aceleração centrípeta",
+      "aceleracao centripeta"
+    ],
+    "explanation": "Mesmo com velocidade escalar constante, a partícula em MCU está acelerada porque a direção da velocidade muda continuamente. Essa aceleração aponta sempre para o centro da trajetória, sendo por isso chamada aceleração centrípeta, com módulo dado por a = v²/r."
+  },
+  {
+    "id": 32,
+    "type": "mc",
+    "question": "Um ponto localizado a uma distância R = 0,5 m do eixo de rotação de um disco gira com velocidade angular constante ω = 4 rad/s. Qual é o módulo da velocidade tangencial (linear) desse ponto?",
+    "category": "Física — Capítulo 4 — Movimento Circular Uniforme",
+    "options": [
+      "0,125 m/s",
+      "0,5 m/s",
+      "2,0 m/s",
+      "4,0 m/s",
+      "8,0 m/s"
+    ],
+    "correct": 2,
+    "explanation": "A relação entre a velocidade linear (tangencial) e a velocidade angular é v = ωR. Substituindo os valores, v = 4 × 0,5 = 2,0 m/s. O valor 8,0 m/s corresponde ao erro de multiplicar por 2 em vez de considerar R = 0,5, e 0,125 m/s ao erro de inverter a relação (dividir em vez de multiplicar)."
+  },
+  {
+    "id": 33,
+    "type": "mc",
+    "question": "Um disco rígido gira em torno de um eixo fixo com velocidade angular constante. Dois pontos, A e B, estão sobre o disco: A está a uma distância r_A do eixo, e B está a uma distância r_B = 2r_A. Comparando a velocidade angular e a velocidade linear (tangencial) desses dois pontos, assinale a alternativa correta.",
+    "category": "Física — Capítulo 4 — Movimento Circular Uniforme",
+    "options": [
+      "ω_A = ω_B, e v_B = 2v_A.",
+      "ω_A = 2ω_B, e v_A = v_B.",
+      "ω_A = ω_B, e v_A = 2v_B.",
+      "ω_B = 2ω_A, mas v_A = v_B, pois a velocidade linear não depende do raio.",
+      "ω_A e ω_B são diferentes e não podem ser comparadas sem mais informações."
+    ],
+    "correct": 0,
+    "explanation": "Como o disco é rígido e gira como um todo, todos os seus pontos compartilham a mesma velocidade angular ω, independentemente da distância ao eixo. Já a velocidade linear depende do raio, pois v = ωr: como r_B = 2r_A, segue que v_B = 2v_A. A alternativa (d) erra justamente ao afirmar que a velocidade linear independe do raio, quando na verdade é a velocidade angular que é comum aos dois pontos."
+  },
+  {
+    "id": 34,
+    "type": "mc",
+    "question": "Uma partícula descreve um movimento circular uniforme de raio r = 2 m com velocidade escalar constante v = 6 m/s. Qual é o módulo da aceleração centrípeta dessa partícula?",
+    "category": "Física — Capítulo 4 — Movimento Circular Uniforme",
+    "options": [
+      "3 m/s²",
+      "6 m/s²",
+      "9 m/s²",
+      "18 m/s²",
+      "36 m/s²"
+    ],
+    "correct": 3,
+    "explanation": "O material define o módulo da aceleração centrípeta no MCU como a = v²/r. Substituindo os valores, a = 6²/2 = 36/2 = 18 m/s². O valor 36 m/s² corresponde ao erro de esquecer a divisão por r, e 3 m/s² ao erro de dividir v por r em vez de v²."
+  },
+  {
+    "id": 35,
+    "type": "mc",
+    "question": "Uma partícula descreve uma circunferência completa de raio r = 2 m com velocidade escalar constante v = 4 m/s. Qual é, aproximadamente, o período T desse movimento?",
+    "category": "Física — Capítulo 4 — Movimento Circular Uniforme",
+    "options": [
+      "0,5 s",
+      "1,0 s",
+      "3,14 s",
+      "6,28 s",
+      "12,56 s"
+    ],
+    "correct": 2,
+    "explanation": "O período do movimento circular uniforme é dado por T = 2πr/v, o tempo necessário para percorrer a distância de uma circunferência completa (2πr) com velocidade escalar constante v. Substituindo, T = 2π(2)/4 = π ≈ 3,14 s. O valor 6,28 s corresponde ao erro de esquecer a divisão por v = 4."
+  },
+  {
+    "id": 36,
+    "type": "fill_in",
+    "question": "Qual regra prática é usada para determinar o sentido do vetor velocidade angular (e também do vetor torque) a partir do sentido de rotação de um corpo?",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "answer": "Regra da mão direita",
+    "acceptable_answers": [
+      "regra da mão direita",
+      "regra da mao direita"
+    ],
+    "explanation": "O material define que a direção do vetor velocidade angular é sempre ao longo do eixo de rotação, e seu sentido é determinado pela regra da mão direita: posicionando o polegar ao longo do eixo e os demais dedos acompanhando o sentido da rotação, o polegar indica o sentido do vetor. A mesma regra é usada para determinar o sentido do vetor torque."
+  },
+  {
+    "id": 37,
+    "type": "mc",
+    "question": "Um disco gira no sentido horário quando observado de cima. Utilizando a regra da mão direita para determinar o vetor velocidade angular ω desse disco, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "ω aponta para cima, ao longo do eixo de rotação.",
+      "ω aponta para baixo, ao longo do eixo de rotação.",
+      "ω aponta na direção horizontal, tangente ao disco.",
+      "ω tem módulo nulo, pois o disco gira no sentido horário.",
+      "A direção de ω não pode ser determinada sem conhecer a velocidade do disco."
+    ],
+    "correct": 1,
+    "explanation": "O material apresenta exatamente esse exemplo: quando um disco gira no sentido horário visto de cima, o vetor ω aponta para baixo (na direção z negativa); se o sentido de rotação fosse invertido (anti-horário), ω apontaria para cima. A regra da mão direita é aplicada posicionando o polegar ao longo do eixo, de modo que os outros dedos acompanhem o sentido de giro."
+  },
+  {
+    "id": 38,
+    "type": "mc",
+    "question": "Um ponto de um corpo rígido, a uma distância r = 0,4 m do eixo de rotação, sofre uma aceleração angular constante α = 5 rad/s². Qual é o módulo da aceleração tangencial desse ponto?",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "0,5 m/s²",
+      "2,0 m/s²",
+      "5,0 m/s²",
+      "12,5 m/s²",
+      "20,0 m/s²"
+    ],
+    "correct": 1,
+    "explanation": "A aceleração tangencial de um ponto de um corpo em rotação está relacionada à aceleração angular pela expressão a_tg = rα. Substituindo, a_tg = 0,4 × 5 = 2,0 m/s². O valor 12,5 m/s² corresponde ao erro de dividir α por r em vez de multiplicar."
+  },
+  {
+    "id": 39,
+    "type": "fill_in",
+    "question": "Qual grandeza representa a resistência de um corpo à alteração do seu movimento de rotação, dependendo tanto da massa do corpo quanto de como ela se distribui em relação ao eixo de rotação?",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "answer": "Momento de inércia",
+    "acceptable_answers": [
+      "momento de inércia",
+      "momento de inercia"
+    ],
+    "explanation": "O material define o momento de inércia exatamente como a medida da resistência que um corpo oferece à mudança do seu estado de movimento de rotação, sendo o análogo rotacional da massa e dependendo tanto da quantidade de massa quanto de sua distribuição em relação ao eixo."
+  },
+  {
+    "id": 40,
+    "type": "mc",
+    "question": "Uma barra fina e homogênea de massa m e comprimento L pode girar em torno de um eixo perpendicular a ela. Comparando o momento de inércia da barra quando o eixo passa pelo seu centro de massa (I_cm) com o momento de inércia quando o eixo passa por uma de suas extremidades (I_ext), assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "I_cm = I_ext, pois a massa da barra é a mesma nos dois casos.",
+      "I_cm > I_ext, pois o centro de massa está mais distante das extremidades.",
+      "I_ext > I_cm, pois, com o eixo na extremidade, a massa da barra está, em média, mais distante do eixo de rotação.",
+      "I_ext = 0, pois o eixo está localizado sobre a própria barra.",
+      "A comparação entre I_cm e I_ext depende da velocidade angular da barra."
+    ],
+    "correct": 2,
+    "explanation": "O material mostra que, para uma barra homogênea, I_cm = mL²/12 (eixo pelo centro de massa) e I_ext = mL²/3 (eixo por uma extremidade), de modo que I_ext = 4·I_cm. Isso ocorre porque, com o eixo na extremidade, toda a massa da barra fica, em média, mais afastada do eixo do que quando o eixo passa pelo centro — e quanto maior a distância média da massa ao eixo, maior o momento de inércia."
+  },
+  {
+    "id": 41,
+    "type": "mc",
+    "question": "Ao tentar abrir uma porta pesada, uma pessoa pode aplicar uma força horizontal, perpendicular à porta e de mesma intensidade, tanto próximo às dobradiças (eixo de rotação) quanto próximo à maçaneta (extremidade oposta). Sobre o torque produzido em cada caso, assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "O torque é o mesmo nos dois casos, pois a força tem a mesma intensidade e direção.",
+      "O torque é maior quando a força é aplicada próximo à maçaneta, pois o torque depende da distância ao eixo de rotação.",
+      "O torque é maior quando a força é aplicada próximo às dobradiças.",
+      "Não há torque em nenhum dos dois casos, pois a porta está inicialmente em repouso.",
+      "O torque depende apenas da massa da porta, não do ponto de aplicação da força."
+    ],
+    "correct": 1,
+    "explanation": "O torque é definido por τ = rF sen φ, onde r é a distância do ponto de aplicação da força ao eixo de rotação. Para a mesma força perpendicular à porta, quanto maior essa distância, maior o torque produzido — por isso é mais fácil abrir uma porta empurrando-a perto da maçaneta do que perto das dobradiças, exatamente como discutido no material."
+  },
+  {
+    "id": 42,
+    "type": "fill_in",
+    "question": "Qual grandeza física é definida pelo produto entre a distância ao eixo de rotação e a componente da força perpendicular a essa distância, sendo responsável por causar aceleração angular em um corpo?",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "answer": "Torque",
+    "acceptable_answers": [
+      "torque"
+    ],
+    "explanation": "O material define o torque como τ = rF sen φ = rF⊥, a grandeza análoga à força no movimento de rotação, relacionada à aceleração angular pela relação τ = Iα, que constitui a Segunda Lei de Newton para o movimento de rotação."
+  },
+  {
+    "id": 43,
+    "type": "fill_in",
+    "question": "Qual grandeza é o análogo rotacional do momento linear, definida pelo produto do momento de inércia de um corpo pela sua velocidade angular (L = I·ω)?",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "answer": "Momento angular",
+    "acceptable_answers": [
+      "momento angular"
+    ],
+    "explanation": "Assim como o momento linear é definido por p = m·v, o material define o momento angular como L = I·ω, sendo o momento de inércia o análogo rotacional da massa e a velocidade angular o análogo da velocidade linear."
+  },
+  {
+    "id": 44,
+    "type": "mc",
+    "question": "Uma patinadora gira sobre si mesma com velocidade angular ω₀. Ao recolher os braços junto ao corpo, seu momento de inércia diminui para a metade do valor inicial (I_f = I₀/2), sem qualquer torque externo relevante atuando sobre ela. Qual é sua nova velocidade angular ω_f, em relação a ω₀?",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "ω_f = ω₀/4",
+      "ω_f = ω₀/2",
+      "ω_f = ω₀",
+      "ω_f = 2ω₀",
+      "ω_f = 4ω₀"
+    ],
+    "correct": 3,
+    "explanation": "Como não há torque externo resultante, o momento angular da patinadora se conserva: L_i = L_f, ou seja, I₀ω₀ = I_f ω_f. Substituindo I_f = I₀/2: I₀ω₀ = (I₀/2)ω_f, logo ω_f = 2ω₀. Esse é exatamente o fenômeno descrito no material para explicar por que a velocidade de rotação de uma bailarina aumenta quando ela recolhe os braços e as pernas."
+  },
+  {
+    "id": 45,
+    "type": "mc",
+    "question": "Um planeta descreve uma órbita elíptica em torno do Sol. De acordo com a 2ª Lei de Kepler (Lei das Áreas), que decorre da conservação do momento angular do planeta, comparando o periélio (ponto mais próximo do Sol) com o afélio (ponto mais distante), assinale a alternativa correta.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "A velocidade orbital do planeta é maior no afélio do que no periélio.",
+      "A velocidade orbital do planeta é maior no periélio do que no afélio.",
+      "A velocidade orbital do planeta é a mesma nos dois pontos, pois o momento angular é constante.",
+      "O momento angular do planeta é maior no periélio e menor no afélio.",
+      "A 2ª Lei de Kepler não tem relação com a conservação do momento angular."
+    ],
+    "correct": 1,
+    "explanation": "O material relaciona explicitamente a 2ª Lei de Kepler à conservação do momento angular (r²ω = constante): como o momento angular é o mesmo em toda a órbita, quando o planeta está mais próximo do Sol (periélio, r menor), sua velocidade angular e, portanto, sua velocidade orbital devem ser maiores; no afélio (r maior), a velocidade orbital é menor. O momento angular, ao contrário do que afirma a alternativa (d), é constante ao longo de toda a órbita, não varia entre periélio e afélio."
+  },
+  {
+    "id": 46,
+    "type": "fill_in",
+    "question": "Qual grandeza física corresponde ao análogo rotacional da energia cinética de translação, sendo dada pela expressão (1/2)Iω²?",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "answer": "Energia cinética de rotação",
+    "acceptable_answers": [
+      "energia cinética de rotação",
+      "energia cinética rotacional"
+    ],
+    "explanation": "O material estabelece que a energia cinética de rotação (K_rot = (1/2)Iω²) é tratada como o análogo rotacional da energia cinética de translação (K = (1/2)mv²), substituindo a massa m pelo momento de inércia I e a velocidade linear v pela velocidade angular ω."
+  },
+  {
+    "id": 47,
+    "type": "mc",
+    "question": "Um torque resultante constante de 4 N·m atua sobre um corpo rígido de momento de inércia I = 2 kg·m², inicialmente em repouso, fazendo-o girar através de um deslocamento angular de 4 rad. Considerando que todo o trabalho realizado pelo torque se converte em energia cinética de rotação, qual é a velocidade angular final do corpo?",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "1 rad/s",
+      "2 rad/s",
+      "4 rad/s",
+      "8 rad/s",
+      "16 rad/s"
+    ],
+    "correct": 2,
+    "explanation": "O trabalho de um torque constante é W = τΔθ = 4 × 4 = 16 J. Pelo teorema trabalho-energia para rotação, W = ΔK_rot = (1/2)Iω_f² − (1/2)Iω_i². Como o corpo parte do repouso (ω_i = 0): 16 = (1/2)(2)ω_f², logo ω_f² = 16 e ω_f = 4 rad/s."
+  },
+  {
+    "id": 48,
+    "type": "mc",
+    "question": "Assinale a alternativa que apresenta corretamente a correspondência entre as grandezas do movimento de translação e as grandezas análogas do movimento de rotação, segundo a dinâmica estudada no material.",
+    "category": "Física — Capítulo 10 — Dinâmica da Rotação",
+    "options": [
+      "Força ↔ Torque; Massa ↔ Momento de inércia; Momento linear ↔ Momento angular.",
+      "Força ↔ Momento angular; Massa ↔ Torque; Momento linear ↔ Momento de inércia.",
+      "Força ↔ Momento de inércia; Massa ↔ Torque; Momento linear ↔ Momento angular.",
+      "Força ↔ Torque; Massa ↔ Momento angular; Momento linear ↔ Momento de inércia.",
+      "Não existe correspondência estabelecida entre essas grandezas de translação e de rotação."
+    ],
+    "correct": 0,
+    "explanation": "O material apresenta explicitamente essa correspondência: na translação, destacam-se força, massa e momento linear; no movimento de rotação, as grandezas correspondentes são, respectivamente, o torque, o momento de inércia e o momento angular — cada par desempenhando papel análogo nas respectivas leis de Newton (F=ma ↔ τ=Iα) e nas leis de conservação (conservação de p ↔ conservação de L)."
+  }
+]

@@ -1,0 +1,36 @@
+DIRECIONAMENTO DE ESTUDOS – 2ª PROVA DE FÍSICA 1
+
+Revisar principalmente:
+
+• Trabalho realizado por uma força
+• Trabalho positivo, negativo e nulo
+• Teorema Trabalho–Energia Cinética
+• Energia Cinética
+• Energia Potencial Gravitacional
+• Energia Potencial Elástica
+• Energia Mecânica
+• Conservação da Energia Mecânica
+• Forças Conservativas e Dissipativas
+• Potência
+
+• Centro de Massa
+• Sistemas de Partículas
+• Forças Internas e Externas
+• Momento Linear
+• Conservação do Momento Linear
+• Segunda Lei de Newton aplicada a sistemas de partículas
+
+• Deslocamento Angular
+• Velocidade Angular
+• Aceleração Angular
+• Relação entre grandezas lineares e angulares
+• Movimento Circular Uniforme (MCU)
+• Velocidade tangencial e aceleração centrípeta
+• Período e frequência no movimento circular
+• Regra da mão direita
+• Momento de Inércia
+• Torque e dinâmica da rotação
+• Momento Angular e sua conservação
+• Energia Cinética de Rotação
+
+Atenção especial: compreender os conceitos, saber interpretar as grandezas e suas relações físicas e praticar exercícios de aplicação das fórmulas, principalmente envolvendo conservação da energia e movimento circular.
