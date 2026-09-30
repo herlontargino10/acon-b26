@@ -1,0 +1,336 @@
+# Filtro Pedagógico para Prova de Hidrodinâmica (P1)
+**Foco:** Interpretação Física, Raciocínio, Causa e Efeito e Conexões Conceituais
+
+---
+
+## 1. CONCEITOS ESSENCIAIS
+
+### CONCEITO: Volume de Controle (VC) e Superfície de Controle (SC)
+- **O que é**: O Volume de Controle é uma região com volume fixo e forma arbitrária definida no espaço para análise física (sistema aberto). A Superfície de Controle é a fronteira aberta que delimita essa região e por onde o fluido entra e sai.
+- **Significado físico**: Atua como uma "janela de observação" fixa no espaço. Permite relacionar o que entra e sai pelas bordas com o que se acumula no interior, sem precisar rastrear partículas individuais.
+- **Como reconhecer em uma questão**: Quando o enunciado estabelece uma região fixa no espaço (como um cubo com dimensões $\Delta x, \Delta y, \Delta z$) com vazões de entrada e saída pelas suas faces.
+- **Com o que posso confundir**: Com Massa de Controle (Sistema Fechado) ou com um recipiente rígido impermeável.
+- **Diferença fundamental**: A Massa de Controle é composta sempre pelas mesmas partículas físicas e sua fronteira se move com o fluido; o Volume de Controle possui posição e volume fixos no espaço e a massa em seu interior é renovada.
+- **Consequência física**: Permite aplicar as leis de conservação sob a perspectiva Euleriana, relacionando o fluxo líquido de contorno com a variação temporal interna.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a vazão mássica de saída for maior que a de entrada (\\(\dot{m}_{out} > \dot{m}_{in}\\)) → **ENTÃO** a massa e a densidade no interior do volume de controle diminuem no tempo (\\(\frac{\Delta \rho}{\Delta t} < 0\\)) → **POR QUÊ** a quantidade líquida de matéria que cruza as superfícies de controle é negativa para o interior da região.
+- **Armadilha provável de prova**: Tratar a Superfície de Controle como uma parede sólida rígida impermeável onde o fluido não pode passar.
+- **Resposta curta que eu poderia dar na prova**: *"O volume de controle é uma região fixa no espaço com superfícies de controle abertas que funcionam como janelas de observação, permitindo correlacionar os fluxos de massa e quantidade de movimento nas fronteiras com as variações internas."*
+
+---
+
+### CONCEITO: Perspectiva Lagrangiana vs. Perspectiva Euleriana
+- **O que é**: A abordagem Lagrangiana acompanha a trajetória temporal de uma partícula fluida individual identificada. A abordagem Euleriana analisa o campo de propriedades do fluido em janelas de observação fixas no espaço $(x, y, z)$.
+- **Significado físico**: O referencial Lagrangiano mede variações experimentadas pela partícula móvel; o Euleriano mede propriedades em posições fixas por onde passam partículas diferentes a cada instante.
+- **Como reconhecer em uma questão**: Analisar se a medição é feita por um sensor preso à partícula móvel (Lagrangiano) ou por um sensor fixo instalado em uma posição do espaço (Euleriano).
+- **O que NÃO significa**: Não são leis físicas distintas, mas sim formas diferentes de observar e aplicar a 2ª Lei de Newton.
+- **Diferença fundamental**: O Lagrangiano mede a variação direta da partícula ao longo do tempo; o Euleriano exige adicionar os termos convectivos para registrar forças quando o fluido muda de posição no espaço.
+- **Consequência física**: Na abordagem Euleriana, um escoamento pode ser permanente (\\(\frac{\partial u}{\partial t} = 0\\)) e, mesmo assim, a partícula apresentar aceleração e força resultante devido ao seu deslocamento espacial.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** um observador está fixo no espaço em um tubo convergente sob regime permanente → **ENTÃO** $\frac{\partial u}{\partial t} = 0$, mas existe aceleração na partícula → **POR QUÊ** a partícula se desloca para regiões onde a velocidade do campo espacial é maior, gerando aceleração convectiva (\\(u \frac{\partial u}{\partial x} > 0\\)).
+- **Armadilha provável de prova**: Afirmar que não atua nenhuma força resultante sobre o fluido quando o gráfico de velocidade no tempo em um ponto fixo é uma linha horizontal (\\(\frac{\partial u}{\partial t} = 0\\)).
+- **Resposta curta que eu poderia dar na prova**: *"A perspectiva Lagrangiana rastreia a partícula individual no tempo, enquanto a Euleriana observa posições fixas no espaço, exigindo o termo de aceleração convectiva para contabilizar mudanças de velocidade provocadas pelo deslocamento espacial."*
+
+---
+
+### CONCEITO: Derivada Material, Aceleração Local e Convectiva
+- **O que é**: A Derivada Material (\\(\frac{Du}{Dt}\\)) é a aceleração total de uma partícula fluida na perspectiva Euleriana. É a soma da **aceleração local** (\\(\frac{\partial u}{\partial t}\\)) com a **aceleração convectiva** (\\(u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} + w \frac{\partial u}{\partial z}\\)).
+- **Significado físico**: A aceleração local mede a variação da velocidade no tempo em um ponto fixo; a aceleração convectiva mede a variação de velocidade sofrida pela partícula ao mudar de posição em um campo de velocidades heterogêneo.
+- **Como reconhecer em uma questão**: Se a velocidade em um ponto fixo muda com o passar do tempo $\implies$ aceleração local. Se a velocidade muda ao longo da coordenada de espaço $\implies$ aceleração convectiva.
+- **Com o que posso confundir**: Aceleração convectiva com escoamento transiente.
+- **Diferença fundamental**: Aceleração local depende do tempo $t$; a aceleração convectiva depende das velocidades e dos gradientes espaciais (\\(\frac{\partial u}{\partial x}, \frac{\partial u}{\partial y}, \frac{\partial u}{\partial z}\\)).
+- **Consequência física**: Exige a presença de forças resultantes (como gradiente de pressão) para alterar a velocidade do fluido no espaço, mesmo em regime permanente.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a área da seção reta diminui ao longo de um tubo (\\(A_1 > A_2\\)) em fluido incompressível → **ENTÃO** a velocidade na saída é maior (\\(u_2 > u_1\\)) → **POR QUÊ** a conservação de massa exige que a vazão volumétrica se mantenha, criando um gradiente de velocidade no espaço e aceleração convectiva.
+- **Armadilha provável de prova**: Confundir escoamento permanente (\\(\frac{\partial u}{\partial t} = 0\\)) com aceleração total nula (\\(\frac{Du}{Dt} = 0\\)).
+- **Resposta curta que eu poderia dar na prova**: *"A derivada material é a aceleração total na visão euleriana, combinando a variação temporal em um ponto fixo (aceleração local) com a variação associada ao deslocamento da partícula pelo espaço (aceleração convectiva)."*
+
+---
+
+### CONCEITO: Conservação de Massa e Equação da Continuidade
+- **O que é**: Princípio físico fundamental que estabelece que a massa não pode ser criada nem destruída.
+- **Significado físico**: É uma lei de conservação local. A massa não pode se deslocar de um ponto A para um ponto B sem atravessar continuamente o espaço intermediário.
+- **Como reconhecer em uma questão**: Quando se correlaciona as vazões mássicas nas superfícies de controle (\\(\dot{m} = \rho u A\\)) com a taxa de variação da massa contida no volume de controle.
+- **O que NÃO significa**: Não exige que as velocidades sejam constantes, mas sim que o balanço entre entrada, saída e acúmulo seja satisfeito.
+- **Diferença fundamental**: A forma diferencial (\\(\nabla(\rho V) + \frac{\partial \rho}{\partial t} = 0\\)) analisa o balanço no ponto infinitesimal; a forma integral (\\(\iint \rho(V \cdot \hat{n}) dA = -\frac{d}{dt} \iiint \rho dVol\\)) analisa a região global do volume de controle.
+- **Consequência física**: Garante a continuidade do fluido sem surgimento nem desaparecimento de matéria no espaço.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a vazão que entra é maior que a vazão que sai em um volume fixo → **ENTÃO** a densidade e a massa interna aumentam com o tempo (\\(\frac{\Delta \rho}{\Delta t} > 0\\)) → **POR QUÊ** a matéria acumulada no interior equilibra o saldo positivo de entrada.
+- **Armadilha provável de prova**: Esquecer que na forma integral o vetor normal unitário \\(\hat{n}\\) aponta sempre para fora da superfície de controle.
+- **Resposta curta que eu me lembraria na prova**: *"A equação da continuidade expressa a conservação local da massa, igualando a taxa de variação da massa interna ao fluxo líquido de matéria que cruza as superfícies de controle."*
+
+---
+
+### CONCEITO: Incompressibilidade e Divergência Nula (\\(\nabla \cdot V = 0\\))
+- **O que é**: Propriedade do escoamento na qual a densidade absoluta do fluido é constante (\\(\rho = \text{constante}\\) e \\(\frac{\partial \rho}{\partial t} = 0\\)).
+- **Significado físico**: A conservação de massa deixa de depender da densidade e passa a ser regida por um balanço geométrico das derivadas espaciais da velocidade.
+- **Como reconhecer em uma questão**: Quando o fluido é água ou ar em velocidades moderadas e a densidade \\(\rho\\) é cancelada da equação da continuidade.
+- **O que NÃO significa**: Não significa que o fluido seja estático ou que a velocidade não possa mudar.
+- **Diferença fundamental**: Incompressibilidade (\\(\rho = \text{const.}\\)) difere de escoamento permanente (\\(\frac{\partial u}{\partial t} = 0\\)). Um escoamento pode ser transiente e incompressível simultaneamente.
+- **Consequência física**: A soma das derivadas espaciais das velocidades é zero (\\(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z} = 0\\)). Se o fluido desacelera em uma direção, é forçado a acelerar em outra.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a saída na direção \\(x\\) é bloqueada em um volume 2D incompressível (\\(-\frac{\partial u}{\partial x}\\)) → **ENTÃO** o fluido é forçado a sair na direção \\(y\\) (\\(\frac{\partial v}{\partial y}\\)) → **POR QUÊ** a incompressibilidade impede o acúmulo interno de massa, exigindo conservação do volume geométrico.
+- **Armadilha provável de prova**: Acreditar que para valer \\(\nabla \cdot V = 0\\) o escoamento precisa ser permanente ou que seja necessário saber a densidade do fluido.
+- **Resposta curta que eu poderia dar na prova**: *"Para fluidos incompressíveis (\\(\rho = \text{const.}\\)), a densidade sai da equação da continuidade, resultando em divergência nula da velocidade (\\(\nabla \cdot V = 0\\)), o que torna a conservação de massa um balanço das variações espaciais de velocidade."*
+
+---
+
+### CONCEITO: Viscosidade Dinâmica (\\(\mu\\)) e Tensão de Cisalhamento (\\(\tau_{yx}\\))
+- **O que é**: A viscosidade dinâmica (\\(\mu\\)) é uma constante empírica do fluido. A tensão de cisalhamento (\\(\tau_{yx} = \mu \frac{\partial u}{\partial y}\\)) é a força tangencial por unidade de área entre camadas adjacentes.
+- **Significado físico**: A força viscosa surge microscopicamente do transporte de quantidade de movimento por partículas fluidas que "saltam" entre camadas de velocidades diferentes (analogia das pessoas saltando entre trens com velocidades distintas).
+- **Como reconhecer em uma questão**: Pela presença de gradientes de velocidade perpendiculares à direção do fluxo (\\(\frac{\partial u}{\partial y} \neq 0\\)).
+- **O que NÃO significa**: Tensão de cisalhamento NÃO depende da magnitude absoluta da velocidade \\(u\\), mas sim do seu gradiente espacial (\\(\frac{\partial u}{\partial y}\\)).
+- **Diferença fundamental**: Pressão é uma força normal perpendicular às superfícies; Tensão de cisalhamento é uma força tangencial paralela exercida pelo atrito entre camadas.
+- **Consequência física**: Para haver força viscosa líquida acelerando o elemento de fluido, deve haver uma variação espacial da tensão de cisalhamento (\\(\tau_2 \neq \tau_1 \implies \mu \frac{\partial^2 u}{\partial y^2} \neq 0\\)).
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a tensão de cisalhamento for idêntica nas faces superior e inferior (\\(\tau_2 = \tau_1\\)) → **ENTÃO** a força viscosa líquida em \\(x\\) é nula → **POR QUÊ** forças de módulo igual e sentidos opostos nas faces apenas rotacionam o elemento sem acelerá-lo linearmente.
+- **Armadilha provável de prova**: Confundir velocidade alta (\\(u\\) grande) com tensão de cisalhamento alta (\\(\tau\\) só existe se houver gradiente \\(\frac{\partial u}{\partial y}\\)).
+- **Resposta curta que eu poderia dar na prova**: *"A tensão de cisalhamento (\\(\tau = \mu \frac{\partial u}{\partial y}\\)) representa o atrito tangencial por troca de quantidade de movimento entre camadas, e só gera força viscosa líquida por unidade de volume se houver variação espacial da tensão (\\(\mu \frac{\partial^2 u}{\partial y^2}\\))."*
+
+---
+
+### CONCEITO: Pressão e Forças de Pressão (\\(-\nabla p\\))
+- **O que é**: A pressão é uma força superficial normal resultante das colisões das partículas do fluido contra as superfícies em contato.
+- **Significado físico**: Uma diferença de pressão entre superfícies opostas (\\(\Delta p\\)) gera força líquida que acelera o fluido do ponto de maior para o de menor pressão.
+- **Como reconhecer em uma questão**: Gradientes de pressão ao longo do espaço (\\(\frac{\partial p}{\partial x}\\)).
+- **O que NÃO significa**: A pressão isolada \\(p\\) não gera aceleração; apenas o seu gradiente espacial (\\(\frac{\partial p}{\partial x}\\)) produz força resultante.
+- **Diferença fundamental**: Força de pressão atua perpendicularmente às superfícies; força viscosa atua tangencialmente.
+- **Consequência física**: O fluido é acelerado no sentido da menor pressão, o que justifica o sinal negativo no termo de pressão por unidade de volume (\\(-\frac{\partial p}{\partial x}\\)) em Navier-Stokes.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a pressão na entrada é maior que na saída (\\(p_1 > p_2\\)) → **ENTÃO** a força de pressão por unidade de volume atua no sentido positivo do fluxo → **POR QUÊ** o gradiente \\(\frac{\partial p}{\partial x}\\) é negativo e, multiplicado pelo sinal negativo da equação, resulta em termo positivo (\\(-\frac{\partial p}{\partial x} > 0\\)).
+- **Armadilha provável de prova**: Esquecer o sinal negativo no termo do gradiente de pressão em Navier-Stokes.
+- **Resposta curta que eu poderia dar na prova**: *"A pressão atua perpendicularmente às superfícies, e é a sua variação no espaço (\\(-\nabla p\\)) que produz a força líquida por unidade de volume que acelera o fluido em direção à menor pressão."*
+
+---
+
+### CONCEITO: Forças de Corpo (Gravidade e Empuxo)
+- **O que é**: Forças de ação à distância que atuam diretamente na massa do elemento fluido sem necessidade de contato físico.
+- **Significado físico**: Na hidrodinâmica naval, as forças de corpo usuais são a gravidade e o empuxo (e Coriolis/centrípetas em manobras).
+- **Como reconhecer em uma questão**: Termos com a aceleração da gravidade \\(g_x = g \sin\theta\\) associados à inclinação do canal.
+- **Com o que posso confundir**: Com forças superficiais (pressão e tensão viscosa).
+- **Diferença fundamental**: Forças superficiais exigem contato com a fronteira do elemento; forças de corpo atuam distribuídas na massa total interna (\\(\rho g_x\\)).
+- **Consequência física**: Podem atuar como força motora do escoamento quando o canal está inclinado.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** um canal possui inclinação \\(\theta\\) em relação à horizontal → **ENTÃO** surge uma componente de força de corpo motora \\(\rho g \sin\theta\\) na direção do fluxo → **POR QUÊ** a gravidade possui componente projetada ao longo do eixo do escoamento.
+- **Armadilha provável de prova**: Confundir o ângulo de inclinação do canal usando \\(\cos\theta\\) em vez de \\(\sin\theta\\) para a componente paralela ao fluxo.
+- **Resposta curta que eu poderia dar na prova**: *"Forças de corpo atuam na massa do fluido sem contato direto, entrando na equação por unidade de volume como \\(\rho g_x\\), podendo atuar como força motora em canais inclinados."*
+
+---
+
+### CONCEITO: Hipóteses Simplificadoras do Escoamento
+- **O que é**: Premissas físico-geométricas adotadas para eliminar termos das equações diferenciais de Navier-Stokes e tornar o problema solúvel.
+- **Significado físico de cada hipótese**:
+  1. **Incompressível**: \\(\rho = \text{constante} \implies \nabla \cdot V = 0\\).
+  2. **Permanente**: Propriedades invariantes no tempo (\\(\frac{\partial (\cdot)}{\partial t} = 0\\)) \\(\implies\\) anula aceleração local.
+  3. **Totalmente Desenvolvido**: Perfil de velocidade não muda na direção do fluxo (\\(\frac{\partial u_i}{\partial x} = 0\\)) \\(\implies\\) anula aceleração convectiva e difusão em \\(x\\).
+  4. **Bidimensional (2D)**: Sem movimento ou variação na terceira dimensão (\\(w=0, \frac{\partial (\cdot)}{\partial z} = 0\\)).
+  5. **Fluido Newtoniano**: Viscosidade \\(\mu\\) constante e independente da tensão aplicada.
+  6. **Isotérmico**: Sem variação térmica \\(\implies\\) dispensa a Equação da Energia.
+- **Como reconhecer em uma questão**: Quando a questão pede para simplificar a equação de Navier-Stokes com base na descrição do escoamento.
+- **O que NÃO significa**: Totalmente desenvolvido NÃO significa velocidade constante na altura \\(y\\), apenas que o perfil não varia ao longo do comprimento \\(x\\).
+- **Diferença fundamental**: Permanente anula variação no tempo (\\(\frac{\partial}{\partial t}\\)); Totalmente desenvolvido anula variação na direção do fluxo (\\(\frac{\partial}{\partial x}\\)).
+- **Consequência física**: Reduz as equações diferenciais parciais de Navier-Stokes a Equações Diferenciais Ordinárias (EDOs) simples.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** o escoamento é permanente e totalmente desenvolvido em duto 2D → **ENTÃO** todos os termos de inércia anulam-se (\\(\rho \frac{Du}{Dt} = 0\\)) → **POR QUÊ** a aceleração local e a convectiva são ambas nulas.
+- **Armadilha provável de prova**: Confundir o cancelamento de termos de "permanente" com "totalmente desenvolvido".
+- **Resposta curta que eu poderia dar na prova**: *"As hipóteses simplificadoras eliminam termos de Navier-Stokes com base na física do problema, reduzindo a equação ao equilíbrio entre forças ativas e viscosas."*
+
+---
+
+### CONCEITO: Condições de Contorno de Parede (Não-Escorregamento e Impenetrabilidade)
+- **O que é**: Restrições físicas obrigatórias impostas ao campo de velocidades nas superfícies sólidas.
+- **Significado físico**:
+  1. **Não-escorregamento**: A camada de fluido adjacente à parede adquire rigorosamente a velocidade da parede (\\(u_{\text{fluido}} = u_{\text{parede}}\\)) devido à viscosidade.
+  2. **Impenetrabilidade**: O fluido não pode atravessar a parede sólida impermeável (\\(v_{\text{normal}} = 0\\)).
+- **Como reconhecer em uma questão**: Na definição dos limites físicos em \\(y=0\\) e \\(y=a\\) para determinar as constantes de integração \\(C_1\\) e \\(C_2\\).
+- **O que NÃO significa**: Não-escorregamento não se aplica à velocidade normal \\(v\\), apenas à tangencial \\(u\\).
+- **Diferença fundamental**: Impenetrabilidade anula a componente perpendicular \\(v\\); Não-escorregamento define a componente paralela \\(u\\).
+- **Consequência física**: Permite resolver as constantes de integração da EDO do escoamento.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** as paredes em \\(y=0\\) e \\(y=a\\) estão fixas → **ENTÃO** \\(u(0) = 0\\) e \\(u(a) = 0\\) → **POR QUÊ** a viscosidade impede o fluido de deslizar sobre superfícies estáticas.
+- **Armadilha provável de prova**: Aplicar \\(u(a) = 0\\) em uma parede superior que está se movendo com velocidade \\(V_0\\).
+- **Resposta curta que eu poderia dar na prova**: *"As condições de contorno garantem que o fluido adira à parede sólida (não-escorregamento) e não a atravesse (impenetrabilidade), determinando as constantes de integração do perfil."*
+
+---
+
+### CONCEITO: Escoamento de Poiseuille (Pressão entre Placas Fixas)
+- **O que é**: Escoamento laminar 2D, incompressível, permanente e totalmente desenvolvido entre duas placas paralelas fixas, impulsionado por um gradiente de pressão.
+- **Significado físico**: A força motora de pressão (\\(-\frac{\partial p}{\partial x}\\)) é equilibrada pela força de atrito viscoso (\\(\mu \frac{\partial^2 u}{\partial y^2}\\)).
+- **Como reconhecer em uma questão**: Placas estáticas em \\(y=0\\) e \\(y=a\\) com diferença de pressão \\(p_1 > p_2\\) e sem forças de corpo.
+- **O que NÃO significa**: O perfil não é linear e a tensão de cisalhamento não é constante ao longo da altura do canal.
+- **Diferença fundamental**: Poiseuille é movido por pressão e tem perfil parabólico; Couette puro é movido por parede móvel e tem perfil linear.
+- **Consequência física**: Produz um **perfil parabólico de velocidades** \\(u(y) = \frac{1}{2\mu} \left(\frac{\partial p}{\partial x}\right) (y^2 - ay)\\), com velocidade máxima no centro (\\(y = a/2\\)) e zero nas paredes.
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a diferença de pressão aumenta ou a viscosidade diminui → **ENTÃO** a velocidade máxima no centro aumenta → **POR QUÊ** aumenta a força motora por unidade de volume ou reduz a resistência viscosa ao escoamento.
+- **Armadilha provável de prova**: Colocar a velocidade máxima em uma das paredes ou esquecer que o gradiente de pressão favorável é negativo (\\(\frac{\partial p}{\partial x} < 0\\)).
+- **Resposta curta que eu poderia dar na prova**: *"No escoamento de Poiseuille, o equilíbrio entre o gradiente de pressão e o atrito viscoso (\\(\mu \frac{d^2 u}{dy^2} = \frac{\partial p}{\partial x}\\)) produz um perfil parabólico simétrico com velocidade máxima no centro."*
+
+---
+
+### CONCEITO: Escoamento em Canal Inclinado (Ação da Gravidade)
+- **O que é**: Escoamento laminar 2D entre placas paralelas fixas impulsionado pela força de corpo gravitacional (\\(g_x = g \sin\theta\\)).
+- **Significado físico**: A gravidade atua como força de corpo motora distribuída na massa, combinando-se com a pressão no termo piezométrico \\(\frac{\partial(p + \rho g h)}{\partial x}\\).
+- **Como reconhecer em uma questão**: Canal inclinado de um ângulo \\(\theta\\) sob ação da gravidade \\(g\\).
+- **O que NÃO significa**: A gravidade não atua ortogonalmente, mas sim através de sua componente paralela às placas (\\(g \sin\theta = -g \frac{dh}{dx}\\)).
+- **Diferença fundamental**: Poiseuille ignora a gravidade (\\(\rho g_x = 0\\)); o Canal Inclinado utiliza a gravidade como força motora principal ou combinada.
+- **Consequência física**: Produz um perfil parabólico \\(u(y) = \frac{1}{2\mu} \left[\frac{\partial(p + \rho g h)}{\partial x}\right] (y^2 - ay)\\), cuja intensidade cresce com a inclinação \\(\theta\\).
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a inclinação do canal \\(\theta\\) aumenta → **ENTÃO** a velocidade do fluido aumenta em todo o perfil → **POR QUÊ** a componente da força de corpo gravitacional \\(g \sin\theta\\) paralela ao canal torna-se maior.
+- **Armadilha provável de prova**: Usar \\(\cos\theta\\) em vez de \\(\sin\theta\\) para a componente gravitacional paralela ao canal.
+- **Resposta curta que eu poderia dar na prova**: *"No canal inclinado, a gravidade atua como força de corpo motora (\\(g_x = g \sin\theta\\)), unificando-se ao termo piezométrico e gerando um perfil parabólico."*
+
+---
+
+### CONCEITO: Escoamento de Couette (Parede Móvel)
+- **O que é**: Escoamento laminar 2D totalmente desenvolvido entre duas placas paralelas onde uma é fixa (\\(y=0\\)) e a outra move-se com velocidade \\(V_0\\) (\\(y=a\\)), sem gradiente de pressão (\\(p_1 = p_2\\)).
+- **Significado físico**: O movimento é gerado exclusivamente pelo arrasto viscoso da placa móvel, que transfere quantidade de movimento para as camadas inferiores.
+- **Como reconhecer em uma questão**: Placa superior móvel com \\(V_0\\), sem diferença de pressão entre a entrada e a saída.
+- **O que NÃO significa**: Não possui perfil parabólico nem velocidade máxima no centro.
+- **Diferença fundamental**: Em Poiseuille a tensão de cisalhamento varia com \\(y\\); em Couette puro a tensão de cisalhamento é **rigorosamente constante** em toda a altura do canal (\\(\tau = \mu \frac{V_0}{a}\\)).
+- **Consequência física**: Produz um **perfil de velocidade estritamente linear** \\(u(y) = \frac{V_0}{a} y\\).
+- **Relação SE → ENTÃO → POR QUÊ**:
+  - **SE** a distância entre as placas \\(a\\) diminui mantendo \\(V_0\\) constante → **ENTÃO** a tensão de cisalhamento aumenta → **POR QUÊ** o gradiente de velocidade \\(\frac{du}{dy} = \frac{V_0}{a}\\) torna-se mais elevado.
+- **Armadilha provável de prova**: Acreditar que a tensão de cisalhamento varia com \\(y\\) no Couette puro.
+- **Resposta curta que eu poderia dar na prova**: *"O escoamento de Couette puro é movido pelo arrasto de uma parede móvel sem gradiente de pressão, resultando em perfil linear de velocidades e tensão de cisalhamento constante."*
+
+---
+
+## 2. RELAÇÕES DE CAUSA → EFEITO
+
+1. **SE** o escoamento é permanente (\\(\frac{\partial u}{\partial t} = 0\\)) → **ENTÃO** pode existir aceleração da partícula fluida → **POR QUÊ** a velocidade pode variar ao longo das posições no espaço, produzindo aceleração convectiva (\\(u \frac{\partial u}{\partial x} > 0\\)).
+2. **SE** um fluido incompressível é forçado a desacelerar na direção \\(x\\) (\\(-\frac{\partial u}{\partial x}\\)) → **ENTÃO** ele deve acelerar na direção \\(y\\) ou \\(z\\) (\\(\frac{\partial v}{\partial y} + \frac{\partial w}{\partial z}\\)) → **POR QUÊ** a incompressibilidade impede a variação de densidade, exigindo conservação do volume geométrico (\\(\nabla \cdot V = 0\\)).
+3. **SE** a vazão de saída é maior que a de entrada (\\(\dot{m}_{out} > \dot{m}_{in}\\)) em um volume fixo → **ENTÃO** a massa e a densidade interna caem no tempo (\\(\frac{\partial \rho}{\partial t} < 0\\)) → **POR QUÊ** a taxa de acúmulo interno deve equilibrar a perda líquida pelas superfícies de controle.
+4. **SE** a velocidade é constante em todo o espaço (\\(\frac{\partial u}{\partial y} = 0\\)) → **ENTÃO** a tensão de cisalhamento é zero (\\(\tau = 0\\)) → **POR QUÊ** a força viscosa exige velocidades diferentes entre camadas adjacentes para haver troca de quantidade de movimento.
+5. **SE** a tensão de cisalhamento for idêntica nas faces superior e inferior do cubo (\\(\tau_2 = \tau_1\\)) → **ENTÃO** a força viscosa resultante é nula → **POR QUÊ** forças de módulo igual e sentidos opostos nas faces apenas rotacionam o elemento sem acelerá-lo linearmente.
+6. **SE** o escoamento é totalmente desenvolvido em um canal plano → **ENTÃO** os termos de inércia anulam-se (\\(\rho \frac{Du}{Dt} = 0\\)) → **POR QUÊ** as derivadas espaciais na direção do fluxo são nulas (\\(\frac{\partial u}{\partial x} = 0\\)), restando o equilíbrio direto entre pressão/corpo e atrito viscoso.
+7. **SE** o ângulo de inclinação \\(\theta\\) de um canal sob gravidade aumenta → **ENTÃO** a velocidade máxima no centro do canal cresce → **POR QUÊ** a componente da força de corpo gravitacional \\(g \sin\theta\\) paralela ao canal torna-se mais intensa.
+8. **SE** aplica-se um gradiente de pressão favorável (\\(\frac{\partial p}{\partial x} < 0\\)) sobre um escoamento de Couette → **ENTÃO** o perfil linear ganha uma parábola superposta → **POR QUÊ** soma-se a força de arrasto da placa móvel com a força motora de pressão que impulsiona o centro do canal.
+
+---
+
+## 3. DIFERENÇAS QUE NÃO POSSO CONFUNDIR
+
+- **Lagrangiana \\(\times\\) Euleriana**: Lagrangiana acompanha a partícula móvel no tempo; Euleriana analisa propriedades em janelas fixas no espaço \\((x, y, z)\\).
+- **Permanente \\(\times\\) Incompressível**: Permanente significa propriedades invariantes no tempo (\\(\frac{\partial (\cdot)}{\partial t} = 0\\)); Incompressível significa densidade constante no espaço e tempo (\\(\rho = \text{const.}\\)).
+- **Permanente \\(\times\\) Totalmente Desenvolvido**: Permanente anula derivadas temporais (\\(\frac{\partial}{\partial t} = 0\\)); Totalmente desenvolvido anula derivadas espaciais no sentido do fluxo (\\(\frac{\partial u}{\partial x} = 0\\)).
+- **Aceleração Local \\(\times\\) Aceleração Convectiva**: Local é a variação temporal em um ponto fixo (\\(\frac{\partial u}{\partial t}\\)); Convectiva é a variação provocada pelo deslocamento da partícula no espaço (\\(u \frac{\partial u}{\partial x}\\)).
+- **Velocidade \\(\times\\) Gradiente de Velocidade**: Velocidade \\(u\\) é a rapidez de deslocamento; Gradiente de velocidade \\(\frac{\partial u}{\partial y}\\) é a diferença de velocidade entre camadas vizinhas, que é o que realmente gera tensão de cisalhamento.
+- **Pressão \\(\times\\) Tensão de Cisalhamento**: Pressão é uma força superficial **normal** (perpendicular) de colisão; Tensão de cisalhamento é uma força superficial **tangencial** (paralela) de atrito por troca de quantidade de movimento.
+- **Força Superficial \\(\times\\) Força de Corpo**: Superficial exige contato na fronteira do elemento (pressão e viscosidade); De corpo atua na massa à distância sem contato (gravidade, empuxo).
+- **Não-Escorregamento \\(\times\\) Impenetrabilidade**: Não-escorregamento fixa a velocidade **paralela/tangencial** igual à da parede (\\(u_{\text{fluido}} = u_{\text{parede}}\\)); Impenetrabilidade anula a velocidade **perpendicular/normal** à parede (\\(v_{\text{normal}} = 0\\)).
+
+---
+
+## 4. SITUAÇÕES INTERPRETATIVAS
+
+### SITUAÇÃO 1: Tubo Convergente sob Regime Permanente
+- **O que acontece**: Um fluido incompressível entra por uma seção maior \\(A_1\\) e sai por uma seção menor \\(A_2\\) em regime permanente. A velocidade aumenta da entrada para a saída (\\(u_2 > u_1\\)).
+- **Por que acontece**: Pela conservação de massa em fluido incompressível (\\(u_1 A_1 = u_2 A_2\\)), a redução de área exige um aumento de velocidade no espaço, o que gera aceleração convectiva (\\(u \frac{\partial u}{\partial x} > 0\\)) e exige a atuação de uma força de pressão resultante (\\(p_1 > p_2 \implies -\frac{\partial p}{\partial x} > 0\\)).
+- **Como responder na prova**: *"A redução da área força o aumento da velocidade para manter a vazão volumétrica constante. Isso gera aceleração convectiva no espaço (\\(u \frac{\partial u}{\partial x} > 0\\)), que é impulsionada por um gradiente de pressão favorável (\\(p_1 > p_2\\))."*
+
+### SITUAÇÃO 2: Bloqueio da Saída Horizontal em Volume de Controle 2D
+- **O que acontece**: O fluido entra pela face \\(x\\) em um volume de controle incompressível, mas a saída em \\(x\\) é fechada, havendo apenas uma janela de saída na face \\(y\\).
+- **Por que acontece**: Pela Equação da Continuidade incompressível (\\(\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} = 0\\)), a desaceleração/bloqueio na direção \\(x\\) (\\(-\frac{\partial u}{\partial x}\\)) força a saída do fluido na direção \\(y\\) (\\(\frac{\partial v}{\partial y}\\)).
+- **Como responder na prova**: *"A incompressibilidade impede o acúmulo interno de massa (\\(\rho = \text{const.}\\)). O bloqueio do fluxo em \\(x\\) (\\(-\frac{\partial u}{\partial x}\\)) é compensado pelo surgimento de velocidade de saída na direção \\(y\\) (\\(\frac{\partial v}{\partial y}\\)) para preservar o balanço geométrico de volume."*
+
+### SITUAÇÃO 3: Escoamento entre Placas Fixas (Poiseuille) vs. Placa Móvel (Couette)
+- **O que acontece**: Em Poiseuille, o perfil é parabólico e a tensão de cisalhamento varia com a altura \\(y\\). Em Couette puro, o perfil é linear e a tensão de cisalhamento é constante em toda a altura \\(y\\).
+- **Por que acontece**: Em Poiseuille, a força motora é o gradiente de pressão (\\(-\frac{\partial p}{\partial x}\\)), resultando na EDO \\(\mu \frac{d^2 u}{dy^2} = \frac{\partial p}{\partial x}\\). Em Couette puro, não há pressão (\\(\frac{\partial p}{\partial x} = 0\\)), resultando em \\(\frac{d^2 u}{dy^2} = 0 \implies \frac{du}{dy} = \text{constante} \implies \tau = \text{constante}\\).
+- **Como responder na prova**: *"Em Couette puro, a ausência de gradiente de pressão reduz a equação de movimento a \\(\frac{d^2 u}{dy^2} = 0\\), gerando taxa de deformação \\(\frac{du}{dy}\\) constante e perfil linear. Em Poiseuille, o gradiente de pressão cria um termo fonte constante que, integrado duas vezes, gera o perfil parabólico."*
+
+---
+
+## 5. ARMADILHAS DE PROVA
+
+1. **"Em um escoamento permanente, a aceleração das partículas fluidas é obrigatoriamente nula."**
+   - **FALSA**. Em regime permanente, a aceleração local é nula (\\(\frac{\partial u}{\partial t} = 0\\)), mas pode existir aceleração convectiva (\\(u \frac{\partial u}{\partial x} \neq 0\\)) se a velocidade variar ao longo da posição no espaço (ex.: tubo convergente).
+2. **"Para aplicar a Equação da Continuidade a um fluido incompressível, é indispensável conhecer o valor de sua densidade."**
+   - **FALSA**. Para fluidos incompressíveis (\\(\rho = \text{const.}\\)), a densidade é cancelada da equação, reduzindo a continuidade a um balanço puramente geométrico das derivadas da velocidade (\\(\nabla \cdot V = 0\\)).
+3. **"A tensão de cisalhamento no fluido é diretamente proporcional ao módulo da velocidade absoluta do escoamento."**
+   - **FALSA**. A tensão de cisalhamento depende do gradiente espacial de velocidade (\\(\tau = \mu \frac{\partial u}{\partial y}\\)) e não da velocidade \\(u\\) isoladamente. Um fluido em alta velocidade uniforme possui tensão de cisalhamento nula.
+4. **"A força de pressão por unidade de volume atua no sentido do aumento da pressão no fluido."**
+   - **FALSA**. A força atua do ponto de maior para o de menor pressão. Por isso, entra com sinal negativo na equação de movimento (\\(-\nabla p\\)).
+5. **"O perfil de velocidade no escoamento de Couette puro é parabólico e sua tensão de cisalhamento é máxima no centro."**
+   - **FALSA**. O perfil de Couette puro é linear (\\(u = \frac{V_0}{a} y\\)) e sua tensão de cisalhamento é uniforme e constante em todo o canal (\\(\tau = \mu \frac{V_0}{a}\\)).
+6. **"Não existem soluções analíticas exatas para as equações de movimento na mecânica dos fluidos porque as equações de Navier-Stokes são fisicamente incompletas."**
+   - **FALSA**. As equações de Navier-Stokes são fisicamente exatas, mas são equações diferenciais não-lineares de difícil resolução matemática. Soluções analíticas exatas existem para casos simplificados de escoamentos internos totalmente desenvolvidos.
+
+---
+
+## 6. ESSENCIAL × SECUNDÁRIO
+
+### P1 — Indispensável Dominar (Core da Prova P1)
+- **Conservação de Massa e Incompressibilidade**: Balanços 1D/2D/3D, sinal negativo do acúmulo interno e divergência nula (\\(\nabla \cdot V = 0\\)).
+- **Derivada Material**: Decomposição em aceleração local e aceleração convectiva na perspectiva Euleriana.
+- **Forças por Unidade de Volume**: Força de pressão (\\(-\nabla p\\)), força viscosa (\\(\mu \nabla^2 V\\)) e força de corpo (\\(\rho g_x\\)).
+- **Hipóteses Simplificadoras e Condições de Contorno**: Não-escorregamento, impenetrabilidade, permanente e totalmente desenvolvido.
+- **Modelos 2D Fechados**: Perfis de velocidade, posições de velocidade máxima e comportamento da tensão em Poiseuille, Couette e Canal Inclinado.
+
+### P2 — Importante Compreender
+- **Volume de Controle x Massa de Controle**: Janelas de observação abertas versus sistemas fechados.
+- **Analogia dos Trens**: Explicação microscópica da origem da viscosidade e da tensão de cisalhamento.
+- **Soluções Analíticas x Escoamento sobre o Casco**: Compreender por que o escoamento no navio exige métodos numéricos enquanto dutos simples admitem solução analítica.
+
+### P3 — Complementar
+- **Conservação de Energia em Hidrodinâmica**: Descartada no escoamento isotérmico do casco e aplicada onde há variação térmica relevante (propulsores).
+- **Termos de Trabalho na Forma Integral**: Trabalho de máquina, pressão e tensão viscosa na 1ª Lei da Termodinâmica.
+
+### CÁLCULO — Conteúdo Predominantemente Operacional
+- Integração dupla de EDOs de 2ª ordem (\\(\frac{d^2 u}{dy^2} = \text{const.}\\)) para determinação das constantes de integração \\(C_1\\) e \\(C_2\\) via condições de contorno.
+
+---
+
+## 7. MAPA DE DOMÍNIO PARA A PROVA
+
+```
+                  ┌────────────────────────────────────────────────────────┐
+                  │          LEIS DE CONSERVAÇÃO DA HIDRODINÂMICA          │
+                  └───────────────────────────┬────────────────────────────┘
+                                              │
+                    ┌─────────────────────────┴─────────────────────────┐
+                    ▼                                                   ▼
+      ┌───────────────────────────┐                       ┌───────────────────────────┐
+      │   CONSERVAÇÃO DE MASSA    │                       │  QUANTIDADE DE MOVIMENTO  │
+      │  (Equação da Continuidade)│                       │  (2ª Lei de Newton / N-S) │
+      └─────────────┬─────────────┘                       └─────────────┬─────────────┘
+                    │                                                   │
+        ┌───────────┴───────────┐                           ┌───────────┴───────────┐
+        ▼                       ▼                           ▼                       ▼
+┌──────────────┐      ┌──────────────────┐        ┌──────────────────┐    ┌──────────────────┐
+│  Geral 3D    │      │ Incompressível   │        │Visão Euleriana   │    │Forças p/ Unid.Vol│
+│∇(ρV)+∂ρ/∂t=0 │      │  (ρ = const.)    │        │Derivada Material │    ├──────────────────┤
+└──────────────┘      │   ∇ · V = 0      │        │ Du/Dt = ∂u/∂t +  │    │• Pressão (-∇p)   │
+                      └─────────┬────────┘        │ u(∂u/∂x)+...     │    │• Viscosa (μ∇²V)  │
+                                │                 └─────────┬────────┘    │• Corpo (ρg_x)    │
+                                │                           │             └─────────┬────────┘
+                                └─────────────┬─────────────┘                       │
+                                              │                                     │
+                                              ▼                                     ▼
+                                ┌──────────────────────────────────────────────────────┐
+                                │             HIPÓTESES SIMPLIFICADORAS                │
+                                ├──────────────────────────────────────────────────────┤
+                                │ • Permanente (∂/∂t = 0)                              │
+                                │ • Totalmente Desenvolvido (∂u/∂x = 0)                │
+                                │ • 2D / Laminar / Newtoniano / Isotérmico             │
+                                └──────────────────────────┬───────────────────────────┘
+                                                           │
+                                                           ▼
+                                ┌──────────────────────────────────────────────────────┐
+                                │            CONDIÇÕES DE CONTORNO DE PAREDE           │
+                                ├──────────────────────────────────────────────────────┤
+                                │ • Não-escorregamento: u_fluido = u_parede            │
+                                │ • Impenetrabilidade: v_normal = 0                    │
+                                └──────────────────────────┬───────────────────────────┘
+                                                           │
+                                                           ▼
+                                ┌──────────────────────────────────────────────────────┐
+                                │           SOLUÇÕES ANALÍTICAS 2D RESULTANTES         │
+                                ├──────────────────────────────────────────────────────┤
+                                │ 1. POISEUILLE (Pressão): Perfil Parabólico           │
+                                │ 2. CANAL INCLINADO (Gravidade): Perfil Parabólico    │
+                                │ 3. COUETTE (Parede Móvel): Perfil Linear / τ const.  │
+                                └──────────────────────────────────────────────────────┘
+```
+
+
+

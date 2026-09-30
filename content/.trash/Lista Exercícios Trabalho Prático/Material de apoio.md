@@ -1,0 +1,1 @@
+- [NAV_1 - Lista de Exercícios do Trabalho - Agulhas ](Aulas/Manobra-de-Navio-Franco/Lista%20Exercícios%20Trabalho%20Prático/Lista-de-Exercícios-Trabalho-Prático-01-Agulha.pdf)

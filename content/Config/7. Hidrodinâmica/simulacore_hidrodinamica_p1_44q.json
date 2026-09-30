@@ -1,0 +1,558 @@
+[
+  {
+    "type": "mc",
+    "question": "Um escoamento incompressível bidimensional (plano xy) entra em um volume de controle pela direção x. A saída na direção x é subitamente bloqueada, mas permanece uma janela de saída desobstruída na direção y. O que a equação da conservação da massa exige que ocorra?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "O escoamento é compensado pela saída disponível na direção y, evitando acúmulo de massa, conforme ∇·V = 0.",
+      "A densidade do fluido aumenta internamente para absorver a massa que não pode sair por x.",
+      "A velocidade na direção y sofre variação negativa, indicando colapso interno do fluido.",
+      "O escoamento para completamente em todas as direções, pois o bloqueio em x impõe velocidade nula ao sistema."
+    ],
+    "correct": 0,
+    "explanation": "Para fluidos incompressíveis, ∇·V = 0 exige ∂u/∂x + ∂v/∂y = 0. O bloqueio em x torna ∂u/∂x negativo, obrigando ∂v/∂y a ser positivo para compensar. A densidade não pode aumentar (incompressível) e o fluido não para completamente."
+  },
+  {
+    "type": "tf",
+    "question": "Para que a equação da continuidade se reduza a ∇·V = 0, é estritamente necessário que o escoamento esteja em regime permanente.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A incompressibilidade (ρ constante) é condição suficiente para anular ∂ρ/∂t e fatorar ρ, resultando em ∇·V = 0 independentemente de o regime ser permanente ou transiente."
+  },
+  {
+    "type": "mc",
+    "question": "Na formulação da conservação da massa, a taxa de acúmulo interno é igualada à diferença entre as vazões mássicas com um sinal negativo (-Δρ/Δt). Qual a justificativa física para a introdução desse sinal?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Corrigir a lógica algébrica, refletindo que um saldo onde a saída supera a entrada obriga a massa interna a decrescer.",
+      "Garantir que a equação seja válida exclusivamente em regime permanente, onde a taxa resultante é nula.",
+      "Representar a queda de pressão atmosférica no interior do volume de controle.",
+      "Indicar que as derivadas espaciais sempre atuam no sentido inverso ao vetor velocidade."
+    ],
+    "correct": 0,
+    "explanation": "Se a vazão de saída supera a de entrada, o saldo (Saída - Entrada) é positivo, mas a massa interna diminui. O sinal negativo sincroniza essas grandezas, fazendo a derivada temporal refletir corretamente a perda de massa."
+  },
+  {
+    "type": "mc",
+    "question": "Em um tubo horizontal cuja área transversal diminui progressivamente, um fluido incompressível é transportado. Qual a consequência cinemática obrigatória para o escoamento?",
+    "category": "Hidrodinâmica — Aceleração Local e Convectiva",
+    "options": [
+      "A velocidade permanece constante, pois a incompressibilidade impede contração do fluido.",
+      "A velocidade aumenta obrigatoriamente ao longo do espaço, gerando aceleração convectiva.",
+      "A velocidade diminui gradativamente, pois a área mais apertada impõe maior resistência viscosa.",
+      "A velocidade sofre picos abruptos, caracterizando exclusivamente aceleração local transiente."
+    ],
+    "correct": 1,
+    "explanation": "Pela conservação da massa incompressível (Q = V·A = constante), a redução de A força o aumento de V. A partícula acelera ao avançar no espaço, gerando aceleração convectiva u(∂u/∂x) > 0."
+  },
+  {
+    "type": "tf",
+    "question": "A equação da continuidade proíbe que a massa salte do ponto A para o ponto B no volume de controle sem atravessar o espaço intermediário.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A equação da continuidade é uma lei de conservação local e contínua. O transporte de material é sequencial pelas fronteiras adjacentes no espaço, sem saltos ou descontinuidades."
+  },
+  {
+    "type": "mc",
+    "question": "Se ∇·V = 0 em um escoamento, isso significa matematicamente que:",
+    "category": "Hidrodinâmica — Continuidade",
+    "options": [
+      "As variações espaciais das componentes de velocidade se compensam mutuamente, preservando o balanço de volume.",
+      "O termo da derivada convectiva desaparece obrigatoriamente da equação de Navier-Stokes.",
+      "O escoamento não sofre aceleração local, garantindo regime permanente.",
+      "A velocidade escalar absoluta do fluido é nula em todas as direções."
+    ],
+    "correct": 0,
+    "explanation": "∇·V = ∂u/∂x + ∂v/∂y + ∂w/∂z = 0 significa que expansão em um eixo exige contração em outro. Não confundir com velocidade nula (A), totalmente desenvolvido (B) ou regime permanente (C)."
+  },
+  {
+    "type": "mc",
+    "question": "Em um escoamento 2D incompressível, a variação espacial da velocidade no eixo x é ∂u/∂x = 4 s⁻¹. Qual o valor e o significado físico de ∂v/∂y?",
+    "category": "Hidrodinâmica — Continuidade",
+    "options": [
+      "∂v/∂y = 0 s⁻¹: o escoamento está totalmente desenvolvido no eixo y.",
+      "∂v/∂y = -4 s⁻¹: o fluido contrai-se na direção y para compensar a expansão em x.",
+      "∂v/∂y = +4 s⁻¹: o material se espalha homogeneamente em ambas as direções.",
+      "∂v/∂y = -2 s⁻¹: a compensação é proporcional à metade da variação em x."
+    ],
+    "correct": 1,
+    "explanation": "Pela continuidade 2D (∂u/∂x + ∂v/∂y = 0), se ∂u/∂x = +4, então ∂v/∂y = -4 s⁻¹. O fluido contrai-se em y para compensar a expansão em x."
+  },
+  {
+    "type": "mc",
+    "question": "Por que a densidade (ρ) pode ser retirada das derivadas parciais na equação da continuidade quando o fluido é incompressível?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Porque o regime permanente congela todas as variáveis dentro dos operadores diferenciais.",
+      "Porque ρ é constante no espaço e no tempo; pode ser fatorada e cancelada matematicamente.",
+      "Porque a hipótese de totalmente desenvolvido elimina a influência de ρ na direção longitudinal.",
+      "Porque a viscosidade constante de um fluido newtoniano impede variações de densidade."
+    ],
+    "correct": 1,
+    "explanation": "Se ρ é constante (incompressível), ∂(ρu)/∂x = ρ·∂u/∂x. A densidade sai como fator comum e é cancelada ao igualar a zero. Isso não depende de regime permanente, nem de viscosidade."
+  },
+  {
+    "type": "mc",
+    "question": "Um sensor fixo (Euleriano) é instalado em um tubo convergente sob vazão constante. Ele registra velocidade invariável no tempo. Um aluno conclui: 'A aceleração total das partículas é zero, logo a força resultante é nula.' Onde está o erro?",
+    "category": "Hidrodinâmica — Aceleração Local e Convectiva",
+    "options": [
+      "O erro é ignorar a aceleração convectiva: mesmo com ∂u/∂t = 0, a partícula acelera ao percorrer o espaço convergente.",
+      "O erro é ignorar que a incompressibilidade garante aceleração nula em qualquer geometria.",
+      "O erro é que a velocidade registrada deveria variar no tempo, pois vazão constante não garante regime permanente.",
+      "O erro é que o sensor deveria ser Lagrangiano para medir velocidade em tubos convergentes."
+    ],
+    "correct": 0,
+    "explanation": "O sensor mede apenas a aceleração local (∂u/∂t = 0). A aceleração convectiva u(∂u/∂x) persiste porque o tubo converge. A aceleração total (Du/Dt) não é nula, exigindo força resultante (Newton)."
+  },
+  {
+    "type": "mc",
+    "question": "Na prática de medição da velocidade de um fluxo, como se diferenciam as perspectivas Euleriana e Lagrangiana?",
+    "category": "Hidrodinâmica — Euleriano e Lagrangiano",
+    "options": [
+      "Euleriana observa um ponto fixo no espaço; Lagrangiana acompanha uma partícula ao longo de sua trajetória.",
+      "Euleriana acompanha a partícula; Lagrangiana observa um ponto fixo.",
+      "Euleriana mede apenas pressão; Lagrangiana mede apenas velocidade.",
+      "Euleriana aplica-se a fluidos compressíveis; Lagrangiana a incompressíveis."
+    ],
+    "correct": 0,
+    "explanation": "Na perspectiva Euleriana, o observador é fixo (como um radar na parede do tubo). Na Lagrangiana, o observador se move com a partícula (como um sensor preso a uma gota)."
+  },
+  {
+    "type": "gap",
+    "question": "Na expressão da Derivada Material Du/Dt = ∂u/∂t + u(∂u/∂x) + v(∂u/∂y) + w(∂u/∂z), o primeiro termo do lado direito (∂u/∂t) é denominado Aceleração ______.",
+    "category": "Hidrodinâmica — Derivada Material",
+    "correct": "Local",
+    "explanation": "O termo ∂u/∂t é a Aceleração Local: mede a variação da velocidade no tempo em um ponto fixo do espaço (referencial Euleriano)."
+  },
+  {
+    "type": "mc",
+    "question": "Em um tubo retilíneo, o fluido está em movimento contínuo (u ≠ 0) e a aceleração convectiva u(∂u/∂x) é nula. O que se pode concluir obrigatoriamente?",
+    "category": "Hidrodinâmica — Aceleração Local e Convectiva",
+    "options": [
+      "O escoamento é necessariamente permanente, pois ∂u/∂t = 0.",
+      "∂u/∂x = 0, indicando que o escoamento atingiu a condição de totalmente desenvolvido.",
+      "O escoamento é necessariamente incompressível, pois ρ = constante.",
+      "O tubo possui seção variável para que a velocidade se mantenha constante."
+    ],
+    "correct": 1,
+    "explanation": "No produto u·(∂u/∂x) = 0, se u ≠ 0, então ∂u/∂x = 0. O perfil de velocidades não varia na direção do fluxo: escoamento totalmente desenvolvido. Não confundir com permanente (∂u/∂t) ou incompressível (ρ)."
+  },
+  {
+    "type": "mc",
+    "question": "Por que o referencial Euleriano exige a introdução dos termos convectivos na Derivada Material para aplicar corretamente a Segunda Lei de Newton?",
+    "category": "Hidrodinâmica — Derivada Material",
+    "options": [
+      "Porque a incompressibilidade impede que o referencial fixo detecte variações de densidade.",
+      "Porque a aceleração local é sempre nula em escoamentos permanentes, e os termos convectivos a substituem.",
+      "Porque sem os termos convectivos, o observador fixo não capta a aceleração que a partícula sofre ao percorrer regiões com velocidades diferentes.",
+      "Porque os termos convectivos são necessários apenas para escoamentos compressíveis e transientes."
+    ],
+    "correct": 2,
+    "explanation": "O observador Euleriano vê apenas o que passa pela sua 'janela' fixa. Os termos convectivos (V·∇)V incorporam a variação de velocidade que a partícula experimenta ao transitar entre regiões espaciais diferentes."
+  },
+  {
+    "type": "mc",
+    "question": "Um fluido escoa a 1000 m/s com velocidade perfeitamente uniforme em todas as suas camadas. Pela analogia dos trens apresentada em aula, qual o valor da tensão de cisalhamento interna?",
+    "category": "Hidrodinâmica — Viscosidade e Cisalhamento",
+    "options": [
+      "Máxima, pois as forças de arrasto escalam diretamente com a velocidade absoluta.",
+      "Proporcional à densidade multiplicada pela velocidade ao quadrado.",
+      "Nula, pois não há gradiente de velocidade entre as camadas (∂u/∂y = 0).",
+      "Constante e não nula, definida exclusivamente pelo coeficiente de viscosidade μ."
+    ],
+    "correct": 2,
+    "explanation": "τ = μ(∂u/∂y). Se todas as camadas possuem a mesma velocidade, ∂u/∂y = 0 e τ = 0. Pela analogia dos trens: se todos andam na mesma velocidade, não há tranco entre eles. A magnitude da velocidade é irrelevante."
+  },
+  {
+    "type": "mc",
+    "question": "Na equação de Navier-Stokes, o termo de força de pressão entra como -∂p/∂x. Sabendo que p₁ (entrada) > p₂ (saída), por que este termo resulta positivo no sentido do fluxo?",
+    "category": "Hidrodinâmica — Força de Pressão",
+    "options": [
+      "Porque ∂p/∂x é negativo (pressão decresce em x) e o sinal negativo da fórmula torna o resultado positivo.",
+      "Porque o gradiente de pressão atua perpendicularmente ao fluxo e é projetado pelo seno do ângulo.",
+      "Porque a pressão é uma força de corpo que atua sobre o volume total, independentemente do sinal.",
+      "Porque ∂p/∂x é positivo e o sinal negativo inverte para negativo, freando o fluxo."
+    ],
+    "correct": 0,
+    "explanation": "Se p₁ > p₂, a pressão diminui em x: ∂p/∂x < 0 (negativo). Na equação, -∂p/∂x: menos vezes negativo dá positivo. Isso confirma que o fluido é empurrado na direção de menor pressão."
+  },
+  {
+    "type": "mc",
+    "question": "Se a tensão de cisalhamento na face superior de um cubo de fluido for exatamente igual à tensão na face inferior (τ₁ = τ₂), a força viscosa líquida será capaz de acelerá-lo linearmente em x?",
+    "category": "Hidrodinâmica — Viscosidade e Cisalhamento",
+    "options": [
+      "Sim, pois a tensão de cisalhamento sempre produz aceleração na direção do fluxo.",
+      "Não, pois tensões iguais em faces opostas se cancelam; é necessário ∂τ/∂y ≠ 0 para haver força líquida.",
+      "Sim, pois as duas tensões se somam, duplicando a força resultante.",
+      "Não, pois a tensão de cisalhamento atua apenas perpendicularmente ao fluxo."
+    ],
+    "correct": 1,
+    "explanation": "Para haver força viscosa resultante, é preciso um desequilíbrio: tensões diferentes nas faces opostas criam ∂τ/∂y ≠ 0. Tensões iguais se cancelam e não produzem translação."
+  },
+  {
+    "type": "mc",
+    "question": "Como são classificadas, respectivamente, a pressão, a viscosidade (cisalhamento) e a gravidade nas deduções de Navier-Stokes?",
+    "category": "Hidrodinâmica — Forças",
+    "options": [
+      "Força superficial normal, força superficial tangencial e força de corpo.",
+      "Força de corpo, força superficial tangencial e força de corpo.",
+      "Força superficial tangencial, força superficial normal e força de corpo.",
+      "Força superficial normal, força de corpo e força superficial tangencial."
+    ],
+    "correct": 0,
+    "explanation": "A pressão age perpendicularmente às faces (superficial normal). O cisalhamento age paralelamente (superficial tangencial). A gravidade atua sobre toda a massa do elemento (força de corpo)."
+  },
+  {
+    "type": "tf",
+    "question": "A força de pressão atua sempre tangencialmente às superfícies de controle.",
+    "category": "Hidrodinâmica — Forças",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A pressão é uma força superficial normal, atuando perpendicularmente às superfícies. A força tangencial é a viscosidade (cisalhamento)."
+  },
+  {
+    "type": "mc",
+    "question": "Quando o enunciado afirma que o escoamento é 'Totalmente Desenvolvido', qual derivada específica deve ser zerada na equação de Navier-Stokes?",
+    "category": "Hidrodinâmica — Hipóteses Simplificadoras",
+    "options": [
+      "∂u/∂t = 0: o escoamento é estável no tempo.",
+      "∂u/∂x = 0: o perfil de velocidades não muda ao longo da direção do fluxo.",
+      "∂ρ/∂t = 0: a densidade não varia com o tempo.",
+      "∂p/∂y = 0: a pressão é constante na seção transversal."
+    ],
+    "correct": 1,
+    "explanation": "Totalmente Desenvolvido: o perfil de velocidades atingiu equilíbrio e não se altera em x (∂u/∂x = 0). Elimina a aceleração convectiva. Não confundir com permanente (zera ∂u/∂t) nem incompressível (zera ∂ρ/∂t)."
+  },
+  {
+    "type": "mc",
+    "question": "Quando o enunciado afirma que o escoamento está em regime 'Permanente', qual termo da Derivada Material deve ser riscado?",
+    "category": "Hidrodinâmica — Hipóteses Simplificadoras",
+    "options": [
+      "O termo de aceleração local ∂u/∂t, pois o escoamento não muda no tempo.",
+      "Todos os termos inerciais, pois o fluido está em equilíbrio estático.",
+      "O termo de gradiente de pressão ∂p/∂x, pois as pressões não variam temporalmente.",
+      "O termo de aceleração convectiva u(∂u/∂x), pois o perfil não muda no espaço."
+    ],
+    "correct": 0,
+    "explanation": "Regime permanente: propriedades não variam com o tempo em nenhum ponto fixo. Anula exclusivamente a aceleração local ∂u/∂t. A aceleração convectiva pode persistir se houver variação espacial."
+  },
+  {
+    "type": "mc",
+    "question": "Na relação constitutiva τ = μ(∂u/∂y), a viscosidade μ de um fluido Newtoniano é constante. O que isso implica fisicamente e qual a diferença entre 'tensão de cisalhamento' e 'tensão superficial'?",
+    "category": "Hidrodinâmica — Viscosidade e Cisalhamento",
+    "options": [
+      "μ constante significa que a viscosidade depende da pressão; tensão de cisalhamento e superficial são sinônimos.",
+      "μ constante significa que o fluido é incompressível; tensão de cisalhamento ocorre apenas em superfícies sólidas.",
+      "μ constante significa que a viscosidade não muda com a taxa de deformação; cisalhamento é atrito entre camadas internas, superficial é fenômeno de interface líquido-gás.",
+      "μ constante significa que o escoamento é permanente; tensão superficial é a componente normal da tensão de cisalhamento."
+    ],
+    "correct": 2,
+    "explanation": "Em fluidos Newtonianos, μ é constante independente da tensão ou taxa de deformação. A tensão de cisalhamento (τ) é atrito tangencial entre camadas internas. A tensão superficial é fenômeno de interface entre fases, completamente diferente."
+  },
+  {
+    "type": "mc",
+    "question": "Em um canal bidimensional restrito ao plano xy, quais componentes e derivadas devem ser eliminadas de Navier-Stokes?",
+    "category": "Hidrodinâmica — Hipóteses Simplificadoras",
+    "options": [
+      "u = 0 e todas as derivadas ∂/∂x.",
+      "w = 0 e todas as derivadas ∂/∂z.",
+      "v = 0 e todas as derivadas ∂/∂y.",
+      "u = 0, v = 0 e todas as derivadas ∂/∂x e ∂/∂y."
+    ],
+    "correct": 1,
+    "explanation": "Em 2D no plano xy, a terceira dimensão (z) é eliminada: w = 0 e ∂/∂z = 0. As componentes u, v e suas derivadas em x e y permanecem."
+  },
+  {
+    "type": "mc",
+    "question": "Se o enunciado afirma que o escoamento é perfeitamente horizontal, o que acontece com a força de corpo no eixo do escoamento?",
+    "category": "Hidrodinâmica — Hipóteses Simplificadoras",
+    "options": [
+      "A gravidade é eliminada de todas as equações, inclusive na direção perpendicular.",
+      "A gravidade continua atuando integralmente no eixo do fluxo, independente da inclinação.",
+      "A componente da gravidade no eixo do fluxo é nula (g·sin 0° = 0), mas permanece na direção vertical.",
+      "A força de corpo é substituída pela força de pressão equivalente."
+    ],
+    "correct": 2,
+    "explanation": "Em escoamento horizontal (θ = 0°), a componente da gravidade no eixo do fluxo é g·sin(0°) = 0. A gravidade não é eliminada por completo: permanece atuando verticalmente."
+  },
+  {
+    "type": "mc",
+    "question": "Se o escoamento é incompressível, é possível simplesmente cancelar a variável ρ de todos os termos da equação de Navier-Stokes inteira?",
+    "category": "Hidrodinâmica — Navier-Stokes",
+    "options": [
+      "Sim, pois ρ constante pode ser dividida e eliminada de ambos os lados.",
+      "Sim, pois a incompressibilidade anula ρ tanto na continuidade quanto na quantidade de movimento.",
+      "Não. O ρ permanece apenas no termo de pressão, sendo eliminado dos demais.",
+      "Não. O ρ é cancelado na continuidade, mas permanece multiplicando os termos inerciais e gravitacionais em Navier-Stokes."
+    ],
+    "correct": 3,
+    "explanation": "Na continuidade, ρ é fatorada e cancelada (∇·V = 0). Em Navier-Stokes, ρ permanece em ρ(Du/Dt) e ρg. Incompressibilidade fixa ρ como constante, mas não a remove da equação de quantidade de movimento."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a diferença física entre a condição de contorno de 'não-escorregamento' e a de 'impenetrabilidade' em uma parede sólida?",
+    "category": "Hidrodinâmica — Condições de Contorno",
+    "options": [
+      "Não-escorregamento anula a velocidade perpendicular à parede; impenetrabilidade anula a paralela.",
+      "Ambas são equivalentes e anulam todas as componentes de velocidade na parede.",
+      "Não-escorregamento: a velocidade tangencial do fluido iguala a da parede (u = u_parede). Impenetrabilidade: a velocidade normal é nula (v = 0).",
+      "Não-escorregamento aplica-se a fluidos invíscidos; impenetrabilidade a viscosos."
+    ],
+    "correct": 2,
+    "explanation": "Não-escorregamento: viscosidade faz o fluido aderir à parede, igualando velocidade tangencial à da parede. Impenetrabilidade: a parede sólida impede travessia, zerando a velocidade normal (v = 0)."
+  },
+  {
+    "type": "mc",
+    "question": "Um aluno aplica u = 0 na placa superior de um escoamento de Couette puro, esquecendo que essa placa é móvel. Qual a consequência?",
+    "category": "Hidrodinâmica — Couette",
+    "options": [
+      "O perfil resultante será parabólico em vez de linear.",
+      "O gradiente de pressão aparecerá artificialmente, transformando Couette em Poiseuille.",
+      "As constantes C₁ e C₂ assumirão valores complexos, invalidando o modelo.",
+      "O perfil resultará em u(y) = 0 para todo y, prevendo erroneamente fluido estagnado."
+    ],
+    "correct": 3,
+    "explanation": "Em Couette puro (u'' = 0), a solução é u = C₁y + C₂. Com u(0) = 0 → C₂ = 0. Se u(a) = 0 → C₁ = 0, logo u = 0 em todo lugar. A placa móvel é o único motor; sem u(a) = V₀, não há movimento."
+  },
+  {
+    "type": "mc",
+    "question": "Para determinar C₁ e C₂ na solução de uma EDO de escoamento entre placas, por que é obrigatório avaliar u(y) nas coordenadas das paredes (y = 0 e y = a) e não no centro?",
+    "category": "Hidrodinâmica — Condições de Contorno",
+    "options": [
+      "Porque a velocidade no centro é sempre máxima, gerando indeterminação matemática.",
+      "Porque o centro do canal é um ponto de inflexão onde a EDO diverge numericamente.",
+      "Porque a viscosidade é nula no centro, impedindo a aplicação da relação constitutiva.",
+      "Porque somente nas paredes o não-escorregamento fornece valores conhecidos e determinísticos de velocidade."
+    ],
+    "correct": 3,
+    "explanation": "No interior, a velocidade é incógnita. Nas paredes, o não-escorregamento garante u = 0 (parede fixa) ou u = V₀ (parede móvel). Esses pontos determinísticos permitem resolver C₁ e C₂."
+  },
+  {
+    "type": "mc",
+    "question": "A partir da EDO de Poiseuille μ(∂²u/∂y²) = ∂p/∂x, qual é o resultado após a primeira e segunda integração em y?",
+    "category": "Hidrodinâmica — Poiseuille",
+    "options": [
+      "1ª: ∂u/∂y = (1/μ)(∂p/∂x)y + C₁ → 2ª: u(y) = (1/2μ)(∂p/∂x)y² + C₁y + C₂",
+      "1ª: ∂u/∂y = (1/μ)(∂p/∂x)y² + C₁ → 2ª: u(y) = (1/3μ)(∂p/∂x)y³ + C₁y + C₂",
+      "1ª: u(y) = (1/μ)(∂p/∂x)y + C₁ → 2ª: u(y) = (1/2μ)(∂p/∂x)y² + C₁y + C₂",
+      "1ª: ∂u/∂y = (∂p/∂x)y + C₁ → 2ª: u(y) = (1/2)(∂p/∂x)y² + C₁y + C₂"
+    ],
+    "correct": 0,
+    "explanation": "Integrando u'' = (1/μ)(∂p/∂x) uma vez: u' = (1/μ)(∂p/∂x)y + C₁. Novamente: u = (1/2μ)(∂p/∂x)y² + C₁y + C₂. O fator 1/2 vem da integração de y, e 1/μ da divisão inicial."
+  },
+  {
+    "type": "mc",
+    "question": "Em Poiseuille com placas fixas em y = 0 e y = a, aplicando as condições de contorno u(0) = 0 e u(a) = 0, qual é o valor de C₁?",
+    "category": "Hidrodinâmica — Poiseuille",
+    "options": [
+      "C₁ = +(1/2μ)(∂p/∂x)·a",
+      "C₁ = -(1/μ)(∂p/∂x)·a",
+      "C₁ = -(1/2μ)(∂p/∂x)·a",
+      "C₁ = +(1/μ)(∂p/∂x)·a²"
+    ],
+    "correct": 2,
+    "explanation": "Com u(0) = 0: C₂ = 0. Com u(a) = 0: 0 = (1/2μ)(∂p/∂x)a² + C₁a. Isolando: C₁ = -(1/2μ)(∂p/∂x)·a."
+  },
+  {
+    "type": "mc",
+    "question": "No perfil de Poiseuille u(y) = (1/2μ)(∂p/∂x)(y² - ay), com placas em y = 0 e y = a, em qual posição ocorre a velocidade máxima?",
+    "category": "Hidrodinâmica — Poiseuille",
+    "options": [
+      "y = 0 (parede inferior).",
+      "y = a/4 (primeiro quartil).",
+      "y = a (parede superior).",
+      "y = a/2 (centro geométrico)."
+    ],
+    "correct": 3,
+    "explanation": "O máximo ocorre onde du/dy = 0. Derivando: (1/2μ)(∂p/∂x)(2y - a) = 0. Como o prefator não é nulo, 2y - a = 0 → y = a/2. A velocidade máxima está no centro."
+  },
+  {
+    "type": "mc",
+    "question": "A expressão da tensão de cisalhamento em Poiseuille é τ(y) = (1/2)(∂p/∂x)(2y - a). Qual o valor de τ no centro do canal (y = a/2) e por quê?",
+    "category": "Hidrodinâmica — Poiseuille",
+    "options": [
+      "τ é máxima, pois a velocidade também é máxima nesse ponto.",
+      "τ é constante ao longo de todo o canal, como no Couette.",
+      "τ é negativa, indicando inversão do fluxo.",
+      "τ é nula, pois no pico da parábola as camadas adjacentes têm a mesma velocidade (∂u/∂y = 0)."
+    ],
+    "correct": 3,
+    "explanation": "Em y = a/2: τ = (1/2)(∂p/∂x)(2·a/2 - a) = 0. No cume da parábola, du/dy = 0: camadas vizinhas possuem mesma velocidade, sem atrito. Velocidade máxima NÃO implica cisalhamento máximo."
+  },
+  {
+    "type": "mc",
+    "question": "No Poiseuille, se o fluido for substituído por outro com o dobro da viscosidade (2μ), mantendo o mesmo gradiente de pressão, o que ocorre com a velocidade máxima?",
+    "category": "Hidrodinâmica — Poiseuille",
+    "options": [
+      "Duplica, pois maior viscosidade facilita o escoamento.",
+      "Permanece inalterada, pois depende apenas do gradiente de pressão.",
+      "Cai pela metade, pois μ está no denominador do perfil.",
+      "Cai para um quarto, pois a relação é inversamente proporcional a μ²."
+    ],
+    "correct": 2,
+    "explanation": "No perfil de Poiseuille, u_max é proporcional a 1/μ. Dobrar a viscosidade reduz a velocidade máxima pela metade. Maior viscosidade = maior resistência ao escoamento."
+  },
+  {
+    "type": "mc",
+    "question": "No Couette Puro, após eliminar inércia, pressão e gravidade de Navier-Stokes, qual é a EDO e sua solução geral?",
+    "category": "Hidrodinâmica — Couette",
+    "options": [
+      "∂²u/∂y² = (1/μ)(∂p/∂x) → u(y) = (1/2μ)(∂p/∂x)y² + C₁y + C₂",
+      "∂u/∂y = 0 → u(y) = C₁",
+      "∂²u/∂y² = 0 → u(y) = C₁y + C₂",
+      "∂²u/∂y² = ρg → u(y) = (ρg/2μ)y² + C₁y + C₂"
+    ],
+    "correct": 2,
+    "explanation": "Sem pressão (p₁ = p₂), sem gravidade axial e sem inércia, μ(∂²u/∂y²) = 0 → u'' = 0. Integrando: u' = C₁, depois u = C₁y + C₂ (polinômio linear, não parabólico)."
+  },
+  {
+    "type": "mc",
+    "question": "No Couette Puro com placa inferior fixa (y = 0) e superior a V₀ (y = a), qual é o perfil u(y)?",
+    "category": "Hidrodinâmica — Couette",
+    "options": [
+      "u(y) = V₀(1 - y/a)",
+      "u(y) = (V₀/a)·y",
+      "u(y) = V₀(y/a)²",
+      "u(y) = V₀·sin(πy/a)"
+    ],
+    "correct": 1,
+    "explanation": "Da solução u = C₁y + C₂: u(0) = 0 → C₂ = 0; u(a) = V₀ → C₁ = V₀/a. Portanto u(y) = (V₀/a)·y, perfil estritamente linear."
+  },
+  {
+    "type": "mc",
+    "question": "Por que é matematicamente impossível que o Couette Puro apresente perfil parabólico?",
+    "category": "Hidrodinâmica — Couette",
+    "options": [
+      "Porque a condição de não-escorregamento nas duas paredes força simetria.",
+      "Porque a EDO resultante (u'' = 0) possui lado direito nulo; integrar zero duas vezes gera apenas C₁y + C₂, nunca um termo y².",
+      "Porque a incompressibilidade limita o perfil a funções lineares em qualquer geometria.",
+      "Porque a viscosidade constante impede deformações parabólicas do campo de velocidades."
+    ],
+    "correct": 1,
+    "explanation": "Parábolas surgem ao integrar duplamente uma constante não nula (como ∂p/∂x em Poiseuille → y²/2). Em Couette puro, o lado direito é zero: integrar zero duas vezes dá C₁y + C₂. Sem termo quadrático, parábola é impossível."
+  },
+  {
+    "type": "mc",
+    "question": "Por que a tensão de cisalhamento τ no Couette Puro é constante ao longo de toda a altura do canal?",
+    "category": "Hidrodinâmica — Couette",
+    "options": [
+      "Porque o perfil u(y) = (V₀/a)y é linear; ∂u/∂y = V₀/a é constante, logo τ = μ·V₀/a não depende de y.",
+      "Porque a pressão constante impõe τ = 0 em todo o canal.",
+      "Porque a viscosidade μ é constante, forçando τ uniforme independentemente do perfil.",
+      "Porque a condição de impenetrabilidade distribui uniformemente as tensões."
+    ],
+    "correct": 0,
+    "explanation": "O perfil é u(y) = (V₀/a)y, uma reta. A derivada de uma reta é constante: ∂u/∂y = V₀/a. Logo τ = μ·(V₀/a), fixo em qualquer posição y."
+  },
+  {
+    "type": "mc",
+    "question": "Ao inclinar um canal com ângulo θ, qual relação geométrica permite agrupar gravidade e pressão no termo piezométrico ∂(p + ρgh)/∂x?",
+    "category": "Hidrodinâmica — Canal Inclinado",
+    "options": [
+      "cos θ = -dh/dx, substituindo a componente perpendicular ao canal.",
+      "tan θ = -dh/dx, relacionando avanço horizontal com queda vertical.",
+      "sin θ = -dh/dx, convertendo o declive da cota topográfica em gradiente piezométrico.",
+      "sin θ = dh/dy, projetando a gravidade na direção transversal ao fluxo."
+    ],
+    "correct": 2,
+    "explanation": "O material utiliza sin θ = -dh/dx, onde dh/dx é a variação de cota topográfica na direção do fluxo. Isso funde a componente gravitacional ρg·sin θ com o gradiente de pressão no termo ∂(p + ρgh)/∂x."
+  },
+  {
+    "type": "mc",
+    "question": "Qual a justificativa matemática para que o perfil do canal inclinado seja parabólico como o de Poiseuille?",
+    "category": "Hidrodinâmica — Canal Inclinado",
+    "options": [
+      "Porque a incompressibilidade impõe o mesmo formato de perfil em qualquer geometria.",
+      "Porque o canal inclinado é um caso particular de Couette com gravidade.",
+      "Porque a EDO possui mesma estrutura (u'' = constante); o termo forçante muda mas a dupla integração gera o mesmo y².",
+      "Porque a condição de totalmente desenvolvido automaticamente gera parábolas."
+    ],
+    "correct": 2,
+    "explanation": "A EDO do canal inclinado tem forma u'' = constante (o termo piezométrico). A dupla integração de uma constante sempre produz y²/2, resultando em parábola, independentemente de a fonte ser pressão ou gravidade."
+  },
+  {
+    "type": "mc",
+    "question": "Um fluido escoa por canal inclinado sob gravidade, sem gradiente de pressão (∂p/∂x = 0). Se θ aumenta de 15° para 45°, o que ocorre com a velocidade máxima?",
+    "category": "Hidrodinâmica — Canal Inclinado",
+    "options": [
+      "Diminui, pois cos 45° < cos 15° e a componente motora é proporcional a cos θ.",
+      "Permanece inalterada, pois depende apenas da viscosidade e da abertura.",
+      "Diminui, pois o aumento da inclinação reduz a componente perpendicular de sustentação.",
+      "Aumenta, pois sin 45° > sin 15° e a força motora gravitacional (ρg·sin θ) cresce."
+    ],
+    "correct": 3,
+    "explanation": "Sem pressão, a força motora é ρg·sin θ. Como sin 45° ≈ 0,707 > sin 15° ≈ 0,259, a força propulsora aumenta, elevando a velocidade máxima. A componente motora usa seno, não cosseno."
+  },
+  {
+    "type": "tf",
+    "question": "Se o enunciado informa que um escoamento está 'Totalmente Desenvolvido', ele é obrigatoriamente um escoamento de fluido incompressível.",
+    "category": "Hidrodinâmica — Hipóteses Simplificadoras",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Totalmente Desenvolvido: perfil de velocidades não varia na direção do fluxo (∂u/∂x = 0). Isso é condição sobre o perfil, não sobre a compressibilidade. Um gás compressível pode atingir regime totalmente desenvolvido."
+  },
+  {
+    "type": "tf",
+    "question": "Em Poiseuille, como a velocidade da partícula atinge seu maior valor no centro do canal, a tensão de cisalhamento nesse ponto também atinge seu valor máximo.",
+    "category": "Hidrodinâmica — Poiseuille",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "No centro (velocidade máxima), du/dy = 0, logo τ = μ·(du/dy) = 0. A tensão é MÍNIMA (nula) no centro e MÁXIMA nas paredes. Velocidade alta não implica cisalhamento alto."
+  },
+  {
+    "type": "mc",
+    "question": "Um óleo viscoso escoa entre placas planas, horizontais e fixas. Fluxo estável no tempo, perfil invariável ao longo do comprimento, bomba mantém p₁ > p₂. Identifique o modelo clássico e a EDO.",
+    "category": "Hidrodinâmica — Poiseuille",
+    "options": [
+      "Couette Puro. EDO: ∂²u/∂y² = 0.",
+      "Canal Inclinado. EDO: μ(∂²u/∂y²) = ∂(p + ρgh)/∂x.",
+      "Poiseuille. EDO: ρ(∂u/∂t) = -∂p/∂x + μ(∂²u/∂y²).",
+      "Poiseuille. EDO: μ(∂²u/∂y²) = ∂p/∂x."
+    ],
+    "correct": 3,
+    "explanation": "Placas fixas + gradiente de pressão = Poiseuille. Permanente (∂u/∂t = 0) e totalmente desenvolvido eliminam inércia. Horizontal elimina gravidade. Resta μ(∂²u/∂y²) = ∂p/∂x. A opção C mantém o termo transiente, que é zero."
+  },
+  {
+    "type": "mc",
+    "question": "Placa inferior fixa, superior a 5 m/s, p_in = p_out, totalmente desenvolvido. Qual o formato do perfil e o que se pode afirmar sobre a tensão de cisalhamento?",
+    "category": "Hidrodinâmica — Couette",
+    "options": [
+      "Parabólico; tensão nula no centro e máxima nas paredes.",
+      "Exponencial; tensão decresce da placa móvel à fixa.",
+      "Linear; tensão nula na placa fixa e máxima na móvel.",
+      "Linear; tensão constante ao longo de toda a altura do canal."
+    ],
+    "correct": 3,
+    "explanation": "Sem gradiente de pressão (Couette puro), u'' = 0 → perfil linear u = (V₀/a)y. A derivada du/dy = V₀/a é constante, logo τ = μ·V₀/a é idêntica em qualquer posição, incluindo perto da base e do teto."
+  },
+  {
+    "type": "mc",
+    "question": "Um aluno escreve sobre Couette Puro: 'O escoamento incompressível garante ∂u/∂t = 0. Integrei e obtive u(y) = y². Apliquei u(a) = V₀ e a parábola termina em V₀.' Quantos erros graves existem?",
+    "category": "Hidrodinâmica — Couette",
+    "options": [
+      "Apenas um: confundiu incompressível com permanente.",
+      "Nenhum: o raciocínio está correto para Couette com pressão.",
+      "Três: confundiu incompressível com permanente, obteve parábola, e u(a) = V₀ não se aplica.",
+      "Dois: confundiu incompressível com permanente, e obteve perfil parabólico quando deveria ser linear."
+    ],
+    "correct": 3,
+    "explanation": "1º erro: incompressibilidade fixa ρ, não anula ∂u/∂t (quem faz isso é 'permanente'). 2º erro: em Couette puro (u'' = 0), a dupla integração de zero dá C₁y + C₂ (reta), nunca y² (parábola). A condição u(a) = V₀ está correta."
+  }
+]
