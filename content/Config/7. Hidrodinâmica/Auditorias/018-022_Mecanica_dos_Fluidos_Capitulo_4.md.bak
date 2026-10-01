@@ -289,7 +289,3 @@ Por que a hipótese de fluido invíscido (viscosidade nula) é aplicada validame
 De acordo com a fonte, o que caracteriza a hipótese de um fluido Newtoniano em relação à sua viscosidade?;A viscosidade permanece constante, sendo totalmente independente da "tensão superficial" (termo originalmente grafado na fonte) aplicada sobre ele.
 O que postula a hipótese de escoamento "totalmente desenvolvido" e ela se aplica à hidrodinâmica do navio?;Postula que o escoamento não apresenta variação de velocidades no espaço e se aplica a contornos fechados. Segundo a fonte, essa hipótese não se aplica à hidrodinâmica do navio.
 Qual é a justificativa da adoção da hipótese isotérmica na mecânica dos fluidos?;A hipótese isotérmica considera que não haverá dissipação de energia na forma de calor, permitindo a remoção da equação da conservação de energia no modelo considerado.
-
-> [!tip] Explicação do professor (Isotermia Naval e Efeito Squat)
-> O professor reitera o motivo pelo qual a conservação térmica ($Q$) é abolida nos cálculos usuais: escoamentos navais assumem-se isotérmicos, pois as variações dinâmicas produzem calor desprezível. Em compensação, a energia mecânica tem efeitos drásticos: o Efeito Squat e a sucção de borda mostram que o estreitamento acelera a água (aumentando a energia cinética) e reduz brutalmente a pressão sob a proa, fazendo o navio afundar dinamicamente.
-> **Fonte:** Transcrições `HidroVoz 260724_131733_original.txt` e `HidVoz 260731_102947_original.txt`.

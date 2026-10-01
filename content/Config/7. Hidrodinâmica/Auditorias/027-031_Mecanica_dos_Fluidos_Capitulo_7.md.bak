@@ -111,10 +111,6 @@ $w \frac{\partial u}{\partial z} = 0$ e $\frac{\partial^2 u}{\partial z^2} = 0$,
 
 $\rho g_x \neq 0$, as forças de corpo não podem ser negligenciadas
 
-> [!tip] Explicação do professor (Gravidade Projetada e Avaliação)
-> O professor ressaltou que a força propulsora real aqui é a gravidade projetada ($g_x = g \sin \theta$). Porém, ele declarou na aula que não vai cobrar o desenvolvimento dessa modelagem gravitacional inclinada na prova (considerando-a algebricamente mais difícil que as demais).
-> **Fonte:** Transcrição `HidVoz 260814_091758_original.txt`.
-
 Da análise da conservação de massa tem-se que $v = 0$, então $v \frac{\partial u}{\partial y} = 0$
 
 A equação de Navier-Stokes, fica reduzida a

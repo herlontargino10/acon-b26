@@ -157,11 +157,3 @@ O que caracteriza fisicamente a força motriz do escoamento conduzido por press�
 Como funciona o mecanismo de propulsão do escoamento conduzido por forças viscosas (Viscosity-driven)?;Ocorre pela diferença de velocidade relativa entre duas paredes limitantes (uma fixa e uma móvel); o arrasto friccional da chapa móvel induz variação da quantidade de movimento no fluido.
 Na topologia de placas paralelas, em que eixo espacial é desconsiderada a variação das propriedades do fluido para alcançar a solução algébrica de canal?;As propriedades se estendem uniformemente ao infinito pela terceira dimensão, anulando toda sua contribuição matemática (escoamento puramente bidimensional, 2D).
 Segundo o procedimento geral, qual lei de conservação deve abrir o sistema de equações nos cálculos de tubos fechados?;Deve-se sempre iniciar a análise pela equação da Conservação da Massa, por ser a formulação matemática mais simples e que facilita a anulação inicial de componentes de velocidade.
-
-> [!note] Complemento da aula (Couette e o Navio PSV)
-> Identificado também como modelo de Couette, gerando um **perfil linear** de velocidades. O professor transpõe isso para a engenharia naval comparando ao fluido sendo espremido e cisalhado entre uma plataforma fixa offshore e o casco de um navio PSV atracando e manobrando lateralmente.
-> **Fonte:** Transcrição `HidVoz 260814_081707_original.txt`.
-
-> [!note] Complemento da aula (Força Gravitacional Projetada)
-> O professor esclarece que a força motriz, na verdade, é a componente projetada $g \sin \theta$, e que ela resulta em um **perfil parabólico** de velocidades no qual o fluido é segurado pela parede e escorrega livremente pelo topo.
-> **Fonte:** Transcrição `HidVoz 260814_091758_original.txt`.

@@ -141,10 +141,6 @@ Para ilustrar a força viscosa, imagine **dois trens viajando em velocidades dif
 - Pela Segunda Lei de Newton, se existe alteração de velocidade, existe uma força atuando.
 - **Se os dois trens tivessem a mesma velocidade, essa força não existiria.**
 
-> [!tip] Explicação do professor
-> Em sala, o professor enfatiza essa analogia para desmistificar a viscosidade: "Ao pular do trem de menor velocidade para o trem de maior velocidade... precisa ser acelerada... gerando atrito viscoso tangencial entre as camadas."
-> **Fonte:** Transcrição `Hid260807_080417_original.txt`.
-
 ### Interpretação Física no Fluido
 Isto é análogo ao escoamento em torno de uma parede. Próximo à parede, o escoamento tem velocidade menor; mais distante, velocidade maior. 
 As pessoas dentro do trem podem ser vistas como **partículas fluidas saltando de uma camada para outra**. Quando saltam, têm de ser aceleradas, impactando em uma força: a **força viscosa**.
@@ -180,10 +176,6 @@ Todo fluido real possui viscosidade dinâmica, podendo ela variar com temperatur
 ### A Condição de Aceleração (Rotação vs. Translação)
 > [!warning] Atenção (Diferença de Tensão)
 > Assim como no caso de pressões, é necessário que exista **diferença** entre tensões cisalhantes para que exista aceleração. Se a tensão cisalhante for exatamente a mesma em cima ($\tau_2$) e embaixo ($\tau_1$) do cubo de controle, **não existirá aceleração de translação em y**. O cubo apenas irá girar. É necessária a diferença entre as tensões para o aparecimento da força viscosa efetiva.
-
-> [!tip] Explicação do professor (O Cabo de Guerra)
-> Para explicar o balanço, o professor faz os alunos entenderem intuitivamente que uma partícula submetida a arrastos tangenciais iguais e opostos em cima e embaixo sofre torção ou estica, mas não acelera ao longo da linha de centro. É mandatório haver o gradiente.
-> **Fonte:** Transcrição das aulas.
 
 ### Força Viscosa por Unidade de Volume
 Assim como na pressão, a força viscosa 1D em $x$ é a diferença de tensões cisalhantes:

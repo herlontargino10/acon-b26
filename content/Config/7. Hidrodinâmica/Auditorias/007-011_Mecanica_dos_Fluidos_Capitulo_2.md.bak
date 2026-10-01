@@ -165,13 +165,7 @@ $$
 
 ---
 
-#
-
-> [!note] Complemento da aula (O Vetor Normal)
-> Houve severas intervenções em aula orientando os estudantes a abandonar a percepção de mecânica clássica (na qual a Força Normal atua como resistência/reação). Na Hidrodinâmica, exige-se a compreensão puramente direcional (geométrica e orientada para fora) do vetor normal na fronteira do volume de controle.
-> **Fonte:** Transcrição `HidVoz 260728_102746_original.txt`.
-
-# 6. Observação Restrita — Trecho Removido pelo Autor
+## 6. Observação Restrita — Trecho Removido pelo Autor
 
 ### Forma apresentada na fonte
 $$
@@ -259,7 +253,3 @@ A abordagem euleriana foca na facilidade e simplificação das matemáticas?;"N�
 Transcreva a equação formal para a aceleração total de fluidos em relação ao eixo de abscissas ($x$).;"$a_x = \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x} + v \frac{\partial u}{\partial y} + w \frac{\partial u}{\partial z}$"
 Na dedução algébrica exposta na fonte para a aceleração espacial no eixo $y$, como se isola a componente "$v$"?;"A substituição demonstra que $\frac{\Delta y}{\Delta t}$ perfaz o desdobramento da unidade de velocidade de modo a associá-lo, resultando em: $v \frac{\Delta u}{\Delta y}$."
 ```
-
-> [!tip] Explicação do professor (Analogias de Referencial)
-> O professor traduziu a visão Lagrangeana da seguinte forma: "é como estar dentro de um barquinho descendo um rio... sente fisicamente a aceleração" ou "ser um carro de corrida seguindo imediatamente atrás de outro". Isso contrasta com a visão Euleriana, que é como "ficar parado na margem observando a seção fixa".
-> **Fonte:** Transcrição `HidVoz 260728_102746_original.txt`.
