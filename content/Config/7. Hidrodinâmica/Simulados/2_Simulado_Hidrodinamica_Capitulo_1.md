@@ -1,8 +1,3 @@
-Sim. Pelas provas que você enviou, o padrão do professor fica bastante claro: **ele não parece separar “teoria” e “cálculo” de forma rígida**. Mesmo quando há cálculo, ele primeiro verifica se o aluno entende fisicamente o que está acontecendo.
-
-E, olhando para o seu material de Hidrodinâmica, isso combina muito bem com a forma como os capítulos foram construídos: há várias **pegadinhas conceituais, interpretações físicas, hipóteses de escoamento e perguntas do tipo “o que isso significa?”**. Por exemplo, o próprio Capítulo 1 destaca que conservação de massa não significa fluido parado, que volume de controle não é o fluido e que entrada/saída de massa não viola conservação. Mecanica_dos_Fluidos_Capitulo_1…
-
-Então, **se a prova de Hidrodinâmica seguisse exatamente o padrão dessas imagens**, eu esperaria algo aproximadamente assim:
 
 ---
 

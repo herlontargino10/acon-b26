@@ -31,6 +31,7 @@ Sobre a classificação e a natureza das forças atuantes em um elemento infinit
 
 **Questão 4:**
 A literatura analítica para dutos requer o estabelecimento prévio de severas hipóteses (como o escoamento "totalmente desenvolvido"). Por que motivo essa hipótese estrutural restritiva NÃO se aplica à hidrodinâmica clássica do escoamento externo sobre o casco de um navio e seus apêndices em mar aberto?
+
 (A) Porque navios navegam predominantemente em oceanos onde o fluido invariavelmente rompe o caráter de escoamento incompressível devido à profundidade.
 (B) Porque, por não estar trancado em um contorno confinado longo (canal fechado), as linhas de fluxo marinhas convergem e divergem ao longo de sua morfologia complexa, impedindo que o campo adote uma geometria estática invariante na direção motriz.
 (C) Porque o casco de aço interage magneticamente com a água, incluindo forças de corpo não lineares que vetam o desenvolvimento irrotacional integral.
@@ -38,6 +39,7 @@ A literatura analítica para dutos requer o estabelecimento prévio de severas h
 
 **Questão 5:**
 Nas aulas sobre Conservação de Energia (1ª Lei da Termodinâmica), determinou-se que o Trabalho mecânico executado sobre e pela fronteira ($\dot{W}_e$) subdivide-se em transmissão viscosa e de pressão. Qual é o motivo matemático-físico que faz com que a formulação ignore solenemente o trabalho gerado pelas forças opressivas e de fricção operando dentro das posições internas (miolo) do Volume de Controle (VC)?
+
 (A) Seus efeitos dissipativos são termicamente nulos em escoamentos isotérmicos e, logo, desconsiderados.
 (B) Dentro das bordas internas, qualquer força desempenhada resulta de um par interativo de Ação e Reação que realiza trabalhos iguais e perfeitamente opostos, anulando globalmente seu saldo líquido integral.
 (C) Por se tratar da hidrodinâmica naval, o fluxo é majoritariamente irrotacional no interior, desarmando o braço de momento.
@@ -45,6 +47,7 @@ Nas aulas sobre Conservação de Energia (1ª Lei da Termodinâmica), determinou
 
 **Questão 6:**
 A modelagem generalizada de balanço energético total comporta efeitos convectivos, radioativos e reações intrínsecas (incluídos na componente de fluxo de Calor, $\dot{Q}$). Entretanto, no escoamento fluido macroscópico contornando apêndices navais, as premissas assumem frequentemente a rubrica do fluxo **"Isotérmico"**. O que isso traduz na simplificação operacional do sistema de equações?
+
 (A) Permite cancelar a equação completa da Energia, pois a dissipação calórica natural de um escoamento hidráulico real sem troca reacional externa acarreta desvios da ordem magnitudinal ínfimos em contraponto às pressões maciças estritamente cinéticas.
 (B) Anula as tensões cisalhantes, unificando assim as teorias Potencial e Friccional numa só formulação integral simplificada.
 (C) Autoriza o descarte total e irremediável das Forças Viscosas nos regimes paralelos ao costado, já que a fricção depende da condução e irradiação do calor contra os painéis ferrosos do navio.
@@ -52,6 +55,7 @@ A modelagem generalizada de balanço energético total comporta efeitos convecti
 
 **Questão 7:**
 Dos casos raríssimos que possuem solução analítica em Hidrodinâmica, encontram-se os Canais e Dutos 2D. O corpo docente divide a origem do traçado destas soluções plenas em 3 vertentes de Força Dominante. Qual das geometrias referenciadas exige compulsoriamente a existência da premissa limítrofe $u_{superior} = V_0$, ao passo em que se preserva a fronteira contrária atracada ($u_{inferior} = 0$)?
+
 (A) O duto sob controle puramente Friccional/Viscoso.
 (B) O túnel sob domínio da Aceleração Gravitacional livre.
 (C) A galeria atuando sob o comando de Gradientes de Pressão Diferenciais.
@@ -59,6 +63,7 @@ Dos casos raríssimos que possuem solução analítica em Hidrodinâmica, encont
 
 **Questão 8:**
 O slide apresentado em aula intitulado "Developing Flow" ratifica que um escoamento confinado entra no duto exibindo originalmente um campo achatado irrotacional. Qual é a ocorrência física descrita que estanca definitivamente essa instabilidade e sacramenta que, deste ponto em diante, o escoamento assumiu caráter plenamente desenvolvido ($\frac{\partial u}{\partial x} = 0$)?
+
 (A) A compressão do líquido atingir seu patamar incompressível irreversível perante a primeira placa metálica obstrutiva.
 (B) O encontro fatal no eixo central (centre line) provocado pelas camadas limites (boundary layers) que vinham proliferando pelas paredes superior e inferior à base do arrasto viscoso desde a boca de injeção da galeria.
 (C) A estagnação absoluta das partículas presas às paredes tangenciais sob efeito da inércia vetorial perpendicular, esmagando o escoamento no leito do duto.
@@ -66,6 +71,7 @@ O slide apresentado em aula intitulado "Developing Flow" ratifica que um escoame
 
 **Questão 9:**
 Nas páginas iniciais do Capítulo 1, discute-se o desenvolvimento escalar e volumétrico das premissas de conservação. Em relação ao equacionamento para o Volume de Controle fixo, qual a principal distinção física contida entre as chancelas algébricas da massa bruta contida, $m = \rho V$, e da vazão correspondente, $\dot{m} = \rho u A$?
+
 (A) $m$ relata a taxa vetorial de aceleração, enquanto $\dot{m}$ traça a estabilidade das propriedades tangenciais na membrana de escoamento.
 (B) A grandeza $m$ expressa a quantidade material confinada provisoriamente dentro do cubo, mas a grandeza com ponto ($\dot{m}$) acusa a taxa temporal da massa debandando ou ingressando através de uma guilhotina perimetral demarcada pela área (A) varrida pela velocidade tangencial (u).
 (C) Representam idêntica entidade material, sendo o ponto de $\dot{m}$ apenas uma grafia acadêmica alternativa (diferença de literatura euleriana x lagrangeana) para registrar fluidos isentos da tensão pressórica.
@@ -73,6 +79,7 @@ Nas páginas iniciais do Capítulo 1, discute-se o desenvolvimento escalar e vol
 
 **Questão 10:**
 O professor recorre recorrentemente à famosa figuração retórica pedagógica do "salto entre trens" viajando paralelamente a velocidades descasadas ($u_1 < u_2$). Qual é, intrinsecamente, a característica fluídica e estrutural que essa analogia humana anseia emular perante a audiência?
+
 (A) A transferência cinética transmutada pela conservação mássica local incompressível nas bordas de placas bidimensionais invíscidas.
 (B) O impacto impiedoso gerado pela barreira ortogonal originada através da pressão estática, depondo os fluxos que colidem na quilha frontal.
 (C) A origem microscópica da força viscosa: passageiros saltantes emulam fatias adjacentes de partículas em velocidades díspares que, ao debandarem do seu lastro de origem para outro, carecem de recondicionamento cinético, tracionando freneticamente o leito vizinho e materializando as tensões transversais de cisalhamento.
