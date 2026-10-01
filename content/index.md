@@ -16,7 +16,6 @@ title: Início
 - [[Aulas/Legislação-Marítima-Anthony|LEGISLAÇÃO MARÍTIMA]]
 - [[Aulas/Inglês-Técnico-Marítimo-Jander|INGLÊS TÉCNICO MARÍTIMO]]
 - [[Aulas/Prática-Procedimentos-Passadiço-M-Coelho|PROCEDIMENTOS DO PASSADIÇO 1]]
-- [[Aulas/Prática-Procedimentos-Passadiço-2-Jefferson/Material de apoio|PROCEDIMENTOS DO PASSADIÇO 2]]
 - [[Aulas/Navegação-1-Franco/Apostilas/Material de apoio|NAVEGAÇÃO]]
 - [[Aulas/Estabilidade-1-Quintana/Apostilas/Material de apoio|ESTABILIDADE]]
 - [[Aulas/Cálculo-1-Franciano/Apostilas/Material de apoio|CÁLCULO I]]
@@ -28,6 +27,7 @@ title: Início
 - [[Aulas/Navegação-2-Paulo-Lima/Apostilas/Material de apoio|NAVEGAÇÃO ELETRÔNICA]]
 - [[Aulas/Oceonografia-Física-Ana-Cristina/Apostilas/Material de apoio|OCEONOGRAFIA FÍSICA]]
 - [[Aulas/Operador-ECDIS-Guimarães/Materiais|OPERADOR ECDIS]]
+- [[Aulas/Manobra-de-Navio-Franco/Apostilas/Material de apoio|MANOBRA DE NAVIO]]
 
 ## 📅 Cronograma
 

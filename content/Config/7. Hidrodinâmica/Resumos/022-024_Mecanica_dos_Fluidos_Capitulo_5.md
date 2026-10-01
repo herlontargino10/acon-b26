@@ -125,3 +125,35 @@ Iniciando com o escoamento entre duas paredes conduzidos pelas forças de press�
 ## Pontos Confusos ou Incompletos
 - **Inconsistência Vocabular de Relevo:** A indicação literal do texto referindo que a gravidade acelera o fluxo para "montante" configura um lapso do professor. Em escoamento gravitacional sem bombeamento mecânico, a água avança para *jusante*. A transcrição conservou o termo equivocado.
 - **Modelagem Interrompida:** O capítulo é decepado por uma edição do autor logo no momento em que ele começa a declarar as matrizes cartesianas ($y=0$ a $y=a$), indicando transição de documento.
+
+## Flashcards para Anki
+
+### Essenciais
+
+| Frente | Verso |
+|---|---|
+| Existem soluções matemáticas analíticas exatas para os contornos abertos complexos de um casco, leme ou propulsor de navio? | Não existem. A hidrodinâmica do navio conta com 4 equações e 4 incógnitas ($u, v, w, p$), impedindo a modelagem analítica nesses casos até os dias de hoje. |
+| Para as situações restritas em que a solução analítica é possível (Canais Fechados Paralelos), quais são as 3 forças dominantes que classificam o escoamento? | Escoamento conduzido por forças de pressão (Pressure-driven), conduzido pela força da gravidade (Gravity-driven) e conduzido por forças viscosas (Viscosity-driven). |
+
+### Importantes
+
+| Frente | Verso |
+|---|---|
+| O que caracteriza fisicamente a força motriz do escoamento conduzido por pressão (Pressure-driven)? | A indução gerada por um gradiente de tensão, onde a pressão em uma das extremidades do canal é nitidamente maior que na outra ($p_1 > p_2$). |
+| Como funciona o mecanismo de propulsão do escoamento conduzido por forças viscosas (Viscosity-driven)? | Ocorre pela diferença de velocidade relativa entre duas paredes limitantes (uma fixa e uma móvel); o arrasto friccional da chapa móvel induz variação da quantidade de movimento no fluido. |
+| Na topologia de placas paralelas, em que eixo espacial é desconsiderada a variação das propriedades do fluido para alcançar a solução algébrica de canal? | As propriedades se estendem uniformemente ao infinito pela terceira dimensão, anulando toda sua contribuição matemática (escoamento puramente bidimensional, 2D). |
+
+### Práticos
+
+| Frente | Verso |
+|---|---|
+| Segundo o procedimento geral, qual lei de conservação deve abrir o sistema de equações nos cálculos de tubos fechados? | Deve-se sempre iniciar a análise pela equação da Conservação da Massa, por ser a formulação matemática mais simples e que facilita a anulação inicial de componentes de velocidade. |
+
+## CSV para Anki
+
+Existem soluções matemáticas analíticas exatas para os contornos abertos complexos de um casco, leme ou propulsor de navio?;Não existem. A hidrodinâmica do navio conta com 4 equações e 4 incógnitas ($u, v, w, p$), impedindo a modelagem analítica nesses casos até os dias de hoje.
+Para as situações restritas em que a solução analítica é possível (Canais Fechados Paralelos), quais são as 3 forças dominantes que classificam o escoamento?;Escoamento conduzido por forças de pressão (Pressure-driven), conduzido pela força da gravidade (Gravity-driven) e conduzido por forças viscosas (Viscosity-driven).
+O que caracteriza fisicamente a força motriz do escoamento conduzido por pressão (Pressure-driven)?;A indução gerada por um gradiente de tensão, onde a pressão em uma das extremidades do canal é nitidamente maior que na outra ($p_1 > p_2$).
+Como funciona o mecanismo de propulsão do escoamento conduzido por forças viscosas (Viscosity-driven)?;Ocorre pela diferença de velocidade relativa entre duas paredes limitantes (uma fixa e uma móvel); o arrasto friccional da chapa móvel induz variação da quantidade de movimento no fluido.
+Na topologia de placas paralelas, em que eixo espacial é desconsiderada a variação das propriedades do fluido para alcançar a solução algébrica de canal?;As propriedades se estendem uniformemente ao infinito pela terceira dimensão, anulando toda sua contribuição matemática (escoamento puramente bidimensional, 2D).
+Segundo o procedimento geral, qual lei de conservação deve abrir o sistema de equações nos cálculos de tubos fechados?;Deve-se sempre iniciar a análise pela equação da Conservação da Massa, por ser a formulação matemática mais simples e que facilita a anulação inicial de componentes de velocidade.

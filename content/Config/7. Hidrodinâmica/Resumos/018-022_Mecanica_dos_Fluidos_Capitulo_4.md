@@ -251,3 +251,41 @@ Novamente, infelizmente apenas em alguns casos raros existe a solução analíti
 - **Ambiguidade Algébrica:** A introdução do diferencial elementar de trabalho da pressão apresentou o construto bizarro $-(p - V.n)dA$, denunciando forte traço de erro tipográfico (em que o símbolo "$-$" deveria não existir para atuar como produto com os parênteses).
 - **Inconsistência de Terminologia:** O autor classifica "fluido newtoniano" como aquele de viscosidade independente da "tensão superficial". Fica evidente o lapso trocando a tensão de cisalhamento pela superficial.
 - **Incerteza Pedagógica:** A riscada final sobre o tutorial de 6 passos de cálculo para tubos desautoriza seu peso cognitivo para o leitor naval. O corte abrupto no fim da frase ("na disciplina de") também sinaliza descontinuidade.
+
+## Flashcards para Anki
+
+### Essenciais
+
+| Frente | Verso |
+|---|---|
+| Como é expressa a Primeira Lei da Termodinâmica aplicada ao balanço de energia de um sistema? | A energia de um sistema ($E$) é igual ao calor recebido ($Q$) menos o trabalho executado ($W$), traduzido como $E = Q - W$. |
+| Em hidrodinâmica, o que representa a densidade mássica de energia $e$ ($e = \hat{u} + \frac{1}{2}V^2 + gz$)? | Representa a energia armazenada do sistema por unidade de massa, dividida em energia interna ($\hat{u}$), energia cinética ($\frac{1}{2}V^2$) e energia potencial gravitacional ($gz$). |
+| Segundo a fonte, por que os termos de transferência de calor ($\dot{Q}$) são desconsiderados na hidrodinâmica do navio? | Porque efeitos térmicos como condução, convecção e radiação produzem variações de ordem muito pequena em relação aos parâmetros dinâmicos, sendo mencionados apenas ocasionalmente. |
+| O que postula a hipótese de escoamento "totalmente desenvolvido" e ela se aplica à hidrodinâmica do navio? | Postula que o escoamento não apresenta variação de velocidades no espaço e se aplica a contornos fechados. Segundo a fonte, essa hipótese não se aplica à hidrodinâmica do navio. |
+| Qual é a justificativa da adoção da hipótese isotérmica na mecânica dos fluidos? | A hipótese isotérmica considera que não haverá dissipação de energia na forma de calor, permitindo a remoção da equação da conservação de energia no modelo considerado. |
+
+### Importantes
+
+| Frente | Verso |
+|---|---|
+| O trabalho na fronteira de um Volume de Controle ($\dot{W}$) divide-se em quais dois grandes grupos principais? | Trabalho de máquina ($\dot{W}_m$), deliberadamente efetuado por impulsores ou pistões, e trabalho de transmissão ($\dot{W}_e$), que inclui o trabalho destinado a vencer forças de pressão e viscosas para assegurar o escoamento. |
+| Quais hipóteses fundamentais são citadas como inerentes a um escoamento bidimensional (2D)? | O escoamento tem apenas duas componentes de velocidade ativas e o sentido longitudinal é muito maior que o outro, sendo característico de fluxos laminares onde as linhas de corrente cabem num único plano. |
+
+### Práticos
+
+| Frente | Verso |
+|---|---|
+| Por que a hipótese de fluido invíscido (viscosidade nula) é aplicada validamente ao estudo de lemes e propulsores? | Porque trata-se de escoamentos com grandes quantidades de movimento distantes da parede, onde as forças de sustentação e arrasto induzido são independentes da viscosidade (escoamento potencial). |
+| De acordo com a fonte, o que caracteriza a hipótese de um fluido Newtoniano em relação à sua viscosidade? | A viscosidade permanece constante, sendo totalmente independente da "tensão superficial" (termo originalmente grafado na fonte) aplicada sobre ele. |
+
+## CSV para Anki
+
+Como é expressa a Primeira Lei da Termodinâmica aplicada ao balanço de energia de um sistema?;A energia de um sistema ($E$) é igual ao calor recebido ($Q$) menos o trabalho executado ($W$), traduzido como $E = Q - W$.
+Em hidrodinâmica, o que representa a densidade mássica de energia $e$ ($e = \hat{u} + \frac{1}{2}V^2 + gz$)?;Representa a energia armazenada do sistema por unidade de massa, dividida em energia interna ($\hat{u}$), energia cinética ($\frac{1}{2}V^2$) e energia potencial gravitacional ($gz$).
+Segundo a fonte, por que os termos de transferência de calor ($\dot{Q}$) são desconsiderados na hidrodinâmica do navio?;Porque efeitos térmicos como condução, convecção e radiação produzem variações de ordem muito pequena em relação aos parâmetros dinâmicos, sendo mencionados apenas ocasionalmente.
+O trabalho na fronteira de um Volume de Controle ($\dot{W}$) divide-se em quais dois grandes grupos principais?;Trabalho de máquina ($\dot{W}_m$), deliberadamente efetuado por impulsores ou pistões, e trabalho de transmissão ($\dot{W}_e$), que inclui o trabalho destinado a vencer forças de pressão e viscosas para assegurar o escoamento.
+Quais hipóteses fundamentais são citadas como inerentes a um escoamento bidimensional (2D)?;O escoamento tem apenas duas componentes de velocidade ativas e o sentido longitudinal é muito maior que o outro, sendo característico de fluxos laminares onde as linhas de corrente cabem num único plano.
+Por que a hipótese de fluido invíscido (viscosidade nula) é aplicada validamente ao estudo de lemes e propulsores?;Porque trata-se de escoamentos com grandes quantidades de movimento distantes da parede, onde as forças de sustentação e arrasto induzido são independentes da viscosidade (escoamento potencial).
+De acordo com a fonte, o que caracteriza a hipótese de um fluido Newtoniano em relação à sua viscosidade?;A viscosidade permanece constante, sendo totalmente independente da "tensão superficial" (termo originalmente grafado na fonte) aplicada sobre ele.
+O que postula a hipótese de escoamento "totalmente desenvolvido" e ela se aplica à hidrodinâmica do navio?;Postula que o escoamento não apresenta variação de velocidades no espaço e se aplica a contornos fechados. Segundo a fonte, essa hipótese não se aplica à hidrodinâmica do navio.
+Qual é a justificativa da adoção da hipótese isotérmica na mecânica dos fluidos?;A hipótese isotérmica considera que não haverá dissipação de energia na forma de calor, permitindo a remoção da equação da conservação de energia no modelo considerado.

@@ -8,10 +8,10 @@ CONFIGURAÇÃO DESTA EXECUÇÃO
 ==================================================
 
 FONTE DESTA EXECUÇÃO:
-[1_Leis_de_conservação-024-027]
+[1_Leis_de_conservação-031-034]
 
 NÚMERO DO CAPÍTULO:
-[6]
+[8]
 
 ==================================================
 FONTE AUTORIZADA

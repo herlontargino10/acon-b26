@@ -8,10 +8,10 @@ CONFIGURAÇÃO DESTA EXECUÇÃO
 ==================================================
 
 FONTE DESTA EXECUÇÃO:
-[1_Leis_de_conservação-024-027]
+[1_Leis_de_conservação-031-034]
 
 NÚMERO DO CAPÍTULO:
-[6]
+[8]
 
 ARQUIVO DO CAPÍTULO:
 Mecanica_dos_Fluidos_Capitulo_[NÚMERO]_Obsidian_RASCUNHO.md

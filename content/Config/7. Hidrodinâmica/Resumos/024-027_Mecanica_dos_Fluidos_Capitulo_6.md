@@ -174,3 +174,37 @@ O perfil de velocidades então é parabólico e quanto maior a diferença de pre
 
 ## Pontos Confusos ou Incompletos
 - Nenhum salto algorítmico obscuro foi deixado para trás nesta derivação; os 6 passos matemáticos de Poiseuille fecham com clareza a topologia teórica da apostila. A ponta solta deixada ("força de corpo/gravidade") foi literalmente tachada/cancelada pelo professor.
+
+## Flashcards para Anki
+
+### Essenciais
+
+| Frente | Verso |
+|---|---|
+| Quais são as hipóteses mecânicas básicas adotadas para estruturar a Equação de Poiseuille no escoamento duto a duto? | Fluido incompressível, 2D, escoamento permanente, totalmente desenvolvido, livre de gravidade ($\rho g_x = 0$) e conduzido puramente por forças de pressão ($p_1 > p_2$). |
+| Geometricamente, qual é o formato adotado pelo perfil de velocidades transversais ($u(y)$) segundo a equação de Poiseuille? | O campo de velocidades traça um formato parabólico, com a velocidade máxima no centro do canal e nula nas paredes. |
+| O que justifica o aniquilamento da inércia na Equação de Navier-Stokes reduzida à forma $\frac{\partial p}{\partial x} = \mu \left( \frac{\partial^2 u}{\partial y^2} \right)$? | Por tratar-se de um escoamento "permanente" e "totalmente desenvolvido", não há acelerações no escoamento, restando apenas um balanço estático entre as forças de pressão e as forças friccionais. |
+| Qual é a forma algébrica final do campo de velocidades $u$ reconhecida como equação de Poiseuille? | \[ u = \frac{1}{2\mu} \frac{\partial p}{\partial x} (y^2 - ay) \] |
+
+### Importantes
+
+| Frente | Verso |
+|---|---|
+| Como a conservação de massa (Continuidade) deduz a ausência da variável transversal de velocidade ($v$) antes mesmo da equação da quantidade de movimento? | A massa define que o gradiente transversal $\frac{\partial v}{\partial y}$ zera (devido ao modelo 2D desenvolvido). Aplicando-se a impenetrabilidade imposta pelas paredes rígidas ($v=0$), prova-se que o componente $v$ tem de ser nulo em toda e qualquer posição. |
+| Ao isolar $\frac{\partial p}{\partial x}$ e $\mu\frac{\partial^2 u}{\partial y^2}$, qual ferramenta do cálculo permite igualar as frações parciais de "x" e "y" a uma constante única para integrá-las? | O método de separação de variáveis, que determina que duas matrizes atuantes sobre eixos independentes só podem permanecer igualadas se a equivalência de ambas resultar em quantidades constantes. |
+
+### Práticos
+
+| Frente | Verso |
+|---|---|
+| De acordo com a análise analítica da equação de Poiseuille, quais grandezas aumentam ou reprimem a velocidade máxima no canal? | Quanto maior a diferença de pressão imposta, maior a velocidade máxima no núcleo; quanto maior a viscosidade do material ($\mu$), menor a velocidade atingida. |
+
+## CSV para Anki
+
+Quais são as hipóteses mecânicas básicas adotadas para estruturar a Equação de Poiseuille no escoamento duto a duto?;Fluido incompressível, 2D, escoamento permanente, totalmente desenvolvido, livre de gravidade ($\rho g_x = 0$) e conduzido puramente por forças de pressão ($p_1 > p_2$).
+Geometricamente, qual é o formato adotado pelo perfil de velocidades transversais ($u(y)$) segundo a equação de Poiseuille?;O campo de velocidades traça um formato parabólico, com a velocidade máxima no centro do canal e nula nas paredes.
+O que justifica o aniquilamento da inércia na Equação de Navier-Stokes reduzida à forma $\frac{\partial p}{\partial x} = \mu \left( \frac{\partial^2 u}{\partial y^2} \right)$?;Por tratar-se de um escoamento "permanente" e "totalmente desenvolvido", não há acelerações no escoamento, restando apenas um balanço estático entre as forças de pressão e as forças friccionais.
+Como a conservação de massa (Continuidade) deduz a ausência da variável transversal de velocidade ($v$) antes mesmo da equação da quantidade de movimento?;A massa define que o gradiente transversal $\frac{\partial v}{\partial y}$ zera (devido ao modelo 2D desenvolvido). Aplicando-se a impenetrabilidade imposta pelas paredes rígidas ($v=0$), prova-se que o componente $v$ tem de ser nulo em toda e qualquer posição.
+Ao isolar $\frac{\partial p}{\partial x}$ e $\mu\frac{\partial^2 u}{\partial y^2}$, qual ferramenta do cálculo permite igualar as frações parciais de "x" e "y" a uma constante única para integrá-las?;O método de separação de variáveis, que determina que duas matrizes atuantes sobre eixos independentes só podem permanecer igualadas se a equivalência de ambas resultar em quantidades constantes.
+De acordo com a análise analítica da equação de Poiseuille, quais grandezas aumentam ou reprimem a velocidade máxima no canal?;Quanto maior a diferença de pressão imposta, maior a velocidade máxima no núcleo; quanto maior a viscosidade do material ($\mu$), menor a velocidade atingida.
+Qual é a forma algébrica final do campo de velocidades $u$ reconhecida como equação de Poiseuille?;\[ u = \frac{1}{2\mu} \frac{\partial p}{\partial x} (y^2 - ay) \]
