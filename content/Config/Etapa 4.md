@@ -11,7 +11,7 @@ FONTE DESTA EXECUÇÃO:
 [1_Leis_de_conservação-031-034]
 
 NÚMERO DO CAPÍTULO:
-[8]
+[Não informado pelo usuário.]
 
 ARQUIVO DO CAPÍTULO:
 Mecanica_dos_Fluidos_Capitulo_[NÚMERO]_Obsidian_RASCUNHO.md

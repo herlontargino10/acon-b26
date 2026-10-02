@@ -8,10 +8,10 @@ CONFIGURAÇÃO DESTA EXECUÇÃO
 ==================================================
 
 FONTE DESTA EXECUÇÃO:
-[1_Leis_de_conservação-031-034]
+[2_O_Princípio_da_Homogeneidade_e_Análise_Dimensional.pdf]
 
 NÚMERO DO CAPÍTULO:
-[8]
+[Não informado pelo usuário.]
 
 TÍTULO DO CAPÍTULO:
 Não informado pelo usuário.
@@ -227,8 +227,6 @@ Não remover justificativas ou condições associadas a cada item.
 A estrutura pode ser reorganizada para melhorar a leitura,
 mas todas as informações da fonte devem permanecer.
 
-
-==================================================
 
 ==================================================
 REGRA DE ISOLAMENTO DA FONTE

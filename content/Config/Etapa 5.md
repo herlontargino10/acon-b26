@@ -8,7 +8,7 @@ IDENTIFICAÇÃO
 ==================================================
 
 CAPÍTULO:
-Capítulo [NÚMERO DO CAPÍTULO]
+Capítulo [Não informado pelo usuário.]
 
 FONTE AUTORIZADA:
 Utilize EXCLUSIVAMENTE o PDF definido nas etapas anteriores.

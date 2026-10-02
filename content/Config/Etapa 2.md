@@ -1,6 +1,6 @@
 
 ```txt
-MECÂNICA DOS FLUIDOS — ETAPA 2
+`2_O_Princípio_da_Homogeneidade_e_Análise_Dimensional` — ETAPA 2
 Construção do capítulo a partir do inventário auditado
 
 ==================================================
@@ -8,10 +8,10 @@ CONFIGURAÇÃO DESTA EXECUÇÃO
 ==================================================
 
 FONTE DESTA EXECUÇÃO:
-[1_Leis_de_conservação-031-034]
+[2_O_Princípio_da_Homogeneidade_e_Análise_Dimensional.pdf]
 
 NÚMERO DO CAPÍTULO:
-[8]
+[Não informado pelo usuário.]
 
 ==================================================
 FONTE AUTORIZADA
