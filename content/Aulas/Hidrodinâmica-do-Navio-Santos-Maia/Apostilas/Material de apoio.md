@@ -1,2 +1,2 @@
 - [1. Leis de Conservação](1_Leis_de_conservação.pdf)
-- [2. O Princípio da Homogeneidade e Análise Dimensional](2_O_Princípio_da_Homogeneidade_e_Análise_Dimensional.pdf)
+- [2. O Princípio da Homogeneidade e Análise Dimensional](Aulas/Hidrodinâmica-do-Navio-Santos-Maia/Apostilas/2_O_Princípio_da_Homogeneidade_e_Análise_Dimensional.pdf)
