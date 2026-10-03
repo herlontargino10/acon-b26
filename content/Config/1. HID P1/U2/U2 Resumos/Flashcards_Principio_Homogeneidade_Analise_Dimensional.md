@@ -197,3 +197,13 @@
 **Frente:** Quais inconsistências e falhas originais de OCR identificadas no material de origem (pdf) foram intencionalmente retidas na redação?
 **Verso:** A omissão das sílabas "ti" (ex: "quandade", "sica", "cinéca"); o erro redacional em "conhecimento" [conhecido]; e a alternância repentina da velocidade de referência de $u$ para $V_0$ na dedução algébrica.
 **Fonte:** Seção 11 (Quadro de Avisos) — material aprovado.
+
+### Card 41
+**Frente:** O que representa o **Fator de Escala de Modelo** ($\alpha$) na hidrodinâmica naval e qual a sua relação base?
+**Verso:** Representa o escalar de redução de tamanho utilizado para reproduzir as medidas laboratoriais. Ele relaciona a dimensão do modelo reduzido ($L_m$) com a do protótipo em tamanho real ($L_p$) através da proporção: $\alpha = L_m / L_p$ (ou $L_m = L_p \alpha$).
+**Fonte:** Seção 11. O Dilema da Similaridade — material aprovado (Ênfase do Professor).
+
+### Card 42
+**Frente:** Por que os números de **Reynolds** e **Froude** são especialmente importantes na engenharia naval, segundo o material consolidado?
+**Verso:** Porque eles governam as resistências críticas operacionais do casco: Reynolds determina a **resistência friccional** (atrito) e a transição laminar-turbulenta, enquanto Froude determina a **resistência de formação de ondas** na superfície livre.
+**Fonte:** Seção 5. Números adimensionais (Ênfase do Professor) — material aprovado.

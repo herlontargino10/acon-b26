@@ -1,8 +1,4 @@
 
-
-````markdown
-# ECDIS — Passo a Passo Operacional
-
 > [!info] Objetivo
 > Reunir em uma única nota os procedimentos práticos de ECDIS para consulta durante os exercícios, organizados por função e por questão.
 
@@ -45,12 +41,12 @@
 - [[#Questão 18 — Mensagem AIS para todos]]
 - [[#Questão 19 — Mensagem AIS para navio específico]]
 - [[#Questão 20 — Derrota no Estreito de Gibraltar]]
-- [[#Questão 21 — ETA do navio]]
-- [[#Questão 22 — Maré no local de chegada]]
+- [[#Questão 21 — ETA]]
+- [[#Questão 22 — Maré]]
 
 ## Exercício Prático 2
-- [[#EP2-1A — Comprimento do navio]]
-- [[#EP2-1B — Calado e parâmetros de segurança]]
+- [[#EP2-1A — Inserir comprimento do navio]]
+- [[#EP2-1B — Inserir calado e parâmetros de segurança]]
 - [[#EP2-1C — Navio sem giro]]
 - [[#EP2-2 — Criar derrota]]
 - [[#EP2-3 — Nomear Waypoints]]
@@ -58,7 +54,7 @@
 - [[#EP2-5 — Stay no Waypoint 5]]
 - [[#EP2-6 — Pontos de referência]]
 - [[#EP2-7 — Ativar vetores]]
-- [[#EP2-8 — Adquirir alvos AIS/ARPA]]
+- [[#EP2-8 — Adquirir alvos AIS / ARPA]]
 - [[#EP2-9 — Habilitar Safety Frame]]
 - [[#EP2-10 — Verificar maré]]
 - [[#EP2-11 — Verificar horários]]
@@ -170,6 +166,8 @@ Depois:
 → ENTER
 ```
 
+[[#Índice]]
+
 ---
 
 ## Passo 2 — Traçar a rota
@@ -207,6 +205,8 @@ A rota aparece ligando os dois pontos.
 → Salvar
 ```
 
+[[#Índice]]
+
 ---
 
 ## Passo 3 — Nomear os Way Points
@@ -230,7 +230,10 @@ Selecionar WP
 → WP2 — DESTINO
 ```
 
+
 → **OK**
+
+[[#Índice]]
 
 ---
 
@@ -262,6 +265,8 @@ ROTA 001 — S N (005° W)
 ```
 
 → **Fechar**
+
+[[#Índice]]
 
 ---
 
@@ -296,7 +301,8 @@ Resultado indicado no documento:
 - Tempo de viagem: **~38 h 55 min**
     
 - ETA: **12/04/2025 — 08:25 UTC**
-    
+
+[[#Índice]]
 
 ---
 
@@ -319,7 +325,8 @@ Confirmar:
 -  ETA registrada
     
 -  Resultado anotado no relatório de navegação
-    
+
+[[#Índice]]
 
 ---
 
@@ -344,6 +351,8 @@ Verificar:
     
 
 → **OK**
+
+[[#Índice]]
 
 ---
 
@@ -385,6 +394,8 @@ Selecionar um alvo e verificar seus dados.
 
 As configurações funcionam apenas se o AIS não estiver marcado em cor vermelha no menu display. 
 
+[[#Índice]]
+
 ---
 
 ## Passo 9 — Configurar Safety Frame
@@ -418,6 +429,8 @@ Alarme de Contorno Seguro
 Resultado esperado:
 
 > O sistema deverá avisar caso o navio saia da rota ou se aproxime de perigo.
+
+[[#Índice]]
 
 ---
 
@@ -473,6 +486,8 @@ Se inadequado:
 
 Registrar no Diário de Navegação.
 
+[[#Índice]]
+
 ---
 
 ## Passo 11 — Enviar mensagem AIS
@@ -499,7 +514,8 @@ Registrar:
 - Nome/MMSI
     
 - Resposta recebida
-    
+
+[[#Índice]]
 
 ---
 
@@ -526,7 +542,8 @@ Resultado:
 -  Alarmes ativos
     
 -  Navio seguindo a rota
-    
+
+[[#Índice]]
 
 ---
 
@@ -545,6 +562,8 @@ Configurar o modo de apresentação da carta como:
 CUSTOM
 ```
 
+[[#Índice]]
+
 ---
 
 ## Questão 2 — Spot Sounding
@@ -556,6 +575,8 @@ SPOT SOUNDING
 → até 15,0 m
 ```
 
+[[#Índice]]
+
 ---
 
 ## Questão 3 — Sensor primário de posição
@@ -566,6 +587,8 @@ Definir:
 Primary Position Sensor
 → DGPS 1
 ```
+
+[[#Índice]]
 
 ---
 
@@ -598,6 +621,7 @@ Criar uma derrota com:
 
 ![[Pasted image 20260922105448.png]]
 
+[[#Índice]]
 
 ---
 
@@ -612,6 +636,8 @@ DLOG 1
 ECHOSOUNDER 1
 ```
 
+[[#Índice]]
+
 ---
 
 ## Questão 6 — Habilitar sensores AIS e ARPA
@@ -623,6 +649,8 @@ AIS
 ARPA A
 ARPA B
 ```
+
+[[#Índice]]
 
 ---
 
@@ -638,6 +666,8 @@ Targets
 → Tracks
 ```
 
+[[#Índice]]
+
 ---
 
 ## Questão 8 — Visualizar alvos
@@ -651,7 +681,8 @@ Verificar visualmente na tela/carta do ECDIS:
 -  AIS
     
 -  Tracks
-    
+
+[[#Índice]]
 
 ---
 
@@ -670,7 +701,8 @@ Monitorar:
 - **COG Vector**
     
 - **HDG Vector**
-    
+
+[[#Índice]]
 
 ---
 
@@ -687,7 +719,8 @@ Habilitar:
 - **Ship by Contour**
     
 - **Wind Vector**
-    
+
+[[#Índice]]
 
 ---
 
@@ -708,6 +741,8 @@ Align by HDG
 > [!note] Heading Marker  
 > O Heading Marker representa graficamente a direção do heading/proa do navio na carta.
 
+[[#Índice]]
+
 ---
 
 ## Questão 12 — Safety Contour e Safety Depth
@@ -726,6 +761,8 @@ Safety Contour
 Safety Depth
 ```
 
+[[#Índice]]
+
 ---
 
 ## Questão 13 — Vetor do navio
@@ -741,6 +778,8 @@ Configurar:
 ```text
 mínimo: 6 min
 ```
+
+[[#Índice]]
 
 ---
 
@@ -759,6 +798,8 @@ Inserir:
 0300W
 ```
 
+[[#Índice]]
+
 ---
 
 ## Questão 15 — Hora do navio
@@ -771,6 +812,8 @@ Ship's Time
 
 Verificar/exibir a hora do navio.
 
+[[#Índice]]
+
 ---
 
 ## Questão 16 — Conning / Nav Aids
@@ -781,6 +824,8 @@ Acessar:
 Conning
 → Nav Aids
 ```
+
+[[#Índice]]
 
 ---
 
@@ -793,6 +838,8 @@ AIS
 ```
 
 Acionar/habilitar o AIS.
+
+[[#Índice]]
 
 ---
 
@@ -811,6 +858,8 @@ Safety Message
 → TO ALL
 ```
 
+[[#Índice]]
+
 ---
 
 ## Questão 19 — Mensagem AIS para navio específico
@@ -828,6 +877,8 @@ Normal Message
 → TO SPECIFIC
 ```
 
+[[#Índice]]
+
 ---
 
 ## Questão 20 — Derrota no Estreito de Gibraltar
@@ -837,6 +888,8 @@ Criar uma derrota:
 ```text
 → Entrada no Estreito de Gibraltar
 ```
+
+[[#Índice]]
 
 ---
 
@@ -853,6 +906,8 @@ Valor indicado no exercício:
 ```text
 18:12
 ```
+
+[[#Índice]]
 
 ---
 
@@ -878,6 +933,8 @@ Resultado indicado no exercício:
 ```text
 SIM — o porto possui facilidades
 ```
+
+[[#Índice]]
 
 ---
 
@@ -911,6 +968,8 @@ Inserir o comprimento do navio conforme:
 -------------------------
           1.852
 ```
+
+[[#Índice]]
 
 ---
 
@@ -977,6 +1036,8 @@ Deep Contour
 = Calado × 2,0
 ```
 
+[[#Índice]]
+
 ---
 
 ## EP2-1C — Navio sem giro
@@ -994,6 +1055,8 @@ Selecionar:
 ```text
 MAGNÉTICA
 ```
+
+[[#Índice]]
 
 ---
 
@@ -1013,6 +1076,8 @@ Criar uma derrota com:
 → Entrada no Estreito de Gibraltar
 ```
 
+[[#Índice]]
+
 ---
 
 ## EP2-3 — Nomear Waypoints
@@ -1026,6 +1091,8 @@ Tabela dos Waypoints
 
 Inserir o nome de cada Waypoint.
 
+[[#Índice]]
+
 ---
 
 ## EP2-4 — Check Route
@@ -1038,6 +1105,8 @@ Na mesma página de criação dos Waypoints:
 ```
 
 Executar a verificação da derrota.
+
+[[#Índice]]
 
 ---
 
@@ -1060,6 +1129,8 @@ Significado:
 
 > O navio deverá aguardar uma hora no Waypoint 5 antes de prosseguir.
 
+[[#Índice]]
+
 ---
 
 ## EP2-6 — Pontos de referência
@@ -1080,6 +1151,8 @@ Clicar com botão esquerdo no Waypoint
 ```
 
 Repetir para criar o segundo ponto de referência.
+
+[[#Índice]]
 
 ---
 
@@ -1102,7 +1175,8 @@ Exemplos:
 -  COG
     
 -  Outros vetores disponíveis
-    
+
+[[#Índice]]
 
 ---
 
@@ -1116,6 +1190,8 @@ ARPA
 ```
 
 Verificar sua apresentação no ECDIS.
+
+[[#Índice]]
 
 ---
 
@@ -1135,6 +1211,8 @@ Habilitar:
 Safety Frame
 ```
 
+[[#Índice]]
+
 ---
 
 ## EP2-10 — Verificar maré
@@ -1148,6 +1226,8 @@ Task
 ```
 
 Localizar o valor da maré correspondente ao horário de chegada no último Waypoint da derrota de Gibraltar.
+
+[[#Índice]]
 
 ---
 
@@ -1168,6 +1248,8 @@ UTC Time
 Ship's Time
 Time Zone
 ```
+
+[[#Índice]]
 
 ---
 
@@ -1301,11 +1383,8 @@ Time Zone
 -  Facilities
     
 
-```
-
 ### Uma observação importante
 
-No arquivo, há **alguns valores que não coincidem com as questões que você me passou anteriormente**. Por exemplo, o documento usa **calado de 6 m** no primeiro procedimento e coordenadas diferentes no exemplo de criação da rota. :contentReference[oaicite:1]{index=1}
+No arquivo, há **alguns valores que não coincidem com as questões que você me passou anteriormente**. Por exemplo, o documento usa **calado de 6 m** no primeiro procedimento e coordenadas diferentes no exemplo de criação da rota. 
 
 Por isso, para o seu material definitivo de estudo, eu manteria esta nota como **“procedimento de referência”**, mas deixaria os **valores específicos da prova/exercício** dentro de cada questão. Isso evita misturar um exemplo do manual com os dados que o professor efetivamente forneceu.
-```

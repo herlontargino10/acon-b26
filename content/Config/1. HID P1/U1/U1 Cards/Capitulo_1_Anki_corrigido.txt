@@ -1,0 +1,27 @@
+#separator:tab
+#html:true
+Quais são as três leis de conservação apresentadas?	Conservação da massa, conservação da quantidade de movimento, conservação da energia.
+Quais princípios são tipicamente empregados na Hidrodinâmica do Navio?	Conservação da massa e conservação da quantidade de movimento.
+O que é massa específica?	Densidade absoluta do fluido, representada por \(\rho\).
+Qual é a relação entre massa, massa específica e volume?	\(m=\rho V\).
+O que é um volume de controle?	Um volume fixo no espaço usado para analisar o fluido.
+O que é vazão mássica?	Taxa de quantidade de fluido por unidade de tempo que passa por uma face.
+Qual é a expressão da vazão mássica?	\(\dot m=\rho uA\).
+Quais são as componentes do vetor velocidade?	\(u\) em \(x\), \(v\) em \(y\) e \(w\) em \(z\).
+Como também é chamada a conservação da massa?	Equação da continuidade.
+Qual é a forma diferencial da continuidade?	\(\frac{\partial(\rho u)}{\partial x}+\frac{\partial(\rho v)}{\partial y}+\frac{\partial(\rho w)}{\partial z}+\frac{\partial\rho}{\partial t}=0\).
+Qual é a forma da continuidade para o caso incompressível?	\(\nabla\cdot\mathbf V=0\).
+Qual é a forma cartesiana da continuidade incompressível?	\(\frac{\partial u}{\partial x}+\frac{\partial v}{\partial y}+\frac{\partial w}{\partial z}=0\).
+O que significa fisicamente a desigualdade parcial positiva (\(\partial u/\partial x > 0\)) na continuidade 1D?	Significa que há mais massa saindo do que entrando na direção analisada.
+O que é necessário conhecer para aplicar a conservação de massa nos três casos?	As variações da velocidade no espaço.
+Como o material relaciona \(u\), \(\Delta x\) e \(\Delta t\)?	\(u=\Delta x/\Delta t\).
+O que significa conservação local da massa?	A massa não pode desaparecer em um ponto e aparecer em outro sem passar pelo espaço entre eles.
+Por que aparece o sinal negativo no desenvolvimento?	Porque mais massa saindo que entrando implica diminuição da massa interna.
+O que representa \(\hat n\)?	O vetor unitário normal à face da área escolhida.
+O que ocorre com \(\rho\) no caso incompressível tratado?	É considerada constante e \(\partial\rho/\partial t=0\).
+Qual é a equação do caso 1D incompressível?	\(\partial u/\partial x=0\).
+Qual é a equação do caso 2D apresentado?	\(-\partial u/\partial x=\partial v/\partial y\).
+Qual é a equação do caso 3D apresentado?	\(-\partial u/\partial x=\partial v/\partial y+\partial w/\partial z\).
+No caso 2D, por que aparece um sinal negativo associado à direção \(x\)?	Porque a normal da superfície aponta em sentido oposto ao da velocidade \(u\).
+O que \(\nabla\cdot\mathbf V=0\) representa no contexto do material?	O balanceamento das variações espaciais das componentes da velocidade no escoamento incompressível.
+Qual a diferença conceitual e de acúmulo de massa entre Regime Permanente e Regime Transiente na visão do balanço?	No Regime Permanente não há acúmulo (a massa que entra é igual à que sai). No Transiente, há variação da massa interna no tempo (como uma caixa d'água enchendo/esvaziando).

@@ -39,8 +39,12 @@ $$
 $$
 
 ### Possível pergunta do professor
+
 **Pergunta:** A equação $\rho \frac{D(V)}{Dt} = \frac{F}{Vol}$ é aparentemente simples. Mas de onde vêm as forças externas representadas no lado direito?
-**Resposta:** Apesar desta equação ser aparentemente simples, existe uma série de complexidades do lado direito. De onde as forças externas podem vir? Considerando um objeto sólido, por exemplo, um cubo, como é possível fazer este cubo se mover?
+
+**Resposta:** Apesar desta equação ser aparentemente simples, existe uma série de complexidades do lado direito. 
+
+De onde as forças externas podem vir? Considerando um objeto sólido, por exemplo, um cubo, como é possível fazer este cubo se mover?
 
 ---
 

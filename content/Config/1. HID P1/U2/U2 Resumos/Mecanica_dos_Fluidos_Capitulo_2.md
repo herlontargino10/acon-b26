@@ -12,10 +12,16 @@ Isso força a necessidade de testes experimentais reais ou numéricos através d
 > [!NOTE] O que significa fisicamente?
 > A **dimensão** é a medida de uma quantidade física, enquanto a **unidade de medida** é apenas a forma de atribuir um número a essa dimensão. Por exemplo: comprimento é a dimensão, e o metro é a unidade.
 
+> ⚠️ **ÊNFASE DO PROFESSOR — PROVA**
+> O professor destacou este ponto durante a aula. Exemplo enfatizado: diferenciar variável dimensional (ex: dimensão de comprimento) e sua unidade (ex: metros).
+
 Existem 7 dimensões primárias (ou fundamentais/básicas). No entanto, para a **hidrodinâmica do navio**, apenas 3 dimensões básicas são estritamente necessárias, atuando como parâmetros de escala globais do problema:
 - Massa ($M$)
 - Comprimento ($L$)
 - Tempo ($T$)
+
+> ⚠️ **ÊNFASE DO PROFESSOR — PROVA**
+> O sistema MLT (massa, comprimento e tempo) foi explicitamente destacado como fundamental para a prova.
 
 A fonte também cita a existência do sistema $FLT$ (Força-Comprimento-Tempo), onde a força assume o papel primário no lugar da massa.
 
@@ -54,10 +60,22 @@ $$ \frac{F_{pressão}}{F_{inércia}} = \frac{\Delta p L^2}{\rho {V_0}^2 L^2} = \
 Chega-se ao Número de Euler:
 $$ Eu = \frac{\Delta p}{\rho {V_0}^2} $$
 
+### Pergunta destacada pelo professor
+**"O que é cavitação?"**
+**Resposta no PDF:** parcialmente desenvolvida na fonte. O PDF cita que em escoamentos próximos à cavitação o Número de Euler atua como índice de cavitação, mas não desenvolve profundamente o conceito físico em si do que é cavitação.
+[INDICAÇÃO DO PROFESSOR — REQUER CONFIRMAÇÃO/COMPLEMENTO]
+
 #### 5.2 Número de Reynolds ($Re$)
 O Número de Reynolds descreve a relação da **Força de Inércia versus a Força Viscosa**.
 - **O que significa fisicamente?** Governa a maioria dos fenômenos da mecânica dos fluidos, indicando a importância relativa entre a inércia do fluido e a viscosidade que freia o movimento.
 - **Aplicações na fonte:** Determina a transição entre o regime laminar e o regime turbulento nos escoamentos. O PDF apresenta o experimento clássico de Reynolds utilizando o traço de um corante ("dye filament") que demonstra visualmente quando o regime muda de laminar para turbulento. Em dutos comerciais, a transição ocorre em torno de $(Re_D)_{cr} \cong 2,3 \times 10^3$. Em escalas muito altas ($Re \approx 10^9$ ocorrentes na manobra de navios reais), as forças de inércia dominam, e as forças viscosas podem ser negligenciadas.
+
+### Perguntas destacadas pelo professor sobre escoamento e atrito:
+**"O fluido tem cisalhamento, por que?"**
+**"Posso ter atrito entre líquidos?"**
+**"Posso ter cisalhamento entre líquidos?"**
+**Resposta no PDF:** parcialmente desenvolvida na fonte. O material cita a lei da viscosidade de Newton e que a tensão de cisalhamento resulta em força viscosa (atrito interno que freia o movimento), mas a explicação mais detalhada do mecanismo físico sobre como ocorre o escoamento e o porquê o fluido tem cisalhamento não é plenamente expandida.
+[INDICAÇÃO DO PROFESSOR — REQUER CONFIRMAÇÃO/COMPLEMENTO]
 
 **Dedução:**
 A fonte estabelece que as forças viscosas seguem a lei da viscosidade de Newton, onde a tensão de cisalhamento ($\tau$) sobre uma área resulta em força viscosa:
@@ -82,6 +100,10 @@ Efetuando a normalização divisória:
 $$ \frac{F_{inércia}}{F_{gravidade}} = \frac{\rho {V_0}^2 L^2}{\rho L^3 g} = \frac{{V_0}^2}{g L} $$
 O material adota a raiz do termo analítico como a representação tradicional:
 $$ Fr = \sqrt{\frac{{V_0}^2}{gL}} = \frac{V_0}{\sqrt{gL}} $$
+
+### Ênfase do professor — Reynolds e Froude
+**Pergunta destacada:** **"Por que Reynolds e Froude são importantes na engenharia?"**
+**Resposta baseada no PDF:** Reynolds é fundamental na engenharia porque governa a transição entre regime laminar e turbulento e determina a resistência friccional (atrito). Froude é importante porque governa a formação de ondas de superfície e determina a resistência de formação de ondas, aspectos críticos para a operação de navios e resistência do casco.
 
 #### 5.4 Número de Weber ($Wn$)
 O Número de Weber estabelece a proporção entre **Forças de Inércia versus Forças de Tensão Superficial**.
@@ -108,6 +130,9 @@ A análise dimensional é o método prático base para compactar o número de va
 3. Prever tendências de variação entre os parâmetros.
 
 #### O Teorema $\pi$ de Buckingham (1914)
+> ⚠️ **ÊNFASE DO PROFESSOR — PROVA**
+> O Teorema $\pi$ de Buckingham foi expressamente indicado pelo professor como assunto da prova!
+
 Este teorema declara que as leis da física não dependem de um sistema específico de unidades. Qualquer lei física pode ser expressa utilizando apenas combinações adimensionais formadas pelas variáveis ligadas à lei (os grupos $\pi s$).
 
 **A Regra da Redução de Buckingham ($j = n - k$):**
@@ -115,12 +140,23 @@ A quantidade de agrupamentos $\pi s$ resultantes da análise é igual ao número
 Na equação, $n$ representa o total de variáveis do problema, e $k$ (ou $m$) representa as dimensões primárias operantes.
 
 **As Seis Etapas do Procedimento de Buckingham:**
+> ⚠️ **ÊNFASE DO PROFESSOR — PROVA**
+> O passo a passo das etapas envolvidas no teorema, incluindo a listagem inicial das variáveis, foram destacados para a prova.
+
 1. Liste as variáveis dimensionais do problema e conte-as ($n$), certificando-se de que são independentes.
 2. Liste as dimensões primárias presentes nessas variáveis ($m$). Na hidrodinâmica naval, tipicamente $M, L, T$.
 3. Descubra o número de agrupamentos adimensionais da análise calculando $\pi s = n - m$.
 4. Escolha as variáveis repetidas.
 5. Gere os $\pi s$ agrupando os parâmetros com o uso de expoentes algébricos.
 6. Determine o valor de cada expoente aplicando a condição de homogeneidade dimensional, assumindo os expoentes zero no lado esquerdo do grupo.
+
+### Ênfase do professor — Arqueação Bruta (AB)
+A anotação do professor trouxe um exemplo expresso no quadro relacionado a Arqueação Bruta:
+$$ AB = K \cdot V $$
+A anotação indica $V$ em $m^3$ e associa $K$ à dimensão/unidade de $1/m^3$.
+Expressão anotada pelo professor durante a aula — requer confirmação.
+**Resposta no PDF:** não consta no PDF (exemplo exclusivo da aula e requer complementação quanto à sua implicação).
+[INDICAÇÃO DO PROFESSOR — REQUER CONFIRMAÇÃO/COMPLEMENTO]
 
 ---
 
@@ -219,6 +255,9 @@ Para representar isso visualmente, a fonte descreve o gráfico *"Reynolds number
 ---
 
 ### 10. Similaridade
+> ⚠️ **ÊNFASE DO PROFESSOR — PROVA**
+> O fator de escala de modelo (escalonamento) foi expressamente listado pelo professor para a prova!
+
 Ao testar navios reduzidos em laboratório, é obrigatório utilizar três similaridades simultâneas estruturais de extrapolação:
 
 #### Similaridade Geométrica (Geosim)
@@ -273,3 +312,26 @@ A explicação física é clara: "Se o modelo precisa reproduzir corretamente os
 
 > [!WARNING] Inconsistências da Fonte
 > A transcrição didática base do PDF original exibe inconsistências visuais recorrentes relativas à falha do software gerador original na omissão contínua da partícula "ti". Faltam sílabas transcrevendo palavras para "quandade", "sica" (física), "cinéca" ou "parcula". Além de desvios textuais originais (ex: "este coeficiente é conhecimento como"), mantidos por fidelidade e registro da fonte original laboratorial de aula. Ocorreu também na formulação de deduções originais a troca silenciosa de notação por parte da prancheta autoral da aula entre $u$ e $V_0$ assumindo equivalência de referencial, que foi conservada inalterada neste rascunho de estudos de mecânica fluidodinâmica.
+
+---
+
+# Ênfases do Professor para a Prova
+
+## Perguntas conceituais
+- **Por que Reynolds e Froude são importantes na engenharia?** [PARCIALMENTE NO PDF]
+- **O fluido tem cisalhamento, por que?** [PARCIALMENTE NO PDF]
+- **Posso ter atrito entre líquidos?** [PARCIALMENTE NO PDF]
+- **Posso ter cisalhamento entre líquidos?** [PARCIALMENTE NO PDF]
+- **O que é cavitação?** [NÃO CONSTA/INSUFICIENTE NO PDF]
+
+## Procedimentos
+- **Teorema de Buckingham** [CONSTA NO PDF]
+- **Passo a passo das etapas envolvidas** [CONSTA NO PDF]
+- **Listagem das variáveis** [CONSTA NO PDF]
+- **Sistema MLT (massa, comprimento e tempo)** [CONSTA NO PDF]
+- **Exemplo de variável dimensional x unidade** [CONSTA NO PDF]
+- **Fator de escala de modelo** [CONSTA NO PDF]
+
+## Exercícios/expressões destacados
+- **Expressão envolvendo Arqueação Bruta:** $AB = K \cdot V$ (onde $V$ foi indicado em $m^3$) [NÃO CONSTA/INSUFICIENTE NO PDF]
+- **Indicação associada a $K$:** dimensão/unidade anotada como $1/m^3$ (expressão anotada pelo professor durante a aula — requer confirmação) [NÃO CONSTA/INSUFICIENTE NO PDF]
