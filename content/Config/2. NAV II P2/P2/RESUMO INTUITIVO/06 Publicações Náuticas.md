@@ -10,7 +10,7 @@ aliases: [Avisos aos Navegantes, Tábuas das Marés, Roteiro, Lista de Faróis, 
 
 # Tópico 6 — Publicações náuticas
 
-Anterior: [[05 Posicionamento Dinâmico]] · Próximo: [[07 CIS Bandeira Luzes e Marcas]] · Índice: [[00 Índice Navegação Prova 2]]
+Anterior: [[05 Posicionamento Dinâmico v1]] · Próximo: [[07 CIS Bandeira Luzes e Marcas]] · Índice: [[00 Índice Navegação Prova 2]]
 
 > [!note] Aviso
 > O deck traz cards de **identificação** ("qual publicação serve para quê"). O único ponto numérico é o alcance geográfico dos faróis, marcado como **extra**.
@@ -209,8 +209,8 @@ Nomes de portos e mares distraem; o **tipo de informação** decide.
 ## 12. Conexão entre os assuntos
 
 - [[03 ECDIS ENC]]: as atualizações digitais das ENCs vêm dos **Avisos aos Navegantes**, aplicadas automaticamente.
-- [[01 AIS]]: mensagens curtas de segurança (ex.: boia desaparecida) complementam os Avisos.
-- [[02 VTS LPS VTMIS]]: informação em tempo real; as publicações trazem a **planejada**.
+- [[01 AIS v1]]: mensagens curtas de segurança (ex.: boia desaparecida) complementam os Avisos.
+- [[02 VTS LPS VTMIS v1]]: informação em tempo real; as publicações trazem a **planejada**.
 - [[04 GNSS]]: a posição é plotada em cartas mantidas pelos Avisos.
 - Marés e correntes (outras matérias de Navegação): a Tábua alimenta o cálculo de altura de maré.
 - **Hidrodinâmica:** correntes e comportamento do navio em águas rasas dependem de maré e fundo.

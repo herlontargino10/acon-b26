@@ -4,21 +4,13 @@ topico: 2
 disciplina: Navegação
 curso: ACON-B
 prova: 2
-fonte: "navegação_prova_2.txt + ACON-B__NAV II 2° Prova__52_VTS.txt"
-atualizado: 2026-10-02
 tags: [navegacao, acon-b, prova-2, vts, lps, vtmis]
 aliases: [VTS, LPS, VTMIS, Vessel Traffic Service, Local Port Service]
 ---
 
 # Tópico 2 — VTS, LPS e VTMIS
 
-Anterior: [[01 AIS]] · Próximo: [[03 ECDIS ENC]] · Índice: [[00 Índice Navegação Prova 2]]
-
-> [!note] Como ler esta versão
-> Todo o conteúdo anterior foi **mantido**. O que veio do baralho atualizado `52_VTS` está marcado com **🆕**.
-
-> [!info] 🆕 O que mudou no baralho
-> O baralho `52_VTS` é quase igual ao anterior. **Mudou:** a definição de VTS (agora "sistema de manipulação e administração de informações") e a definição de VTMIS (agora "integra o monitoramento da navegação ao gerenciamento logístico e comercial do porto"). **Não aparecem mais no baralho novo** (mantidos nesta nota): o card "Diferencie LPS, VTS e VTMIS" e os três cards "O que caracteriza...", a lacuna dos três serviços do VTS, a lacuna "VTMIS foca na redução de papel (paperless)" e o card do TOS no formato antigo ("organizar o tráfego, prevenindo o desenvolvimento de situações perigosas e otimizando a utilização das vias de acesso").
+Anterior: [[01 AIS v1]] · Próximo: [[03 ECDIS ENC]] · Índice: [[00 Índice Navegação Prova 2]]
 
 ## 1. Explicação simples e intuitiva
 
@@ -35,14 +27,9 @@ Pense num **aeroporto**. Os aviões não decidem sozinhos quando pousar: existe 
 > [!tip] Para fixar
 > É uma **escada**: LPS → VTS → VTMIS. Quanto mais complexo o porto, mais sofisticado o sistema.
 
-🆕 Os três formam, no baralho, os **sistemas de gestão de tráfego aquaviário**: **LPS** (Serviço Local de Porto), **VTS** (Serviço de Tráfego de Embarcações) e **VTMIS** (Sistema de Gerenciamento e Informações de Tráfego de Embarcações).
-
 ## 2. O que o conceito representa
 
 **VTS, definição:** serviço implementado pela **autoridade marítima competente** (no Brasil, a Marinha) para aumentar a **segurança e a eficiência** do controle do tráfego e proteger o **meio ambiente**, por meio da **coleta, avaliação e disseminação** de dados selecionados.
-
-🆕 *Definição do baralho novo:* **sistema de manipulação e administração de informações**, realizado por meio da coleta, avaliação e disseminação de dados selecionados.
-🆕 **Finalidade do VTS:** monitorar o tráfego **em tempo real** para evitar acidentes e proteger o meio ambiente.
 
 **Diferencial do VTS:** padrões internacionais, pessoal treinado, **monitoramento ativo** e **intervenção** para evitar colisões e encalhes.
 
@@ -56,11 +43,9 @@ Pense num **aeroporto**. Os aviões não decidem sozinhos quando pousar: existe 
 
 Do mais "passivo" ao mais "ativo": INS → NAS → TOS.
 
-🆕 Ordem em que o baralho novo lista os serviços: **INS, TOS, NAS**. 🆕 TOS no baralho novo: controlar o tráfego de forma segura e eficiente e **prevenir situações de perigo na área VTS**.
-
 - **Objetivos (3):** minimizar acidentes · minimizar riscos à vida humana, ao meio ambiente e às infraestruturas · maximizar o uso eficiente dos navios e das vias de acesso.
 - **Propósitos (2):** interagir com o tráfego · responder a situações desenvolvidas na área do VTS.
-- **Componentes:** radar, AIS ([[01 AIS]]), VHF, CCTV, sensores meteorológicos e sistemas de gerenciamento de dados. 🆕 O baralho os chama de componentes e sensores **obrigatórios**.
+- **Componentes:** radar, AIS ([[01 AIS v1]]), VHF, CCTV, sensores meteorológicos e sistemas de gerenciamento de dados.
 - **Pessoal:** **VTSO** (Operador) e **VTSS** (Supervisor).
 - **Brasil:** a **DHN** homologa/licencia o VTS; operação regulamentada pela **NORMAM-26/602** (grafia como no deck).
 
@@ -68,8 +53,6 @@ Do mais "passivo" ao mais "ativo": INS → NAS → TOS.
 - Gestão **simplificada**, para portos/terminais onde um VTS completo seria excessivo.
 - Não segue padrões internacionais rígidos; usa meios simples (**VHF**, às vezes AIS).
 - Foco: **informação local e manobras simples**. Exemplo: terminal privado ou pequeno.
-- 🆕 *Definição do baralho:* serviço dedicado ao **monitoramento e suporte de manobras portuárias**, com foco na informação local e manobras simples.
-- 🆕 Contraste do baralho: LPS = forma simplificada, voltada a **portos menores** · VTS = maior complexidade, padrões internacionais, **sensores ativos** e **autoridade de intervenção**.
 
 ### VTMIS
 - **Ampliação/evolução do VTS**: integra vigilância marítima com informações **logísticas e portuárias**.
@@ -77,26 +60,19 @@ Do mais "passivo" ao mais "ativo": INS → NAS → TOS.
 - **Plataforma única** que centraliza dados **operacionais, financeiros e ambientais**, para aumentar a eficiência e reduzir custos.
 - Foca na **redução de papel** (*paperless*), otimização de berços, planejamento de manobras e agilidade na movimentação de cargas.
 - Exemplo: grande complexo portuário.
-- 🆕 *Definição do baralho novo:* ampliação do VTS que **integra o monitoramento da navegação ao gerenciamento logístico e comercial do porto**.
-- 🆕 **Objetivo do VTMIS:** aumentar a **eficiência portuária** e **compartilhar dados com agências externas**.
-- 🆕 Sigla: **Sistema de Gerenciamento e Informação (ões) de Tráfego de Embarcações**.
 
 ## 3. Como identificar o tipo de questão
 
 | Palavra no enunciado | Aponta para |
 |---|---|
 | "simplificado", "terminal pequeno/privado", "VHF", "sem padrões rígidos" | **LPS** |
-| 🆕 "monitoramento e suporte de manobras portuárias", "portos menores" | **LPS** |
 | "radar, AIS, VHF, CCTV", "padrões internacionais", "intervenção", "autoridade" | **VTS** |
-| 🆕 "sistema de manipulação e administração de informações", "tempo real para evitar acidentes", "sensores ativos" | **VTS** |
 | "logística", "berços", "paperless", "agências externas", "financeiros", "reduzir custos" | **VTMIS** |
-| 🆕 "gerenciamento logístico e comercial do porto", "eficiência portuária" | **VTMIS** |
 | "informações essenciais", "situação do tráfego" | **INS** |
 | "tomada de decisão a bordo" | **NAS** |
 | "organizar", "prevenir situações de perigo", "otimizar vias de acesso" | **TOS** |
 
 **Padrões típicos:** "Diferencie LPS, VTS e VTMIS" · "Foco de cada um + exemplo" · lacuna dos 3 serviços · "Qual é a ampliação do VTS?" · "Quem homologa o VTS no Brasil?"
-🆕 O baralho novo traz também: "Qual serviço é implementado por autoridade competente (no Brasil, a Marinha)...?" → VTS · lacuna "...é denominado ____" → VTS · "Quais são os sistemas de gestão de tráfego aquaviário?" (expansão das três siglas).
 
 **Diferenciar:**
 - **VTS vs VTMIS:** VTMIS = VTS **mais logística e comércio**.
@@ -111,16 +87,12 @@ Do mais "passivo" ao mais "ativo": INS → NAS → TOS.
 > - **Exemplos:** LPS → terminal privado/pequeno · VTS → porto de alta densidade e risco · VTMIS → grande complexo portuário.
 > - **Serviços:** *"Informo, Navego junto, organizo o Tráfego"* (INS, NAS, TOS).
 > - **VTSO** = **O**perador executa · **VTSS** = **S**upervisor coordena.
-> - 🆕 **Siglas por extenso:** **L**PS = **L**ocal **P**ort **S**ervice (Serviço Local de Porto) · **V**TS = **V**essel **T**raffic **S**ervice (Serviço de Tráfego de Embarcações) · **VTMIS** = gerenciamento **e informações** de tráfego de embarcações.
-> - 🆕 **Ordem do baralho novo:** INS, TOS, NAS ("I-T-N").
 
 > [!warning] Pegadinhas
 > - Trocar **INS por NAS**: INS informa o cenário; NAS ajuda a **decidir** a bordo.
 > - Dizer que o LPS tem **autoridade de intervenção**: é do VTS.
 > - Dizer que o VTMIS **substitui** o VTS: ele **evolui e integra** o VTS.
 > - Dizer que a DHN **opera** o VTS: ela **homologa/licencia**.
-> - 🆕 Achar que o VTS é só "um conjunto de equipamentos": o baralho o define como **sistema de manipulação e administração de informações** (coleta, avaliação e disseminação).
-> - 🆕 Esquecer o "**em tempo real**" na finalidade do VTS.
 
 Se a questão fala em logística, berços, custos, papel e agências externas, é **VTMIS**, não VTS.
 
@@ -135,19 +107,12 @@ Se a questão fala em logística, berços, custos, papel e agências externas, �
 
 Pergunte-se: *o que esse sistema precisa ter para resolver esse problema?*
 
-🆕 **Do baralho novo:**
-- "Serviço implementado por autoridade competente (Marinha, no Brasil) para aumentar a segurança e a eficiência e proteger o meio ambiente" → **VTS**.
-- "Sensores ativos + autoridade de intervenção + maior complexidade" → **VTS** (e não LPS).
-- "Compartilhar dados com agências externas + eficiência portuária" → **VTMIS**.
-- "Suporte de manobras portuárias, informação local" → **LPS**.
-
 ## 6. Mapa mental da questão
 
 1. **Tamanho do porto/problema:** simples, perigoso ou complexo e comercial?
 2. **Verbo do enunciado:** informar, aconselhar, organizar, integrar?
 3. **Lista de equipamentos:** só VHF (LPS) ou radar+AIS+CCTV (VTS)?
 4. **Foco:** segurança pura (VTS), logística (VTMIS), informação local (LPS).
-5. 🆕 **É lacuna de definição?** "...é denominado ____" → procure a pista "autoridade marítima competente", "segurança e eficiência do tráfego", "proteção do meio ambiente" → **VTS**.
 
 A palavra "porto" aparece em todos e não decide nada. Decida pelo **foco**.
 
@@ -168,28 +133,11 @@ A palavra "porto" aparece em todos e não decide nada. Decida pelo **foco**.
 
 **Q6. "Quem homologa o VTS no Brasil e qual a norma?"** **DHN** + **NORMAM-26/602** (memorização pura: "dois seis, seis zero dois").
 
-🆕 **Q7. "O que é o VTS (Vessel Traffic Service)?"** Sistema de manipulação e administração de informações, realizado por meio da **coleta, avaliação e disseminação** de dados selecionados. *Por que assim?* O card quer três verbos: coletar, avaliar, disseminar.
-
-🆕 **Q8. "Finalidade do VTS."** Monitorar o tráfego em tempo real para evitar acidentes e proteger o meio ambiente.
-
-🆕 **Q9. "Componentes e sensores obrigatórios."** Radar, AIS, VHF, CCTV, sensores meteorológicos e sistemas de gerenciamento de dados.
-
-🆕 **Q10. "Como o LPS se diferencia do VTS?"** LPS: forma simplificada, para portos menores. VTS: maior complexidade, padrões internacionais, sensores ativos e autoridade de intervenção.
-
-🆕 **Q11. "O que é o VTMIS e como se diferencia do VTS?"** Evolução do VTS que integra o monitoramento da navegação ao gerenciamento logístico e comercial do porto.
-
-🆕 **Q12. "Defina LPS."** Serviço dedicado ao monitoramento e suporte de manobras portuárias, com foco na informação local e manobras simples.
-
-🆕 **Q13. "Objetivo do VTMIS e como opera."** Objetivo: aumentar a eficiência portuária e compartilhar dados com agências externas. Opera: planeja a movimentação de embarcações e troca dados em tempo real entre porto e navio.
-
-🆕 **Q14. "Objetivos e propósitos do VTS."** Objetivos: minimizar acidentes · minimizar riscos à vida humana, ao meio ambiente e às infraestruturas · maximizar o uso eficiente dos navios e das vias de acesso. Propósitos: interagir com o tráfego · responder a situações desenvolvidas na área do VTS.
-
 ## 8. Como pensar sozinho
 
 1. É serviço "local e simples", de "segurança e interação" ou de "gestão integrada"? → LPS, VTS ou VTMIS.
 2. Dentro do VTS: a ação é *informar*, *ajudar a decidir* ou *organizar*? → INS, NAS ou TOS.
 3. Pergunta de lista: use a lógica (equipamentos do VTS = tudo que "enxerga e fala").
-4. 🆕 Definição: pense em **verbos**: VTS = coletar, avaliar, disseminar · VTMIS = integrar, planejar, compartilhar · LPS = monitorar e apoiar manobras.
 
 ## 9. Treinamento de raciocínio
 
@@ -204,14 +152,9 @@ A palavra "porto" aparece em todos e não decide nada. Decida pelo **foco**.
 - **M3.** Diferencie **INS** de **NAS** com um exemplo cada, em "neblina e tráfego intenso no canal".
 
 **Difíceis**
-- **D1.** O VTS perde o AIS, mas mantém radar e VHF. Que serviços ficam mais prejudicados? (pense no que o AIS fornecia, [[01 AIS]])
+- **D1.** O VTS perde o AIS, mas mantém radar e VHF. Que serviços ficam mais prejudicados? (pense no que o AIS fornecia, [[01 AIS v1]])
 - **D2.** Por que o VTMIS **não funciona bem** sem um VTS por baixo?
 - **D3.** Um colega diz "VTS e LPS são a mesma coisa". Monte um argumento com **três diferenças**.
-
-**🆕 Complemento do baralho novo**
-- **F4.** Complete: "Qualquer serviço implementado pela autoridade marítima competente para aumentar a segurança e a eficiência do controle do tráfego e a proteção do meio ambiente é denominado ____."
-- **M4.** Escreva as três siglas (LPS, VTS, VTMIS) por extenso, em português, como no baralho.
-- **D4.** Explique a diferença entre "monitorar o tráfego em tempo real para evitar acidentes" (VTS) e "planejar a movimentação de embarcações e trocar dados em tempo real entre porto e navio" (VTMIS).
 
 > [!question] Modo treinador
 > Tente por escrito antes de olhar qualquer gabarito.
@@ -222,16 +165,12 @@ A palavra "porto" aparece em todos e não decide nada. Decida pelo **foco**.
 **Q-B.** Plataforma que integra manobras, custos portuários e condições ambientais e envia informações a órgãos externos: LPS, VTS ou VTMIS?
 **Q-C.** Operador avisa: "Cruzamento com outro tráfego no canal em 15 minutos, aguarde fora do canal." Qual serviço?
 **Q-D.** VTS informa: "Visibilidade de 0,5 milha, maré enchente, três navios na área." Qual serviço?
-🆕 **Q-E.** "Serviço dedicado ao monitoramento e suporte de manobras portuárias, com foco na informação local." Qual sistema?
-🆕 **Q-F.** "Sistema de manipulação e administração de informações, realizado pela coleta, avaliação e disseminação de dados selecionados." Qual sistema?
 
 > [!success]- Gabarito comentado
 > - **Q-A:** equipamentos + pessoal treinado + intervenção → **VTS**.
 > - **Q-B:** dados financeiros, ambientais e operacionais + órgãos externos → **VTMIS**.
 > - **Q-C:** **organizar** o tráfego e evitar situação perigosa → **TOS**.
 > - **Q-D:** só **informa** o cenário → **INS**.
-> - 🆕 **Q-E:** **LPS**.
-> - 🆕 **Q-F:** **VTS**.
 
 ## 11. Erros mais comuns
 
@@ -244,13 +183,10 @@ A palavra "porto" aparece em todos e não decide nada. Decida pelo **foco**.
 | Esquecer *paperless* no VTMIS | Associe VTMIS a logística digital |
 | Exemplo errado | LPS: terminal pequeno · VTS: porto de alto risco · VTMIS: grande complexo |
 | DHN opera o VTS | Ela **homologa/licencia** |
-| 🆕 Esquecer "sensores ativos" no contraste LPS × VTS | VTS: maior complexidade, padrões internacionais, sensores ativos e intervenção |
-| 🆕 Confundir o objetivo do VTMIS com o do VTS | VTMIS: eficiência portuária + dados com agências externas · VTS: evitar acidentes + proteger o meio ambiente |
-| 🆕 Trocar a expansão das siglas | LPS = Serviço Local de Porto · VTS = Serviço de Tráfego de Embarcações · VTMIS = Sistema de Gerenciamento e Informações de Tráfego de Embarcações |
 
 ## 12. Conexão entre os assuntos
 
-- [[01 AIS]]: sensor obrigatório do VTS; dados de viagem alimentam o VTMIS.
+- [[01 AIS v1]]: sensor obrigatório do VTS; dados de viagem alimentam o VTMIS.
 - [[03 ECDIS ENC]]: você cruza a informação do VTS com a carta e os sensores.
 - [[06 Publicações Náuticas]]: Roteiro e Avisos dão a informação planejada; o VTS dá a **em tempo real**.
 - Responsabilidade pela navegação segura continua do **comandante**.
@@ -260,31 +196,13 @@ O navio **gera dados** (AIS, GNSS), o VTS **recebe, avalia e dissemina**, o VTMI
 
 ## 13. Resumo final de memorização rápida
 
-- **VTS** = serviço da autoridade marítima: segurança + eficiência + meio ambiente; **monitora e intervém**. 🆕 **Sistema de manipulação e administração de informações** (coleta, avaliação, disseminação); finalidade: monitorar o tráfego **em tempo real**.
+- **VTS** = serviço da autoridade marítima: segurança + eficiência + meio ambiente; **monitora e intervém**.
 - **Serviços:** INS (informa) · NAS (assiste a decisão) · TOS (organiza).
-- **Componentes:** radar, AIS, VHF, CCTV, meteorologia, gerenciamento de dados (🆕 obrigatórios).
+- **Componentes:** radar, AIS, VHF, CCTV, meteorologia, gerenciamento de dados.
 - **Pessoal:** VTSO (operador) e VTSS (supervisor). **Brasil:** DHN homologa · NORMAM-26/602.
-- **LPS:** simples, terminais pequenos, VHF, sem padrões rígidos. 🆕 Serviço de monitoramento e suporte de manobras portuárias.
-- **VTMIS:** ampliação do VTS + logística, *paperless*, berços, agências externas, plataforma única. 🆕 Integra o monitoramento da navegação ao gerenciamento logístico e comercial; objetivo: eficiência portuária + dados com agências externas.
+- **LPS:** simples, terminais pequenos, VHF, sem padrões rígidos.
+- **VTMIS:** ampliação do VTS + logística, *paperless*, berços, agências externas, plataforma única.
 - **10 segundos:** *simples/pequeno* → LPS · *radar+AIS+intervenção* → VTS · *logística/integra/papel* → VTMIS.
-
-### 🆕 Perguntas do baralho novo (revisão rápida)
-
-| Pergunta | Resposta |
-|---|---|
-| O que é o VTS? | Sistema de manipulação e administração de informações, por coleta, avaliação e disseminação de dados selecionados |
-| Três serviços | INS (Informações) · TOS (Organização do Tráfego) · NAS (Assistência à Navegação) |
-| Componentes e sensores obrigatórios | Radar, AIS, VHF, CCTV, sensores meteorológicos, gerenciamento de dados |
-| LPS × VTS | LPS: simplificada, portos menores · VTS: complexo, padrões internacionais, sensores ativos, intervenção |
-| VTMIS | Evolução do VTS: monitoramento + gerenciamento logístico e comercial do porto |
-| Homologação e norma (Brasil) | DHN · NORMAM-26/602 |
-| Profissionais | VTSO (operador) · VTSS (supervisor) |
-| Foco (exemplo) | VTMIS: segurança + eficiência logística (grande complexo portuário) · VTS: segurança da navegação e do tráfego (porto de alta densidade e risco) · LPS: informação local e manobra simples (terminal privado/pequeno) |
-| Diferencial do VTMIS | Plataforma única: dados operacionais, financeiros e ambientais; mais eficiência, menos custos portuários |
-| Diferencial do VTS | Padrões internacionais · pessoal treinado · monitoramento ativo e intervenção |
-| Diferencial do LPS | Sem padrões internacionais rigorosos; meios simples, como VHF |
-| Objetivos (3) / propósitos (2) | Minimizar acidentes · minimizar riscos à vida, ao meio ambiente e às infraestruturas · maximizar o uso eficiente de navios e vias · interagir com o tráfego · responder a situações na área VTS |
-| Objetivo e operação do VTMIS | Eficiência portuária e dados com agências externas · planeja movimentação e troca dados em tempo real porto-navio |
 
 ## 14. Modo treinador
 
@@ -292,4 +210,3 @@ O navio **gera dados** (AIS, GNSS), o VTS **recebe, avalia e dissemina**, o VTMI
 > 1. Porto pequeno quer apenas avisar horários de manobra. Por que LPS serve e VTS seria exagero?
 > 2. Diferença prática entre INS, NAS e TOS, com uma frase que o operador diria em cada um.
 > 3. Por que o VTMIS é "VTS + algo a mais"? Qual é esse "algo"?
-> 4. 🆕 Com suas palavras: o que o VTS faz com os dados (três verbos) e para quê?

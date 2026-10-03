@@ -10,7 +10,7 @@ aliases: [GNSS, GPS, trilateração, DGPS]
 
 # Tópico 4 — GNSS
 
-Anterior: [[03 ECDIS ENC]] · Próximo: [[05 Posicionamento Dinâmico]] · Índice: [[00 Índice Navegação Prova 2]]
+Anterior: [[03 ECDIS ENC]] · Próximo: [[05 Posicionamento Dinâmico v1]] · Índice: [[00 Índice Navegação Prova 2]]
 
 > [!note] Aviso
 > O deck tem **só um card** sobre GNSS (princípio de funcionamento), além de menções no DARPS (GPS/GLONASS diferencial). O que está marcado como **extra** não é do deck.
@@ -53,13 +53,13 @@ $$d = c \cdot \Delta t$$
 - Erro de tempo → erro de distância: $1\ \mu s \approx 300\ \text{m}$.
 - Menos de 4 satélites → a solução 3D deixa de ser possível.
 
-**Diferencial (extra):** uma estação de referência em posição **conhecida** compara o que o GPS diz com a posição real e transmite a **correção**. No deck: **DARPS** = GPS/GLONASS diferencial + rádio UHF, para posicionamento de alta precisão em offloading ([[05 Posicionamento Dinâmico]]).
+**Diferencial (extra):** uma estação de referência em posição **conhecida** compara o que o GPS diz com a posição real e transmite a **correção**. No deck: **DARPS** = GPS/GLONASS diferencial + rádio UHF, para posicionamento de alta precisão em offloading ([[05 Posicionamento Dinâmico v1]]).
 
 ## 3. Como identificar o tipo de questão
 
 - "**trilateração**" · "tempo de propagação" · "pelo menos **quatro** satélites" · "posição tridimensional e **tempo exato**" → princípio do GNSS.
 - "diferencial" · "GPS/GLONASS" · "estação de referência" → DGPS, DARPS.
-- "independente do GPS" → sistemas alternativos (CyScan, [[05 Posicionamento Dinâmico]]).
+- "independente do GPS" → sistemas alternativos (CyScan, [[05 Posicionamento Dinâmico v1]]).
 
 **Padrões típicos:** "Explique o princípio do GNSS" (card do deck) · V/F com palavra trocada ("triangulação", "três satélites", "bidimensional") · lacuna "o receptor mede o tempo de ___".
 
@@ -181,10 +181,10 @@ $d = 300\,000\ \text{km/s} \times 2\times10^{-6}\ \text{s} = 0{,}6\ \text{km} = 
 
 ## 12. Conexão entre os assuntos
 
-- [[01 AIS]]: a posição transmitida vem do GNSS. Se erra, o erro viaja pelo VHF.
+- [[01 AIS v1]]: a posição transmitida vem do GNSS. Se erra, o erro viaja pelo VHF.
 - [[03 ECDIS ENC]]: posiciona seu navio na carta; a sobreposição de ecos de radar **checa** essa posição.
-- [[02 VTS LPS VTMIS]]: usa posições recebidas via AIS.
-- [[05 Posicionamento Dinâmico]]: GNSS (inclusive diferencial, no DARPS) é um sistema de referência; CyScan e FanBeam dão independência do GPS.
+- [[02 VTS LPS VTMIS v1]]: usa posições recebidas via AIS.
+- [[05 Posicionamento Dinâmico v1]]: GNSS (inclusive diferencial, no DARPS) é um sistema de referência; CyScan e FanBeam dão independência do GPS.
 - [[06 Publicações Náuticas]]: a posição é plotada em cartas mantidas atualizadas pelos Avisos.
 
 O GNSS é a **fonte** de posição de quase tudo no passadiço; por isso nunca é verdade absoluta.
@@ -197,7 +197,7 @@ O GNSS é a **fonte** de posição de quase tudo no passadiço; por isso nunca �
 - **Por que 4:** 3 de posição + 1 do relógio.
 - **Diferencial (GPS/GLONASS + UHF):** **DARPS**, offloading.
 - **Pegadinhas:** triangulação, "3 satélites", ângulos.
-- **10 segundos:** *tempo de propagação, quatro satélites, trilateração* → GNSS; *independente do GPS* → laser ([[05 Posicionamento Dinâmico]]).
+- **10 segundos:** *tempo de propagação, quatro satélites, trilateração* → GNSS; *independente do GPS* → laser ([[05 Posicionamento Dinâmico v1]]).
 
 ## 14. Modo treinador
 

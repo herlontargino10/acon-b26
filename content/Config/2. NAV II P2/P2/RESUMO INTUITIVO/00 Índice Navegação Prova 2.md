@@ -15,11 +15,11 @@ Base: deck Anki `navegação_prova_2.txt`. Cada tópico segue o roteiro de 14 bl
 
 | # | Nota | Assunto-chave |
 |---|---|---|
-| 1 | [[01 AIS]] | Troca automática por VHF, SOTDMA, 3 categorias de dados |
-| 2 | [[02 VTS LPS VTMIS]] | Escada de complexidade, INS/NAS/TOS |
+| 1 | [[01 AIS v1]] | Troca automática por VHF, SOTDMA, 3 categorias de dados |
+| 2 | [[02 VTS LPS VTMIS v1]] | Escada de complexidade, INS/NAS/TOS |
 | 3 | [[03 ECDIS ENC]] | ECDIS, ENC, S-57, RENC, ZoC, atualização |
 | 4 | [[04 GNSS]] | Trilateração, 4 satélites, $d = c \cdot \Delta t$ |
-| 5 | [[05 Posicionamento Dinâmico]] | DP, DARPS, Artemis, FanBeam, CyScan, Taut Wire |
+| 5 | [[05 Posicionamento Dinâmico v1]] | DP, DARPS, Artemis, FanBeam, CyScan, Taut Wire |
 | 6 | [[06 Publicações Náuticas]] | Avisos, Tábuas, Roteiro, Faróis, Auxílios-Rádio, Carta 12000 |
 | 7 | [[07 CIS Bandeira Luzes e Marcas]] | CIS, cerimonial, embandeiramento, esferas e luzes |
 

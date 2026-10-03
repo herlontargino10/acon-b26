@@ -211,9 +211,9 @@ Pense em **situação → sinal** e reconstrua a regra em vez de decorar lista s
 
 ## 12. Conexão entre os assuntos
 
-- [[01 AIS]]: informa o **estado da navegação** (ex.: sem governo, fundeado); marcas e luzes fazem o mesmo para quem não tem AIS ou está fora do alcance VHF.
+- [[01 AIS v1]]: informa o **estado da navegação** (ex.: sem governo, fundeado); marcas e luzes fazem o mesmo para quem não tem AIS ou está fora do alcance VHF.
 - [[03 ECDIS ENC]] e radar: não leem esferas nem luzes; a **observação visual** completa o quadro.
-- [[02 VTS LPS VTMIS]]: pode informar sobre navios sem governo ou fundeados, mas a identificação visual continua importante.
+- [[02 VTS LPS VTMIS v1]]: pode informar sobre navios sem governo ou fundeados, mas a identificação visual continua importante.
 - **CIS** complementa o VHF quando há barreira de idioma ou falha de rádio.
 - [[06 Publicações Náuticas]]: a Lista de Faróis ajuda a reconhecer luzes **fixas** em terra; luzes de navio são outra coisa.
 - **COLREG** (outra matéria): base legal das luzes e marcas e das regras de governo.
