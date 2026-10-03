@@ -1,2 +1,2 @@
-- [01 - Estudo dos Oceanos](01_Estudo_dos_Oceanos.pdf)
-- [02 - Estudo das Marés ](02_Maré.pdf)
+- [01 - Estudo dos Oceanos](Aulas/Oceonografia-Física-Ana-Cristina/Apostilas/01_Estudo_dos_Oceanos.pdf)
+- [02 - Estudo das Marés ](Aulas/Oceonografia-Física-Ana-Cristina/Apostilas/02_Maré.pdf)
