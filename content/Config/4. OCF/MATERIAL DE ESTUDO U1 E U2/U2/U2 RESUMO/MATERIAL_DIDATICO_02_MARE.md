@@ -1,4 +1,4 @@
-# MATERIAL DIDÁTICO — 02 MARÉ
+____
 
 ## 1. Teoria das Marés
 

@@ -837,3 +837,5 @@ A ordem mais lógica para executar é:
 Porque existe uma dependência importante:
 
 **Questão 2 cria a rota → Questão 3 identifica os WPT → Questão 4 verifica → Questão 6 adiciona referências → Questão 5 calcula a ETA → Questão 10 usa essa ETA para determinar a maré.**
+
+12. Registre na carta

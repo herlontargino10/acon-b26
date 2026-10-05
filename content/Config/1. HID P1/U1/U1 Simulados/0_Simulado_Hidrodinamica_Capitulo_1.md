@@ -41,7 +41,7 @@ $$
 \nabla\cdot\mathbf V=0.
 $$
 
-**V.** Para aplicar a conservação da massa nos casos 1D, 2D e 3D, o valor da velocidade \(u\), \(v\) e \(w\) é suficiente, não sendo necessárias suas variações espaciais.
+**V.** Para aplicar a conservação da massa nos casos 1D, 2D e 3D, o valor da velocidade $u$, $v$ e $w$ é suficiente, não sendo necessárias suas variações espaciais.
 
 **São corretas:**
 
@@ -61,8 +61,8 @@ $$
 
 Em relação à massa específica e à massa de um fluido, assinale a alternativa CORRETA.
 
-- **(a)** A massa específica é representada por \(m\) e relaciona volume e velocidade.
-- **(b)** A massa de um fluido pode ser determinada pela relação \(m=\rho V\).
+- **(a)** A massa específica é representada por $m$ e relaciona volume e velocidade.
+- **(b)** A massa de um fluido pode ser determinada pela relação $m=\rho V$.
 - **(c)** A massa específica é independente do volume considerado.
 - **(d)** A massa é uma taxa de quantidade de fluido por unidade de tempo.
 - **(e)** A massa específica é determinada exclusivamente pela área da superfície de controle.
@@ -71,9 +71,9 @@ Em relação à massa específica e à massa de um fluido, assinale a alternativ
 
 Em relação à vazão mássica, assinale a alternativa CORRETA.
 
-- **(a)** A vazão mássica é dada por \(\dot m=\rho u/A\).
+- **(a)** A vazão mássica é dada por $\dot m=\rho u/A$.
 - **(b)** A vazão mássica representa a massa total contida no volume de controle.
-- **(c)** A vazão mássica através de uma face pode ser determinada por \(\dot m=\rho uA\).
+- **(c)** A vazão mássica através de uma face pode ser determinada por $\dot m=\rho uA$.
 - **(d)** A vazão mássica independe da massa específica do fluido.
 - **(e)** A vazão mássica é sempre igual a zero em um volume de controle fixo.
 
@@ -92,19 +92,19 @@ Em relação à equação da continuidade, assinale a alternativa CORRETA.
 Em relação ao caso incompressível apresentado no capítulo, assinale a alternativa CORRETA.
 
 - **(a)** A massa específica varia continuamente com o tempo.
-- **(b)** A condição incompressível resulta em \(\partial\rho/\partial t=0\), segundo a hipótese apresentada.
+- **(b)** A condição incompressível resulta em $\partial\rho/\partial t=0$, segundo a hipótese apresentada.
 - **(c)** A equação da continuidade deixa de ser válida.
 - **(d)** A velocidade necessariamente possui o mesmo valor em todas as direções.
-- **(e)** O vetor velocidade deixa de possuir as componentes \(u\), \(v\) e \(w\).
+- **(e)** O vetor velocidade deixa de possuir as componentes $u$, $v$ e $w$.
 
 ### 2.5
 
 Em relação à interpretação física das derivadas espaciais da velocidade, assinale a alternativa CORRETA.
 
-- **(a)** \(\partial u/\partial x\) representa simplesmente o valor da velocidade na direção \(x\).
-- **(b)** Se \(\partial u/\partial x>0\), o material interpreta essa situação como massa saindo na direção \(x\).
-- **(c)** A conservação da massa depende somente de \(u\), independentemente de sua variação espacial.
-- **(d)** No caso 3D, somente \(\partial u/\partial x\) participa da conservação da massa.
+- **(a)** $\partial u/\partial x$ representa simplesmente o valor da velocidade na direção $x$.
+- **(b)** Se $\partial u/\partial x>0$, o material interpreta essa situação como massa saindo na direção $x$.
+- **(c)** A conservação da massa depende somente de $u$, independentemente de sua variação espacial.
+- **(d)** No caso 3D, somente $\partial u/\partial x$ participa da conservação da massa.
 - **(e)** As derivadas espaciais da velocidade não possuem interpretação física no volume de controle.
 
 ---
@@ -191,7 +191,7 @@ $$
 \frac{\partial u}{\partial x}=0.
 $$
 
-Isso significa que não existe variação de \(u\) na direção \(x\).
+Isso significa que não existe variação de $u$ na direção $x$.
 
 **Justificativa:**
 
@@ -201,7 +201,7 @@ ____________________________________________________________________
 
 ### 4.5
 
-**(__________)** Para aplicar a conservação da massa nos casos 1D, 2D e 3D, basta conhecer os valores das velocidades \(u\), \(v\) e \(w\), sem considerar suas variações no espaço.
+**(__________)** Para aplicar a conservação da massa nos casos 1D, 2D e 3D, basta conhecer os valores das velocidades $u$, $v$ e $w$, sem considerar suas variações no espaço.
 
 **Justificativa:**
 
@@ -285,7 +285,7 @@ $$
 
 **Resposta: (c) I, II, III e IV.**
 
-A afirmativa V é falsa porque o capítulo enfatiza que são necessárias as **variações espaciais da velocidade**, e não simplesmente os valores de \(u,v,w\).
+A afirmativa V é falsa porque o capítulo enfatiza que são necessárias as **variações espaciais da velocidade**, e não simplesmente os valores de $u,v,w$.
 
 ---
 
@@ -305,7 +305,7 @@ A afirmativa V é falsa porque o capítulo enfatiza que são necessárias as **v
 
 ### 3.1
 
-**Massa específica**, representada por \(\rho\).
+**Massa específica**, representada por $\rho$.
 
 $$
 m=\rho V

@@ -1,2 +1,0 @@
-MAN CORR
-MAPS

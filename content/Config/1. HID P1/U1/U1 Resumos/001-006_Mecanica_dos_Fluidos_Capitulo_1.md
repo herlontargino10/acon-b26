@@ -36,7 +36,7 @@ Na Hidrodinâmica do Navio, o material afirma que tipicamente são empregados os
 
 # 2. Massa e Massa Específica
 
-O material relaciona a massa \(m\) de um fluido ao volume por meio da densidade absoluta ou massa específica \(\rho\):
+O material relaciona a massa $m$ de um fluido ao volume por meio da densidade absoluta ou massa específica $\rho$:
 
 $$
 m=\rho\,\Delta x\,\Delta y\,\Delta z
@@ -63,7 +63,7 @@ A massa específica é a grandeza que relaciona massa e volume.
 
 A conservação da massa é aplicada a um **volume fixo no espaço**, de forma arbitrária, que contém fluido. Esse volume é chamado de **volume de controle**. O fluido pode entrar ou sair dele.
 
-Inicialmente o material considera um escoamento **unidirecional (1D)**, na direção \(x\), usando um cubo como volume de controle.
+Inicialmente o material considera um escoamento **unidirecional (1D)**, na direção $x$, usando um cubo como volume de controle.
 
 Suas dimensões são:
 
@@ -227,9 +227,9 @@ $$
 
 onde:
 
-- \(u\) = velocidade na direção \(x\);
-- \(v\) = velocidade na direção \(y\);
-- \(w\) = velocidade na direção \(z\).
+- $u$ = velocidade na direção $x$;
+- $v$ = velocidade na direção $y$;
+- $w$ = velocidade na direção $z$.
 
 
 
@@ -310,10 +310,10 @@ $$
 
 A expansão das três derivadas espaciais apresentada imediatamente antes indica a operação de divergência. Por isso, a mesma relação pode ser escrita explicitamente como:
 
-e define \(\mathbf V\) como o vetor velocidade com componentes \(u,v,w\).
+e define $\mathbf V$ como o vetor velocidade com componentes $u,v,w$.
 
 > [!note] Notação do PDF
-> O PDF mostra graficamente \(\nabla(\rho V)\). Como a expressão corresponde às três derivadas espaciais apresentadas imediatamente antes, neste material a operação é explicitada como divergência:
+> O PDF mostra graficamente $\nabla(\rho V)$. Como a expressão corresponde às três derivadas espaciais apresentadas imediatamente antes, neste material a operação é explicitada como divergência:
 >
 > $$
 > \boxed{
@@ -354,7 +354,7 @@ $$
 }
 $$
 
-onde \(\hat n\) é o vetor unitário ortogonal à face da área escolhida.
+onde $\hat n$ é o vetor unitário ortogonal à face da área escolhida.
 
 O material informa ainda que essa equação pode ser obtida pelo **princípio da divergência de Gauss**.
 
@@ -459,7 +459,7 @@ $$
 \frac{\partial u}{\partial x}>0
 $$
 
-o material interpreta como massa saindo na direção \(x\).
+o material interpreta como massa saindo na direção $x$.
 
 Analogamente:
 
@@ -467,13 +467,13 @@ $$
 \frac{\partial v}{\partial y}>0
 $$
 
-indica massa saindo na direção \(y\), e:
+indica massa saindo na direção $y$, e:
 
 $$
 \frac{\partial w}{\partial z}>0
 $$
 
-indica massa saindo na direção \(z\).
+indica massa saindo na direção $z$.
 
 > [!warning] Pegadinha
 > O foco está nas **variações espaciais da velocidade**, não simplesmente no valor da velocidade.
@@ -495,11 +495,11 @@ O material interpreta isso como:
 
 No exemplo 2D:
 
-- a entrada ocorre na direção \(x\);
-- a saída em \(x\) é fechada;
-- a saída ocorre por uma janela na direção \(y\).
+- a entrada ocorre na direção $x$;
+- a saída em $x$ é fechada;
+- a saída ocorre por uma janela na direção $y$.
 
-O material destaca que a velocidade associada à direção \(x\) aparece com sinal negativo porque a normal da superfície aponta em sentido oposto ao da velocidade \(u\).
+O material destaca que a velocidade associada à direção $x$ aparece com sinal negativo porque a normal da superfície aponta em sentido oposto ao da velocidade $u$.
 
 O balanço é:
 
@@ -518,7 +518,7 @@ $$
 
 # 18. Caso 3D Incompressível
 
-No exemplo 3D, a entrada ocorre na direção \(x\), enquanto existem saídas em \(y\) e \(z\).
+No exemplo 3D, a entrada ocorre na direção $x$, enquanto existem saídas em $y$ e $z$.
 
 O material apresenta:
 
@@ -549,9 +549,9 @@ $$
 
 | Caso | Equação | Interpretação |
 |---|---|---|
-| 1D | \(\frac{\partial u}{\partial x}=0\) | A variação de \(u\) em \(x\) é nula |
-| 2D | \(-\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\) | A variação em \(x\) é equilibrada pela variação em \(y\) |
-| 3D | \(-\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}+\frac{\partial w}{\partial z}\) | A variação em \(x\) é equilibrada pelas variações em \(y\) e \(z\) |
+| 1D | $\frac{\partial u}{\partial x}=0$ | A variação de $u$ em $x$ é nula |
+| 2D | $-\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}$ | A variação em $x$ é equilibrada pela variação em $y$ |
+| 3D | $-\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}+\frac{\partial w}{\partial z}$ | A variação em $x$ é equilibrada pelas variações em $y$ e $z$ |
 
 A forma geral que reúne os casos é:
 
@@ -582,7 +582,7 @@ $$
 \frac{\partial w}{\partial z}
 $$
 
-e não simplesmente em \(u,v,w\).
+e não simplesmente em $u,v,w$.
 
 # 21. Perguntas que o Professor Pode Fazer
 
@@ -596,7 +596,7 @@ e não simplesmente em \(u,v,w\).
 
 ### "O que é massa específica?"
 
-**Resposta:** É a densidade absoluta, representada por \(\rho\).
+**Resposta:** É a densidade absoluta, representada por $\rho$.
 
 ### "Qual é a relação entre massa, densidade e volume?"
 
@@ -624,7 +624,7 @@ $$
 
 ### "Quais são as componentes do vetor velocidade?"
 
-**Resposta:** \(u\), \(v\) e \(w\), nas direções \(x\), \(y\) e \(z\).
+**Resposta:** $u$, $v$ e $w$, nas direções $x$, $y$ e $z$.
 
 ### "Como é chamada também a conservação da massa?"
 
@@ -650,21 +650,21 @@ $$
 \nabla\cdot\mathbf V=0
 $$
 
-### "O que significa \(\partial u/\partial x>0\)?"
+### "O que significa $\partial u/\partial x>0$?"
 
-**Resposta:** Segundo a interpretação apresentada no material, existe massa saindo na direção \(x\).
+**Resposta:** Segundo a interpretação apresentada no material, existe massa saindo na direção $x$.
 
 ### "Qual é a diferença entre os casos 1D, 2D e 3D?"
 
-**Resposta:** No 1D participa apenas a variação de \(u\) em \(x\); no 2D participam as variações em \(x\) e \(y\); no 3D participam as variações em \(x\), \(y\) e \(z\).
+**Resposta:** No 1D participa apenas a variação de $u$ em $x$; no 2D participam as variações em $x$ e $y$; no 3D participam as variações em $x$, $y$ e $z$.
 
 # 22. Pegadinhas e Pontos de Atenção
 
 > [!warning] Massa × massa específica
-> \(m\) é massa; \(\rho\) é massa específica.
+> $m$ é massa; $\rho$ é massa específica.
 
 > [!warning] Massa × vazão mássica
-> \(m\) é massa; \(\dot m\) é taxa de massa por unidade de tempo.
+> $m$ é massa; $\dot m$ é taxa de massa por unidade de tempo.
 
 > [!warning] Volume de controle × fluido
 > O volume de controle é a região fixa utilizada para análise; o fluido atravessa suas superfícies.
@@ -673,10 +673,10 @@ $$
 > O material inicialmente apresenta a diferença entre saída e entrada e, no desenvolvimento, introduz o sinal negativo para representar a redução da massa interna quando a saída supera a entrada.
 
 > [!warning] Velocidade × variação da velocidade
-> \(u\) é uma componente da velocidade; \(\partial u/\partial x\) é sua variação espacial.
+> $u$ é uma componente da velocidade; $\partial u/\partial x$ é sua variação espacial.
 
 > [!warning] Continuidade geral × incompressível
-> A forma geral contém \(\rho\) e \(\partial\rho/\partial t\); a forma \(\nabla\cdot V=0\) é a forma simplificada para o caso incompressível tratado.
+> A forma geral contém $\rho$ e $\partial\rho/\partial t$; a forma $\nabla\cdot V=0$ é a forma simplificada para o caso incompressível tratado.
 
 > [!warning] Sinal no caso 2D
 > O material relaciona o sinal à orientação da normal da superfície em relação à velocidade.
@@ -757,7 +757,7 @@ $$
 
 - Três leis: **massa, quantidade de movimento e energia**.
 - Na Hidrodinâmica do Navio, o material destaca massa e quantidade de movimento.
-- Massa específica: \(\rho\).
+- Massa específica: $\rho$.
 - Massa:
   $$
   m=\rho V
@@ -768,7 +768,7 @@ $$
   \dot m=\rho uA
   $$
 - A conservação da massa é uma lei **local**.
-- O caso 1D é generalizado para 3D usando \(u,v,w\).
+- O caso 1D é generalizado para 3D usando $u,v,w$.
 - Forma diferencial:
   $$
   \frac{\partial(\rho u)}{\partial x}
@@ -818,9 +818,9 @@ $$
 
 O próprio PDF explica que o sinal negativo representa a diminuição da massa interna quando há mais massa saindo que entrando.
 
-## 26.2 Notação de \(\nabla\)
+## 26.2 Notação de $\nabla$
 
-O PDF mostra \(\nabla(\rho V)\). Neste capítulo, a operação é explicitada como divergência:
+O PDF mostra $\nabla(\rho V)$. Neste capítulo, a operação é explicitada como divergência:
 
 $$
 \nabla\cdot(\rho\mathbf V)
@@ -840,34 +840,34 @@ A afirmação de que água ou ar serão tratados como incompressíveis é aprese
 |---|---|
 | Quais são as três leis de conservação apresentadas? | Conservação da massa; conservação da quantidade de movimento; conservação da energia. |
 | Quais princípios são tipicamente empregados na Hidrodinâmica do Navio? | Conservação da massa e conservação da quantidade de movimento. |
-| O que é massa específica? | Densidade absoluta do fluido, representada por \(\rho\). |
-| Qual é a relação entre massa, massa específica e volume? | \(m=\rho V\). |
+| O que é massa específica? | Densidade absoluta do fluido, representada por $\rho$. |
+| Qual é a relação entre massa, massa específica e volume? | $m=\rho V$. |
 | O que é um volume de controle? | Um volume fixo no espaço usado para analisar o fluido. |
 | O que é vazão mássica? | Taxa de quantidade de fluido por unidade de tempo que passa por uma face. |
-| Qual é a expressão da vazão mássica? | \(\dot m=\rho uA\). |
-| Quais são as componentes do vetor velocidade? | \(u\) em \(x\), \(v\) em \(y\) e \(w\) em \(z\). |
+| Qual é a expressão da vazão mássica? | $\dot m=\rho uA$. |
+| Quais são as componentes do vetor velocidade? | $u$ em $x$, $v$ em $y$ e $w$ em $z$. |
 | Como também é chamada a conservação da massa? | Equação da continuidade. |
-| Qual é a forma diferencial da continuidade? | \(\frac{\partial(\rho u)}{\partial x}+\frac{\partial(\rho v)}{\partial y}+\frac{\partial(\rho w)}{\partial z}+\frac{\partial\rho}{\partial t}=0\). |
-| Qual é a forma da continuidade para o caso incompressível? | \(\nabla\cdot\mathbf V=0\). |
-| Qual é a forma cartesiana da continuidade incompressível? | \(\frac{\partial u}{\partial x}+\frac{\partial v}{\partial y}+\frac{\partial w}{\partial z}=0\). |
-| O que significa \(\partial u/\partial x>0\) segundo o material? | Existe massa saindo na direção \(x\). |
+| Qual é a forma diferencial da continuidade? | $\frac{\partial(\rho u)}{\partial x}+\frac{\partial(\rho v)}{\partial y}+\frac{\partial(\rho w)}{\partial z}+\frac{\partial\rho}{\partial t}=0$. |
+| Qual é a forma da continuidade para o caso incompressível? | $\nabla\cdot\mathbf V=0$. |
+| Qual é a forma cartesiana da continuidade incompressível? | $\frac{\partial u}{\partial x}+\frac{\partial v}{\partial y}+\frac{\partial w}{\partial z}=0$. |
+| O que significa $\partial u/\partial x>0$ segundo o material? | Existe massa saindo na direção $x$. |
 | O que é necessário conhecer para aplicar a conservação de massa nos três casos? | As variações da velocidade no espaço. |
 
 ## Importantes
 
 | Frente | Verso |
 |---|---|
-| Como é expressa a vazão de saída? | \(\dot m_{out}=\rho_2u_2A_2\). |
-| Como é expressa a vazão de entrada? | \(\dot m_{in}=\rho_1u_1A_1\). |
-| Qual é a área da face considerada? | \(A=\Delta y\Delta z\). |
-| Como o material relaciona \(u\), \(\Delta x\) e \(\Delta t\)? | \(u=\Delta x/\Delta t\). |
+| Como é expressa a vazão de saída? | $\dot m_{out}=\rho_2u_2A_2$. |
+| Como é expressa a vazão de entrada? | $\dot m_{in}=\rho_1u_1A_1$. |
+| Qual é a área da face considerada? | $A=\Delta y\Delta z$. |
+| Como o material relaciona $u$, $\Delta x$ e $\Delta t$? | $u=\Delta x/\Delta t$. |
 | O que significa conservação local da massa? | A massa não pode desaparecer em um ponto e aparecer em outro sem passar pelo espaço entre eles. |
 | Por que aparece o sinal negativo no desenvolvimento? | Porque mais massa saindo que entrando implica diminuição da massa interna. |
-| O que representa \(\hat n\)? | O vetor unitário normal à face da área escolhida. |
-| O que ocorre com \(\rho\) no caso incompressível tratado? | É considerada constante e \(\partial\rho/\partial t=0\). |
-| Qual é a equação do caso 1D incompressível? | \(\partial u/\partial x=0\). |
-| Qual é a equação do caso 2D apresentado? | \(-\partial u/\partial x=\partial v/\partial y\). |
-| Qual é a equação do caso 3D apresentado? | \(-\partial u/\partial x=\partial v/\partial y+\partial w/\partial z\). |
+| O que representa $\hat n$? | O vetor unitário normal à face da área escolhida. |
+| O que ocorre com $\rho$ no caso incompressível tratado? | É considerada constante e $\partial\rho/\partial t=0$. |
+| Qual é a equação do caso 1D incompressível? | $\partial u/\partial x=0$. |
+| Qual é a equação do caso 2D apresentado? | $-\partial u/\partial x=\partial v/\partial y$. |
+| Qual é a equação do caso 3D apresentado? | $-\partial u/\partial x=\partial v/\partial y+\partial w/\partial z$. |
 
 ## Aplicação e interpretação
 
@@ -876,8 +876,8 @@ A afirmação de que água ou ar serão tratados como incompressíveis é aprese
 | Se entra mais massa do que sai, o que acontece à massa interna? | A massa interna aumenta. |
 | Se sai mais massa do que entra, o que acontece à massa interna? | A massa interna diminui. |
 | Se entrada e saída são iguais, o que ocorre? | Não há acúmulo de massa. |
-| No caso 2D, por que aparece um sinal negativo associado à direção \(x\)? | Porque a normal da superfície aponta em sentido oposto ao da velocidade \(u\). |
-| O que \(\nabla\cdot\mathbf V=0\) representa no contexto do material? | O balanceamento das variações espaciais das componentes da velocidade no escoamento incompressível. |
+| No caso 2D, por que aparece um sinal negativo associado à direção $x$? | Porque a normal da superfície aponta em sentido oposto ao da velocidade $u$. |
+| O que $\nabla\cdot\mathbf V=0$ representa no contexto do material? | O balanceamento das variações espaciais das componentes da velocidade no escoamento incompressível. |
 
 # 29. Resumo de Fechamento
 
@@ -943,6 +943,6 @@ Este capítulo, portanto, **não termina na introdução ao volume de controle**
 - Mantidas as fórmulas em blocos matemáticos compatíveis com Obsidian.
 - Recuperada a observação do PDF sobre a conservação da energia e a temperatura.
 - Recuperada a observação do PDF sobre o interesse na variação de uma quantidade.
-- Explicitado que, no caso 2D apresentado, a velocidade de saída em \(y\) é positiva.
+- Explicitado que, no caso 2D apresentado, a velocidade de saída em $y$ é positiva.
 - Mantida a distinção entre a notação compacta mostrada no PDF e a forma explícita com divergência.
 - Não foram acrescentados conteúdos técnicos externos ao desenvolvimento das páginas 1–6.

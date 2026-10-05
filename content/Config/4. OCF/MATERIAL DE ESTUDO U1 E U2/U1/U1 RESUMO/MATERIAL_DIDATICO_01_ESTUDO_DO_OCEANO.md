@@ -1,7 +1,3 @@
-# OCEANOGRAFIA FÍSICA
-
-**Unidade de Ensino 1 (UE1) - Estudos dos Oceanos**
-*Curso Especial de Acesso a Segundo Oficial de Náutica – Básico (ACON-B)*
 
 ---
 

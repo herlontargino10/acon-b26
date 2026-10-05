@@ -152,6 +152,7 @@ Para ilustrar a força viscosa, imagine **dois trens viajando em velocidades dif
 ### Interpretação Física no Fluido
 Isto é análogo ao escoamento em torno de uma parede. Próximo à parede, o escoamento tem velocidade menor; mais distante, velocidade maior. 
 As pessoas dentro do trem podem ser vistas como **partículas fluidas saltando de uma camada para outra**. Quando saltam, têm de ser aceleradas, impactando em uma força: a **força viscosa**.
+
 > [!important]
 > Para que exista força viscosa é expressamente **necessária a existência de diferentes velocidades adjacentes** (um gradiente de velocidade).
 

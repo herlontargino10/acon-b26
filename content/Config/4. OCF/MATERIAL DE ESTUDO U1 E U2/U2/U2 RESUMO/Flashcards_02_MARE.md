@@ -1,5 +1,4 @@
-# Flashcards — 02 Maré
-
+____
 ## Estatísticas
 
 - Total de Cards: 34
