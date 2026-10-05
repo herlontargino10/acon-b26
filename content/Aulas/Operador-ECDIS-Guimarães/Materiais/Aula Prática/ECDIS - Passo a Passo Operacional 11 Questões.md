@@ -21,47 +21,30 @@
 - [[#Passo 11 — Enviar mensagem AIS]]
 - [[#Passo 12 — Transferir rota para monitoramento]]
 
-## Exercício Prático 2
-- [[#EP2-1A — Inserir comprimento do navio]]
-- [[#EP2-1B — Inserir calado e parâmetros de segurança]]
-- [[#EP2-1C — Navio sem giro]]
-- [[#EP2-2 — Criar derrota]]
-- [[#EP2-3 — Nomear Waypoints]]
-- [[#EP2-4 — Check Route]]
-- [[#EP2-5 — Stay no Waypoint 5]]
-- [[#EP2-6 — Pontos de referência]]
-- [[#EP2-7 — Ativar vetores]]
-- [[#EP2-8 — Adquirir alvos AIS / ARPA]]
-- [[#EP2-9 — Habilitar Safety Frame]]
-- [[#EP2-10 — Verificar maré]]
-- [[#EP2-11 — Verificar horários]]
-
 ---
 
 # PLANEJAMENTO E MONITORAMENTO DE DERROTA
 
 ---
 
-### Navio sem giro
+## Passo 1 — Navio a Gyro Inoperante
 
-Acessar:
+Verificar os sensores e selecionar a agulha Magnética.
 
 ```text
-Task List
-→ Navigation
-→ Heading
+Task List → Navigation → Heading → Magnetic
 ```
 
 Selecionar:
 
 ```text
-AGULHA MAGNÉTICA
+MAGNETIC
 ```
 
 [[#Índice]]
 
 
-## Passo 1 — Criar Waypoints
+## Passo 1.1 — Criar Waypoints
 
 
 ```text
