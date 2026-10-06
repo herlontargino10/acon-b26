@@ -1,7 +1,4 @@
 
-> [!info] Objetivo
-> Reunir em uma única nota os procedimentos práticos de ECDIS para consulta durante os exercícios, organizados por função e por questão.
-
 ---
 
 # Índice
@@ -23,11 +20,8 @@
 
 ---
 
-# PLANEJAMENTO E MONITORAMENTO DE DERROTA
+## 1. Configurar ECDIS sabendo que o comprimento do navio é de 40 metros, calado 5m e sua gyro está inoperante.
 
----
-
-## Passo 1 — Navio com a Gyro Inoperante
 
 Verificar os sensores e selecionar a agulha Magnética.
 
@@ -43,44 +37,7 @@ MAGNETIC
 
 [[#Índice]]
 
-
-## Passo 1.1 — Criar Waypoints
-
-
-```text
-→ Task List → Advanced Plannig -> New
-```
-
-
-### Primeiro ponto
-
-Na tela do mapa:
-
-```text
-Depende da posição do navio no momento
-```
-
-→ **Adicionar utilizando o cursor mouse.** 
-
-### Ponto de chegada
-
-```text
-00° 52,699' N
-005° 02,249' W
-```
-
-→ **Adicionar**
-
-A rota aparece ligando os dois pontos.
-
-```text
-→ Salvar
-```
-
-[[#Índice]]
-
-
-## Passo 2 — Configurar tamanho do navio
+## 1.1 Adicionar comprimento do navio 40 metros
 
 
 ```text
@@ -111,7 +68,7 @@ A rota aparece ligando os dois pontos.
 ![[Pasted image 20261005172229.png]]
 
 
-### Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
+### 1.2 Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
 
 
 ```text 
@@ -151,7 +108,7 @@ A rota aparece ligando os dois pontos.
 
 ![[20261005_094824.jpg]]
 
-### Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
+### 1.3 Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
 
 ```text 
 → Task List → Charts → Aba ENC
@@ -189,7 +146,44 @@ A rota aparece ligando os dois pontos.
 
 ---
 
-## Passo 3 — Nomear os Way Points
+## 2. Traçar derrota da posição do navio até 50°32.699' N / 005°02.249' W, com no mínimo 10 Way Points.
+
+
+```text
+→ Task List → Advanced Plannig -> New
+```
+
+### Primeiro ponto
+
+Na tela do mapa:
+
+```text
+A partir da posição do navio no momento
+```
+
+→ **Adicionar utilizando o cursor mouse.** 
+
+### Ponto de chegada
+
+```text
+00° 52,699' N
+005° 02,249' W
+```
+
+→ **Adicionar**
+
+A rota aparece ligando os dois pontos.
+
+```text
+→ Salvar
+```
+
+[[#Índice]]
+
+
+___
+
+## Passo 3 — Nomear os principais Way Points
 
 Na lista de pontos:
 
@@ -203,12 +197,13 @@ Selecionar WP desejado, da um duplo clique
 → Renomear 
 → Exemplo: Través Cabo Frio.
 → **ENTER**
+→ **SALVAR**
 
 [[#Índice]]
 
 ---
 
-## Passo 4 — Verificar a rota
+## Passo 4 — Checar a derrota e nomeá-la
 
 ```text
 → Task List → Advanced Plannig -> Check Route -> Play Check Route
@@ -225,10 +220,12 @@ Conferir se os alarmes gerados não impedem a navegação.
 -  Sem perigos
     
 
+Após checar toda rota, nomear no campo determinado e da **ENTER**
+
 Depois:
 
 ```text
-→ Salvar Rota
+→ Clicar em SALVE
 ```
 
 [[#Índice]]
