@@ -158,7 +158,7 @@ MAGNETIC
 Na tela do mapa:
 
 ```text
-A partir da posição do navio no momento
+Traçar a partir da posição do navio no momento
 ```
 
 → **Adicionar utilizando o cursor mouse.** 
