@@ -238,7 +238,7 @@ Depois:
 
 ---
 
-## 5. Configurar o Schedule: suspender em 10/04/2025 às 1730 UTC, velocidade de 8 nós, aguardar 1 h no WPT 5 e determinar a ETA no destino
+## 5. Suspender em 10/04/2025 às 1730 UTC, velocidade de 8 nós, aguardar 1 h no WPT 5 e determinar a ETA no destino
 
 Na rota salva:
 
@@ -296,7 +296,7 @@ Na rota salva:
 Acessar:
 
 ```text
-→ → Task List → Advanced Plannig -> REF. PTS
+→ Task List → Advanced Plannig -> REF. PTS
 ```
 
 Para criar uma referência:
@@ -328,7 +328,7 @@ ____
 
 ```text
 Configurações
-→ Sensores / Sources
+→ Sensores
 → AIS
 ```
 
@@ -362,7 +362,7 @@ Task List → Monitoring - Aba Safety Alarms → Safety Frame
 
 ![[Pasted image 20261005180237.png]]
 
-[[#Índice]]
+[[# Índice]]
 
 ---
 
