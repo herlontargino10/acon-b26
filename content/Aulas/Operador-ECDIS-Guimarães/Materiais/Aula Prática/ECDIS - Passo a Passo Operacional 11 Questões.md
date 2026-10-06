@@ -68,7 +68,7 @@ MAGNETIC
 ![[Pasted image 20261005172229.png]]
 
 
-### 1.2 Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
+## 1.2 Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
 
 
 ```text 
@@ -108,7 +108,7 @@ MAGNETIC
 
 ![[20261005_094824.jpg]]
 
-### 1.3 Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
+## 1.3 Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
 
 ```text 
 → Task List → Charts → Aba ENC
@@ -146,7 +146,7 @@ MAGNETIC
 
 ---
 
-## 2. Traçar derrota da posição do navio até 50°32.699' N / 005°02.249' W, com no mínimo 10 Way Points.
+## 2. — Traçar derrota da posição do navio até 50°32.699' N / 005°02.249' W, com no mínimo 10 Way Points.
 
 
 ```text
@@ -203,7 +203,11 @@ Selecionar WP desejado, da um duplo clique
 
 ---
 
-## Passo 4 — Checar a derrota e nomeá-la
+## 4. Checar a derrota e nomeá-la
+
+
+## 4.1 Checar a derrota 
+
 
 ```text
 → Task List → Advanced Plannig -> Check Route -> Play Check Route
@@ -220,7 +224,9 @@ Conferir se os alarmes gerados não impedem a navegação.
 -  Sem perigos
     
 
-Após checar toda rota, nomear no campo determinado e da **ENTER**
+## 4.1 Nomear a derrota 
+
+Após checar toda rota, nomear no campo determinado e da **ENTER**.
 
 Depois:
 
@@ -232,7 +238,7 @@ Depois:
 
 ---
 
-## Passo 5 — Calcular ETA com a ferramenta Schedule
+## 5. Configurar o Schedule: suspender em 10/04/2025 às 1730 UTC, velocidade de 8 nós, aguardar 1 h no WPT 5 e determinar a ETA no destino
 
 Na rota salva:
 
@@ -258,7 +264,7 @@ Na rota salva:
 >
 > 1. Insira a velocidade desejada na **Linha 1**.
 > 2. Clique com o **botão direito do mouse** sobre o valor inserido.
-> 3. Selecione **Fill**.
+> 3. Selecione **Clears Fill**.
 > 4. O ECDIS irá replicar automaticamente a velocidade para o restante da coluna, até o último Waypoint.
 >
 > **3. STAY — Tempo de permanência**
@@ -285,7 +291,7 @@ Na rota salva:
 
 ---
 
-## Passo 6 — Inserir 2 pontos de referência
+## 6. Inserir 2 pontos de referência
 
 Acessar:
 
@@ -318,7 +324,7 @@ ____
 
 ---
 
-## Passo 8 — Adiquiri alvos no AIS e ARPA (CONFIRMAR)
+## 8. Adiquiri alvos no AIS e ARPA  e monitorá-los no ECDIS (CONFIRMAR)
 
 ```text
 Configurações
@@ -347,7 +353,7 @@ As configurações funcionam apenas se o AIS não estiver marcado em cor vermelh
 
 ---
 
-## Passo 9 — Configurar Safety Frame
+## 9. Configurar Safety Frame
 
 ```text
 Task List → Monitoring - Aba Safety Alarms → Safety Frame
@@ -360,7 +366,7 @@ Task List → Monitoring - Aba Safety Alarms → Safety Frame
 
 ---
 
-## Passo 10 — Verificar altura da maré na chegada
+## 10. Verificar altura da maré na chegada
 
 ```text
 Task List -> Tasks -> Tides 
@@ -377,7 +383,7 @@ Task List -> Tasks -> Tides
 
 ---
 
-## Passo 11 — Enviar mensagem AIS
+## 11. Enviar mensagem AIS para um navio próximo, a fim de realizar uma experiência com o equipamento
 
 Selecionar o navio próximo:
 
@@ -406,7 +412,7 @@ Após inserir a mensagem:
 
 ---
 
-## Passo 12 — Registrar na carta uma recomendação do Comandante (Confirmar) 
+## 12. Registrar na carta a recomendação do comandante para atenção a navegação na zona de separação de tráfego (Confirmar) 
 
 - Ferramenta MAPS.
 
@@ -417,10 +423,11 @@ Após inserir a mensagem:
 [[#Índice]]
 
 
-## Passo 12 — Registrar no ECDIS um aviso rádio (Confirmar) 
+____
+
+## 13. Inserir um aviso de exercício de tiro da Royal Navy, com área circular de 5 NM com centro em 50°21.274' N  / 006°33.831' W (Confirmar) 
 
 - Ferramenta Man Corr
-
 
 
 
