@@ -421,26 +421,32 @@ Após inserir a mensagem:
 
 ---
 
-## 12. Registrar na carta a recomendação do comandante para atenção a navegação na zona de separação de tráfego (Confirmar) 
-
-- Ferramenta MAPS.
+## 12. Registrar na carta a recomendação do comandante para atenção a navegação na zona de separação de tráfego 
 
 
+```text
+Task List -> MAPS -> Aba Text -> Escrever Mensagem -> OK ->
+```
+
+Após digitar o texto e o campo info, siga para qualquer local na carta e clique para inserir a mensagem. 
+
+![[20261007_100635.jpg]]
 
 
+![[20261007_100648.jpg]]
 
 [[#Índice]]
 
-
 ____
 
-## 13. Inserir um aviso de exercício de tiro da Royal Navy, com área circular de 5 NM com centro em 50°21.274' N  / 006°33.831' W (Confirmar) 
+## 13. Inserir um aviso de exercício de tiro da Royal Navy, com área circular de 5 NM com centro em 50°21.274' N  / 006°33.831' W 
 
-- Ferramenta Man Corr
+```text
+Task List -> MAN CORR -> Aba Circles -> Escolher Tipo de Círculo -> OK
+```
 
 ![[20261007_100404.jpg]]
 
 ![[20261007_100409.jpg]]
 
 [[#Índice]]
-
