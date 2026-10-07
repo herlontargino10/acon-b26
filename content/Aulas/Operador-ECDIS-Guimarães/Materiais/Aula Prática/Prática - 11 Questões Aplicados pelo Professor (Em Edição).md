@@ -5,18 +5,19 @@
 
 ## Planejamento e Monitoramento de Derrota
 
-- [[#Passo 1 — Configurar dados do navio]]
-- [[#Passo 2 — Traçar a rota]]
-- [[#Passo 3 — Nomear os Way Points]]
-- [[#Passo 4 — Verificar e nomear a rota]]
-- [[#Passo 5 — Calcular ETA]]
-- [[#Passo 6 — Confirmar ETA no destino]]
-- [[#Passo 7 — Ajustar horário de referência]]
-- [[#Passo 8 — Configurar AIS e monitorar]]
-- [[#Passo 9 — Configurar Safety Frame]]
-- [[#Passo 10 — Verificar maré na chegada]]
-- [[#Passo 11 — Enviar mensagem AIS]]
-- [[#Passo 12 — Transferir rota para monitoramento]]
+1. [[#1. Configurar ECDIS sabendo que o comprimento do navio é de 40 metros, calado 5m e sua gyro está inoperante.|Configuração do ECDIS]]
+2. [[#2. — Traçar derrota da posição do navio até 50°32.699' N / 005°02.249' W, com no mínimo 10 Way Points.|Traçar derrota]]
+3. [[#Passo 3 — Nomear os principais Way Points|Nomear Way Points]]
+4. [[#4. Checar a derrota e nomeá-la|Checar e nomear derrota]]
+5. [[#5. Suspender em 10/04/2025 às 1730 UTC, velocidade de 8 nós, aguardar 1 h no WPT 5 e determinar a ETA no destino|Calcular Schedule / ETA]]
+6. [[#6. Inserir 2 pontos de referência|Pontos de referência]]
+7. [[#Passo 7 — Ativar os vetores do navio (CONFIRMAR)|Ativar vetores do navio]]
+8. [[#8. Adiquiri alvos no AIS e ARPA  e monitorá-los no ECDIS (CONFIRMAR)|AIS e ARPA]]
+9. [[#9. Configurar Safety Frame|Configurar Safety Frame]]
+10. [[#10. Verificar altura da maré na chegada|Maré no destino]]
+11. [[#11. Enviar mensagem AIS para um navio próximo, a fim de realizar uma experiência com o equipamento|Mensagem AIS]]
+12. [[#12. Registrar na carta a recomendação do comandante para atenção a navegação na zona de separação de tráfego (Confirmar) |Recomendação do Comandante]]
+13. [[#13. Inserir um aviso de exercício de tiro da Royal Navy, com área circular de 5 NM com centro em 50°21.274' N  / 006°33.831' W (Confirmar) |Aviso de exercício de tiro]]
 
 ---
 
@@ -317,10 +318,7 @@ ____
 
 ## Passo 7 — Ativar os vetores do navio (CONFIRMAR)
 
-
-
-
-
+[[#Índice]]
 
 ---
 
@@ -362,7 +360,7 @@ Task List → Monitoring - Aba Safety Alarms → Safety Frame
 
 ![[Pasted image 20261005180237.png]]
 
-[[# Índice]]
+[[#Índice]]
 
 ---
 
