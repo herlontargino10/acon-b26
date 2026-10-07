@@ -33,6 +33,11 @@ Selecionar:
 MAGNETIC
 ```
 
+![[20261007_100750.jpg]]
+
+![[20261007_100753.jpg]]
+
+
 [[#Índice]]
 
 ## 1.1 Adicionar comprimento do navio 40 metros
@@ -213,6 +218,7 @@ Selecionar WP desejado, da um duplo clique
 
 ![[Pasted image 20261005173346.png]]
 
+
 Conferir se os alarmes gerados não impedem a navegação.
 
 -  Sem áreas rasas
@@ -221,6 +227,9 @@ Conferir se os alarmes gerados não impedem a navegação.
     
 -  Sem perigos
     
+
+
+![[20261007_100726.jpg]]
 
 ## 4.1 Nomear a derrota 
 
@@ -262,7 +271,7 @@ Na rota salva:
 >
 > 1. Insira a velocidade desejada na **Linha 1**.
 > 2. Clique com o **botão direito do mouse** sobre o valor inserido.
-> 3. Selecione **Clears Fill**.
+> 3. Selecione **Fill Cells Down**.
 > 4. O ECDIS irá replicar automaticamente a velocidade para o restante da coluna, até o último Waypoint.
 >
 > **3. STAY — Tempo de permanência**
@@ -283,6 +292,8 @@ Na rota salva:
 
 
 ![[Pasted image 20261005173528.png]]
+
+![[20261007_100913.jpg]]
 
 
 [[#Índice]]
@@ -307,6 +318,9 @@ Clicar com botão esquerdo no Waypoint onde vai partir essa marcação
 ```
 
 Repetir para criar o segundo ponto de referência.
+
+
+![[20261007_095627.jpg]]
 
 
 [[#Índice]]
@@ -424,7 +438,9 @@ ____
 
 - Ferramenta Man Corr
 
+![[20261007_100404.jpg]]
 
+![[20261007_100409.jpg]]
 
 [[#Índice]]
 
