@@ -13,8 +13,8 @@
 9. [[#9. Configurar Safety Frame|Configurar Safety Frame]]
 10. [[#10. Verificar altura da maré na chegada|Maré no destino]]
 11. [[#11. Enviar mensagem AIS para um navio próximo, a fim de realizar uma experiência com o equipamento|Mensagem AIS]]
-12. [[#12. Registrar na carta a recomendação do comandante para atenção a navegação na zona de separação de tráfego (Confirmar) |Recomendação do Comandante]]
-13. [[#13. Inserir um aviso de exercício de tiro da Royal Navy, com área circular de 5 NM com centro em 50°21.274' N  / 006°33.831' W (Confirmar) |Aviso de exercício de tiro]]
+12. [[#12. Registrar na carta a recomendação do comandante para atenção a navegação na zona de separação de tráfego|Recomendação do Comandante]]
+13. [[#13. Inserir um aviso de exercício de tiro da Royal Navy, com área circular de 5 NM com centro em 50°21.274' N / 006°33.831' W|Aviso de exercício de tiro]]
 
 ---
 
@@ -416,6 +416,8 @@ Após inserir a mensagem:
 
 > [!warning] Atenção
 > Antes de enviar, confirme se o tipo de mensagem selecionado (**Safety Text** ou **Normal Text**) corresponde ao que foi solicitado no exercício.
+
+![[20261007_100515.jpg]]
 
 [[#Índice]]
 
