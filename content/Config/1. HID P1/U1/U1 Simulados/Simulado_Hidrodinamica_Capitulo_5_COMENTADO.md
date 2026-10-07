@@ -39,7 +39,7 @@ source: "022-024_Mecanica_dos_Fluidos_Capitulo_5.md"
 
 Analise as afirmativas abaixo referentes aos escoamentos internos fechados, às soluções analíticas e às forças dominantes.
 
-**I.** As leis de conservação da massa e da quantidade de movimento constituem quatro equações associadas às quatro incógnitas \(u\), \(v\), \(w\) e \(p\).
+**I.** As leis de conservação da massa e da quantidade de movimento constituem quatro equações associadas às quatro incógnitas $u$, $v$, $w$ e $p$.
 
 **II.** Para aplicações relacionadas ao casco, leme ou propulsor do navio, o material afirma que não existe solução analítica disponível.
 
@@ -91,7 +91,7 @@ No escoamento conduzido pela força de pressão, o que produz o movimento do flu
 - **(b)** Uma diferença de pressão entre as extremidades.
 - **(c)** Exclusivamente a força gravitacional.
 - **(d)** A ausência de viscosidade.
-- **(e)** A condição de contorno \(y=a\).
+- **(e)** A condição de contorno $y=a$.
 
 ### 2.4
 
@@ -147,7 +147,7 @@ Explique fisicamente o que caracteriza o escoamento **conduzido por forças visc
 
 ### 4.1
 
-**(__________)** As duas leis de conservação consideradas no material constituem quatro equações associadas às quatro incógnitas \(u\), \(v\), \(w\) e \(p\).
+**(__________)** As duas leis de conservação consideradas no material constituem quatro equações associadas às quatro incógnitas $u$, $v$, $w$ e $p$.
 
 **Justificativa:**
 
@@ -239,7 +239,6 @@ O material afirma que as duas leis de conservação, massa e quantidade de movim
 $$
 u,\quad v,\quad w,\quad p.
 $$
-
 ### II — Verdadeira
 
 Para aplicações relacionadas ao casco, leme ou propulsor, o material afirma que **não existe uma solução analítica**.
@@ -289,11 +288,9 @@ Isso inclui analisar variáveis, geometria, tipo de escoamento e demais caracter
 **Resposta: (b)**
 
 No escoamento **pressure-driven**, existe uma diferença de pressão entre as extremidades:
-
 $$
 p_1>p_2.
 $$
-
 Essa diferença de pressão gera a variação da quantidade de movimento do fluido.
 
 ---
@@ -324,11 +321,9 @@ O procedimento determina que a análise deve começar pela **conservação da ma
 ## 3.1
 
 Segundo o material, as duas leis de conservação — massa e quantidade de movimento — constituem quatro equações com quatro incógnitas:
-
 $$
 u,\quad v,\quad w,\quad p.
 $$
-
 Entretanto, para aplicações relacionadas ao casco, leme ou propulsor do navio, o material afirma que não existe uma solução analítica disponível.
 
 ---
@@ -356,11 +351,9 @@ Os três tipos são:
 No **pressure-driven**, o fluido está entre duas paredes e existe uma diferença de pressão entre as extremidades.
 
 A pressão em uma extremidade é maior que na outra:
-
 $$
 p_1>p_2.
 $$
-
 Essa diferença de pressão produz a variação da quantidade de movimento do fluido.
 
 ---
@@ -385,11 +378,9 @@ A força viscosa produz a variação da quantidade de movimento entre as placas.
 **VERDADEIRO.**
 
 O material afirma que as duas leis de conservação constituem quatro equações com quatro incógnitas:
-
 $$
 u,\quad v,\quad w,\quad p.
 $$
-
 ---
 
 ## 4.2
@@ -461,11 +452,9 @@ Portanto, mesmo não representando diretamente o casco, o leme ou o propulsor de
 A configuração apresenta duas paredes estacionárias e uma diferença de pressão entre as extremidades.
 
 A pressão é maior em uma extremidade e menor na outra:
-
 $$
 p_1>p_2.
 $$
-
 ---
 
 ### Gravity-driven
@@ -499,13 +488,10 @@ A parede móvel arrasta as camadas adjacentes e produz a variação de quantidad
 ## 1. Problema da solução analítica
 
 O sistema possui:
-
 $$
 \boxed{4\text{ equações e }4\text{ incógnitas}}
 $$
-
 com:
-
 $$
 u,\quad v,\quad w,\quad p.
 $$
@@ -606,3 +592,284 @@ São apresentados como problemas internos fechados em:
 > A partir deste capítulo, os simulados não terão questões que exijam resolver cálculos.
 >
 > As perguntas e respostas continuarão sendo construídas **exclusivamente a partir do `.md` do capítulo anexado**, sem acrescentar conteúdo de PDFs, transcrições, flashcards, outros capítulos ou conhecimento externo.
+
+---
+
+<GABARITO COMENTADO>
+## Questão 1
+
+**Resposta correta:** (c) I, II, III, IV e V.
+
+**Por que está correta:** O material confirma todas as cinco afirmativas: as duas leis constituem 4 equações e 4 incógnitas (I); não há solução analítica para casco/leme/propulsor (II); há solução analítica em casos raros totalmente desenvolvidos (III); escoamentos em canais são 2D entre placas (IV); e classificam-se por pressão, gravidade ou viscosidade (V).
+
+**Análise das alternativas:**
+- **(a)** Errada — Omite as afirmativas IV e V, que também são corretas segundo o texto.
+- **(b)** Errada — Omite as afirmativas II e IV, que também são corretas.
+- **(c)** Correta — Contempla todas as afirmativas corroboradas pelo resumo.
+- **(d)** Errada — Omite as afirmativas I e V, que também são corretas.
+- **(e)** Errada — Omite a afirmativa III, que também é correta.
+
+**Conceito cobrado:** Leis de conservação, hipóteses simplificadoras e forças dominantes.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 2.1
+
+**Resposta correta:** (b)
+
+**Por que está correta:** O material explica que nos casos totalmente desenvolvidos, "um padrão de velocidade é mantido ao longo do espaço-tempo", o que viabiliza a solução analítica em casos raros.
+
+**Análise das alternativas:**
+- **(a)** Errada — O texto afirma o oposto, dizendo que eles "não têm aplicação prática na hidrodinâmica do navio" (cascos).
+- **(b)** Correta — Reflete exatamente a definição dada no resumo para os casos totalmente desenvolvidos.
+- **(c)** Errada — Há forças atuando sobre o fluido (pressão, gravidade ou viscosa).
+- **(d)** Errada — O texto afirma que escoamentos internos em canais podem ser tratados como bidimensionais (2D).
+- **(e)** Errada — O roteiro de solução diz claramente para "iniciar a análise com a conservação de massa".
+
+**Conceito cobrado:** Escoamento totalmente desenvolvido e aplicabilidade da solução analítica.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 2.2
+
+**Resposta correta:** (c)
+
+**Por que está correta:** De acordo com o "Procedimento geral para todos os casos", o passo 1 é "Observe o tipo de escoamento e configure o seu problema".
+
+**Análise das alternativas:**
+- **(a)** Errada — A equação da quantidade de movimento é resolvida apenas no passo 5 do procedimento.
+- **(b)** Errada — As condições de contorno são identificadas no passo 3 e aplicadas no passo 6.
+- **(c)** Correta — Esta é literalmente a primeira etapa descrita no material.
+- **(d)** Errada — A conservação da massa deve ser utilizada como passo inicial matemático, não eliminada.
+- **(e)** Errada — A identificação de forças específicas não é a primeira etapa geral listada.
+
+**Conceito cobrado:** Procedimento geral de resolução (passo a passo).
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 2.3
+
+**Resposta correta:** (b)
+
+**Por que está correta:** No escoamento conduzido pela força de pressão, a diferença de pressão ($p_1 > p_2$) gera a variação da quantidade de movimento do fluido.
+
+**Análise das alternativas:**
+- **(a)** Errada — Diferença de velocidade entre as paredes caracteriza o escoamento conduzido por forças viscosas.
+- **(b)** Correta — Reflete a descrição do escoamento conduzido pela força de pressão no resumo.
+- **(c)** Errada — A força gravitacional caracteriza o "Gravity-driven", não o de pressão.
+- **(d)** Errada — O material não menciona a ausência de viscosidade para este caso.
+- **(e)** Errada — Embora $y=a$ seja uma coordenada, o movimento em si é produzido pela diferença de pressão ($p_1 > p_2$).
+
+**Conceito cobrado:** Escoamento conduzido pela força de pressão (Pressure-driven).
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 2.4
+
+**Resposta correta:** (b)
+
+**Por que está correta:** O material descreve o "Viscosity-driven" como o escoamento no qual o fluido "está entre duas paredes, mas as paredes possuem velocidades diferentes entre elas", com uma fixa e outra móvel.
+
+**Análise das alternativas:**
+- **(a)** Errada — As paredes precisam ter velocidades diferentes.
+- **(b)** Correta — Representa perfeitamente o mecanismo descrito no resumo.
+- **(c)** Errada — Diferença de pressão caracteriza o escoamento conduzido por pressão.
+- **(d)** Errada — O escoamento está expressamente entre duas paredes.
+- **(e)** Errada — A gravidade é a força motriz no escoamento conduzido por gravidade.
+
+**Conceito cobrado:** Escoamento conduzido por forças viscosas (Viscosity-driven).
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 2.5
+
+**Resposta correta:** (c)
+
+**Por que está correta:** No passo 4 do procedimento geral, o material instrui explicitamente a "iniciar a análise com a conservação de massa por ser a mais simples".
+
+**Análise das alternativas:**
+- **(a)** Errada — A conservação de energia não é o ponto de partida do sistema descrito.
+- **(b)** Errada — A conservação da quantidade de movimento é tratada após a conservação da massa.
+- **(c)** Correta — Confirmada literalmente pela recomendação do material no passo 4.
+- **(d)** Errada — A Lei de Pascal não é o ponto de partida mencionado no procedimento analítico.
+- **(e)** Errada — A conservação da massa deve ser utilizada obrigatoriamente primeiro.
+
+**Conceito cobrado:** Procedimento geral de resolução (passo a passo).
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 3.1
+
+**Resposta correta:** Discursiva.
+
+**Por que está correta:** As leis de conservação de massa e de quantidade de movimento geram 4 equações com 4 incógnitas ($u, v, w, p$), formando um sistema matemático complexo para o qual não existe solução analítica conhecida para as geometrias de casco, leme ou propulsor.
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Limitação da solução analítica na hidrodinâmica naval.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 3.2
+
+**Resposta correta:** Discursiva.
+
+**Por que está correta:** É caracterizado como o escoamento em que "um padrão de velocidade é mantido ao longo do espaço-tempo".
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Definição de escoamento totalmente desenvolvido.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 3.3
+
+**Resposta correta:** Discursiva.
+
+**Por que está correta:** Os três tipos de escoamento fechado são conduzidos por: (1) pressão (Pressure-driven), (2) gravidade (Gravity-driven) e (3) forças viscosas (Viscosity-driven).
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Classificação dos escoamentos fechados por força dominante.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 3.4
+
+**Resposta correta:** Discursiva.
+
+**Por que está correta:** O escoamento conduzido pela força de pressão é caracterizado pela existência de uma diferença de pressão entre as extremidades (a pressão em uma extremidade é maior do que na outra, $p_1 > p_2$), e essa diferença gera a variação da quantidade de movimento do fluido no espaço entre duas paredes estacionárias.
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Escoamento conduzido pela força de pressão (Pressure-driven).
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 3.5
+
+**Resposta correta:** Discursiva.
+
+**Por que está correta:** O escoamento conduzido por forças viscosas ocorre com o fluido posicionado entre duas paredes que possuem velocidades diferentes, especificamente onde uma das paredes está fixa e a outra se move. O arrasto dessa diferença gera a variação da quantidade de movimento entre as placas.
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Escoamento conduzido por forças viscosas (Viscosity-driven).
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 4.1
+
+**Resposta correta:** Verdadeiro.
+
+**Por que está correta:** O material informa explicitamente que as duas leis de conservação "constituem 4 equações com 4 incógnitas ($u, v, w, p$)".
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Variáveis e equações das leis de conservação.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 4.2
+
+**Resposta correta:** Falso.
+
+**Por que está correta:** O material ressalta que as soluções analíticas em escoamentos internos fechados "não têm aplicação prática na hidrodinâmica do navio" (casco, leme, propulsor).
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Aplicabilidade do estudo de escoamentos fechados na engenharia naval.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 4.3
+
+**Resposta correta:** Verdadeiro.
+
+**Por que está correta:** No escoamento dominado pela pressão, o texto atesta que "A diferença de pressão gera a variação da quantidade de movimento do fluido, entre as paredes".
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Mecanismo do escoamento Pressure-driven.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 4.4
+
+**Resposta correta:** Verdadeiro.
+
+**Por que está correta:** No modelo viscoso, o texto afirma categoricamente que "uma das paredes está fixa e outra se move", criando uma diferença de velocidades.
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Mecanismo do escoamento Viscosity-driven.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 4.5
+
+**Resposta correta:** Falso.
+
+**Por que está correta:** O passo 4 do procedimento indica expressamente: "Inicie a análise com a conservação de massa por ser a mais simples". A equação da quantidade de movimento é resolvida apenas no passo 5.
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Procedimento geral de resolução (passo a passo).
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 5.1
+
+**Resposta correta:** Discursiva.
+
+**Por que está correta:** Os escoamentos internos fechados são estudados para fins puramente didáticos ("entendimento do problema e o procedimento geral de como eles poderiam ser resolvidos"). Apesar de não possuírem aplicação prática direta nas partes externas do navio (casco, leme), as suas restritas soluções analíticas permitem aos alunos compreender a configuração do problema, a definição de hipóteses e a simplificação do sistema de equações de conservação de massa e quantidade de movimento em condições bidimensionais.
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Finalidade didática do estudo de canais fechados.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+
+---
+
+## Questão 5.2
+
+**Resposta correta:** Discursiva.
+
+**Por que está correta:** 
+- **Pressure-driven:** A força dominante é a **pressão**. Sua configuração é caracterizada por duas paredes estacionárias e uma diferença de pressão entre as extremidades ($p_1 > p_2$), conduzindo o movimento do fluido.
+- **Gravity-driven:** A força dominante é a **gravidade** (força de corpo). Sua configuração apresenta um canal inclinado formando um ângulo, onde a aceleração da gravidade é a responsável pelo escoamento.
+- **Viscosity-driven:** A força dominante são as **forças viscosas**. Sua configuração ocorre entre duas paredes com velocidades diferentes, geralmente uma parede fixa e a outra em movimento.
+
+**Análise das alternativas:**
+N/A
+
+**Conceito cobrado:** Comparação entre as três forças dominantes e suas configurações.
+**Fonte principal:** 022-024_Mecanica_dos_Fluidos_Capitulo_5.md
+</GABARITO COMENTADO>

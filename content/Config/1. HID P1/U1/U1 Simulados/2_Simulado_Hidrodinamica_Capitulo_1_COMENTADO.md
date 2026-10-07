@@ -1,3 +1,4 @@
+
 ---
 
 # PROVA SIMULADA — HIDRODINÂMICA
@@ -256,12 +257,13 @@ Esta seria, para mim, **uma das partes mais perigosas da prova**.
 
 A fonte mostra, por exemplo, que para o caso incompressível chega-se a
 
-\[ \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z} =0 \]
-
+$$
+ \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} + \frac{\partial w}{\partial z} =0 
+$$
 ou
-
-\[ \nabla\cdot\vec V=0. \]
-
+$$
+ \nabla\cdot\vec V=0. 
+$$
 1_Leis_de_conservação-001-006
 
 ---
@@ -283,17 +285,17 @@ Aqui entraria a parte de **“agora prove que sabe usar o conceito”**.
 Água escoa em regime permanente através de uma tubulação.
 
 Na seção A:
-
-\[ A_A=0,04\;m^2 \]
-
+$$
+ A_A=0,04\;m^2 
+$$
 e
-
-\[ u_A=2\;m/s. \]
-
+$$
+ u_A=2\;m/s. 
+$$
 Na seção B, a área é:
-
-\[ A_B=0,01\;m^2. \]
-
+$$
+ A_B=0,01\;m^2. 
+$$
 Considerando o fluido incompressível:
 
 **a)** determine a vazão volumétrica;
@@ -307,13 +309,13 @@ Considerando o fluido incompressível:
 ### 5.2 — Balanço de massa
 
 Um reservatório recebe água a uma vazão mássica de
-
-\[ 12\;kg/s \]
-
+$$
+ 12\;kg/s 
+$$
 e perde água a uma vazão mássica de
-
-\[ 8\;kg/s. \]
-
+$$
+ 8\;kg/s. 
+$$
 **a)** determine a taxa de variação da massa armazenada;
 
 **b)** diga se a massa armazenada aumenta ou diminui;
@@ -351,9 +353,9 @@ O material enfatiza justamente o contrário: a massa pode atravessar o volume de
 **Falso.**
 
 Se
-
-\[ \dot m_{in}>\dot m_{out}, \]
-
+$$
+ \dot m_{in}>\dot m_{out}, 
+$$
 há **acúmulo** de massa. Mecanica_dos_Fluidos_Capitulo_1…
 
 ---
@@ -391,8 +393,9 @@ Não necessariamente. É preciso considerar **a conservação de massa e as cond
 > “A equação é apenas uma fórmula para fazer conta.”
 
 No seu material isso é explicitamente combatido. A equação de balanço deve ser entendida fisicamente como:
-
-\[ \boxed{\text{saída}-\text{entrada}=\text{variação da massa armazenada}} \]
+$$
+ \boxed{\text{saída}-\text{entrada}=\text{variação da massa armazenada}} 
+$$
 
 conforme a convenção apresentada no capítulo. Mecanica_dos_Fluidos_Capitulo_1…
 
@@ -424,7 +427,7 @@ E isso conversa diretamente com a estrutura do seu material. O Capítulo 1, por 
 
 Isso muda bastante a forma como você deve estudar.
 
-E, principalmente: **não basta saber que `\dot m = \rho u A`; você precisa saber o que cada termo significa, quando a relação é usada e o que acontece fisicamente quando área, velocidade, densidade ou entrada/saída mudam.** O próprio material coloca como objetivo entender o significado físico das grandezas e do balanço, não apenas manipular as equações. Mecanica_dos_Fluidos_Capitulo_1…
+E, principalmente: **não basta saber que $\dot m = \rho u A$; você precisa saber o que cada termo significa, quando a relação é usada e o que acontece fisicamente quando área, velocidade, densidade ou entrada/saída mudam.** O próprio material coloca como objetivo entender o significado físico das grandezas e do balanço, não apenas manipular as equações. Mecanica_dos_Fluidos_Capitulo_1…
 
 ---
 <GABARITO COMENTADO>

@@ -34,13 +34,10 @@ Analise as afirmativas abaixo referentes aos conceitos de conservação da massa
 $$
 \dot m=\rho uA.
 $$
-
 **IV.** No caso incompressível apresentado no material, a equação da continuidade pode ser escrita como
-
 $$
 \nabla\cdot\mathbf V=0.
 $$
-
 **V.** Para aplicar a conservação da massa nos casos 1D, 2D e 3D, o valor da velocidade $u$, $v$ e $w$ é suficiente, não sendo necessárias suas variações espaciais.
 
 **São corretas:**
@@ -168,7 +165,6 @@ ____________________________________________________________________
 ### 4.3
 
 **(__________)** No caso incompressível apresentado no capítulo, a equação da continuidade pode ser expressa por
-
 $$
 \frac{\partial u}{\partial x}
 +
@@ -176,7 +172,6 @@ $$
 +
 \frac{\partial w}{\partial z}=0.
 $$
-
 **Justificativa:**
 
 ____________________________________________________________________
@@ -186,11 +181,9 @@ ____________________________________________________________________
 ### 4.4
 
 **(__________)** No caso 1D incompressível apresentado, a conservação da massa resulta em
-
 $$
 \frac{\partial u}{\partial x}=0.
 $$
-
 Isso significa que não existe variação de $u$ na direção $x$.
 
 **Justificativa:**
@@ -218,53 +211,38 @@ ____________________________________________________________________
 ### 5.1
 
 Um escoamento de um fluido com massa específica
-
 $$
 \rho=1000\;kg/m^3
 $$
-
 atravessa uma seção de área
-
 $$
 A=2,0\;m^2
 $$
-
 com velocidade
-
 $$
 u=3,0\;m/s.
 $$
-
 Determine a **vazão mássica** através da seção.
 
 Utilize:
-
 $$
 \dot m=\rho uA.
 $$
-
 ### 5.2
 
 Considere um escoamento **incompressível 3D** no qual:
-
 $$
 \frac{\partial u}{\partial x}=4\;s^{-1}
 $$
-
 e
-
 $$
 \frac{\partial v}{\partial y}=-1\;s^{-1}.
 $$
-
 Determine:
-
 $$
 \frac{\partial w}{\partial z}.
 $$
-
 Utilize a equação da continuidade para o caso incompressível:
-
 $$
 \frac{\partial u}{\partial x}
 +
@@ -273,7 +251,6 @@ $$
 \frac{\partial w}{\partial z}
 =0.
 $$
-
 ---
 
 # Gabarito
@@ -306,11 +283,9 @@ A afirmativa V é falsa porque o capítulo enfatiza que são necessárias as **v
 ### 3.1
 
 **Massa específica**, representada por $\rho$.
-
 $$
 m=\rho V
 $$
-
 ### 3.2
 
 Um **volume de controle** é um volume fixo no espaço utilizado para analisar o fluido.
@@ -318,17 +293,14 @@ Um **volume de controle** é um volume fixo no espaço utilizado para analisar o
 ### 3.3
 
 **Vazão mássica.**
-
 $$
 \dot m=\rho uA
 $$
-
 ### 3.4
 
 **Conservação da massa**, também denominada **equação da continuidade**.
 
 Forma diferencial geral:
-
 $$
 \frac{\partial(\rho u)}{\partial x}
 +
@@ -338,11 +310,9 @@ $$
 +
 \frac{\partial\rho}{\partial t}=0
 $$
-
 ### 3.5
 
 Para o caso incompressível:
-
 $$
 \frac{\partial u}{\partial x}
 +
@@ -350,7 +320,6 @@ $$
 +
 \frac{\partial w}{\partial z}=0
 $$
-
 ---
 
 ## 4ª Questão
@@ -386,27 +355,20 @@ O capítulo enfatiza que são necessárias as **variações espaciais das veloci
 ## 5ª Questão
 
 ### 5.1
-
 $$
 \dot m=\rho uA
 $$
-
 $$
 \dot m=(1000)(3)(2)
 $$
-
 $$
 \boxed{\dot m=6000\;kg/s}
 $$
-
 ### 5.2
-
 $$
 4+(-1)+\frac{\partial w}{\partial z}=0
 $$
-
 Logo:
-
 $$
 \boxed{\frac{\partial w}{\partial z}=-3\;s^{-1}}
 $$
@@ -430,7 +392,8 @@ $$
 >
 > Não utilizar PDFs, transcrições, flashcards, outros capítulos ou conhecimento externo como fonte de conteúdo, salvo se solicitado explicitamente.
 
-<GABARITO COMENTADO>
+GABARITO COMENTADO
+
 ## 1ª Questão
 
 **Resposta correta:** (c) I, II, III e IV.

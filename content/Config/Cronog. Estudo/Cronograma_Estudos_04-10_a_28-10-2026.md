@@ -12,85 +12,42 @@
 
 ### 12:00–14:00 — NAV II
 - [x] Estudar cards prontos de NAV II ✅ 2026-10-04
-- [ ] Listar quais conteúdos da apostila ainda precisam ser filtrados
 
 ### 14:00–14:30 — intervalo
 
 ### 14:30–16:30 — HIDRODINÂMICA
-- [ ] Fazer **Simulado Cap. 2**
-- [ ] Corrigir Simulado Cap. 2
-- [ ] Separar erros do Cap. 2
-- [ ] Revisar os conceitos dos erros
+- [x] Fazer **Simulado Cap. 2** ✅ 2026-10-06
+- [x] Corrigir Simulado Cap. 2 ✅ 2026-10-06
+- [x] Separar erros do Cap. 2 ✅ 2026-10-06
+- [x] Revisar os conceitos dos erros ✅ 2026-10-06
 
-### 16:30–17:00 — intervalo
-
-### 17:00–18:00 — IOM
-- [ ] Definir quais conteúdos da apostila serão transformados em cards
-- [ ] Separar a U2 por assunto
-- [ ] Filtrar: PSV
-- [ ] Filtrar: RSV
-- [ ] Filtrar: DSV
-- [ ] Filtrar: OSRV
-- [ ] Filtrar: Navio Sísmico
-- [ ] Filtrar: Shuttle Tanker
-- [ ] Filtrar: PLSV
-
----
-
-# 05/10 — SEGUNDA
-## 6h
-
-### 08:00–10:00 — NAV II
-- [ ] Estudar cards prontos
-- [ ] Revisar cards errados
-- [ ] Filtrar apostila — bloco 1
-- [ ] Registrar assuntos que precisam de novos cards
-
-### 10:30–12:30 — HIDRODINÂMICA
-- [ ] Leitura Cap. 3
-- [ ] Fazer anotações dos pontos importantes
-- [ ] Criar/organizar questões do Cap. 3
-- [ ] Revisar erros do Simulado Cap. 2
-
-### 14:00–16:00 — IOM
-- [ ] Filtrar apostila — PSV
-- [ ] Filtrar apostila — RSV
-- [ ] Separar conteúdo essencial
-- [ ] Criar cards a partir do conteúdo filtrado
 
 ---
 
 # 06/10 — TERÇA
-## 6h
 
 ### 08:00–10:00 — NAV II
-- [ ] Estudar cards prontos
-- [ ] Revisar erros
-- [ ] Filtrar apostila — bloco 2
-- [ ] Revisar Auxílio à Navegação
+- [x] Estudar cards prontos ✅ 2026-10-06
 
-### 10:30–12:30 — HIDRODINÂMICA
-- [ ] Finalizar leitura Cap. 3
-- [ ] Criar/ajustar questões Cap. 3
-- [ ] Fazer Simulado Cap. 3
-- [ ] Corrigir Simulado Cap. 3
+### 19:00–19:30 — HIDRODINÂMICA
+- [x] Fazer **Simulado Cap. 2** ✅ 2026-10-06
+- [x] Corrigir Simulado Cap. 2 ✅ 2026-10-06
+- [x] Separar erros do Cap. 2 ✅ 2026-10-06
+- [x] Revisar os conceitos dos erros ✅ 2026-10-06
+### 19:30–20:30 — HIDRODINÂMICA
+- [x] Finalizar leitura Cap. 3 ✅ 2026-10-06
+- [x] Fazer Simulado Cap. 3 ✅ 2026-10-06
+- [x] Corrigir Simulado Cap. 3 ✅ 2026-10-06
 
-### 14:00–16:00 — IOM
-- [ ] Filtrar DSV
-- [ ] Filtrar OSRV
-- [ ] Criar cards dos pontos essenciais
-- [ ] Ajustar cards já criados
+
 
 ---
 
 # 07/10 — QUARTA
-## 6h
 
 ### 08:00–10:00 — NAV II
 - [ ] Estudar cards
-- [ ] Revisar erros
-- [ ] Filtrar apostila — bloco 3
-- [ ] Revisar Auxílio à Navegação
+- [ ] Listar conteúdos da apostila que precisam ser filtrados - Auxílio à Navegação
 
 ### 10:30–12:30 — HIDRODINÂMICA
 - [ ] Leitura Cap. 4
@@ -99,15 +56,18 @@
 - [ ] Revisar erros do Simulado Cap. 3
 
 ### 14:00–16:00 — IOM
-- [ ] Filtrar Navio Sísmico
-- [ ] Filtrar Shuttle Tanker
-- [ ] Criar cards
-- [ ] Ajustar cards
+- [ ] Filtrar: PSV
+- [ ] Filtrar: RSV
+- [ ] Filtrar: DSV
+- [ ] Filtrar: OSRV
+- [ ] Filtrar: Navio Sísmico
+- [ ] Filtrar: Shuttle Tanker
+- [ ] Filtrar: PLSV
+
 
 ---
 
 # 08/10 — QUINTA
-## 6h
 
 ### 08:00–10:00 — NAV II
 - [ ] Estudar cards prontos
