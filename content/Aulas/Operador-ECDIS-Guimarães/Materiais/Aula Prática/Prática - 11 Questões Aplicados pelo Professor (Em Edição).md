@@ -1,6 +1,3 @@
-
----
-
 # Índice
 
 ## Planejamento e Monitoramento de Derrota
