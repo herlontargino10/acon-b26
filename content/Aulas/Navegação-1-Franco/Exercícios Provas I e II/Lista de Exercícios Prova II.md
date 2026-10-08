@@ -1,1 +1,0 @@
-[[Aulas/Navegação-1-Franco/Exercícios Provas I e II/Lista de Exercícios - NAV-01 - Segunda Prova.docx|⬇️ Baixar Lista de Exercícios da Prova II]]
