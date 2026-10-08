@@ -50,10 +50,11 @@
 - [ ] Listar conteúdos da apostila que precisam ser filtrados - Auxílio à Navegação
 
 ### 10:30–12:30 — HIDRODINÂMICA
-- [ ] Leitura Cap. 4
-- [ ] Fazer anotações
-- [ ] Criar/ajustar questões Cap. 4
-- [ ] Revisar erros do Simulado Cap. 3
+- [x] Leitura Cap. 4 ✅ 2026-10-07
+- [x] Fazer anotações ✅ 2026-10-07
+- [x] Fazer Simulado Cap. 4 ✅ 2026-10-07
+- [x] Corrigir Simulado Cap. 4 ✅ 2026-10-07
+- [x] Cards Diretos ✅ 2026-10-07
 
 ### 14:00–16:00 — IOM
 - [ ] Filtrar: PSV
@@ -76,10 +77,9 @@
 - [ ] Revisar Auxílio à Navegação
 
 ### 10:30–12:30 — HIDRODINÂMICA
-- [ ] Finalizar leitura Cap. 4
-- [ ] Fazer Simulado Cap. 4
+- [ ]  Leitura Cap. 5
+- [ ] Fazer Simulado Cap. 5
 - [ ] Corrigir Simulado Cap. 4
-- [ ] Revisar erros
 
 ### 14:00–16:00 — IOM
 - [ ] Filtrar PLSV

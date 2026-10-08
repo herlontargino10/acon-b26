@@ -191,9 +191,10 @@ $$
 
 **5 – Escoamento invíscido**, ou seja, as forças viscosas não são importantes, ou são muito pequenas quando comparadas com as outras forças existentes, podendo ser desprezadas, ou seja, a viscosidade tende a zero. Esta hipótese á aplicado em escoamentos com grandes quantidades de movimento, que podem ser devido à grande velocidade ou que sejam muito grandes, ou que esteja bem distante do contorno da parede. Estas hipóteses são aplicadas à Manobra do Navio, na teoria do propulsor e do leme, onde a força de sustentação e arrasto induzido são independentes da viscosidade. Neste caso, o escoamento é conhecido como potencial.
 
-**6 – Inexistência das forças de corpo**, é aplicado em muitos casos, mas não pode ser aplicado por exemplo em escoamentos com diferentes densidades, fluidos diferentes, superfícies livres, etc
+**6 – Inexistência das forças de corpo**, é aplicado em muitos casos, mas não pode ser aplicado por exemplo em escoamentos com diferentes densidades, fluidos diferentes, superfícies livres, etc.
 
 **7 – O fluido é newtoniano**, ou seja, a viscosidade do fluido é constante independente da tensão superficial que está sendo aplicada sobre ele. Exemplos de fluidos newtonianos: água e ar. Exemplos de fluidos não-newtonianos: lama fluida, xampu, ketchup e sangue.
+
 > [!tip] Divergência de Terminologia Notada
 > A fonte grafou "tensão superficial" neste ponto. Em mecânica dos fluidos, a viscosidade relaciona-se com a *tensão de cisalhamento*, e não com propriedades de superfície. Porém, o termo da fonte foi preservado rigorosamente na transcrição.
 
