@@ -18,7 +18,7 @@ title: Início
 - [[Aulas/Prática-Procedimentos-Passadiço-M-Coelho|PROCEDIMENTOS DO PASSADIÇO]]
 - [[Aulas/Navegação-1-Franco/Apostilas/Material de apoio|NAVEGAÇÃO]]
 - [[Aulas/Estabilidade-1-Quintana/Apostilas/Material de apoio|ESTABILIDADE I]]
-- [[Materiais|CÁLCULO I]]
+- [[Aulas/Cálculo-1-Franciano/Material de apoio|CÁLCULO I]]
 - [[Aulas/Física-1-Macedo/Apostilas/Material de apoio|FÍSICA]]
 - [[Aulas/Proteção-de-Navio-Palhas/Apostilas/Material de apoio|PROTEÇÃO DE NAVIO]]
 - [[Aulas/Português-Complementar-Cláudia/Apostilas/Material de apoio|PORTUGUÊS COMPLEMENTAR]]
