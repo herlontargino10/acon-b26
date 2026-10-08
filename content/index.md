@@ -9,26 +9,26 @@ title: Início
   </div>
 </div>
 
-## 📚 Disciplinas
+# 📚 Disciplinas
 
-- [[Aulas/Meteorologia-Leonardo-Diogo|METEOROLOGIA]]
-- [[Aulas/Combate-Incêndio-Avançado-Amadeu|COMBATE A INCÊNDIO AVANÇADO]]
-- [[Aulas/Legislação-Marítima-Anthony|LEGISLAÇÃO MARÍTIMA]]
-- [[Aulas/Inglês-Técnico-Marítimo-Jander|INGLÊS TÉCNICO MARÍTIMO]]
-- [[Aulas/Prática-Procedimentos-Passadiço-M-Coelho|PROCEDIMENTOS DO PASSADIÇO]]
-- [[Aulas/Navegação-1-Franco/Material de apoio|Material de apoio]]
-- [[Aulas/Estabilidade-1-Quintana/Apostilas/Material de apoio]]
+- [[Aulas/Meteorologia-Leonardo-Diogo/Material de apoio|METEOROLOGIA]]
+- [[Aulas/Combate-Incêndio-Avançado-Amadeu/Material de apoio|COMBATE A INCÊNDIO AVANÇADO]]
+- [[Aulas/Legislação-Marítima-Anthony/Material de apoio|LEGISLAÇÃO MARÍTIMA]]
+- [[Aulas/Inglês-Técnico-Marítimo-Jander/Material de apoio|INGLÊS TÉCNICO MARÍTIMO]]
+- [[Aulas/Prática-Procedimentos-Passadiço-M-Coelho/Material de apoio|PROCEDIMENTOS DO PASSADIÇO]]
+- [[Aulas/Navegação-1-Franco/Material de apoio|NAVEGAÇÃO]]
+- [[Aulas/Estabilidade-1-Quintana/Material de apoio|ESTABILIDADE I]]
 - [[Aulas/Cálculo-1-Franciano/Material de apoio|CÁLCULO I]]
-- [[Aulas/Física-1-Macedo/Apostilas/Material de apoio|FÍSICA]]
+- [[Aulas/Física-1-Macedo/Material de apoio|FÍSICA]]
 - [[Aulas/Proteção-de-Navio-Palhas/Material de apoio|PROTEÇÃO DE NAVIO]]
 - [[Aulas/Português-Complementar-Cláudia/Material de apoio|PORTUGUÊS COMPLEMENTAR]]
-- [[Aulas/Hidrodinâmica-do-Navio-Santos-Maia/Apostilas/Material de apoio]]
-- [[Aulas/Introduções-Embarcações-Offshore-Amanda/Apostilas/Material de apoio]]
+- [[Aulas/Hidrodinâmica-do-Navio-Santos-Maia/Material de apoio|HIDRODINÂMICA]]
+- [[Aulas/Introduções-Embarcações-Offshore-Amanda/Material de apoio|INTRODUÇÃO A EMBARC. OFFSHORE]]
 - [[Aulas/Navegação-2-Paulo-Lima/Material de apoio|NAVEGAÇÃO ELETRÔNICA]]
-- [[Aulas/Oceonografia-Física-Ana-Cristina/Material de apoio|OCEONOGRAFIA FÍSICA]]
-- [[Aulas/Operador-ECDIS-Guimarães/Materiais|OPERADOR ECDIS]]
+- [[Aulas/Oceonografia-Física-Ana-Cristina/Material de apoio|OCEANOGRAFIA FÍSICA]]
+- [[Aulas/Operador-ECDIS-Guimarães/Material de apoio|OPERADOR ECDIS]]
 - [[Aulas/Manobra-de-Navio-Franco/Material de apoio|MANOBRA DE NAVIO]]
-- [[Aulas/Estabilidade-2-Quintana/Apostilas/Material de apoio|ESTABILIDADE II]]
+- [[Aulas/Estabilidade-2-Quintana/Material de apoio|ESTABILIDADE II]]
 
 ## 📅 Cronograma
 
