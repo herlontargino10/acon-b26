@@ -4,5 +4,5 @@
 
 ## Questões de aulas práticas
 
-- [[Aula Prática/Prática - 11 Questões Aplicados pelo Professor|Prática 1 — 11 questões]]
+- [[Prática - 11 Questões Aplicados pelo Professor|Prática 1 — 11 questões]]
 - [[Prática - 22 Questões Aplicados pelo Professor (Em Edição)|Prática 2 — 22 questões]]

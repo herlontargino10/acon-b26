@@ -36,7 +36,7 @@ title: Início
 
 ## 📂 Material de apoio
 
-- [[Referências]]
+- [[Referências/Material de apoio|Referências]]
 
 ## 📢 Instruções gerais
 

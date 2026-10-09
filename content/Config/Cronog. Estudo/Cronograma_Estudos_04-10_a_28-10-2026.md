@@ -79,7 +79,6 @@
 ### 10:30–12:30 — HIDRODINÂMICA
 - [ ]  Leitura Cap. 5
 - [ ] Fazer Simulado Cap. 5
-- [ ] Corrigir Simulado Cap. 4
 
 ### 14:00–16:00 — IOM
 - [ ] Filtrar PLSV
@@ -100,6 +99,7 @@
 
 ### 10:30–12:30 — HIDRODINÂMICA
 - [ ] Leitura Cap. 5
+- [ ] Treinar questão de cálculo
 - [ ] Criar/ajustar questões Cap. 5
 - [ ] Revisar Cap. 4
 - [ ] Preparar Simulado Cap. 5
