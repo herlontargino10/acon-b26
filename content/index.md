@@ -42,12 +42,4 @@ title: Início
 
 - [[CIAGA]]
 
-## 🆕 Atualizações recentes
-
-- [[arte-naval-vol-1-e-2.pdf|Livro Arte Naval Vol. 1 e 2]]
-- [[navegacao-a-ciencia-e-a-arte-vol-1-miguens.pdf|Livro navegação a ciência e a arte Vol. 1 Miguens]]
-- [[Indicação de Aplicativos e livros pelo Professor|Apps Indicados pelo professor de inglês]]
-- [[Unid-01-Equilibrio-particula-e-corpo-rigido.pdf|Apostila de Física - Unidade I - Equilíbrio, partícula e corpo rígido]]
-- [[Inglês_Técnico_Marítimo_CLC_August_F_Hans_Hoffman_1.pdf|Inglês Técnico Marítimo CLC August F Hans Hoffman 1]]
-- [[Inglês_Técnico_Marítimo_CLC_August_F_Hans_Hoffman_2.pdf]]
 
