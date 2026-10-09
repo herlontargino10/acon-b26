@@ -26,7 +26,7 @@ title: Início
 - [[Aulas/Introduções-Embarcações-Offshore-Amanda/Material de apoio|INTRODUÇÃO A EMBARC. OFFSHORE]]
 - [[Aulas/Navegação-2-Paulo-Lima/Material de apoio|NAVEGAÇÃO ELETRÔNICA]]
 - [[Aulas/Oceonografia-Física-Ana-Cristina/Material de apoio|OCEANOGRAFIA FÍSICA]]
-- [[Aulas/Operador-ECDIS-Guimarães/Material de apoio|OPERADOR ECDIS]]
+- [[Aulas/Operador-ECDIS-Guimarães/Apostilas/Material de apoio|OPERADOR ECDIS]]
 - [[Aulas/Manobra-de-Navio-Franco/Material de apoio|MANOBRA DE NAVIO]]
 - [[Aulas/Estabilidade-2-Quintana/Material de apoio|ESTABILIDADE II]]
 
