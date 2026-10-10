@@ -28,5 +28,5 @@ title: Cronograma
 - [Semana 24](./20260921_QTS_Semana_24.png)
 - [Semana 25](./20260928_QTS_Semana_25.png)
 - [Semana 26](./20261005_QTS_Semana_26.png)
-
+- [Semana 27](./20261012_QTS_Semana_27.png)
 

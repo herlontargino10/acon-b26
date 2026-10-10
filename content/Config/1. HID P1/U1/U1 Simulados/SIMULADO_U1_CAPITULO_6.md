@@ -7,9 +7,13 @@
 Analise as afirmativas abaixo referentes ao escoamento plenamente desenvolvido dominado por forças de pressão e ao método analítico de resolução.
 
 **I.** A hipótese de que o escoamento é independente do tempo caracteriza um escoamento permanente ($\frac{\partial (.)}{\partial t} = 0$).
+
 **II.** A condição de não escorregamento estipula que a velocidade do escoamento junto à parede possui o seu máximo valor absoluto.
+
 **III.** O modelo de escoamento plenamente desenvolvido conduzido por pressão apresentado no material estabelece um balanço fundamental entre a força de pressão e a força gravitacional.
+
 **IV.** Ao se integrar a equação da conservação da massa com a condição de impenetrabilidade, prova-se analiticamente que a componente transversal da velocidade ($v$) é nula em toda e qualquer posição do duto.
+
 **V.** A solução analítica deduzida no capítulo, conhecida como equação de Poiseuille, determina que o perfil de velocidades do escoamento é parabólico.
 
 **São corretas:**
@@ -27,14 +31,23 @@ Analise as afirmativas abaixo referentes ao escoamento plenamente desenvolvido d
 Preencha as lacunas das frases abaixo utilizando os conceitos e termos correspondentes.
 
 1. No passo de hipóteses básicas, considerar que o fluido pode ser um líquido ou um gás se movendo lentamente justifica a hipótese de escoamento ________.
+
 2. A hipótese de escoamento ________ é representada matematicamente pela anulação da derivada parcial em relação ao tempo.
+
 3. A restrição de contorno de não ________ exige que o fluido em contato com as fronteiras sólidas possua a mesma velocidade delas ($u_{y=0}=0$ e $u_{y=a}=0$).
+
 4. A condição física que impõe que não podem existir velocidades perpendiculares ou normais às paredes é denominada de ________.
+
 5. A ausência de atuação do peso do fluido no equacionamento principal, refletida em $\rho g_x = 0$, indica que as forças de ________ foram negligenciadas.
+
 6. A resolução inicia-se pela conservação da ________, que comprova precocemente que $\frac{\partial v}{\partial y} = 0$, reduzindo a complexidade do sistema.
+
 7. Na equação simplificada de Navier-Stokes para a condução por pressão, a força induzida pelo gradiente de pressão é balanceada unicamente pela força ________ da água (relacionada ao termo $\mu \frac{\partial^2 u}{\partial y^2}$).
+
 8. O método matemático invocado para igualar duas expressões independentes dependentes de $x$ e de $y$ a uma constante comum é a ________ de variáveis.
+
 9. Na equação de Poiseuille final, constata-se fisicamente que quanto maior for a ________ do fluido ($\mu$), menor será a velocidade máxima atingida.
+
 10. A equação resultante da derivação abordada no capítulo, que descreve um arranjo onde a velocidade máxima ocorre no centro do canal, é batizada de equação de ________.
 
 ---
@@ -44,14 +57,23 @@ Preencha as lacunas das frases abaixo utilizando os conceitos e termos correspon
 Classifique as afirmativas abaixo como Verdadeiras (V) ou Falsas (F).
 
 (  ) 1. Conforme a dica de prova, o professor não aceitará a resposta "escoamento desenvolvido" em avaliações, exigindo obrigatoriamente o termo completo "totalmente desenvolvido" sob pena de decréscimo na pontuação.
+
 (  ) 2. A primeira equação diferencial explorada no procedimento (Passo 4) é a conservação da quantidade de movimento, pois nela a componente $v$ é primeiramente anulada.
+
 (  ) 3. A integração inicial da conservação da massa resulta que a velocidade normal às paredes, $v$, é constante, com seu valor fixado em zero pela condição de impenetrabilidade nas paredes $y=0$ e $y=a$.
+
 (  ) 4. A premissa de um escoamento bidimensional (2D) assegura que não há variações de velocidade ao longo do eixo $z$, anulando as derivadas espaciais e a componente $w$.
+
 (  ) 5. O perfil de velocidades construído pela equação de Poiseuille possui distribuição estritamente linear, decrescendo a uma taxa constante do centro até as paredes.
+
 (  ) 6. No escoamento plenamente desenvolvido, a equação de Navier-Stokes é reduzida drasticamente pois não existe nenhum termo de aceleração convectiva ou temporal atuando sobre o fluido.
+
 (  ) 7. A seção tachada transcrita no material evidencia que a dedução do "escoamento plenamente desenvolvido dominado por força de corpo (gravidade)" foi descontinuada/abortada na apostila original.
+
 (  ) 8. As constantes de integração $C_1$ e $C_2$ da conservação da quantidade de movimento puderam ser ignoradas e removidas sem a necessidade de aplicação formal de condições de contorno.
+
 (  ) 9. Escoamentos portadores das características permanente, totalmente desenvolvido e 2D representam, em conjunto, o clássico escoamento laminar modelável.
+
 (  ) 10. O escoamento abordado no capítulo ocorre estritamente pela diferença de velocidade mecânica imposta entre duas paredes translatórias.
 
 ---
@@ -61,38 +83,63 @@ Classifique as afirmativas abaixo como Verdadeiras (V) ou Falsas (F).
 Selecione a alternativa correta para cada uma das questões a seguir.
 
 **Questão 4.1.** Sobre a simplificação da Equação de Conservação da Massa, qual aspecto metodológico foi determinante para se deduzir a anulação dos gradientes $\frac{\partial w}{\partial z}$ e $\frac{\partial u}{\partial x}$?
+
 (a) O reconhecimento de que o fluido é compressível anula as derivadas espaciais em volumes fechados.
+
 (b) A substituição antecipada da pressão na equação de Navier-Stokes forçou as variações vetoriais a zero.
-(c) A anulação ocorreu exclusivamente pela impenetrabilidade da placa inferior localizada em $y=0$.
+
+(c) A anulação ocorreu exclusivamente pela impenetrabilidade da placa inferior localizada em $y=0.
+
 (d) A hipótese de escoamento totalmente desenvolvido zera a variação de $u$ ao longo de $x$, e a característica puramente bidimensional (2D) zera as variações de propriedades ao longo do eixo $z$.
+
 (e) O método de separação de variáveis dividiu as derivadas até extinguir as componentes longitudinais.
 
 **Questão 4.2.** No arranjo do escoamento duto a duto abordado no Capítulo 6, o que justifica fisicamente o sumiço dos componentes de inércia na equação reduzida de Navier-Stokes $\frac{\partial p}{\partial x} = \mu \frac{\partial^2 u}{\partial y^2}$?
+
 (a) O escoamento ocorre com um gradiente severo em declive livre, tornando o arrasto preponderante.
+
 (b) O escoamento está em regime permanente (anulando variações temporais) e plenamente desenvolvido (anulando variações convectivas espaciais), o que significa que não existe aceleração fluida, restando apenas o equilíbrio estático entre pressão e atrito.
+
 (c) A viscosidade tranca a movimentação hídrica ao longo de todo o canal, mantendo o corpo hídrico imobilizado sem inércia.
+
 (d) As forças de corpo compensam exatamente as perdas do fluido na entrada do canal fechado.
+
 (e) Trata-se de uma simplificação restrita a fluidos não-newtonianos sem massa específica controlável.
 
 **Questão 4.3.** Após a aplicação rigorosa das condições de contorno, a equação de Poiseuille revelou a expressão $u = \frac{1}{2\mu} \frac{\partial p}{\partial x} (y^2 - ay)$. Observando essa formulação e a representação visual na lousa, onde o escoamento atinge a sua velocidade máxima?
+
 (a) O máximo concentra-se colado na parede superior ($y=a$), impulsionado pela menor resistência pressórica.
+
 (b) Ocorre precisamente na fronteira inferior ($y=0$), devido à conservação do não escorregamento da malha.
+
 (c) A velocidade desponta maximizada no limite exato de impenetrabilidade vertical em $x=0$.
+
 (d) No centro livre do canal transversal, posicionado no miolo afastado e intocado pelas bordas (formando o pico livre da curva parabólica).
+
 (e) Nas extremidades, devido à predominância vetorial estrita da força de corpo.
 
 **Questão 4.4.** Durante o equacionamento estruturado do modelo de Poiseuille (Passo 3 e Passo 6b), como a condição de "não escorregamento" se manifestou matematicamente na manipulação da matriz física?
+
 (a) Foi demonstrado que os fluidos de maior viscosidade escorregam paralelamente à placa inferior de $y=-a$.
+
 (b) A premissa definiu taxativamente que a velocidade do escoamento junto às duas paredes fixas precisaria ser idêntica a elas, estabelecendo-se $u_{y=0}=0$ e $u_{y=a}=0$.
+
 (c) Impôs que o escorregamento compensasse a falta de parede móvel no topo ($y=a$), operando a uma velocidade $V$.
+
 (d) Condicionou a variação cartesiana do eixo vertical a se estender ao infinito, gerando contornos virtuais abertos.
+
 (e) Garantiu apenas a nulidade no instante inicial $t=0$, pois o sistema desvia-se com o passar do tempo.
 
 **Questão 4.5.** A técnica da "separação de variáveis" foi o argumento algébrico principal evocado na derivação da quantidade de movimento. Qual assertiva define, com base na fonte, o fundamento mecânico para o uso desta ferramenta naquele ponto do cálculo?
+
 (a) O princípio impõe que duas quantidades distintas que dependem exclusivamente de eixos isolados diferentes (uma variando só em $x$ e a outra só em $y$) e que permanecem algebricamente iguais sob qualquer coordenada, necessariamente precisam ser constantes uniformes.
+
 (b) Exige a atuação ativa da força da gravidade projetada para conseguir desagregar as variáveis mássicas.
+
 (c) Assegura que o fluido possa ser fracionado entre compressível numa parede e incompressível na vizinhança paralela.
+
 (d) Aplica-se unicamente para separar os fluidos na equação da continuidade (massa), evitando o cálculo na Navier-Stokes.
+
 (e) Subtrai uma das paredes do cálculo para transmutar o formato da linha da corrente em modelo retilíneo uniforme (1D).
 
 ---

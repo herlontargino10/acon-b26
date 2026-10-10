@@ -20,7 +20,6 @@
 
 ## 1. Configurar ECDIS sabendo que o comprimento do navio é de 40 metros, calado 5m e sua gyro está inoperante.
 
-
 Verificar os sensores e selecionar a agulha Magnética.
 
 ```text
@@ -42,9 +41,10 @@ MAGNETIC
 
 ## 1.1 Adicionar comprimento do navio 40 metros
 
+Acessar:
 
 ```text
-→ Task List → Advanced Plannig -> Coluna Turn Radius
+→ Task List → Advanced Plannig → Coluna Turn Radius
 ````
 
 
@@ -73,6 +73,7 @@ MAGNETIC
 
 ## 1.2 Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
 
+Acessar:
 
 ```text 
 → Task List → Monitoring → Aba Safety Alarms → Aba Safety Meters
@@ -113,6 +114,8 @@ MAGNETIC
 
 ## 1.3 Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
 
+Acessar:
+
 ```text 
 → Task List → Charts → Aba ENC
 ```
@@ -151,9 +154,10 @@ MAGNETIC
 
 ## 2. — Traçar derrota da posição do navio até 50°32.699' N / 005°02.249' W, com no mínimo 10 Way Points.
 
+Acessar:
 
 ```text
-→ Task List → Advanced Plannig -> New
+→ Task List → Advanced Plannig → New
 ```
 
 ### Primeiro ponto
@@ -193,7 +197,7 @@ Na lista de pontos:
 ### Primeiro ponto
 
 ```text
-→ Task List → Advanced Plannig -> Selecionar WP desejando
+→ Task List → Advanced Plannig → Selecionar WP desejando
 ````
 
 Selecionar WP desejado, da um duplo clique
@@ -211,9 +215,10 @@ Selecionar WP desejado, da um duplo clique
 
 ## 4.1 Checar a derrota 
 
+Acessar: 
 
 ```text
-→ Task List → Advanced Plannig -> Check Route -> Play Check Route
+→ Task List → Advanced Plannig → Check Route → Play Check Route
 ````
 
 ![[Pasted image 20261005173346.png]]
@@ -250,7 +255,7 @@ Depois:
 Na rota salva:
 
 ```text
-→ Task List → Advanced Plannig -> Schedule Calculation -> Create Schedule -> Schedule Calculation Botão Play
+→ Task List → Advanced Plannig → Schedule Calculation → Create Schedule → Schedule Calculation Botão Play
 ````
 
 
@@ -305,7 +310,7 @@ Na rota salva:
 Acessar:
 
 ```text
-→ Task List → Advanced Plannig -> REF. PTS
+→ Task List → Advanced Plannig → REF. PTS
 ```
 
 Para criar uma referência:
@@ -327,36 +332,53 @@ Repetir para criar o segundo ponto de referência.
 
 ____
 
-## Passo 7 — Ativar os vetores do navio (CONFIRMAR)
+## Passo 7 — Ativar os vetores do navio
+
+Acessar:
+
+```text
+→ Task List → Navigation -> Functions -> Vectors
+```
+
+Selecione os vetores **HDG, STW, COG e SOG**.
+**Confirmação visual:** quando selecionados, os vetores ficam destacados em **azul**.
+
 
 [[#Índice]]
 
 ---
 
-## 8. Adiquiri alvos no AIS e ARPA  e monitorá-los no ECDIS (CONFIRMAR)
+## 8. Adquirir alvos no AIS e ARPA e monitorá-los no ECDIS
 
-```text
-Configurações
-→ Sensores
-→ AIS
+**1. Verificar a integração**
+
+No menu principal, à direita da tela, confirme que o **AIS não está indicado em vermelho**. Se estiver vermelho, significa que o AIS está fora de operação, nesse caso informe ao professor.
+
+**2. Acessar as configurações**
+
+```
+Task List → Targets
 ```
 
-Preencher:
+**3. Ativar a exibição dos alvos**
 
+Habilite a opção:
 
-Ativar:
-
-```text
+```
 Show AIS Targets
 ```
 
-Voltar para a tela principal.
+**4. Verificar na carta**
 
-Os navios deverão aparecer como triângulos.
+Retorne à tela principal do ECDIS. Os navios com AIS recebidos deverão aparecer na carta como **símbolos triangulares**.
 
-Selecionar um alvo e verificar seus dados.
+**5. Selecionar e monitorar um alvo**
 
-As configurações funcionam apenas se o AIS não estiver marcado em cor vermelha no menu display. 
+Clique em um alvo na carta e verifique os dados apresentados pelo sistema.
+
+> [!important] Verificação  
+> A exibição dos alvos depende da integração AIS estar disponível e dos dados estarem sendo recebidos pelo ECDIS. Confirme que o AIS não está indicado em vermelho no menu principal à direita.
+
 
 [[#Índice]]
 

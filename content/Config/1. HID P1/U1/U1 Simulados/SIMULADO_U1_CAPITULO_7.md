@@ -27,6 +27,7 @@ Analise as afirmativas abaixo referentes ao escoamento plenamente desenvolvido e
 Preencha as lacunas das frases abaixo utilizando os conceitos e termos correspondentes.
 
 1. O sistema de coordenadas define a direção $h$ alinhada exclusivamente com a _________.
+
 2. A hipótese de escoamento incompressível estabelece que a densidade do fluido $\rho$ seja _________.
 3. O modelo no Capítulo 7 destaca explicitamente que, em um canal inclinado, existem forças de _________ ($\rho g_x \neq 0$).
 4. A condição que afirma não existirem velocidades perpendiculares às paredes ($v = 0$) é a condição de contorno de _________.
