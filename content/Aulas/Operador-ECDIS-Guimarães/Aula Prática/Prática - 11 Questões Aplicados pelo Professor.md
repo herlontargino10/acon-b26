@@ -8,8 +8,8 @@
 4. [[#4. Checar a derrota e nomeá-la|Checar e nomear derrota]]
 5. [[#5. Suspender em 10/04/2025 às 1730 UTC, velocidade de 8 nós, aguardar 1 h no WPT 5 e determinar a ETA no destino|Calcular Schedule / ETA]]
 6. [[#6. Inserir 2 pontos de referência|Pontos de referência]]
-7. [[#Passo 7 — Ativar os vetores do navio (CONFIRMAR)|Ativar vetores do navio]]
-8. [[#8. Adiquiri alvos no AIS e ARPA  e monitorá-los no ECDIS (CONFIRMAR)|AIS e ARPA]]
+7. [[#Passo 7 — Ativar os vetores do navio|Ativar vetores do navio]]
+8. [[#8. Adquirir alvos no AIS e ARPA e monitorá-los no ECDIS]]
 9. [[#9. Configurar Safety Frame|Configurar Safety Frame]]
 10. [[#10. Verificar altura da maré na chegada|Maré no destino]]
 11. [[#11. Enviar mensagem AIS para um navio próximo, a fim de realizar uma experiência com o equipamento|Mensagem AIS]]
@@ -69,6 +69,17 @@ Acessar:
 >
 
 ![[Pasted image 20261005172229.png]]
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube-nocookie.com/embed/rAHy8elyT2w"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 
 ## 1.2 Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
@@ -337,7 +348,7 @@ ____
 Acessar:
 
 ```text
-→ Task List → Navigation -> Functions -> Vectors
+→ Task List → Navigation → Functions → Vectors
 ```
 
 Selecione os vetores **HDG, STW, COG e SOG**.
@@ -387,7 +398,7 @@ Clique em um alvo na carta e verifique os dados apresentados pelo sistema.
 ## 9. Configurar Safety Frame
 
 ```text
-Task List → Monitoring - Aba Safety Alarms → Safety Frame
+Task List → Monitoring → Aba Safety Alarms → Safety Frame
 ```
 
 
@@ -400,7 +411,7 @@ Task List → Monitoring - Aba Safety Alarms → Safety Frame
 ## 10. Verificar altura da maré na chegada
 
 ```text
-Task List -> Tasks -> Tides 
+Task List → Tasks → Tides 
 ```
 
 > [!tip] Buscar da tábua de maré
@@ -419,7 +430,7 @@ Task List -> Tasks -> Tides
 Selecionar o navio próximo:
 
 ```text
-Task List -> AIS -> Navio -> Aba Messaging
+Task List → AIS → Navio → Aba Messaging
 → Mensagem / Text Message
 ```
 
@@ -449,7 +460,7 @@ Após inserir a mensagem:
 
 
 ```text
-Task List -> MAPS -> Aba Text -> Escrever Mensagem -> OK ->
+Task List → MAPS → Aba Text → Escrever Mensagem → OK →
 ```
 
 Após digitar o texto e o campo info, siga para qualquer local na carta e clique para inserir a mensagem. 
@@ -466,7 +477,7 @@ ____
 ## 13. Inserir um aviso de exercício de tiro da Royal Navy, com área circular de 5 NM com centro em 50°21.274' N  / 006°33.831' W 
 
 ```text
-Task List -> MAN CORR -> Aba Circles -> Escolher Tipo de Círculo -> OK
+Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
 ```
 
 ![[20261007_100404.jpg]]
