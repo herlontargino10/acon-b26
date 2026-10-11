@@ -195,6 +195,19 @@ A rota aparece ligando os dois pontos.
 → Salvar
 ```
 
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/PcayRJgb850?si=gpO9LziHR855YsZR"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
+
 [[#Índice]]
 
 
