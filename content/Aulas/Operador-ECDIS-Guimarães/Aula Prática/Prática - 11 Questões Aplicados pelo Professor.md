@@ -475,10 +475,35 @@ Após inserir a mensagem:
 Task List → MAPS → Aba Text → Escrever Mensagem → OK →
 ```
 
+## Criar um aviso ou nota com a ferramenta MAPS
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/bUglNeCcgd8?si=ibX39I087hZ-ThAv"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
+## Como remover um aviso ou nota criado pelo MAPS
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/amEvEiXxu2g?si=fgdXd5XIJur_kky_"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
 Após digitar o texto e o campo info, siga para qualquer local na carta e clique para inserir a mensagem. 
 
 ![[20261007_100635.jpg]]
-
 
 ![[20261007_100648.jpg]]
 
@@ -495,5 +520,8 @@ Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
 ![[20261007_100404.jpg]]
 
 ![[20261007_100409.jpg]]
+
+
+
 
 [[#Índice]]
