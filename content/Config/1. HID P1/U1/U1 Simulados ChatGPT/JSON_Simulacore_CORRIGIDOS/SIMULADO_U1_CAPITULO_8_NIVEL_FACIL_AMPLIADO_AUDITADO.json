@@ -1,0 +1,398 @@
+[
+  {
+    "type": "mc",
+    "question": "Considere o modelo de escoamento de Couette entre duas placas paralelas. A placa inferior está parada, a placa superior se move com velocidade V₀, a distância entre elas é a e o resumo adota p₁ = p₂.\n\n**I.** No modelo apresentado, a placa superior arrasta o fluido por meio das forças viscosas.\n\n**II.** A condição de não escorregamento na placa superior é u(y=a) = 0.\n\n**III.** A condição de não escorregamento na placa inferior é u(y=0) = 0.\n\n**IV.** A equação final u = (V₀/a)y representa um perfil linear de velocidade.\n\n**V.** O resumo adota ∂u/∂x = 0 como condição de escoamento totalmente desenvolvido.\n\n**São corretas as afirmativas:**",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "I, II e III.",
+      "I, III, IV e V.",
+      "II, III e V.",
+      "I, II, IV e V.",
+      "III, IV e V."
+    ],
+    "correct": 1,
+    "explanation": "- **I — Verdadeira.** A placa superior em movimento arrasta o fluido por meio das forças viscosas.\n- **II — Falsa.** A velocidade do fluido junto à placa superior é V₀, não zero: u(a) = V₀.\n- **III — Verdadeira.** A placa inferior está parada; pelo não escorregamento, u(0) = 0.\n- **IV — Verdadeira.** A equação u = (V₀/a)y é linear em y.\n- **V — Verdadeira.** O resumo usa ∂u/∂x = 0 para representar o escoamento totalmente desenvolvido.\n\n**Ideia-chave:** a velocidade do fluido acompanha a velocidade tangencial de cada placa em sua superfície."
+  },
+  {
+    "type": "gap",
+    "question": "No modelo de Couette, a placa inferior está __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "parada ou estacionária",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "A placa superior se move com velocidade __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "V₀",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "A distância entre as placas é representada pela letra __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "a",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "No modelo apresentado, as pressões nas extremidades são __________, isto é, p₁ = p₂.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "iguais",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "A condição de não escorregamento na parede inferior é u(y=0) = __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "zero",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "A condição de não escorregamento na parede superior é u(y=a) = __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "V₀",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "A condição de impenetrabilidade impede que o fluido atravesse a parede na direção __________ a ela.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "normal",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "No modelo bidimensional do resumo, a componente de velocidade w é __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "zero",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "A hipótese de incompressibilidade é representada por densidade __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "constante",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "No escoamento permanente, as propriedades consideradas não variam com o __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "tempo",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "A condição de escoamento totalmente desenvolvido usada no resumo é ∂u/∂x = __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "zero",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "Aplicadas as hipóteses à continuidade, obtém-se ∂v/∂y = __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "zero",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "Integrando ∂²u/∂y² = 0 uma vez, obtém-se ∂u/∂y = __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "C₁",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "Integrando novamente, obtém-se u = __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "C₁y + C₂",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "gap",
+    "question": "A equação final u = (V₀/a)y representa um perfil de velocidade __________.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "correct": "linear",
+    "explanation": "**Por que essas lacunas são importantes?** Elas percorrem a sequência essencial do capítulo: configuração do sistema, hipóteses, condições de contorno, continuidade, integrações e interpretação da equação final."
+  },
+  {
+    "type": "tf",
+    "question": "No modelo de Couette, a placa inferior está parada e a superior se move.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a configuração do problema."
+  },
+  {
+    "type": "tf",
+    "question": "Pela condição de não escorregamento, o fluido junto à placa superior tem velocidade V₀.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A velocidade tangencial junto à placa superior é V₀."
+  },
+  {
+    "type": "tf",
+    "question": "Pela condição de não escorregamento, o fluido junto à placa inferior tem velocidade V₀.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A placa inferior está parada; portanto, u(0) = 0."
+  },
+  {
+    "type": "tf",
+    "question": "A impenetrabilidade impede a passagem de fluido através da parede na direção normal a ela.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A impenetrabilidade impede a passagem através da parede na direção normal."
+  },
+  {
+    "type": "tf",
+    "question": "A hipótese de incompressibilidade significa, no resumo, que a densidade é constante.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O resumo representa a incompressibilidade por ρ = constante."
+  },
+  {
+    "type": "tf",
+    "question": "Escoamento permanente significa que as propriedades consideradas não variam com o tempo.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No escoamento permanente, as propriedades consideradas não variam com o tempo."
+  },
+  {
+    "type": "tf",
+    "question": "Escoamento totalmente desenvolvido e escoamento permanente são duas expressões que significam exatamente a mesma coisa.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Permanente diz respeito à variação temporal; totalmente desenvolvido, no modelo do resumo, é representado por ∂u/∂x = 0. São hipóteses distintas."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo representa o escoamento totalmente desenvolvido pela condição ∂u/∂x = 0.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a condição apresentada no resumo."
+  },
+  {
+    "type": "tf",
+    "question": "No modelo bidimensional apresentado, w = 0.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O modelo bidimensional adota w = 0."
+  },
+  {
+    "type": "tf",
+    "question": "A equação da continuidade, após as simplificações indicadas no resumo, fornece ∂v/∂y = 0.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Com as simplificações indicadas, resta ∂v/∂y = 0."
+  },
+  {
+    "type": "tf",
+    "question": "De ∂v/∂y = 0, conclui-se que v = 0 após aplicar a condição de contorno pertinente.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Integrando, v é constante em y; a condição de impenetrabilidade nas paredes determina essa constante como zero."
+  },
+  {
+    "type": "tf",
+    "question": "A equação reduzida da quantidade de movimento apresentada no resumo é 0 = μ(∂²u/∂y²).",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a equação reduzida apresentada no resumo."
+  },
+  {
+    "type": "tf",
+    "question": "A primeira integração de ∂²u/∂y² = 0 já fornece a equação final u = (V₀/a)y.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A primeira integração fornece ∂u/∂y = C₁. É necessária uma segunda integração para obter u = C₁y + C₂; depois são aplicadas as condições de contorno."
+  },
+  {
+    "type": "tf",
+    "question": "A condição u(0) = 0, aplicada a u = C₁y + C₂, permite concluir que C₂ = 0.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Substituindo u = 0 e y = 0, resulta C₂ = 0."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo descreve as camadas-limite como crescendo a partir das paredes até se encontrarem na linha central; não é necessário concluir, apenas por isso, que o escoamento seja turbulento.",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a descrição de desenvolvimento incluída no resumo. O encontro das camadas-limite, isoladamente, não autoriza concluir que o escoamento seja turbulento."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a causa do movimento do fluido no modelo de Couette descrito no resumo?",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "A diferença de pressão, com p₁ > p₂.",
+      "O movimento da placa superior e as forças viscosas.",
+      "A força da gravidade, considerada não desprezável no modelo.",
+      "A ausência de viscosidade.",
+      "O movimento da placa inferior."
+    ],
+    "correct": 1,
+    "explanation": "A placa superior se move e transmite movimento ao fluido pelas forças viscosas. O modelo estabelece pressões iguais nas extremidades e despreza as forças de corpo."
+  },
+  {
+    "type": "mc",
+    "question": "Qual afirmação corresponde à hipótese de incompressibilidade apresentada no resumo?",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "A velocidade é nula em todo o fluido.",
+      "A pressão é necessariamente nula.",
+      "A densidade é constante.",
+      "A viscosidade é zero.",
+      "O fluido não pode se deformar."
+    ],
+    "correct": 2,
+    "explanation": "A hipótese de incompressibilidade é representada por densidade constante: ρ = constante."
+  },
+  {
+    "type": "mc",
+    "question": "Qual par de condições representa o não escorregamento nas duas placas?",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "u(0) = V₀ e u(a) = 0.",
+      "u(0) = 0 e u(a) = V₀.",
+      "v(0) = V₀ e v(a) = 0.",
+      "u(0) = u(a) = 0.",
+      "u(0) = u(a) = V₀."
+    ],
+    "correct": 1,
+    "explanation": "A placa inferior está em y = 0 e parada, então u(0) = 0. A placa superior está em y = a e se move com velocidade V₀, então u(a) = V₀."
+  },
+  {
+    "type": "mc",
+    "question": "Depois das simplificações indicadas no resumo, qual expressão resulta da equação da continuidade?",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "∂v/∂y = 0.",
+      "∂u/∂y = V₀.",
+      "v = V₀.",
+      "∂u/∂x = V₀.",
+      "w = V₀."
+    ],
+    "correct": 0,
+    "explanation": "A continuidade é simplificada usando ∂u/∂x = 0 e ∂w/∂z = 0. Resta ∂v/∂y = 0."
+  },
+  {
+    "type": "mc",
+    "question": "Partindo de ∂²u/∂y² = 0, qual resultado aparece após a primeira integração em relação a y?",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "u = C₁y + C₂.",
+      "∂u/∂y = C₁.",
+      "u = V₀y²/a².",
+      "u = V₀/a.",
+      "v = 0."
+    ],
+    "correct": 1,
+    "explanation": "A primeira integração de ∂²u/∂y² = 0 fornece ∂u/∂y = C₁. A segunda fornece u = C₁y + C₂."
+  },
+  {
+    "type": "mc",
+    "question": "Na expressão u = C₁y + C₂, qual condição permite concluir que C₂ = 0?",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "u(a) = V₀.",
+      "p₁ = p₂.",
+      "u(0) = 0.",
+      "w = 0.",
+      "ρ = constante."
+    ],
+    "correct": 2,
+    "explanation": "Na parede inferior, u = 0 e y = 0. Substituindo em u = C₁y + C₂, resulta C₂ = 0."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a equação final de Couette apresentada no resumo?",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "u = (V₀/a)y.",
+      "u = (V₀/a)y².",
+      "u = V₀y²/a².",
+      "u = V₀, em todos os pontos.",
+      "u = C₁y² + C₂."
+    ],
+    "correct": 0,
+    "explanation": "Aplicando as duas condições de contorno, obtém-se C₁ = V₀/a e C₂ = 0. Logo, u = (V₀/a)y."
+  },
+  {
+    "type": "mc",
+    "question": "De acordo com a descrição de *Developing Flow* incorporada ao resumo, o que ocorre durante o desenvolvimento do escoamento?",
+    "category": "Hidrodinâmica — Couette e Escoamento Conduzido por Cisalhamento",
+    "options": [
+      "As camadas-limite desaparecem antes de se aproximarem do centro.",
+      "A velocidade é zero em todo o canal.",
+      "As camadas-limite crescem a partir das paredes e se encontram na linha central.",
+      "O encontro das camadas prova, por si só, que o escoamento é turbulento.",
+      "A condição ∂u/∂x = 0 vale necessariamente desde a entrada."
+    ],
+    "correct": 2,
+    "explanation": "O resumo descreve as camadas-limite crescendo a partir das paredes e se encontrando na linha central. Não se deve acrescentar a conclusão de que isso prova, por si só, a existência de turbulência."
+  }
+]

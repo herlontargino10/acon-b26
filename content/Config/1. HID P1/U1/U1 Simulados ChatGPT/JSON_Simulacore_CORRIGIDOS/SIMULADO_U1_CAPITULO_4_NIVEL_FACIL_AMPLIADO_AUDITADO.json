@@ -1,0 +1,398 @@
+[
+  {
+    "type": "mc",
+    "question": "Considere as ideias do resumo sobre conservação da energia, trabalho e hipóteses de escoamento.\n\n**I.** A fonte expressa a Primeira Lei da Termodinâmica para o sistema como E = Q - W, conforme a convenção de sinais apresentada no resumo.\n\n**II.** A energia armazenada por unidade de massa pode incluir energia interna, cinética e potencial gravitacional.\n\n**III.** O trabalho total, segundo a organização do resumo, divide-se em trabalho de máquina e trabalho de transmissão; este último inclui parcelas associadas à pressão e às tensões viscosas.\n\n**IV.** Segundo o resumo, a hipótese de escoamento totalmente desenvolvido é adequada à hidrodinâmica do navio e se aplica principalmente ao escoamento externo em torno do casco.\n\n**V.** A fonte lista como hipótese fundamental o fluido newtoniano e dá água e ar como exemplos.\n\n**São corretas as afirmativas:**",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "I, II e III, apenas.",
+      "I, II, III e V, apenas.",
+      "I, III e IV, apenas.",
+      "II, IV e V, apenas.",
+      "I, II, III, IV e V."
+    ],
+    "correct": 1,
+    "explanation": "- **I — Correta.** O resumo apresenta E = Q - W como a expressão da Primeira Lei da Termodinâmica, usando a convenção de sinais descrita na fonte.\n- **II — Correta.** Os termos considerados são energia interna, cinética e potencial gravitacional.\n- **III — Correta.** O trabalho total é dividido em trabalho de máquina e trabalho de transmissão; este último inclui as parcelas de pressão e viscosidade.\n- **IV — Incorreta.** O resumo afirma que a hipótese de totalmente desenvolvido se aplica a canais e dutos fechados e não à hidrodinâmica do navio.\n- **V — Correta.** Água e ar são apresentados como exemplos de fluidos newtonianos."
+  },
+  {
+    "type": "gap",
+    "question": "A Primeira Lei da Termodinâmica aparece no resumo como **E = Q − ____**.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "W",
+    "explanation": "W (trabalho), pois a expressão completa é E = Q - W."
+  },
+  {
+    "type": "gap",
+    "question": "A energia armazenada está diretamente relacionada à __________ do próprio sistema.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Massa",
+    "explanation": "Resposta esperada para a lacuna: Massa."
+  },
+  {
+    "type": "gap",
+    "question": "A energia em trânsito inclui calor e __________.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Trabalho",
+    "explanation": "Resposta esperada para a lacuna: Trabalho."
+  },
+  {
+    "type": "gap",
+    "question": "A taxa de variação da energia por unidade de tempo é representada por **E com ponto sobre a letra** (Ė).",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "E",
+    "explanation": "E, representada na taxa temporal por Ė."
+  },
+  {
+    "type": "gap",
+    "question": "A energia por unidade de massa é representada pela letra __________.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "e",
+    "explanation": "Resposta esperada para a lacuna: e."
+  },
+  {
+    "type": "gap",
+    "question": "Considerando apenas energia interna, cinética e potencial gravitacional, a fonte apresenta **e = û + ½ V² + ____**.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "gz",
+    "explanation": "gz, completando a expressão e = û + (1/2)V² + gz."
+  },
+  {
+    "type": "gap",
+    "question": "O termo û representa a energia __________ da partícula fluida.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Interna",
+    "explanation": "Resposta esperada para a lacuna: Interna."
+  },
+  {
+    "type": "gap",
+    "question": "O termo (1/2)V² representa a energia __________ por unidade de massa.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Cinética",
+    "explanation": "Resposta esperada para a lacuna: Cinética."
+  },
+  {
+    "type": "gap",
+    "question": "O termo gz representa a energia potencial __________ por unidade de massa.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Gravitacional",
+    "explanation": "Resposta esperada para a lacuna: Gravitacional."
+  },
+  {
+    "type": "gap",
+    "question": "A energia armazenada no volume de controle é escrita no resumo por meio de uma integral tripla de eρ sobre o __________.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Volume de controle",
+    "explanation": "Resposta esperada para a lacuna: Volume de controle."
+  },
+  {
+    "type": "gap",
+    "question": "A transferência de energia através da superfície de controle inclui o fluxo de energia associado à velocidade normal, representada por V· ____.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "n",
+    "explanation": "Resposta esperada para a lacuna: n."
+  },
+  {
+    "type": "gap",
+    "question": "Na organização do resumo, o trabalho total é dividido em trabalho de máquina e trabalho de __________.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Transmissão",
+    "explanation": "Resposta esperada para a lacuna: Transmissão."
+  },
+  {
+    "type": "gap",
+    "question": "O trabalho de transmissão inclui trabalho de pressão e trabalho de forças __________.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Viscosas",
+    "explanation": "Resposta esperada para a lacuna: Viscosas."
+  },
+  {
+    "type": "gap",
+    "question": "A hipótese de escoamento __________ significa que as forças viscosas são desprezíveis em comparação com as outras forças consideradas.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Invíscido",
+    "explanation": "Resposta esperada para a lacuna: Invíscido."
+  },
+  {
+    "type": "gap",
+    "question": "A hipótese __________ considera que não há variação de temperatura relevante no escoamento analisado, conforme a explicação apresentada na fonte.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "correct": "Isotérmica",
+    "explanation": "Resposta esperada para a lacuna: Isotérmica."
+  },
+  {
+    "type": "tf",
+    "question": "A fonte apresenta a Primeira Lei da Termodinâmica como E = Q - W.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "É a expressão apresentada pela fonte."
+  },
+  {
+    "type": "tf",
+    "question": "A energia armazenada pode incluir energia interna, cinética e potencial.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O resumo considera as energias interna, cinética e potencial."
+  },
+  {
+    "type": "tf",
+    "question": "Calor e trabalho são apresentados como formas de energia armazenada que dependem diretamente da massa do sistema.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Calor e trabalho são apresentados como energia em trânsito, não como energia armazenada."
+  },
+  {
+    "type": "tf",
+    "question": "A taxa de acumulação de energia no volume de controle e o fluxo líquido de energia através da superfície aparecem no balanço de energia.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O balanço contém a acumulação no interior e o fluxo líquido através da superfície de controle."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo considera que a energia por unidade de massa pode incluir outros termos, como contribuições químicas, nucleares, eletrostáticas ou magnéticas.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A fonte cita essas possibilidades para o termo e_outros."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o resumo, a energia cinética por unidade de massa é escrita como (1/2)V².",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a expressão apresentada para a energia cinética por unidade de massa."
+  },
+  {
+    "type": "tf",
+    "question": "A fonte considera os termos de transferência de calor sempre dominantes na hidrodinâmica do navio.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O resumo diz que, na hidrodinâmica do navio, os termos de calor costumam ser considerados muito pequenos para os fins discutidos."
+  },
+  {
+    "type": "tf",
+    "question": "O trabalho de máquina está associado a dispositivos como impulsores de bombas, pás de ventiladores ou pistões.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Esses são exemplos de dispositivos que podem realizar trabalho de máquina."
+  },
+  {
+    "type": "tf",
+    "question": "O trabalho de pressão e o trabalho viscoso são descritos como parcelas relacionadas à superfície de controle.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O resumo descreve o trabalho de pressão e o viscoso como parcelas associadas à superfície de controle."
+  },
+  {
+    "type": "tf",
+    "question": "A expressão diferencial de trabalho de pressão -(p - V·n)dA é identificada pelo próprio resumo como uma fórmula sem qualquer problema dimensional.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O resumo aponta a expressão como dimensionalmente anômala e provável erro tipográfico."
+  },
+  {
+    "type": "tf",
+    "question": "A hipótese bidimensional descrita na fonte desconsidera uma das dimensões espaciais e geralmente trabalha com duas componentes de velocidade.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a descrição simplificada de escoamento 2D apresentada na fonte."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo afirma que escoamento permanente é invariante no tempo.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O resumo descreve o escoamento permanente como invariante no tempo."
+  },
+  {
+    "type": "tf",
+    "question": "A fonte afirma que a hipótese de escoamento totalmente desenvolvido é aplicável à hidrodinâmica do navio.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A fonte afirma que a hipótese de totalmente desenvolvido não se aplica à hidrodinâmica do navio."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo apresenta água e ar como exemplos de fluidos newtonianos.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Água e ar são os exemplos citados."
+  },
+  {
+    "type": "tf",
+    "question": "A seção de procedimento para resolver escoamentos internos na página 022 está identificada como tachada na fonte.",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O resumo identifica esse procedimento como conteúdo tachado."
+  },
+  {
+    "type": "mc",
+    "question": "De acordo com a convenção registrada no resumo, qual expressão representa o balanço de energia do sistema?",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "E = Q - W",
+      "E = Q + W",
+      "E = W - Q",
+      "E = ρV",
+      "E = pA"
+    ],
+    "correct": 0,
+    "explanation": "A expressão apresentada é:\n\nE = Q - W"
+  },
+  {
+    "type": "mc",
+    "question": "Considerando os três termos destacados no resumo, qual expressão representa a energia por unidade de massa?",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "e = û + V + gz",
+      "e = û + (1/2)V² + gz",
+      "e = ρ + (1/2)V² + gz",
+      "e = p + μ + gz",
+      "e = Q - W"
+    ],
+    "correct": 1,
+    "explanation": "A energia por unidade de massa, considerando os três termos destacados, é:\n\ne = û + (1/2)V² + gz"
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa faz a distinção apresentada no resumo?",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Energia armazenada: calor e trabalho; energia em trânsito: energia interna e potencial.",
+      "Energia armazenada: somente calor; energia em trânsito: somente energia cinética.",
+      "Energia armazenada: energias interna, cinética e potencial; energia em trânsito: calor e trabalho.",
+      "Energia armazenada e energia em trânsito significam exatamente a mesma coisa.",
+      "Energia armazenada: pressão e viscosidade; energia em trânsito: massa e volume."
+    ],
+    "correct": 2,
+    "explanation": "O resumo distingue a energia armazenada — interna, cinética e potencial — da energia em trânsito, que inclui calor e trabalho."
+  },
+  {
+    "type": "mc",
+    "question": "Como o resumo divide o trabalho total Ẇ?",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "Em energia interna e energia potencial.",
+      "Em trabalho de máquina e trabalho de transmissão.",
+      "Em calor e massa.",
+      "Em pressão e densidade.",
+      "Em energia cinética e velocidade."
+    ],
+    "correct": 1,
+    "explanation": "A divisão apresentada é:\n\nẆ = Ẇₘ + Ẇₑ"
+  },
+  {
+    "type": "mc",
+    "question": "Qual exemplo é compatível com o trabalho de máquina descrito no resumo?",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "A energia potencial gravitacional gz.",
+      "O fluxo de massa através da superfície de controle.",
+      "Um impulsor de bomba ou uma pá de ventilador que transmite trabalho ao volume de controle.",
+      "A densidade do fluido.",
+      "A hipótese de escoamento permanente."
+    ],
+    "correct": 2,
+    "explanation": "O trabalho de máquina é associado a dispositivos como impulsores de bombas, pás de ventiladores e pistões."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo o resumo, qual afirmação está correta?",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "O campo de velocidades não varia no espaço e a hipótese é aplicada a canais ou dutos fechados.",
+      "A velocidade varia obrigatoriamente em todas as direções.",
+      "É a hipótese mais adequada a todo escoamento externo em torno do casco de um navio.",
+      "Significa que a temperatura é constante.",
+      "Significa que não existem forças de pressão."
+    ],
+    "correct": 0,
+    "explanation": "Segundo o resumo, o escoamento totalmente desenvolvido não apresenta variação de velocidades no espaço e é associado a contornos fechados, como canais e dutos. A fonte diz que não se aplica à hidrodinâmica do navio."
+  },
+  {
+    "type": "mc",
+    "question": "Qual opção corresponde ao conteúdo e à ressalva terminológica do resumo?",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "A viscosidade depende sempre da tensão superficial.",
+      "O resumo apresenta água e ar como exemplos de fluidos não-newtonianos.",
+      "O resumo define o fluido newtoniano pela viscosidade constante e observa que a fonte escreveu “tensão superficial”, embora a ideia devesse ser distinguida da tensão de cisalhamento.",
+      "Todo fluido newtoniano é necessariamente invíscido.",
+      "A hipótese newtoniana significa que a densidade é nula."
+    ],
+    "correct": 2,
+    "explanation": "O resumo descreve a hipótese newtoniana como viscosidade constante, cita água e ar como exemplos e alerta que a fonte escreveu “tensão superficial”. Essa ressalva terminológica não deve ser apagada."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo a explicação do resumo, qual é a consequência de adotar a hipótese isotérmica no modelo considerado?",
+    "category": "Hidrodinâmica — Conservação da Energia e Hipóteses Fundamentais",
+    "options": [
+      "A massa deixa de ser conservada.",
+      "A velocidade passa a ser obrigatoriamente zero.",
+      "Todas as forças de pressão desaparecem.",
+      "Considera-se que não há dissipação de energia na forma de calor relevante para o escoamento analisado, permitindo não usar a equação de conservação de energia nesse modelo.",
+      "O escoamento passa obrigatoriamente a ser turbulento."
+    ],
+    "correct": 3,
+    "explanation": "Essa é a consequência descrita pela fonte para a hipótese isotérmica no modelo considerado. A resposta reproduz a explicação do resumo sem generalizá-la para qualquer situação física."
+  }
+]

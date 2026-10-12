@@ -1,0 +1,398 @@
+[
+  {
+    "type": "mc",
+    "question": "Analise as afirmativas e assinale a alternativa que contém **somente as corretas**.\n\n**I.** No problema descrito, existem duas paredes estacionárias, e a pressão na entrada é maior que na saída.\n\n**II.** O escoamento é tratado como incompressível, permanente, bidimensional e totalmente desenvolvido.\n\n**III.** A condição de não escorregamento determina que a velocidade do fluido junto à parede seja igual à velocidade da própria parede.\n\n**IV.** Pela conservação da massa e pelas condições de contorno, conclui-se que a componente transversal da velocidade é nula em todo o canal.\n\n**V.** O perfil de velocidades obtido é linear, com velocidade máxima nas paredes.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Apenas I e II.",
+      "Apenas I, II e III.",
+      "Apenas I, II, III e IV.",
+      "Apenas II, IV e V.",
+      "I, II, III, IV e V."
+    ],
+    "correct": 2,
+    "explanation": "- **I — correta.** A configuração usa p₁ > p₂ e duas paredes estacionárias.\n- **II — correta.** Essas são as hipóteses adotadas na derivação.\n- **III — correta.** A condição de não escorregamento iguala a velocidade do fluido à da parede; como as paredes estão paradas, a velocidade tangencial é zero.\n- **IV — correta.** A continuidade leva a ∂v/∂y = 0, e a impenetrabilidade determina v = 0.\n- **V — incorreta.** O perfil é parabólico, não linear, e a velocidade é nula nas paredes."
+  },
+  {
+    "type": "gap",
+    "question": "No escoamento conduzido por pressão, a pressão na entrada é maior que na saída: p₁ ____ p₂.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": ">",
+    "explanation": "Resposta esperada para a lacuna: >."
+  },
+  {
+    "type": "gap",
+    "question": "A distância entre as duas paredes é representada pela letra ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "a",
+    "explanation": "Resposta esperada para a lacuna: a."
+  },
+  {
+    "type": "gap",
+    "question": "A parede inferior está localizada em y = ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "0",
+    "explanation": "Resposta esperada para a lacuna: 0."
+  },
+  {
+    "type": "gap",
+    "question": "A parede superior está localizada em y = ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "a",
+    "explanation": "Resposta esperada para a lacuna: a."
+  },
+  {
+    "type": "gap",
+    "question": "Na hipótese de escoamento incompressível, a massa específica é considerada ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "constante",
+    "explanation": "Resposta esperada para a lacuna: constante."
+  },
+  {
+    "type": "gap",
+    "question": "No escoamento permanente, as propriedades do escoamento não variam com o ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "tempo",
+    "explanation": "Resposta esperada para a lacuna: tempo."
+  },
+  {
+    "type": "gap",
+    "question": "Para o escoamento totalmente desenvolvido, o resumo adota a condição ∂u/∂x = ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "0",
+    "explanation": "Resposta esperada para a lacuna: 0."
+  },
+  {
+    "type": "gap",
+    "question": "No modelo bidimensional apresentado, a componente da velocidade na direção z é w = ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "0",
+    "explanation": "Resposta esperada para a lacuna: 0."
+  },
+  {
+    "type": "gap",
+    "question": "A condição de não escorregamento na parede inferior estacionária é u(y=0) = ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "0",
+    "explanation": "Resposta esperada para a lacuna: 0."
+  },
+  {
+    "type": "gap",
+    "question": "Na parede superior estacionária, a condição de não escorregamento é u(y=a) = ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "0",
+    "explanation": "Resposta esperada para a lacuna: 0."
+  },
+  {
+    "type": "gap",
+    "question": "A condição de impenetrabilidade impõe que a velocidade normal às paredes seja ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "nula",
+    "explanation": "Resposta esperada para a lacuna: nula."
+  },
+  {
+    "type": "gap",
+    "question": "A equação da continuidade simplificada resulta em ∂v/∂y = ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "0",
+    "explanation": "Resposta esperada para a lacuna: 0."
+  },
+  {
+    "type": "gap",
+    "question": "Depois de integrar a equação anterior, obtém-se v = ____; aplicando a condição de contorno, conclui-se que v = 0 em todo o canal.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "constante",
+    "explanation": "Resposta esperada para a lacuna: constante."
+  },
+  {
+    "type": "gap",
+    "question": "Na equação reduzida da quantidade de movimento, a força de pressão é balanceada pelos efeitos ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "viscosos",
+    "explanation": "Resposta esperada para a lacuna: viscosos."
+  },
+  {
+    "type": "gap",
+    "question": "O perfil final de velocidades descrito pela equação de Poiseuille é ____.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "correct": "parabólico",
+    "explanation": "Resposta esperada para a lacuna: parabólico."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo afirma que as geometrias complexas de casco, leme e propulsor não possuem solução analítica simples aplicável ao problema naval apresentado.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "essa é a limitação apresentada no resumo."
+  },
+  {
+    "type": "tf",
+    "question": "O roteiro geral começa pela equação da quantidade de movimento e deixa a conservação da massa para o final.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "o procedimento recomenda começar pela conservação da massa."
+  },
+  {
+    "type": "tf",
+    "question": "O primeiro passo é configurar o problema e identificar a geometria e as variáveis envolvidas.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "configurar o problema é o primeiro passo."
+  },
+  {
+    "type": "tf",
+    "question": "As condições de contorno representam limites definidos no espaço ou no tempo.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "essa é a definição fornecida."
+  },
+  {
+    "type": "tf",
+    "question": "A conservação da massa é usada antes da quantidade de movimento para simplificar o campo de velocidades.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "a continuidade permite obter v = 0."
+  },
+  {
+    "type": "tf",
+    "question": "No modelo deste capítulo, a parede superior se move e arrasta o fluido.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "ambas as paredes são estacionárias neste problema."
+  },
+  {
+    "type": "tf",
+    "question": "No escoamento permanente, a derivada temporal local da velocidade é nula.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "escoamento permanente implica derivada temporal local nula."
+  },
+  {
+    "type": "tf",
+    "question": "A hipótese bidimensional apresentada elimina a variação na direção z e adota w = 0.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "são as hipóteses bidimensionais adotadas."
+  },
+  {
+    "type": "tf",
+    "question": "A condição de impenetrabilidade permite que o fluido atravesse as paredes.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "a impenetrabilidade impede velocidade normal através da parede."
+  },
+  {
+    "type": "tf",
+    "question": "A conservação da massa, junto com a condição de impenetrabilidade, permite concluir que v = 0 em todo o canal.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "é a conclusão da derivação apresentada."
+  },
+  {
+    "type": "tf",
+    "question": "No modelo totalmente desenvolvido, o resumo considera nula a derivada de u em relação a x.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "é a condição adotada para o escoamento totalmente desenvolvido."
+  },
+  {
+    "type": "tf",
+    "question": "A equação reduzida mostra um balanço entre gradiente de pressão e efeitos viscosos.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "o gradiente de pressão equilibra o termo viscoso."
+  },
+  {
+    "type": "tf",
+    "question": "A velocidade tangencial do fluido é nula nas duas paredes estacionárias.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "é a condição de não escorregamento em paredes estacionárias."
+  },
+  {
+    "type": "tf",
+    "question": "A equação de Poiseuille apresentada descreve um perfil parabólico de velocidade.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "o resultado final é parabólico."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o resumo, aumentar a viscosidade, mantendo as demais condições comparáveis, aumenta a velocidade máxima.",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "o resumo afirma que maior viscosidade reduz a velocidade máxima."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a ordem inicial recomendada no procedimento de resolução?",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Aplicar as condições de contorno e só depois escolher as hipóteses.",
+      "Configurar o problema, definir as hipóteses e identificar as condições de contorno.",
+      "Integrar a equação de Navier–Stokes antes de identificar o escoamento.",
+      "Começar pela equação da energia.",
+      "Ignorar a geometria e as variáveis."
+    ],
+    "correct": 1,
+    "explanation": "configurar o problema, definir as hipóteses e identificar as condições de contorno."
+  },
+  {
+    "type": "mc",
+    "question": "Por que se resolve primeiro a conservação da massa neste exemplo?",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Para calcular diretamente a pressão de saída.",
+      "Para concluir que a componente transversal v é nula e simplificar a equação seguinte.",
+      "Para provar que a viscosidade é zero.",
+      "Para demonstrar que o fluido é compressível.",
+      "Para determinar a velocidade da parede."
+    ],
+    "correct": 1,
+    "explanation": "a continuidade elimina a componente transversal."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto de hipóteses é adotado na derivação?",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Compressível, transiente e tridimensional.",
+      "Incompressível, permanente, totalmente desenvolvido e bidimensional.",
+      "Compressível, permanente e com velocidade variável no eixo x.",
+      "Permanente, tridimensional e sem viscosidade.",
+      "Transiente e conduzido por uma parede móvel."
+    ],
+    "correct": 1,
+    "explanation": "corresponde ao conjunto de hipóteses do modelo."
+  },
+  {
+    "type": "mc",
+    "question": "O que significa a condição de não escorregamento neste caso?",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "A velocidade do fluido na parede é igual à velocidade da parede.",
+      "O fluido pode atravessar as paredes.",
+      "A pressão é igual a zero nas paredes.",
+      "A viscosidade é nula.",
+      "A velocidade é máxima nas paredes."
+    ],
+    "correct": 0,
+    "explanation": "a velocidade do fluido na parede é igual à velocidade da parede."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conclusão resulta da continuidade simplificada e da impenetrabilidade?",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "u = 0 em todo o canal.",
+      "w é a única componente não nula.",
+      "v = 0 em todo o canal.",
+      "A pressão não varia em x.",
+      "A massa específica varia com o tempo."
+    ],
+    "correct": 2,
+    "explanation": "a componente v é nula."
+  },
+  {
+    "type": "mc",
+    "question": "Após simplificar a equação da quantidade de movimento na direção x, qual relação é apresentada no resumo?",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "∂p/∂x = 0.",
+      "∂p/∂x = μ(∂²u/∂y²).",
+      "∂u/∂y = 0.",
+      "ρg_x = μ.",
+      "u = v = w."
+    ],
+    "correct": 1,
+    "explanation": "é a relação apresentada após as simplificações."
+  },
+  {
+    "type": "mc",
+    "question": "Qual formato tem o perfil de velocidade obtido?",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Constante em toda a altura.",
+      "Linear, com máximo na parede superior.",
+      "Parabólico, com velocidade nula nas paredes e máxima no interior, no centro do canal.",
+      "Exponencial, com velocidade nula apenas na parede inferior.",
+      "Não é possível determinar o formato."
+    ],
+    "correct": 2,
+    "explanation": "perfil parabólico com velocidade nula nas paredes."
+  },
+  {
+    "type": "mc",
+    "question": "De acordo com o resumo, como a viscosidade afeta a velocidade máxima, mantendo as demais condições comparáveis?",
+    "category": "Hidrodinâmica — Poiseuille e Escoamento Conduzido por Pressão",
+    "options": [
+      "Quanto maior a viscosidade, maior a velocidade máxima.",
+      "A viscosidade não tem relação com a velocidade.",
+      "Quanto maior a viscosidade, menor a velocidade máxima.",
+      "A viscosidade torna o perfil necessariamente linear.",
+      "A viscosidade faz a velocidade ser nula em todos os pontos."
+    ],
+    "correct": 2,
+    "explanation": "maior viscosidade reduz a velocidade máxima."
+  }
+]

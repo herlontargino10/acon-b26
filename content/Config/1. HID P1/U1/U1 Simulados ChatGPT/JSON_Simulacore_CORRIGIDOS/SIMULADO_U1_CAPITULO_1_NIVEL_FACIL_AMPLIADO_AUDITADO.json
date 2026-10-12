@@ -1,0 +1,398 @@
+[
+  {
+    "type": "mc",
+    "question": "Considere as leis de conservação e o desenvolvimento da conservação da massa apresentado no capítulo.\n\n**I.** O material apresenta conservação da massa, conservação da quantidade de movimento e conservação da energia.\n\n**II.** Na Hidrodinâmica do Navio, o material destaca tipicamente a conservação da massa e a conservação da quantidade de movimento.\n\n**III.** Um volume de controle é um volume fixo no espaço, utilizado para analisar o fluido que entra e sai.\n\n**IV.** A vazão mássica é expressa por ṁ = ρuA.\n\n**V.** Para o caso incompressível apresentado, a equação da continuidade se reduz a ∇·V = 0.\n\n**São corretas as afirmativas:**",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "I, II e III, apenas.",
+      "I, III e IV, apenas.",
+      "II, IV e V, apenas.",
+      "I, II, III, IV e V.",
+      "II, III e V, apenas."
+    ],
+    "correct": 3,
+    "explanation": "- **I — Verdadeira.** As três leis listadas são massa, quantidade de movimento e energia.\n- **II — Verdadeira.** O material afirma que, na Hidrodinâmica do Navio, são tipicamente empregados massa e quantidade de movimento.\n- **III — Verdadeira.** O volume de controle é fixo no espaço; o fluido pode atravessar suas superfícies.\n- **IV — Verdadeira.** A expressão indicada para a vazão mássica é ṁ = ρuA.\n- **V — Verdadeira.** Para o caso incompressível, a continuidade é reduzida a ∇·V = 0."
+  },
+  {
+    "type": "gap",
+    "question": "As três leis de conservação listadas no material são conservação da massa, da quantidade de movimento e da __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "energia",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A massa específica é representada pela letra grega __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "ρ",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A relação entre massa, massa específica e volume é m = __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "ρV",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "Um volume fixo no espaço usado para analisar o fluido é chamado de volume de __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "controle",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A vazão mássica representa a quantidade de massa que atravessa uma superfície por unidade de __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "tempo",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A expressão da vazão mássica apresentada é ṁ = __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "ρuA",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "Na expressão ṁ = ρuA, a letra A representa a __________ da face atravessada pelo fluido.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "área",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "As componentes do vetor velocidade são u, v e __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "w",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A componente u está associada à direção __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "x",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A componente v está associada à direção __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "y",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A componente w está associada à direção __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "z",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A conservação da massa também é chamada de equação da __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "continuidade",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "No caso incompressível tratado, a densidade é considerada __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "constante",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "A forma cartesiana da continuidade incompressível é ∂u/∂x + ∂v/∂y + ∂w/∂z = __________.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "zero",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "gap",
+    "question": "Segundo a observação final do material, para aplicar a conservação da massa são necessárias as __________ espaciais da velocidade, e não apenas os valores de u, v e w.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "correct": "variações",
+    "explanation": "**Por que estas lacunas são importantes?** Elas percorrem a sequência do capítulo: conceitos iniciais, balanço de massa, vazão mássica, formas da continuidade e interpretação das derivadas espaciais."
+  },
+  {
+    "type": "tf",
+    "question": "O material apresenta três leis: conservação da massa, da quantidade de movimento e da energia.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material lista as três leis."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o resumo, a conservação da energia é geralmente o único princípio utilizado na Hidrodinâmica do Navio.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O resumo destaca tipicamente massa e quantidade de movimento para a Hidrodinâmica do Navio; a energia é mencionada para casos mais complicados em que a temperatura é importante."
+  },
+  {
+    "type": "tf",
+    "question": "A massa específica relaciona a massa ao volume.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A relação apresentada é m = ρV."
+  },
+  {
+    "type": "tf",
+    "question": "O volume de controle é uma região fixa no espaço, embora o fluido possa atravessá-la.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O volume é fixo no espaço e o fluido pode entrar ou sair."
+  },
+  {
+    "type": "tf",
+    "question": "A vazão mássica é dada por ṁ = ρuA.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A vazão mássica é ṁ = ρuA."
+  },
+  {
+    "type": "tf",
+    "question": "A massa m e a vazão mássica ṁ representam exatamente a mesma grandeza.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "m é massa; ṁ é a taxa de massa por unidade de tempo."
+  },
+  {
+    "type": "tf",
+    "question": "No balanço descrito, se sai mais massa do que entra, a massa interna do volume de controle diminui.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Se a saída supera a entrada, a massa armazenada no volume diminui."
+  },
+  {
+    "type": "tf",
+    "question": "A conservação da massa é apresentada como uma lei de conservação local.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material chama a conservação da massa de lei local."
+  },
+  {
+    "type": "tf",
+    "question": "As componentes do vetor velocidade são u, v e w, nas direções x, y e z, respectivamente.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "u, v e w são as componentes nas direções x, y e z."
+  },
+  {
+    "type": "tf",
+    "question": "A forma diferencial geral da continuidade inclui termos com a densidade e sua variação temporal.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A forma geral inclui os termos ρu, ρv, ρw e ∂ρ/∂t."
+  },
+  {
+    "type": "tf",
+    "question": "No caso incompressível apresentado, a equação da continuidade é ∇·V = 0.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a forma incompressível apresentada."
+  },
+  {
+    "type": "tf",
+    "question": "No caso 1D incompressível do resumo, ∂u/∂x = 0.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "É a expressão do caso 1D incompressível no resumo."
+  },
+  {
+    "type": "tf",
+    "question": "No caso 2D apresentado, o resumo escreve -∂u/∂x = ∂v/∂y.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A expressão do caso 2D apresentada é -∂u/∂x = ∂v/∂y."
+  },
+  {
+    "type": "tf",
+    "question": "No caso 3D apresentado, a variação na direção x é equilibrada pelas variações nas direções y e z, conforme a expressão do resumo.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A expressão 3D inclui as variações nas direções y e z."
+  },
+  {
+    "type": "tf",
+    "question": "O material conclui que basta conhecer os valores das velocidades u, v e w, sem precisar considerar suas variações espaciais.",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material enfatiza que são necessárias as variações espaciais das velocidades, não apenas seus valores."
+  },
+  {
+    "type": "mc",
+    "question": "Quais são as três leis de conservação listadas no material?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Massa, pressão e temperatura.",
+      "Massa, quantidade de movimento e energia.",
+      "Velocidade, aceleração e força.",
+      "Volume, área e densidade.",
+      "Pressão, viscosidade e energia."
+    ],
+    "correct": 1,
+    "explanation": "As três leis listadas são conservação da massa, conservação da quantidade de movimento e conservação da energia."
+  },
+  {
+    "type": "mc",
+    "question": "Qual expressão relaciona a massa m, a massa específica ρ e o volume V?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "m = ρ + V.",
+      "m = V/ρ.",
+      "m = ρV.",
+      "m = ρ/V.",
+      "m = ρV²."
+    ],
+    "correct": 2,
+    "explanation": "A massa é o produto da massa específica pelo volume:\n\nm = ρV"
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa descreve corretamente um volume de controle?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "Uma quantidade fixa de partículas que nunca troca massa com o exterior.",
+      "Um volume fixo no espaço pelo qual o fluido pode entrar ou sair.",
+      "Apenas a superfície externa de um navio.",
+      "Um volume em que a velocidade deve ser sempre zero.",
+      "Uma região que só pode ser usada para fluidos incompressíveis."
+    ],
+    "correct": 1,
+    "explanation": "O volume de controle é uma região fixa no espaço usada para acompanhar a entrada, a saída e a variação da massa no interior."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a expressão da vazão mássica apresentada no capítulo?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "ṁ = ρuA.",
+      "ṁ = ρ + u + A.",
+      "ṁ = u/A.",
+      "ṁ = ρA/u.",
+      "ṁ = ρu, independentemente da área."
+    ],
+    "correct": 0,
+    "explanation": "A vazão mássica é:\n\nṁ = ρuA\n\nNessa expressão, ρ é a massa específica, u é a velocidade normal à face considerada no modelo apresentado e A é a área da face."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo a interpretação física registrada no resumo, o que acontece quando sai mais massa do que entra no volume de controle?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "A massa interna aumenta.",
+      "A massa interna diminui.",
+      "A massa específica necessariamente se torna zero.",
+      "A velocidade em todas as direções se torna zero.",
+      "A conservação da massa deixa de valer."
+    ],
+    "correct": 1,
+    "explanation": "Se sai mais massa do que entra, a massa que permanece dentro do volume de controle diminui. O sinal negativo no desenvolvimento representa essa diminuição."
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa corresponde à forma diferencial geral da continuidade apresentada no resumo?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "∇·V = 0, para qualquer situação, sem hipóteses.",
+      "∂u/∂x = 0, em todos os escoamentos.",
+      "∂(ρu)/∂x + ∂(ρv)/∂y + ∂(ρw)/∂z + ∂ρ/∂t = 0.",
+      "ṁ = ρuA.",
+      "m = ρV."
+    ],
+    "correct": 2,
+    "explanation": "A forma diferencial geral apresentada é:\n\n∂(ρu)/∂x + ∂(ρv)/∂y + ∂(ρw)/∂z + ∂ρ/∂t = 0"
+  },
+  {
+    "type": "mc",
+    "question": "Qual forma da continuidade é apresentada para o caso incompressível?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "∇·V = 0.",
+      "∇·V = 1.",
+      "∂ρ/∂t = 1.",
+      "u = v = w.",
+      "ρ = 0."
+    ],
+    "correct": 0,
+    "explanation": "No caso incompressível tratado, a equação reduz-se a:\n\n∇·V = 0"
+  },
+  {
+    "type": "mc",
+    "question": "Qual afirmação resume corretamente a diferença entre os casos apresentados?",
+    "category": "Hidrodinâmica — Conservação da Massa",
+    "options": [
+      "O caso 1D usa apenas variações em x; o 2D inclui x e y; o 3D inclui x, y e z.",
+      "Os três casos usam apenas a componente u.",
+      "O caso 3D não utiliza a conservação da massa.",
+      "O caso 2D exige que todas as componentes da velocidade sejam iguais.",
+      "O caso 1D significa que a massa específica é zero."
+    ],
+    "correct": 0,
+    "explanation": "O caso 1D considera a variação na direção x; o 2D inclui as direções x e y; e o 3D inclui x, y e z, conforme os exemplos do resumo."
+  }
+]

@@ -522,6 +522,4 @@ Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
 ![[20261007_100409.jpg]]
 
 
-
-
 [[#Índice]]

@@ -1,0 +1,58 @@
+{
+  "1": {
+    "file": "SIMULADO_U1_CAPITULO_1_NIVEL_FACIL_AMPLIADO_AUDITADO.json",
+    "total": 102,
+    "inline": 98,
+    "display": 4,
+    "questions": 39
+  },
+  "2": {
+    "file": "SIMULADO_U1_CAPITULO_2_NIVEL_FACIL_AMPLIADO_AUDITADO.json",
+    "total": 49,
+    "inline": 46,
+    "display": 3,
+    "questions": 39
+  },
+  "3": {
+    "file": "SIMULADO_U1_CAPITULO_3_NIVEL_FACIL_AMPLIADO_AUDITADO.json",
+    "total": 49,
+    "inline": 45,
+    "display": 4,
+    "questions": 39
+  },
+  "4": {
+    "file": "SIMULADO_U1_CAPITULO_4_NIVEL_FACIL_AMPLIADO_AUDITADO.json",
+    "total": 40,
+    "inline": 37,
+    "display": 3,
+    "questions": 39
+  },
+  "5": {
+    "file": "SIMULADO_U1_CAPITULO_5_NIVEL_FACIL_AMPLIADO_AUDITADO.json",
+    "total": 43,
+    "inline": 43,
+    "display": 0,
+    "questions": 39
+  },
+  "6": {
+    "file": "SIMULADO_U1_CAPITULO_6_NIVEL_FACIL_AMPLIADO_AUDITADO.json",
+    "total": 52,
+    "inline": 52,
+    "display": 0,
+    "questions": 39
+  },
+  "7": {
+    "file": "SIMULADO_U1_CAPITULO_7_NIVEL_FACIL_AMPLIADO_AUDITADO.json",
+    "total": 60,
+    "inline": 60,
+    "display": 0,
+    "questions": 39
+  },
+  "8": {
+    "file": "SIMULADO_U1_CAPITULO_8_NIVEL_FACIL_AMPLIADO_AUDITADO.json",
+    "total": 107,
+    "inline": 107,
+    "display": 0,
+    "questions": 39
+  }
+}

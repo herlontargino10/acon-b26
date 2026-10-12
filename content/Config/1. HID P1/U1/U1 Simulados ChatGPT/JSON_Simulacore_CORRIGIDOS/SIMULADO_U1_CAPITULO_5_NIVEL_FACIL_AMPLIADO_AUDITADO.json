@@ -1,0 +1,390 @@
+[
+  {
+    "type": "mc",
+    "question": "Considere as afirmativas a seguir sobre o resumo.\n\n**I.** O resumo apresenta quatro incógnitas principais: u, v, w e p.\n\n**II.** Segundo o resumo, os casos de escoamento em canais fechados entre placas paralelas são usados para entender o procedimento de resolução, embora não representem diretamente a geometria complexa de um navio.\n\n**III.** O procedimento geral recomenda começar pela equação da quantidade de movimento e deixar a conservação da massa para o final.\n\n**IV.** O resumo classifica os escoamentos internos fechados apresentados em três tipos, conforme a força dominante: pressão, gravidade e viscosidade.\n\n**V.** No escoamento conduzido por forças viscosas, uma das paredes pode estar fixa e a outra em movimento.\n\nAssinale a alternativa que contém apenas as afirmativas corretas.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "I e III.",
+      "II e III.",
+      "I, II e IV.",
+      "I, II, IV e V.",
+      "I, II, III, IV e V."
+    ],
+    "correct": 3,
+    "explanation": "- **I — Verdadeira.** O resumo enumera u, v, w e p como as quatro incógnitas.\n- **II — Verdadeira.** Os casos simples são apresentados para entendimento do procedimento; o resumo ressalta que não têm aplicação prática direta à hidrodinâmica do navio.\n- **III — Falsa.** O roteiro recomenda iniciar pela conservação da massa.\n- **IV — Verdadeira.** Os três tipos são pressão, gravidade e forças viscosas.\n- **V — Verdadeira.** No exemplo viscoso, uma parede está fixa e a outra se move."
+  },
+  {
+    "type": "gap",
+    "question": "O resumo apresenta quatro incógnitas principais: u, v, w e __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "p",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "Para os casos simples estudados, o resumo considera escoamentos internos fechados em tubos, dutos e __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "canais",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "O roteiro geral de resolução contém __________ passos.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "seis",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "O primeiro passo consiste em observar o tipo de escoamento e configurar o problema, incluindo a geometria e as variáveis __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "envolvidas",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "O segundo passo é determinar as hipóteses __________ do problema.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "básicas",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "Os limites definidos no espaço ou no tempo são chamados de condições de __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "contorno",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "O procedimento recomenda iniciar pela conservação da __________, por ser a formulação mais simples.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "massa",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "Depois de simplificar as equações, deve-se resolver a equação da conservação da quantidade de __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "movimento",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "No escoamento conduzido por pressão, a pressão na entrada é maior que na saída: p₁ é __________ que p₂.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "maior",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "No escoamento conduzido por pressão, a diferença de pressão impulsiona o fluido da região de maior pressão para a região de menor __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "pressão",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "No escoamento conduzido pela gravidade, a força motriz é uma força de __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "corpo",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "No exemplo de canal inclinado, a componente da gravidade ao longo do canal é representada na aula por g sen __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "θ (teta)",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "No escoamento conduzido por forças viscosas, uma parede fica fixa e a outra pode estar em __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "movimento",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "O modelo de duas placas paralelas é descrito como bidimensional, ou seja, __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "bidimensional",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "gap",
+    "question": "O resumo afirma que os casos simples apresentados possuem solução __________.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "correct": "analítica",
+    "explanation": "**Nota de formatação:** as respostas das lacunas foram mantidas em texto simples quando isso evita inserir sublinhados dentro de fórmulas. Na questão 2, item 12, a expressão completa é g sen θ."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo apresenta u, v, w e p como quatro incógnitas do sistema.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "As quatro incógnitas são u, v, w e p."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo diz que as soluções analíticas simples para canais fechados se aplicam diretamente, sem restrições, ao casco e ao propulsor de um navio.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O resumo apresenta os casos simples como didáticos, sem aplicação direta à geometria naval complexa."
+  },
+  {
+    "type": "tf",
+    "question": "O roteiro de resolução começa pela identificação do tipo de escoamento e pela configuração do problema.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Esse é o primeiro passo do roteiro."
+  },
+  {
+    "type": "tf",
+    "question": "As condições de contorno são limites definidos no espaço ou no tempo.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a definição fornecida no resumo."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo recomenda simplificar as equações usando as hipóteses adotadas.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O roteiro manda simplificar as equações a partir das hipóteses."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo o procedimento descrito, deve-se começar pela conservação da quantidade de movimento, pois é a equação mais simples.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A conservação da massa deve ser a primeira."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo distingue escoamentos conduzidos por pressão, gravidade e forças viscosas.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "São os três tipos listados."
+  },
+  {
+    "type": "tf",
+    "question": "No escoamento conduzido por pressão, a pressão é maior em uma extremidade do canal do que na outra.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O resumo descreve uma extremidade com pressão maior que a outra."
+  },
+  {
+    "type": "tf",
+    "question": "O exemplo de escoamento gravitacional utiliza um canal inclinado.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O exemplo de gravidade usa um canal inclinado."
+  },
+  {
+    "type": "tf",
+    "question": "No exemplo viscoso, as duas paredes precisam estar imóveis.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Uma das paredes se move no exemplo viscoso."
+  },
+  {
+    "type": "tf",
+    "question": "No exemplo viscoso, o movimento de uma parede pode arrastar o fluido adjacente.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A parede móvel arrasta as camadas adjacentes."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo diz que os casos simples são estudados para compreender o procedimento geral de resolução.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a finalidade didática declarada."
+  },
+  {
+    "type": "tf",
+    "question": "O trecho de modelagem matemática detalhada da página 024 está identificado como tachado na fonte.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A seção está identificada como tachada."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo define condição de contorno como uma propriedade exclusiva da velocidade, sem relação com espaço ou tempo.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O resumo define condições de contorno como limites no espaço ou no tempo."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo associa a geometria de placas paralelas a um escoamento 2D, com a terceira direção estendendo-se ao infinito.",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a descrição da configuração 2D no material."
+  },
+  {
+    "type": "mc",
+    "question": "Por que o resumo apresenta casos simples de escoamento em canais fechados?",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Porque são modelos que reproduzem exatamente toda a geometria de um navio.",
+      "Para compreender o problema e o procedimento geral de resolução.",
+      "Porque dispensam as leis de conservação.",
+      "Porque não precisam de hipóteses simplificadoras."
+    ],
+    "correct": 1,
+    "explanation": "O objetivo é didático: entender o problema e o procedimento geral."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a sequência inicial recomendada no procedimento geral?",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Resolver a equação de movimento, depois desenhar o problema.",
+      "Identificar o tipo de escoamento e configurar o problema.",
+      "Aplicar condições de contorno antes de definir as hipóteses.",
+      "Calcular a pressão sem identificar a geometria."
+    ],
+    "correct": 1,
+    "explanation": "O primeiro passo é identificar o escoamento e configurar o problema."
+  },
+  {
+    "type": "mc",
+    "question": "Qual lei de conservação deve ser usada primeiro, segundo o resumo?",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Conservação da energia.",
+      "Conservação da carga elétrica.",
+      "Conservação da massa.",
+      "Conservação da temperatura."
+    ],
+    "correct": 2,
+    "explanation": "O resumo recomenda iniciar pela conservação da massa."
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa lista corretamente os três tipos de escoamento apresentados?",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Compressível, turbulento e térmico.",
+      "Pressão, gravidade e forças viscosas.",
+      "Horizontal, vertical e circular.",
+      "Permanente, transitório e isotérmico."
+    ],
+    "correct": 1,
+    "explanation": "Pressão, gravidade e forças viscosas."
+  },
+  {
+    "type": "mc",
+    "question": "Em um canal horizontal conduzido por pressão, qual condição é descrita?",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "p₁ = p₂, sem diferença de pressão.",
+      "p₁ < p₂, com o fluxo indo necessariamente para a maior pressão.",
+      "p₁ > p₂, com o escoamento indo da maior para a menor pressão.",
+      "A pressão não participa do escoamento."
+    ],
+    "correct": 2,
+    "explanation": "A condição apresentada é p₁ > p₂, com fluxo da região de maior pressão para a de menor pressão."
+  },
+  {
+    "type": "mc",
+    "question": "O que caracteriza o exemplo de escoamento conduzido pela gravidade?",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Uma parede móvel arrasta o fluido.",
+      "Um canal inclinado permite que a componente da gravidade impulsione o fluido ao longo do canal.",
+      "Uma bomba é obrigatória para produzir movimento.",
+      "A pressão é sempre igual em todos os pontos, por definição."
+    ],
+    "correct": 1,
+    "explanation": "A componente da gravidade ao longo do canal inclinado impulsiona o escoamento."
+  },
+  {
+    "type": "mc",
+    "question": "O que caracteriza o exemplo de escoamento conduzido por forças viscosas?",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "Duas paredes imóveis e sem movimento do fluido.",
+      "Uma diferença de temperatura entre as placas.",
+      "Uma parede fixa e outra móvel, cuja movimentação arrasta o fluido.",
+      "Ausência total de interação entre fluido e paredes."
+    ],
+    "correct": 2,
+    "explanation": "Uma parede móvel arrasta o fluido em relação à parede fixa."
+  },
+  {
+    "type": "mc",
+    "question": "Qual afirmação sobre a modelagem matemática da página 024 respeita a delimitação do resumo?",
+    "category": "Hidrodinâmica — Roteiro de Resolução de Escoamentos Internos",
+    "options": [
+      "O equacionamento detalhado está apresentado como conteúdo não riscado e central.",
+      "O trecho está identificado como tachado; deve ser reconhecido como registro da fonte, não como núcleo obrigatório do simulado.",
+      "O resumo não menciona qualquer cancelamento.",
+      "O trecho substitui o roteiro geral de seis passos."
+    ],
+    "correct": 1,
+    "explanation": "O resumo identifica a modelagem detalhada da página 024 como tachada."
+  }
+]

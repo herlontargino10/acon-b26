@@ -1,0 +1,398 @@
+[
+  {
+    "type": "mc",
+    "question": "Considere as ideias do resumo sobre as forças que atuam em um elemento fluido e sua relação com a Segunda Lei de Newton.\n\n**I.** O resumo expressa a Segunda Lei de Newton por unidade de volume e relaciona a densidade à massa dividida pelo volume.\n\n**II.** As forças superficiais são divididas em normais e tangenciais; no resumo, as normais são associadas à pressão e as tangenciais à tensão de cisalhamento.\n\n**III.** Segundo a descrição da Lei de Pascal no resumo, a força de pressão em um fluido em equilíbrio atua paralelamente à superfície de contato.\n\n**IV.** A viscosidade dinâmica μ aparece na relação entre tensão de cisalhamento e gradiente de velocidade.\n\n**V.** O resumo afirma que, para haver aceleração de translação do elemento na situação ilustrada, basta que as tensões cisalhantes em faces opostas sejam iguais.\n\n**São corretas as afirmativas:**",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "I, II e III, apenas.",
+      "I, II e IV, apenas.",
+      "I, III e V, apenas.",
+      "II, IV e V, apenas.",
+      "I, II, III, IV e V."
+    ],
+    "correct": 1,
+    "explanation": "- **I — Verdadeira.** O resumo divide a equação de Newton pelo volume e usa ρ = m/Vol.\n- **II — Verdadeira.** A classificação apresentada relaciona forças normais à pressão e tangenciais à tensão de cisalhamento.\n- **III — Falsa.** A Lei de Pascal é descrita no resumo como força perpendicular à superfície, não paralela.\n- **IV — Verdadeira.** A relação τ_yx = μ(Δu/Δy) associa a viscosidade dinâmica ao gradiente de velocidade.\n- **V — Falsa.** O resumo afirma que tensões iguais em faces opostas não produzem aceleração de translação na direção considerada; a diferença entre tensões é que gera a força resultante."
+  },
+  {
+    "type": "gap",
+    "question": "A Segunda Lei de Newton aplicada por unidade de volume relaciona a aceleração do fluido à força por unidade de __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "volume",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "A densidade é definida no resumo como a massa dividida pelo __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "volume",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "As forças superficiais dividem-se em forças normais e forças __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "tangenciais",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "As forças normais são geralmente associadas à __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "pressão",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "As forças tangenciais estão associadas à tensão de __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "cisalhamento",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "As forças de corpo são forças de __________ e não exigem contato físico direto com o elemento.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "campo",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "Segundo a descrição da Lei de Pascal no resumo, as forças de pressão atuam de forma __________ à superfície.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "perpendicular",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "Na notação σᵢⱼ, o primeiro índice indica o sentido __________ da superfície escolhida.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "normal",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "Na mesma notação, o segundo índice indica o sentido da componente de __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "força",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "A força exercida por pressão sobre uma área é expressa por F = pressão multiplicada pela __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "área",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "No exemplo do cubo, a força de pressão na direção x é desenvolvida a partir da diferença entre as pressões de __________ e de saída.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "entrada",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "A força resultante de pressão acelera o fluido no sentido da __________ de pressão.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "queda",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "A tensão de cisalhamento é representada pela letra grega __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "τ",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "A viscosidade dinâmica é representada pela letra grega __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "μ",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "gap",
+    "question": "Na relação τ_yx = μ(Δu/Δy), a variação de velocidade é relacionada à distância entre camadas na direção __________.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "correct": "y",
+    "explanation": "**Por que estas lacunas são importantes?** Elas cobrem os nomes e símbolos centrais, a classificação das forças, a interpretação da pressão e os elementos básicos da relação de tensão viscosa."
+  },
+  {
+    "type": "tf",
+    "question": "A equação por unidade de volume usa a densidade para representar a massa por volume.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A densidade é definida como massa por volume."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo associa as forças normais principalmente à pressão.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "As forças normais são associadas à pressão."
+  },
+  {
+    "type": "tf",
+    "question": "As forças tangenciais são apresentadas como independentes dos efeitos viscosos.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "As forças tangenciais são associadas à tensão de cisalhamento e aos efeitos viscosos."
+  },
+  {
+    "type": "tf",
+    "question": "As forças de corpo são descritas como forças de campo, como a gravitacional.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O resumo dá como exemplos de forças de corpo as gravitacionais e eletromagnéticas."
+  },
+  {
+    "type": "tf",
+    "question": "No fluido em equilíbrio, a Lei de Pascal é apresentada como indicando forças de pressão perpendiculares às superfícies.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a descrição da Lei de Pascal registrada no material."
+  },
+  {
+    "type": "tf",
+    "question": "Na notação σᵢⱼ, o primeiro índice indica a componente da força e o segundo indica a normal da superfície.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O primeiro índice indica o sentido normal da superfície e o segundo, a direção da componente de força."
+  },
+  {
+    "type": "tf",
+    "question": "Para o cubo descrito, as áreas de entrada e saída são iguais.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No cubo, A₁ = A₂ = ΔyΔz."
+  },
+  {
+    "type": "tf",
+    "question": "A expressão F = pA relaciona força, pressão e área.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A expressão utilizada é F = pA."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo a interpretação física registrada, a força efetiva de pressão atua no sentido da queda de pressão.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A interpretação do resumo diz que a força efetiva acelera o fluido no sentido da queda de pressão."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo usa τ para representar a tensão de cisalhamento.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A letra grega τ representa a tensão de cisalhamento."
+  },
+  {
+    "type": "tf",
+    "question": "A analogia dos trens ilustra a ideia de que velocidades adjacentes diferentes estão relacionadas à força viscosa.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A analogia usa velocidades diferentes nos trens para explicar a interação entre camadas."
+  },
+  {
+    "type": "tf",
+    "question": "Se as velocidades das duas camadas adjacentes forem iguais, a analogia do resumo ainda prevê a mesma força viscosa gerada pela diferença de velocidades.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O resumo afirma que, se as velocidades forem iguais, a força associada à diferença de velocidades não existiria na analogia."
+  },
+  {
+    "type": "tf",
+    "question": "A viscosidade dinâmica μ aparece na relação entre tensão de cisalhamento e gradiente de velocidade.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A relação apresentada é τ_yx = μ(Δu/Δy)."
+  },
+  {
+    "type": "tf",
+    "question": "Na situação ilustrada no resumo, tensões cisalhantes iguais em faces opostas produzem necessariamente aceleração de translação.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Tensões iguais e opostas não geram força resultante de translação na direção descrita."
+  },
+  {
+    "type": "tf",
+    "question": "O resumo alerta que a notação de segunda ordem usada na dedução por diferenças finitas é pedagógica e não uma demonstração matemática rigorosa.",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O próprio resumo alerta que a notação com Δ²u é um recurso heurístico e informal."
+  },
+  {
+    "type": "mc",
+    "question": "Qual expressão corresponde à forma apresentada no resumo para escoamento incompressível?",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "ρ(DV/Dt) = F/Vol",
+      "ρ(DV/Dt) = F·Vol",
+      "D(ρV)/Dt = 0 em qualquer situação",
+      "ρ(DV/Dt) = Vol/F",
+      "ρ = F/Vol"
+    ],
+    "correct": 0,
+    "explanation": "A forma indicada no resumo para escoamento incompressível é:\n\nρ(DV/Dt) = F/Vol"
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa combina corretamente os tipos de força e suas associações no resumo?",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Normais — viscosidade; tangenciais — gravidade.",
+      "Normais — pressão; tangenciais — tensão de cisalhamento.",
+      "Normais — força magnética; tangenciais — pressão.",
+      "Normais — velocidade; tangenciais — densidade.",
+      "Normais e tangenciais são sinônimos."
+    ],
+    "correct": 1,
+    "explanation": "As forças normais são associadas à pressão; as tangenciais, à tensão de cisalhamento ou aos efeitos viscosos."
+  },
+  {
+    "type": "mc",
+    "question": "Como as forças de pressão atuam sobre uma superfície, segundo a descrição do resumo?",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Paralelamente à superfície.",
+      "Apenas na direção vertical.",
+      "Perpendicularmente à superfície.",
+      "Apenas na direção do escoamento.",
+      "Sem direção definida."
+    ],
+    "correct": 2,
+    "explanation": "O resumo apresenta as forças de pressão como perpendiculares às superfícies de contato."
+  },
+  {
+    "type": "mc",
+    "question": "Na notação de dois índices apresentada para σᵢⱼ e τᵢⱼ, o que indicam, respectivamente, o primeiro e o segundo índice?",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Tempo e volume.",
+      "Componente da velocidade e densidade.",
+      "Sentido normal da superfície e sentido da componente de força.",
+      "Pressão e viscosidade.",
+      "Área e massa."
+    ],
+    "correct": 2,
+    "explanation": "O primeiro índice representa o sentido normal da superfície escolhida; o segundo, o sentido da componente de força."
+  },
+  {
+    "type": "mc",
+    "question": "No caso particular descrito, as áreas de entrada e saída são iguais. Qual expressão representa a força discreta na direção x, conforme a etapa de dedução do resumo?",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "F_x = (p₂ + p₁)ΔyΔz",
+      "F_x = (p₂ - p₁)ΔyΔz",
+      "F_x = (p₂ - p₁)ΔxΔyΔz",
+      "F_x = p₁/p₂",
+      "F_x = Δp/Δx"
+    ],
+    "correct": 1,
+    "explanation": "A expressão discreta apresentada é:\n\nF_x = (p₂ - p₁)ΔyΔz\n\nO resumo também alerta que a força efetiva deve ser interpretada no sentido da queda de pressão. A passagem da expressão discreta para o gradiente exige atenção ao sinal adotado."
+  },
+  {
+    "type": "mc",
+    "question": "Qual relação é apresentada no resumo para a tensão de cisalhamento na situação simplificada?",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "τ_yx = μ(Δu/Δy)",
+      "τ_yx = ρg",
+      "τ_yx = Δp/Δx",
+      "τ_yx = μΔy",
+      "τ_yx = A/F"
+    ],
+    "correct": 0,
+    "explanation": "A relação simplificada apresentada para a tensão de cisalhamento é:\n\nτ_yx = μ(Δu/Δy)"
+  },
+  {
+    "type": "mc",
+    "question": "Na forma 1D simplificada apresentada, qual termo representa a contribuição viscosa na direção x para variações de velocidade em relação a y?",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "-∂p/∂x",
+      "ρg_x",
+      "μ(∂²u/∂y²)",
+      "ρ(Du/Dt)",
+      "μ(∂u/∂t)"
+    ],
+    "correct": 2,
+    "explanation": "Para a simplificação em que a velocidade varia com y, o resumo apresenta:\n\nF_yx/Vol = μ(∂²u/∂y²)\n\nA expressão com derivada de segunda ordem surge após a passagem didática da diferença de tensões para a variação espacial."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo a situação explicada no resumo, se as tensões cisalhantes nas faces superior e inferior forem rigorosamente iguais, o que acontece com a aceleração de translação do elemento na direção considerada?",
+    "category": "Hidrodinâmica — Forças em Elemento Fluido e Navier-Stokes",
+    "options": [
+      "Necessariamente aumenta.",
+      "É nula, embora o resumo descreva a possibilidade de rotação do elemento.",
+      "Torna-se infinita.",
+      "Depende apenas da pressão atmosférica.",
+      "É sempre igual à gravidade."
+    ],
+    "correct": 1,
+    "explanation": "Na situação descrita, tensões cisalhantes iguais em faces opostas não produzem aceleração de translação na direção considerada. O resumo menciona que o elemento pode girar, mas isso não equivale a uma aceleração translacional resultante nessa direção."
+  }
+]
