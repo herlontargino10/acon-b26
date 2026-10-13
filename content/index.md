@@ -30,10 +30,6 @@ title: Início
 - [[Aulas/Manobra-de-Navio-Franco/Material de apoio|MANOBRA DE NAVIO]]
 - [[Aulas/Estabilidade-2-Quintana/Material de apoio|ESTABILIDADE II]]
 
-## 📅 Cronograma
-
-- [[QTS]]
-
 ## 📂 Material de apoio
 
 - [[Referências/Material de apoio|Referências]]
