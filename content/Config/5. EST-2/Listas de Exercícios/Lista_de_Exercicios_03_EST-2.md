@@ -1,7 +1,3 @@
-
-
-Lista de Exercícios 03
-
 1) Uma embarcação apresenta CAR = 2,50m e CAV = 1,80m. Calcule o trim dessa embarcação e determine se está derrabada, embicada ou em águas parelhas. 
 
 

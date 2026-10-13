@@ -1,4 +1,3 @@
-
 1) O navio graneleiro “Comandante Moisés”, ao terminar as operações de carga, apresentava um deslocamento de 16000 t com )o( g = + 3,22 m. Entretanto, antes da saída do porto, recebeu 200 t de óleo diesel no tanque 3FD BB, )o(g= +56,24 m); 400 t de água doce no tanque de colisão à ré, )o(g= +80,16 m e lastrou com 500 t o tanque de colisão a vante, )o(g= -124,24 m. Com base nesses dados, depois de todas as operações, calcule o valor da cota longitudinal do centro de gravidade. 
 
 

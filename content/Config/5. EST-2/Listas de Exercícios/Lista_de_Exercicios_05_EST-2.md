@@ -1,4 +1,3 @@
-
 1) Um navio está carregando em um porto. Seus calados são: calado a vante = 5,15 m e calado a ré = 5,60 m. Depois de embarcada certa quantidade de carga, seus calados passaram a ser calado a vante = 6,95 m e calado a ré = 6,25 m. Pede-se: a) calado médio antes do embarque; b) compasso (trim) antes do embarque; c) calado médio após o embarque; d) compasso (trim) após o embarque; e) imersão; e f) variação do compasso (trim).
 
 2) Um navio tem os calados: a vante = 5,50 m e calado a ré = 4,90 m. Após carga e descarga ficou com calados: 5,80 m a vante e 6,00 m a ré. Pede-se: a) calado médio antes da operação; b) compasso (trim) antes da operação; c) calado médio após a operação; d) compasso (trim) após a operação; e) imersão (ou emersão); e f) variação do compasso (trim). 
