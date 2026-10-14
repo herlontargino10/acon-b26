@@ -1,0 +1,276 @@
+
+---
+
+## 1ª Questão — 6,0 pontos
+
+Sabendo-se que o seu calado é de **20 metros** e o comprimento é **125 metros**, seu fuso é **08E**, configure sua estação e faça o que se pede:
+
+
+1. Antes de seguirmos para a letra A. Vamos configurar as informações do calado sendo de **20 metros**: 
+
+## Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
+
+Acessar:
+
+```text 
+→ Task List → Monitoring → Aba Safety Alarms → Aba Safety Meters
+```
+
+- Calado: **20 m** 
+
+> [!warning] Atenção — Parâmetros de Segurança
+> O **calado do navio indicado pelo professor é 20 m**.
+>
+> Esse valor será utilizado para calcular os parâmetros de segurança da carta.
+>
+> ### Cálculos
+>
+> ---
+>
+> **Safety Contour**
+>
+> `1,2 × Calado`
+>
+> `1,2 × 20 = 24 m`
+>
+> **Resultado: 24,0 m**
+>
+> ---
+>
+> **Safety Depth**
+>
+> `1,5 × Calado`
+>
+> `1,5 × 20 = 30 m`
+>
+> **Resultado: 30 m**
+>
+> ---
+
+![[20261005_094824.jpg]]
+
+## Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
+
+Acessar:
+
+```text 
+→ Task List → Charts → Aba ENC
+```
+
+
+> [!warning] Atenção — Parâmetros de Segurança
+> O **calado do navio indicado pelo professor é 20 m**.
+>
+> Esse valor será utilizado para calcular os parâmetros de segurança da carta.
+>
+> ### Cálculos
+>
+> **Shallow Contour**
+>
+> `1,1 × Calado`
+>
+> `1,1 × 20 = 22 m`
+>
+> **Resultado: 22 m**
+>
+> ---
+>
+> **Deep Contour**
+>
+> `2 × Calado`
+>
+> `2 × 20 = 40,0 m`
+>
+> **Resultado: 10,0 m**
+
+![[20261005_094802.jpg]]
+
+### a) Planejar a derrota, com no mínimo oito waypoints, em direção ao fundeadouro, sabendo que a região é polar e existe intensa área de pesca nas proximidades.
+
+Acessar:
+
+```text
+→ Task List → Advanced Plannig → New
+```
+
+### Primeiro ponto
+
+Na tela do mapa:
+
+```text
+Clicar em cima da posição do navio e ir construindo os waypoints
+```
+
+→ **Adicionar utilizando o cursor mouse.** 
+
+### Ponto de chegada
+
+```text
+Fundeio Baía de Guanabara
+```
+
+
+A rota aparece ligando todos os pontos.
+
+```text
+→ Salvar
+```
+
+___
+
+Com base no enunciado da questão, consideraremos que o navio possui **125 metros de comprimento**.
+
+Após criar os waypoints da derrota, ainda na função **Advance Planning**, vamos configurar o raio de guinada (_Turn Radius_) de cada waypoint, utilizando o cálculo adotado para o exercício e considerando o comprimento da embarcação.
+
+Para isso, o valor calculado deverá ser inserido na coluna **TURN RADIUS**. Caso a aba correspondente não esteja aberta, siga o caminho indicado abaixo para acessá-la e realizar as configurações necessárias.
+
+```text
+→ Task List → Advanced Plannig → Schedule Calculation → Create Schedule → Schedule Calculation Botão Play
+````
+
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/Ki6rcvLMj8E?si=sLizIrk8Og0Vt9O6"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
+
+4. Agora adicionamos o fuso horário na coluna Time Zone. 
+
+Instrução, caminho:
+
+
+
+
+### b) Schedule
+
+Construir e preencher o schedule, sabendo que o suspender está previsto para hoje às **15:00Z**. A duração da viagem será de **5 horas**.
+
+**Resposta / procedimento:**
+
+ 
+
+### c) Checagem e monitoramento da derrota
+
+Checar e monitorar uma derrota, utilizando a carta em **Head up** e movimento **verdadeiro**.
+
+**Resposta / procedimento realizado:**
+
+
+
+### d) Alarmes da derrota
+
+Verificar e ajustar os alarmes para esta derrota.
+
+**Resposta / procedimento:**
+ 
+
+### e) Praticagem em São Luís
+
+Informar a característica da praticagem em **“SÃO LUIS”** e se há serviços disponíveis nesse porto.
+
+**Resposta:**
+
+
+### f) Altura da maré no último waypoint
+
+Quando estiver no último waypoint, qual será a altura da maré?
+
+**Resposta:**
+
+- Último waypoint:
+- Data e hora consideradas:
+- Altura da maré:
+- Fonte / informação consultada:
+
+> 
+
+---
+
+## 2ª Questão — 0,5 ponto
+
+Determinar a distância entre dois pontos de terra, informar os pontos considerados.
+
+**Resposta:**
+
+- Ponto de terra 1:
+- Ponto de terra 2:
+- Distância determinada:
+- Unidade:
+- Procedimento / observações:
+
+
+---
+
+## 3ª Questão — 0,5 ponto
+
+Enviar uma mensagem de segurança pelo AIS para estação com MMSI **25102024**.
+
+**Registro da execução:**
+
+
+
+---
+
+## 4ª Questão — 2,0 pontos
+
+O Comandante solicitou inserir na carta um aviso para chamá-lo quando o navio estiver no waypoint 3 e informou que recebeu um aviso rádio sobre um exercício de minagem a ser realizado pela Marinha do Brasil com área circular cujo centro é no waypoint 5 com raio de **0,8 MN**.
+
+### a) Aviso para chamar o Comandante no waypoint 3
+
+**Resposta / procedimento:**
+
+- Tipo de aviso inserido:
+- Waypoint associado:
+- Configuração / mensagem do aviso:
+- Resultado / observações:
+
+> 
+
+### b) Área de exercício de minagem
+
+**Resposta / procedimento:**
+
+- Centro da área: WP5
+- Raio: 0,8 MN
+- Objeto / área inserida na carta:
+- Como a área foi representada:
+- Resultado / observações:
+
+> 
+
+---
+
+## 5ª Questão — 1,0 ponto
+
+Faça o que se pede:
+
+### a) Divisão da carta
+
+Dividir a carta em duas, utilizando uma em **North up** e outra em **Course up**.
+
+**Resposta / procedimento:**
+
+- Configuração da primeira carta:
+- Configuração da segunda carta:
+- Resultado / observações:
+
+> 
+
+### b) Display noturno
+
+Colocar a carta no display noturno.
+
+**Resposta / procedimento:**
+
+- Configuração selecionada:
+- Resultado / observações:
+
+---
+
