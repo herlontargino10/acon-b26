@@ -6,7 +6,8 @@
 Sabendo-se que o seu calado é de **20 metros** e o comprimento é **125 metros**, seu fuso é **08E**, configure sua estação e faça o que se pede:
 
 
-1. Antes de seguirmos para a letra A. Vamos configurar as informações do calado sendo de **20 metros**: 
+> [!danger] Configuração do calado  
+> Antes de prosseguirmos para a letra **A**, vamos configurar os parâmetros da embarcação. Conforme informado no enunciado, o **calado do navio é de 20 metros**.
 
 ## Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
 
@@ -106,7 +107,7 @@ Clicar em cima da posição do navio e ir construindo os waypoints
 ### Ponto de chegada
 
 ```text
-Fundeio Baía de Guanabara
+Fundeadouro
 ```
 
 
@@ -118,16 +119,37 @@ A rota aparece ligando todos os pontos.
 
 ___
 
-Com base no enunciado da questão, consideraremos que o navio possui **125 metros de comprimento**.
-
-Após criar os waypoints da derrota, ainda na função **Advance Planning**, vamos configurar o raio de guinada (_Turn Radius_) de cada waypoint, utilizando o cálculo adotado para o exercício e considerando o comprimento da embarcação.
-
-Para isso, o valor calculado deverá ser inserido na coluna **TURN RADIUS**. Caso a aba correspondente não esteja aberta, siga o caminho indicado abaixo para acessá-la e realizar as configurações necessárias.
+> [!danger] Configuração do comprimento do navio e do raio de guinada
+> 
+> Ainda com base no enunciado da questão, devemos considerar que a embarcação possui **125 metros de comprimento**.
+> 
+> Como não há uma opção específica para inserir o comprimento do navio, o professor orientou que essa informação seja registrada na coluna **TURN RADIUS**.
+>
+> Essa configuração será realizada após a criação dos waypoints, quando as colunas correspondentes estiverem disponíveis para a inserção dos dados da rota.
+> 
+> Com os waypoints criados e ainda na função **Advance Planning**, vamos inserir a informação na coluna **TURN RADIUS**, seguindo a orientação do professor e o procedimento adotado para o exercício.
+> 
+> Para isso, o valor calculado deverá ser inserido na coluna **TURN RADIUS**. Caso a aba correspondente não esteja aberta, siga o caminho indicado abaixo para acessá-la e realizar as configurações necessárias.
 
 ```text
 → Task List → Advanced Plannig → Schedule Calculation → Create Schedule → Schedule Calculation Botão Play
 ````
 
+
+> [!question] Como determinar o valor que devo inserir no campo Turn Radius?
+> 
+> Para determinar o valor a ser inserido no campo **TURN RADIUS**, utilize a seguinte fórmula:
+> 
+> **Turn Radius = (Comprimento do navio × 3) ÷ 1852**
+> 
+> **Exemplo — navio de 125 m:**
+> 
+> `(125 × 3) ÷ 1852 = 0,20 nm`
+> 
+> Portanto, para uma embarcação com **125 metros de comprimento**, o valor calculado é aproximadamente **0,20 milhas náuticas (MN)**.
+>
+
+### Vídeo de apoio — Configuração do Turn Radius
 
 <iframe
   width="100%"
@@ -140,21 +162,43 @@ Para isso, o valor calculado deverá ser inserido na coluna **TURN RADIUS**. Cas
   allowfullscreen>
 </iframe>
 
+___
 
-4. Agora adicionamos o fuso horário na coluna Time Zone. 
+4. **Configuração do fuso horário**
 
-Instrução, caminho:
+Ainda na função **Advance Planning**, vamos configurar o fuso horário solicitado no enunciado da questão. Para isso, inseriremos o valor **08E** na coluna **Time Zone**.
 
 
+### Vídeo de apoio — Adicionar Fuso Horário no Schedule
 
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/vT0E5EUg658?si=MKYQmAt-Xf6iVNQL"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 ### b) Schedule
 
 Construir e preencher o schedule, sabendo que o suspender está previsto para hoje às **15:00Z**. A duração da viagem será de **5 horas**.
 
-**Resposta / procedimento:**
+### Vídeo de apoio — Configurar Schedule
 
- 
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/Ki6rcvLMj8E?si=R0hCyyw1_CZm1kjH"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
 
 ### c) Checagem e monitoramento da derrota
 
