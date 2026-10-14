@@ -11,4 +11,4 @@
 
 	d) a cota do centro de carena em relação )o(; 
 
-	e) a cota do centro de flutuação em relação )o
+	e) a cota do centro de flutuação em relação )o(
