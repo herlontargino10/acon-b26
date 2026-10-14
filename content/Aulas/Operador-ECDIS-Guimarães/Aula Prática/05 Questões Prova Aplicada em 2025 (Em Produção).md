@@ -1,6 +1,3 @@
-
----
-
 ## 1ª Questão — 6,0 pontos
 
 Sabendo-se que o seu calado é de **20 metros** e o comprimento é **125 metros**, seu fuso é **08E**, configure sua estação e faça o que se pede:
@@ -204,22 +201,57 @@ Construir e preencher o schedule, sabendo que o suspender está previsto para ho
 
 Checar e monitorar uma derrota, utilizando a carta em **Head up** e movimento **verdadeiro**.
 
-**Resposta / procedimento realizado:**
+Acessar: 
+
+```text
+→ Task List → Advanced Plannig → Check Route → Play Check Route
+````
+
+![[Pasted image 20261005173346.png]]
+
+Conferir se os alarmes gerados não impedem a navegação.
+
+![[20261007_100726.jpg]]
 
 
+Com a derrota planejada, verificada e os alarmes do **Check Route** devidamente conferidos, podemos prosseguir para a etapa de monitoramento. Essa função está disponível na mesma janela do **Advance Planning**.
 
-### d) Alarmes da derrota
+Para iniciar o monitoramento da derrota, basta clicar em **Monitoring**.
 
-Verificar e ajustar os alarmes para esta derrota.
+![[Pasted image 20261014163023.png]]
 
-**Resposta / procedimento:**
+Após ativar essa função, a rota planejada será exibida em **vermelho** na carta náutica.
+
+### Vídeo de apoio — Configurar carta para Head Up e Movimento Verdadeiro
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/NdCnq2KeyIA?si=2josj0X9GKIq7JBC"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+
+
+_____
+
+### d) Verificar e ajustar os alarmes para esta derrota.
+
+```text
+→ Task List → Advanced Plannig → Check Route → Play Check Route
+````
+
+![[20261007_100726.jpg]]
  
 
 ### e) Praticagem em São Luís
 
 Informar a característica da praticagem em **“SÃO LUIS”** e se há serviços disponíveis nesse porto.
 
-**Resposta:**
+
 
 
 ### f) Altura da maré no último waypoint
