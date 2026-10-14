@@ -1,6 +1,4 @@
-## 1ª Questão — 6,0 pontos
-
-Sabendo-se que o seu calado é de **20 metros** e o comprimento é **125 metros**, seu fuso é **08E**, configure sua estação e faça o que se pede:
+## 1ª Sabendo-se que o seu calado é de **20 metros** e o comprimento é **125 metros**, seu fuso é **08E**, configure sua estação e faça o que se pede:
 
 > [!danger] Configuração do calado  
 > Antes de prosseguirmos para a letra **A**, vamos configurar os parâmetros da embarcação. Conforme informado no enunciado, o **calado do navio é de 20 metros**.
@@ -337,17 +335,66 @@ No campo **Send Message**, selecione a opção **Safety Text** (mensagem de segu
 ## 4ª O Comandante solicitou inserir na carta um aviso para chamá-lo quando o navio estiver no waypoint 3 e informou que recebeu um aviso rádio sobre um exercício de minagem a ser realizado pela Marinha do Brasil com área circular cujo centro é no waypoint 5 com raio de **0,8 MN**.
 
 
-Aviso para chamar o Comandante no waypoint 3
+```text
+Task List → MAPS → Aba Text → Escrever Mensagem → OK →
+```
 
+### Criar um aviso ou nota com a ferramenta MAPS
 
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/bUglNeCcgd8?si=ibX39I087hZ-ThAv"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
+### Como remover um aviso ou nota criada no MAPS
 
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/amEvEiXxu2g?si=fgdXd5XIJur_kky_"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
-Inserindo aviso Rádio: Exercício de minagem
+Após digitar o texto e o campo info, siga para qualquer local na carta e clique para inserir a mensagem. 
 
+![[20261007_100635.jpg]]
 
+![[20261007_100648.jpg]]
 
+### Inserir aviso rádio sobre um exercício de minagem a ser realizado pela Marinha do Brasil com área circular cujo centro é no waypoint 5 com raio de **0,8 MN**.
 
+```text
+Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
+```
+
+> [!warning] Observação sobre o vídeo de apoio
+> 
+> Na questão, o exercício solicitado é de **minagem da Marinha**. No vídeo, porém, foi utilizado um exercício de **tiro** como exemplo.
+> 
+> O procedimento para inserir o aviso é o mesmo. A única diferença é o **nome do exercício informado no aviso**. Portanto, acompanhe o vídeo normalmente e, ao realizar a questão, utilize o nome correspondente ao exercício de minagem descrito no enunciado.
+
+### Vídeo de apoio — Inserir um aviso rádio
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/svhCnkX0d3Y?si=GPqW8p1MNxsOGJdp"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 ---
 
@@ -384,7 +431,6 @@ Inserindo aviso Rádio: Exercício de minagem
 
 ### b) Colocar a carta no display noturno.
 
-### Vídeo de apoio — Aplicar modo noturno do ECDIS
 
 <iframe
   width="100%"
