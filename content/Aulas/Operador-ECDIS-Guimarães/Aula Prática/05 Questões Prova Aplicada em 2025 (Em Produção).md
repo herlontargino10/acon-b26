@@ -2,10 +2,8 @@
 
 Sabendo-se que o seu calado é de **20 metros** e o comprimento é **125 metros**, seu fuso é **08E**, configure sua estação e faça o que se pede:
 
-
 > [!danger] Configuração do calado  
 > Antes de prosseguirmos para a letra **A**, vamos configurar os parâmetros da embarcação. Conforme informado no enunciado, o **calado do navio é de 20 metros**.
-
 ## Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
 
 Acessar:
@@ -46,7 +44,6 @@ Acessar:
 > ---
 
 ![[20261005_094824.jpg]]
-
 ## Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
 
 Acessar:
@@ -107,7 +104,6 @@ Clicar em cima da posição do navio e ir construindo os waypoints
 Fundeadouro
 ```
 
-
 A rota aparece ligando todos os pontos.
 
 ```text
@@ -131,7 +127,6 @@ ___
 ```text
 → Task List → Advanced Plannig → Schedule Calculation → Create Schedule → Schedule Calculation Botão Play
 ````
-
 
 > [!question] Como determinar o valor que devo inserir no campo Turn Radius?
 > 
@@ -164,8 +159,6 @@ ___
 4. **Configuração do fuso horário**
 
 Ainda na função **Advance Planning**, vamos configurar o fuso horário solicitado no enunciado da questão. Para isso, inseriremos o valor **08E** na coluna **Time Zone**.
-
-
 ### Vídeo de apoio — Adicionar Fuso Horário no Schedule
 
 <iframe
@@ -178,7 +171,6 @@ Ainda na função **Advance Planning**, vamos configurar o fuso horário solicit
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
-
 ### b) Construir e preencher o schedule, sabendo que o suspender está previsto para hoje às **15:00Z**. A duração da viagem será de **5 horas**.
 
 ### Vídeo de apoio — Configurar Schedule
@@ -193,7 +185,6 @@ Ainda na função **Advance Planning**, vamos configurar o fuso horário solicit
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
-
 
 ### c) Checar e monitorar uma derrota, utilizando a carta em **Head up** e movimento **verdadeiro**.
 
@@ -215,7 +206,6 @@ Para iniciar o monitoramento da derrota, basta clicar em **Monitoring**.
 ![[Pasted image 20261014163023.png]]
 
 Após ativar essa função, a rota planejada será exibida em **vermelho** na carta náutica.
-
 ### Vídeo de apoio — Configurar carta para Head Up e Movimento Verdadeiro
 
 <iframe
@@ -229,9 +219,7 @@ Após ativar essa função, a rota planejada será exibida em **vermelho** na ca
   allowfullscreen>
 </iframe>
 
-
 _____
-
 ### d) Verificar e ajustar os alarmes para esta derrota.
 
 ```text
@@ -254,7 +242,6 @@ _____
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
-
 ### Vídeo de apoio — Verificar serviços da praticagem em outros portos
 
 <iframe
@@ -282,14 +269,46 @@ _____
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
+### Vídeo de apoio — Consultar a altura da maré pelo nome do porto
 
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/qQIrOtHm5ho?si=Mwr4RhTE_X4Ji0Iy"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+### Vídeo de apoio — Buscar Portos Próximos por Raio de Distância (MN)
+
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/Ii9rMFUL64s?si=2mZrlGYedWII-F0k"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 ---
-
 ## 2ª Determinar a distância entre dois pontos de terra, informar os pontos considerados.
 
+### Vídeo de apoio — Determinar a distância com a função compasso
 
-
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/tp2WqAJbnzA?si=4asvVWTcBKzyTBDh"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 ---
 
