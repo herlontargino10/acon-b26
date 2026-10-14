@@ -179,9 +179,7 @@ Ainda na função **Advance Planning**, vamos configurar o fuso horário solicit
   allowfullscreen>
 </iframe>
 
-### b) Schedule
-
-Construir e preencher o schedule, sabendo que o suspender está previsto para hoje às **15:00Z**. A duração da viagem será de **5 horas**.
+### b) Construir e preencher o schedule, sabendo que o suspender está previsto para hoje às **15:00Z**. A duração da viagem será de **5 horas**.
 
 ### Vídeo de apoio — Configurar Schedule
 
@@ -197,9 +195,7 @@ Construir e preencher o schedule, sabendo que o suspender está previsto para ho
 </iframe>
 
 
-### c) Checagem e monitoramento da derrota
-
-Checar e monitorar uma derrota, utilizando a carta em **Head up** e movimento **verdadeiro**.
+### c) Checar e monitorar uma derrota, utilizando a carta em **Head up** e movimento **verdadeiro**.
 
 Acessar: 
 
@@ -244,107 +240,99 @@ _____
 
 ![[20261007_100726.jpg]]
  
+### e) Informar a característica da praticagem em **“SÃO LUIS”** e se há serviços disponíveis nesse porto.
 
-### e) Praticagem em São Luís
+### Vídeo de apoio — Verificar características da praticagem
 
-Informar a característica da praticagem em **“SÃO LUIS”** e se há serviços disponíveis nesse porto.
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/CPAaEcFR6PI?si=blrV67_NsFVR_7O1"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
+### Vídeo de apoio — Verificar serviços da praticagem em outros portos
 
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/u2liK14ysCc?si=Bu_dRIMMtNLQKAaq"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
+### f) Quando estiver no último waypoint, qual será a altura da maré?
 
-### f) Altura da maré no último waypoint
+### Vídeo de apoio — Consultar a altura da maré no destino
 
-Quando estiver no último waypoint, qual será a altura da maré?
-
-**Resposta:**
-
-- Último waypoint:
-- Data e hora consideradas:
-- Altura da maré:
-- Fonte / informação consultada:
-
-> 
-
----
-
-## 2ª Questão — 0,5 ponto
-
-Determinar a distância entre dois pontos de terra, informar os pontos considerados.
-
-**Resposta:**
-
-- Ponto de terra 1:
-- Ponto de terra 2:
-- Distância determinada:
-- Unidade:
-- Procedimento / observações:
-
-
----
-
-## 3ª Questão — 0,5 ponto
-
-Enviar uma mensagem de segurança pelo AIS para estação com MMSI **25102024**.
-
-**Registro da execução:**
-
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/5NrRaOMKmM0?si=VEUlop3S3wFsdg5B"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 
 ---
 
-## 4ª Questão — 2,0 pontos
+## 2ª Determinar a distância entre dois pontos de terra, informar os pontos considerados.
 
-O Comandante solicitou inserir na carta um aviso para chamá-lo quando o navio estiver no waypoint 3 e informou que recebeu um aviso rádio sobre um exercício de minagem a ser realizado pela Marinha do Brasil com área circular cujo centro é no waypoint 5 com raio de **0,8 MN**.
 
-### a) Aviso para chamar o Comandante no waypoint 3
 
-**Resposta / procedimento:**
-
-- Tipo de aviso inserido:
-- Waypoint associado:
-- Configuração / mensagem do aviso:
-- Resultado / observações:
-
-> 
-
-### b) Área de exercício de minagem
-
-**Resposta / procedimento:**
-
-- Centro da área: WP5
-- Raio: 0,8 MN
-- Objeto / área inserida na carta:
-- Como a área foi representada:
-- Resultado / observações:
-
-> 
 
 ---
 
-## 5ª Questão — 1,0 ponto
+## 3ª Enviar uma mensagem de segurança pelo AIS para estação com MMSI **25102024**.
 
-Faça o que se pede:
 
-### a) Divisão da carta
 
-Dividir a carta em duas, utilizando uma em **North up** e outra em **Course up**.
 
-**Resposta / procedimento:**
 
-- Configuração da primeira carta:
-- Configuração da segunda carta:
-- Resultado / observações:
+---
 
-> 
+## 4ª O Comandante solicitou inserir na carta um aviso para chamá-lo quando o navio estiver no waypoint 3 e informou que recebeu um aviso rádio sobre um exercício de minagem a ser realizado pela Marinha do Brasil com área circular cujo centro é no waypoint 5 com raio de **0,8 MN**.
 
-### b) Display noturno
 
-Colocar a carta no display noturno.
+Aviso para chamar o Comandante no waypoint 3
 
-**Resposta / procedimento:**
 
-- Configuração selecionada:
-- Resultado / observações:
+
+
+
+Inserindo aviso Rádio: Exercício de minagem
+
+
+
+
+
+---
+
+## 5ª Faça o que se pede:
+
+
+### a) Dividir a carta em duas, utilizando uma em **North up** e outra em **Course up**.
+
+
+
+
+### b) Colocar a carta no display noturno.
+
+
+
+
+
+
 
 ---
 
