@@ -79,7 +79,7 @@ Acessar:
 >
 > `2 × 20 = 40,0 m`
 >
-> **Resultado: 10,0 m**
+> **Resultado: 40,0 m**
 
 ![[20261005_094802.jpg]]
 
@@ -151,7 +151,7 @@ ___
 <iframe
   width="100%"
   height="400"
-  src="https://www.youtube.com/embed/Ki6rcvLMj8E?si=sLizIrk8Og0Vt9O6"
+  src="https://www.youtube.com/embed/Hsdd9uL6gHU?si=2wpTYRx979HIDfMX"
   title="Demonstração prática do ECDIS"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -210,9 +210,7 @@ Acessar:
 ![[Pasted image 20261005173346.png]]
 
 Conferir se os alarmes gerados não impedem a navegação.
-
 ![[20261007_100726.jpg]]
-
 
 Com a derrota planejada, verificada e os alarmes do **Check Route** devidamente conferidos, podemos prosseguir para a etapa de monitoramento. Essa função está disponível na mesma janela do **Advance Planning**.
 
