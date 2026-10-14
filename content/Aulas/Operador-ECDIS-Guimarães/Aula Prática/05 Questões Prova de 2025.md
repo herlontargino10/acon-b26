@@ -2,7 +2,7 @@
 
 > [!danger] Configuração do calado  
 > Antes de prosseguirmos para a letra **A**, vamos configurar os parâmetros da embarcação. Conforme informado no enunciado, o **calado do navio é de 20 metros**.
-## Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
+#### Adicionar parâmetros de calado (Safety Contour e Safety Deep) 
 
 Acessar:
 
@@ -42,7 +42,7 @@ Acessar:
 > ---
 
 ![[20261005_094824.jpg]]
-## Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
+#### Adicionar parâmetros de calado (Shallow Contour e Deep Contour) 
 
 Acessar:
 
@@ -86,7 +86,7 @@ Acessar:
 → Task List → Advanced Plannig → New
 ```
 
-### Primeiro ponto
+#### Primeiro ponto
 
 Na tela do mapa:
 
@@ -96,7 +96,7 @@ Clicar em cima da posição do navio e ir construindo os waypoints
 
 → **Adicionar utilizando o cursor mouse.** 
 
-### Ponto de chegada
+#### Ponto de chegada
 
 ```text
 Fundeadouro
@@ -139,7 +139,7 @@ ___
 > Portanto, para uma embarcação com **125 metros de comprimento**, o valor calculado é aproximadamente **0,20 milhas náuticas (MN)**.
 >
 
-### Vídeo de apoio — Configuração do Turn Radius
+#### Vídeo de apoio — Configuração do Turn Radius
 
 <iframe
   width="100%"
@@ -157,7 +157,7 @@ ___
 **Configuração do fuso horário**
 
 Ainda na função **Advance Planning**, vamos configurar o fuso horário solicitado no enunciado da questão. Para isso, inseriremos o valor **08E** na coluna **Time Zone**.
-### Vídeo de apoio — Adicionar Fuso Horário no Schedule
+#### Vídeo de apoio — Adicionar Fuso Horário no Schedule
 
 <iframe
   width="100%"
@@ -169,9 +169,9 @@ Ainda na função **Advance Planning**, vamos configurar o fuso horário solicit
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
+
 ### b) Construir e preencher o schedule, sabendo que o suspender está previsto para hoje às **15:00Z**. A duração da viagem será de **5 horas**.
 
-### Vídeo de apoio — Configurar Schedule
 
 <iframe
   width="100%"
@@ -204,7 +204,7 @@ Para iniciar o monitoramento da derrota, basta clicar em **Monitoring**.
 ![[Pasted image 20261014163023.png]]
 
 Após ativar essa função, a rota planejada será exibida em **vermelho** na carta náutica.
-### Vídeo de apoio — Configurar carta para Head Up e Movimento Verdadeiro
+#### Vídeo de apoio — Configurar carta para Head Up e Movimento Verdadeiro
 
 <iframe
   width="100%"
@@ -217,7 +217,6 @@ Após ativar essa função, a rota planejada será exibida em **vermelho** na ca
   allowfullscreen>
 </iframe>
 
-_____
 ### d) Verificar e ajustar os alarmes para esta derrota.
 
 ```text
@@ -228,7 +227,7 @@ _____
  
 ### e) Informar a característica da praticagem em **“SÃO LUIS”** e se há serviços disponíveis nesse porto.
 
-### Vídeo de apoio — Verificar características da praticagem
+#### Vídeo de apoio — Verificar características da praticagem
 
 <iframe
   width="100%"
@@ -241,7 +240,7 @@ _____
   allowfullscreen>
 </iframe>
 
-### Vídeo de apoio — Verificar serviços da praticagem em outros portos
+#### Vídeo de apoio — Verificar serviços da praticagem em outros portos
 
 
 <iframe
@@ -257,7 +256,7 @@ _____
 
 ### f) Quando estiver no último waypoint, qual será a altura da maré?
 
-### Vídeo de apoio — Consultar a altura da maré no destino
+#### Vídeo de apoio — Consultar a altura da maré no destino
 
 <iframe
   width="100%"
@@ -269,7 +268,7 @@ _____
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
-### Vídeo de apoio — Consultar a altura da maré pelo nome do porto
+#### Vídeo de apoio — Consultar a altura da maré pelo nome do porto
 
 <iframe
   width="100%"
@@ -281,7 +280,7 @@ _____
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
-### Vídeo de apoio — Buscar Portos Próximos por Raio de Distância (MN)
+#### Vídeo de apoio — Buscar Portos Próximos por Raio de Distância (MN)
 
 
 <iframe
@@ -298,7 +297,7 @@ _____
 ---
 ## 2ª Determinar a distância entre dois pontos de terra, informar os pontos considerados.
 
-### Vídeo de apoio — Determinar a distância com a função compasso
+#### Vídeo de apoio — Determinar a distância com a função compasso
 
 <iframe
   width="100%"
@@ -339,7 +338,7 @@ No campo **Send Message**, selecione a opção **Safety Text** (mensagem de segu
 Task List → MAPS → Aba Text → Escrever Mensagem → OK →
 ```
 
-### Criar um aviso ou nota com a ferramenta MAPS
+#### Criar um aviso ou nota com a ferramenta MAPS
 
 <iframe
   width="100%"
@@ -352,7 +351,7 @@ Task List → MAPS → Aba Text → Escrever Mensagem → OK →
   allowfullscreen>
 </iframe>
 
-### Como remover um aviso ou nota criada no MAPS
+#### Como remover um aviso ou nota criada no MAPS
 
 <iframe
   width="100%"
@@ -383,7 +382,7 @@ Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
 > 
 > O procedimento para inserir o aviso é o mesmo. A única diferença é o **nome do exercício informado no aviso**. Portanto, acompanhe o vídeo normalmente e, ao realizar a questão, utilize o nome correspondente ao exercício de minagem descrito no enunciado.
 
-### Vídeo de apoio — Inserir um aviso rádio
+#### Vídeo de apoio — Inserir um aviso rádio
 
 <iframe
   width="100%"
@@ -402,7 +401,7 @@ Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
 
 ### a) Dividir a carta em duas, utilizando uma em **North up** e outra em **Course up**.
 
-### Vídeo de apoio — Dividir a carta em duas
+#### Vídeo de apoio — Dividir a carta em duas
 
 
 <iframe
@@ -416,7 +415,7 @@ Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
   allowfullscreen>
 </iframe>
 
-### Vídeo de apoio — Como desfazer a divisão da carta
+#### Vídeo de apoio — Como desfazer a divisão da carta
 
 <iframe
   width="100%"
