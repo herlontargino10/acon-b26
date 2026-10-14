@@ -242,7 +242,9 @@ _____
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
+
 ### Vídeo de apoio — Verificar serviços da praticagem em outros portos
+
 
 <iframe
   width="100%"
@@ -283,6 +285,7 @@ _____
 </iframe>
 ### Vídeo de apoio — Buscar Portos Próximos por Raio de Distância (MN)
 
+
 <iframe
   width="100%"
   height="400"
@@ -311,7 +314,6 @@ _____
 </iframe>
 
 ---
-
 ## 3ª Enviar uma mensagem de segurança pelo AIS para estação com MMSI **25102024**.
 
 Acessar: 
@@ -355,6 +357,7 @@ Inserindo aviso Rádio: Exercício de minagem
 
 ### Vídeo de apoio — Dividir a carta em duas
 
+
 <iframe
   width="100%"
   height="400"
@@ -365,6 +368,7 @@ Inserindo aviso Rádio: Exercício de minagem
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
+
 ### Vídeo de apoio — Como desfazer a divisão da carta
 
 <iframe
@@ -377,6 +381,7 @@ Inserindo aviso Rádio: Exercício de minagem
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
+
 ### b) Colocar a carta no display noturno.
 
 ### Vídeo de apoio — Aplicar modo noturno do ECDIS
@@ -391,9 +396,4 @@ Inserindo aviso Rádio: Exercício de minagem
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
-
-
-
-
----
 
