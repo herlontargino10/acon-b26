@@ -156,7 +156,7 @@ ___
 
 ___
 
-4. **Configuração do fuso horário**
+**Configuração do fuso horário**
 
 Ainda na função **Advance Planning**, vamos configurar o fuso horário solicitado no enunciado da questão. Para isso, inseriremos o valor **08E** na coluna **Time Zone**.
 ### Vídeo de apoio — Adicionar Fuso Horário no Schedule
@@ -314,12 +314,24 @@ _____
 
 ## 3ª Enviar uma mensagem de segurança pelo AIS para estação com MMSI **25102024**.
 
+Acessar: 
 
+```text
+Task List → AIS → Navio → Aba Messaging
+→ Mensagem / Safety Text Message → Selecionar To target with MMSI
+```
 
+No campo **Send Message**, selecione a opção **Safety Text** (mensagem de segurança).
 
+1. Em **To target with MMSI**, insira o número **25102024**.
+    
+2. Digite a mensagem de segurança desejada no campo correspondente.
+    
+3. Após inserir a mensagem, clique em **Send on Channel A & B** para transmiti-la pelos dois canais.
+
+![[20261007_100515.jpg]]
 
 ---
-
 ## 4ª O Comandante solicitou inserir na carta um aviso para chamá-lo quando o navio estiver no waypoint 3 e informou que recebeu um aviso rádio sobre um exercício de minagem a ser realizado pela Marinha do Brasil com área circular cujo centro é no waypoint 5 com raio de **0,8 MN**.
 
 
@@ -339,16 +351,46 @@ Inserindo aviso Rádio: Exercício de minagem
 
 ## 5ª Faça o que se pede:
 
-
 ### a) Dividir a carta em duas, utilizando uma em **North up** e outra em **Course up**.
 
+### Vídeo de apoio — Dividir a carta em duas
 
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/ZdErkr84Mls?si=Lyv3xN67m1LzE1LU"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
+### Vídeo de apoio — Como desfazer a divisão da carta
 
-
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/8nOnSFmQFlw?si=9CNo7dfHi0ALBsLg"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 ### b) Colocar a carta no display noturno.
 
+### Vídeo de apoio — Aplicar modo noturno do ECDIS
 
-
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/io22smAle_M?si=wVBFY8rrpEyooPX4"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 
 
