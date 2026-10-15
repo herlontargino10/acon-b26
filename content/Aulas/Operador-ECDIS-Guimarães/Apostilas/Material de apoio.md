@@ -4,5 +4,7 @@
 
 ## Questões de aulas práticas
 
-- [[Prática - 11 Questões Aplicados pelo Professor|Prática 1 — 11 questões]]
-- [[22 Questões Aplicados pelo Professor (Em Edição)|Prática 2 — 22 questões]]
+- [[Prática - 11 Questões Aplicados pelo Professor|Exercício 2026 - 11 questões]]
+- [[05 Questões Prova de 2025|Prova 2025 - 05 questões]]
+
+
