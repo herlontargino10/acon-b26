@@ -489,7 +489,7 @@ Task List → MAPS → Aba Text → Escrever Mensagem → OK →
 <iframe
   width="100%"
   height="400"
-  src="https://www.youtube.com/embed/bUglNeCcgd8?si=ibX39I087hZ-ThAv"
+  src="https://www.youtube.com/embed/PoNGRCf8Flo?si=AOAESapV-Udzflkm"
   title="Demonstração prática do ECDIS"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -502,7 +502,7 @@ Task List → MAPS → Aba Text → Escrever Mensagem → OK →
 <iframe
   width="100%"
   height="400"
-  src="https://www.youtube.com/embed/amEvEiXxu2g?si=fgdXd5XIJur_kky_"
+  src="https://www.youtube.com/embed/yMqhcHFyhkI?si=_rVvv5QZdvrhW8qK"
   title="Demonstração prática do ECDIS"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -526,9 +526,18 @@ ____
 Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
 ```
 
-![[20261007_100404.jpg]]
+#### Vídeo de apoio — Inserir um aviso exercício
 
-![[20261007_100409.jpg]]
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/svhCnkX0d3Y?si=GPqW8p1MNxsOGJdp"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 
 [[#Índice]]
