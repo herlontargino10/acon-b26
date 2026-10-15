@@ -268,6 +268,7 @@ Após ativar essa função, a rota planejada será exibida em **vermelho** na ca
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
+
 #### Vídeo de apoio — Consultar a altura da maré pelo nome do porto
 
 <iframe
@@ -280,6 +281,7 @@ Após ativar essa função, a rota planejada será exibida em **vermelho** na ca
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
+
 #### Vídeo de apoio — Buscar Portos Próximos por Raio de Distância (MN)
 
 
@@ -294,7 +296,6 @@ Após ativar essa função, a rota planejada será exibida em **vermelho** na ca
   allowfullscreen>
 </iframe>
 
----
 ## 2ª Determinar a distância entre dois pontos de terra, informar os pontos considerados.
 
 #### Vídeo de apoio — Determinar a distância com a função compasso
@@ -310,7 +311,6 @@ Após ativar essa função, a rota planejada será exibida em **vermelho** na ca
   allowfullscreen>
 </iframe>
 
----
 ## 3ª Enviar uma mensagem de segurança pelo AIS para estação com MMSI **25102024**.
 
 Acessar: 
@@ -330,7 +330,6 @@ No campo **Send Message**, selecione a opção **Safety Text** (mensagem de segu
 
 ![[20261007_100515.jpg]]
 
----
 ## 4ª O Comandante solicitou inserir na carta um aviso para chamá-lo quando o navio estiver no waypoint 3 e informou que recebeu um aviso rádio sobre um exercício de minagem a ser realizado pela Marinha do Brasil com área circular cujo centro é no waypoint 5 com raio de **0,8 MN**.
 
 
@@ -394,8 +393,6 @@ Task List → MAN CORR → Aba Circles → Escolher Tipo de Círculo → OK
   referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen>
 </iframe>
-
----
 
 ## 5ª Faça o que se pede:
 
