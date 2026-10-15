@@ -347,9 +347,18 @@ Clicar com botão esquerdo no Waypoint onde vai partir essa marcação
 
 Repetir para criar o segundo ponto de referência.
 
+#### Vídeo de apoio — Adicionar pontos de referência
 
-![[20261007_095627.jpg]]
-
+<iframe
+  width="100%"
+  height="400"
+  src="https://www.youtube.com/embed/VI6K9q6sGjk?si=FVksUJWEVM-8tpUz"
+  title="Demonstração prática do ECDIS"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen>
+</iframe>
 
 [[#Índice]]
 
