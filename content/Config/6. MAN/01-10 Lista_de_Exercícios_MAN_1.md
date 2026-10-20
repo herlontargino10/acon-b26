@@ -114,11 +114,3 @@ Abaixo está a versão consolidada, auditada e corrigida das **Questões 1 a 10*
 - **Referência**: `02_O_Casco_e_o_Aparelho_de_Governo.pdf` — Slide 57.
 
 ---
-
-### Relatório de Validação do Bloco 1
-
-- **Questões Confirmadas (sem alteração conceitual)**: **8** (Q1, Q2, Q3, Q4, Q5, Q6, Q8 e Q10)
-- **Questões Corrigidas/Ajustadas na Auditoria**: **2** (Q7 — adequação estrita do termo nominal; Q9 — eliminação da contagem genérica e reestruturação por critérios)
-- **Questões Pendentes de Verificação**: **0**
-
----

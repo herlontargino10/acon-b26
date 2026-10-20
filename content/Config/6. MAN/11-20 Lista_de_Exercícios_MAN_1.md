@@ -103,9 +103,3 @@ Abaixo apresento **exclusivamente as 9 questões que precisaram de ajustes nas s
     
 
 ---
-
-### Resumo do Bloco 2
-
-Todas as 10 questões do Bloco 2 (Q11 a Q20) estão agora 100% alinhadas com o texto literal dos PDFs e livres de qualquer terminologia externa.
-
-Aguardando sua instrução para iniciarmos a resolução do **Bloco 3 (Questões 21 a 30)**!

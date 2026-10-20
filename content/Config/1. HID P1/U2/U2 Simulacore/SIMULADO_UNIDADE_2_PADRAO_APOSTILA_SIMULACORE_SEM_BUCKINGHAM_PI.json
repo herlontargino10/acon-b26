@@ -1,0 +1,398 @@
+[
+  {
+    "type": "mc",
+    "question": "Considere os conceitos e as relações apresentados na apostila.\n\nI. Todo termo aditivo de uma equação deve ter as mesmas dimensões, de acordo com o princípio da homogeneidade dimensional.\n\nII. Uma equação é chamada de normalizada quando seus termos são adimensionais e da ordem da unidade.\n\nIII. O número de Euler é a adimensionalização natural da pressão e relaciona forças de pressão e forças de inércia.\n\nIV. O número de Reynolds relaciona forças de inércia e forças viscosas.\n\nV. Em testes de modelos de navios, é possível satisfazer simultaneamente, na prática, os critérios de similaridade de Reynolds, Froude e Weber usando o mesmo fluido.\n\nSão corretas as afirmativas:",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "I, II e III, apenas.",
+      "I, II, III e IV, apenas.",
+      "II, III e V, apenas.",
+      "I, IV e V, apenas.",
+      "I, II, III, IV e V."
+    ],
+    "correct": 1,
+    "explanation": "- **I — Verdadeira.** O princípio da homogeneidade dimensional exige que os termos de uma equação que são somados ou subtraídos tenham as mesmas dimensões.\n- **II — Verdadeira.** A apostila chama de normalizada a equação cujos termos são adimensionais e da ordem da unidade.\n- **III — Verdadeira.** O número de Euler é apresentado como a adimensionalização natural da pressão e como a relação entre forças de pressão e forças de inércia.\n- **IV — Verdadeira.** O número de Reynolds indica a importância relativa entre forças de inércia e forças viscosas.\n- **V — Falsa.** Na prática, não é possível satisfazer simultaneamente os requisitos de similaridade de Reynolds, Froude e Weber em testes de modelos de navios."
+  },
+  {
+    "type": "gap",
+    "question": "A lei que exige que os termos de uma equação tenham as mesmas dimensões é o princípio da __________ dimensional.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "homogeneidade",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "Uma equação cujos termos são adimensionais e da ordem da unidade é chamada de __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "normalizada",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "A normalização é mais __________ do que a adimensionalização.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "restritiva",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "As dimensões fundamentais usadas normalmente na hidrodinâmica do navio são massa, comprimento e __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "tempo",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "A força de inércia é normalizada, no desenvolvimento da apostila, por uma expressão proporcional a __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "ρu²L²",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "A adimensionalização natural da pressão é o número de __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "Euler",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "O número de Euler relaciona as forças de pressão e as forças de __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "inércia",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "O número de Reynolds relaciona as forças de inércia e as forças __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "viscosas",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "A lei que relaciona a tensão cisalhante à variação da velocidade na direção transversal é a lei da viscosidade de __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "Newton",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "O número de Froude relaciona as forças de inércia e as forças __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "gravitacionais",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "O número de Froude tem efeito dominante em escoamentos com superfícies __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "livres",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "O número de Weber relaciona as forças de inércia e as forças de tensão __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "superficial",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "A análise dimensional permite reduzir o número de variáveis __________ que afetam um fenômeno físico.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "experimentais",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "O teorema π de Buckingham permite obter grupos __________ a partir de variáveis dimensionais.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "adimensionais",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "gap",
+    "question": "Na contagem apresentada para os problemas de hidrodinâmica do navio, o número de grupos π é calculado por n − __________.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "correct": "m",
+    "explanation": "As respostas seguem o gabarito comentado: itens 1–4, homogeneidade dimensional e variáveis; itens 5–12, forças e números adimensionais; itens 13–15, finalidades da análise dimensional e teorema π de Buckingham."
+  },
+  {
+    "type": "tf",
+    "question": "Cada termo de uma equação adimensional não tem dimensão.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A apostila define uma equação adimensional como aquela cujos termos não têm dimensão."
+  },
+  {
+    "type": "tf",
+    "question": "Toda equação adimensional é necessariamente normalizada.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Para ser normalizada, além de adimensional, a equação deve ter termos da ordem da unidade."
+  },
+  {
+    "type": "tf",
+    "question": "A normalização é mais restritiva do que a adimensionalização.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A normalização é descrita como mais restritiva do que a adimensionalização."
+  },
+  {
+    "type": "tf",
+    "question": "Quando o número de Euler é grande, as forças de pressão são maiores do que as forças de inércia.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Segundo a apostila, quando o número de Euler é grande, as forças de pressão são maiores que as forças de inércia."
+  },
+  {
+    "type": "tf",
+    "question": "Quando o número de Reynolds é muito alto, as forças viscosas podem ser negligenciadas, conforme a descrição da apostila.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A apostila afirma que, quando Reynolds é muito alto, as forças viscosas podem ser negligenciadas."
+  },
+  {
+    "type": "tf",
+    "question": "O número de Reynolds também está associado à transição entre os regimes laminar e turbulento.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O texto associa Reynolds à transição entre regime laminar e turbulento."
+  },
+  {
+    "type": "tf",
+    "question": "O número de Froude é especialmente importante em escoamentos com superfícies livres.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O número de Froude tem efeito dominante em escoamentos com superfícies livres."
+  },
+  {
+    "type": "tf",
+    "question": "O número de Weber relaciona as forças de pressão e as forças viscosas.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O número de Weber relaciona forças de inércia e forças de tensão superficial."
+  },
+  {
+    "type": "tf",
+    "question": "A análise dimensional pode ajudar a obter leis de escala para prever o desempenho do protótipo a partir de um modelo.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Uma das finalidades da análise dimensional é obter leis de escala para prever o desempenho do protótipo a partir do modelo."
+  },
+  {
+    "type": "tf",
+    "question": "O teorema π de Buckingham permite formar grupos adimensionais a partir de variáveis dimensionais.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Buckingham–π permite descobrir grupos adimensionais a partir de variáveis dimensionais."
+  },
+  {
+    "type": "tf",
+    "question": "Na primeira etapa de Buckingham, devem ser listadas as variáveis do problema e contado o número total delas.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A primeira etapa consiste em listar as variáveis e contar o total, incluindo a variável dependente."
+  },
+  {
+    "type": "tf",
+    "question": "A apostila recomenda incluir variáveis dependentes entre si sem restrições, pois isso não altera a análise dimensional.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A apostila orienta que as variáveis sejam independentes; por exemplo, evitar usar simultaneamente u, A e Q = uA."
+  },
+  {
+    "type": "tf",
+    "question": "A similaridade geométrica significa que o modelo e o navio têm a mesma forma.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A similaridade geométrica significa que o navio e o modelo têm a mesma forma."
+  },
+  {
+    "type": "tf",
+    "question": "A similaridade cinemática exige que as velocidades correspondentes sejam proporcionais pelo mesmo fator de escala.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Na similaridade cinemática, as velocidades correspondentes são proporcionais por um fator de escala constante."
+  },
+  {
+    "type": "tf",
+    "question": "A apostila afirma que, na prática, é possível satisfazer simultaneamente todos os requisitos de similaridade em testes de modelos de navios.",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Na prática, só é possível satisfazer um dos três requisitos de similaridade discutidos; os outros devem ser sacrificados."
+  },
+  {
+    "type": "mc",
+    "question": "Como é chamada uma equação cujos termos são adimensionais e da ordem da unidade?",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Equação dimensional.",
+      "Equação normalizada.",
+      "Equação viscosa.",
+      "Equação cinemática.",
+      "Equação gravitacional."
+    ],
+    "correct": 1,
+    "explanation": "A apostila define como normalizada a equação cujos termos são adimensionais e da ordem da unidade."
+  },
+  {
+    "type": "mc",
+    "question": "Qual número adimensional é apresentado na apostila como a adimensionalização natural da pressão?",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Reynolds.",
+      "Froude.",
+      "Euler.",
+      "Weber.",
+      "Buckingham."
+    ],
+    "correct": 2,
+    "explanation": "O número de Euler é apresentado como a adimensionalização natural da pressão."
+  },
+  {
+    "type": "mc",
+    "question": "Qual número adimensional relaciona as forças de inércia e as forças viscosas?",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Euler.",
+      "Reynolds.",
+      "Froude.",
+      "Weber.",
+      "Número de sustentação."
+    ],
+    "correct": 1,
+    "explanation": "O número de Reynolds relaciona forças de inércia e forças viscosas."
+  },
+  {
+    "type": "mc",
+    "question": "Qual número adimensional tem efeito dominante em escoamentos com superfícies livres?",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Euler.",
+      "Reynolds.",
+      "Weber.",
+      "Froude.",
+      "Nenhum dos anteriores."
+    ],
+    "correct": 3,
+    "explanation": "A apostila destaca o efeito dominante de Froude em escoamentos com superfícies livres, como resistência de navios, ondas de superfície e canais abertos."
+  },
+  {
+    "type": "mc",
+    "question": "O número de Weber relaciona principalmente:",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "forças de inércia e forças de tensão superficial.",
+      "forças de pressão e forças viscosas.",
+      "forças gravitacionais e forças de pressão.",
+      "massa e comprimento.",
+      "velocidade e tempo, sem relação com forças."
+    ],
+    "correct": 0,
+    "explanation": "Essa é a relação física atribuída ao número de Weber no material."
+  },
+  {
+    "type": "mc",
+    "question": "Na forma de contagem apresentada para problemas com n variáveis e m dimensões fundamentais independentes, o número de grupos π é:",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "n + m.",
+      "m − n.",
+      "n − m.",
+      "n × m.",
+      "n/m."
+    ],
+    "correct": 2,
+    "explanation": "A apostila usa a diferença entre o número de variáveis dimensionais n e o número de dimensões fundamentais independentes m para contar os grupos π nos exemplos apresentados."
+  },
+  {
+    "type": "mc",
+    "question": "O que significa similaridade dinâmica?",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Modelo e protótipo têm apenas o mesmo comprimento.",
+      "Todas as forças correspondentes são proporcionais pelo mesmo fator de escala.",
+      "Todas as velocidades são iguais numericamente.",
+      "A rugosidade do modelo é sempre idêntica à do navio real.",
+      "O modelo não pode ter fluido em movimento."
+    ],
+    "correct": 1,
+    "explanation": "A similaridade dinâmica exige que as forças existentes no escoamento sejam escaladas por um mesmo fator."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo a apostila, por que é impossível satisfazer simultaneamente todos os requisitos de similaridade em testes de modelos de navios, na prática?",
+    "category": "Hidrodinâmica — Homogeneidade e Análise Dimensional",
+    "options": [
+      "Porque os números adimensionais não podem ser calculados.",
+      "Porque o modelo não pode ter forma semelhante ao navio.",
+      "Porque as condições para igualar Reynolds, Froude e Weber exigem ajustes de velocidade incompatíveis usando o mesmo fluido.",
+      "Porque a massa não é uma dimensão fundamental.",
+      "Porque a análise dimensional não se aplica à hidrodinâmica naval."
+    ],
+    "correct": 2,
+    "explanation": "A igualdade de Froude exige uma condição de velocidade diferente daquela exigida para igualar Reynolds e Weber quando o modelo é menor e se utiliza o mesmo fluido."
+  }
+]
