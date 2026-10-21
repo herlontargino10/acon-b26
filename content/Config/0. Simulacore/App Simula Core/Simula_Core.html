@@ -1283,6 +1283,8 @@ function $(id) { return document.getElementById(id); }
 /* ── Credenciais (nome canônico indexado pela chave em maiúsculas) ── */
 const CREDENTIALS  = { 
   'turma': 'turma',
+  'turma2026': 'turma',
+  'TURMA2026': 'turma',
   'ohana': 'Ohana',
   'herlon': 'herlon' };
 const USER_KEY     = 'cia_user_v1';
@@ -2195,13 +2197,24 @@ function renderHeader() {
   updateTimerColor(S.timer);
 
   const st = stats();
-  srow.innerHTML = `
-    <div class="stat-it"><span class="dot dg"></span>${st.correct} acertos</div>
-    <div class="stat-it"><span class="dot dr"></span>${st.wrong} erros</div>
-    <div class="stat-it"><span class="dot dm"></span>${st.unanswered} restantes</div>
-    ${st.flagged ? `<div class="stat-it"><span class="dot da"></span>${st.flagged} marcadas</div>` : ''}
-    ${st.answered ? `<span class="stat-pct">${st.pct}% aproveit.</span>` : ''}
-  `;
+  const isExam = S.mode === 'exam' && !S.reviewMode;
+  if (isExam) {
+    const answeredCount = S.deck.reduce((acc, q, i) => acc + (answerReady(q, S.answers[i]) ? 1 : 0), 0);
+    const remainingCount = S.deck.length - answeredCount;
+    srow.innerHTML = `
+      <div class="stat-it"><span class="dot dg"></span>${answeredCount} respondidas</div>
+      <div class="stat-it"><span class="dot dm"></span>${remainingCount} restantes</div>
+      ${st.flagged ? `<div class="stat-it"><span class="dot da"></span>${st.flagged} marcadas</div>` : ''}
+    `;
+  } else {
+    srow.innerHTML = `
+      <div class="stat-it"><span class="dot dg"></span>${st.correct} acertos</div>
+      <div class="stat-it"><span class="dot dr"></span>${st.wrong} erros</div>
+      <div class="stat-it"><span class="dot dm"></span>${st.unanswered} restantes</div>
+      ${st.flagged ? `<div class="stat-it"><span class="dot da"></span>${st.flagged} marcadas</div>` : ''}
+      ${st.answered ? `<span class="stat-pct">${st.pct}% aproveit.</span>` : ''}
+    `;
+  }
 }
 
 function syncBadge() {
@@ -2882,7 +2895,7 @@ function renderQuestion() {
   const val   = S.validated[S.idx];
   const flag  = S.flagged[S.idx];
   const ans   = S.answers[S.idx];
-  const study = S.mode === 'study';
+  const study = S.mode === 'study' || S.reviewMode;
   /* DISC em Prova não revela gabarito nem autoavaliação — mas Revisão
      (S.reviewMode) nunca deve ser tratada como Prova aqui, mesmo que
      S.mode tenha ficado com valor de uma sessão anterior (ex.: o aluno
@@ -3157,12 +3170,14 @@ function renderResult() {
     : `<div class="hl-empty">Sem categorias críticas — bom trabalho!</div>`;
 
   /* label de modo */
-  const modeLabel = S.mode === 'exam'
-    ? `<span class="review-pill" style="border-color:color-mix(in srgb, var(--blue) 35%, transparent);color:var(--blue);background:color-mix(in srgb, var(--blue) 10%, transparent)">${icon('target')} Modo Prova</span>`
-    : `<span class="review-pill" style="border-color:color-mix(in srgb, var(--green) 30%, transparent);color:var(--green);background:color-mix(in srgb, var(--green) 7%, transparent)">${icon('book-open')} Modo Treino</span>`;
+  const modeLabel = S.reviewMode
+    ? `<span class="review-pill" style="border-color:color-mix(in srgb, var(--amber) 35%, transparent);color:var(--amber);background:color-mix(in srgb, var(--amber) 10%, transparent)">${icon('repeat')} Modo Revisão</span>`
+    : S.mode === 'exam'
+      ? `<span class="review-pill" style="border-color:color-mix(in srgb, var(--blue) 35%, transparent);color:var(--blue);background:color-mix(in srgb, var(--blue) 10%, transparent)">${icon('target')} Modo Prova</span>`
+      : `<span class="review-pill" style="border-color:color-mix(in srgb, var(--green) 30%, transparent);color:var(--green);background:color-mix(in srgb, var(--green) 7%, transparent)">${icon('book-open')} Modo Treino</span>`;
 
   /* sugestões exclusivas do modo treino */
-  const trainingExtra = S.mode === 'study' ? (() => {
+  const trainingExtra = (S.mode === 'study' && !S.reviewMode) ? (() => {
     const pendingNow = getPendingReview(S.subject || 'cia').length;
     const tips = weak.slice(0, 3).map(c =>
       `<div class="suggestion-item"><span>${icon('chevron-right')}</span> Revisar <strong>${esc(c.name)}</strong> (${c.pct}% de acerto)</div>`
@@ -3762,10 +3777,37 @@ const App = {
   /* encerrar sessão respeitando o modo ativo */
   finishSession() {
     hideModal();
+    if (S.mode === 'exam' && !S.reviewMode) this.evaluateExam();
     renderResult();
   },
   finishExam()     { S.mode = 'exam';  this.finishSession(); },
   finishTraining() { S.mode = 'study'; this.finishSession(); },
+
+  /* avalia todas as respostas pendentes da Prova e grava o histórico uma única vez */
+  evaluateExam() {
+    const curQ = S.deck[S.idx];
+    if (curQ) {
+      if (curQ.type === 'gap') {
+        const inp = $('gap-input');
+        if (inp) S.answers[S.idx] = inp.value;
+      } else if (curQ.type === 'disc') {
+        const inp = $('disc-input');
+        if (inp) S.answers[S.idx] = inp.value;
+      }
+    }
+    const subj = S.subject || 'cia';
+    S.deck.forEach((q, i) => {
+      if (S.validated[i]) return;
+      if (!answerReady(q, S.answers[i])) return;
+
+      S.validated[i] = true;
+      if (q.type === 'disc') return;
+
+      const ok = isCorrectAt(i);
+      if (ok === false) addToReview(q, subj);
+      recordQuestionResult(subj, q, ok === true, historyContext(), false);
+    });
+  },
 
   /* validar credenciais e entrar */
   doLogin() {
@@ -3775,7 +3817,7 @@ const App = {
     const name = nameEl ? nameEl.value.trim() : '';
     const key  = keyEl  ? keyEl.value.trim() : '';
 
-    const canonical = CREDENTIALS[key];
+    const canonical = CREDENTIALS[key] || CREDENTIALS[key.toLowerCase()];
     if (!canonical || name.toLowerCase() !== canonical.toLowerCase()) {
       if (errEl) errEl.textContent = 'Nome ou chave incorretos.';
       if (keyEl) { keyEl.value = ''; keyEl.focus(); }
@@ -3859,6 +3901,7 @@ const App = {
     if (!revQ.length) return;
 
     stopTimer();
+    S.mode       = 'study';
     S.reviewMode = true;
     clearSave();
     S.deck       = prepareDeck(revQ);
@@ -3882,9 +3925,9 @@ const App = {
 
   /* ir para o início da matéria atual */
   goHome() {
+    saveProgress();
     stopTimer();
     S.reviewMode = false;
-    clearSave();
     S.mode = 'study';
     renderHome();
   },
@@ -3910,6 +3953,7 @@ const App = {
     try {
       if (S.validated[S.idx]) return;
       S.answers[S.idx] = i;
+      save();
       renderQuestion();
     } catch (err) {
       _diagReportError(err, 'App.pick'); /* FASE 27.1 — instrumentação temporária */
@@ -3934,6 +3978,7 @@ const App = {
   pickTF(v) {
     if (S.validated[S.idx]) return;
     S.answers[S.idx] = v;
+    save();
     renderQuestion();
   },
 
@@ -3946,6 +3991,7 @@ const App = {
     const v = value === '' ? undefined : parseInt(value, 10);
     arr[leftIdx] = Number.isNaN(v) ? undefined : v;
     S.answers[S.idx] = arr;
+    save();
     renderQuestion();
   },
 
@@ -3953,6 +3999,7 @@ const App = {
   verify() {
     if (S.validated[S.idx]) return;
     const q = S.deck[S.idx];
+    if (S.mode === 'exam' && !S.reviewMode && q.type !== 'disc') return;
     if (q.type === 'gap') {
       const inp = $('gap-input');
       if (inp) S.answers[S.idx] = inp.value;
@@ -4014,11 +4061,20 @@ const App = {
   nav(dir) {
     const next = S.idx + dir;
     if (next < 0 || next >= S.deck.length) return;
-    /* navegação é ação segura: verifica automaticamente uma resposta já dada
-       mas ainda não confirmada, antes de sair da questão. Reaproveita
-       App.verify() (que já evita dupla contagem e não inventa resposta
-       vazia). Discursiva mantém o fluxo próprio de autoavaliação. */
-    if (S.deck[S.idx].type !== 'disc') this.verify();
+    const isExam = S.mode === 'exam' && !S.reviewMode;
+    const curQ = S.deck[S.idx];
+    if (curQ.type === 'gap') {
+      const inp = $('gap-input');
+      if (inp) S.answers[S.idx] = inp.value;
+    } else if (curQ.type === 'disc') {
+      const inp = $('disc-input');
+      if (inp) S.answers[S.idx] = inp.value;
+    }
+    /* Prova: navegação não valida nem bloqueia respostas antes da entrega.
+       Treino e Revisão: verifica automaticamente para feedback imediato. */
+    if (!isExam) {
+      if (curQ.type !== 'disc') this.verify();
+    }
     S.idx      = next;
     S.entering = true;
     save();
@@ -4067,10 +4123,47 @@ const App = {
 
   /* modal de confirmação antes de finalizar — ação segura é primária */
   confirmFinish() {
+    const isExam = S.mode === 'exam' && !S.reviewMode;
+    const curQ = S.deck[S.idx];
+    if (curQ.type === 'gap') {
+      const inp = $('gap-input');
+      if (inp) S.answers[S.idx] = inp.value;
+    } else if (curQ.type === 'disc') {
+      const inp = $('disc-input');
+      if (inp) S.answers[S.idx] = inp.value;
+    }
+
+    if (isExam) {
+      let answered = 0;
+      S.deck.forEach((q, i) => {
+        if (answerReady(q, S.answers[i])) answered++;
+      });
+      const unanswered = S.deck.length - answered;
+      showModal(`
+        <h2>${icon('flag-triangle-right')} Entregar Prova?</h2>
+        <div class="modal-grid" style="grid-template-columns:repeat(2,1fr)">
+          <div class="modal-stat">
+            <span class="modal-val" style="color:var(--green)">${answered}</span>
+            <div class="modal-lbl">Respondidas</div>
+          </div>
+          <div class="modal-stat">
+            <span class="modal-val" style="color:var(--muted)">${unanswered}</span>
+            <div class="modal-lbl">Não respondidas</div>
+          </div>
+        </div>
+        ${unanswered > 0 ? `<p style="font-size:13px;color:var(--amber);margin:12px 0 0;text-align:center">${icon('triangle-alert')} Você ainda tem ${unanswered} questão(ões) sem resposta.</p>` : ''}
+        <div class="modal-btns">
+          <button class="btn-p" onclick="hideModal()">${icon('chevron-left')} Voltar à prova</button>
+          <button class="btn-d" onclick="App.finishSession()">Entregar agora</button>
+        </div>
+      `);
+      return;
+    }
+
     /* ação segura: mesmo auto-verify de nav(), reaproveitado para não
        contar como "não respondida" uma questão respondida mas não
        confirmada no momento de finalizar. Discursiva mantém autoavaliação. */
-    if (S.deck[S.idx].type !== 'disc') this.verify();
+    if (curQ.type !== 'disc') this.verify();
     const st  = stats();
     /* mesmo cálculo do percentual exibido em renderResult() (correct/total)
        — antes este modal usava correct/answered (fórmula própria de
@@ -4112,7 +4205,11 @@ const App = {
   reviewWrong() {
     const wrong = S.deck.filter((_, i) => isCorrectAt(i) === false);
     if (!wrong.length) return;
-    S.deck      = prepareDeck(wrong);
+    stopTimer();
+    S.mode       = 'study';
+    S.reviewMode = true;
+    clearSave();
+    S.deck       = prepareDeck(wrong);
     S.answers   = Array(S.deck.length).fill(undefined);
     S.validated = Array(S.deck.length).fill(false);
     S.flagged   = Array(S.deck.length).fill(false);
