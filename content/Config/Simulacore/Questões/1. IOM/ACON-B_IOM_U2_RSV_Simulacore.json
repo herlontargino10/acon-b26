@@ -1,0 +1,344 @@
+[
+  {
+    "type": "mc",
+    "question": "O que significa a sigla RSV no contexto das embarcações offshore?",
+    "category": "RSV — Conceitos gerais",
+    "options": [
+      "ROV Support Vessel",
+      "Remotely Serviced Vehicle",
+      "Remote Supply Vessel",
+      "ROV Survey Vessel"
+    ],
+    "correct": 0,
+    "explanation": "RSV significa ROV Support Vessel, conforme o material."
+  },
+  {
+    "type": "mc",
+    "question": "Quais são as principais atividades de um RSV relacionadas aos ativos submarinos?",
+    "category": "RSV — Funções",
+    "options": [
+      "Transporte de produtos químicos a granel e óleo combustível entre terminais terrestres e unidades de produção",
+      "Inspeções, instalações e manutenções de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas",
+      "Perfuração exploratória de poços marítimos em lâmina d'água rasa e completação primária de poços",
+      "Reboque de comboios oceânicos de plataformas e assentamento de âncoras torpedos por gravidade"
+    ],
+    "correct": 1,
+    "explanation": "O RSV atua em inspeções, instalações e manutenções de ativos submarinos."
+  },
+  {
+    "type": "mc",
+    "question": "Que recurso técnico pode existir nos guindastes ou guinchos de grande capacidade instalados em um RSV?",
+    "category": "RSV — Equipamentos",
+    "options": [
+      "Propulsão azimutal dedicada no moitão de carga",
+      "Alimentação direta por linhas flexíveis de gás lift",
+      "Sistema de compensação anti-heeling",
+      "Contenção primária por injeção contínua de nitrogênio"
+    ],
+    "correct": 2,
+    "explanation": "A fonte indica que os guindastes ou guinchos de grande capacidade podem ter anti-heeling."
+  },
+  {
+    "type": "mc",
+    "question": "Para quais finalidades o ROV pode ser empregado em situações de avarias, incidentes ou acidentes submarinos?",
+    "category": "RSV — ROV",
+    "options": [
+      "Transporte de passageiros e tripulantes em cabotagem costeira",
+      "Recolhimento mecânico de barreiras de contenção de óleo na superfície",
+      "Descarte contínuo de cascalhos e resíduos de perfuração no fundo do mar",
+      "Para investigação, contenção de avarias e reparos de naturezas diversas"
+    ],
+    "correct": 3,
+    "explanation": "O ROV pode ser usado para investigação, contenção de avarias e reparos de naturezas diversas."
+  },
+  {
+    "type": "mc",
+    "question": "Quais aspectos operacionais são destacados nas operações com ROV a bordo do RSV?",
+    "category": "RSV — Operações com ROV",
+    "options": [
+      "Comunicação entre tripulação e equipe de operações/ROV, POB maior, fiscalização do cliente e complexidade das operações DP",
+      "Baixa exigência de tripulantes, ausência de fiscalização a bordo e navegação convencional sem DP",
+      "Consumo de óleo combustível em manobras portuárias e cálculo de estabilidade estática intacta",
+      "Elaboração do plano de peação de cargas secas e conferência de manifestos aduaneiros"
+    ],
+    "correct": 0,
+    "explanation": "Destacam-se a comunicação tripulação-ROV, POB maior, fiscalização do cliente e complexidade de DP."
+  },
+  {
+    "type": "mc",
+    "question": "Quais sistemas e sensores permitem ao ROV operar e executar tarefas remotamente no leito marinho?",
+    "category": "RSV — ROV",
+    "options": [
+      "Radar de banda X, agulha magnética de superfície e anemômetro analógico de convés",
+      "Sistema de câmeras, PRS (sensores de referência), sonar e autonomia de controle para uso de ferramentas",
+      "Boias de deriva de superfície, cartas náuticas impressas e receptor de rádio fac-símile",
+      "Coroa de Barbotin, guinchos hidráulicos de manuseio e carretéis de armazenamento"
+    ],
+    "correct": 1,
+    "explanation": "O ROV utiliza sistema de câmeras, PRS, sonar e autonomia de controle para ferramentas."
+  },
+  {
+    "type": "mc",
+    "question": "O que é transportado pelo cabo de conexão (umbilical) do ROV a partir da embarcação?",
+    "category": "RSV — ROV",
+    "options": [
+      "Óleo cru refinado, água potável e ar comprimido medicinal",
+      "Gás metanol aquecido para limpeza química de linhas submarinas",
+      "Eletricidade, telemetria, sensores e sinais",
+      "Amarras pesadas de aço forjado para tração mecânica do veículo"
+    ],
+    "correct": 2,
+    "explanation": "O cabo transporta eletricidade, telemetria, sensores e sinais."
+  },
+  {
+    "type": "mc",
+    "question": "Quais controles operacionais diretos são atribuídos ao ROV no material?",
+    "category": "RSV — ROV",
+    "options": [
+      "Controle do DP da embarcação de apoio e do guindaste principal",
+      "Controle das válvulas de superfície da unidade de produção",
+      "Controle dos sistemas FiFi de combate a incêndio externo",
+      "Controle de lastro e propulsão"
+    ],
+    "correct": 3,
+    "explanation": "O material atribui ao ROV o controle de lastro e propulsão."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto reúne as principais funções do Tether no sistema de operação do ROV?",
+    "category": "RSV — Tether",
+    "options": [
+      "Transmitir energia elétrica, permitir controle remoto, reduzir a influência da corrente e absorver peso aliviando o cabo principal",
+      "Armazenar dutos rígidos, realizar tração de âncoras torpedos e guiar a embarcação em trânsito",
+      "Substituir o guincho do convés, inflar boias de superfície e isolar termicamente o casco",
+      "Eliminar a necessidade de propulsores no veículo submarino e aumentar o arrasto hidrodinâmico"
+    ],
+    "correct": 0,
+    "explanation": "O tether transmite energia, permite controle, reduz influência da corrente e absorve peso aliviando o cabo principal."
+  },
+  {
+    "type": "mc",
+    "question": "Por que o Tether é fundamental para a mobilidade operacional do ROV?",
+    "category": "RSV — Tether",
+    "options": [
+      "Porque transforma o veículo submarino em uma embarcação de superfície autônoma",
+      "Porque confere mobilidade fina, ideal para inspeções e intervenções subsea de precisão",
+      "Porque permite que o ROV seja lançado sem auxílio de guindaste ou guincho",
+      "Porque impede que o ROV entre em contato com a água em profundidades moderadas"
+    ],
+    "correct": 1,
+    "explanation": "O tether confere mobilidade fina, ideal para inspeção e intervenções subsea."
+  },
+  {
+    "type": "mc",
+    "question": "O que significa a sigla TMS e qual é a sua função?",
+    "category": "RSV — TMS",
+    "options": [
+      "Total Mooring System; gerencia a ancoragem da embarcação em mar aberto",
+      "Telemetry Monitoring Sensor; monitora a salinidade no fundo do mar",
+      "Tether Management System; gerencia, armazena e controla o tether",
+      "Thruster Maintenance Station; realiza a troca preventiva de propulsores"
+    ],
+    "correct": 2,
+    "explanation": "TMS significa Tether Management System, responsável por gerenciar, armazenar e controlar o tether."
+  },
+  {
+    "type": "mc",
+    "question": "Como o TMS do tipo Top-hat reduz o esforço exigido dos propulsores do ROV?",
+    "category": "RSV — TMS",
+    "options": [
+      "Aumenta a flutuabilidade positiva forçando o veículo a emergir continuamente",
+      "Elimina a transmissão de energia para que o ROV dependa de propulsão manual",
+      "Trava mecanicamente o ROV no fundo impedindo qualquer manobra desnecessária",
+      "Evita que o ROV precise tracionar e sustentar todo o peso do umbilical principal"
+    ],
+    "correct": 3,
+    "explanation": "Sem o Top-hat, o ROV teria que puxar todo o peso do umbilical principal."
+  },
+  {
+    "type": "mc",
+    "question": "Como o TMS Top-hat melhora a estabilidade operacional durante a descida e posicionamento do ROV?",
+    "category": "RSV — TMS",
+    "options": [
+      "Diminuindo a influência da correnteza submarina e a tensão excessiva sobre o veículo",
+      "Aumentando intencionalmente o arrasto hidrodinâmico no umbilical principal",
+      "Fazendo o ROV girar continuamente em torno de seu próprio eixo longitudinal",
+      "Desconectando o cabo em mar agitado para que o veículo fique à deriva"
+    ],
+    "correct": 0,
+    "explanation": "O TMS Top-hat melhora a estabilidade diminuindo a influência da corrente e a tensão excessiva."
+  },
+  {
+    "type": "mc",
+    "question": "Como o AOV (Autonomous Ocean Vehicle) se diferencia do ROV quanto à forma de operação?",
+    "category": "RSV — AOV e ROV",
+    "options": [
+      "O AOV é pilotado sempre por cabo umbilical, enquanto o ROV navega apenas por bússola",
+      "O AOV navega de forma programada ou semi-autônoma, enquanto o ROV é pilotado em tempo real",
+      "O AOV opera exclusivamente na superfície do mar, enquanto o ROV nunca desce abaixo de 10 m",
+      "Ambos operam exatamente da mesma forma, diferindo apenas na pintura externa"
+    ],
+    "correct": 1,
+    "explanation": "O AOV navega de forma programada ou semi-autônoma; o ROV é pilotado em tempo real."
+  },
+  {
+    "type": "mc",
+    "question": "Quais são as principais características técnicas do AOV apresentadas no material?",
+    "category": "RSV — AOV e ROV",
+    "options": [
+      "Usa umbilical de alta tensão, não possui baterias e executa pesados reparos mecânicos estruturais",
+      "Requer cabo de aço contínuo até a superfície e é controlado pelo timoneiro da embarcação",
+      "Não usa tether, utiliza baterias internas, possui navegação autônoma para missões pré-programadas e foco em observação",
+      "Opera exclusivamente rebocado por lancha batedora sem capacidade de imersão subaquática"
+    ],
+    "correct": 2,
+    "explanation": "O AOV não usa tether, usa baterias internas, tem navegação autônoma, missões pré-programadas e foco em observação."
+  },
+  {
+    "type": "mc",
+    "question": "No contexto de operações marítimas autônomas, o que significam as siglas USV e MASS?",
+    "category": "RSV — Embarcações autônomas",
+    "options": [
+      "USV: Underwater Safety Vessel; MASS: Marine Automated Subsea Station",
+      "USV: Universal Supply Vehicle; MASS: Maritime Anchor Support System",
+      "USV: Unmanned Sonar Vehicle; MASS: Multi-Agency Security Service",
+      "USV: Unmanned Surface Vehicle; MASS: Maritime Autonomous Surface Ships"
+    ],
+    "correct": 3,
+    "explanation": "USV significa Unmanned Surface Vehicle e MASS significa Maritime Autonomous Surface Ships."
+  },
+  {
+    "type": "mc",
+    "question": "Qual exemplo prático de operação remota com veículo subsea elétrico é citado no material?",
+    "category": "RSV — Operação remota",
+    "options": [
+      "Em março de 2025, o USV/MASS Fugro Vaquita, no Campo de Garoupa – BC, com ROVe elétrico",
+      "Em janeiro de 2020, um navio sísmico na Bacia de Santos operando AOV a diesel",
+      "Em julho de 2022, um PSV convencional no pré-sal com mergulho raso automatizado",
+      "Em novembro de 2024, um Shuttle Tanker em alto-mar realizando ancoragem por drone"
+    ],
+    "correct": 0,
+    "explanation": "A fonte cita o Fugro Vaquita em março de 2025, no Campo de Garoupa – BC, com ROVe elétrico."
+  },
+  {
+    "type": "mc",
+    "question": "Quanto tempo durou o teste operacional citado para o ROVe elétrico em Rio das Ostras?",
+    "category": "RSV — Operação remota",
+    "options": [
+      "3 semanas",
+      "9 meses",
+      "2 anos",
+      "20 dias"
+    ],
+    "correct": 1,
+    "explanation": "O teste citado para o ROVe elétrico em Rio das Ostras durou 9 meses."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a diferença fundamental entre o TMS Top-hat e o TMS Cage (gaiola) quanto à proteção física do ROV?",
+    "category": "RSV — TMS",
+    "options": [
+      "O Top-hat é blindado contra impactos, enquanto o Cage é aberto e desprovido de qualquer estrutura",
+      "Ambos oferecem exatamente o mesmo nível de proteção blindada contra colisão no leito marinho",
+      "O Top-hat não protege fisicamente o ROV, enquanto o Cage oferece proteção física por meio de uma estrutura em gaiola",
+      "O Cage protege apenas o umbilical, deixando o corpo do veículo completamente desprotegido"
+    ],
+    "correct": 2,
+    "explanation": "O Top-hat não protege o ROV; o Cage (gaiola) oferece proteção física ao veículo."
+  },
+  {
+    "type": "mc",
+    "question": "Em quais condições ambientais e profundidades cada tipo de TMS é mais indicado?",
+    "category": "RSV — TMS",
+    "options": [
+      "Top-hat: indicado para águas ultraprofundas com proteção metálica; Cage: sensível à correnteza e restrito a lâminas d'água de até 50 metros",
+      "Top-hat: possui sistema autônomo a baterias recarregáveis; Cage: depende de cabos de aço rígidos com operação restrita a portos abrigados",
+      "Top-hat: dispensa o uso de guindastes ou guinchos no lançamento; Cage: opera com flutuabilidade negativa extrema sem recolhimento mecânico",
+      "Top-hat: mais sensível em mar agitado e típico de profundidades moderadas; Cage: mais robusto, fácil de manusear e típico de águas profundas"
+    ],
+    "correct": 3,
+    "explanation": "Top-hat é mais sensível em mar agitado (profundidades moderadas); Cage é robusto (águas profundas e ultraprofundas)."
+  },
+  {
+    "type": "tf",
+    "question": "O ROV é pilotado em tempo real por meio de um cabo umbilical, enquanto o AOV opera de forma programada ou semi-autônoma sem tether.",
+    "category": "RSV — AOV e ROV",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a distinção primordial apresentada no material entre ROV e AOV."
+  },
+  {
+    "type": "tf",
+    "question": "O TMS Cage não oferece proteção física ao veículo ROV, sendo indicado apenas para águas muito rasas.",
+    "category": "RSV — TMS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O TMS Cage oferece proteção física (gaiola) e é típico de águas profundas e ultraprofundas."
+  },
+  {
+    "type": "tf",
+    "question": "Guindastes ou guinchos de grande capacidade a bordo de um RSV podem possuir sistema anti-heeling.",
+    "category": "RSV — Equipamentos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material afirma expressamente que eles podem ter anti-heeling."
+  },
+  {
+    "type": "tf",
+    "question": "O cabo de conexão do ROV transporta exclusivamente água doce pressurizada para limpeza de dutos.",
+    "category": "RSV — ROV",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O cabo transporta eletricidade, telemetria, sensores e sinais."
+  },
+  {
+    "type": "tf",
+    "question": "O teste operacional do ROVe elétrico citado em Rio das Ostras durou 9 meses.",
+    "category": "RSV — Operação remota",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O tempo de teste informado no material é de 9 meses."
+  },
+  {
+    "type": "tf",
+    "question": "Nas operações de RSV, a presença de uma equipe dedicada de ROV reduz o POB da embarcação em comparação a um navio comum.",
+    "category": "RSV — Operações com ROV",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material destaca justamente um 'POB maior' como ponto operacional característico."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: O sistema responsável por gerenciar, armazenar e controlar o tether do ROV é denominado _____ (Tether Management System).",
+    "category": "RSV — TMS",
+    "options": [],
+    "correct": "TMS",
+    "explanation": "O sistema de gerenciamento do tether é o TMS."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: O AOV navega de forma programada ou semi-autônoma, diferentemente do ROV, que é pilotado em tempo _____.",
+    "category": "RSV — AOV e ROV",
+    "options": [],
+    "correct": "real",
+    "explanation": "O ROV é pilotado em tempo real."
+  }
+]

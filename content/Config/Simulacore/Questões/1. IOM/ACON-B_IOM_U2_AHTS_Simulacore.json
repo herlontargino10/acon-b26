@@ -1,0 +1,331 @@
+[
+  {
+    "type": "mc",
+    "question": "Qual foi a origem histórica das embarcações AHTS?",
+    "category": "AHTS — Origem e evolução",
+    "options": [
+      "Embarcações para manuseio de âncoras desenvolvidas nos EUA",
+      "Navios de transporte de passageiros adaptados no Golfo do México",
+      "Rebocadores portuários convencionais da Europa Ocidental",
+      "Embarcações dedicadas exclusivamente à pesquisa oceanográfica costeira"
+    ],
+    "correct": 0,
+    "explanation": "O material indica que o AHTS começou como embarcação para manuseio de âncoras nos EUA."
+  },
+  {
+    "type": "mc",
+    "question": "Que necessidade impulsionou a evolução tecnológica dos AHTS no Mar do Norte?",
+    "category": "AHTS — Origem e evolução",
+    "options": [
+      "A exigência de transporte regular de passageiros entre unidades de produção",
+      "A necessidade de operações multitarefas em águas mais profundas, incluindo reboque e manuseio de âncoras",
+      "A conversão de cascos antigos para armazenamento flutuante de óleo cru",
+      "A eliminação de guinchos pesados para priorizar o transporte de rancho"
+    ],
+    "correct": 1,
+    "explanation": "O texto destaca operações multitarefas em águas mais profundas, incluindo reboque e manuseio."
+  },
+  {
+    "type": "mc",
+    "question": "Qual foi o primeiro AHTS lançado pela Smit-Lloyd e em que ano?",
+    "category": "AHTS — Origem e evolução",
+    "options": [
+      "O Smit-Lloyd 1, lançado em 1975",
+      "O Smit-Lloyd 20, lançado em 1965",
+      "O Smit-Lloyd 10, lançado em 1965",
+      "O Smit-Lloyd 10, lançado em 1980"
+    ],
+    "correct": 2,
+    "explanation": "A fonte identifica o Smit-Lloyd 10, lançado em 1965."
+  },
+  {
+    "type": "mc",
+    "question": "Como era a concepção do primeiro AHTS da Smit-Lloyd?",
+    "category": "AHTS — Origem e evolução",
+    "options": [
+      "Uma concepção de navio aliviador monocasco de grande porte",
+      "Uma embarcação com dedicação exclusiva a mergulho raso",
+      "Um rebocador estritamente fluvial sem capacidade oceânica",
+      "Uma concepção de embarcação offshore multipropósito"
+    ],
+    "correct": 3,
+    "explanation": "O material caracteriza a concepção como de embarcação offshore multipropósito."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é uma das principais atividades do AHTS no manuseio de âncoras?",
+    "category": "AHTS — Manuseio de âncoras",
+    "options": [
+      "Dar suporte às operações de posicionamento, manutenção e retirada de sistemas de ancoragem",
+      "Realizar a perfuração direta de poços exploratórios em lâmina rasa",
+      "Executar a inspeção visual interna de dutos por ferramentas pig",
+      "Processar e refinar óleo cru diretamente a bordo antes do transbordo"
+    ],
+    "correct": 0,
+    "explanation": "A fonte indica que a atividade principal é dar suporte a posicionamento, manutenção e retirada de sistemas de ancoragem."
+  },
+  {
+    "type": "mc",
+    "question": "Quais fatores influenciam o sucesso de uma operação de manuseio de âncora segundo o material?",
+    "category": "AHTS — Manuseio de âncoras",
+    "options": [
+      "Potência dos motores auxiliares, velocidade de cruzeiro em trânsito e número de marinheiros de quarto",
+      "Peso da âncora, tipo de solo, equipamento, profundidade e condições ambientais",
+      "Capacidade total dos paióis de mantimentos, temperatura do combustível nos tanques e calado de verão",
+      "Distância percorrida entre portos de apoio, autonomia em dias de mar e plano de contingência para docagem"
+    ],
+    "correct": 1,
+    "explanation": "O material lista peso da âncora, tipo de solo, equipamento, profundidade e condições."
+  },
+  {
+    "type": "mc",
+    "question": "O que uma operação de manuseio de âncora pode alterar diretamente na embarcação AHTS?",
+    "category": "AHTS — Estabilidade e segurança",
+    "options": [
+      "A capacidade volumétrica dos tanques de armazenamento de óleo cru",
+      "A potência nominal de projeto especificada para os motores principais",
+      "A manobrabilidade e a estabilidade da embarcação",
+      "O calado máximo de verão homologado pela autoridade marítima"
+    ],
+    "correct": 2,
+    "explanation": "O material alerta que a operação de manuseio de âncora pode alterar a manobrabilidade e a estabilidade da embarcação."
+  },
+  {
+    "type": "mc",
+    "question": "Como a atividade de manuseio de âncoras é classificada quanto à sua criticidade operacional?",
+    "category": "AHTS — Estabilidade e segurança",
+    "options": [
+      "Como faina rotineira de baixa criticidade sem histórico de sinistros",
+      "Como tarefa estritamente administrativa sem exposição de convés",
+      "Como manobra de risco moderado equivalente ao trânsito em mar calmo",
+      "Como atividade de alta criticidade, com taxas relevantes de acidentes e incidentes"
+    ],
+    "correct": 3,
+    "explanation": "A fonte classifica o manuseio de âncoras como atividade de alta criticidade, com taxas de acidentes e incidentes."
+  },
+  {
+    "type": "mc",
+    "question": "Em que componente unem-se o pendente e os cabos da cabresteira durante as operações de ancoragem?",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Numa placa triangular denominada monkey plate, triangular plate ou delta plate",
+      "Diretamente no carretel secundário do guincho de reboque",
+      "Na coroa de Barbotin através de um elo patente tipo kenter",
+      "No rolo de popa sem a utilização de placa intermediária"
+    ],
+    "correct": 0,
+    "explanation": "O material cita a união numa placa triangular denominada monkey plate, triangular plate ou delta plate."
+  },
+  {
+    "type": "mc",
+    "question": "Como os horns contribuem para a segurança operacional da embarcação AHTS?",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Aumentam a velocidade de trânsito da embarcação em mar agitado",
+      "Evitam problemas de estabilidade e reduzem o risco de emborcamento",
+      "Permitem içar cargas pesadas de convés diretamente para a unidade",
+      "Substituem os guinchos principais em manobras de tração estática"
+    ],
+    "correct": 1,
+    "explanation": "Segundo a fonte, os horns evitam problemas de estabilidade e risco de emborcamento."
+  },
+  {
+    "type": "mc",
+    "question": "Quais características de propulsão e capacidade são explicitamente citadas para o AHTS?",
+    "category": "AHTS — Características",
+    "options": [
+      "Propulsão a jato de água sem especificação de tração estática",
+      "Propulsão exclusivamente elétrica para manobras portuárias leves",
+      "Propulsão convencional e capacidade de tração estática (Bollard pull)",
+      "Propulsão por pás laterais e capacidade restrita a águas abrigadas"
+    ],
+    "correct": 2,
+    "explanation": "O material destaca a propulsão convencional e o Bollard pull."
+  },
+  {
+    "type": "mc",
+    "question": "Quais tipos de guinchos são expressamente citados na operação do AHTS?",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Guinchos de escada de portaló e guinchos de ancoragem leve",
+      "Guinchos de pesca de arrasto e guinchos de carga geral",
+      "Guinchos manuais de cabo de fibra e guinchos de convés aberto",
+      "Guinchos de trabalho/manuseio e guinchos secundários"
+    ],
+    "correct": 3,
+    "explanation": "A fonte cita guinchos de trabalho/manuseio e guinchos secundários."
+  },
+  {
+    "type": "mc",
+    "question": "Onde fica localizado o guincho de trabalho/manuseio e qual sua principal característica de capacidade?",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Fica no convés principal e possui maior capacidade de carga",
+      "Fica na praça de máquinas e tem capacidade reduzida de tração",
+      "Fica no castelo de proa e opera exclusivamente cabos sintéticos",
+      "Fica no piso inferior e destina-se apenas a amarras de pequeno diâmetro"
+    ],
+    "correct": 0,
+    "explanation": "O material afirma que o guincho de trabalho fica no convés principal e tem maior capacidade de carga."
+  },
+  {
+    "type": "mc",
+    "question": "Para que servem os paios no contexto da embarcação AHTS?",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Para acomodação e suporte vital de mergulhadores profissionais",
+      "Para o armazenamento seguro de cabos e amarras",
+      "Para segregação e inertização de produtos químicos a granel",
+      "Para estocagem de ferramentas submarinas operadas por robôs"
+    ],
+    "correct": 1,
+    "explanation": "O material afirma expressamente que os paios servem para armazenamento de cabos e amarras."
+  },
+  {
+    "type": "mc",
+    "question": "No contexto de operações simultâneas (SIMOPS), a quais atividades a operação de Pull-back aparece associada?",
+    "category": "AHTS — Operações",
+    "options": [
+      "Operações de dragagem costeira, reabastecimento de óleo em cais e docagem seca programada",
+      "Prospecção sísmica 3D, lançamento de boias meteorológicas e calibração de ecobatímetros",
+      "Turret, ROV, Estimulação, PSV, entre outras operações",
+      "Trânsito desimpedido em canais de acesso, pesagem dinâmica de cargas e inspeção sanitária"
+    ],
+    "correct": 2,
+    "explanation": "O material relaciona o Pull-back a SIMOPS envolvendo Turret, ROV, Estimulação, PSV, etc."
+  },
+  {
+    "type": "mc",
+    "question": "Quais são os principais riscos operacionais citados para o AHTS?",
+    "category": "AHTS — Riscos operacionais",
+    "options": [
+      "Superaquecimento contínuo dos motores auxiliares, falta de peças sobressalentes em trânsito e corrosão das antenas de comunicação externa",
+      "Erros de navegação por perda de sinal GPS em alto-mar, sobrecarga nos geradores de emergência e desbalanceamento de água de lastro",
+      "Dificuldades de atracação portuária em marés de sizígia, atrasos operacionais no fornecimento de rancho e avarias no sistema de ar condicionado",
+      "Desgaste de materiais/equipamentos do convés, falhas de comunicação passadiço–convés ou passadiço–plataforma, erros de avaliação e pesos suspensos"
+    ],
+    "correct": 3,
+    "explanation": "A fonte cita desgaste de equipamentos, falhas de comunicação, erros de avaliação e pesos suspensos."
+  },
+  {
+    "type": "mc",
+    "question": "Como se chama a roda de periferia côncava e dentada onde a amarra se aloja durante o movimento no guincho?",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Coroa de Barbotin",
+      "Placa triangular (monkey plate)",
+      "Tether Management System (TMS)",
+      "Tambor de fricção lisa"
+    ],
+    "correct": 0,
+    "explanation": "A roda côncava e dentada onde a amarra se aloja é a Coroa de Barbotin."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o objetivo técnico da operação de Pull-back na ancoragem de uma unidade marítima?",
+    "category": "AHTS — Operações",
+    "options": [
+      "Içar a âncora do fundo do mar para armazená-la no convés do AHTS",
+      "Aplicar tração para assentar a âncora no fundo do mar e tensionar a linha de ancoragem, mantendo a unidade na posição desejada",
+      "Aliviar completamente a tensão da linha para permitir a deriva livre da unidade",
+      "Rebocar a unidade de produção em trânsito oceânico de longa distância"
+    ],
+    "correct": 1,
+    "explanation": "O Pull-back aplica tração para assentar a âncora no fundo e tensionar a linha, mantendo a unidade na posição desejada."
+  },
+  {
+    "type": "mc",
+    "question": "Por que a realização da operação de Pull-back é considerada essencial para o sistema de ancoragem?",
+    "category": "AHTS — Operações",
+    "options": [
+      "Para dispensar a certificação periódica dos guinchos de manuseio",
+      "Para permitir a eliminação das boias de sinalização da linha",
+      "Para garantir a integridade do sistema de ancoragem e a retenção segura da unidade",
+      "Para desativar temporariamente o sistema de propulsão da embarcação"
+    ],
+    "correct": 2,
+    "explanation": "O material afirma que o Pull-back é essencial para garantir a integridade do sistema de ancoragem."
+  },
+  {
+    "type": "tf",
+    "question": "A operação de manuseio de âncoras pode alterar significativamente a manobrabilidade e a estabilidade do AHTS.",
+    "category": "AHTS — Estabilidade e segurança",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material indica expressamente que o manuseio de âncora pode afetar a manobrabilidade e a estabilidade da embarcação."
+  },
+  {
+    "type": "tf",
+    "question": "O guincho de trabalho/manuseio fica localizado na casa de máquinas e possui menor capacidade que os guinchos secundários.",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O guincho de trabalho fica no convés principal e tem maior capacidade de carga."
+  },
+  {
+    "type": "tf",
+    "question": "Os horns instalados no AHTS têm como função prevenir problemas de estabilidade e reduzir o risco de emborcamento.",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a função de segurança explicitamente atribuída aos horns no material."
+  },
+  {
+    "type": "tf",
+    "question": "Os paios do AHTS destinam-se exclusivamente ao armazenamento de mantimentos frigorificados da tripulação.",
+    "category": "AHTS — Equipamentos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Os paios no AHTS servem para o armazenamento de cabos e amarras."
+  },
+  {
+    "type": "tf",
+    "question": "Falhas de comunicação entre passadiço–convés ou passadiço–plataforma são fatores de risco operacional citados para os AHTS.",
+    "category": "AHTS — Riscos operacionais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essas falhas de comunicação constam expressamente entre os principais riscos operacionais citados."
+  },
+  {
+    "type": "tf",
+    "question": "A operação de Pull-back tem como finalidade aliviar totalmente o assentamento da âncora antes da entrada em operação da unidade.",
+    "category": "AHTS — Operações",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A finalidade é aplicar tração para assentar a âncora no fundo e tensionar a linha de ancoragem."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: A roda de periferia côncava e dentada onde a amarra se aloja durante o movimento é denominada Coroa de _____.",
+    "category": "AHTS — Equipamentos",
+    "options": [],
+    "correct": "Barbotin",
+    "explanation": "A definição corresponde à Coroa de Barbotin."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: O pendente e os cabos da cabresteira unem-se numa placa triangular denominada _____ plate (ou delta plate).",
+    "category": "AHTS — Equipamentos",
+    "options": [],
+    "correct": "monkey",
+    "explanation": "A união ocorre na monkey plate (triangular plate ou delta plate)."
+  }
+]

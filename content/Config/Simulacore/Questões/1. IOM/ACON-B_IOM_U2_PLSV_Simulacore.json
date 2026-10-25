@@ -1,0 +1,701 @@
+[
+  {
+    "type": "mc",
+    "question": "Para que serve a embarcação PLSV na infraestrutura de interligação offshore?",
+    "category": "PLSV — Conceito e função",
+    "options": [
+      "Para interligar poços produtores a plataformas de produção e transferência",
+      "Para transportar passageiros e insumos de hotelaria entre terminais",
+      "Para realizar prospecção geofísica por disparos acústicos no leito",
+      "Para efetuar o recolhimento e a dispersão química de manchas de óleo"
+    ],
+    "correct": 0,
+    "explanation": "O material indica expressamente que o PLSV serve para interligar poços a plataformas de produção e transferência."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a diferença de capacidade de vazão indicada no material entre dutos rígidos e dutos flexíveis?",
+    "category": "PLSV — Dutos rígidos e flexíveis",
+    "options": [
+      "Dutos rígidos: baixa vazão; dutos flexíveis: alta vazão",
+      "Dutos rígidos: alta vazão; dutos flexíveis: baixa vazão",
+      "Ambos possuem rigorosamente a mesma taxa de vazão e diâmetro",
+      "A vazão independe do duto e é controlada exclusivamente pelo AHTS"
+    ],
+    "correct": 1,
+    "explanation": "O material associa alta vazão aos dutos rígidos e baixa vazão aos dutos flexíveis."
+  },
+  {
+    "type": "mc",
+    "question": "Quais são as três linhas submarinas associadas aos poços de produção segundo o material?",
+    "category": "PLSV — Linhas de produção",
+    "options": [
+      "Linha de ancoragem, linha de reboque e linha de posicionamento DP",
+      "Linha de lastro, linha de combate a incêndio e linha de descarte",
+      "Linha de produção, umbilical de controle e linha anular (ou gás lift)",
+      "Flowline de ar, cabo de telecomunicações e linha de amarração rígida"
+    ],
+    "correct": 2,
+    "explanation": "As três linhas associadas aos poços são a linha de produção, o umbilical e a linha anular ou gás lift."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função operacional direta da linha de produção submarina?",
+    "category": "PLSV — Linhas de produção",
+    "options": [
+      "Injetar gás pressurizado no anular do poço para diluir o fluido",
+      "Transmitir sinais elétricos e fluido hidráulico para controle de válvulas",
+      "Sustentar mecanicamente o peso da cabeça do poço no leito marinho",
+      "Transportar os hidrocarbonetos (óleo) do poço até a Unidade Marítima (U.M.)"
+    ],
+    "correct": 3,
+    "explanation": "A linha de produção tem a função de transportar o óleo para a U.M."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função do cabo umbilical nas linhas associadas aos poços offshore?",
+    "category": "PLSV — Linhas de produção",
+    "options": [
+      "Controlar a abertura e o fechamento das válvulas do poço",
+      "Transportar a vazão principal de óleo bruto até a plataforma",
+      "Fazer a diluição química dos fluidos pesados por injeção térmica",
+      "Curvar mecanicamente o duto quando este atinge o leito do mar"
+    ],
+    "correct": 0,
+    "explanation": "A função do umbilical é controlar a abertura e o fechamento das válvulas."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função da linha anular ou gás lift associada aos poços de produção?",
+    "category": "PLSV — Linhas de produção",
+    "options": [
+      "Lançar as âncoras torpedos da cabeça do poço no fundo marinho",
+      "Fazer a diluição e alívio de peso da coluna de óleo para facilitar o escoamento",
+      "Alimentar de energia elétrica os sensores térmicos da torre de lançamento",
+      "Recolher as amarras descartadas durante fainas simultâneas"
+    ],
+    "correct": 1,
+    "explanation": "O material atribui à linha anular ou gás lift a função de fazer a diluição do óleo."
+  },
+  {
+    "type": "mc",
+    "question": "O que é a Flowline no arranjo submarino de produção?",
+    "category": "PLSV — Flowline e Riser",
+    "options": [
+      "O duto vertical que sobe da torre do PLSV até o carretel da cesta",
+      "A linha hidráulica interna de controle de emergência do Moonpool",
+      "A conexão entre o poço e a unidade marítima que se estende apoiada no fundo do mar",
+      "O cabo de tração que mantém os tensionadores alinhados na popa"
+    ],
+    "correct": 2,
+    "explanation": "A Flowline é a conexão entre o poço e a unidade marítima, apoiada no fundo do mar."
+  },
+  {
+    "type": "mc",
+    "question": "O que é o Riser e qual é a sua exigência estrutural específica descrita na fonte?",
+    "category": "PLSV — Flowline e Riser",
+    "options": [
+      "Conecta o Reel à popa do navio e tem espessura reduzida para flexionar livremente",
+      "É a esteira horizontal que transporta o duto da fábrica até o porto",
+      "É o sensor acústico instalado na base da torre para orientar o ROV",
+      "Conecta a Unidade Marítima à Flowline e possui estrutura mais reforçada devido aos esforços verticais e dinâmicos"
+    ],
+    "correct": 3,
+    "explanation": "O Riser conecta a U.M. à Flowline e possui estrutura mais reforçada devido aos esforços verticais."
+  },
+  {
+    "type": "mc",
+    "question": "O que caracteriza o método de lançamento S-Lay?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "O tubo é montado horizontalmente na embarcação e forma uma curva em 'S' até tocar o leito marinho",
+      "O tubo é montado em uma torre vertical rígida e desce em linha reta de 90°",
+      "O tubo é lançado já montado e inflado por ar flutuando na superfície",
+      "A linha é soldada no leito marinho por mergulhadores dentro de sinos"
+    ],
+    "correct": 0,
+    "explanation": "No S-Lay, o tubo é montado horizontalmente na embarcação e forma um 'S' até tocar o leito marinho."
+  },
+  {
+    "type": "mc",
+    "question": "Para quais profundidades o método S-Lay é indicado no material?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "Profundidades ultraprofundas superiores a 3500 m",
+      "Para águas rasas e médias, até aproximadamente 1500–2000 m",
+      "Lâminas d'água abissais entre 2500 e 4000 m",
+      "Lâminas d'água inferiores a 50 metros em portos abrigados"
+    ],
+    "correct": 1,
+    "explanation": "O S-Lay é indicado para águas rasas e médias, até aproximadamente 1500–2000 m."
+  },
+  {
+    "type": "mc",
+    "question": "Por que o método S-Lay apresenta severas limitações técnicas em lâminas d'água muito profundas?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "Porque o método exige que o navio navegue em velocidades acima de 20 nós",
+      "Porque os tensionadores de lagartas não conseguem operar em água salgada",
+      "Porque o peso excessivo do tubo pendurado na catenária pode romper ou flambar a linha pela ação da gravidade",
+      "Porque a soldagem horizontal perde a resistência mecânica sob luz solar direta"
+    ],
+    "correct": 2,
+    "explanation": "A limitação ocorre porque o peso do tubo pendurado pode quebrar a linha pela ação da gravidade."
+  },
+  {
+    "type": "mc",
+    "question": "Como é caracterizado o método de lançamento J-Lay?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "O duto é montado no convés horizontal e passa por dois rolos de popa paralelos",
+      "O duto é desenrolado continuamente de cestas no piso inferior sem torre",
+      "A linha é rebocada da praia até o poço flutuando sobre boias infláveis",
+      "O tubo é montado na base vertical dentro da torre de lançamento e desce diretamente para o mar"
+    ],
+    "correct": 3,
+    "explanation": "No J-Lay, o tubo é montado na base vertical dentro da torre e desce diretamente para o mar."
+  },
+  {
+    "type": "mc",
+    "question": "Para quais lâminas d'água o método J-Lay é indicado segundo o material?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "Para profundidades superiores a 2000 m (águas profundas e ultraprofundas)",
+      "Profundidades rasas de até 200 metros próximas à costa",
+      "Operações em bacias portuárias de manobra abrigada",
+      "Profundidades intermediárias restritas a no máximo 500 metros"
+    ],
+    "correct": 0,
+    "explanation": "O material indica o J-Lay para profundidades superiores a 2000 m."
+  },
+  {
+    "type": "mc",
+    "question": "O que acontece com a linha lançada pelo método J-Lay ao atingir o leito marinho?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "Ela é cravada verticalmente em linha reta perfurando as rochas",
+      "Ela curva quando toca o leito marinho, adotando a configuração suave de assentamento",
+      "Ela rompe obrigatoriamente exigindo emenda mecânica por ROV",
+      "Ela forma voltas em espiral circular sobre si mesma"
+    ],
+    "correct": 1,
+    "explanation": "O material informa textualmente que no J-Lay a linha 'curva quando toca o leito marinho'."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a velocidade média indicada no material para o processo de lançamento J-Lay?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "1,5 m/s",
+      "15 m/s",
+      "0,15 m/s",
+      "0,015 m/s"
+    ],
+    "correct": 2,
+    "explanation": "A velocidade média indicada para o J-Lay é de 0,15 m/s."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é uma característica operacional comparativa marcante do J-Lay em relação ao S-Lay?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "O método J-Lay é muito mais rápido e significativamente mais barato",
+      "O método J-Lay dispensa torre de lançamento e estações de soldagem",
+      "O método J-Lay é restrito a dutos flexíveis de pequeno diâmetro",
+      "O método J-Lay é mais lento e apresenta maior custo operacional"
+    ],
+    "correct": 3,
+    "explanation": "O material destaca que o J-Lay é mais lento e mais caro em relação ao S-Lay."
+  },
+  {
+    "type": "mc",
+    "question": "Que abertura estrutural no casco é estritamente necessária para o método J-Lay?",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "Moonpool (poço vertical através do casco da embarcação)",
+      "Rampa de popa inclinada aberta para o mar",
+      "Porta batente estanque na proa para lançamento frontal",
+      "Tanques de asa laterais abertos ao ambiente marinho"
+    ],
+    "correct": 0,
+    "explanation": "O método J-Lay necessita de Moonpool."
+  },
+  {
+    "type": "mc",
+    "question": "Como é realizado o lançamento operacional de uma linha rígida a partir do PLSV?",
+    "category": "PLSV — Linhas rígidas",
+    "options": [
+      "A embarcação permanece parada e solta o duto em queda livre desgovernada",
+      "A embarcação lança a linha e navega em baixa velocidade, mantendo-a sob tensão controlada para evitar deformidades",
+      "O navio navega em velocidade máxima com os tensionadores totalmente desativados",
+      "O duto é empurrado por guindastes para fora da borda sem medição de esforço"
+    ],
+    "correct": 1,
+    "explanation": "A embarcação lança a linha e navega em baixa velocidade mantendo a linha sob tensão para evitar deformidades."
+  },
+  {
+    "type": "mc",
+    "question": "Por que o lançamento de linha rígida exige atenção rigorosa à capacidade de propulsão do PLSV?",
+    "category": "PLSV — Linhas rígidas",
+    "options": [
+      "Porque as linhas rígidas geram campos eletromagnéticos que freiam as hélices",
+      "Porque os motores principais precisam gerar calor para aquecer os dutos",
+      "Porque há muito peso no sistema suspenso, exigindo bastante da potência contínua de propulsão",
+      "Porque a embarcação deve navegar a mais de 15 nós durante a solda"
+    ],
+    "correct": 2,
+    "explanation": "A atenção decorre de haver muito peso no sistema, exigindo bastante da potência de propulsão."
+  },
+  {
+    "type": "mc",
+    "question": "Por que o posicionamento dinâmico (DP) é crucial durante o lançamento de linha rígida?",
+    "category": "PLSV — Linhas rígidas",
+    "options": [
+      "Porque a embarcação necessita derivar livremente ao sabor das correntes para aliviar a tração mecânica do duto",
+      "Porque o sistema DP substitui as equipes de soldagem e inspeção na torre durante a descida contínua do tubo",
+      "Porque o alinhamento da embarcação controla diretamente o resfriamento térmico dos tanques de óleo diesel",
+      "Porque é indispensável manter o alinhamento e o posicionamento preciso da embarcação para evitar sobretensão e quebra da linha"
+    ],
+    "correct": 3,
+    "explanation": "É necessário manter atenção estrita ao posicionamento da embarcação durante a operação para integridade do sistema."
+  },
+  {
+    "type": "mc",
+    "question": "Como podem ser preparadas as linhas rígidas destinadas ao lançamento pelo PLSV?",
+    "category": "PLSV — Linhas rígidas",
+    "options": [
+      "Podem vir da fábrica com tamanho pré-estabelecido ou ter suas seções soldadas no convés/torre antes do lançamento",
+      "Devem ser moldadas por fundição líquida diretamente dentro do Moonpool",
+      "São exclusivamente unidas por encaixe plástico sem necessidade de solda",
+      "São cortadas no fundo do mar por robôs submarinos antes da descida"
+    ],
+    "correct": 0,
+    "explanation": "Podem vir com tamanho pré-estabelecido ou ter seções soldadas no convés para lançamento."
+  },
+  {
+    "type": "mc",
+    "question": "O que significa a sigla DCVD no contexto das operações de emergência ou desconexão do PLSV?",
+    "category": "PLSV — Procedimentos operacionais",
+    "options": [
+      "Dispositivo de Carga e Vazão de Dutos",
+      "Desconexão Vertical Direta",
+      "Descida Controlada de Válvulas Duplas",
+      "Duto Contínuo com Válvula de Dreno"
+    ],
+    "correct": 1,
+    "explanation": "DCVD significa Desconexão Vertical Direta."
+  },
+  {
+    "type": "mc",
+    "question": "Em que circunstância operacional pode ocorrer o procedimento de abandono de uma linha durante a faina do PLSV?",
+    "category": "PLSV — Procedimentos operacionais",
+    "options": [
+      "Término rotineiro do turno de serviço dos marinheiros de convés",
+      "Solicitação da unidade de produção por falta temporária de tancagem",
+      "Em situações críticas como mau tempo severo, para evitar avarias graves no sistema de lançamento e na embarcação",
+      "Interrupção programada para manobras rotineiras de troca de turno da equipe técnica"
+    ],
+    "correct": 2,
+    "explanation": "O abandono pode ocorrer em situações como mau tempo, para evitar avarias no sistema."
+  },
+  {
+    "type": "mc",
+    "question": "Como o material conceitua a operação de 'Pull in' na interligação de dutos offshore?",
+    "category": "PLSV — Procedimentos operacionais",
+    "options": [
+      "É o descarte de uma seção danificada de tubo no assoalho marinho",
+      "É o desenrolamento contínuo do duto rígido a partir do carretel de carregamento",
+      "É a desmontagem mecânica dos tensionadores de lagartas após a faina",
+      "É a transferência e tracionamento de uma extremidade de uma linha submarina para conexão em uma U.M."
+    ],
+    "correct": 3,
+    "explanation": "Pull in é a transferência de uma extremidade de uma linha para conexão em uma U.M."
+  },
+  {
+    "type": "mc",
+    "question": "Qual operação de movimentação de linha submarina é citada em conjunto direto com a manobra de 'Pull in'?",
+    "category": "PLSV — Procedimentos operacionais",
+    "options": [
+      "Pull out (operação inversa de retirada/desconexão da extremidade da linha da U.M.)",
+      "Bollard pull (teste de tração estática da embarcação)",
+      "Push back (manobra de afastamento por rebocador)",
+      "Top-hat (sistema de gaiola do tether)"
+    ],
+    "correct": 0,
+    "explanation": "A operação citada em conjunto com o Pull in é o Pull out."
+  },
+  {
+    "type": "mc",
+    "question": "Com qual tipo de embarcação de mergulho especializado o PLSV pode realizar operações simultâneas (SIMOPS)?",
+    "category": "PLSV — Operações simultâneas",
+    "options": [
+      "Com um Navio Sísmico rebocando streamers de 6 km",
+      "Com uma embarcação SDSV (Saturation Diving Support Vessel / Diving Support)",
+      "Com um graneleiro convencional em rota de cabotagem",
+      "Com um pesqueiro de arrasto de média escala"
+    ],
+    "correct": 1,
+    "explanation": "O material cita a realização de SIMOPS entre PLSV e SDSV."
+  },
+  {
+    "type": "mc",
+    "question": "Quais aspectos técnicos e de coordenação são destacados nas operações conjuntas do PLSV com ROV?",
+    "category": "PLSV — ROV e Survey",
+    "options": [
+      "Ausência de telas na ponte para evitar distração visual do DPO",
+      "Operação independente do ROV sem qualquer contato com o pessoal de survey",
+      "Comunicação clara, telas de monitoramento dedicadas e estreita interação entre a equipe técnica de survey e a equipe de ROV",
+      "Uso exclusivo de sinais manuais entre o piloto do ROV e os marinheiros de convés"
+    ],
+    "correct": 2,
+    "explanation": "Destacam-se comunicação, telas de monitoramento e interação entre a equipe técnica de survey e a de ROV."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função do carretel ou das cestas (baskets) no PLSV para manuseio de duto flexível?",
+    "category": "PLSV — Duto flexível",
+    "options": [
+      "Aquecer os dutos rígidos antes da soldagem na torre vertical",
+      "Substituir o guindaste subsea no içamento de ferramentas pesadas",
+      "Conectar o duto diretamente aos compressores de ar do convés",
+      "Armazenar linhas flexíveis a bordo e permitir a realização de testes elétricos e de pressão"
+    ],
+    "correct": 3,
+    "explanation": "Servem para armazenar linhas flexíveis e permitir testes elétricos e de pressão."
+  },
+  {
+    "type": "mc",
+    "question": "Onde geralmente ficam localizados o carretel ou as cestas de armazenamento de duto flexível no PLSV?",
+    "category": "PLSV — Duto flexível",
+    "options": [
+      "No piso inferior abaixo do convés principal (CNV principal)",
+      "Na torre de lançamento vertical acima do Moonpool",
+      "No castelo de proa ao lado do guincho de amarração",
+      "Submersos externamente na carena do casco do navio"
+    ],
+    "correct": 0,
+    "explanation": "Geralmente ficam localizados no piso inferior do convés (CNV) principal."
+  },
+  {
+    "type": "mc",
+    "question": "Onde ficam localizadas as bobinas citadas no material para o manuseio de duto flexível?",
+    "category": "PLSV — Duto flexível",
+    "options": [
+      "Suspensas pelos cabos do guindaste subsea fora de bordo",
+      "Instaladas sobre trilhos, no convés principal (CNV principal)",
+      "Armazenadas na praça de máquinas ao lado dos geradores",
+      "Apoiadas sobre o rolo de popa do guincho de reboque"
+    ],
+    "correct": 1,
+    "explanation": "O material indica que as bobinas ficam sobre trilhos, no CNV principal."
+  },
+  {
+    "type": "mc",
+    "question": "Como funciona o arranjo de Reels para lançamento de duto rígido (Reel-Lay)?",
+    "category": "PLSV — Duto rígido e Reel",
+    "options": [
+      "Há múltiplos Reels de lançamento na torre e nenhum no convés",
+      "É obrigatório o uso de dez Reels idênticos operando em paralelo",
+      "Pode haver mais de um Reel de carregamento no convés e apenas um Reel de lançamento associado à torre",
+      "Não se utiliza Reel para duto rígido sob nenhuma hipótese técnica"
+    ],
+    "correct": 2,
+    "explanation": "Pode haver mais de um Reel de carregamento e apenas um Reel de lançamento na torre."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função do Reel no sistema de dutos rígidos?",
+    "category": "PLSV — Duto rígido e Reel",
+    "options": [
+      "Injetar gás lift pressurizado nas válvulas de fundo do poço",
+      "Filtrar as impurezas sólidas do óleo recebido no offloading",
+      "Soldar as seções de tubos automaticamente no leito do mar",
+      "Armazenar e permitir o enrolamento e desenrolamento ordenado das linhas rígidas"
+    ],
+    "correct": 3,
+    "explanation": "A função do Reel no sistema de duto rígido é armazenar linhas."
+  },
+  {
+    "type": "mc",
+    "question": "Por onde é realizado o carregamento da linha rígida para o Reel a bordo do PLSV?",
+    "category": "PLSV — Duto rígido e Reel",
+    "options": [
+      "Pela popa da embarcação",
+      "Pela proa, utilizando o mangote do sistema BLS",
+      "Pelo costado de bombordo através de guindastes portuários",
+      "Diretamente pelo fundo do Moonpool durante a navegação"
+    ],
+    "correct": 0,
+    "explanation": "O carregamento do Reel de duto rígido é feito pela popa."
+  },
+  {
+    "type": "mc",
+    "question": "Que característica operacional e econômica é expressamente associada ao Reel de duto rígido no material?",
+    "category": "PLSV — Duto rígido e Reel",
+    "options": [
+      "Baixíssimo custo e processo instantâneo de montagem de linhas",
+      "Alto custo de operação, por ser um processo mais lento de carregamento e spooling",
+      "Operação sem necessidade de pessoal especializado ou de supervisão",
+      "Incompatibilidade absoluta com embarcações posicionadas por DP"
+    ],
+    "correct": 1,
+    "explanation": "O material cita 'alto custo de operação, por ser mais lento' para o Reel de duto rígido."
+  },
+  {
+    "type": "mc",
+    "question": "Para que servem os tensionadores de carregamento no sistema do PLSV?",
+    "category": "PLSV — Tensionadores",
+    "options": [
+      "Servem para inflar as boias de sinalização luminosa nas extremidades",
+      "Mantêm a câmara de saturação na pressão de trabalho especificada",
+      "Ajudam no carregamento contínuo e ordenado da linha vinda de um terminal em terra",
+      "Desconectam o mangote de offloading em caso de vento de través"
+    ],
+    "correct": 2,
+    "explanation": "Os tensionadores de carregamento ajudam no carregamento da linha vinda de um terminal."
+  },
+  {
+    "type": "mc",
+    "question": "Como são constituídos e como atuam os tensionadores de carregamento?",
+    "category": "PLSV — Tensionadores",
+    "options": [
+      "São discos de corte rotativos que removem o revestimento anticorrosivo",
+      "São ganchos pontiagudos de aço que perfuram a couraça externa do tubo",
+      "São roletes magnéticos que atraem os dutos sem contato mecânico",
+      "São constituídos por 'lagartas' (tracks ou esteiras) que pressionam o diâmetro da linha de forma uniforme durante a faina"
+    ],
+    "correct": 3,
+    "explanation": "São constituídos por lagartas ou tracks que pressionam o diâmetro da linha de forma uniforme durante o carregamento."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função do hatch de lançamento instalado na embarcação PLSV?",
+    "category": "PLSV — Hatches e estrutura",
+    "options": [
+      "Permitir a passagem e descida controlada da linha submarina para o mar",
+      "Armazenar a mistura de gases medicinais para as fainas de mergulho",
+      "Proteger o passadiço contra respingos de óleo durante o offload",
+      "Servir de pista de pouso alternativa para drones de monitoramento"
+    ],
+    "correct": 0,
+    "explanation": "A função do hatch de lançamento é permitir o lançamento da linha."
+  },
+  {
+    "type": "mc",
+    "question": "Onde fica situado o hatch de lançamento a bordo da embarcação?",
+    "category": "PLSV — Hatches e estrutura",
+    "options": [
+      "No castelo de proa, acima do paiol de amarras do navio",
+      "Próximo à torre de lançamento, variando conforme o projeto específico da embarcação",
+      "Dentro da cabine de comando do timoneiro no passadiço",
+      "Exclusivamente no bico de proa do costado de boreste"
+    ],
+    "correct": 1,
+    "explanation": "Fica próximo à torre de lançamento, dependendo do projeto da embarcação."
+  },
+  {
+    "type": "mc",
+    "question": "Para que serve o guindaste subsea/offshore instalado a bordo do PLSV?",
+    "category": "PLSV — Guindaste subsea",
+    "options": [
+      "Içamento dos botes salva-vidas durante fainas de treinamento",
+      "Conexão dos cabos de alimentação elétrica vindos do cais",
+      "Para transporte e movimentação de carga interna a bordo e/ou descida de equipamentos até o leito marinho",
+      "Reboque de plataformas semissubmersíveis em travessias oceânicas"
+    ],
+    "correct": 2,
+    "explanation": "Serve para transporte de carga interno e/ou para o leito marinho."
+  },
+  {
+    "type": "mc",
+    "question": "No contexto do guindaste subsea/offshore instalado a bordo do PLSV, como o material-fonte caracteriza a sigla AHC?",
+    "category": "PLSV — Guindaste subsea",
+    "options": [
+      "É uma certificação de arqueação bruta emitida pela autoridade marítima para transporte de passageiros",
+      "É a denominação do sistema de combate a incêndio de alta capacidade com canhões monitores",
+      "É a sigla de identificação da boia derivadora utilizada para monitorar correntes marinhas",
+      "É a característica técnica indicada expressamente no material para o guindaste subsea/offshore"
+    ],
+    "correct": 3,
+    "explanation": "No material-fonte de IOM, a sigla AHC é expressamente apresentada como a característica indicada para o guindaste subsea/offshore."
+  },
+  {
+    "type": "mc",
+    "question": "Quais fatores relacionados a erro humano e percepção operacional são destacados nas fainas do PLSV?",
+    "category": "PLSV — Fatores humanos e segurança",
+    "options": [
+      "Cálculos incorretos, erros de angulação, falhas de posicionamento seguro, percepção deficiente de risco e condições ambientais adversas",
+      "Atrito mecânico na coroa de Barbotin, corrosão em elos kenter e tensão nos cabos de amarração de proa",
+      "Atrasos na liberação de manifestos de carga pela alfândega portuária e divergências no rol de equipagem",
+      "Falhas de comunicação telefônica interna entre o refeitório e a cozinha e oscilação térmica de camarotes"
+    ],
+    "correct": 0,
+    "explanation": "O material cita cálculos, angulações, posicionamento seguro, percepção de risco e condições ambientais."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a finalidade operacional do hatch de carregamento no PLSV?",
+    "category": "PLSV — Hatches e estrutura",
+    "options": [
+      "Ejetar materiais descartados e sobras de tubos diretamente na coluna d'água oceânica durante a navegação",
+      "Permitir o armazenamento e entrada de cargas na cesta (basket) a partir do porto, por meio de uma abertura estrutural no piso",
+      "Ventilar a praça de máquinas e resfriar os mancais durante a soldagem de risers rígidos na torre vertical",
+      "Permitir a atracação interna de botes de resgate e veículos submarinos de inspeção no duplo fundo"
+    ],
+    "correct": 1,
+    "explanation": "Permite o armazenamento de cargas na cesta (basket) a partir do porto, por meio de uma abertura no piso."
+  },
+  {
+    "type": "mc",
+    "question": "Quais características operacionais e de projeto são apresentadas para o hatch de carregamento?",
+    "category": "PLSV — Hatches e estrutura",
+    "options": [
+      "Carregamento exclusivamente subaquático; capacidade fixa de 10 metros; sem carretel",
+      "Instalação restrita à proa; capacidade nula de armazenamento; carretel único obrigatório",
+      "Carregamento pela lateral ou pela popa conforme o projeto; capacidade de armazenamento variável; e possibilidade de possuir mais de um carretel",
+      "Operação somente em doca seca com uso obrigatório de gruas portuárias de 500 toneladas"
+    ],
+    "correct": 2,
+    "explanation": "Características: carregamento lateral ou popa, capacidade variável e possibilidade de mais de um carretel."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função da rampa (shooter) no hatch de carregamento do PLSV?",
+    "category": "PLSV — Hatches e estrutura",
+    "options": [
+      "Disparar arpões metálicos para ancoragem temporária do navio",
+      "Aquecer os tubos de aço por indução eletromagnética de alta potência",
+      "Injetar gás inerte nas linhas flexíveis para teste de estanqueidade",
+      "Auxiliar mecanicamente no direcionamento e sustentação durante o carregamento da linha"
+    ],
+    "correct": 3,
+    "explanation": "A função da rampa (shooter) no hatch de carregamento é auxiliar no carregamento."
+  },
+  {
+    "type": "mc",
+    "question": "Quais estações de trabalho e equipamentos concentram-se na torre de lançamento de dutos rígidos?",
+    "category": "PLSV — Torre de lançamento",
+    "options": [
+      "Estações de trabalho para soldagem, tensionadores, aligners e straighteners (alinhaadores e desempenadores)",
+      "Canhões FiFi 3, botes salva-vidas, câmaras de descompressão e compressores de mergulho",
+      "Skimmers de disco, boias derivadoras, cestas de passageiros e defensas pneumáticas",
+      "Paióis de amarras, coroas de Barbotin, guinchos de reboque e monkey plates"
+    ],
+    "correct": 0,
+    "explanation": "Na torre concentram-se estações de soldagem, tensionadores, aligners e straighteners."
+  },
+  {
+    "type": "mc",
+    "question": "As torres de lançamento de dutos do PLSV podem ter sua angulação modificada em função de qual variável?",
+    "category": "PLSV — Torre de lançamento",
+    "options": [
+      "Podem se inclinar unicamente em função da velocidade de rotação do radar",
+      "Podem se inclinar de acordo com a lâmina de água de lançamento da operação",
+      "Devem permanecer a 90° fixos e inalteráveis independentemente da profundidade",
+      "Inclinam-se apenas para escorregar cargas pesadas de convés para terra"
+    ],
+    "correct": 1,
+    "explanation": "As torres de lançamento podem se inclinar de acordo com a lâmina de água de lançamento."
+  },
+  {
+    "type": "tf",
+    "question": "A Flowline conecta o poço à unidade marítima e estende-se apoiada no fundo do mar.",
+    "category": "PLSV — Flowline e Riser",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a definição de Flowline apresentada no material."
+  },
+  {
+    "type": "tf",
+    "question": "O Riser conecta a Unidade Marítima à Flowline e possui estrutura reforçada contra esforços verticais.",
+    "category": "PLSV — Flowline e Riser",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a função e característica estrutural do Riser."
+  },
+  {
+    "type": "tf",
+    "question": "O método S-Lay é indicado para profundidades superiores a 2500 m, enquanto o J-Lay limita-se a águas muito rasas.",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O inverso é verdadeiro: S-Lay é para águas rasas e médias (até 1500-2000 m) e J-Lay para profundidades superiores a 2000 m."
+  },
+  {
+    "type": "tf",
+    "question": "O método J-Lay é operacionalmente mais lento e mais caro do que o método S-Lay.",
+    "category": "PLSV — Métodos de lançamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa comparação é expressamente indicada na fonte."
+  },
+  {
+    "type": "tf",
+    "question": "No arranjo de duto rígido, o carregamento do Reel a bordo do PLSV é realizado pela popa da embarcação.",
+    "category": "PLSV — Duto rígido e Reel",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material afirma expressamente que o carregamento do Reel é feito pela popa."
+  },
+  {
+    "type": "tf",
+    "question": "O abandono temporário de uma linha de lançamento pode ser realizado em situações de mau tempo para evitar avarias.",
+    "category": "PLSV — Procedimentos operacionais",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a condição citada para o abandono seguro de linha."
+  },
+  {
+    "type": "tf",
+    "question": "A torre de lançamento possui ângulo fixo permanente que não pode ser alterado para diferentes lâminas d'água.",
+    "category": "PLSV — Torre de lançamento",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "As torres de lançamento podem se inclinar de acordo com a lâmina de água de lançamento."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: A conexão entre o poço e a unidade marítima que se estende apoiada no fundo do mar é chamada de _____.",
+    "category": "PLSV — Flowline e Riser",
+    "options": [],
+    "correct": "Flowline",
+    "explanation": "O duto de conexão apoiado no leito é a Flowline."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: No contexto operacional do PLSV, a sigla DCVD corresponde a Desconexão Vertical _____.",
+    "category": "PLSV — Procedimentos operacionais",
+    "options": [],
+    "correct": "Direta",
+    "explanation": "DCVD significa Desconexão Vertical Direta."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: Na torre de lançamento concentram-se estações de trabalho para soldagem, tensionadores, aligners e _____ (desempenadores).",
+    "category": "PLSV — Torre de lançamento",
+    "options": [],
+    "correct": "straighteners",
+    "explanation": "Os equipamentos de desempeno são os straighteners."
+  }
+]

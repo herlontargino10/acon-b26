@@ -1,0 +1,357 @@
+[
+  {
+    "type": "mc",
+    "question": "O que significa a sigla DSV no contexto das operações de apoio offshore?",
+    "category": "DSV — Conceitos gerais",
+    "options": [
+      "Diving Support Vessel",
+      "Deep Subsea Vehicle",
+      "Dynamic Safety Vessel",
+      "Diver Service Vessel"
+    ],
+    "correct": 0,
+    "explanation": "DSV significa Diving Support Vessel, conforme o material."
+  },
+  {
+    "type": "mc",
+    "question": "Que tipos de operações de mergulho profissional podem ser apoiadas por uma embarcação DSV?",
+    "category": "DSV — Operações de mergulho",
+    "options": [
+      "Mergulho recreativo autônomo com cilindro até 18 metros",
+      "Mergulho raso ou mergulho profundo",
+      "Mergulho atmosférico rígido sem conexão por umbilical",
+      "Mergulho científico costeiro com snorkel em enseadas"
+    ],
+    "correct": 1,
+    "explanation": "A fonte indica expressamente que o DSV apoia mergulho raso ou profundo."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a faixa de comprimento típica indicada para as embarcações DSV?",
+    "category": "DSV — Características",
+    "options": [
+      "De 10 a 25 metros",
+      "De 200 a 350 metros",
+      "De 50 a 150 metros",
+      "De 400 a 550 metros"
+    ],
+    "correct": 2,
+    "explanation": "O material indica a faixa de comprimento de 50 a 150 m."
+  },
+  {
+    "type": "mc",
+    "question": "A quantas pessoas a bordo (POB) pode chegar a lotação de uma embarcação DSV?",
+    "category": "DSV — Características",
+    "options": [
+      "Limitado estritamente a 30 pessoas",
+      "Pode chegar a 800 pessoas",
+      "Restrito a 50 tripulantes no máximo",
+      "Pode chegar a 200 pessoas"
+    ],
+    "correct": 3,
+    "explanation": "A fonte informa que o POB pode chegar a 200 pessoas."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a profundidade máxima indicada no material para as operações de mergulho saturado?",
+    "category": "DSV — Mergulho saturado",
+    "options": [
+      "350 metros",
+      "50 metros",
+      "150 metros",
+      "1000 metros"
+    ],
+    "correct": 0,
+    "explanation": "A profundidade máxima indicada na fonte para o mergulho saturado é de 350 m."
+  },
+  {
+    "type": "mc",
+    "question": "Como é descrito o período de confinamento dos profissionais no mergulho saturado?",
+    "category": "DSV — Mergulho saturado",
+    "options": [
+      "8 horas diárias dentro da câmara com retorno diário aos camarotes do navio",
+      "20 dias confinados alternando entre câmara hiperbárica, sino de mergulho e mar",
+      "60 dias contínuos de permanência ininterrupta no fundo do mar sem sino",
+      "48 horas de saturação seguidas de 10 dias de descanso obrigatório no cais"
+    ],
+    "correct": 1,
+    "explanation": "O material descreve 20 dias entre câmara, sino e mar."
+  },
+  {
+    "type": "mc",
+    "question": "Quanto tempo diário é indicado no material para a preparação física e psicológica da equipe no mergulho saturado?",
+    "category": "DSV — Mergulho saturado",
+    "options": [
+      "1 hora por dia",
+      "4 horas por dia",
+      "8 horas por dia",
+      "16 horas por dia"
+    ],
+    "correct": 2,
+    "explanation": "A fonte indica 8 h por dia para a preparação física e psicológica."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto reúne as consequências e agravos à saúde citados no material para o mergulho saturado?",
+    "category": "DSV — Mergulho saturado",
+    "options": [
+      "Perda transitória de apetite, cãibras musculares leves, sonolência pós-prandial, conjuntivite e rinite alérgica",
+      "Desidratação cutânea por ar condicionado, alterações visuais reversíveis, fadiga por turno noturno e dor articular leve",
+      "Intolerância gástrica a rações de bordo, enjoo de movimento, sensibilidade auditiva a ruídos agudos e dermatite de contato",
+      "Surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e HPNS"
+    ],
+    "correct": 3,
+    "explanation": "A fonte lista surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e HPNS."
+  },
+  {
+    "type": "mc",
+    "question": "O que significa a sigla HPNS no contexto da medicina e segurança do mergulho profundo?",
+    "category": "DSV — Mergulho saturado",
+    "options": [
+      "Síndrome neurológica das altas pressões",
+      "Protocolo hiperbárico de navegação e posicionamento acústico por sonar",
+      "Protocolo hiperbárico de navegação submarina",
+      "Procedimento padronizado de recuperação do mergulhador"
+    ],
+    "correct": 0,
+    "explanation": "HPNS significa Síndrome Neurológica das Altas Pressões (High Pressure Neurological Syndrome)."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a profundidade limite indicada no material para o mergulho raso?",
+    "category": "DSV — Mergulho raso",
+    "options": [
+      "Até 10 metros",
+      "Até 50 metros",
+      "Até 150 metros",
+      "Até 350 metros"
+    ],
+    "correct": 1,
+    "explanation": "A profundidade indicada para o mergulho raso é de até 50 m."
+  },
+  {
+    "type": "mc",
+    "question": "Para que serve o sinete nas operações de mergulho?",
+    "category": "DSV — Equipamentos",
+    "options": [
+      "Para armazenar todo o umbilical reserva no piso do convés principal",
+      "Para controlar remotamente a propulsão da embarcação em aproximações",
+      "Para transporte do mergulhador até as proximidades do local de trabalho, a mais de 15 m de profundidade",
+      "Para purificar a mistura gasosa respirável por recirculação contínua"
+    ],
+    "correct": 2,
+    "explanation": "O sinete serve para transporte até as proximidades do local, a mais de 15 m."
+  },
+  {
+    "type": "mc",
+    "question": "Por que a gestão do umbilical é considerada um ponto de atenção prioritário nas operações do DSV?",
+    "category": "DSV — Umbilical e segurança",
+    "options": [
+      "Para garantir que o cabo toque o fundo e aumente o atrito estático da embarcação no leito marinho",
+      "Para desativar automaticamente o sistema DP em caso de correntes cruzadas de média intensidade",
+      "Para permitir a comunicação sem fio entre o mergulhador e o passadiço em operações profundas",
+      "Para evitar enroscamento nos propulsores, respeitar o raio seguro de trabalho e controlar massa, arrasto hidrodinâmico e tensão"
+    ],
+    "correct": 3,
+    "explanation": "O material destaca evitar enroscamento em propulsores, raio seguro de trabalho, massa, arrasto e tensão."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve ser realizado em relação à tensão do umbilical durante a faina de mergulho?",
+    "category": "DSV — Umbilical e segurança",
+    "options": [
+      "Monitoramento contínuo da tensão mecânica com alarmes previamente programados",
+      "Uma única medição estática antes do início da operação no convés",
+      "Tensionamento máximo constante sem monitoramento durante a descida",
+      "Liberação do freio do carretel permitindo folga irrestrita no cabo"
+    ],
+    "correct": 0,
+    "explanation": "Deve ser feito o monitoramento contínuo da tensão com alarmes programados."
+  },
+  {
+    "type": "mc",
+    "question": "Quais verificações críticas devem ser rigorosamente realizadas antes de iniciar a operação com o mergulhador na água?",
+    "category": "DSV — Segurança operacional",
+    "options": [
+      "Conferência da escala de refeições e pesagem individual de tripulantes",
+      "Inspeções pré-operação e ensaios de recuperação do mergulhador",
+      "Testes de velocidade máxima da embarcação em linha reta no canal",
+      "Checagem da documentação aduaneira da carga e manifestos portuários"
+    ],
+    "correct": 1,
+    "explanation": "Devem ser realizadas inspeções pré-operação e ensaios de recuperação do mergulhador."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve estar formalmente previsto e homologado para o caso de perda de posição DP durante o mergulho?",
+    "category": "DSV — DP e emergência",
+    "options": [
+      "Lançamento obrigatório das âncoras de emergência do navio em 10 segundos",
+      "Desconexão instantânea e abandono do sino com corte do umbilical",
+      "Procedimentos padronizados e treinados de recuperação de emergência do mergulhador",
+      "Continuidade da faina no fundo até o esgotamento normal da mistura de gás"
+    ],
+    "correct": 2,
+    "explanation": "Devem ser previstos procedimentos de recuperação do mergulhador em caso de perda de posição DP."
+  },
+  {
+    "type": "mc",
+    "question": "Que cuidados operacionais específicos são indicados para o gerenciamento da câmara hiperbárica?",
+    "category": "DSV — Segurança operacional",
+    "options": [
+      "Pintura interna diária e ventilação direta com ar atmosférico úmido",
+      "Manutenção da porta aberta durante a transição de profundidade",
+      "Despressurização imediata e completa a cada troca de turno da equipe",
+      "Regulagem adequada da câmara e controle rigoroso do tempo de permanência"
+    ],
+    "correct": 3,
+    "explanation": "O material indica a regulagem da câmara e o controle do tempo de permanência."
+  },
+  {
+    "type": "mc",
+    "question": "Que verificação periódica de segurança é explicitamente exigida para o bote de trabalho no DSV?",
+    "category": "DSV — Segurança operacional",
+    "options": [
+      "Conferência minuciosa e testes de rotina de funcionamento",
+      "Permanência contínua na água rebocado pela popa do DSV",
+      "Substituição anual completa do motor de popa por unidade nova",
+      "Uso exclusivo como depósito de mangotes sobressalentes"
+    ],
+    "correct": 0,
+    "explanation": "O material indica conferência e testes de rotina para o bote de trabalho."
+  },
+  {
+    "type": "mc",
+    "question": "O que pode ocorrer com o umbilical se houver perda de posição da embarcação e início de deriva (drift-off/drive-off)?",
+    "category": "DSV — DP e emergência",
+    "options": [
+      "O umbilical afrouxa e retrai-se sozinho para o interior do sino de mergulho",
+      "Podem ocorrer picos excessivos de tensão, arrasto violento do mergulhador ou ruptura do sistema de suporte de vida",
+      "A embarcação tem sua deriva interrompida automaticamente pelo peso do sino",
+      "O suprimento de gás passa a ser captado diretamente da água ao redor"
+    ],
+    "correct": 1,
+    "explanation": "Podem ocorrer picos de tensão, arrasto do mergulhador ou ruptura do sistema de suporte de vida."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a consequência potencial da perda simultânea dos sistemas de referência de posicionamento (falha de PRS)?",
+    "category": "DSV — DP e emergência",
+    "options": [
+      "Retorno imediato do navio para o bordo favorável sem intervenção humana",
+      "Estabilização automática da embarcação por gravidade estática",
+      "Passeio (deslocamento descontrolado) do navio, aumento do risco de colisão com estruturas e sobrecarga do umbilical",
+      "Diminuição da correnteza marinha local devido ao desligamento dos sensores"
+    ],
+    "correct": 2,
+    "explanation": "A perda de PRS pode provocar passeio do navio, risco de colisão com estruturas e sobrecarga do umbilical."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é o impacto operacional direto de uma falha de geração de energia ou propulsão durante a faina de mergulho?",
+    "category": "DSV — DP e emergência",
+    "options": [
+      "Aumento imediato da pressão interna da câmara de descompressão",
+      "Bloqueio permanente das linhas de gás sem possibilidade de acionamento do sino",
+      "Impossibilidade de emitir alertas de emergência aos tripulantes de convés",
+      "Redução da capacidade de manter a posição, podendo exigir a evacuação de emergência do mergulhador"
+    ],
+    "correct": 3,
+    "explanation": "Causa redução da capacidade de manter posição, podendo exigir evacuação de emergência."
+  },
+  {
+    "type": "mc",
+    "question": "Como o erro humano e as falhas de comunicação podem comprometer gravemente uma operação de mergulho com DP?",
+    "category": "DSV — Fatores humanos",
+    "options": [
+      "Decisões tardias do DPO ou falhas na coordenação com a equipe de mergulho podem atrasar a mitigação e levar a respostas inadequadas aos alarmes DP e à recuperação",
+      "Falhas na calibração de instrumentos de convés afetam apenas o preenchimento de diários de bordo, mantendo intacta a segurança operacional dos mergulhadores",
+      "Desvios na velocidade de rotação dos propulsores provocam variações sonoras no casco sem impactar os tempos de reação aos alarmes de emergência submarina",
+      "Dificuldades de entendimento linguístico entre operadores de rádio limitam-se ao tráfego portuário e não afetam procedimentos dentro do raio de segurança"
+    ],
+    "correct": 0,
+    "explanation": "Decisões tardias ou falhas de coordenação atrasam a mitigação e causam respostas inadequadas aos alarmes e à recuperação."
+  },
+  {
+    "type": "tf",
+    "question": "A profundidade indicada para operações de mergulho raso é de até 50 metros.",
+    "category": "DSV — Mergulho raso",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A fonte indica expressamente até 50 m para mergulho raso."
+  },
+  {
+    "type": "tf",
+    "question": "No mergulho saturado, o período de confinamento é de 20 dias, alternando entre câmara, sino e mar.",
+    "category": "DSV — Mergulho saturado",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material descreve esse regime de confinamento de 20 dias."
+  },
+  {
+    "type": "tf",
+    "question": "A profundidade máxima indicada no material para o mergulho saturado é de 100 metros.",
+    "category": "DSV — Mergulho saturado",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A profundidade máxima indicada é de 350 m (100 m está incorreto)."
+  },
+  {
+    "type": "tf",
+    "question": "A tensão do umbilical deve ser monitorada de forma contínua, com limites associados a alarmes programados.",
+    "category": "DSV — Umbilical e segurança",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O monitoramento contínuo da tensão com alarmes programados é um requisito explícito."
+  },
+  {
+    "type": "tf",
+    "question": "Em caso de perda de posição DP, a equipe deve dispensar ensaios e aguardar a estabilização natural do navio.",
+    "category": "DSV — DP e emergência",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Devem ser previstos e treinados procedimentos formais de recuperação de emergência do mergulhador."
+  },
+  {
+    "type": "tf",
+    "question": "HPNS é a sigla que designa a Síndrome Neurológica das Altas Pressões, um agravo à saúde citado no mergulho saturado.",
+    "category": "DSV — Mergulho saturado",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a expansão e classificação correta de HPNS constante no material."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: O dispositivo utilizado no mergulho para o transporte do mergulhador até as proximidades do local, a mais de 15 m, chama-se _____.",
+    "category": "DSV — Equipamentos",
+    "options": [],
+    "correct": "sinete",
+    "explanation": "O equipamento de transporte é denominado sinete."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: No contexto do mergulho profundo saturado, a sigla HPNS significa Síndrome Neurológica das Altas _____.",
+    "category": "DSV — Mergulho saturado",
+    "options": [],
+    "correct": "pressões",
+    "explanation": "HPNS corresponde à Síndrome Neurológica das Altas Pressões."
+  }
+]

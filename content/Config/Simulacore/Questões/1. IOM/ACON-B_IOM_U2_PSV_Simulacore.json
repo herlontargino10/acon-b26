@@ -1,0 +1,459 @@
+[
+  {
+    "type": "mc",
+    "question": "O que significa a sigla PSV no contexto das embarcações de apoio marítimo?",
+    "category": "PSV — Conceitos gerais",
+    "options": [
+      "Platform Supply Vessel",
+      "Personnel Safety Vehicle",
+      "Petroleum Service Vessel",
+      "Platform Survey Vessel"
+    ],
+    "correct": 0,
+    "explanation": "PSV significa Platform Supply Vessel, conforme o material."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a finalidade principal das embarcações PSV descrita no material?",
+    "category": "PSV — Conceitos gerais",
+    "options": [
+      "Execução de operações de combate a incêndio com sistemas FiFi 3 de alta capacidade",
+      "Transporte de materiais, suprimentos e pessoas entre a terra e as unidades offshore",
+      "Lançamento de dutos rígidos pelo método J-Lay em lâminas d'água ultraprofundas",
+      "Inspeção e intervenção submarina prioritária por meio de mergulho saturado"
+    ],
+    "correct": 1,
+    "explanation": "As embarcações PSV são utilizadas para o transporte de materiais, suprimentos e pessoas."
+  },
+  {
+    "type": "mc",
+    "question": "Como é realizada a transferência de cargas gerais em uma embarcação PSV?",
+    "category": "PSV — Carga geral",
+    "options": [
+      "Por meio de bombas de alta pressão através de mangotes de carga certificados",
+      "Por esteiras transportadoras submersas acopladas diretamente ao duplo casco",
+      "Via guindaste da unidade marítima",
+      "Através de guinchos de reboque operando cabos de fibra sintética pela popa"
+    ],
+    "correct": 2,
+    "explanation": "A transferência de carga geral é realizada via guindaste."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve ser rigorosamente conferido durante as operações com carga geral no PSV?",
+    "category": "PSV — Carga geral",
+    "options": [
+      "Os certificados de desratização e o plano de auditoria interna da empresa de navegação",
+      "O inventário de peças sobressalentes da praça de máquinas e manuais dos fabricantes",
+      "A lista de presença dos simulados de abandono e plantas gerais de arranjo do navio",
+      "As documentações e as cargas, incluindo manifestos e RTs (Requisições de Transporte)"
+    ],
+    "correct": 3,
+    "explanation": "Devem ser conferidas as documentações e as cargas, incluindo manifestos e RTs."
+  },
+  {
+    "type": "mc",
+    "question": "No vocabulário operacional do transporte de cargas offshore, como é definido o Offload?",
+    "category": "PSV — Movimentação de cargas",
+    "options": [
+      "É a carga que vai da Terra para as Unidades",
+      "É a carga que vai da Unidade para terra",
+      "São cargas transferidas diretamente entre Unidades",
+      "É a carga retida a bordo por incompatibilidade química de segregação"
+    ],
+    "correct": 0,
+    "explanation": "Offload é a carga que vai da Terra para as Unidades."
+  },
+  {
+    "type": "mc",
+    "question": "Como é definido o termo Backload nas operações de apoio marítimo?",
+    "category": "PSV — Movimentação de cargas",
+    "options": [
+      "É a carga que segue de uma base em terra para a unidade de produção",
+      "É a carga que vai da Unidade para terra",
+      "São materiais movimentados exclusivamente entre plataformas marítimas vizinhas",
+      "É o descarte controlado de resíduos líquidos diretamente no meio marinho"
+    ],
+    "correct": 1,
+    "explanation": "Backload é a carga que vai da Unidade para terra."
+  },
+  {
+    "type": "mc",
+    "question": "Como o material define a operação de Transbordo?",
+    "category": "PSV — Movimentação de cargas",
+    "options": [
+      "É a movimentação de suprimentos realizada unicamente do cais para a embarcação",
+      "É a devolução obrigatória de materiais avariados do porto para o fabricante",
+      "São cargas transferidas entre Unidades Marítimas",
+      "É a transferência de combustível entre tanques estruturais da própria embarcação"
+    ],
+    "correct": 2,
+    "explanation": "Transbordo corresponde a cargas transferidas entre Unidades."
+  },
+  {
+    "type": "mc",
+    "question": "Quem realiza e quem aprova o plano de carga do PSV, respectivamente?",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "O CMT (Comandante) realiza e o IMT (Imediato) aprova",
+      "O operador de guindaste realiza e o Chefe de Máquinas aprova",
+      "O fiscal da plataforma realiza e o DPO de serviço aprova",
+      "O IMT (Imediato) realiza e o CMT (Comandante) aprova"
+    ],
+    "correct": 3,
+    "explanation": "Segundo a fonte, o IMT realiza e o CMT aprova o plano de carga."
+  },
+  {
+    "type": "mc",
+    "question": "O que representa graficamente o plano de carga de um PSV?",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "A distribuição das cargas ao longo do convés principal",
+      "A escala de quartos de serviço da tripulação do passadiço",
+      "O traçado geométrico da rota entre a base portuária e o campo de produção",
+      "A curva de consumo de óleo combustível por milha navegada em regime de cruzeiro"
+    ],
+    "correct": 0,
+    "explanation": "O plano de carga representa a distribuição das cargas ao longo do convés principal."
+  },
+  {
+    "type": "mc",
+    "question": "O que é considerado no plano de carga em relação à fixação segura das mercadorias?",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "A profundidade de assentamento das âncoras torpedos",
+      "A peação da carga",
+      "O isolamento elétrico das linhas submarinas de gás lift",
+      "A espessura da camada de tinta antiderrapante do convés principal"
+    ],
+    "correct": 1,
+    "explanation": "O plano de carga considera a peação da carga para garantir fixação segura."
+  },
+  {
+    "type": "mc",
+    "question": "Quais documentos devem acompanhar previamente o carregamento do PSV?",
+    "category": "PSV — Documentação",
+    "options": [
+      "Plantas de arranjo geral das acomodações e certificados de arqueação bruta",
+      "Relatórios estatutários de navegabilidade emitidos pela sociedade classificadora",
+      "Cópias das documentações das cargas e da programação: Roteiro, RTs e Manifesto de Cargas",
+      "Manuais de operação do guincho de manuseio de amarras e certificados de calibração"
+    ],
+    "correct": 2,
+    "explanation": "Devem acompanhar previamente cópias das documentações e da programação: Roteiro, RTs e Manifesto."
+  },
+  {
+    "type": "mc",
+    "question": "Quais aspectos técnicos devem ser considerados na elaboração do plano de carga do PSV?",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "Potência nominal dos motores, consumo de combustível por milha, calado de projeto, velocidade de trânsito e número de camarotes disponíveis",
+      "Capacidade total dos tanques de água doce, pressão das bombas de esgoto, autonomia de víveres, regime de quartos e plano de pintura do casco",
+      "Pressão de trabalho dos compressores de ar, rotação máxima dos eixos, alcance dos radares de navegação e certificados estatutários de rádio",
+      "Estabilidade, ordem de movimentação, alcance do guindaste da U.M., localização de container frigorífico, característica da carga e facilidade de peação"
+    ],
+    "correct": 3,
+    "explanation": "O material lista estabilidade, ordem de movimentação, alcance do guindaste, container frigorífico, características e peação."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve ser verificado quanto à localização da carga no convés em relação ao guindaste da U.M.?",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "Se a localização permitirá o alcance operacional seguro do guindaste da U.M.",
+      "Se a carga ficará oculta da linha de visada do operador de guindaste",
+      "Se o peso da carga ultrapassa em três vezes a capacidade limite do guindaste",
+      "Se o guindaste poderá ser manobrado sem comunicação rádio com o convés"
+    ],
+    "correct": 0,
+    "explanation": "Deve ser verificado se a localização permitirá o alcance do guindaste da Unidade Marítima."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve ser considerado sobre as características específicas da carga durante o planejamento?",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "A coloração externa dos invólucros plásticos e logotipos comerciais",
+      "Se é carga perigosa e quais são os requisitos de segurança aplicáveis",
+      "O valor de mercado de revenda do produto químico em portos estrangeiros",
+      "A identificação de marcas de fabricantes que patrocinam a operadora offshore"
+    ],
+    "correct": 1,
+    "explanation": "O material orienta verificar se a carga é perigosa e os cuidados com a sua segurança."
+  },
+  {
+    "type": "mc",
+    "question": "Em quais tipos de carga a facilidade de peação merece atenção redobrada no plano de carga?",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "Cargas acondicionadas em caixas estanques de baixa altura",
+      "Tubos de pequeno diâmetro acondicionados em cestas metálicas",
+      "Em especial nas cargas cilíndricas e altas",
+      "Containers modulares padronizados com travas automáticas"
+    ],
+    "correct": 2,
+    "explanation": "A facilidade de peação merece atenção especial sobretudo em cargas cilíndricas e altas."
+  },
+  {
+    "type": "mc",
+    "question": "Por que determinados tanques de carga do PSV requerem cuidados e limpeza especiais entre operações sucessivas?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "Para reduzir o peso estrutural da embarcação em viagens de retorno à base",
+      "Porque o aço estrutural dos tanques necessita ser lubrificado com água doce",
+      "Para permitir a conversão temporária de tanques de granel em camarotes de passageiros",
+      "Pela possibilidade de incompatibilidade química ou contaminação entre os produtos destinados aos tanques"
+    ],
+    "correct": 3,
+    "explanation": "A exigência decorre da possibilidade de incompatibilidade entre os diferentes produtos destinados aos tanques."
+  },
+  {
+    "type": "mc",
+    "question": "Qual propriedade crítica dos produtos deve ser obrigatoriamente considerada nas operações de carga a granel?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "A toxicidade dos produtos",
+      "A condutividade térmica da embalagem",
+      "A densidade magnética sob luz solar",
+      "A coloração comercial do rótulo externo"
+    ],
+    "correct": 0,
+    "explanation": "O material indica expressamente que deve ser considerada a toxicidade dos produtos."
+  },
+  {
+    "type": "mc",
+    "question": "Qual risco operacional grave existe para redes e tanques se a carga a granel não for manuseada adequadamente?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "Risco de congelamento imediato de todas as linhas hidráulicas de governo",
+      "Risco de petrificação de redes e tanques por decantação e cura da carga",
+      "Risco de aumento espontâneo do volume de líquido acima da capacidade física do tanque",
+      "Risco de descalibração permanente das antenas de radar do passadiço"
+    ],
+    "correct": 1,
+    "explanation": "O material aponta expressamente o risco de petrificar redes e tanques."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve ser verificado nos sistemas de granel para evitar a petrificação de redes e tanques?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "A drenagem imediata de todo o óleo diesel dos tanques de consumo",
+      "O desligamento definitivo de todas as bombas elétricas de transferência",
+      "A necessidade de uso de agitadores mecânicos ou de recirculação",
+      "A pressurização contínua dos tanques com ar comprimido sem desumidificação"
+    ],
+    "correct": 2,
+    "explanation": "Deve ser verificada a necessidade de uso de agitadores."
+  },
+  {
+    "type": "mc",
+    "question": "Como são executadas as operações de transferência de carga líquida ou pastosa a granel no PSV?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "Por tambores metálicos içados individualmente pelo guindaste da unidade",
+      "Por canaletas abertas de gravidade instaladas temporariamente no convés",
+      "Através de dutos rígidos soldados entre as duas embarcações em alto-mar",
+      "Por meio de mangotes de carga certificados"
+    ],
+    "correct": 3,
+    "explanation": "As operações de transferência de granel são realizadas por mangotes de carga."
+  },
+  {
+    "type": "mc",
+    "question": "Quais requisitos fundamentais os mangotes de carga devem cumprir para operar?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "Devem ser devidamente certificados e inspecionados periodicamente",
+      "Devem possuir prazo de validade indeterminado sem testes de bancada",
+      "Podem operar com pequenos vazamentos superficiais se houver contenção no cais",
+      "Devem ser fabricados exclusivamente em borracha natural sem tramas de reforço"
+    ],
+    "correct": 0,
+    "explanation": "Os mangotes de carga devem ser certificados e inspecionados periodicamente."
+  },
+  {
+    "type": "mc",
+    "question": "Por que determinados produtos granéis exigem a utilização de mangotes exclusivos?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "Porque o compartilhamento de linhas reduz pela metade a taxa de bombeamento",
+      "Devido às exigências específicas e características de pureza ou agressividade química de cada produto",
+      "Para que o operador de guindaste consiga identificar visualmente o fluido à distância",
+      "Porque normas internacionais proíbem a lavagem interna de mangotes em alto-mar"
+    ],
+    "correct": 1,
+    "explanation": "Exigências específicas de cada produto podem requerer mangotes exclusivos para seu uso."
+  },
+  {
+    "type": "mc",
+    "question": "Que cuidado extra de segurança é citado no material para a transferência de metanol?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "Exige transferência restrita ao período diurno com utilização de bombas manuais",
+      "Demanda diluição obrigatória em água doce pressurizada antes do bombeamento",
+      "Demanda um sistema de contenção extra com gases inertes — nitrogênio",
+      "Requer aquecimento prévio a vapor na rede de transferência da embarcação"
+    ],
+    "correct": 2,
+    "explanation": "O material cita o metanol como exemplo que demanda contenção extra com gases inertes (nitrogênio)."
+  },
+  {
+    "type": "mc",
+    "question": "Qual risco ambiental relevante é citado nas operações de transferência de carga a granel?",
+    "category": "PSV — Meio ambiente",
+    "options": [
+      "Risco de acidificação das correntes oceânicas de grande profundidade",
+      "Risco de atração involuntária de espécies marinhas predadoras de grande porte",
+      "Risco de salinização das águas superficiais nas proximidades do porto",
+      "Risco de poluição ambiental marinha por vazamento ou ruptura"
+    ],
+    "correct": 3,
+    "explanation": "A fonte cita explicitamente o risco de poluição ambiental."
+  },
+  {
+    "type": "mc",
+    "question": "O que pode acontecer com o mangote de transferência em condições ambientais adversas?",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "O maior passeio da embarcação pode causar o rompimento ou a desconexão forçada do mangote",
+      "O mangote aumenta sua flexibilidade mecânica e reduz totalmente a tensão hidrodinâmica",
+      "A taxa de vazão do fluido duplica automaticamente para acelerar a conclusão da operação",
+      "O mangote desencaixa-se suavemente dos manifolds sem qualquer perda de produto químico"
+    ],
+    "correct": 0,
+    "explanation": "O maior passeio da embarcação pode causar rompimento ou desconexão forçada do mangote."
+  },
+  {
+    "type": "mc",
+    "question": "O que deve orientar a aproximação de um PSV em operações assistidas por DP?",
+    "category": "PSV — DP e aproximação",
+    "options": [
+      "Aproximar-se sempre pela proa contra o vento desconsiderando limites de excursionamento",
+      "Seguir as diretrizes de DP para aproximações e operações, priorizando o bordo favorável",
+      "Desativar os computadores de DP e realizar aproximação estritamente manual pelo timão",
+      "Aproximar-se obrigatoriamente a sotavento mesmo sob correntes cruzadas desfavoráveis"
+    ],
+    "correct": 1,
+    "explanation": "Deve-se seguir as diretrizes de DP e priorizar, sempre que possível, o bordo favorável."
+  },
+  {
+    "type": "mc",
+    "question": "Quais equipes de bordo devem ser consideradas no dimensionamento de pessoal para a operação?",
+    "category": "PSV — Segurança operacional",
+    "options": [
+      "Tripulantes da hotelaria, serviço de cozinha e pessoal administrativo de terra",
+      "Operadores terceirizados de guindaste e fiscais governamentais de alfândega",
+      "As quantidades de pessoas no convés, passadiço e praça de máquinas",
+      "Equipes de segurança patrimonial do cais e condutores de caminhão-tanque"
+    ],
+    "correct": 2,
+    "explanation": "O dimensionamento considera as equipes de convés, passadiço e máquinas."
+  },
+  {
+    "type": "mc",
+    "question": "Qual conjunto reúne os aspectos de segurança da operação destacados no material do PSV?",
+    "category": "PSV — Segurança operacional",
+    "options": [
+      "Planejamento de rotas costeiras, cálculo de consumo de água potável, manutenção de geradores e homologação do rol",
+      "Velocidade máxima de manobra, monitoramento de marés de sizígia, pesagem de provisões e calibração de agulhas magnéticas",
+      "Controle de despesas portuárias, treinamento de combate a incêndio interno, conferência de manifestos e escalas de serviço",
+      "Comunicação, posicionamento seguro, isolamento de energia, inspeção de materiais e peação, segregação de carga e SOPEP"
+    ],
+    "correct": 3,
+    "explanation": "A fonte lista comunicação, posicionamento seguro, isolamento de energia, inspeção e peação, segregação e SOPEP."
+  },
+  {
+    "type": "tf",
+    "question": "Offload é a carga que é transportada da Terra com destino às Unidades Marítimas.",
+    "category": "PSV — Movimentação de cargas",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a definição de Offload no material."
+  },
+  {
+    "type": "tf",
+    "question": "Backload é a carga transferida exclusivamente entre duas unidades offshore em alto-mar.",
+    "category": "PSV — Movimentação de cargas",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Backload é a carga que vai da Unidade para terra; carga entre unidades é transbordo."
+  },
+  {
+    "type": "tf",
+    "question": "O plano de carga do PSV é elaborado pelo IMT (Imediato) e submetido à aprovação do CMT (Comandante).",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa divisão de responsabilidades está explicitada no material."
+  },
+  {
+    "type": "tf",
+    "question": "O plano de carga limita-se à área física ocupada, desconsiderando a peação e a estabilidade da embarcação.",
+    "category": "PSV — Plano de carga",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O plano de carga deve considerar a estabilidade e a peação da carga."
+  },
+  {
+    "type": "tf",
+    "question": "Nas operações com granéis, os mangotes de carga devem ser devidamente certificados e inspecionados periodicamente.",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Esse é um requisito operacional expresso no material."
+  },
+  {
+    "type": "tf",
+    "question": "A transferência de metanol dispensa sistemas de inertização por se tratar de um produto biodegradável de baixo risco.",
+    "category": "PSV — Carga a granel",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material indica que o metanol demanda um sistema de contenção extra com gases inertes (nitrogênio)."
+  },
+  {
+    "type": "tf",
+    "question": "Na aproximação para operação, deve-se priorizar, sempre que as condições permitirem, o bordo favorável.",
+    "category": "PSV — DP e aproximação",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material orienta priorizar, sempre que possível, o bordo favorável."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: A carga movimentada da Unidade Marítima de volta para a terra é denominada _____.",
+    "category": "PSV — Movimentação de cargas",
+    "options": [],
+    "correct": "backload",
+    "explanation": "Essa carga é classificada como backload."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: Para evitar a petrificação de redes e tanques nas operações de granel, deve-se verificar a necessidade do uso de _____.",
+    "category": "PSV — Carga a granel",
+    "options": [],
+    "correct": "agitadores",
+    "explanation": "O material recomenda verificar a necessidade do uso de agitadores."
+  }
+]

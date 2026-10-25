@@ -1,0 +1,242 @@
+[
+  {
+    "type": "mc",
+    "question": "Em que velocidade típica opera o Navio Sísmico durante a aquisição de dados geofísicos?",
+    "category": "Navio Sísmico — Operação",
+    "options": [
+      "Em velocidades baixas, de 3 a 4 nós",
+      "Em alta velocidade, entre 18 e 22 nós",
+      "Em velocidade de cruzeiro de 10 a 12 nós",
+      "Completamente fundeado e imóvel"
+    ],
+    "correct": 0,
+    "explanation": "A velocidade operacional indicada no material é de 3 a 4 nós."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é uma das principais características do Navio Sísmico quanto aos cabos rebocados (streamers)?",
+    "category": "Navio Sísmico — Cabos e equipamentos",
+    "options": [
+      "Reboca cabos curtos de amarração de no máximo 50 metros",
+      "Ele realiza o reboque de cabos de até 6 km de comprimento",
+      "Não utiliza cabos externos, operando apenas com sensores no casco",
+      "Lança cabos de aço rígido de 50 km fixados no leito marinho"
+    ],
+    "correct": 1,
+    "explanation": "O Navio Sísmico realiza o reboque de cabos de 6 km de comprimento."
+  },
+  {
+    "type": "mc",
+    "question": "Como são sinalizadas e identificadas as extremidades distantes dos cabos sísmicos rebocados?",
+    "category": "Navio Sísmico — Cabos e equipamentos",
+    "options": [
+      "Por bandeiras refletivas visíveis apenas durante o dia",
+      "Por sinais sonoros contínuos de buzina de ar comprimido",
+      "Por boias dotadas de luzes de sinalização nas extremidades",
+      "Por emissão constante de fumaça colorida e sinalizadores pirotécnicos"
+    ],
+    "correct": 2,
+    "explanation": "As extremidades são identificadas por boias com luzes."
+  },
+  {
+    "type": "mc",
+    "question": "Que tipo de tecnologia e equipamentos caracterizam a operação de um Navio Sísmico?",
+    "category": "Navio Sísmico — Equipamentos",
+    "options": [
+      "Equipamentos mecânicos convencionais de tração manual de cabos",
+      "Sistemas exclusivos de dragagem de fundo para coleta de cascalho",
+      "Equipamentos de pesca de arrasto de média profundidade",
+      "Equipamentos geofísicos e computacionais de tecnologia avançada"
+    ],
+    "correct": 3,
+    "explanation": "O material destaca o uso de equipamentos de tecnologia avançada."
+  },
+  {
+    "type": "mc",
+    "question": "Que tipo de embarcação atua diretamente em apoio às operações do Navio Sísmico?",
+    "category": "Navio Sísmico — Apoio operacional",
+    "options": [
+      "Uma embarcação 'batedora' ou assistente",
+      "Um navio-tanque aliviador tipo Shuttle Tanker",
+      "Uma plataforma semissubmersível de perfuração",
+      "Um navio de lançamento de dutos tipo PLSV"
+    ],
+    "correct": 0,
+    "explanation": "A embarcação de apoio é uma embarcação 'batedora' ou assistente."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função das fontes de ar comprimido (airguns) na operação do Navio Sísmico?",
+    "category": "Navio Sísmico — Aquisição sísmica",
+    "options": [
+      "Limpar incrustações marinhas presas às hélices da embarcação assistente",
+      "Emitir ondas acústicas de baixa frequência que se propagam até o substrato marinho e retornam à superfície",
+      "Injetar oxigênio pressurizado nos sedimentos para acelerar a produção de gás",
+      "Manter a flutuabilidade positiva dos streamers em condições de mar grosso"
+    ],
+    "correct": 1,
+    "explanation": "Fontes de ar comprimido emitem ondas de baixa frequência que vão até as camadas do substrato e retornam."
+  },
+  {
+    "type": "mc",
+    "question": "Como as ondas acústicas refletidas pelas camadas geológicas são captadas na superfície?",
+    "category": "Navio Sísmico — Aquisição sísmica",
+    "options": [
+      "Por câmeras ópticas de alta resolução montadas no fundo do casco",
+      "Por antenas de radar instaladas no mastro do navio batedor",
+      "São captadas por hidrofones instalados ao longo dos cabos sísmicos rebocados",
+      "Por termômetros digitais de mercúrio suspensos na popa"
+    ],
+    "correct": 2,
+    "explanation": "As ondas são captadas por hidrofones presos aos cabos."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a sequência cronológica básica de uma aquisição sísmica marítima?",
+    "category": "Navio Sísmico — Aquisição sísmica",
+    "options": [
+      "Captação por hidrofones -> emissão de ar comprimido -> perfuração do fundo -> retorno do sinal",
+      "Processamento de imagens no radar -> descida de mergulhadores -> fixação de boias -> disparo acústico",
+      "Emissão de ondas por sonar de alta frequência -> recolhimento dos cabos -> identificação visual do óleo",
+      "Fontes de ar emitem ondas de baixa frequência -> propagação até o substrato -> reflexão e retorno -> captação por hidrofones nos cabos -> processamento de imagens"
+    ],
+    "correct": 3,
+    "explanation": "A sequência é: emissão de ondas de baixa frequência, propagação e reflexão no substrato, captação por hidrofones e geração de imagens."
+  },
+  {
+    "type": "mc",
+    "question": "Com que tipo de instrumento a operação e funcionalidade do Navio Sísmico é comparada no material?",
+    "category": "Navio Sísmico — Aquisição sísmica",
+    "options": [
+      "Com a funcionalidade de sistemas de radares e sonares",
+      "Com a operação de guindastes offshore e pontes rolantes",
+      "Com o princípio de pesagem dinâmica de balanças de convés",
+      "Com a combustão interna em motores de ciclo Diesel"
+    ],
+    "correct": 0,
+    "explanation": "A operação é comparada à funcionalidade de radares e sonares."
+  },
+  {
+    "type": "mc",
+    "question": "O que as imagens geofísicas geradas pela operação sísmica permitem aos geólogos e engenheiros identificar?",
+    "category": "Navio Sísmico — Resultados",
+    "options": [
+      "A rota exata de navegação de cardumes comerciais migratórios",
+      "Os pontos e estruturas geológicas passíveis de possuir acumulações de petróleo e gás",
+      "A velocidade instantânea de navios mercantes a 100 milhas náuticas",
+      "A espessura da camada de tinta aplicada externamente nos cascos"
+    ],
+    "correct": 1,
+    "explanation": "As imagens podem indicar os pontos passíveis de possuir reservas de petróleo e gás."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a condição de manobra do Navio Sísmico durante a aquisição de dados e reboque de cabos?",
+    "category": "Navio Sísmico — Navegação e segurança",
+    "options": [
+      "É considerada embarcação sem governo e à deriva",
+      "Possui capacidade plena e irrestrita de manobra rápida em qualquer rumo",
+      "É uma operação com a condição de embarcação de manobra restrita",
+      "É classificada como embarcação engajada em pesca costeira"
+    ],
+    "correct": 2,
+    "explanation": "O navio durante a operação sísmica encontra-se com manobra restrita."
+  },
+  {
+    "type": "mc",
+    "question": "Como é feita a comunicação prévia e formal para alertar o tráfego marítimo sobre a operação sísmica?",
+    "category": "Navio Sísmico — Navegação e segurança",
+    "options": [
+      "Sinais luminosos de lanterna emitidos da popa do navio assistente",
+      "Correio registrado enviado aos portos vizinhos antes da partida",
+      "Contato telefônico prévio com embarcações pesqueiras da região",
+      "Por meio de Aviso aos Navegantes e comunicações de rádio via VHF"
+    ],
+    "correct": 3,
+    "explanation": "A comunicação prévia formal é feita por Aviso aos Navegantes e via VHF."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função operacional da embarcação 'batedora' ou assistente durante a campanha sísmica?",
+    "category": "Navio Sísmico — Apoio operacional",
+    "options": [
+      "Fornecer assistência com suprimentos e auxiliar na segurança da navegação, comunicação e prevenção de acidentes",
+      "Disparar as fontes de ar comprimido no lugar do navio principal",
+      "Processar os dados geofísicos em computadores de bordo em tempo real",
+      "Manter o navio sísmico atrelado por cabos de reboque contínuos"
+    ],
+    "correct": 0,
+    "explanation": "A batedora fornece suprimentos e auxilia na segurança da navegação, comunicação e prevenção de acidentes."
+  },
+  {
+    "type": "tf",
+    "question": "O Navio Sísmico opera em baixa velocidade de aquisição, tipicamente de 3 a 4 nós.",
+    "category": "Navio Sísmico — Operação",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A velocidade informada no material é de 3 a 4 nós."
+  },
+  {
+    "type": "tf",
+    "question": "As extremidades dos cabos sísmicos de 6 km são identificadas por boias luminosas para segurança da navegação.",
+    "category": "Navio Sísmico — Cabos e equipamentos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "As extremidades possuem boias com luzes para identificação."
+  },
+  {
+    "type": "tf",
+    "question": "Durante o reboque de cabos, o Navio Sísmico mantém condição de manobra totalmente irrestrita e livre.",
+    "category": "Navio Sísmico — Navegação e segurança",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Trata-se de uma operação de manobra restrita devido à extensão e vulnerabilidade dos cabos."
+  },
+  {
+    "type": "tf",
+    "question": "As ondas acústicas geradas por ar comprimido são captadas por hidrofones presos ao longo dos cabos.",
+    "category": "Navio Sísmico — Aquisição sísmica",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A captação ocorre por hidrofones afixados nos cabos rebocados."
+  },
+  {
+    "type": "tf",
+    "question": "A comunicação da operação sísmica dispensa Aviso aos Navegantes por ser atividade restrita a águas territoriais.",
+    "category": "Navio Sísmico — Navegação e segurança",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A comunicação prévia formal é realizada por Aviso aos Navegantes e via rádio VHF."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: Na operação sísmica marinha, as ondas acústicas que retornam das camadas do substrato são captadas por _____ presos aos cabos.",
+    "category": "Navio Sísmico — Aquisição sísmica",
+    "options": [],
+    "correct": "hidrofones",
+    "explanation": "Os sensores que captam as ondas no meio líquido são os hidrofones."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: O Navio Sísmico opera em baixa velocidade de aquisição, mantendo tipicamente entre 3 e 4 _____ de velocidade.",
+    "category": "Navio Sísmico — Operação",
+    "options": [],
+    "correct": "nós",
+    "explanation": "A velocidade operacional situa-se entre 3 e 4 nós."
+  }
+]

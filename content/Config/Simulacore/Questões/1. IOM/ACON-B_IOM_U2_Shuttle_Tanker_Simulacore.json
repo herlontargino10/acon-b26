@@ -1,0 +1,242 @@
+[
+  {
+    "type": "mc",
+    "question": "O que é um Navio Aliviador (Shuttle Tanker) segundo a definição do material?",
+    "category": "Shuttle Tanker — Conceito e função",
+    "options": [
+      "É o navio utilizado para transportar petróleo e derivados das unidades de produção (FPSO ou FSO) até terminais",
+      "É a embarcação destinada exclusivamente ao combate a vazamentos de óleo na superfície",
+      "É o navio responsável pelo lançamento e assentamento de dutos flexíveis submarinos",
+      "É o rebocador de alta tração encarregado de manusear as âncoras torpedo das plataformas"
+    ],
+    "correct": 0,
+    "explanation": "Shuttle Tanker é o navio utilizado para transportar petróleo e derivados das FPSO ou FSO."
+  },
+  {
+    "type": "mc",
+    "question": "Qual mangote é geralmente utilizado nas operações convencionais de transferência do Navio Aliviador?",
+    "category": "Shuttle Tanker — Mangotes e transferência",
+    "options": [
+      "O mangote principal do sistema BLS instalado na proa do Shuttle",
+      "Geralmente é utilizado o mangote alternativo da U.M. (Unidade Marítima)",
+      "Um mangote rígido submarino permanentemente ancorado ao leito",
+      "O duto de injeção de gás lift da plataforma de produção"
+    ],
+    "correct": 1,
+    "explanation": "Nas operações convencionais, o material indica geralmente o mangote alternativo da U.M."
+  },
+  {
+    "type": "mc",
+    "question": "O que é o sistema BLS (Bow Loading System) presente nos Shuttle Tankers?",
+    "category": "Shuttle Tanker — Sistema BLS",
+    "options": [
+      "Sistema de lastro automatizado para compensação rápida de banda e caimento",
+      "Dispositivo de ancoragem por estacas de sucção acionado pela proa",
+      "Sistema de transferência de óleo pela proa, utilizando o mangote principal",
+      "Sistema de propulsão retrátil de emergência acoplado ao castelo de proa"
+    ],
+    "correct": 2,
+    "explanation": "BLS (Bow Loading System) é o sistema de transferência de óleo pela proa utilizando o mangote principal."
+  },
+  {
+    "type": "mc",
+    "question": "Quais equipamentos e componentes principais são necessários para a operação do sistema BLS?",
+    "category": "Shuttle Tanker — Sistema BLS",
+    "options": [
+      "Compressores de ar comprimido, hidrofones de cauda e boias luminosas",
+      "Tether Management System (TMS), umbilical de sinal e câmaras hiperbáricas",
+      "Skimmers de sucção rápida, barreiras de contenção e carretéis de descarga",
+      "Cabo de amarração, unidade hidráulica principal, guinchos, linhas e válvulas"
+    ],
+    "correct": 3,
+    "explanation": "O funcionamento do BLS requer cabo de amarração, unidade hidráulica principal, guinchos, linhas e válvulas."
+  },
+  {
+    "type": "mc",
+    "question": "Por onde e através de qual equipamento é realizada a transferência de óleo quando se utiliza o BLS?",
+    "category": "Shuttle Tanker — Sistema BLS",
+    "options": [
+      "Pela proa da embarcação, através do mangote principal",
+      "Pela popa da embarcação, através do mangote de combate a incêndio",
+      "Pelo meio-navio (costado), através dos manifolds de carga convencionais",
+      "Pelo fundo do duplo casco, através de dutos flexíveis do Moonpool"
+    ],
+    "correct": 0,
+    "explanation": "A transferência pelo BLS é realizada pela proa, através do mangote principal."
+  },
+  {
+    "type": "mc",
+    "question": "O que significa a indicação 'Green line' no painel de controle do Navio Aliviador?",
+    "category": "Shuttle Tanker — Green line e testes",
+    "options": [
+      "Indica que o navio entrou na rota de colisão de emergência com a plataforma",
+      "É a indicação visual de que cada etapa necessária após a conexão do mangote foi concluída com sucesso",
+      "Indica que os tanques de carga atingiram 98% de sua capacidade máxima",
+      "Indica que o sistema DP perdeu todos os sinais de referência por satélite"
+    ],
+    "correct": 1,
+    "explanation": "Green line é a indicação no painel de que cada etapa após a conexão do mangote foi concluída."
+  },
+  {
+    "type": "mc",
+    "question": "O que a confirmação da indicação 'Green line' no painel permite iniciar operacionalmente?",
+    "category": "Shuttle Tanker — Green line e testes",
+    "options": [
+      "Permite a desconexão imediata dos cabos de amarração de proa",
+      "Autoriza o desligamento dos motores principais e geradores auxiliares",
+      "Permite iniciar o teste de estanqueidade do mangote de transferência",
+      "Inicia o bombeamento contínuo em vazão máxima sem qualquer teste prévio"
+    ],
+    "correct": 2,
+    "explanation": "A Green line permite iniciar o teste de estanqueidade do mangote."
+  },
+  {
+    "type": "mc",
+    "question": "O que a equipe pode executar após a aprovação no teste de estanqueidade do mangote?",
+    "category": "Shuttle Tanker — Green line e testes",
+    "options": [
+      "Desconectar o mangote e retornar imediatamente ao terminal portuário",
+      "Lançar os cabos de reboque secundários para manobra de giro da unidade",
+      "Drenar todo o óleo dos tanques de lastro para o interior da plataforma",
+      "Prosseguir com a operação de offloading (transferência efetiva de óleo)"
+    ],
+    "correct": 3,
+    "explanation": "Após o teste de estanqueidade do mangote, prossegue-se com a operação de offloading."
+  },
+  {
+    "type": "mc",
+    "question": "Como opera o Navio Aliviador equipado com Posicionamento Dinâmico (DP)?",
+    "category": "Shuttle Tanker — Operação DP",
+    "options": [
+      "O navio opera de forma independente em seu posicionamento dinâmico",
+      "O navio opera obrigatoriamente rebocado por cabo contínuo por dois AHTS",
+      "O navio depende de amarras fixas no leito marinho para manter o rumo",
+      "O navio deve permanecer acoplado ao costado da plataforma por defensas rígidas"
+    ],
+    "correct": 0,
+    "explanation": "Na operação DP, o Navio Aliviador opera de forma independente."
+  },
+  {
+    "type": "mc",
+    "question": "Na operação com DP, em que condição específica o Navio Aliviador pode utilizar o mangote alternativo da U.M.?",
+    "category": "Shuttle Tanker — Operação DP",
+    "options": [
+      "Pode utilizar apenas se o mar estiver com ondas superiores a 8 metros",
+      "Pode utilizar se contar com o suporte de um rebocador auxiliar",
+      "Nunca pode utilizar o mangote alternativo sob nenhuma condição em DP",
+      "Pode utilizar somente quando os motores do Shuttle estiverem parados"
+    ],
+    "correct": 1,
+    "explanation": "O material indica que em operação DP pode usar o mangote alternativo se tiver rebocador auxiliar."
+  },
+  {
+    "type": "mc",
+    "question": "Em que situação os AHTSs podem auxiliar diretamente na conexão e desconexão dos mangotes do Shuttle Tanker?",
+    "category": "Shuttle Tanker — Apoio com AHTS",
+    "options": [
+      "Durante manobras de atracação em bacia portuária abrigada",
+      "Dias de calmaria absoluta e ausência de ondulação marítima",
+      "Em condições de mar grosso",
+      "Períodos de docagem seca e testes estáticos de manifolds"
+    ],
+    "correct": 2,
+    "explanation": "Os AHTSs podem auxiliar na conexão e desconexão dos mangotes em condições de mar grosso."
+  },
+  {
+    "type": "mc",
+    "question": "Por que embarcações AHTS podem permanecer na condição de stand by durante as fainas com o Shuttle Tanker?",
+    "category": "Shuttle Tanker — Apoio com AHTS",
+    "options": [
+      "Para fornecer energia elétrica externa aos guinchos da plataforma de produção",
+      "Para armazenar parte do óleo recebido em tanques de convés temporários",
+      "Para realizar pesquisas geológicas sísmicas nas imediações do terminal",
+      "Para garantir a segurança da operação e atuar prontamente em caso de emergência"
+    ],
+    "correct": 3,
+    "explanation": "O AHTS permanece em stand by para segurança da operação."
+  },
+  {
+    "type": "mc",
+    "question": "Segundo a terminologia do material, o que compõe a formação operacional denominada 'comboio'?",
+    "category": "Shuttle Tanker — Comboio",
+    "options": [
+      "Plataforma + Shuttle + AHTS",
+      "FPSO + PSV + Navio Sísmico",
+      "DSV + Lancha Batedora + Skimmer",
+      "PLSV + SDSV + Rebocador de Porto"
+    ],
+    "correct": 0,
+    "explanation": "O comboio citado no material é formado por: Plataforma + Shuttle + AHTS."
+  },
+  {
+    "type": "tf",
+    "question": "O sistema BLS realiza a transferência de óleo cru pela proa do Navio Aliviador através do mangote principal.",
+    "category": "Shuttle Tanker — Sistema BLS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a descrição exata do funcionamento do BLS."
+  },
+  {
+    "type": "tf",
+    "question": "A indicação 'Green line' no painel sinaliza falha nos testes e determina o cancelamento imediato da operação.",
+    "category": "Shuttle Tanker — Green line e testes",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A Green line indica que cada etapa após a conexão do mangote foi concluída com sucesso, permitindo o teste de estanqueidade."
+  },
+  {
+    "type": "tf",
+    "question": "Em operações com DP, o Shuttle Tanker tem capacidade de operar mantendo seu posicionamento de forma independente.",
+    "category": "Shuttle Tanker — Operação DP",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material afirma que na operação DP o navio opera de forma independente."
+  },
+  {
+    "type": "tf",
+    "question": "O auxílio de AHTSs para conexão e desconexão de mangotes é expressamente citado para condições de mar grosso.",
+    "category": "Shuttle Tanker — Apoio com AHTS",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa condição de mar grosso é explicitamente destacada no material."
+  },
+  {
+    "type": "tf",
+    "question": "O 'comboio' citado no material operacional é composto exclusivamente por rebocadores portuários sem a presença do Shuttle.",
+    "category": "Shuttle Tanker — Comboio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O comboio é composto por Plataforma + Shuttle + AHTS."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: O sistema de carregamento de petróleo pela proa utilizado em navios aliviadores é denominado BLS (Bow _____ System).",
+    "category": "Shuttle Tanker — Sistema BLS",
+    "options": [],
+    "correct": "Loading",
+    "explanation": "BLS significa Bow Loading System."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: A composição operacional formada por Plataforma + Shuttle + AHTS é denominada no material como um _____.",
+    "category": "Shuttle Tanker — Comboio",
+    "options": [],
+    "correct": "comboio",
+    "explanation": "Essa formação conjunta é definida como comboio."
+  }
+]

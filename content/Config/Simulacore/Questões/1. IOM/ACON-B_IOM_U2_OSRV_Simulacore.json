@@ -1,0 +1,409 @@
+[
+  {
+    "type": "mc",
+    "question": "Qual é a principal finalidade das embarcações OSRV nas operações marítimas?",
+    "category": "OSRV — Finalidade",
+    "options": [
+      "Atuar na resposta a derramamentos de óleo e em situações de emergência",
+      "Transportar passageiros e tripulantes em rotas regulares de cabotagem",
+      "Executar o assentamento de dutos submarinos pelo método S-Lay",
+      "Realizar a prospecção geofísica de bacias sedimentares por cabos sísmicos"
+    ],
+    "correct": 0,
+    "explanation": "A finalidade principal do OSRV é a resposta a derramamentos de óleo e emergências."
+  },
+  {
+    "type": "mc",
+    "question": "Qual sequência representa as principais etapas de uma operação de derramamento de óleo com OSRV?",
+    "category": "OSRV — Etapas da operação",
+    "options": [
+      "Remoção com skimmer, armazenamento, queima em alto-mar e dispersão sem confinamento",
+      "Identificação, definição do tipo de óleo, confinamento com barreira, remoção com skimmer/equipamento e armazenamento em tanque",
+      "Lançamento de barreiras, atracação em porto, identificação e bombeamento para terra",
+      "Definição do óleo, descarte por gravidade, confinamento e recolhimento com redes"
+    ],
+    "correct": 1,
+    "explanation": "A sequência apresentada é: identificação, definição do óleo, confinamento com barreira, remoção com skimmer e armazenamento."
+  },
+  {
+    "type": "mc",
+    "question": "Como as barreiras de contenção podem ser lançadas pelo OSRV?",
+    "category": "OSRV — Barreiras",
+    "options": [
+      "Lançamento por via aérea através de helicópteros especializados de resgate",
+      "Gravidade a partir do castelo de proa durante marcha a ré em alta velocidade",
+      "Com ou sem embarcação de apoio, usando guincho de popa, guindaste ou lançamento manual",
+      "Fixação de estacas de aço rígidas no leito marinho antes do estiramento"
+    ],
+    "correct": 2,
+    "explanation": "A barreira pode ser lançada com ou sem apoio, usando guincho de popa, guindaste ou manualmente."
+  },
+  {
+    "type": "mc",
+    "question": "Qual deve ser o regime de navegação do OSRV durante o lançamento da barreira de contenção?",
+    "category": "OSRV — Barreiras",
+    "options": [
+      "Deve manter velocidade máxima de cruzeiro para esticar a barreira",
+      "Deve permanecer completamente fundeado com motores desligados",
+      "Deve realizar curvas fechadas contínuas para formar espirais na água",
+      "Deve navegar devagar enquanto realiza o lançamento"
+    ],
+    "correct": 3,
+    "explanation": "O material orienta navegar devagar durante o lançamento da barreira."
+  },
+  {
+    "type": "mc",
+    "question": "Por que uma mancha de óleo na superfície do mar pode ser detectada por sistemas de radar?",
+    "category": "OSRV — Detecção",
+    "options": [
+      "Porque o óleo amortece as ondas do mar, criando áreas mais escuras ou padrões específicos detectáveis",
+      "Porque o óleo emite radiofrequência eletromagnética na mesma faixa dos transponders",
+      "Porque o óleo refrata os sinais acústicos do sonar diretamente para a antena do radar",
+      "Porque a mancha de óleo atrai partículas metálicas em suspensão no oceano"
+    ],
+    "correct": 0,
+    "explanation": "O óleo amortece as ondas superficiais, gerando áreas mais escuras ou padrões específicos no radar."
+  },
+  {
+    "type": "mc",
+    "question": "Como ocorre a integração dos sistemas de detecção de manchas de óleo a bordo do OSRV?",
+    "category": "OSRV — Detecção",
+    "options": [
+      "Os sinais visuais substituem permanentemente os dados de satélite e posicionamento DP",
+      "Os dados do radar, infravermelho e câmeras são cruzados para auxiliar o posicionamento da embarcação",
+      "As imagens térmicas são processadas exclusivamente pelo fiscal do porto em terra",
+      "Os dados acústicos do sonar cancelam os ecos do radar para evitar sobreposição"
+    ],
+    "correct": 1,
+    "explanation": "Os dados de radar, infravermelho e câmeras são cruzados para auxiliar o posicionamento da embarcação."
+  },
+  {
+    "type": "mc",
+    "question": "Quais sistemas de monitoramento são citados no material como exemplos de tecnologia integrada de detecção de óleo?",
+    "category": "OSRV — Detecção",
+    "options": [
+      "Top-hat Management e Cage Protection System",
+      "Bow Loading System (BLS) e Green Line Display",
+      "Miros Oil Spill Detection e Furuno Oil Radar",
+      "AOV Autonomous Navigator e ROVe Tracker"
+    ],
+    "correct": 2,
+    "explanation": "Os sistemas citados são Miros Oil Spill Detection e Furuno Oil Radar."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função dos sistemas de detecção integrados no controle do posicionamento da embarcação OSRV?",
+    "category": "OSRV — Detecção",
+    "options": [
+      "Determinar o plano de queima e incineração de resíduos sólidos no convés",
+      "Regular a rotação dos guindastes para descarga de carga geral em portos",
+      "Controlar o consumo de óleo diesel marítimo da praça de máquinas",
+      "Guiar automaticamente o posicionamento da embarcação em relação à mancha de óleo"
+    ],
+    "correct": 3,
+    "explanation": "A função é guiar automaticamente o posicionamento da embarcação em relação à mancha."
+  },
+  {
+    "type": "mc",
+    "question": "Quais características essenciais de segurança física e operacional são apresentadas para os OSRV?",
+    "category": "OSRV — Segurança",
+    "options": [
+      "Prontidão para respostas à emergência e sistemas blindados para evitar a produção de faíscas",
+      "Construção inteiramente em madeira naval com motores desprovidos de exaustão",
+      "Uso de compressores de ar de alta pressão sem válvulas de alívio no convés",
+      "Isolamento acústico total que impeça o acionamento de alarmes audíveis"
+    ],
+    "correct": 0,
+    "explanation": "O material destaca prontidão para emergência e sistemas blindados contra centelhas/faíscas."
+  },
+  {
+    "type": "mc",
+    "question": "Quais classes de combate a incêndio externo (FiFi) são apresentadas no material?",
+    "category": "FiFi — Classes",
+    "options": [
+      "Classes A, B e C",
+      "Classes 1, 2 e 3",
+      "Classes Leve, Média e Pesada",
+      "Classes Alfa, Beta e Gama"
+    ],
+    "correct": 1,
+    "explanation": "As classes apresentadas no material são FiFi 1, 2 e 3."
+  },
+  {
+    "type": "mc",
+    "question": "Como é caracterizada a capacidade e a operação de um sistema FiFi Classe 1?",
+    "category": "FiFi — Classe 1",
+    "options": [
+      "Sistema de combate de máxima capacidade com automação total e redundância quádrupla",
+      "Sistema com canhões submersos voltados unicamente para proteção do casco abaixo da linha d'água",
+      "Sistema básico de combate externo, proteção limitada, operação manual ou semiautomática e espuma de baixa expansão",
+      "Sistema de alta capacidade com autonomia prolongada de mais de 30 dias contínuos"
+    ],
+    "correct": 2,
+    "explanation": "FiFi 1 tem sistema básico de combate externo, proteção limitada, operação manual/semiautomática e espuma de baixa expansão."
+  },
+  {
+    "type": "mc",
+    "question": "Para que tipo de ocorrência e em quais locais a embarcação FiFi Classe 1 é prioritariamente indicada?",
+    "category": "FiFi — Classe 1",
+    "options": [
+      "Para grandes sinistros em refinarias oceânicas e plataformas de alto risco",
+      "Para emergências com hidrocarbonetos em poços submarinos de gás sob alta pressão",
+      "Para proteção exclusiva de comboios de embarcações nucleares em alto-mar",
+      "Para incêndios menores, sendo indicada principalmente para terminais portuários"
+    ],
+    "correct": 3,
+    "explanation": "A FiFi 1 é voltada a incêndios menores e aplicável em terminais portuários."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a característica da função FiFi em uma embarcação classificada como Classe 1?",
+    "category": "FiFi — Classe 1",
+    "options": [
+      "A função FiFi é secundária na embarcação",
+      "A função FiFi é exclusiva e a embarcação não pode realizar nenhuma outra tarefa",
+      "A função FiFi é primária e substitui os propulsores principais em caso de manobra",
+      "A função FiFi é desativada sempre que a embarcação estiver fora do porto"
+    ],
+    "correct": 0,
+    "explanation": "Na Classe 1, a função FiFi é secundária."
+  },
+  {
+    "type": "mc",
+    "question": "Como é caracterizada a operação e os equipamentos de um sistema FiFi Classe 2?",
+    "category": "FiFi — Classe 2",
+    "options": [
+      "Sistema manual simplificado com mangueiras de lona e alcance restrito a 10 metros",
+      "Sistema avançado de combate externo, maior capacidade operacional e operação automática ou semiautomática",
+      "Sistema que opera apenas com água salgada pura sem possibilidade de dosagem de espuma",
+      "Sistema com bombas portáteis a gasolina instaladas temporariamente na proa"
+    ],
+    "correct": 1,
+    "explanation": "FiFi 2 tem sistema avançado, maior capacidade operacional e operação automática ou semiautomática."
+  },
+  {
+    "type": "mc",
+    "question": "Que tipo de espuma é empregada no combate a incêndio por embarcações FiFi Classe 2?",
+    "category": "FiFi — Classe 2",
+    "options": [
+      "Espuma de alta expansão de volume restrito",
+      "Pó químico seco pressurizado exclusivamente",
+      "Espuma de baixa expansão de maior capacidade",
+      "Gás carbônico refrigerado em estado sólido"
+    ],
+    "correct": 2,
+    "explanation": "A fonte indica espuma de baixa expansão de maior capacidade para FiFi 2."
+  },
+  {
+    "type": "mc",
+    "question": "Para que porte de sinistros e em quais instalações a FiFi Classe 2 é considerada aplicável?",
+    "category": "FiFi — Classe 2",
+    "options": [
+      "Incêndios de pequeno porte restritos a embarcações de pesca costeira em baías abrigadas",
+      "Contenção de derramamentos de lama bentonítica em áreas portuárias terrestres de apoio",
+      "Resfriamento térmico de píeres fluviais de madeira sem risco de propagação a navios",
+      "Para incêndios de médio e grande porte, aplicável a plataformas offshore, FPSOs e terminais marítimos"
+    ],
+    "correct": 3,
+    "explanation": "FiFi 2 aplica-se a incêndios de médio e grande porte em plataformas, FPSOs e terminais marítimos."
+  },
+  {
+    "type": "mc",
+    "question": "Como se configura a função operacional do combate a incêndio em uma embarcação Classe 2?",
+    "category": "FiFi — Classe 2",
+    "options": [
+      "Pode ser função principal ou de apoio especializado em FiFi",
+      "É estritamente secundária e limitada a apoio após o encerramento do fogo",
+      "É terceirizada para lanchas de praticagem portuária sem tripulação dedicada",
+      "Fica restrita ao teste anual de canhões durante a docagem seca"
+    ],
+    "correct": 0,
+    "explanation": "Na Classe 2, pode ser função principal ou de apoio especializado em FiFi."
+  },
+  {
+    "type": "mc",
+    "question": "Como é definida a operação de uma embarcação dotada de sistema FiFi Classe 3?",
+    "category": "FiFi — Classe 3",
+    "options": [
+      "Opera com acionamento unicamente mecânico manual por alavancas de convés",
+      "Possui sistema de combate de máxima capacidade, alta redundância e operação totalmente automatizada com sistemas redundantes",
+      "Utiliza monitores móveis sem redundância de bombas de combate a incêndio",
+      "Depende de geração de vapor para pressurizar linhas de combate externas"
+    ],
+    "correct": 1,
+    "explanation": "FiFi 3 tem máxima capacidade, alta redundância e operação totalmente automatizada com sistemas redundantes."
+  },
+  {
+    "type": "mc",
+    "question": "Que característica diferencia o agente extintor e a autonomia de um sistema FiFi Classe 3?",
+    "category": "FiFi — Classe 3",
+    "options": [
+      "Usa água doce desmineralizada com autonomia limitada a 15 minutos",
+      "Não utiliza espuma em nenhuma hipótese, operando somente por vapor d'água",
+      "Utiliza espuma de baixa expansão de alta capacidade e possui autonomia prolongada",
+      "Opera exclusivamente com neblina d'água de baixa pressão sem alcance vertical"
+    ],
+    "correct": 2,
+    "explanation": "FiFi 3 utiliza espuma de baixa expansão de alta capacidade e autonomia prolongada."
+  },
+  {
+    "type": "mc",
+    "question": "Em que tipo de cenários a FiFi Classe 3 é apresentada como a solução de resposta indicada?",
+    "category": "FiFi — Classe 3",
+    "options": [
+      "Incêndios de lixo doméstico em atracadouros de pequenos botes",
+      "Fogo em vegetação costeira na linha de praia próxima a portos",
+      "Superaquecimento isolado de rolamentos em guinchos de ancoragem",
+      "Incêndios de grande porte e elevada complexidade em instalações de alto risco"
+    ],
+    "correct": 3,
+    "explanation": "FiFi 3 é voltada a incêndios de grande porte e elevada complexidade."
+  },
+  {
+    "type": "mc",
+    "question": "Quais instalações são listadas no material como alvos de proteção de uma embarcação FiFi Classe 3?",
+    "category": "FiFi — Classe 3",
+    "options": [
+      "Grandes plataformas offshore, FPSOs, terminais de petróleo e instalações de alto risco",
+      "Pequenos trapiches de pesca artesanal e estaleiros fluviais de reparo de canoas",
+      "Pontões flutuantes de atracação de hidroaviões e píeres recreativos de lazer",
+      "Dutos terrestres enterrados e estações de bombeamento fora da faixa litorânea"
+    ],
+    "correct": 0,
+    "explanation": "Aplica-se a grandes plataformas, FPSOs, terminais de petróleo e instalações de alto risco."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função primordial e dedicação operacional das embarcações FiFi Classe 3?",
+    "category": "FiFi — Classe 3",
+    "options": [
+      "São navios de apoio a mergulho raso que operam canhões apenas em emergências internas",
+      "São embarcações dedicadas ao combate a incêndio, com elevada capacidade de resposta",
+      "São cargueiros de suprimentos de convés que carregam monitores móveis soltos",
+      "São rebocadores de porto que executam prioritariamente manobras de atracação"
+    ],
+    "correct": 1,
+    "explanation": "São embarcações dedicadas ao combate a incêndio, com elevada capacidade de resposta."
+  },
+  {
+    "type": "mc",
+    "question": "O que são os skimmers e qual é sua função técnica nas operações de recolhimento com OSRV?",
+    "category": "OSRV — Equipamentos",
+    "options": [
+      "São boias esféricas que delimitam a rota de fuga das lanchas de apoio",
+      "São sensores químicos submersos que calculam a salinidade do petróleo",
+      "São equipamentos que sugam e removem substâncias nocivas da área delimitada pelas barreiras de contenção",
+      "São bombas de alta pressão que dispersam o óleo em microgotas no fundo do mar"
+    ],
+    "correct": 2,
+    "explanation": "Skimmers são equipamentos que sugam e removem substâncias nocivas delimitadas por barreiras."
+  },
+  {
+    "type": "mc",
+    "question": "Qual é a função das boias Derivador (Drifter Buoy) nas operações de controle de derramamento de óleo?",
+    "category": "OSRV — Equipamentos",
+    "options": [
+      "Injetar dispersantes químicos biológicos no centro da mancha por controle térmico",
+      "Confinar mecanicamente a mancha substituindo as barreiras de grande porte",
+      "Recolher o óleo por gravidade e armazená-lo em compartimentos internos estanques",
+      "Rastrear a trajetória da mancha de óleo à deriva e orientar a embarcação até a área de recolhimento"
+    ],
+    "correct": 3,
+    "explanation": "A Drifter Buoy rastreia a trajetória da mancha de óleo à deriva e orienta a embarcação até o local."
+  },
+  {
+    "type": "mc",
+    "question": "Qual alternativa reúne as principais aplicações dos drones nas operações de resposta com OSRV?",
+    "category": "OSRV — Drones",
+    "options": [
+      "Detecção e delimitação de manchas e incêndios, monitoramento da deriva, apoio a barreiras/skimmers, monitoramento ambiental/SAR e registros de eficiência",
+      "Içamento de skimmers pesados do convés, reboque de embarcações de apoio em emergência, contenção direta por peso e bombeamento hidráulico",
+      "Substituição das bombas de sucção de bordo, armazenamento aéreo contínuo de óleo recolhido, vedação mecânica de trincas e lavagem de tanques",
+      "Disparo de jatos d'água de alta pressão com capacidade FiFi 3, resfriamento térmico de cascos de aço, combate a fogo interno e solda submersa"
+    ],
+    "correct": 0,
+    "explanation": "O material lista detecção, delimitação, monitoramento da deriva, apoio a barreiras/skimmers, SAR e registros."
+  },
+  {
+    "type": "tf",
+    "question": "Durante o lançamento de barreiras de contenção, o OSRV deve manter velocidade reduzida (navegar devagar).",
+    "category": "OSRV — Barreiras",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A fonte orienta navegar devagar enquanto realiza o lançamento da barreira."
+  },
+  {
+    "type": "tf",
+    "question": "O óleo sobre a água pode ser detectado pelo radar porque intensifica e aumenta a altura das ondas na superfície.",
+    "category": "OSRV — Detecção",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O óleo amortece as ondas do mar, criando áreas mais escuras ou padrões específicos detectáveis."
+  },
+  {
+    "type": "tf",
+    "question": "Em uma embarcação com FiFi Classe 1, a função de combate a incêndio é considerada secundária.",
+    "category": "FiFi — Classe 1",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O material classifica a função FiFi da Classe 1 como secundária."
+  },
+  {
+    "type": "tf",
+    "question": "A FiFi Classe 3 possui canhões operados estritamente de forma manual sem redundância de sistemas.",
+    "category": "FiFi — Classe 3",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A FiFi Classe 3 tem operação totalmente automatizada com alta redundância de sistemas."
+  },
+  {
+    "type": "tf",
+    "question": "Os skimmers realizam a sucção e remoção do óleo na área delimitada pelas barreiras, enquanto as Drifter Buoys rastreiam a mancha à deriva.",
+    "category": "OSRV — Equipamentos",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Essa é a distinção funcional correta entre skimmers e boias derivadoras."
+  },
+  {
+    "type": "tf",
+    "question": "Embarcações OSRV dispensam sistemas blindados contra faíscas porque vapores de óleo nunca atingem o convés.",
+    "category": "OSRV — Segurança",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O material cita expressamente sistemas blindados para evitar a produção de faíscas como característica de segurança."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: Os equipamentos que sugam e removem o óleo da área delimitada pelas barreiras de contenção são denominados _____.",
+    "category": "OSRV — Equipamentos",
+    "options": [],
+    "correct": "skimmers",
+    "explanation": "Esses equipamentos são chamados skimmers."
+  },
+  {
+    "type": "gap",
+    "question": "Complete: As boias utilizadas para rastrear a trajetória da mancha de óleo à deriva e orientar o OSRV são chamadas boias derivador (Drifter _____).",
+    "category": "OSRV — Equipamentos",
+    "options": [],
+    "correct": "Buoy",
+    "explanation": "São as boias derivador ou Drifter Buoy."
+  }
+]
