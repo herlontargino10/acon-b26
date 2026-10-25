@@ -6,5 +6,4 @@
 
 
 
-
 3) Um navio de 160 m de comprimento entre perpendiculares e deslocamento de 8000 t tem KG = 5,10 m e KML = 130,1 m. Atracou no porto de Suape com o calado médio de 7,20 m. Após atracar, efetuou a transferência de 125,0 t de óleo combustível do tanque central número 10 para o número 3, cuja distância longitudinal entre os centros de gravidade é de 40,0 m. Tendo como base esses dados, calcule a variação de trim.

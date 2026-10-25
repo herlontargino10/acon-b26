@@ -1,0 +1,7 @@
+1) O navio SD-14 “ASON”, ao atracar no porto de Salvador, apresentava os calados iniciais avante 7,20 m e à ré 8,80 m. Efetuou as seguintes operações: carregou o porão 03 com 1200 t ,)o(g= -35,12 m; o porão 05 com 900 t, )o(g= +30,16 m e recebeu 297 t de óleo diesel no tanque 3FD C, )o(g= +26,16 m. Depois de todas as operações, utilizando a tabela de dados hidrostáticos, determine os calados finais e o compasso. 
+
+
+2) O navio SD-14 “HBG”, ao atracar no porto de Fortaleza, apresentava os calados iniciais avante 6,10 m e à ré 6,70 m. Efetuou as seguintes operações: carregou o porão 02 com 833 t ,)o(g= -28,22 m; o porão 06 com 600 t, )o(g= +43,18 m e recebeu 400 t de óleo diesel no tanque 2FD C, )o(g= +16,12 m. Depois de todas as operações, utilizando a tabela de dados hidrostáticos, determine os calados finais e o compasso. 
+
+
+3) O navio SD-14 “Terezópolis”, ao atracar no porto de Rio Grande, apresentava os calados iniciais avante 9,60 m e à ré 10,00 m. Efetuou as seguintes operações: descarregou o porão 01 de 1400 t , )o(g= -36,22 m; o porão 05 de 1718 t, )o(g= +26,18 m e recebeu 200 t de óleo diesel no tanque 4FD C, )o(g= +11,11 m. Depois de todas as operações, utilizando a tabela de dados hidrostáticos, determine os calados finais e o compasso.
