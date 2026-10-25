@@ -30,5 +30,5 @@ title: Cronograma
 - [Semana 26](20261005_QTS_Semana_26.png)
 - [Semana 27](20261012_QTS_Semana_27.png)
 - [Semana 28](20261019_QTS_Semana_28.png)
-- [Semana 29](20261026_QTS_Semana_29.jpeg)
+- [Semana 29](20261026_QTS_Semana_29.png)
 
