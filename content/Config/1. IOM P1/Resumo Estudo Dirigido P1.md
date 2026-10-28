@@ -215,7 +215,7 @@ Essas operações estão relacionadas a:
 
 ## SDSV
 
-É uma embarcação de apoio a **operações de mergulho humano**.
+É uma embarcação de apoio a **operações de mergulho saturado**.
 
 Fornece suporte:
 

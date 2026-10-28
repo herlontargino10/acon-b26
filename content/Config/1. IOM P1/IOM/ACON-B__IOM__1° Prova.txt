@@ -1,0 +1,601 @@
+#separator:tab
+#html:false
+O que significa PSV?	Platform Supply Vessel.
+Para que são utilizadas as embarcações PSV?	Para transporte de materiais, suprimentos e pessoas.
+Que tipo de apoio o PSV presta nas atividades Offshore?	Suporte à construção, manutenção e trabalho submarino.
+Por que o PSV requer grandes áreas de convés e tanques?	Para receber granéis líquidos e sólidos.
+Como é feita a transferência de cargas gerais no PSV?	Via guindaste.
+O que deve ser conferido nas operações de carga geral?	As documentações e as cargas, incluindo manifestos e RT's (requisição de transporte).
+O que é Offload?	É a carga que vai da Terra para as Unidades.
+O que é Backload?	É a carga que vai da Unidade para terra.
+O que é Transbordo?	São cargas transferidas entre Unidades.
+Quem realiza e quem aprova o plano de carga do PSV?	O IMT realiza e o CMT aprova.
+O que representa o plano de carga?	A distribuição das cargas ao longo do convés principal.
+O que é considerado no plano de carga em relação à fixação das cargas?	A peação da carga.
+O que deve acompanhar previamente o carregamento?	Uma cópia das documentações das cargas e da programação: Roteiro, RT's e Manifesto de Cargas.
+Quais aspectos devem ser considerados na elaboração do plano de carga?	Estabilidade, ordem de movimentação da carga, alcance do guindaste da U.M., localização do container frigorífico, característica da carga e facilidade de peação.
+O que deve ser considerado sobre a estabilidade na elaboração do plano de carga?	A estabilidade.
+O que deve ser considerado sobre a ordem de movimentação da carga?	A ordem de movimentação da carga.
+O que deve ser verificado sobre a localização da carga em relação ao guindaste?	Se a localização permitirá o alcance do guindaste da U.M.
+Quando a localização do container frigorífico deve ser considerada no plano de carga?	Se houver container frigorífico.
+O que deve ser considerado sobre a característica da carga?	Se é perigosa e a segurança desta.
+Em quais cargas a facilidade de peação merece atenção especial?	Em especial nas cargas cilíndricas e altas.
+Para que os equipamentos e a arquitetura do PSV são adaptados nas operações de carga a granel?	Para contenção, sucção, armazenamento e bombeamento de suprimentos e consumíveis diversos.
+As cargas a granel transportadas pelo PSV podem ser de quais tipos?	Líquidas ou sólidas.
+Dê cinco exemplos de cargas a granel.	Baritina, O.D., água, cimento, cascalhos e etc..
+Por que alguns tanques requerem cuidados e limpeza especiais entre operações?	Pela possibilidade de incompatibilidade entre os produtos destinados aos tanques.
+O que deve ser considerado em relação aos produtos nas operações de carga a granel?	A toxicidade dos produtos.
+Qual risco existe para redes e tanques se a carga a granel não for manuseada corretamente?	Risco de petrificar redes e tanques.
+O que deve ser verificado para evitar a petrificação de redes e tanques?	A necessidade de uso de agitadores.
+Como são realizadas as operações de carga a granel?	Por mangotes de carga.
+Quais requisitos os mangotes de carga devem atender?	Devem ser certificados e inspecionados periodicamente.
+Quando alguns produtos podem exigir mangotes exclusivos?	Devido às exigências específicas de cada produto, que podem requerer mangotes exclusivos para seu uso.
+Que cuidado extra pode ser necessário para produtos de alta periculosidade?	Alguns produtos podem demandar cuidados extras; o material cita o metanol, que demanda um sistema de contenção extra com gases inertes — nitrogênio.
+Qual risco ambiental é citado nas operações de carga a granel?	Risco de poluição ambiental.
+Onde deve haver atenção especial ao posicionamento da força de trabalho durante operações com mangotes?	No convés, durante conexão, desconexão de mangotes ou quando houver risco de chicoteamento.
+O que deve ser respeitado para evitar acidentes por rompimento do mangote?	Os limites operacionais.
+O que pode acontecer com o mangote em condições adversas?	O maior passeio da embarcação pode causar o rompimento ou a desconexão forçada do mangote.
+O que deve ser considerado nas operações com DP?	As diretrizes de DP para aproximações e operações.
+O que deve ser considerado na aproximação de uma embarcação PSV durante as operações?	Seguir as diretrizes de DP para aproximações e operações, priorizando, sempre que possível, o bordo favorável.
+O que deve ser considerado no dimensionamento do número de pessoas na atividade?	A quantidade de pessoas no convés, passadiço e máquinas.
+Quais limites devem ser observados durante as operações do PSV?	Os limites operacionais da embarcação e da atividade, a capacidade de carga do guindaste e suas condições de operação.
+Quais aspectos são citados como parte da segurança da operação?	Comunicação, posicionamento seguro, isolamento de energia, inspeção de materiais e peação, segregação de carga e SOPEP.
+O que significa a sigla AHTS?	Anchor Handling Tug Supply Vessel - Embarcação de Reboque, Manuseio de Âncoras e Suprimento.
+Qual foi a origem do AHTS?	Começou como embarcação para manuseio de âncoras nos EUA.
+Por que a tecnologia do AHTS precisou evoluir no Mar do Norte?	Porque eram necessárias operações multitarefas em águas mais profundas, incluindo reboque e manuseio.
+Qual foi o primeiro AHTS lançado pela Smit-Lloyd e em que ano?	O Smit-Lloyd 10, lançado em 1965.
+Como era a concepção do primeiro AHTS da Smit-Lloyd?	Uma concepção de embarcação offshore multipropósito.
+Qual é uma das principais atividades do AHTS no manuseio de âncoras?	Dar suporte às operações de posicionamento, manutenção e retirada de sistemas de ancoragem.
+Quais fatores influenciam o sucesso de uma operação de manuseio de âncora?	Peso da âncora, tipo de solo, equipamento, profundidade e condições.
+O que uma operação de manuseio de âncora pode alterar na embarcação?	A manobrabilidade e a estabilidade da embarcação.
+Como é classificada a atividade de manuseio de âncora quanto à criticidade?	É uma atividade de alta criticidade, com taxas de acidentes e incidentes.
+Qual é uma das atividades de reboque do AHTS?	Reboque e movimentação de unidades semissubmerviseis, FPSO e outras embarcações.
+O que é a cabresteira?	É um sistema de amarração composto por dois cabos ou amarras ao qual se talinga um cabo de reboque.
+Como pode ser composta a cabresteira?	Por cabos de aço ou amarras conectados às pernas da unidade.
+Por meio de qual dispositivo a cabresteira pode ser conectada à perna da unidade?	Dispositivo chamado smit bracket.
+Onde se unem o pendente e os cabos da cabresteira?	Numa placa triangular denominada monkey plate, triangular plate ou delta plate.
+O que são os horns no AHTS?	Estruturas metálicas robustas instaladas na popa do convés, para guiar e conter cabos e amarras durante operações de manuseio e reboque.
+Cite três funções dos horns durante uma operação de reboque?	Evitar que a linha escape lateralmente sob alta carga; Evitar problemas de estabilidade; Evitar risco de emborcamento.
+Como os horns contribuem para a segurança da embarcação?	Evitam problemas de estabilidade e risco de emborcamento.
+Quais características de propulsão e capacidade são citadas para o AHTS?	Propulsão convencional e Bollard pull.
+Quais tipos de guinchos são citados no AHTS?	Guinchos de trabalho/manuseio e guinchos secundários.
+Qual é a função do guincho de trabalho/manuseio?	Posicionar a âncora e fazer o tensionamento.
+Onde fica o guincho de trabalho/manuseio e qual característica de capacidade ele possui?	No convés principal e com maior capacidade de carga.
+Qual é a função do guincho secundário?	Estivar cabos de ancoragem, dispostos no sarilho (tambor).
+Para que o guincho secundário é geralmente utilizado?	Para estivar cabos de ancoragem, dispostos no sarilho (tambor).
+Para que servem os paios no AHTS?	Para armazenamento de cabos e amarras.
+Quais acessórios de convés são citados entre os principais equipamentos do AHTS?	Shark jaw/Karm fork, Pinos de reboque; Guide e stop pins; Rolo de popa e horn.
+O que são os pinos hidráulicos Guide e Stop?	São pinos do convés principal, acionados remotamente.
+Por que os Guide e Stop pins são importantes para a segurança da força de trabalho no convés?	Porque mantêm o sistema sobre o rolo de popa, evitando que “corram” pelo convés.
+O que é o A-Frame?	Tipo de guincho em formato de “A” (pórtico), localizado na popa em embarcações de manuseio.
+Qual é a função do A-Frame?	Facilitar o lançamento e recolhimento de equipamentos.
+O que aparece associado ao Pull-back?	SIMOPS: Turret, ROV, Estimulação, PSV, etc.
+Que apoio o AHTS presta a Terminais Oceânicos?	Suporte a operações em terminal oceânico (monoboia) e de transferência de petróleo com aliviadores.
+Que atividade relacionada aos mangotes é atribuída ao AHTS no apoio a Terminais Oceânicos?	Manutenção e inspeções de mangotes.
+Quando a assistência de um AHTS é obrigatória para aliviadores sem DP?	Para aliviadores sem DP, a assistência de um AHTS é obrigatória.
+Quando o AHTS é requerido para aliviadores com DP?	Quando a operação ultrapassa 36 horas ou mediante solicitação do CMT.
+Quais são os principais riscos operacionais citados para o AHTS?	Desgaste de materiais e equipamentos do convés; falhas de comunicação passadiço–convés ou passadiço–plataforma; erros de avaliação e pesos suspensos.
+Qual material apresenta maior destaque entre os riscos de desgaste operacional?	Cabos de aço, devido aos grandes esforços a que são submetidos.
+Que falhas de comunicação são citadas como risco operacional?	Falha na comunicação passadiço/convés ou passadiço/plataforma.
+Por que os equipamentos do convés devem ser considerados nos riscos operacionais?	Porque o desgaste dos equipamentos do convés é um fator de risco.
+Quais fatores de risco humanos ou operacionais são citados além do desgaste de materiais?	Erros de avaliação e pesos suspensos.
+O que é um Navio Sísmico?	É uma embarcação utilizada para pesquisa sísmica marítima e prospecção de O&G nas camadas do substrato marinho.
+Qual é a finalidade da pesquisa sísmica marítima realizada pelo Navio Sísmico?	Realizar a prospecção de O&G nas camadas do substrato marinho.
+Em que velocidade opera o Navio Sísmico?	Em velocidades baixas, de 3 a 4 nós.
+Qual é uma das principais características do Navio Sísmico em relação aos cabos?	Ele realiza o reboque de cabos de 6 km de comprimento.
+Como são identificadas as extremidades dos cabos rebocados pelo Navio Sísmico?	Por boias com luzes.
+Que tipo de equipamentos o Navio Sísmico utiliza?	Equipamentos de tecnologia avançada.
+Que tipo de embarcação auxilia o Navio Sísmico?	Uma embarcação “batedora” ou assistente.
+O que as fontes de ar comprimido fazem na operação do Navio Sísmico?	Emitem ondas de baixa frequência que vão até as camadas do substrato marinho e retornam à superfície.
+Como as ondas que retornam à superfície são captadas?	São captadas por hidrofones presos aos cabos.
+Qual é a sequência básica da operação sísmica?	Fontes de ar comprimido emitem ondas de baixa frequência; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.
+Com o que a operação do Navio Sísmico é comparada?	Com a funcionalidade de radares e sonares.
+O que as imagens geradas pela operação sísmica podem indicar?	Os pontos passíveis de possuir reservas de petróleo e gás.
+Qual é a condição de manobra do Navio Sísmico durante a operação?	É uma operação de manobra restrita.
+Como é feita a comunicação prévia formal para a operação do Navio Sísmico?	Por Aviso aos Navegantes e via VHF.
+Qual é a função da embarcação “batedora” ou assistente?	Fornecer assistência com suprimentos e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.
+O que significa RSV no contexto das embarcações offshore?	ROV Support Vessel.
+Quais são as principais atividades de um RSV relacionadas aos ativos submarinos?	Inspeções, instalações e manutenções de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.
+Que apoio um RSV pode prestar ao lançamento de dutos?	Pode prestar apoio ao lançamento de dutos.
+Quais são algumas características de um RSV?	ROV, sistema hidro acústico, guindastes/guinchos de grande capacidade e A-Frame.
+O que pode existir nos guindastes ou guinchos de grande capacidade de um RSV?	Eles podem ter anti-heeling.
+Para que o ROV é utilizado em trabalhos que seriam realizados por mergulhadores?	Para realizar trabalhos em profundidades ou condições inacessíveis a mergulhadores.
+Que tipos de intervenções em estruturas submarinas podem ser realizadas com ROV?	Inspeções e intervenções em dutos, linhas de ancoragem, poços, cascos, entre outros.
+Quais operações específicas podem ser realizadas com ROV?	Dragagem; Corte; Investigação de avarias; Contenção de avarias; Reparos de naturezas diversas.
+Para que o ROV pode ser usado em situações de avarias, incidentes ou acidentes?	Para investigação, contenção de avarias e reparos de naturezas diversas.
+Que apoio o ROV pode dar em operações com âncoras?	Pode dar apoio às operações com manuseio de âncoras.
+Quais pontos operacionais são destacados nas operações com ROV a bordo do RSV?	Comunicação entre a tripulação e a equipe de operações/ROV, POB maior, fiscalização do cliente e complexidade das operações DP.
+O que é um ROV?	Robô de operação remota utilizado em atividades submarinas.
+Quais sistemas e recursos permitem ao ROV operar remotamente?	Sistema de câmeras, PRS, sonar e autonomia de controle para uso de ferramentas.
+O que o cabo de conexão do ROV transporta?	Eletricidade, telemetria, sensores e sinais.
+Que controles são atribuídos ao ROV no material?	Controle de lastro e propulsão.
+O que é o Tether de um ROV?	É o cabo secundário, mais fino, que conecta o ROV ao TMS.
+Quais são as principais funções do Tether?	Transmitir energia elétrica, permitir o controle remoto do ROV, reduzir a influência da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.
+Por que o Tether é importante para a mobilidade do ROV?	Ele confere mobilidade fina, ideal para inspeção e intervenções subsea.
+O que é o TMS?	Sistema responsável por gerenciar, armazenar e controlar o tether.  Tether Management System
+A que o TMS conecta o tether?	O tether conecta o ROV ao sistema principal de lançamento por meio do gerenciamento feito pelo TMS.
+O que a garagem do ROV pode ter?	Pode ter TMS ou não ter TMS.
+O que a garagem com TMS abriga?	O tambor do tether.
+Quais são as funções do TMS tipo Top-hat?	Armazenar o tether em um pequeno tambor interno; Pagar e recolher o tether; Reduzir o esforço no ROV; Melhorar a estabilidade.
+Como o TMS Top-hat reduz o esforço no ROV?	Sem ele, o ROV teria que puxar todo o peso do umbilical principal.
+Como o TMS Top-hat melhora a estabilidade?	Diminuindo a influência da corrente e a tensão excessiva.
+Como é o TMS do tipo gaiola?	É o modelo mais comum, com estrutura semelhante a uma gaiola metálica.
+Quais são as funções do TMS do tipo gaiola?	Proteger o ROV durante a descida e a subida e funcionar como ponto intermediário entre o umbilical principal e o ROV.
+O que é um AOV?	É um veículo submarino autônomo sem cabo umbilical.  Autonomous Observation Vehicle
+Para que o AOV é usado?	Para inspeções visuais; Coleta de dados ambientais; Mapeamento e reconhecimento.
+Como o AOV se diferencia do ROV quanto à forma de operação?	O AOV navega de forma programada ou semi-autônoma, enquanto o ROV é pilotado em tempo real.
+Quais são as principais características do AOV?	Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões pré-programadas e tem foco em observação.
+O que significa USV no exemplo de operação remota apresentado?	Unmanned Surface Vehicle.
+O que significa MASS no exemplo apresentado?	Maritime Autonomous Surface Ships.
+Qual exemplo de operação remota com ROV é citado no material?	Em março de 2025, o USV/MASS Fugro Vaquita, no Campo de Garoupa – BC, com ROVe elétrico.
+Quanto tempo durou o teste citado para o ROVe elétrico em Rio das Ostras?	9 meses.
+O que significa DSV?	Diving Support Vessel.
+Qual é a principal finalidade de um DSV?	Dar apoio logístico e técnico às operações de mergulho.
+Que tipos de mergulho podem ser apoiados por um DSV?	Mergulho raso ou profundo.
+Qual é a faixa de comprimento indicada para os DSV?	De 50 a 150 m.
+Quantas pessoas podem estar a bordo de um DSV (POB)?	O POB pode chegar a 200 pessoas.
+Quais são as principais características de um DSV?	Câmara hiperbárica, sino ou sinete, compressores de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.
+Quais operações são realizadas com apoio de um DSV?	Inspeções, manutenções, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.
+Qual é a profundidade máxima indicada para o mergulho saturado no material?	350 m.
+Como é descrito o confinamento no mergulho saturado?	20 dias entre câmara, sino e mar.
+Quanto tempo diário é indicado para a preparação física e psicológica da equipe no mergulho saturado?	8 h por dia.
+Por que o mergulho saturado envolve isolamento em câmara hiperbárica?	Porque a operação envolve altas pressões e confinamento entre câmara, sino e mar.
+Quais riscos são associados ao mergulho saturado?	Ataque de vida marinha, altas pressões, exposição a predadores e doenças cumulativas.
+Quais consequências à saúde são citadas para o mergulho saturado?	Surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e HPNS.
+O que significa HPNS no contexto do material?	Síndrome neurológica das altas pressões.
+Qual é a profundidade indicada para o mergulho raso?	Até 50 m.
+Quais riscos são citados no mergulho raso?	Contato com predadores, ações de corrente, fadiga e defeito de equipamentos.
+Como pode ser fornecido o ar comprimido no mergulho raso?	Por equipamento autônomo ou dependente.
+Que embarcação de apoio é citada para o mergulho raso?	Barco de apoio (LDB).
+Qual é a função do sino no apoio aos mergulhadores?	Suprir ar aos mergulhadores e transportá-los até o local de trabalho, além de fornecer água de arrefecimento.
+Quais são os tipos de sino?	Livre, autônomo e semiautônomo.
+O que é o sinete no contexto do DSV?	Uma alternativa para o barco de apoio.
+Para que serve o sinete?	Para transporte até as proximidades do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.
+Que apelido é associado ao sinete no material?	Sardinha.
+Por que a gestão do umbilical é um ponto de atenção principal nas operações com DSV?	Para evitar enroscamento nos propulsores, considerar o raio seguro de trabalho do mergulhador e controlar massa, arrasto hidrodinâmico e tensão.
+O que deve ser feito com a tensão do umbilical durante a operação?	Monitoramento contínuo da tensão com alarmes programados.
+Quais verificações devem ser realizadas antes da operação com o mergulhador?	Inspeções pré-operação e ensaios de recuperação do mergulhador.
+O que deve ser previsto em caso de perda de posição DP durante a operação?	Procedimentos de recuperação do mergulhador.
+Que cuidados são indicados para a câmara hiperbárica?	Regulagem da câmara e controle do tempo de permanência.
+Que verificação é indicada para o bote de trabalho?	Conferência e testes de rotina.
+O que pode acontecer com o umbilical quando há perda de posição e deriva do DSV?	Podem ocorrer picos de tensão, arrasto do mergulhador ou ruptura do sistema de suporte de vida.
+O que pode ocorrer com a perda simultânea dos sistemas de referência (falha de PRS)?	Pode ocorrer passeio do navio, aumento do risco de colisão com estruturas e sobrecarga do umbilical.
+Qual é a consequência de uma falha de energia ou propulsão durante a operação?	A redução da capacidade de manter a posição, podendo exigir a evacuação de emergência do mergulhador.
+Como o erro humano e a comunicação podem afetar uma operação com DP?	Decisões tardias do DPO ou falhas na coordenação com a equipe de mergulho podem atrasar a mitigação e levar a respostas inadequadas aos alarmes DP e à recuperação.
+O que significa OSRV?	Oil Spill Recovery Vessel.
+Qual é a principal finalidade do OSRV nas operações?	Atuar na resposta a derramamentos de óleo e em situações de emergência.
+Quais são as principais etapas apresentadas para uma operação de derramamento de óleo com OSRV?	Identificação, definição do tipo de óleo, confinamento com barreira, remoção com skimmer/equipamento e armazenamento em tanque.
+Para que serve a barreira de contenção em uma operação de derramamento de óleo?	Para confinar o óleo em uma área controlada, permitindo sua remoção.
+Como a barreira pode ser lançada pelo OSRV?	Com ou sem embarcação de apoio, usando o guincho de popa, guindaste ou lançamento manual.
+O que é o Boomvane?	Acessório utilizado para abrir a barreira.
+Como o OSRV deve navegar durante o lançamento da barreira?	Deve navegar devagar enquanto realiza o lançamento.
+Quais estratégias de formação podem ser utilizadas no lançamento da barreira?	Formações em “J”, “U” ou “V”.
+O que é feito depois que o óleo é confinado pela barreira?	Utilizam-se skimmers para remover o óleo da área contida.
+Qual é a função dos skimmers na operação de derramamento de óleo?	Remover, por sucção, a substância nociva da área contida.
+Quais são as três ações destacadas na operação de recuperação de óleo?	Lançamento, sucção e bombeamento.
+Quais equipamentos são apresentados para detecção de manchas de óleo?	Radar, sensores infravermelhos e câmeras ópticas.
+Qual é a função do radar de Banda X na detecção de manchas de óleo?	Identificar a área geral e a direção da mancha por meio do reflexo na superfície do mar.
+Por que o óleo pode ser identificado pelo radar na superfície do mar?	Porque o óleo amortece as ondas do mar, criando áreas mais escuras ou padrões específicos detectáveis pelo radar.
+Qual é a função do infravermelho na detecção de manchas de óleo?	Medir a temperatura e a espessura da mancha, ajudando a identificar seu “espessamento”.
+Por que o infravermelho é importante em operações noturnas ou de baixa visibilidade?	Porque permite identificar a mancha por meio da diferença de absorção da luz solar entre o óleo e a água.
+Como ocorre a integração dos sistemas de detecção de manchas de óleo?	Os dados do radar, infravermelho e câmeras são cruzados para auxiliar o posicionamento da embarcação.
+Quais sistemas são citados como exemplos de integração operacional para detecção de óleo?	Miros Oil Spill Detection e Furuno Oil Radar.
+Qual é a função dos sistemas de detecção integrados no posicionamento da embarcação?	Guiar automaticamente o posicionamento da embarcação em relação à mancha.
+Quais características de segurança são apresentadas para as embarcações OSRV?	Prontidão para respostas à emergência e sistemas blindados para evitar a produção de faíscas.
+Além da recuperação de óleo, quais outras atividades são apresentadas para o OSRV?	Resgate de náufragos e reboque de embarcações à deriva.
+Qual sistema de combate a incêndio pode estar presente no OSRV?	O sistema Fire-Fighting (FiFi), cuja configuração é definida pela classe.
+Quais classes de FiFi são apresentadas no material?	Classes 1, 2 e 3.
+Como é caracterizada a operação FiFi Classe 1?	Tem sistema básico de combate externo, proteção limitada, operação manual ou semiautomática e espuma de baixa expansão.
+Para que tipo de incêndio a FiFi Classe 1 é apresentada?	Incêndios menores.
+Em quais locais a FiFi Classe 1 é apresentada como aplicável?	Terminais portuários.
+Qual é a característica da função FiFi em uma embarcação Classe 1?	A função FiFi é secundária.
+Como é caracterizada a operação FiFi Classe 2?	Tem sistema avançado de combate externo, maior capacidade operacional e operação automática ou semiautomática.
+Que tipo de espuma é utilizada na FiFi Classe 2?	Espuma de baixa expansão de maior capacidade.
+Para que tipo de incêndio a FiFi Classe 2 é apresentada?	Incêndios de médio e grande porte.
+Em quais instalações a FiFi Classe 2 é apresentada como aplicável?	Plataformas offshore, FPSOs e terminais marítimos.
+Como pode ser a função FiFi de uma embarcação Classe 2?	Pode ser função principal ou de apoio especializado em FiFi.
+Como é caracterizada a operação FiFi Classe 3?	Tem sistema de combate de máxima capacidade, alta redundância e operação totalmente automatizada com sistemas redundantes.
+Que característica diferencia a capacidade de espuma da FiFi Classe 3?	Utiliza espuma de baixa expansão de alta capacidade e autonomia prolongada.
+Para que tipo de incêndio a FiFi Classe 3 é apresentada?	Incêndios de grande porte e elevada complexidade.
+Em quais instalações a FiFi Classe 3 é apresentada como aplicável?	Grandes plataformas offshore, FPSOs, terminais de petróleo e instalações de alto risco.
+Qual é a função das embarcações FiFi Classe 3?	São dedicadas ao combate a incêndio, com elevada capacidade de resposta.
+O que é um Navio Aliviador (Shuttle Tanker)?	É o navio utilizado para transportar petróleo e derivados das FPSO ou FSO.
+Quais são os dois tipos de operação do Navio Aliviador?	Operação convencional e operação DP.
+Quais são as principais características de um Navio Aliviador?	Grandes dimensões, tanques de grandes volumes, grande autonomia, capacidade de manobra reduzida e Green line.
+Como são realizadas as operações convencionais do Navio Aliviador?	São realizadas à luz do dia e dependem de embarcações auxiliares para manobra, como rebocadores e/ou AHTSs LH.
+Qual mangote é geralmente utilizado nas operações convencionais do Navio Aliviador?	Geralmente é utilizado o mangote alternativo da U.M.
+O que é o BLS (Bow Loading System)?	Sistema de transferência de óleo pela proa, utilizando o mangote principal.
+Qual é a função do BLS no Navio Aliviador?	Permitir a conexão segura do mangote principal, que possui maior vazão.
+Quais Navios Aliviadores possuem BLS?	Todos os aliviadores DP possuem BLS.
+Quais equipamentos e componentes são necessários para o funcionamento do BLS?	Cabo de amarração, unidade hidráulica principal, guinchos, linhas e válvulas.
+Por onde é feita a transferência de óleo utilizando o BLS?	Pela proa, através do mangote principal.
+O que é a Green line no Navio Aliviador?	É a indicação no painel de controle de que cada etapa após a conexão do mangote foi concluída.
+O que a indicação Green line permite iniciar?	Permite iniciar o teste de estanqueidade do mangote.
+O que pode ser feito após o teste de estanqueidade do mangote, conforme o material?	Prosseguir com a operação de offloading.
+Como funciona a operação DP do Navio Aliviador?	O navio opera de forma independente.
+Na operação DP, o Navio Aliviador pode utilizar o mangote alternativo da U.M.?	Sim, se tiver rebocador auxiliar.
+Em que situação os AHTSs podem auxiliar na conexão e desconexão dos mangotes?	Em condições de mar grosso.
+Por que os AHTSs podem permanecer em condição de stand by durante uma operação com Shuttle Tanker?	Para segurança da operação.
+Em que situação os AHTSs podem ficar em stand by de segurança?	Em alguns casos, durante a operação, conforme a necessidade indicada no material.
+Quando pode haver solicitação de AHTS durante a operação?	Quando houver solicitação do Comandante.
+O que é considerado um comboio?	Plataforma + Shuttle + AHTS.
+O que significa PLSV?	Pipe Laying Support Vessel -  Embarcação de Apoio ao Lançamento de Linhas.
+Qual é a função principal de um PLSV?	Realizar o lançamento de linhas ou dutos flexíveis e rígidos.
+Quais tipos de linhas um PLSV pode lançar?	Linhas ou dutos flexíveis e rígidos.
+Para que serve o PLSV na interligação offshore?	Para interligar poços a plataformas de produção e transferência.
+Qual é a diferença de vazão indicada para dutos rígidos e flexíveis no material?	Dutos rígidos: alta vazão; dutos flexíveis: baixa vazão.
+Quais são as principais características de um PLSV?	Carrossel ou cestas, bobinas, tensionadores, guindastes subsea, torre de lançamento e ROV.
+Quais são as três linhas associadas aos poços de produção?	Linha de produção, umbilical e linha anular ou gás lift.
+Qual é a função da linha de produção?	Transportar o óleo para a U.M.
+Qual é a função do umbilical?	Controlar a abertura e o fechamento das válvulas.
+Qual é a função da linha anular ou gás lift?	Fazer a diluição do óleo.
+A Flowline é a conexão entre o _____ e a _____, apoiada no fundo do mar.	Poço; unidade marítima.
+O Riser conecta a _____ à _____ e possui estrutura mais reforçada devido aos esforços _____.	Unidade marítima; Flowline; verticais.
+Quais operações com dutos flexíveis são citadas para o PLSV?	Lançamento pelos métodos S-Lay e J-Lay e recolhimento de dutos flexíveis.
+O que caracteriza o método S-Lay?	O tubo é montado horizontalmente na embarcação e forma um “S” até tocar o leito marinho.
+Para quais profundidades o S-Lay é indicado no material?	Para águas rasas e médias, até aproximadamente 1500–2000 m.
+Por que o S-Lay apresenta limitação em águas muito profundas?	Porque o peso do tubo pendurado pode quebrar a linha pela ação da gravidade.
+O que caracteriza o método J-Lay?	O tubo é montado na base vertical dentro da torre e desce diretamente para o mar.
+Para que profundidades o J-Lay é indicado no material?	Para profundidades superiores a 2000 m.
+O que acontece com a linha no método J-Lay ao atingir o leito marinho?	Ela curva quando toca o leito marinho.
+Qual é a velocidade média indicada para o processo J-Lay?	0,15 m/s.
+Qual é uma característica operacional do J-Lay em relação ao S-Lay?	O J-Lay é mais lento e mais caro.
+O que o método J-Lay necessita?	De Moonpool.
+Como é realizado o lançamento de uma linha rígida?	A embarcação lança a linha e navega em baixa velocidade, mantendo a linha sob tensão para evitar deformidades.
+Por que o lançamento de linha rígida exige atenção à propulsão da embarcação?	Porque há muito peso no sistema, exigindo bastante da potência de propulsão.
+Por que o posicionamento DP é importante no lançamento de linha rígida?	Porque é necessário manter atenção ao posicionamento da embarcação durante a operação.
+Como podem ser preparadas as linhas rígidas para lançamento?	Podem vir com tamanho pré-estabelecido ou ter seções soldadas no convés para lançamento.
+O que é VCM ou CVD?	É a conexão vertical direta para interligação de equipamentos no leito marinho.
+O que significa DCVD no contexto das operações do PLSV?	Desconexão vertical direta.
+Quando pode ocorrer o abandono de uma linha durante a operação?	Em situações como mau tempo, para evitar avarias no sistema.
+O que é a operação de abandono e recolhimento de linha?	É deixar ou recolher linhas abandonadas, inclusive em situações de emergência.
+O que é Pull in?	É a transferência de uma extremidade de uma linha para conexão em uma U.M.
+Que operação é citada em conjunto com Pull in?	Pull out.
+Com qual tipo de embarcação o PLSV pode realizar SIMOPS?	Com SDSV.
+Quais aspectos são destacados nas operações do PLSV com ROV?	Comunicação, telas de monitoramento e interação entre a equipe técnica de survey e a equipe de ROV.
+Qual é a função do carretel ou das cestas no PLSV para duto flexível?	Armazenar linhas flexíveis e permitir testes elétricos e de pressão.
+Onde geralmente ficam o carretel ou as cestas de duto flexível?	No piso inferior do CNV principal.
+Qual é a função das bobinas no PLSV para duto flexível?	Armazenar e realizar testes de linhas.
+Onde ficam as bobinas citadas para duto flexível?	Sobre trilhos, no CNV principal.
+Como funciona o Reel para duto rígido?	Pode haver mais de um Reel de carregamento e apenas um Reel de lançamento na torre.
+Qual é a função do Reel no sistema de duto rígido?	Armazenar linhas.
+Como é feito o carregamento do Reel de duto rígido?	Pela popa.
+Que característica operacional é associada ao Reel de duto rígido?	Alto custo de operação, por ser mais lento.
+Para que servem os tensionadores de carregamento?	Ajudam no carregamento da linha vinda de um terminal.
+Como são constituídos os tensionadores de carregamento?	Por “lagartas” ou tracks que pressionam o diâmetro da linha de forma uniforme durante o carregamento.
+Qual é a função da torre de lançamento?	É a área principal do PLSV e assume configurações diferentes conforme o método de lançamento.
+Que atividades se concentram na torre de lançamento?	Soldagem, tensionadores, aligners e straighteners(para embarcações de lançamento de dutos rígidos).
+O que pode acontecer com a torre de lançamento conforme a lâmina de água?	Ela pode se inclinar.
+Qual é a função do hatch de lançamento?	Permitir o lançamento da linha.
+Onde fica o hatch de lançamento?	Próximo à torre de lançamento, dependendo do projeto da embarcação.
+Para que serve o guindaste subsea/offshore no PLSV?	Para transporte de carga interno e/ou para o leito marinho.
+O que significa AHC no contexto do guindaste subsea/offshore?	É a característica indicada no material para o guindaste subsea/offshore.
+Quantos guindastes subsea/offshore um PLSV pode ter?	Pode haver mais de um.
+Que sistema adicional pode existir associado aos guindastes?	Sistema de anti-heeling.
+Quais são os principais riscos destacados nas operações do PLSV?	Alta complexidade, sistemas sob tensão, danos ao patrimônio, danos ambientais e erros humanos.
+Que tipos de danos ao patrimônio podem ocorrer nas operações do PLSV?	Danos a estruturas submarinas e unidades.
+Que fatores de erro humano são citados nas operações do PLSV?	Cálculos, angulações, posicionamento seguro, percepção de risco e condições ambientais.
+O que é uma bacia sedimentar?	É uma grande depressão natural da crosta terrestre onde, ao longo dos anos, foram depositadas camadas de sedimentos como areia, argila e carbonatos.
+Por que as bacias sedimentares são importantes economicamente?	Podem conter recursos energéticos, como carvão mineral, hulha, gás natural e petróleo.
+Quais são exemplos de bacias sedimentares no Brasil citados no material?	Bacias de Campos, Santos e Espírito Santo.
+Qual é a importância da Bacia de Campos?	Ela é uma importante bacia sedimentar brasileira, marcada pelo pioneirismo tecnológico em águas profundas e ultraprofundas.
+Qual foi uma contribuição da Bacia de Campos para a Petrobras?	Contribuiu para consolidar a Petrobras como líder mundial em exploração e produção em águas profundas.
+O que é o Pré-Sal?	Grande área petrolífera marítima brasileira, entre Santa Catarina e Espírito Santo.
+Qual é aproximadamente a extensão do Pré-Sal indicada no material?	Cerca de 800 km por 200 km.
+Quando começou a exploração do Pré-Sal?	Em 2005.
+Por que o Pré-Sal é importante para o Brasil?	Porque suas reservas têm grande importância para a produção brasileira de petróleo.
+Quais tipos de operações ocorrem no offshore?	Petróleo e gás; eólica offshore; transporte marítimo;  logística; pesca e aquicultura; produção de alimentos;  pesquisa científica; defesa e segurança.
+Para que servem as unidades ou plataformas offshore?	São base para perfuração e produção de poços, produção de petróleo e gás, alojamento da força de trabalho e armazenamento/ escoamento da produção.
+Qual é a diferença entre plataforma e unidade?	Plataforma: estrutura estacionária. Unidade: plataforma associada a embarcações móveis.
+Quais são os principais tipos de unidades offshore?	Fixas, móveis, flutuantes, de apoio e especiais.
+Quais são os tipos de poços?	Poço vertical e poço direcional.
+O que caracteriza um poço vertical?	A sonda e o alvo estão na mesma reta vertical.
+O que caracteriza um poço direcional?	A sonda e o alvo não estão na mesma reta vertical.
+O que é necessário fazer ao término da perfuração de um poço?	É necessário colocá-lo em condições de produção.
+O que é completação?	É o conjunto de operações destinadas a equipar o poço para produzir hidrocarbonetos ou injetar fluidos.
+Qual é a função da Árvore de Natal?	Conter e controlar a produção ou a injeção de fluido no poço.
+Como são classificadas as lâminas d’água?	Águas rasas: até 400 m; águas profundas: de 400 a 1.500 m; águas ultraprofundas: acima de 1.500 m.
+Toda unidade offshore perfura e produz?	Não. Nem toda unidade perfura e produz.
+Quais são as características das plataformas fixas tipo jaqueta?	São estruturas rígidas fixadas no fundo por estacas ou fundações, com estabilidade proporcionada pela fixação.
+Em que profundidade são usadas as jaquetas?	Em águas rasas, até 400 m.
+Para que são utilizadas as jaquetas?	Para perfuração e produção de petróleo e gás.
+Como é caracterizada uma plataforma fixa de gravidade?	É uma estrutura rígida de concreto ou aço apoiada sobre o próprio peso.
+Qual é uma característica das plataformas de gravidade em relação ao ambiente?	Podem apresentar resistência ao gelo, como no Mar do Norte.
+Em que profundidade são usadas as plataformas de gravidade?	Em águas rasas, até + 500 m.
+Para que são utilizadas as plataformas de gravidade?	Para perfuração e produção de petróleo e gás.
+O que é uma plataforma Jack-Up (auto-elevatória) e em qual lâmina d'água ela opera?	É uma unidade móvel de perfuração e manutenção que opera em aguas rasas até 170 m.
+Até que profundidade as autoelevatórias são utilizadas?	Até 170 m.
+Qual é uma característica de mobilidade das autoelevatórias?	Podem ser rebocadas.
+Para que as autoelevatórias são utilizadas?	Para perfuração e manutenção de projetos de infraestrutura, como turbinas eólicas e pontes.
+Qual é a principal função do navio-sonda (Drillship)?	Perfuração de poços.
+Em que profundidade os navios-sonda podem operar?	Em águas ultraprofundas, a partir de 3.000 m.
+Quais são características estruturais do navio-sonda?	Possui propulsão e torre de perfuração no convés.
+Como é o sistema de perfuração do navio-sonda?	É similar ao das semissubmersíveis.
+Qual é uma limitação do navio-sonda?	Tem menor estabilidade em mar agitado.
+Como é caracterizado o custo do navio-sonda no material?	Apresenta alto custo de construção em relação à operação.
+Como é formado o casco de uma semissubmersível?	Por colunas ocas ligadas a flutuadores horizontais, mantendo a unidade parcialmente submersa.
+Até que profundidade as semissubmersíveis são utilizadas?	Até 3.000 m.
+Como uma semissubmersível pode manter seu posicionamento?	Pode ser ancorada por cabos especiais ou permanecer em DP com propulsão.
+Como é a capacidade de armazenamento da semissubmersível em comparação com o FPSO?	É menor que a dos FPSOs.
+Quais operações podem ser realizadas por uma semissubmersível?	Perfuração; Produção; Apoio como flotel.
+Qual é uma característica de custo das semissubmersíveis?	Alto custo de construção em relação à operação.
+Para que é utilizado um Flotel?	Hotelaria e hospedagem offshore; Apoio logístico e manutenção; Geração de energia.
+Quais são as principais características de um Flotel?	Possui DP, geração de energia, hotelaria e capacidade de manutenção.
+Como é caracterizado o custo de um Flotel?	Alto custo de construção em relação à operação.
+Como são caracterizadas as plataformas TLP e Spar?	São plataformas flutuantes ancoradas por amarras e cabos tensionados e apresentam boa estabilidade.
+Quais unidades são adequadas para águas profundas acima de 1.500 m?	Semissubmersível, navio-sonda e Spar.
+Como é caracterizada uma plataforma Spar Buoy?	Tem corpo cilíndrico vertical, posicionamento por amarras e conexão com risers flexíveis.
+Quais forças atuam sobre uma Spar Buoy?	Vento, onda e corrente.
+O que caracteriza uma semissubmersível em relação à estabilidade?	Flutua e se mantém estável por lastro em colunas.
+Para que uma semissubmersível pode ser utilizada?	Para perfuração e produção.
+O que é um FPS?	É uma plataforma flutuante de produção.
+Uma FPS possui armazenamento próprio?	Não. Ao contrário do FPSO, não possui armazenamento próprio.
+Qual é a principal diferença entre FPS e FPSO apresentada no material?	O FPS não possui armazenamento próprio, enquanto o FPSO possui.
+O que é um FPSO?	É um navio-plataforma que pode produzir, armazenar e transferir petróleo e gás.
+Como o petróleo chega ao FPSO?	Por dutos flexíveis conectados aos poços submarinos.
+Qual é a profundidade média indicada para os dutos flexíveis conectados aos poços?	2.000 m.
+Quais são as etapas básicas do funcionamento de um FPSO?	O petróleo chega a bordo, ocorre a separação dos fluidos, o petróleo é armazenado e depois transferido para outras embarcações.
+O que acontece com os fluidos recebidos pelo FPSO?	Ocorre a separação dos fluidos.
+Onde o petróleo fica armazenado após o processamento no FPSO?	No próprio FPSO.
+Para onde o óleo armazenado no FPSO é transferido?	Para outras embarcações que se aproximam do FPSO para transportá-lo.
+O que é o flare em um FPSO?	Sistema usado para conduzir e queimar o gás.
+Em quais situações o flare é utilizado?	Em situações de excesso de gás ou parada do processamento.
+Quais são alguns itens da estrutura de um navio-sonda?	Bloco de coroamento, catraca, gancho, cabeça de injeção, guincho, mesa rotativa e bombas de lama.
+4. Em quais estados físicos os hidrocarbonetos podem ser encontrados? Dê um exemplo de cada estado.	Podem ser encontrados nos estado:  Gasoso: Gás Natural (metano). Líquido: Petróleo / Óleo cru. Sólido/Viscoso: Betume / Asfalto
+6. Quais unidades são indicadas para águas profundas e ultraprofundas? Justifique.	Flutuantes, pois operam em  profundidades > 1.500 m: semissubmersíveis, navios-sonda e FPSOs.
+7. Uma plataforma semissubmersível pode operar sem estar ancorada? Explique como isso é possível.	Sim. Ela pode operar em DP, usando propulsão para manter o posicionamento sem depender de ancoragem.
+12. Operações com ROV ou AOV são exclusivas de embarcações do tipo RSV? Justifique sua resposta.	Não. O RSV é especializado nesse tipo de operação, mas  PLSV, AHTS, DSV e USV também podem utilizar esses equipamentos.
+17. O que é a câmara hiperbárica e qual sua função?	É um vaso de pressão estanque e habitável para acomodar mergulhadores durante o mergulho saturado.
+19. Qual a diferença entre o sino de mergulho e o sinete? A qual modalidade de mergulho cada um está associado?	Sino de mergulho é uma estrutura fechada e pressurizada, usada no mergulho saturado.   Sinete(sardinha) é uma estrutura aberta e não pressurizada, usada no mergulho raso.
+20. O que são skimmers? Descreva sua função.	Equipamentos que recolhem mecanicamente o óleo da superfície do mar, sugando e bombeando para os tanques da embarcação.
+"21. O que caracteriza um ""comboio"" em uma operação de offloading? Quais embarcações o compõem?"	É a operação conjunta entre FPSO, Shuttle Tanker e AHTS durante a transferência de petróleo.
+23. V ou F As plataformas do tipo fixas, móveis e flutuantes podem ser utilizadas indistintamente para águas profundas e ultra profundas.	Falso. As unidades são escolhidas conforme a profundidade.
+24. V ou F Os hidrocarbonetos podem ser encontrados apenas no estado gasoso.	FALSA. Os hidrocarbonetos podem ser encontrados nos estados gasoso, líquido e sólido/viscoso. Ex.: gás natural, petróleo bruto, betume e asfalto natural.
+25. V ou F  Uma plataforma semissubmersível só pode ser vista em condição ancorada.	Falso. A semissubmersível pode ser posicionada por cabos especiais ou por DP.
+26. V ou F Apenas embarcações do tipo RSV podem realizar operações com ROV e/ou AOV.	FALSA. O RSV é especializado nesse tipo de operação, mas PLSV, AHTS, DSV e USV também podem utilizar esses equipamentos.
+10. O que significam as siglas PSV?	Platform Supply Vessel. Embarcação de apoio e suprimento offshore.
+10.1 O que significam a sigla OSRV?	Oil Spill Recovery Vessel. Embarcação de recolhimento de óleo.
+10.2 O que significam a siglas RSV?	ROV Support Vessel - Embarcação de apoio a operações com ROV/AOV.
+10.3 O que significam a sigla SDSV?	Shallow Dive Support Vessel - Embarcação de apoio ao mergulho raso.
+01.1 Qual a relação da bacia sedimentar com a formação de petróleo e gás natural?	Ela pode conter recursos orgânicos que dão origem a fontes de energia, como petróleo e gás natural.
+Descreva a função principal do AHTS.	Embarcação robusta que realiza reboque, ancoragem/desancoragem, pull-back e apoio logístico e operacional.
+Onde ficam o Shark Jaw e o Karm Fork e como podem ser acionados?	Ficam no convés principal e podem ser acionados local ou remotamente.
+Qual é a função do Shark Jaw e do Karm Fork durante uma operação?	Prender o sistema sob tensão, aliviando a tensão do guincho e permitindo que a equipe de convés trabalhe com segurança.
+Quais são as funções do rolo de popa do AHTS?	Evitar a abrasão de cabos e amarras e facilitar a movimentação de materiais.
+Como se chama a roda de periferia côncava e dentada onde a amarra se aloja durante o movimento?	Coroa de Barbotin.
+A cabresteira pode ser composta por cabos de aço ou amarras conectados à perna da unidade por qual dispositivo?	Smit Bracket.
+Como é denominada a placa triangular onde se unem o pendente e os cabos da cabresteira?	Monkey Plate, Triangular Plate ou Delta Plate.
+O que é a operação de Pull-back realizada pelo AHTS?	Utilização da força de Bollard Pull do AHTS para posicionar ou tensionar equipamentos e estruturas flutuantes.
+Quais são exemplos de aplicações da operação de Pull-back?	Passagem e tensionamento de cabos, considerando a catenária.
+Qual é o objetivo da operação de Pull-back na ancoragem de uma unidade?	Aplicar tração para assentar a âncora no fundo do mar e tensionar a linha de ancoragem, mantendo a unidade na posição desejada.
+Quais são as principais características da operação de Pull-back realizada pelo AHTS?	Alto Bollard Pull; tração controlada; monitoramento contínuo da tensão e do posicionamento; e garantia da integridade do sistema de ancoragem.
+Como a tração é aplicada na operação de Pull-back?	De forma controlada, com monitoramento contínuo da tensão e do posicionamento.
+O que deve ser monitorado continuamente durante o Pull-back?	A tensão e o posicionamento.
+Por que o Pull-back é essencial para o sistema de ancoragem?	Para garantir a integridade do sistema de ancoragem.
+14.1 Qual a função do rolo de popa?	Reduzir o atrito e o desgaste dos cabos e amarras, facilitando também a movimentação de cargas pesadas entre o mar e o convés.
+15.1 Onde fica localizada a coroa de Barbotin?	Fica no eixo dos guinchos de manuseio e ancoragem, como no AHTS, ou nos aparelhos de suspender/cabrestantes das unidades marítimas.
+O que é o plano de carga e o que ele considera?	É a representação gráfica da distribuição das cargas ao longo do convés principal, considerando a peação da carga.
+Quais equipes devem ser consideradas no dimensionamento de pessoal para as operações?	As equipes de convés, passadiço e máquinas.
+Qual critério deve orientar a escolha do bordo de aproximação?	Priorizar o bordo favorável, sempre que possível, considerando o melhor bordo para a aproximação.
+Quais são os tipos de TMS?	Top-hat e gaiola (Cage).
+Qual é a diferença entre o TMS Top-hat e o TMS Cage quanto à proteção física do ROV?	O Top-hat não protege o ROV; o Cage (gaiola) oferece proteção física.
+Em quais condições e profundidades cada tipo de TMS é mais indicado, segundo a imagem?	Top-hat: mais sensível em mar agitado e típico de profundidades moderadas. Cage: mais robusto, com maior facilidade de manuseio e típico de águas profundas e ultraprofundas.
+O AOV navega de forma _____ ou _____, diferentemente do ROV, que é pilotado em _____.	programada; semi-autônoma; tempo real.
+Qual é a função do barco de apoio LDB nas operações de mergulho raso?	Transportar a equipe até o ponto mais próximo da operação e manter estoque de suprimento de ar.
+Quais são as principais dificuldades e riscos associados à câmara hiperbárica?	Dificuldade de manutenção, risco de incêndio e proliferação de parasitas devido à umidade.
+Cite quatro pontos de atenção para garantir a segurança nas operações de mergulho?	Gestão do umbilical;  Prevenção de enroscamento nos propulsores;  Definição do raio seguro do mergulhador;  Controle da tensão.
+Sistemas como o ___________ ou o ___________ cruzam esses dados para guiar automaticamente o posicionamento da embarcação.	Miros Oil Spill Detection;  Furuno Oil Radar.
+O que são skimmers e qual é sua função nas operações de OSRV?	Equipamentos que sugam e removem substâncias nocivas da área delimitada pelas barreiras de contenção.
+Qual é a função das boias Derivador (Drifter Buoy) nas operações de recolhimento de óleo?	Rastrear a trajetória da mancha de óleo à deriva e orientar a embarcação até a área de recolhimento.
+Onde ficam armazenadas ou posicionadas as boias Derivador (Drifter Buoy) na embarcação OSRV?	No convés principal.
+Quais são as principais aplicações dos drones nas operações OSRV?	Detecção e delimitação de manchas de óleo e incêndios;   Monitoramento da deriva;   Apoio ao lançamento e posicionamento de barreiras e aos skimmers;   Monitoramento ambiental e SAR;   Registros e avaliação da eficiência.
+Os tensionadores de carregamento auxiliam no carregamento da linha vinda de um terminal. São constituídos por _____ (tracks ou esteiras), que pressionam o diâmetro da linha de forma _____.	lagartas; uniforme.
+Qual é a função do hatch de carregamento?	Permitir o armazenamento de cargas na cesta (basket) a partir do porto, por meio de uma abertura no piso.
+Quais são as características do hatch de carregamento?	Carregamento pela lateral ou popa, conforme o projeto; capacidade de armazenamento variável; e possibilidade de possuir mais de um carretel.
+Qual é a função da rampa (shooter) no hatch de carregamento?	Auxiliar no carregamento.
+Na torre de lançamento concentram-se as estações de trabalho para _____, _____, aligners e straighteners, estes últimos equipamentos associados ao lançamento de dutos rígidos.	Soldagem; tensionadores.
+As torres de lançamento podem se _____ de acordo com a _____ de lançamento.	Inclinar; lâmina de água.
+10.2.1 Descreva a função principal do RSV.	Dar suporte ao lançamento, à operação e ao recolhimento de veículos ROV/AOV.
+10.1 Descreva a função principal do PSV.	Transporte de carga geral no convés e cargas a granel nos tanques, da base em terra para as plataformas.
+Uma bacia sedimentar é uma grande ____ natural da crosta terrestre, onde camadas de ____ se acumulam e se comprimem.	depressão; sedimentos
+Do ponto de vista da composição, o petróleo é uma mistura de ____, que são compostos orgânicos formados por ____ e ____.	hidrocarbonetos; carbono; hidrogênio
+O gás natural é uma mistura de hidrocarbonetos que vai do ____ ao ____, e pode estar livre ou associado ao óleo.	metano; hexano
+Complete os estados físicos dos hidrocarbonetos: gasoso, líquido e ____/viscoso.  Exemplos: gás natural, petróleo bruto e ____/asfalto.	sólido; betume
+Quanto à fixação, as plataformas são classificadas em ____, ____ e ____. 	fixas; móveis; flutuantes
+Para águas profundas e ultraprofundas, o material indica unidades ____, incluindo ____, ____ e ____.	flutuantes; semissubmersíveis; navios-sonda; FPSOs
+Uma plataforma semissubmersível pode operar sem ancoragem usando ____, que emprega ____ para manter o posicionamento.	DP; propulsão
+Um FPSO é um navio-plataforma capaz de ____, ____ e ____ petróleo e gás; sua condição de unidade flutuante permite operar em águas profundas e ultraprofundas.	produzir; armazenar; transferir
+No FPSO, o ____ é o sistema de articulação e ancoragem que permite rotação de ____ graus, alinhando o navio aos ventos e correntes.	turret; 360
+Além da contenção da poluição, uma OSRV pode atuar no combate a ____, no resgate de ____ e no ____ de emergência.	incêndios; náufragos; reboque
+Operações com ROV/AOV não são exclusivas de RSV: também podem ser realizadas por ____, ____, ____ e ____.	PLSV; AHTS; DSV; USV
+O DSV está associado a operações de mergulho, inclusive ____, nas quais podem ocorrer riscos como ____, hipotermia e ____.	saturado; HPNS; embolia
+O rolo de popa é um rolo cilíndrico de ____ instalado transversalmente na ____ de embarcações como o AHTS.	aço; popa
+A coroa de Barbotin é uma roda ____ cujos dentes se encaixam nos ____ da amarra para movimentar a corrente.	dentada; elos
+Diferencie as funções: o rolo de popa ____ cabos e amarras, reduzindo atrito e desgaste; a coroa de Barbotin ____ nos elos para tracionar, recolher ou pagar a corrente.	guia; engraza
+A câmara hiperbárica é um vaso de pressão ____, habitável, que acomoda mergulhadores durante o mergulho ____.	estanque; saturado
+Quatro riscos ocupacionais citados para mergulhadores são ____, ____, ____ e alteração na ____.	hipotermia; embolia; surdez; voz
+O sino de mergulho é uma estrutura ____ e ____, associada ao mergulho saturado; o sinete/sardinha é ____ e não pressurizado, associado ao mergulho raso.	fechada; pressurizada; aberta
+Os skimmers recolhem mecanicamente o ____ da superfície do mar, por meio de sucção e bombeamento para os ____ da embarcação.	óleo; tanques
+No offloading, o comboio descrito no material reúne três embarcações: ____, ____ e ____.	FPSO; Shuttle Tanker; AHTS
+PSV corresponde a ____, cuja função inclui transportar carga geral no convés e cargas a granel nos tanques da base em terra para as ____.	Platform Supply Vessel; plataformas
+OSRV significa ____, embarcação voltada à detecção, contenção e recolhimento de ____ no mar.	Oil Spill Recovery Vessel; manchas de óleo
+RSV significa ____, embarcação que apoia o lançamento, a operação e o recolhimento de veículos submarinos como ____ e ____. 	ROV Support Vessel; ROV; AOV
+SDSV significa ____, embarcação de apoio ao mergulho ____.	Shallow Dive Support Vessel; raso
+A bacia sedimentar pode conter recursos ____ que dão origem a fontes de energia, como _____ e ______.	orgânicos, petróleo; gás natural
+O rolo de popa reduz o ____ e o ____ de cabos e amarras, além de facilitar a movimentação de cargas entre o mar e o ____.	atrito; desgaste; convés
+A coroa de Barbotin fica no eixo dos guinchos de manuseio e ancoragem, como no AHTS, ou nos aparelhos de suspender/cabrestantes das unidades ____.	marítimas
+A câmara hiperbárica deve ser pressurizada à pressão equivalente à profundidade de trabalho para evitar descompressões diárias e reduzir o risco de doença ____.	descompressiva
+O SDSV oferece suporte logístico e técnico, incluindo suporte de vida, câmaras hiperbáricas e sistemas de lançamento, como ____ ou ____.	sino; sinete
+O RSV dá suporte ao lançamento, operação e recolhimento de veículos submarinos para ____, ____ e ____ em estruturas submarinas.	inspeção; manutenção; intervenção
+Os skimmers são mais utilizados em embarcações do tipo ____.	OSRV
+A função principal do PSV é transportar carga geral no ____ e cargas a granel nos ____ da base em terra para as plataformas.	convés; tanques
+A função principal do OSRV é detectar, conter e recolher manchas de óleo no mar utilizando ____, ____ e ____.	radares específicos; barreiras; skimmers
+PSV significa Platform ____ Vessel.	Platform Supply Vessel.
+As embarcações PSV são utilizadas para o transporte de ____, ____ e ____.	materiais, suprimentos e pessoas.
+Nas atividades offshore, o PSV presta suporte à ____, à ____ e ao trabalho ____.	Suporte à construção, manutenção e trabalho submarino.
+O PSV possui grandes áreas de convés e tanques para receber granéis ____ e ____.	Para receber granéis líquidos e sólidos.
+Nas operações de carga a granel, os equipamentos e a arquitetura do PSV permitem a ____, ____, ____ e ____ de suprimentos e consumíveis.	contenção, sucção, armazenamento e bombeamento.
+Cinco exemplos de cargas a granel são baritina, ____, água, ____ e cascalhos.	O.D. ; cimento.
+Para evitar a petrificação de redes e tanques, deve-se verificar a necessidade de uso de ____.	Agitadores.
+Durante a conexão e desconexão de mangotes, ou quando houver risco de chicoteamento, deve-se ter atenção ao posicionamento da força de trabalho no ____.	Convés.
+Para evitar acidentes por rompimento do mangote, devem ser respeitados os ____ ____.	Os limites operacionais.
+Em condições adversas, o maior passeio da embarcação pode causar o ____ ou a ____ forçada do mangote.	O maior passeio da embarcação pode causar o rompimento ou a desconexão forçada do mangote.
+Nas operações do PSV, devem ser observados os limites operacionais da ____, da ____, a capacidade de carga do ____ e as condições de operação.	embarcação;atividade, guindaste
+AHTS significa Anchor Handling Tug ____ Vessel.	Anchor Handling Tug Supply Vessel.
+O AHTS surgiu inicialmente como embarcação para manuseio de âncoras nos ____.	EUA.
+No Mar do Norte, a tecnologia do AHTS evoluiu para permitir operações multitarefas em águas mais profundas, incluindo ____ e manuseio de ____.	Reboque ; âncora.
+No manuseio de âncoras, o AHTS apoia o posicionamento, a ____ e a retirada de sistemas de ____.	manutenção; ancoragem.
+O sucesso de uma operação de manuseio de âncora depende do peso da ____, do tipo de ____, do equipamento, da ____ e das condições.	âncora, solo, profundidade.
+Uma operação de manuseio de âncora pode alterar a ____ e a ____ da embarcação.	A manobrabilidade e a estabilidade da embarcação.
+O manuseio de âncora é uma atividade de alta ____, com taxas de acidentes e incidentes.	criticidade.
+Entre as atividades de reboque do AHTS estão a movimentação de unidades ____ , ____, e de outras embarcações.	semissubmerviseis, FPSO.
+um sistema de ____ ____ por dois cabos ou amarras ao qual se talinga um cabo de reboque.	É um sistema de amarração composto por dois cabos ou amarras ao qual se talinga um cabo de reboque.
+Por cabos de aço ou ____ ____ às pernas da unidade.	Por cabos de aço ou amarras conectados às pernas da unidade.
+Por um ____ ____ smit bracket.	Por um dispositivo chamado smit bracket.
+____ metálicas robustas ____ na popa do convés, para guiar e conter cabos e amarras durante operações de manuseio e reboque.	Estruturas metálicas robustas instaladas na popa do convés, para guiar e conter cabos e amarras durante operações de manuseio e reboque.
+Evitar que a linha escape ____ sob alta carga; Evitar problemas de ____; Evitar risco de emborcamento.	lateralmente; estabilidade.
+____ ____ e Bollard pull.	Propulsão convencional e Bollard pull.
+____ a âncora e fazer o ____.	Posicionar a âncora e fazer o tensionamento.
+Tem menor força. ____ ____ para estivar cabos de ancoragem, dispostos no sarilho (tambor).	Geralmente utilizados.
+Para estivar cabos de ____, ____ no sarilho (tambor).	Para estivar cabos de ancoragem, dispostos no sarilho (tambor).
+Shark ____ fork, Pinos de ____; Guide e stop pins; Rolo de popa e horn.	jaw/Karm fork, reboque.
+pinos do convés ____, acionados ____.	São pinos do convés principal, acionados remotamente.
+Porque mantêm o ____ sobre o rolo de popa, ____ que “corram” pelo convés.	Porque mantêm o sistema sobre o rolo de popa, evitando que “corram” pelo convés.
+Tipo de guincho em formato de “A” (pórtico), ____ na popa em ____ de manuseio.	Tipo de guincho em formato de “A” (pórtico), localizado na popa em embarcações de manuseio.
+Facilitar o lançamento e ____ de ____.	Facilitar o lançamento e recolhimento de equipamentos.
+Suporte a operações em terminal oceânico (monoboia) e de ____ de petróleo com ____.	Suporte a operações em terminal oceânico (monoboia) e de transferência de petróleo com aliviadores.
+____ e ____ de mangotes.	Manutenção e inspeções de mangotes.
+Para ____ sem DP, a ____ de um AHTS é obrigatória.	aliviadores, assistência.
+Quando a operação ____ 36 horas ou mediante ____ do CMT.	Quando a operação ultrapassa 36 horas ou mediante solicitação do CMT.
+Desgaste de materiais e ____ do convés; falhas de ____ passadiço–convés ou passadiço–plataforma; erros de avaliação e pesos suspensos.	Desgaste de materiais e equipamentos do convés; falhas de comunicação passadiço–convés ou passadiço–plataforma; erros de avaliação e pesos suspensos.
+Cabos de aço, devido aos grandes ____ a que são ____.	Cabos de aço, devido aos grandes esforços a que são submetidos.
+O _____ é uma ____ utilizada para pesquisa sísmica marítima e ____ de O&G nas camadas do substrato marinho.	Navio sísmico; embarcação; prospecção.
+Ele ____ o reboque de cabos de 6 km de ____.	Ele realiza o reboque de cabos de 6 km de comprimento.
+Por ____ com luzes nas ____ dos cabos.	Por boias com luzes nas extremidades dos cabos.
+____ de ____ avançada.	Equipamentos de tecnologia avançada.
+Uma ____ “batedora” ou ____.	Uma embarcação “batedora” ou assistente.
+Emitem ondas de baixa ____ que vão até as camadas do substrato marinho e retornam à ____.	Emitem ondas de baixa frequência que vão até as camadas do substrato marinho e retornam à superfície.
+Fontes de ar ____ emitem ondas de baixa ____; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.	Fontes de ar comprimido emitem ondas de baixa frequência; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.
+uma ____ de manobra ____.	É uma operação de manobra restrita.
+Fornecer ____ com ____ e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.	Fornecer assistência com suprimentos e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.
+A sigla ROV significa ____ ____.	ROV Support Vessel.
+Inspeções, ____ e ____ de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.	Inspeções, instalações e manutenções de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.
+Pode ____ apoio ao ____ de dutos.	Pode prestar apoio ao lançamento de dutos.
+ROV, sistema hidro acústico, ____ de grande ____ e A-Frame.	ROV, sistema hidro acústico, guindastes/guinchos de grande capacidade e A-Frame.
+Para realizar trabalhos em ____ ou condições inacessíveis a ____.	Para realizar trabalhos em profundidades ou condições inacessíveis a mergulhadores.
+____ e ____ em dutos, linhas de ancoragem, poços, cascos, entre outros.	Inspeções e intervenções em dutos, linhas de ancoragem, poços, cascos, entre outros.
+Dragagem; Corte; ____ de avarias; ____ de avarias; Reparos de naturezas diversas.	Dragagem; Corte; Investigação de avarias; Contenção de avarias; Reparos de naturezas diversas.
+Pode dar apoio às ____ com ____ de âncoras.	Pode dar apoio às operações com manuseio de âncoras.
+____ é um robô de operação remota utilizado em ____ ____.	ROV, atividades submarinas.
+Sistema de câmeras, PRS, sonar e ____ de controle para uso de ____.	Sistema de câmeras, PRS, sonar e autonomia de controle para uso de ferramentas.
+o cabo ____, mais fino, que ____ o ROV ao TMS.	secundário; conecta. 
+____ energia elétrica, permitir o controle remoto do ROV, reduzir a ____ da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.	Transmitir energia elétrica, permitir o controle remoto do ROV, reduzir a influência da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.
+Ele confere ____ fina, ideal para inspeção e ____ subsea.	Ele confere mobilidade fina, ideal para inspeção e intervenções subsea.
+o Tether ____ System, é o ____ por gerenciar, armazenar e controlar o tether.	Management; responsável. 
+O tether conecta o ROV ao sistema principal de ____ por meio do ____ feito pelo TMS.	O tether conecta o ROV ao sistema principal de lançamento por meio do gerenciamento feito pelo TMS.
+Pode ter TMS ou não ter TMS.	Pode ter TMS ou não ter TMS.
+____ o ____ do tether.	Abriga o tambor do tether.
+____ o tether em um pequeno tambor interno, pagar e recolher o tether, reduzir o esforço no ROV e melhorar a ____.	Armazenar o tether em um pequeno tambor interno, pagar e recolher o tether, reduzir o esforço no ROV e melhorar a estabilidade.
+o modelo mais comum, com ____ ____ a uma gaiola metálica.	É o modelo mais comum, com estrutura semelhante a uma gaiola metálica.
+Proteger o ROV durante a descida e a subida e ____ como ponto ____ entre o umbilical principal e o ROV.	Proteger o ROV durante a descida e a subida e funcionar como ponto intermediário entre o umbilical principal e o ROV.
+o ____ ____ Vehicle, um veículo submarino autônomo sem cabo umbilical.	É o Autonomous Observation Vehicle, um veículo submarino autônomo sem cabo umbilical.
+Para inspeções visuais, coleta de dados ____, mapeamento e ____.	Para inspeções visuais, coleta de dados ambientais, mapeamento e reconhecimento.
+O AOV navega de forma ____ ou ____, enquanto o ROV é pilotado em tempo real.	O AOV navega de forma programada ou semi-autônoma, enquanto o ROV é pilotado em tempo real.
+Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões ____ e tem foco em ____.	Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões pré-programadas e tem foco em observação.
+DSV significa ____ ____ Vessel.	Diving Support Vessel.
+Dar apoio ____ e técnico às ____ de mergulho.	Dar apoio logístico e técnico às operações de mergulho.
+____ raso ou ____.	Mergulho raso ou profundo.
+O POB pode ____ a 200 ____.	O POB pode chegar a 200 pessoas.
+Câmara ____, sino ou sinete, ____ de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.	Câmara hiperbárica, sino ou sinete, compressores de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.
+____, ____, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.	Inspeções, manutenções, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.
+350 m.	350 m.
+Porque a ____ envolve altas pressões e ____ entre câmara, sino e mar.	Porque a operação envolve altas pressões e confinamento entre câmara, sino e mar.
+Ataque de vida marinha, altas pressões, exposição a ____ e doenças ____.	Ataque de vida marinha, altas pressões, exposição a predadores e doenças cumulativas.
+Surdez, ____, alteração na voz, traumas faciais e dentais, embolia, ____ e HPNS.	Surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e HPNS.
+Até 50 m.	Até 50 m.
+Contato com ____, ações de corrente, fadiga e defeito de ____.	Contato com predadores, ações de corrente, fadiga e defeito de equipamentos.
+Por ____ autônomo ou ____.	Por equipamento autônomo ou dependente.
+LDB significa ____ de ____.	Barco de apoio (LDB).
+Suprir ar aos ____ e ____ até o local de trabalho, além de fornecer água de arrefecimento.	Suprir ar aos mergulhadores e transportá-los até o local de trabalho, além de fornecer água de arrefecimento.
+Livre, ____ e ____.	Livre, autônomo e semiautônomo.
+Uma ____ para o ____ de apoio.	Uma alternativa para o barco de apoio.
+Para ____ até as ____ do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.	Para transporte até as proximidades do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.
+____.	Sardinha.
+Inspeções ____ e ensaios de ____ do mergulhador.	Inspeções pré-operação e ensaios de recuperação do mergulhador.
+____ da câmara e controle do tempo de ____.	Regulagem da câmara e controle do tempo de permanência.
+Oil Spill ____ ____.	Oil Spill Recovery Vessel.
+Atuar na resposta a ____ de óleo e em situações de ____.	Atuar na resposta a derramamentos de óleo e em situações de emergência.
+____, definição do tipo de óleo, confinamento com barreira, remoção com ____ e armazenamento em tanque.	Identificação, definição do tipo de óleo, confinamento com barreira, remoção com skimmer/equipamento e armazenamento em tanque.
+Para confinar o óleo em uma área ____, ____ sua remoção.	Para confinar o óleo em uma área controlada, permitindo sua remoção.
+O ____ é um ____ utilizado para “abrir” a ____.	É um acessório utilizado para “abrir” a barreira.
+____ em “J”, “U” ou “V”.	Formações em “J”, “U” ou “V”.
+Utilizam-se ____ para remover o óleo da área contida.	skimmers para remover o óleo da área contida.
+____, por sucção, a ____ nociva da área contida.	Remover, por sucção, a substância nociva da área contida.
+____, sucção e ____.	Lançamento, sucção e bombeamento.
+Radar, ____ ____ e câmeras ópticas.	Radar, sensores infravermelhos e câmeras ópticas.
+____ a área geral e a direção da mancha por meio do reflexo na ____ do mar.	Identificar a área geral e a direção da mancha por meio do reflexo na superfície do mar.
+Medir a ____ e a espessura da mancha, ajudando a identificar seu “____”.	Medir a temperatura e a espessura da mancha, ajudando a identificar seu “espessamento”.
+Porque permite ____ a mancha por meio da ____ de absorção da luz solar entre o óleo e a água.	Porque permite identificar a mancha por meio da diferença de absorção da luz solar entre o óleo e a água.
+____ para respostas à ____ e sistemas blindados para evitar a produção de faíscas.	Prontidão para respostas à emergência e sistemas blindados para evitar a produção de faíscas.
+Resgate de ____ e reboque de ____ à deriva.	Resgate de náufragos e reboque de embarcações à deriva.
+O sistema ____ (FiFi), cuja ____ é definida pela classe.	O sistema Fire-Fighting (FiFi), cuja configuração é definida pela classe.
+o navio utilizado para ____ petróleo e ____ das FPSO ou FSO.	É o navio utilizado para transportar petróleo e derivados das FPSO ou FSO.
+____ ____ e operação DP.	Operação convencional e operação DP.
+Grandes ____, tanques de grandes volumes, grande autonomia, ____ de manobra reduzida e Green line.	Grandes dimensões, tanques de grandes volumes, grande autonomia, capacidade de manobra reduzida e Green line.
+Operações com ___ são realizadas à luz do dia e dependem de ____ auxiliares para manobra, como ____ e/ou AHTSs LH.	Shutter Tanker; São realizadas à luz do dia e dependem de embarcações auxiliares para manobra, como rebocadores e/ou AHTSs LH.
+O ___ é um sistema de ____ de óleo pela proa, ____ o mangote principal.	Sistema de transferência de óleo pela proa, utilizando o mangote principal.
+____ a conexão segura do mangote ____, que possui maior vazão.	Permitir a conexão segura do mangote principal, que possui maior vazão.
+Todos os ____ DP ____ BLS.	Todos os aliviadores DP possuem BLS.
+Sim, se tiver ____ ____.	Sim, se tiver rebocador auxiliar.
+Em ____ de mar ____.	Em condições de mar grosso.
+____ + ____ + AHTS.	Plataforma + Shuttle + AHTS.
+Pipe ____ ____ Vessel.	Pipe Laying Support Vessel.
+Realizar o ____ de linhas ou dutos ____ e rígidos.	Realizar o lançamento de linhas ou dutos flexíveis e rígidos.
+Linhas ou dutos ____ e rígidos, com um ou mais sistemas de ____.	Linhas ou dutos flexíveis e rígidos, com um ou mais sistemas de lançamento.
+Para interligar poços a ____ de produção e ____.	Para interligar poços a plataformas de produção e transferência.
+Carrossel ou cestas, bobinas, ____, ____ subsea, torre de lançamento e ROV.	Carrossel ou cestas, bobinas, tensionadores, guindastes subsea, torre de lançamento e ROV.
+____ pelos métodos S-Lay e J-Lay e ____ de dutos flexíveis.	Lançamento pelos métodos S-Lay e J-Lay e recolhimento de dutos flexíveis.
+a conexão vertical direta para ____ de ____ no leito marinho.	É a conexão vertical direta para interligação de equipamentos no leito marinho.
+Em ____ como mau tempo, para evitar ____ no sistema.	Em situações como mau tempo, para evitar avarias no sistema.
+deixar ou recolher linhas ____, inclusive em situações de ____.	É deixar ou recolher linhas abandonadas, inclusive em situações de emergência.
+Com SDSV.	Com SDSV.
+____ e ____ testes de linhas.	Armazenar e realizar testes de linhas.
+A ____ é a área principal do PLSV e assume ____ ____ conforme o método de lançamento.	Torre; configurações diferentes.
+Soldagem, ____, aligners e ____(para embarcações de lançamento de dutos rígidos).	Soldagem, tensionadores, aligners e straighteners(para embarcações de lançamento de dutos rígidos).
+Ela pode se ____.	Ela pode se inclinar.
+____ o ____ da linha.	Permitir o lançamento da linha.
+Pode ____ mais de um.	Pode haver mais de um.
+____ de ____..	Sistema de anti-heeling.
+Alta ____, sistemas sob tensão, danos ao ____, danos ambientais e erros humanos.	Alta complexidade, sistemas sob tensão, danos ao patrimônio, danos ambientais e erros humanos.
+Danos a ____ ____ e unidades.	Danos a estruturas submarinas e unidades.
+Petróleo e gás; eólica offshore; ____ marítimo; logística; pesca e ____; produção de alimentos; pesquisa científica; defesa e segurança.	Petróleo e gás; eólica offshore; transporte marítimo;  logística; pesca e aquicultura; produção de alimentos;  pesquisa científica; defesa e segurança.
+Fixas, móveis, ____, de apoio e ____.	Fixas, móveis, flutuantes, de apoio e especiais.
+Poço ____ e poço ____.	Poço vertical e poço direcional.
+Possui ____ e torre de ____ no convés.	Possui propulsão e torre de perfuração no convés.
+Possui propulsão em DP, geração de energia, hotelaria e ____ de ____.	Possui propulsão em DP, geração de energia, hotelaria e capacidade de manutenção.
+____, ____ e Spar.	Semissubmersível, navio-sonda e Spar.
+Embarcação robusta projetada para reboque, ____, pull-back e apoio logístico e ____.	Embarcação robusta projetada para reboque, ancoragem/desancoragem, pull-back e apoio logístico e operacional.
+Ficam no convés ____ e podem ser acionados local ou ____.	Ficam no convés principal e podem ser acionados local ou remotamente.
+Prender o sistema sob tensão, ____ a tensão do guincho e ____ que a equipe de convés trabalhe com segurança.	Prender o sistema sob tensão, aliviando a tensão do guincho e permitindo que a equipe de convés trabalhe com segurança.
+Evitar a abrasão de cabos e amarras e ____ a ____ de materiais.	Evitar a abrasão de cabos e amarras e facilitar a movimentação de materiais.
+____ de ____.	Coroa de Barbotin.
+Smit ____.	Smit Bracket.
+____ Plate, ____ Plate ou Delta Plate.	Monkey Plate, Triangular Plate ou Delta Plate.
+____ da força de Bollard Pull do AHTS para posicionar ou tensionar ____ e estruturas flutuantes.	Utilização da força de Bollard Pull do AHTS para posicionar ou tensionar equipamentos e estruturas flutuantes.
+Passagem e ____ de cabos, ____ a catenária.	Passagem e tensionamento de cabos, considerando a catenária.
+Aplicar tração para assentar a âncora no fundo do mar e ____ a linha de ____, mantendo a unidade na posição desejada.	Aplicar tração para assentar a âncora no fundo do mar e tensionar a linha de ancoragem, mantendo a unidade na posição desejada.
+Alto Bollard Pull; tração controlada; ____ contínuo da tensão e do ____; e garantia da integridade do sistema de ancoragem.	Alto Bollard Pull; tração controlada; monitoramento contínuo da tensão e do posicionamento; e garantia da integridade do sistema de ancoragem.
+De forma controlada, com ____ contínuo da tensão e do ____.	De forma controlada, com monitoramento contínuo da tensão e do posicionamento.
+A ____ e o ____.	A tensão e o posicionamento.
+Para garantir a ____ do sistema de ____.	Para garantir a integridade do sistema de ancoragem.
+____ e ____ (Cage).	Top-hat e gaiola (Cage).
+____; ____; tempo real.	programada; semi-autônoma; tempo real.
+____ a equipe até o ponto mais próximo da operação e manter estoque de ____ de ar.	Transportar a equipe até o ponto mais próximo da operação e manter estoque de suprimento de ar.
+____ de manutenção, risco de incêndio e ____ de parasitas devido à umidade.	Dificuldade de manutenção, risco de incêndio e proliferação de parasitas devido à umidade.
+Gestão do umbilical; Prevenção de ____ nos ____; Definição do raio seguro do mergulhador; Controle da tensão.	Gestão do umbilical;  Prevenção de enroscamento nos propulsores;  Definição do raio seguro do mergulhador;  Controle da tensão.
+Miros Oil Spill ____ ;____ Oil Radar.	Miros Oil Spill Detection ;Furuno Oil Radar.
+____ que sugam e removem ____ nocivas da área delimitada pelas barreiras de contenção.	Equipamentos que sugam e removem substâncias nocivas da área delimitada pelas barreiras de contenção.
+As ____ são utilizadas para rastrear a ____ da mancha de óleo à deriva e orientar a embarcação até a área de ____.	trajetória;recolhimento.
+No ____ ____.	No convés principal.
+Quais são os três tipos de plataformas quantos à fixação?	Fixas, móveis e flutuantes. 
+Para que são utilizados o ROV/AOV?	Inspeção, manutenção e intervenção em estruturas submarinas. 

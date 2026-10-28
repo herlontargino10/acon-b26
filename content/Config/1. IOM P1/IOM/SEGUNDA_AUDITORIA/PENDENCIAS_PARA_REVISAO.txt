@@ -1,0 +1,50 @@
+===============================================================================
+                  PENDÊNCIAS E PONTOS DE ATENÇÃO PARA REVISÃO
+               VALIDAÇÃO TÉCNICA DOS CARDS DE IOM COM O PROFESSOR
+===============================================================================
+
+STATUS GERAL DE BLOQUEIOS: ZERO PENDÊNCIAS IMPEDITIVAS.
+Todos os 167 cards foram reconstruídos com enunciados completos, lacunas literais ____
+e respostas no verso perfeitamente alinhadas ao material do curso.
+
+Abaixo são listados os 5 pontos de atenção onde o texto original apresentava inconsistências
+ou particularidades que foram tratadas e merecem ciência pelo estudante/professor:
+
+PONTO 1 — CARD_019 (Fonte: Linha 49)
+- Questão Original : Qual é uma das atividades de reboque do AHTS?
+- Resposta Original: Reboque e movimentação de unidades semissubmerviseis, FPSO e outras embarcações.
+- Frente Validada  : Entre as operações de reboque do AHTS está a movimentação de embarcações e de unidades flutuantes como semissubmersíveis e ____.
+- Verso Validado   : FPSO
+- Parecer Técnico  : A fonte original grafou incorretamente "semissubmerviseis". O card preserva a terminologia correta sem alterar o conteúdo técnico cobrado.
+
+PONTO 2 — CARD_049 (Fonte: Linha 94)
+- Questão Original : O que significa RSV no contexto das embarcações offshore?
+- Resposta Original: ROV Support Vessel.
+- Frente Validada  : No contexto das embarcações offshore, a sigla RSV significa ROV ____ Vessel.
+- Verso Validado   : Support
+- Parecer Técnico  : O arquivo original de lacunas trazia "A sigla ROV significa...", enquanto a questão-fonte original 94 tratava de RSV ("O que significa RSV no contexto das embarcações offshore? ROV Support Vessel"). Card auditado e alinhado com a fonte.
+
+PONTO 3 — CARD_088 (Fonte: Linha 148)
+- Questão Original : Quais são os tipos de sino?
+- Resposta Original: Livre, autônomo e semiautônomo.
+- Frente Validada  : Os tipos de sino citados no material para o apoio aos mergulhadores são livre, autônomo e ____.
+- Verso Validado   : semiautônomo
+- Parecer Técnico  : A classificação de sinos como "livre, autônomo e semiautônomo" é atípica na literatura de mergulho comercial, mas foi expressamente registrada no material didático da disciplina. Mantida a fidelidade à fonte com registro de inconsistência técnica teórica.
+
+PONTO 4 — CARD_113 (Fonte: Linha 202)
+- Questão Original : Como são realizadas as operações convencionais do Navio Aliviador?
+- Resposta Original: São realizadas à luz do dia e dependem de embarcações auxiliares para manobra, como rebocadores e/ou AHTSs LH.
+- Frente Validada  : As operações convencionais do Navio Aliviador são realizadas à luz do dia e dependem de embarcações auxiliares para manobra, como ____ e/ou AHTSs.
+- Verso Validado   : rebocadores
+- Parecer Técnico  : A fonte grafou "Shutter Tanker" na pergunta original e listou rebocadores e/ou AHTSs LH. Card ajustado com fidelidade à resposta original.
+
+PONTO 5 — CARD_135 (Fonte: Linha 270)
+- Questão Original : Quantos guindastes subsea/offshore um PLSV pode ter?
+- Resposta Original: Pode haver mais de um.
+- Frente Validada  : Em relação aos seus equipamentos de convés, uma embarcação PLSV pode ter mais de um guindaste ____.
+- Verso Validado   : subsea
+- Parecer Técnico  : A pergunta original é "Quantos guindastes subsea/offshore um PLSV pode ter?" com resposta "Pode haver mais de um". O enunciado foi ajustado para manter fidelidade estrita à fonte.
+
+CONCLUSÃO:
+O arquivo SEGUNDA_AUDITORIA/IOM_CARDS_VALIDACAO_FINAL.txt está 100% pronto para importação
+no Anki ou para revisão direta de prova.

@@ -1,0 +1,167 @@
+CARD_001	Na terminologia marítima offshore, a sigla PSV significa Platform ____ Vessel.	Supply
+CARD_002	As embarcações de apoio do tipo PSV são utilizadas no suporte offshore para o transporte de materiais, suprimentos e ____.	pessoas
+CARD_003	Nas atividades offshore, a embarcação PSV presta suporte operacional à construção, à manutenção e ao trabalho ____.	submarino
+CARD_004	O PSV possui grandes áreas de convés e tanques dedicados a receber e transportar granéis líquidos e ____.	sólidos
+CARD_005	Nas operações de carga a granel, os equipamentos e a arquitetura do PSV permitem a contenção, sucção, armazenamento e ____ de suprimentos e consumíveis.	bombeamento
+CARD_006	Entre os principais exemplos de cargas a granel transportadas por embarcações PSV estão baritina, água, cascalhos, óleo diesel (O.D.) e ____.	cimento
+CARD_007	Nos tanques de granéis do PSV, para evitar a petrificação de redes e decantação da carga, deve-se verificar a necessidade de uso de ____.	agitadores
+CARD_008	Durante a conexão e desconexão de mangotes ou manobras com risco de chicoteamento, deve-se ter atenção rigorosa ao posicionamento da equipe no ____.	convés
+CARD_009	Os limites ____ devem ser rigorosamente respeitados durante a transferência para evitar acidentes graves decorrentes do rompimento do mangote.	operacionais
+CARD_010	Em condições adversas, o maior passeio da embarcação amarrada ao mangote pode provocar sua desconexão forçada ou o seu ____.	rompimento
+CARD_011	Nas operações de transferência de carga do PSV, além dos limites da embarcação e da atividade, deve-se observar rigorosamente a capacidade de carga do ____.	guindaste
+CARD_012	Na terminologia offshore, a sigla AHTS significa Anchor Handling Tug ____ Vessel.	Supply
+CARD_013	Historicamente, o AHTS surgiu como uma embarcação voltada primordialmente para o manuseio de âncoras nos ____.	EUA
+CARD_014	No Mar do Norte, a tecnologia do AHTS evoluiu para permitir operações multitarefas em águas profundas, combinando o manuseio de âncoras e o ____.	reboque
+CARD_015	No manuseio de âncoras, o AHTS presta suporte às operações de posicionamento, manutenção e retirada de sistemas de ____.	ancoragem
+CARD_016	O sucesso de uma operação de manuseio pelo AHTS depende do tipo de solo, equipamento, profundidade, condições marítimas e do peso da ____.	âncora
+CARD_017	Devido aos grandes esforços e forças laterais exercidas pelas linhas, a operação de manuseio de âncora pode afetar gravemente a manobrabilidade e a ____ da embarcação.	estabilidade
+CARD_018	Devido ao elevado potencial de risco e às taxas históricas de acidentes e incidentes, o manuseio de âncora é classificado como uma atividade de alta ____.	criticidade
+CARD_019	Entre as principais operações de reboque executadas pelo AHTS está a movimentação de outras embarcações e de grandes unidades flutuantes, como semissubmersíveis e ____.	FPSOs
+CARD_020	O arranjo de reboque composto por dois cabos de aço ou amarras formando pernas ao qual se talinga o cabo principal é denominado ____.	cabresteira
+CARD_021	A cabresteira de reboque conectada às pernas da unidade marítima pode ser estruturada por cabos de aço ou por ____.	amarras
+CARD_022	A cabresteira pode ser conectada com segurança à perna da unidade rebocada por meio de um dispositivo reforçado denominado smit ____.	bracket
+CARD_023	No AHTS, as estruturas metálicas robustas instaladas na popa do convés para guiar e conter cabos e amarras são denominadas ____.	horns
+CARD_024	Durante o reboque no AHTS, os horns contêm a linha lateralmente sob alta carga para preservar a estabilidade da embarcação e evitar o risco de ____.	emborcamento
+CARD_025	Entre as características essenciais de propulsão e capacidade de tração exigidas de uma embarcação AHTS destaca-se o elevado ____ ____.	Bollard pull
+CARD_026	No AHTS, a função principal do guincho de trabalho/manuseio é posicionar a âncora e efetuar o seu ____.	tensionamento
+CARD_027	No AHTS, o guincho secundário apresenta menor capacidade de tração e é destinado a estivar cabos de ancoragem dispostos em seu ____ (tambor).	sarilho
+CARD_028	No guincho secundário do AHTS, os cabos estivados no sarilho destinam-se a operações de ____.	ancoragem
+CARD_029	Entre os principais acessórios de convés do AHTS para guia e contenção de cabos estão o Shark jaw, o rolo de popa, os horns e os pinos de ____.	reboque
+CARD_030	No AHTS, os pinos hidráulicos de convés Guide e Stop têm a característica de serem acionados de forma ____.	remota
+CARD_031	No AHTS, os pinos Guide e Stop aumentam a segurança da equipe ao manter os cabos alinhados sobre o rolo de popa, impedindo que corram descontrolados pelo ____.	convés
+CARD_032	O equipamento de movimentação de cargas em formato de pórtico em 'A', posicionado na popa de embarcações de manuseio e apoio submarino, é o ____.	A-Frame
+CARD_033	A principal função operacional do pórtico de popa (A-Frame) é facilitar o lançamento e o ____ de equipamentos e ferramentas submarinas.	recolhimento
+CARD_034	No apoio a terminais oceânicos dotados de monoboia, o AHTS presta suporte às manobras de amarração e transferência de petróleo com navios ____.	aliviadores
+CARD_035	No suporte a monoboias em terminais oceânicos, as atividades atribuídas ao AHTS em relação aos mangotes incluem manobras de inspeções e ____.	manutenção
+CARD_036	Nas operações de transferência offloading com navios aliviadores convencionais (sem DP), a assistência de um AHTS é ____.	obrigatória
+CARD_037	Nas operações de alívio com navios aliviadores dotados de DP, a assistência de um AHTS passa a ser requerida caso a manobra ultrapasse ____ horas ou por solicitação do CMT.	36
+CARD_038	Entre os riscos operacionais a bordo do AHTS durante manobras sob tensão, destacam-se pesos suspensos e falhas de ____ entre o passadiço e o convés.	comunicação
+CARD_039	Entre os componentes de convés do AHTS submetidos a severos esforços de tração e com maior destaque para risco de desgaste operacional estão os cabos de ____.	aço
+CARD_040	O navio sísmico é uma embarcação especializada empregada na pesquisa geofísica marítima e na ____ de petróleo e gás nas camadas do substrato marinho.	prospecção
+CARD_041	Durante o levantamento geofísico marinho, uma característica marcante do Navio Sísmico é realizar o reboque de cabos com sensores com extensão de até ____ km.	6
+CARD_042	As extremidades dos longos cabos rebocados pelo Navio Sísmico são equipadas com ____ providas de luzes para sinalização e rastreamento náutico.	boias
+CARD_043	O Navio Sísmico utiliza equipamentos de tecnologia ____ para realizar o mapeamento geológico de alta resolução do substrato marinho.	avançada
+CARD_044	O Navio Sísmico conta com o auxílio de uma embarcação de apoio denominada ____ (ou assistente) para manter a área livre e desimpedida.	batedora
+CARD_045	Na pesquisa geofísica marinha, as fontes acústicas de ar comprimido do Navio Sísmico emitem ondas mecânicas de baixa ____ que penetram no substrato marinho.	frequência
+CARD_046	Na sequência da aquisição sísmica marinha, as ondas acústicas refletidas pelo substrato retornam à superfície e são captadas ao longo dos cabos rebocados por sensores denominados ____.	hidrofones
+CARD_047	Devido aos extensos cabos e equipamentos submersos rebocados na esteira, o Navio Sísmico em operação é considerado uma embarcação de manobra ____.	restrita
+CARD_048	Além de apoiar na segurança da navegação e na comunicação, a embarcação batedora auxilia o Navio Sísmico prestando assistência logística com o fornecimento de ____.	suprimentos
+CARD_049	No contexto das embarcações de apoio marítimo offshore, a sigla RSV significa ROV ____ Vessel.	Support
+CARD_050	A embarcação RSV presta apoio direto a ativos submarinos (dutos, poços e linhas de ancoragem), executando inspeções, instalações e ____.	manutenções
+CARD_051	Nas operações de instalação de infraestrutura submarina, a embarcação RSV pode prestar apoio visual e operacional direto ao ____ de dutos.	lançamento
+CARD_052	A bordo de uma embarcação RSV, além do robô submarino (ROV), do guindaste e do A-Frame, utiliza-se para rastreamento submarino um sistema ____.	hidroacústico
+CARD_053	O emprego do ROV é fundamental na indústria offshore para a execução de trabalhos em profundidades e condições ambientais inacessíveis a ____.	mergulhadores
+CARD_054	Em estruturas submarinas como dutos, linhas de ancoragem, poços e cascos de unidades, o ROV atua na realização de inspeções e ____.	intervenções
+CARD_055	Entre as tarefas especializadas realizadas por ferramentas acopladas ao ROV no fundo do mar estão o corte, a dragagem e a contenção de ____.	avarias
+CARD_056	Durante as fainas de ancoragem de plataformas, o ROV presta suporte visual e operacional às manobras de manuseio de ____.	âncoras
+CARD_057	O veículo subaquático não tripulado controlado a distância a partir da superfície e empregado em atividades submarinas é o ____.	ROV
+CARD_058	O ROV é equipado com câmeras, sonar, sensores de posicionamento (PRS) e controle de ____ para permitir sua navegação remota e execução de serviços no fundo do mar.	ferramentas
+CARD_059	No sistema de mergulho robótico, o cabo secundário mais fino e flexível que conecta o ROV diretamente ao TMS é denominado ____.	tether
+CARD_060	Entre as funções do tether do ROV está a transmissão de energia elétrica e comandos, além de reduzir sobre o veículo a influência da ____.	corrente
+CARD_061	Ao desacoplar o ROV do peso e da tração do cabo principal de lançamento, o tether confere ao veículo a capacidade de mobilidade ____.	fina
+CARD_062	No suporte a veículos submarinos operados remotamente, a sigla TMS corresponde a Tether ____ System.	Management
+CARD_063	O tether conecta o veículo submarino ROV ao sistema principal de lançamento por meio do gerenciamento exercido pelo ____.	TMS
+CARD_064	Quanto à configuração de lançamento e recolhimento de um ROV, a garagem do sistema pode operar com ou sem ____.	TMS
+CARD_065	Na configuração de lançamento de ROV dotada de TMS, a estrutura da garagem abriga internamente o tambor do ____.	tether
+CARD_066	O TMS do tipo Top-hat abriga o tether em tambor interno, alivia os esforços dinâmicos sobre o ROV e aprimora a sua ____.	estabilidade
+CARD_067	O modelo construtivo de TMS mais tradicional e comum na indústria offshore possui uma estrutura de proteção em formato de ____.	gaiola
+CARD_068	Além de proteger o ROV durante o trânsito na coluna d'água, o TMS tipo gaiola atua como ponto intermediário de conexão com o cabo ____ principal.	umbilical
+CARD_069	O veículo submarino autônomo de observação que opera sem cabo umbilical alimentado por baterias internas é denominado ____.	AOV
+CARD_070	Entre as principais missões atribuídas ao veículo autônomo AOV estão as inspeções visuais, o mapeamento submarino e a coleta de dados ____.	ambientais
+CARD_071	Quanto ao modo de operação submarina, enquanto o ROV é pilotado ativamente em tempo real por um operador, o AOV navega de forma programada ou ____.	semiautônoma
+CARD_072	Por operar sem tether e depender exclusivamente de baterias internas, o AOV cumpre rotas pré-programadas com foco principal em missões de ____.	observação
+CARD_073	Na terminologia das embarcações de apoio offshore, a sigla DSV significa ____ Support Vessel.	Diving
+CARD_074	A principal finalidade operacional de uma embarcação especializada do tipo DSV é prestar suporte técnico e logístico a operações de ____.	mergulho
+CARD_075	Quanto ao regime de profundidade de trabalho, uma embarcação DSV pode prestar apoio técnico a operações de mergulho raso ou ____ (saturado).	profundo
+CARD_076	Devido ao grande número de tripulantes, técnicos e equipes de saturação, a quantidade de pessoas a bordo (POB) de um DSV pode atingir até ____ pessoas.	200
+CARD_077	Entre os recursos essenciais instalados a bordo de um DSV para garantir a sobrevivência de mergulhadores em saturação estão o sino de mergulho e a câmara ____.	hiperbárica
+CARD_078	As equipes de mergulho apoiadas por DSV executam reparos em plataformas e risers, incluindo soldas, pull-in/pull-out e limpeza de caixas de ____.	mar
+CARD_079	A profundidade máxima indicada no material técnico do curso para a realização de operações de mergulho saturado é de ____ metros.	350
+CARD_080	No mergulho saturado, os mergulhadores permanecem isolados na câmara hiperbárica devido às altas pressões e ao regime contínuo de ____ entre câmara, sino e mar.	confinamento
+CARD_081	Entre os riscos associados ao mergulho saturado profundo estão o ataque de vida marinha, os efeitos de altas pressões e o desenvolvimento de doenças ____.	cumulativas
+CARD_082	Nas operações de mergulho saturado a grandes profundidades, a síndrome neurológica decorrente da rápida compressão hiperbárica é identificada pela sigla ____.	HPNS
+CARD_083	O mergulho raso é classificado no material da disciplina como a modalidade indicada para profundidades de até ____ metros.	50
+CARD_084	Nas operações de mergulho raso, os riscos ambientais e operacionais para o mergulhador incluem fadiga, defeito em equipamentos, correntes marítimas e contato com ____.	predadores
+CARD_085	No mergulho raso, o suprimento de ar para os mergulhadores pode ser fornecido por equipamento autônomo (scuba) ou por sistema de superfície do tipo ____.	dependente
+CARD_086	A pequena embarcação rápida empregada como barco de apoio direto aos mergulhadores em operações de mergulho raso é identificada pela sigla ____.	LDB
+CARD_087	No mergulho saturado, o sino de mergulho tem a função de transportar a equipe até a cota de trabalho, prover água de aquecimento e suprir ____ aos mergulhadores.	ar
+CARD_088	Quanto ao modo de operação e controle descrito no material do curso, os três tipos de sino de mergulho são: livre, autônomo e ____.	semiautônomo
+CARD_089	No contexto das operações de mergulho apoiadas por DSV, a cesta de transporte denominada sinete é utilizada como alternativa ao ____ de apoio.	barco
+CARD_090	Nas operações de mergulho raso, a função primordial do sinete é realizar o ____ dos mergulhadores do convés até as proximidades da frente de trabalho.	transporte
+CARD_091	Nas operações de mergulho raso com embarcações DSV, o cesto aberto do sinete é popularmente conhecido a bordo pelo apelido de ____.	sardinha
+CARD_092	Antes de autorizar a descida da equipe de mergulho, devem ser realizadas rigorosas inspeções pré-operação e ensaios de ____ do mergulhador.	recuperação
+CARD_093	Na gestão de segurança da câmara hiperbárica durante o mergulho saturado, além da regulagem dos gases e pressão, é essencial controlar o tempo de ____.	permanência
+CARD_094	Na terminologia das embarcações de apoio offshore, a sigla OSRV significa Oil Spill ____ Vessel.	Recovery
+CARD_095	A principal finalidade operacional da embarcação OSRV é prestar atendimento e pronta resposta a emergências com derramamentos de ____.	óleo
+CARD_096	Nas etapas de resposta a derramamento por OSRV, após a identificação da mancha e seu confinamento por barreiras, a remoção do óleo é efetuada por ____.	skimmers
+CARD_097	Em operações de combate à poluição com OSRV, a finalidade da barreira de contenção é cercar a mancha em uma área controlada para viabilizar sua ____.	remoção
+CARD_098	O dispositivo hidrodinâmico que aproveita a correnteza ou a velocidade de avanço do OSRV para abrir e posicionar a barreira de contenção chama-se ____.	Boomvane
+CARD_099	Durante as fainas de recolhimento de óleo com OSRV, as barreiras de contenção são tracionadas na água adotando configurações geométricas em 'J', 'U' ou ____.	'V'
+CARD_100	Uma vez confinada a mancha de hidrocarboneto pela barreira na superfície do mar, a sucção mecânica do óleo para os tanques da embarcação é realizada por ____.	skimmers
+CARD_101	No combate a derramamentos com OSRV, a função primordial do skimmer é retirar o óleo sobrenadante na água por meio do processo mecânico de ____.	sucção
+CARD_102	As três ações mecânicas sequenciais destacadas na faina de recuperação de óleo com OSRV são o lançamento de barreiras/skimmers, a sucção do produto e o seu ____.	bombeamento
+CARD_103	A bordo do OSRV, os três principais recursos tecnológicos empregados no rastreamento e detecção de manchas de óleo são o radar, câmeras ópticas e sensores de ____.	infravermelho
+CARD_104	Na detecção de derramamentos pelo OSRV, o radar de Banda X identifica a área e direção da mancha ao detectar a alteração do reflexo das ondas na ____ do mar.	superfície
+CARD_105	Empregados na detecção de manchas pelo OSRV, os sensores de infravermelho avaliam a temperatura superficial e auxiliam na determinação da ____ da mancha de óleo.	espessura
+CARD_106	Em períodos noturnos ou de baixa visibilidade, os sensores infravermelhos permitem ao OSRV mapear a mancha por meio do diferencial térmico entre o óleo e a ____.	água
+CARD_107	Por atuarem em atmosferas com gases inflamáveis decorrentes de vazamentos de hidrocarbonetos, os equipamentos do OSRV possuem sistemas blindados para evitar a emissão de ____.	faíscas
+CARD_108	Além da contenção e recolhimento de poluentes, uma embarcação OSRV pode atuar em salvatagem marítima efetuando o reboque de embarcações à deriva e o resgate de ____.	náufragos
+CARD_109	O sistema de combate a incêndio de alta capacidade instalado a bordo de embarcações de apoio como o OSRV é conhecido pela sigla FiFi, que significa ____-Fighting.	Fire
+CARD_110	O navio petroleiro especializado encarregado de receber o petróleo bruto armazenado em plataformas FPSO ou FSO e transportá-lo para a costa denomina-se navio ____.	aliviador
+CARD_111	Quanto ao modo de manutenção de posição durante o transbordo de óleo, as operações do Navio Aliviador classificam-se em operação DP e operação ____.	convencional
+CARD_112	Em razão de suas grandes dimensões e imenso deslocamento de carga, o Navio Aliviador (Shuttle Tanker) apresenta como característica operacional uma capacidade de manobra ____.	reduzida
+CARD_113	Nas operações convencionais de um Navio Aliviador (Shuttle Tanker), a atracação ocorre obrigatoriamente à luz do dia e exige a assistência de embarcações auxiliares de manobra, como ____.	rebocadores
+CARD_114	O sistema instalado na proa do navio aliviador para acoplamento do mangote principal e recebimento seguro de petróleo denomina-se ____ (Bow Loading System).	BLS
+CARD_115	A principal vantagem do acoplamento via Bow Loading System (BLS) no navio aliviador é viabilizar a conexão segura do mangote principal, que se destaca por proporcionar maior ____.	vazão
+CARD_116	Na frota de transporte marítimo de petróleo, todos os navios aliviadores que contam com sistema de posicionamento dinâmico (DP) são obrigatoriamente equipados com o sistema ____.	BLS
+CARD_117	Em operações com posicionamento dinâmico, o Navio Aliviador só é autorizado a conectar o mangote alternativo da plataforma se dispuser da assistência de um ____ auxiliar.	rebocador
+CARD_118	No apoio ao transbordo de óleo com navios aliviadores, as embarcações AHTS são acionadas para auxiliar na conexão e desconexão de mangotes prioritariamente em condições de mar ____.	grosso
+CARD_119	Na operação de alívio offshore descrita no curso, o comboio padrão envolvido na transferência de petróleo é formado pela Plataforma de produção, pelo AHTS e pelo ____ ____.	Shuttle Tanker
+CARD_120	Na terminologia das embarcações de apoio offshore, a sigla PLSV significa Pipe ____ Support Vessel.	Laying
+CARD_121	A principal função operacional de uma embarcação especializada do tipo PLSV é realizar a instalação e o ____ de dutos flexíveis e rígidos no fundo do mar.	lançamento
+CARD_122	As linhas submarinas instaladas por uma embarcação PLSV são estruturalmente classificadas em dutos rígidos ou dutos ____.	flexíveis
+CARD_123	Na interligação da malha submarina de produção offshore, o PLSV conecta as cabeças dos poços às plataformas de ____.	produção
+CARD_124	A torre de lançamento de um PLSV conta com esteiras motorizadas denominadas ____ para sustentar e controlar a velocidade de descida contínua da linha ao mar.	tensionadores
+CARD_125	Além de realizar o lançamento de linhas flexíveis pelos métodos S-Lay e J-Lay, uma embarcação PLSV também é capacitada para executar o ____ de dutos.	recolhimento
+CARD_126	No sistema submarino de linhas, o Módulo de Conexão Vertical Direta (VCM ou CVD) tem a finalidade de realizar a ____ de equipamentos no leito marinho.	interligação
+CARD_127	Durante as operações de lançamento de dutos pelo PLSV, o procedimento de abandono controlado da linha no fundo do mar é acionado diante de condições severas de mau ____.	tempo
+CARD_128	No PLSV, a operação de abandono e recolhimento de linhas (sistema A&R) é projetada para assentar e posteriormente resgatar dutos em situações de ____.	emergência
+CARD_129	Durante a interligação de linhas submarinas em águas rasas, a embarcação PLSV pode realizar operações simultâneas (SIMOPS) em conjunto com uma embarcação de mergulho do tipo ____.	SDSV
+CARD_130	A bordo do PLSV de lançamento flexível, as grandes bobinas (reels) têm a finalidade de realizar testes e assegurar o ____ da linha.	armazenamento
+CARD_131	A estrutura principal a bordo do PLSV que abriga os tensionadores e assume posições adequadas ao método de instalação é a ____ de lançamento.	torre
+CARD_132	Na torre de lançamento de dutos rígidos do PLSV, as etapas de alinhamento, soldagem e descida da coluna contam com a retenção de carga exercida pelos ____.	tensionadores
+CARD_133	A torre de lançamento do PLSV tem a propriedade de se ____ para ajustar os esforços e a curvatura da catenária do duto conforme a lâmina d'água.	inclinar
+CARD_134	No convés de trabalho do PLSV, a abertura estrutural por onde a tubulação passa verticalmente em direção ao mar é o hatch de ____.	lançamento
+CARD_135	Uma embarcação PLSV pode dispor a bordo de mais de um guindaste ____ para atender à movimentação de estruturas submarinas pesadas no convés.	subsea
+CARD_136	O sistema de lastro rápido utilizado no PLSV para compensar os momentos de adernamento e a inclinação transversal durante o içamento de cargas pesadas pelos guindastes denomina-se ____.	anti-heeling
+CARD_137	Entre os riscos operacionais mais graves nas atividades de lançamento do PLSV estão a alta complexidade da faina e a movimentação contínua de cabos e linhas em sistemas sob ____.	tensão
+CARD_138	Em caso de falha mecânica ou perda de controle da linha durante o lançamento por um PLSV, o impacto no fundo pode causar danos severos a estruturas ____.	submarinas
+CARD_139	Além da indústria tradicional de petróleo e gás, as operações marítimas offshore contemporâneas incluem transporte naval, pesquisa e a geração de energia ____.	eólica
+CARD_140	As unidades marítimas offshore dividem-se primordialmente em fixas, móveis, de apoio, especiais e unidades ____.	flutuantes
+CARD_141	Na perfuração offshore de óleo e gás, quanto à trajetória da coluna no subsolo, os poços classificam-se basicamente em poço vertical e poço ____.	direcional
+CARD_142	Uma unidade do tipo navio-sonda caracteriza-se por possuir propulsão própria para navegação e carregar em seu convés central uma torre de ____.	perfuração
+CARD_143	A unidade offshore do tipo Flotel dispõe de propulsão com posicionamento dinâmico, geração de energia, oficinas de manutenção e serviços essenciais de ____.	hotelaria
+CARD_144	As unidades flutuantes indicadas no material para operar em lâminas d'água superiores a 1.500 metros incluem o navio-sonda, a plataforma Spar e a ____.	semissubmersível
+CARD_145	O AHTS é uma embarcação robusta de grande potência de tração projetada para apoio logístico, pull-back, reboque de unidades e manobras de ____.	ancoragem
+CARD_146	No AHTS, os mecanismos hidráulicos de travamento de amarras (Shark Jaw e Karm Fork) ficam instalados sobre a linha de centro do convés ____.	principal
+CARD_147	Durante o manuseio de amarras pelo AHTS, a função do Shark Jaw e do Karm Fork é prender o cabo sob carga para aliviar a tensão do ____.	guincho
+CARD_148	No AHTS, o rolo de popa tem como função primordial facilitar a movimentação de materiais e evitar o atrito e a ____ de cabos e amarras.	abrasão
+CARD_149	A roda de periferia dentada e côncava onde os elos da amarra se alojam para permitir seu tracionamento e recolhimento é a coroa de ____.	Barbotin
+CARD_150	Nas operações de reboque, a cabresteira é conectada de forma segura e rápida às pernas da plataforma por meio do dispositivo denominado Smit ____.	Bracket
+CARD_151	A placa triangular de aço forjado utilizada para unir o cabo pendente de reboque às duas pernas da cabresteira é denominada Triangular Plate, Monkey Plate ou ____ Plate.	Delta
+CARD_152	A manobra na qual o AHTS emprega continuamente sua força de tração estática (Bollard Pull) para posicionar e tensionar linhas ou estruturas é a operação de ____.	Pull-back
+CARD_153	Nas fainas de Pull-back realizadas por AHTS, a passagem e o tensionamento de cabos devem ser efetuados considerando rigorosamente a curva geométrica de ____.	catenária
+CARD_154	Na ancoragem de unidades marítimas, o objetivo principal da operação de Pull-back é aplicar tração para cravar e assentar no leito marinho a ____.	âncora
+CARD_155	A execução da manobra de Pull-back exige elevado Bollard Pull do AHTS, aplicação progressiva de carga e monitoramento contínuo da tensão e do ____.	posicionamento
+CARD_156	Na operação de Pull-back realizada pelo AHTS, a fim de evitar sobrecargas dinâmicas e rompimento da linha, a tração deve ser aplicada de forma ____.	controlada
+CARD_157	Durante a execução da manobra de Pull-back pelo AHTS para assentamento de âncoras, devem ser monitorados continuamente o posicionamento e a ____.	tensão
+CARD_158	A realização prévia do teste de Pull-back com o AHTS é indispensável na faina de ancoragem para atestar a segurança e a ____ do sistema.	integridade
+CARD_159	Os dois tipos construtivos de TMS (Tether Management System) empregados em operações submarinas com veículos ROV são o modelo gaiola (Cage) e o modelo ____.	Top-hat
+CARD_160	Diferentemente do ROV, cuja operação é pilotada ativamente em tempo real por um operador, o veículo AOV navega de forma ____ ou semiautônoma.	programada
+CARD_161	Nas operações de mergulho raso, a função do barco de apoio LDB é aproximar a equipe da faina e manter no local um estoque de suprimento de ____.	ar
+CARD_162	Entre os riscos sanitários e dificuldades operacionais no confinamento em câmara hiperbárica de mergulho saturado estão o risco de incêndio e a proliferação de ____ decorrente da alta umidade.	parasitas
+CARD_163	Nas operações de mergulho apoiadas por embarcações com posicionamento dinâmico (DP), a rigorosa gestão do umbilical é vital para prevenir o enroscamento do cabo nos ____.	propulsores
+CARD_164	A bordo do OSRV, sistemas de radar como o Furuno Oil Radar e o Miros Oil Spill Detection cruzam dados para guiar automaticamente a aproximação e o ____ da embarcação em relação à mancha.	posicionamento
+CARD_165	Nas operações de recolhimento de poluentes por um OSRV, os equipamentos especializados responsáveis por sugar e remover o óleo acumulado dentro do cerco de barreiras são os ____.	skimmers
+CARD_166	Nas operações de combate a derramamentos, as boias do tipo Derivador (Drifter Buoys) lançadas na água têm a função primária de monitorar e rastrear a ____ da mancha à deriva.	trajetória
+CARD_167	A bordo da embarcação OSRV, prontas para rápido lançamento em caso de emergência, as boias Derivador (Drifter Buoys) ficam armazenadas no ____ principal.	convés

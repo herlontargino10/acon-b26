@@ -1,0 +1,169 @@
+#separator:tab
+#html:false
+PSV significa Platform ____ Vessel.	Platform Supply Vessel.
+As embarcações PSV são utilizadas para o transporte de ____, ____ e ____.	materiais, suprimentos e pessoas.
+Nas atividades offshore, o PSV presta suporte à ____, à ____ e ao trabalho ____.	Suporte à construção, manutenção e trabalho submarino.
+O PSV possui grandes áreas de convés e tanques para receber granéis ____ e ____.	Para receber granéis líquidos e sólidos.
+Nas operações de carga a granel, os equipamentos e a arquitetura do PSV permitem a ____, ____, ____ e ____ de suprimentos e consumíveis.	contenção, sucção, armazenamento e bombeamento.
+Cinco exemplos de cargas a granel são baritina, ____, água, ____ e cascalhos.	O.D. ; cimento.
+Para evitar a petrificação de redes e tanques, deve-se verificar a necessidade de uso de ____.	Agitadores.
+Durante a conexão e desconexão de mangotes, ou quando houver risco de chicoteamento, deve-se ter atenção ao posicionamento da força de trabalho no ____.	Convés.
+Para evitar acidentes por rompimento do mangote, devem ser respeitados os ____ ____.	Os limites operacionais.
+Em condições adversas, o maior passeio da embarcação pode causar o ____ ou a ____ forçada do mangote.	O maior passeio da embarcação pode causar o rompimento ou a desconexão forçada do mangote.
+Nas operações do PSV, devem ser observados os limites operacionais da ____, da ____, a capacidade de carga do ____ e as condições de operação.	embarcação;atividade, guindaste
+AHTS significa Anchor Handling Tug ____ Vessel.	Anchor Handling Tug Supply Vessel.
+O AHTS surgiu inicialmente como embarcação para manuseio de âncoras nos ____.	EUA.
+No Mar do Norte, a tecnologia do AHTS evoluiu para permitir operações multitarefas em águas mais profundas, incluindo ____ e manuseio de ____.	Reboque ; âncora.
+No manuseio de âncoras, o AHTS apoia o posicionamento, a ____ e a retirada de sistemas de ____.	manutenção; ancoragem.
+O sucesso de uma operação de manuseio de âncora depende do peso da ____, do tipo de ____, do equipamento, da ____ e das condições.	âncora, solo, profundidade.
+Uma operação de manuseio de âncora pode alterar a ____ e a ____ da embarcação.	A manobrabilidade e a estabilidade da embarcação.
+O manuseio de âncora é uma atividade de alta ____, com taxas de acidentes e incidentes.	criticidade.
+Entre as atividades de reboque do AHTS estão a movimentação de unidades ____ , ____, e de outras embarcações.	semissubmerviseis, FPSO.
+um sistema de ____ ____ por dois cabos ou amarras ao qual se talinga um cabo de reboque.	É um sistema de amarração composto por dois cabos ou amarras ao qual se talinga um cabo de reboque.
+Por cabos de aço ou ____ ____ às pernas da unidade.	Por cabos de aço ou amarras conectados às pernas da unidade.
+Por um ____ ____ smit bracket.	Por um dispositivo chamado smit bracket.
+____ metálicas robustas ____ na popa do convés, para guiar e conter cabos e amarras durante operações de manuseio e reboque.	Estruturas metálicas robustas instaladas na popa do convés, para guiar e conter cabos e amarras durante operações de manuseio e reboque.
+Evitar que a linha escape ____ sob alta carga; Evitar problemas de ____; Evitar risco de emborcamento.	lateralmente; estabilidade.
+____ ____ e Bollard pull.	Propulsão convencional e Bollard pull.
+____ a âncora e fazer o ____.	Posicionar a âncora e fazer o tensionamento.
+Tem menor força. ____ ____ para estivar cabos de ancoragem, dispostos no sarilho (tambor).	Geralmente utilizados.
+Para estivar cabos de ____, ____ no sarilho (tambor).	Para estivar cabos de ancoragem, dispostos no sarilho (tambor).
+Shark ____ fork, Pinos de ____; Guide e stop pins; Rolo de popa e horn.	jaw/Karm fork, reboque.
+pinos do convés ____, acionados ____.	São pinos do convés principal, acionados remotamente.
+Porque mantêm o ____ sobre o rolo de popa, ____ que “corram” pelo convés.	Porque mantêm o sistema sobre o rolo de popa, evitando que “corram” pelo convés.
+Tipo de guincho em formato de “A” (pórtico), ____ na popa em ____ de manuseio.	Tipo de guincho em formato de “A” (pórtico), localizado na popa em embarcações de manuseio.
+Facilitar o lançamento e ____ de ____.	Facilitar o lançamento e recolhimento de equipamentos.
+Suporte a operações em terminal oceânico (monoboia) e de ____ de petróleo com ____.	Suporte a operações em terminal oceânico (monoboia) e de transferência de petróleo com aliviadores.
+____ e ____ de mangotes.	Manutenção e inspeções de mangotes.
+Para ____ sem DP, a ____ de um AHTS é obrigatória.	aliviadores, assistência.
+Quando a operação ____ 36 horas ou mediante ____ do CMT.	Quando a operação ultrapassa 36 horas ou mediante solicitação do CMT.
+Desgaste de materiais e ____ do convés; falhas de ____ passadiço–convés ou passadiço–plataforma; erros de avaliação e pesos suspensos.	Desgaste de materiais e equipamentos do convés; falhas de comunicação passadiço–convés ou passadiço–plataforma; erros de avaliação e pesos suspensos.
+Cabos de aço, devido aos grandes ____ a que são ____.	Cabos de aço, devido aos grandes esforços a que são submetidos.
+O _____ é uma ____ utilizada para pesquisa sísmica marítima e ____ de O&G nas camadas do substrato marinho.	Navio sísmico; embarcação; prospecção.
+Ele ____ o reboque de cabos de 6 km de ____.	Ele realiza o reboque de cabos de 6 km de comprimento.
+Por ____ com luzes nas ____ dos cabos.	Por boias com luzes nas extremidades dos cabos.
+____ de ____ avançada.	Equipamentos de tecnologia avançada.
+Uma ____ “batedora” ou ____.	Uma embarcação “batedora” ou assistente.
+Emitem ondas de baixa ____ que vão até as camadas do substrato marinho e retornam à ____.	Emitem ondas de baixa frequência que vão até as camadas do substrato marinho e retornam à superfície.
+Fontes de ar ____ emitem ondas de baixa ____; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.	Fontes de ar comprimido emitem ondas de baixa frequência; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.
+uma ____ de manobra ____.	É uma operação de manobra restrita.
+Fornecer ____ com ____ e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.	Fornecer assistência com suprimentos e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.
+A sigla ROV significa ____ ____.	ROV Support Vessel.
+Inspeções, ____ e ____ de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.	Inspeções, instalações e manutenções de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.
+Pode ____ apoio ao ____ de dutos.	Pode prestar apoio ao lançamento de dutos.
+ROV, sistema hidro acústico, ____ de grande ____ e A-Frame.	ROV, sistema hidro acústico, guindastes/guinchos de grande capacidade e A-Frame.
+Para realizar trabalhos em ____ ou condições inacessíveis a ____.	Para realizar trabalhos em profundidades ou condições inacessíveis a mergulhadores.
+____ e ____ em dutos, linhas de ancoragem, poços, cascos, entre outros.	Inspeções e intervenções em dutos, linhas de ancoragem, poços, cascos, entre outros.
+Dragagem; Corte; ____ de avarias; ____ de avarias; Reparos de naturezas diversas.	Dragagem; Corte; Investigação de avarias; Contenção de avarias; Reparos de naturezas diversas.
+Pode dar apoio às ____ com ____ de âncoras.	Pode dar apoio às operações com manuseio de âncoras.
+____ é um robô de operação remota utilizado em ____ ____.	ROV, atividades submarinas.
+Sistema de câmeras, PRS, sonar e ____ de controle para uso de ____.	Sistema de câmeras, PRS, sonar e autonomia de controle para uso de ferramentas.
+o cabo ____, mais fino, que ____ o ROV ao TMS.	secundário; conecta. 
+____ energia elétrica, permitir o controle remoto do ROV, reduzir a ____ da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.	Transmitir energia elétrica, permitir o controle remoto do ROV, reduzir a influência da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.
+Ele confere ____ fina, ideal para inspeção e ____ subsea.	Ele confere mobilidade fina, ideal para inspeção e intervenções subsea.
+o Tether ____ System, é o ____ por gerenciar, armazenar e controlar o tether.	Management; responsável. 
+O tether conecta o ROV ao sistema principal de ____ por meio do ____ feito pelo TMS.	O tether conecta o ROV ao sistema principal de lançamento por meio do gerenciamento feito pelo TMS.
+Pode ter TMS ou não ter TMS.	Pode ter TMS ou não ter TMS.
+____ o ____ do tether.	Abriga o tambor do tether.
+____ o tether em um pequeno tambor interno, pagar e recolher o tether, reduzir o esforço no ROV e melhorar a ____.	Armazenar o tether em um pequeno tambor interno, pagar e recolher o tether, reduzir o esforço no ROV e melhorar a estabilidade.
+o modelo mais comum, com ____ ____ a uma gaiola metálica.	É o modelo mais comum, com estrutura semelhante a uma gaiola metálica.
+Proteger o ROV durante a descida e a subida e ____ como ponto ____ entre o umbilical principal e o ROV.	Proteger o ROV durante a descida e a subida e funcionar como ponto intermediário entre o umbilical principal e o ROV.
+o ____ ____ Vehicle, um veículo submarino autônomo sem cabo umbilical.	É o Autonomous Observation Vehicle, um veículo submarino autônomo sem cabo umbilical.
+Para inspeções visuais, coleta de dados ____, mapeamento e ____.	Para inspeções visuais, coleta de dados ambientais, mapeamento e reconhecimento.
+O AOV navega de forma ____ ou ____, enquanto o ROV é pilotado em tempo real.	O AOV navega de forma programada ou semi-autônoma, enquanto o ROV é pilotado em tempo real.
+Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões ____ e tem foco em ____.	Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões pré-programadas e tem foco em observação.
+DSV significa ____ ____ Vessel.	Diving Support Vessel.
+Dar apoio ____ e técnico às ____ de mergulho.	Dar apoio logístico e técnico às operações de mergulho.
+____ raso ou ____.	Mergulho raso ou profundo.
+O POB pode ____ a 200 ____.	O POB pode chegar a 200 pessoas.
+Câmara ____, sino ou sinete, ____ de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.	Câmara hiperbárica, sino ou sinete, compressores de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.
+____, ____, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.	Inspeções, manutenções, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.
+350 m.	350 m.
+Porque a ____ envolve altas pressões e ____ entre câmara, sino e mar.	Porque a operação envolve altas pressões e confinamento entre câmara, sino e mar.
+Ataque de vida marinha, altas pressões, exposição a ____ e doenças ____.	Ataque de vida marinha, altas pressões, exposição a predadores e doenças cumulativas.
+Surdez, ____, alteração na voz, traumas faciais e dentais, embolia, ____ e HPNS.	Surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e HPNS.
+Até 50 m.	Até 50 m.
+Contato com ____, ações de corrente, fadiga e defeito de ____.	Contato com predadores, ações de corrente, fadiga e defeito de equipamentos.
+Por ____ autônomo ou ____.	Por equipamento autônomo ou dependente.
+LDB significa ____ de ____.	Barco de apoio (LDB).
+Suprir ar aos ____ e ____ até o local de trabalho, além de fornecer água de arrefecimento.	Suprir ar aos mergulhadores e transportá-los até o local de trabalho, além de fornecer água de arrefecimento.
+Livre, ____ e ____.	Livre, autônomo e semiautônomo.
+Uma ____ para o ____ de apoio.	Uma alternativa para o barco de apoio.
+Para ____ até as ____ do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.	Para transporte até as proximidades do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.
+____.	Sardinha.
+Inspeções ____ e ensaios de ____ do mergulhador.	Inspeções pré-operação e ensaios de recuperação do mergulhador.
+____ da câmara e controle do tempo de ____.	Regulagem da câmara e controle do tempo de permanência.
+Oil Spill ____ ____.	Oil Spill Recovery Vessel.
+Atuar na resposta a ____ de óleo e em situações de ____.	Atuar na resposta a derramamentos de óleo e em situações de emergência.
+____, definição do tipo de óleo, confinamento com barreira, remoção com ____ e armazenamento em tanque.	Identificação, definição do tipo de óleo, confinamento com barreira, remoção com skimmer/equipamento e armazenamento em tanque.
+Para confinar o óleo em uma área ____, ____ sua remoção.	Para confinar o óleo em uma área controlada, permitindo sua remoção.
+O ____ é um ____ utilizado para “abrir” a ____.	É um acessório utilizado para “abrir” a barreira.
+____ em “J”, “U” ou “V”.	Formações em “J”, “U” ou “V”.
+Utilizam-se ____ para remover o óleo da área contida.	skimmers para remover o óleo da área contida.
+____, por sucção, a ____ nociva da área contida.	Remover, por sucção, a substância nociva da área contida.
+____, sucção e ____.	Lançamento, sucção e bombeamento.
+Radar, ____ ____ e câmeras ópticas.	Radar, sensores infravermelhos e câmeras ópticas.
+____ a área geral e a direção da mancha por meio do reflexo na ____ do mar.	Identificar a área geral e a direção da mancha por meio do reflexo na superfície do mar.
+Medir a ____ e a espessura da mancha, ajudando a identificar seu “____”.	Medir a temperatura e a espessura da mancha, ajudando a identificar seu “espessamento”.
+Porque permite ____ a mancha por meio da ____ de absorção da luz solar entre o óleo e a água.	Porque permite identificar a mancha por meio da diferença de absorção da luz solar entre o óleo e a água.
+____ para respostas à ____ e sistemas blindados para evitar a produção de faíscas.	Prontidão para respostas à emergência e sistemas blindados para evitar a produção de faíscas.
+Resgate de ____ e reboque de ____ à deriva.	Resgate de náufragos e reboque de embarcações à deriva.
+O sistema ____ (FiFi), cuja ____ é definida pela classe.	O sistema Fire-Fighting (FiFi), cuja configuração é definida pela classe.
+o navio utilizado para ____ petróleo e ____ das FPSO ou FSO.	É o navio utilizado para transportar petróleo e derivados das FPSO ou FSO.
+____ ____ e operação DP.	Operação convencional e operação DP.
+Grandes ____, tanques de grandes volumes, grande autonomia, ____ de manobra reduzida e Green line.	Grandes dimensões, tanques de grandes volumes, grande autonomia, capacidade de manobra reduzida e Green line.
+Operações com ___ são realizadas à luz do dia e dependem de ____ auxiliares para manobra, como ____ e/ou AHTSs LH.	Shutter Tanker; São realizadas à luz do dia e dependem de embarcações auxiliares para manobra, como rebocadores e/ou AHTSs LH.
+O ___ é um sistema de ____ de óleo pela proa, ____ o mangote principal.	Sistema de transferência de óleo pela proa, utilizando o mangote principal.
+____ a conexão segura do mangote ____, que possui maior vazão.	Permitir a conexão segura do mangote principal, que possui maior vazão.
+Todos os ____ DP ____ BLS.	Todos os aliviadores DP possuem BLS.
+Sim, se tiver ____ ____.	Sim, se tiver rebocador auxiliar.
+Em ____ de mar ____.	Em condições de mar grosso.
+____ + ____ + AHTS.	Plataforma + Shuttle + AHTS.
+Pipe ____ ____ Vessel.	Pipe Laying Support Vessel.
+Realizar o ____ de linhas ou dutos ____ e rígidos.	Realizar o lançamento de linhas ou dutos flexíveis e rígidos.
+Linhas ou dutos ____ e rígidos, com um ou mais sistemas de ____.	Linhas ou dutos flexíveis e rígidos, com um ou mais sistemas de lançamento.
+Para interligar poços a ____ de produção e ____.	Para interligar poços a plataformas de produção e transferência.
+Carrossel ou cestas, bobinas, ____, ____ subsea, torre de lançamento e ROV.	Carrossel ou cestas, bobinas, tensionadores, guindastes subsea, torre de lançamento e ROV.
+____ pelos métodos S-Lay e J-Lay e ____ de dutos flexíveis.	Lançamento pelos métodos S-Lay e J-Lay e recolhimento de dutos flexíveis.
+a conexão vertical direta para ____ de ____ no leito marinho.	É a conexão vertical direta para interligação de equipamentos no leito marinho.
+Em ____ como mau tempo, para evitar ____ no sistema.	Em situações como mau tempo, para evitar avarias no sistema.
+deixar ou recolher linhas ____, inclusive em situações de ____.	É deixar ou recolher linhas abandonadas, inclusive em situações de emergência.
+Com SDSV.	Com SDSV.
+____ e ____ testes de linhas.	Armazenar e realizar testes de linhas.
+A ____ é a área principal do PLSV e assume ____ ____ conforme o método de lançamento.	Torre; configurações diferentes.
+Soldagem, ____, aligners e ____(para embarcações de lançamento de dutos rígidos).	Soldagem, tensionadores, aligners e straighteners(para embarcações de lançamento de dutos rígidos).
+Ela pode se ____.	Ela pode se inclinar.
+____ o ____ da linha.	Permitir o lançamento da linha.
+Pode ____ mais de um.	Pode haver mais de um.
+____ de ____..	Sistema de anti-heeling.
+Alta ____, sistemas sob tensão, danos ao ____, danos ambientais e erros humanos.	Alta complexidade, sistemas sob tensão, danos ao patrimônio, danos ambientais e erros humanos.
+Danos a ____ ____ e unidades.	Danos a estruturas submarinas e unidades.
+Petróleo e gás; eólica offshore; ____ marítimo; logística; pesca e ____; produção de alimentos; pesquisa científica; defesa e segurança.	Petróleo e gás; eólica offshore; transporte marítimo;  logística; pesca e aquicultura; produção de alimentos;  pesquisa científica; defesa e segurança.
+Fixas, móveis, ____, de apoio e ____.	Fixas, móveis, flutuantes, de apoio e especiais.
+Poço ____ e poço ____.	Poço vertical e poço direcional.
+Possui ____ e torre de ____ no convés.	Possui propulsão e torre de perfuração no convés.
+Possui propulsão em DP, geração de energia, hotelaria e ____ de ____.	Possui propulsão em DP, geração de energia, hotelaria e capacidade de manutenção.
+____, ____ e Spar.	Semissubmersível, navio-sonda e Spar.
+Embarcação robusta projetada para reboque, ____, pull-back e apoio logístico e ____.	Embarcação robusta projetada para reboque, ancoragem/desancoragem, pull-back e apoio logístico e operacional.
+Ficam no convés ____ e podem ser acionados local ou ____.	Ficam no convés principal e podem ser acionados local ou remotamente.
+Prender o sistema sob tensão, ____ a tensão do guincho e ____ que a equipe de convés trabalhe com segurança.	Prender o sistema sob tensão, aliviando a tensão do guincho e permitindo que a equipe de convés trabalhe com segurança.
+Evitar a abrasão de cabos e amarras e ____ a ____ de materiais.	Evitar a abrasão de cabos e amarras e facilitar a movimentação de materiais.
+____ de ____.	Coroa de Barbotin.
+Smit ____.	Smit Bracket.
+____ Plate, ____ Plate ou Delta Plate.	Monkey Plate, Triangular Plate ou Delta Plate.
+____ da força de Bollard Pull do AHTS para posicionar ou tensionar ____ e estruturas flutuantes.	Utilização da força de Bollard Pull do AHTS para posicionar ou tensionar equipamentos e estruturas flutuantes.
+Passagem e ____ de cabos, ____ a catenária.	Passagem e tensionamento de cabos, considerando a catenária.
+Aplicar tração para assentar a âncora no fundo do mar e ____ a linha de ____, mantendo a unidade na posição desejada.	Aplicar tração para assentar a âncora no fundo do mar e tensionar a linha de ancoragem, mantendo a unidade na posição desejada.
+Alto Bollard Pull; tração controlada; ____ contínuo da tensão e do ____; e garantia da integridade do sistema de ancoragem.	Alto Bollard Pull; tração controlada; monitoramento contínuo da tensão e do posicionamento; e garantia da integridade do sistema de ancoragem.
+De forma controlada, com ____ contínuo da tensão e do ____.	De forma controlada, com monitoramento contínuo da tensão e do posicionamento.
+A ____ e o ____.	A tensão e o posicionamento.
+Para garantir a ____ do sistema de ____.	Para garantir a integridade do sistema de ancoragem.
+____ e ____ (Cage).	Top-hat e gaiola (Cage).
+____; ____; tempo real.	programada; semi-autônoma; tempo real.
+____ a equipe até o ponto mais próximo da operação e manter estoque de ____ de ar.	Transportar a equipe até o ponto mais próximo da operação e manter estoque de suprimento de ar.
+____ de manutenção, risco de incêndio e ____ de parasitas devido à umidade.	Dificuldade de manutenção, risco de incêndio e proliferação de parasitas devido à umidade.
+Gestão do umbilical; Prevenção de ____ nos ____; Definição do raio seguro do mergulhador; Controle da tensão.	Gestão do umbilical;  Prevenção de enroscamento nos propulsores;  Definição do raio seguro do mergulhador;  Controle da tensão.
+Miros Oil Spill ____ ;____ Oil Radar.	Miros Oil Spill Detection ;Furuno Oil Radar.
+____ que sugam e removem ____ nocivas da área delimitada pelas barreiras de contenção.	Equipamentos que sugam e removem substâncias nocivas da área delimitada pelas barreiras de contenção.
+As ____ são utilizadas para rastrear a ____ da mancha de óleo à deriva e orientar a embarcação até a área de ____.	trajetória;recolhimento.
+No ____ ____.	No convés principal.

@@ -1,0 +1,1681 @@
+================================================================================
+CONTROLE DE CORRESPONDÊNCIA E RASTREABILIDADE TÉCNICA DOS CARDS DE IOM
+================================================================================
+Total de Cards Rastreados: 167 de 167 (100% mapeados com sucesso)
+Arquivo Fonte de Referência: ACON-B__IOM__1° Prova.txt
+Arquivo de Cards Originais : ACON-B__IOM__1° Prova__IOM - QUESTÕES LACUNAS 170Q.txt
+Arquivo de Cards Auditados : AUDITORIA_FINAL\IOM_170_CARDS_AUDITADOS.txt
+
+FORMATO DESTE REGISTRO:
+ID | LINHA FONTE | QUESTÃO ORIGINAL | RESPOSTA ORIGINAL | FRENTE AUDITADA | VERSO AUDITADO
+================================================================================
+--------------------------------------------------------------------------------
+ID                 : CARD_001
+LINHA FONTE (orig) : Linha 0
+QUESTÃO ORIGINAL   : O que significa PSV?
+RESPOSTA ORIGINAL  : Platform Supply Vessel.
+FRENTE ANTERIOR    : PSV significa Platform ____ Vessel.
+VERSO ANTERIOR     : Platform Supply Vessel.
+FRENTE AUDITADA    : Na terminologia marítima offshore, a sigla PSV significa Platform ____ Vessel.
+VERSO AUDITADO     : Supply
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_002
+LINHA FONTE (orig) : Linha 1
+QUESTÃO ORIGINAL   : Para que são utilizadas as embarcações PSV?
+RESPOSTA ORIGINAL  : Para transporte de materiais, suprimentos e pessoas.
+FRENTE ANTERIOR    : As embarcações PSV são utilizadas para o transporte de ____, ____ e ____.
+VERSO ANTERIOR     : materiais, suprimentos e pessoas.
+FRENTE AUDITADA    : As embarcações de apoio do tipo PSV são utilizadas no suporte offshore para o transporte de materiais, suprimentos e ____.
+VERSO AUDITADO     : pessoas
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_003
+LINHA FONTE (orig) : Linha 2
+QUESTÃO ORIGINAL   : Que tipo de apoio o PSV presta nas atividades Offshore?
+RESPOSTA ORIGINAL  : Suporte à construção, manutenção e trabalho submarino.
+FRENTE ANTERIOR    : Nas atividades offshore, o PSV presta suporte à ____, à ____ e ao trabalho ____.
+VERSO ANTERIOR     : Suporte à construção, manutenção e trabalho submarino.
+FRENTE AUDITADA    : Nas atividades offshore, a embarcação PSV presta suporte operacional à construção, à manutenção e ao trabalho ____.
+VERSO AUDITADO     : submarino
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_004
+LINHA FONTE (orig) : Linha 3
+QUESTÃO ORIGINAL   : Por que o PSV requer grandes áreas de convés e tanques?
+RESPOSTA ORIGINAL  : Para receber granéis líquidos e sólidos.
+FRENTE ANTERIOR    : O PSV possui grandes áreas de convés e tanques para receber granéis ____ e ____.
+VERSO ANTERIOR     : Para receber granéis líquidos e sólidos.
+FRENTE AUDITADA    : O PSV possui grandes áreas de convés e tanques dedicados a receber e transportar granéis líquidos e ____.
+VERSO AUDITADO     : sólidos
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_005
+LINHA FONTE (orig) : Linha 20
+QUESTÃO ORIGINAL   : Para que os equipamentos e a arquitetura do PSV são adaptados nas operações de carga a granel?
+RESPOSTA ORIGINAL  : Para contenção, sucção, armazenamento e bombeamento de suprimentos e consumíveis diversos.
+FRENTE ANTERIOR    : Nas operações de carga a granel, os equipamentos e a arquitetura do PSV permitem a ____, ____, ____ e ____ de suprimentos e consumíveis.
+VERSO ANTERIOR     : contenção, sucção, armazenamento e bombeamento.
+FRENTE AUDITADA    : Nas operações de carga a granel, os equipamentos e a arquitetura do PSV permitem a contenção, sucção, armazenamento e ____ de suprimentos e consumíveis.
+VERSO AUDITADO     : bombeamento
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_006
+LINHA FONTE (orig) : Linha 22
+QUESTÃO ORIGINAL   : Dê cinco exemplos de cargas a granel.
+RESPOSTA ORIGINAL  : Baritina, O.D., água, cimento, cascalhos e etc..
+FRENTE ANTERIOR    : Cinco exemplos de cargas a granel são baritina, ____, água, ____ e cascalhos.
+VERSO ANTERIOR     : O.D. ; cimento.
+FRENTE AUDITADA    : Entre os principais exemplos de cargas a granel transportadas por embarcações PSV estão baritina, água, cascalhos, óleo diesel (O.D.) e ____.
+VERSO AUDITADO     : cimento
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_007
+LINHA FONTE (orig) : Linha 26
+QUESTÃO ORIGINAL   : O que deve ser verificado para evitar a petrificação de redes e tanques?
+RESPOSTA ORIGINAL  : A necessidade de uso de agitadores.
+FRENTE ANTERIOR    : Para evitar a petrificação de redes e tanques, deve-se verificar a necessidade de uso de ____.
+VERSO ANTERIOR     : Agitadores.
+FRENTE AUDITADA    : Nos tanques de granéis do PSV, para evitar a petrificação de redes e decantação da carga, deve-se verificar a necessidade de uso de ____.
+VERSO AUDITADO     : agitadores
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_008
+LINHA FONTE (orig) : Linha 32
+QUESTÃO ORIGINAL   : Onde deve haver atenção especial ao posicionamento da força de trabalho durante operações com mangotes?
+RESPOSTA ORIGINAL  : No convés, durante conexão, desconexão de mangotes ou quando houver risco de chicoteamento.
+FRENTE ANTERIOR    : Durante a conexão e desconexão de mangotes, ou quando houver risco de chicoteamento, deve-se ter atenção ao posicionamento da força de trabalho no ____.
+VERSO ANTERIOR     : Convés.
+FRENTE AUDITADA    : Durante a conexão e desconexão de mangotes ou manobras com risco de chicoteamento, deve-se ter atenção rigorosa ao posicionamento da equipe no ____.
+VERSO AUDITADO     : convés
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_009
+LINHA FONTE (orig) : Linha 33
+QUESTÃO ORIGINAL   : O que deve ser respeitado para evitar acidentes por rompimento do mangote?
+RESPOSTA ORIGINAL  : Os limites operacionais.
+FRENTE ANTERIOR    : Para evitar acidentes por rompimento do mangote, devem ser respeitados os ____ ____.
+VERSO ANTERIOR     : Os limites operacionais.
+FRENTE AUDITADA    : Os limites ____ devem ser rigorosamente respeitados durante a transferência para evitar acidentes graves decorrentes do rompimento do mangote.
+VERSO AUDITADO     : operacionais
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_010
+LINHA FONTE (orig) : Linha 34
+QUESTÃO ORIGINAL   : O que pode acontecer com o mangote em condições adversas?
+RESPOSTA ORIGINAL  : O maior passeio da embarcação pode causar o rompimento ou a desconexão forçada do mangote.
+FRENTE ANTERIOR    : Em condições adversas, o maior passeio da embarcação pode causar o ____ ou a ____ forçada do mangote.
+VERSO ANTERIOR     : O maior passeio da embarcação pode causar o rompimento ou a desconexão forçada do mangote.
+FRENTE AUDITADA    : Em condições adversas, o maior passeio da embarcação amarrada ao mangote pode provocar sua desconexão forçada ou o seu ____.
+VERSO AUDITADO     : rompimento
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_011
+LINHA FONTE (orig) : Linha 38
+QUESTÃO ORIGINAL   : Quais limites devem ser observados durante as operações do PSV?
+RESPOSTA ORIGINAL  : Os limites operacionais da embarcação e da atividade, a capacidade de carga do guindaste e suas condições de operação.
+FRENTE ANTERIOR    : Nas operações do PSV, devem ser observados os limites operacionais da ____, da ____, a capacidade de carga do ____ e as condições de operação.
+VERSO ANTERIOR     : embarcação;atividade, guindaste
+FRENTE AUDITADA    : Nas operações de transferência de carga do PSV, além dos limites da embarcação e da atividade, deve-se observar rigorosamente a capacidade de carga do ____.
+VERSO AUDITADO     : guindaste
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_012
+LINHA FONTE (orig) : Linha 40
+QUESTÃO ORIGINAL   : O que significa a sigla AHTS?
+RESPOSTA ORIGINAL  : Anchor Handling Tug Supply Vessel - Embarcação de Reboque, Manuseio de Âncoras e Suprimento.
+FRENTE ANTERIOR    : AHTS significa Anchor Handling Tug ____ Vessel.
+VERSO ANTERIOR     : Anchor Handling Tug Supply Vessel.
+FRENTE AUDITADA    : Na terminologia offshore, a sigla AHTS significa Anchor Handling Tug ____ Vessel.
+VERSO AUDITADO     : Supply
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_013
+LINHA FONTE (orig) : Linha 41
+QUESTÃO ORIGINAL   : Qual foi a origem do AHTS?
+RESPOSTA ORIGINAL  : Começou como embarcação para manuseio de âncoras nos EUA.
+FRENTE ANTERIOR    : O AHTS surgiu inicialmente como embarcação para manuseio de âncoras nos ____.
+VERSO ANTERIOR     : EUA.
+FRENTE AUDITADA    : Historicamente, o AHTS surgiu como uma embarcação voltada primordialmente para o manuseio de âncoras nos ____.
+VERSO AUDITADO     : EUA
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_014
+LINHA FONTE (orig) : Linha 42
+QUESTÃO ORIGINAL   : Por que a tecnologia do AHTS precisou evoluir no Mar do Norte?
+RESPOSTA ORIGINAL  : Porque eram necessárias operações multitarefas em águas mais profundas, incluindo reboque e manuseio.
+FRENTE ANTERIOR    : No Mar do Norte, a tecnologia do AHTS evoluiu para permitir operações multitarefas em águas mais profundas, incluindo ____ e manuseio de ____.
+VERSO ANTERIOR     : Reboque ; âncora.
+FRENTE AUDITADA    : No Mar do Norte, a tecnologia do AHTS evoluiu para permitir operações multitarefas em águas profundas, combinando o manuseio de âncoras e o ____.
+VERSO AUDITADO     : reboque
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_015
+LINHA FONTE (orig) : Linha 45
+QUESTÃO ORIGINAL   : Qual é uma das principais atividades do AHTS no manuseio de âncoras?
+RESPOSTA ORIGINAL  : Dar suporte às operações de posicionamento, manutenção e retirada de sistemas de ancoragem.
+FRENTE ANTERIOR    : No manuseio de âncoras, o AHTS apoia o posicionamento, a ____ e a retirada de sistemas de ____.
+VERSO ANTERIOR     : manutenção; ancoragem.
+FRENTE AUDITADA    : No manuseio de âncoras, o AHTS presta suporte às operações de posicionamento, manutenção e retirada de sistemas de ____.
+VERSO AUDITADO     : ancoragem
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_016
+LINHA FONTE (orig) : Linha 46
+QUESTÃO ORIGINAL   : Quais fatores influenciam o sucesso de uma operação de manuseio de âncora?
+RESPOSTA ORIGINAL  : Peso da âncora, tipo de solo, equipamento, profundidade e condições.
+FRENTE ANTERIOR    : O sucesso de uma operação de manuseio de âncora depende do peso da ____, do tipo de ____, do equipamento, da ____ e das condições.
+VERSO ANTERIOR     : âncora, solo, profundidade.
+FRENTE AUDITADA    : O sucesso de uma operação de manuseio pelo AHTS depende do tipo de solo, equipamento, profundidade, condições marítimas e do peso da ____.
+VERSO AUDITADO     : âncora
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_017
+LINHA FONTE (orig) : Linha 47
+QUESTÃO ORIGINAL   : O que uma operação de manuseio de âncora pode alterar na embarcação?
+RESPOSTA ORIGINAL  : A manobrabilidade e a estabilidade da embarcação.
+FRENTE ANTERIOR    : Uma operação de manuseio de âncora pode alterar a ____ e a ____ da embarcação.
+VERSO ANTERIOR     : A manobrabilidade e a estabilidade da embarcação.
+FRENTE AUDITADA    : Devido aos grandes esforços e forças laterais exercidas pelas linhas, a operação de manuseio de âncora pode afetar gravemente a manobrabilidade e a ____ da embarcação.
+VERSO AUDITADO     : estabilidade
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_018
+LINHA FONTE (orig) : Linha 48
+QUESTÃO ORIGINAL   : Como é classificada a atividade de manuseio de âncora quanto à criticidade?
+RESPOSTA ORIGINAL  : É uma atividade de alta criticidade, com taxas de acidentes e incidentes.
+FRENTE ANTERIOR    : O manuseio de âncora é uma atividade de alta ____, com taxas de acidentes e incidentes.
+VERSO ANTERIOR     : criticidade.
+FRENTE AUDITADA    : Devido ao elevado potencial de risco e às taxas históricas de acidentes e incidentes, o manuseio de âncora é classificado como uma atividade de alta ____.
+VERSO AUDITADO     : criticidade
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_019
+LINHA FONTE (orig) : Linha 49
+QUESTÃO ORIGINAL   : Qual é uma das atividades de reboque do AHTS?
+RESPOSTA ORIGINAL  : Reboque e movimentação de unidades semissubmerviseis, FPSO e outras embarcações.
+FRENTE ANTERIOR    : Entre as atividades de reboque do AHTS estão a movimentação de unidades ____ , ____, e de outras embarcações.
+VERSO ANTERIOR     : semissubmerviseis, FPSO.
+FRENTE AUDITADA    : Entre as principais operações de reboque executadas pelo AHTS está a movimentação de outras embarcações e de grandes unidades flutuantes, como semissubmersíveis e ____.
+VERSO AUDITADO     : FPSOs
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_020
+LINHA FONTE (orig) : Linha 50
+QUESTÃO ORIGINAL   : O que é a cabresteira?
+RESPOSTA ORIGINAL  : É um sistema de amarração composto por dois cabos ou amarras ao qual se talinga um cabo de reboque.
+FRENTE ANTERIOR    : um sistema de ____ ____ por dois cabos ou amarras ao qual se talinga um cabo de reboque.
+VERSO ANTERIOR     : É um sistema de amarração composto por dois cabos ou amarras ao qual se talinga um cabo de reboque.
+FRENTE AUDITADA    : O arranjo de reboque composto por dois cabos de aço ou amarras formando pernas ao qual se talinga o cabo principal é denominado ____.
+VERSO AUDITADO     : cabresteira
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_021
+LINHA FONTE (orig) : Linha 51
+QUESTÃO ORIGINAL   : Como pode ser composta a cabresteira?
+RESPOSTA ORIGINAL  : Por cabos de aço ou amarras conectados às pernas da unidade.
+FRENTE ANTERIOR    : Por cabos de aço ou ____ ____ às pernas da unidade.
+VERSO ANTERIOR     : Por cabos de aço ou amarras conectados às pernas da unidade.
+FRENTE AUDITADA    : A cabresteira de reboque conectada às pernas da unidade marítima pode ser estruturada por cabos de aço ou por ____.
+VERSO AUDITADO     : amarras
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_022
+LINHA FONTE (orig) : Linha 52
+QUESTÃO ORIGINAL   : Por meio de qual dispositivo a cabresteira pode ser conectada à perna da unidade?
+RESPOSTA ORIGINAL  : Dispositivo chamado smit bracket.
+FRENTE ANTERIOR    : Por um ____ ____ smit bracket.
+VERSO ANTERIOR     : Por um dispositivo chamado smit bracket.
+FRENTE AUDITADA    : A cabresteira pode ser conectada com segurança à perna da unidade rebocada por meio de um dispositivo reforçado denominado smit ____.
+VERSO AUDITADO     : bracket
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_023
+LINHA FONTE (orig) : Linha 54
+QUESTÃO ORIGINAL   : O que são os horns no AHTS?
+RESPOSTA ORIGINAL  : Estruturas metálicas robustas instaladas na popa do convés, para guiar e conter cabos e amarras durante operações de manuseio e reboque.
+FRENTE ANTERIOR    : ____ metálicas robustas ____ na popa do convés, para guiar e conter cabos e amarras durante operações de manuseio e reboque.
+VERSO ANTERIOR     : Estruturas metálicas robustas instaladas na popa do convés, para guiar e conter cabos e amarras durante operações de manuseio e reboque.
+FRENTE AUDITADA    : No AHTS, as estruturas metálicas robustas instaladas na popa do convés para guiar e conter cabos e amarras são denominadas ____.
+VERSO AUDITADO     : horns
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_024
+LINHA FONTE (orig) : Linha 55
+QUESTÃO ORIGINAL   : Cite três funções dos horns durante uma operação de reboque?
+RESPOSTA ORIGINAL  : Evitar que a linha escape lateralmente sob alta carga; Evitar problemas de estabilidade; Evitar risco de emborcamento.
+FRENTE ANTERIOR    : Evitar que a linha escape ____ sob alta carga; Evitar problemas de ____; Evitar risco de emborcamento.
+VERSO ANTERIOR     : lateralmente; estabilidade.
+FRENTE AUDITADA    : Durante o reboque no AHTS, os horns contêm a linha lateralmente sob alta carga para preservar a estabilidade da embarcação e evitar o risco de ____.
+VERSO AUDITADO     : emborcamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_025
+LINHA FONTE (orig) : Linha 57
+QUESTÃO ORIGINAL   : Quais características de propulsão e capacidade são citadas para o AHTS?
+RESPOSTA ORIGINAL  : Propulsão convencional e Bollard pull.
+FRENTE ANTERIOR    : ____ ____ e Bollard pull.
+VERSO ANTERIOR     : Propulsão convencional e Bollard pull.
+FRENTE AUDITADA    : Entre as características essenciais de propulsão e capacidade de tração exigidas de uma embarcação AHTS destaca-se o elevado ____ ____.
+VERSO AUDITADO     : Bollard pull
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_026
+LINHA FONTE (orig) : Linha 59
+QUESTÃO ORIGINAL   : Qual é a função do guincho de trabalho/manuseio?
+RESPOSTA ORIGINAL  : Posicionar a âncora e fazer o tensionamento.
+FRENTE ANTERIOR    : ____ a âncora e fazer o ____.
+VERSO ANTERIOR     : Posicionar a âncora e fazer o tensionamento.
+FRENTE AUDITADA    : No AHTS, a função principal do guincho de trabalho/manuseio é posicionar a âncora e efetuar o seu ____.
+VERSO AUDITADO     : tensionamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_027
+LINHA FONTE (orig) : Linha 62
+QUESTÃO ORIGINAL   : Para que o guincho secundário é geralmente utilizado?
+RESPOSTA ORIGINAL  : Para estivar cabos de ancoragem, dispostos no sarilho (tambor).
+FRENTE ANTERIOR    : Tem menor força. ____ ____ para estivar cabos de ancoragem, dispostos no sarilho (tambor).
+VERSO ANTERIOR     : Geralmente utilizados.
+FRENTE AUDITADA    : No AHTS, o guincho secundário apresenta menor capacidade de tração e é destinado a estivar cabos de ancoragem dispostos em seu ____ (tambor).
+VERSO AUDITADO     : sarilho
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_028
+LINHA FONTE (orig) : Linha 62
+QUESTÃO ORIGINAL   : Para que o guincho secundário é geralmente utilizado?
+RESPOSTA ORIGINAL  : Para estivar cabos de ancoragem, dispostos no sarilho (tambor).
+FRENTE ANTERIOR    : Para estivar cabos de ____, ____ no sarilho (tambor).
+VERSO ANTERIOR     : Para estivar cabos de ancoragem, dispostos no sarilho (tambor).
+FRENTE AUDITADA    : No guincho secundário do AHTS, os cabos estivados no sarilho destinam-se a operações de ____.
+VERSO AUDITADO     : ancoragem
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_029
+LINHA FONTE (orig) : Linha 64
+QUESTÃO ORIGINAL   : Quais acessórios de convés são citados entre os principais equipamentos do AHTS?
+RESPOSTA ORIGINAL  : Shark jaw/Karm fork, Pinos de reboque; Guide e stop pins; Rolo de popa e horn.
+FRENTE ANTERIOR    : Shark ____ fork, Pinos de ____; Guide e stop pins; Rolo de popa e horn.
+VERSO ANTERIOR     : jaw/Karm fork, reboque.
+FRENTE AUDITADA    : Entre os principais acessórios de convés do AHTS para guia e contenção de cabos estão o Shark jaw, o rolo de popa, os horns e os pinos de ____.
+VERSO AUDITADO     : reboque
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_030
+LINHA FONTE (orig) : Linha 65
+QUESTÃO ORIGINAL   : O que são os pinos hidráulicos Guide e Stop?
+RESPOSTA ORIGINAL  : São pinos do convés principal, acionados remotamente.
+FRENTE ANTERIOR    : pinos do convés ____, acionados ____.
+VERSO ANTERIOR     : São pinos do convés principal, acionados remotamente.
+FRENTE AUDITADA    : No AHTS, os pinos hidráulicos de convés Guide e Stop têm a característica de serem acionados de forma ____.
+VERSO AUDITADO     : remota
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_031
+LINHA FONTE (orig) : Linha 66
+QUESTÃO ORIGINAL   : Por que os Guide e Stop pins são importantes para a segurança da força de trabalho no convés?
+RESPOSTA ORIGINAL  : Porque mantêm o sistema sobre o rolo de popa, evitando que “corram” pelo convés.
+FRENTE ANTERIOR    : Porque mantêm o ____ sobre o rolo de popa, ____ que “corram” pelo convés.
+VERSO ANTERIOR     : Porque mantêm o sistema sobre o rolo de popa, evitando que “corram” pelo convés.
+FRENTE AUDITADA    : No AHTS, os pinos Guide e Stop aumentam a segurança da equipe ao manter os cabos alinhados sobre o rolo de popa, impedindo que corram descontrolados pelo ____.
+VERSO AUDITADO     : convés
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_032
+LINHA FONTE (orig) : Linha 67
+QUESTÃO ORIGINAL   : O que é o A-Frame?
+RESPOSTA ORIGINAL  : Tipo de guincho em formato de “A” (pórtico), localizado na popa em embarcações de manuseio.
+FRENTE ANTERIOR    : Tipo de guincho em formato de “A” (pórtico), ____ na popa em ____ de manuseio.
+VERSO ANTERIOR     : Tipo de guincho em formato de “A” (pórtico), localizado na popa em embarcações de manuseio.
+FRENTE AUDITADA    : O equipamento de movimentação de cargas em formato de pórtico em 'A', posicionado na popa de embarcações de manuseio e apoio submarino, é o ____.
+VERSO AUDITADO     : A-Frame
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_033
+LINHA FONTE (orig) : Linha 68
+QUESTÃO ORIGINAL   : Qual é a função do A-Frame?
+RESPOSTA ORIGINAL  : Facilitar o lançamento e recolhimento de equipamentos.
+FRENTE ANTERIOR    : Facilitar o lançamento e ____ de ____.
+VERSO ANTERIOR     : Facilitar o lançamento e recolhimento de equipamentos.
+FRENTE AUDITADA    : A principal função operacional do pórtico de popa (A-Frame) é facilitar o lançamento e o ____ de equipamentos e ferramentas submarinas.
+VERSO AUDITADO     : recolhimento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_034
+LINHA FONTE (orig) : Linha 70
+QUESTÃO ORIGINAL   : Que apoio o AHTS presta a Terminais Oceânicos?
+RESPOSTA ORIGINAL  : Suporte a operações em terminal oceânico (monoboia) e de transferência de petróleo com aliviadores.
+FRENTE ANTERIOR    : Suporte a operações em terminal oceânico (monoboia) e de ____ de petróleo com ____.
+VERSO ANTERIOR     : Suporte a operações em terminal oceânico (monoboia) e de transferência de petróleo com aliviadores.
+FRENTE AUDITADA    : No apoio a terminais oceânicos dotados de monoboia, o AHTS presta suporte às manobras de amarração e transferência de petróleo com navios ____.
+VERSO AUDITADO     : aliviadores
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_035
+LINHA FONTE (orig) : Linha 71
+QUESTÃO ORIGINAL   : Que atividade relacionada aos mangotes é atribuída ao AHTS no apoio a Terminais Oceânicos?
+RESPOSTA ORIGINAL  : Manutenção e inspeções de mangotes.
+FRENTE ANTERIOR    : ____ e ____ de mangotes.
+VERSO ANTERIOR     : Manutenção e inspeções de mangotes.
+FRENTE AUDITADA    : No suporte a monoboias em terminais oceânicos, as atividades atribuídas ao AHTS em relação aos mangotes incluem manobras de inspeções e ____.
+VERSO AUDITADO     : manutenção
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_036
+LINHA FONTE (orig) : Linha 72
+QUESTÃO ORIGINAL   : Quando a assistência de um AHTS é obrigatória para aliviadores sem DP?
+RESPOSTA ORIGINAL  : Para aliviadores sem DP, a assistência de um AHTS é obrigatória.
+FRENTE ANTERIOR    : Para ____ sem DP, a ____ de um AHTS é obrigatória.
+VERSO ANTERIOR     : aliviadores, assistência.
+FRENTE AUDITADA    : Nas operações de transferência offloading com navios aliviadores convencionais (sem DP), a assistência de um AHTS é ____.
+VERSO AUDITADO     : obrigatória
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_037
+LINHA FONTE (orig) : Linha 73
+QUESTÃO ORIGINAL   : Quando o AHTS é requerido para aliviadores com DP?
+RESPOSTA ORIGINAL  : Quando a operação ultrapassa 36 horas ou mediante solicitação do CMT.
+FRENTE ANTERIOR    : Quando a operação ____ 36 horas ou mediante ____ do CMT.
+VERSO ANTERIOR     : Quando a operação ultrapassa 36 horas ou mediante solicitação do CMT.
+FRENTE AUDITADA    : Nas operações de alívio com navios aliviadores dotados de DP, a assistência de um AHTS passa a ser requerida caso a manobra ultrapasse ____ horas ou por solicitação do CMT.
+VERSO AUDITADO     : 36
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_038
+LINHA FONTE (orig) : Linha 74
+QUESTÃO ORIGINAL   : Quais são os principais riscos operacionais citados para o AHTS?
+RESPOSTA ORIGINAL  : Desgaste de materiais e equipamentos do convés; falhas de comunicação passadiço–convés ou passadiço–plataforma; erros de avaliação e pesos suspensos.
+FRENTE ANTERIOR    : Desgaste de materiais e ____ do convés; falhas de ____ passadiço–convés ou passadiço–plataforma; erros de avaliação e pesos suspensos.
+VERSO ANTERIOR     : Desgaste de materiais e equipamentos do convés; falhas de comunicação passadiço–convés ou passadiço–plataforma; erros de avaliação e pesos suspensos.
+FRENTE AUDITADA    : Entre os riscos operacionais a bordo do AHTS durante manobras sob tensão, destacam-se pesos suspensos e falhas de ____ entre o passadiço e o convés.
+VERSO AUDITADO     : comunicação
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_039
+LINHA FONTE (orig) : Linha 75
+QUESTÃO ORIGINAL   : Qual material apresenta maior destaque entre os riscos de desgaste operacional?
+RESPOSTA ORIGINAL  : Cabos de aço, devido aos grandes esforços a que são submetidos.
+FRENTE ANTERIOR    : Cabos de aço, devido aos grandes ____ a que são ____.
+VERSO ANTERIOR     : Cabos de aço, devido aos grandes esforços a que são submetidos.
+FRENTE AUDITADA    : Entre os componentes de convés do AHTS submetidos a severos esforços de tração e com maior destaque para risco de desgaste operacional estão os cabos de ____.
+VERSO AUDITADO     : aço
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_040
+LINHA FONTE (orig) : Linha 79
+QUESTÃO ORIGINAL   : O que é um Navio Sísmico?
+RESPOSTA ORIGINAL  : É uma embarcação utilizada para pesquisa sísmica marítima e prospecção de O&G nas camadas do substrato marinho.
+FRENTE ANTERIOR    : O _____ é uma ____ utilizada para pesquisa sísmica marítima e ____ de O&G nas camadas do substrato marinho.
+VERSO ANTERIOR     : Navio sísmico; embarcação; prospecção.
+FRENTE AUDITADA    : O navio sísmico é uma embarcação especializada empregada na pesquisa geofísica marítima e na ____ de petróleo e gás nas camadas do substrato marinho.
+VERSO AUDITADO     : prospecção
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_041
+LINHA FONTE (orig) : Linha 82
+QUESTÃO ORIGINAL   : Qual é uma das principais características do Navio Sísmico em relação aos cabos?
+RESPOSTA ORIGINAL  : Ele realiza o reboque de cabos de 6 km de comprimento.
+FRENTE ANTERIOR    : Ele ____ o reboque de cabos de 6 km de ____.
+VERSO ANTERIOR     : Ele realiza o reboque de cabos de 6 km de comprimento.
+FRENTE AUDITADA    : Durante o levantamento geofísico marinho, uma característica marcante do Navio Sísmico é realizar o reboque de cabos com sensores com extensão de até ____ km.
+VERSO AUDITADO     : 6
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_042
+LINHA FONTE (orig) : Linha 83
+QUESTÃO ORIGINAL   : Como são identificadas as extremidades dos cabos rebocados pelo Navio Sísmico?
+RESPOSTA ORIGINAL  : Por boias com luzes.
+FRENTE ANTERIOR    : Por ____ com luzes nas ____ dos cabos.
+VERSO ANTERIOR     : Por boias com luzes nas extremidades dos cabos.
+FRENTE AUDITADA    : As extremidades dos longos cabos rebocados pelo Navio Sísmico são equipadas com ____ providas de luzes para sinalização e rastreamento náutico.
+VERSO AUDITADO     : boias
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_043
+LINHA FONTE (orig) : Linha 84
+QUESTÃO ORIGINAL   : Que tipo de equipamentos o Navio Sísmico utiliza?
+RESPOSTA ORIGINAL  : Equipamentos de tecnologia avançada.
+FRENTE ANTERIOR    : ____ de ____ avançada.
+VERSO ANTERIOR     : Equipamentos de tecnologia avançada.
+FRENTE AUDITADA    : O Navio Sísmico utiliza equipamentos de tecnologia ____ para realizar o mapeamento geológico de alta resolução do substrato marinho.
+VERSO AUDITADO     : avançada
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_044
+LINHA FONTE (orig) : Linha 85
+QUESTÃO ORIGINAL   : Que tipo de embarcação auxilia o Navio Sísmico?
+RESPOSTA ORIGINAL  : Uma embarcação “batedora” ou assistente.
+FRENTE ANTERIOR    : Uma ____ “batedora” ou ____.
+VERSO ANTERIOR     : Uma embarcação “batedora” ou assistente.
+FRENTE AUDITADA    : O Navio Sísmico conta com o auxílio de uma embarcação de apoio denominada ____ (ou assistente) para manter a área livre e desimpedida.
+VERSO AUDITADO     : batedora
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_045
+LINHA FONTE (orig) : Linha 86
+QUESTÃO ORIGINAL   : O que as fontes de ar comprimido fazem na operação do Navio Sísmico?
+RESPOSTA ORIGINAL  : Emitem ondas de baixa frequência que vão até as camadas do substrato marinho e retornam à superfície.
+FRENTE ANTERIOR    : Emitem ondas de baixa ____ que vão até as camadas do substrato marinho e retornam à ____.
+VERSO ANTERIOR     : Emitem ondas de baixa frequência que vão até as camadas do substrato marinho e retornam à superfície.
+FRENTE AUDITADA    : Na pesquisa geofísica marinha, as fontes acústicas de ar comprimido do Navio Sísmico emitem ondas mecânicas de baixa ____ que penetram no substrato marinho.
+VERSO AUDITADO     : frequência
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_046
+LINHA FONTE (orig) : Linha 88
+QUESTÃO ORIGINAL   : Qual é a sequência básica da operação sísmica?
+RESPOSTA ORIGINAL  : Fontes de ar comprimido emitem ondas de baixa frequência; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.
+FRENTE ANTERIOR    : Fontes de ar ____ emitem ondas de baixa ____; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.
+VERSO ANTERIOR     : Fontes de ar comprimido emitem ondas de baixa frequência; elas vão até as camadas do substrato marinho, retornam à superfície e são captadas por hidrofones presos aos cabos, gerando imagens.
+FRENTE AUDITADA    : Na sequência da aquisição sísmica marinha, as ondas acústicas refletidas pelo substrato retornam à superfície e são captadas ao longo dos cabos rebocados por sensores denominados ____.
+VERSO AUDITADO     : hidrofones
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_047
+LINHA FONTE (orig) : Linha 91
+QUESTÃO ORIGINAL   : Qual é a condição de manobra do Navio Sísmico durante a operação?
+RESPOSTA ORIGINAL  : É uma operação de manobra restrita.
+FRENTE ANTERIOR    : uma ____ de manobra ____.
+VERSO ANTERIOR     : É uma operação de manobra restrita.
+FRENTE AUDITADA    : Devido aos extensos cabos e equipamentos submersos rebocados na esteira, o Navio Sísmico em operação é considerado uma embarcação de manobra ____.
+VERSO AUDITADO     : restrita
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_048
+LINHA FONTE (orig) : Linha 93
+QUESTÃO ORIGINAL   : Qual é a função da embarcação “batedora” ou assistente?
+RESPOSTA ORIGINAL  : Fornecer assistência com suprimentos e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.
+FRENTE ANTERIOR    : Fornecer ____ com ____ e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.
+VERSO ANTERIOR     : Fornecer assistência com suprimentos e auxiliar na segurança da navegação, na comunicação e na prevenção de acidentes.
+FRENTE AUDITADA    : Além de apoiar na segurança da navegação e na comunicação, a embarcação batedora auxilia o Navio Sísmico prestando assistência logística com o fornecimento de ____.
+VERSO AUDITADO     : suprimentos
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_049
+LINHA FONTE (orig) : Linha 94
+QUESTÃO ORIGINAL   : O que significa RSV no contexto das embarcações offshore?
+RESPOSTA ORIGINAL  : ROV Support Vessel.
+FRENTE ANTERIOR    : A sigla ROV significa ____ ____.
+VERSO ANTERIOR     : ROV Support Vessel.
+FRENTE AUDITADA    : No contexto das embarcações de apoio marítimo offshore, a sigla RSV significa ROV ____ Vessel.
+VERSO AUDITADO     : Support
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_050
+LINHA FONTE (orig) : Linha 95
+QUESTÃO ORIGINAL   : Quais são as principais atividades de um RSV relacionadas aos ativos submarinos?
+RESPOSTA ORIGINAL  : Inspeções, instalações e manutenções de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.
+FRENTE ANTERIOR    : Inspeções, ____ e ____ de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.
+VERSO ANTERIOR     : Inspeções, instalações e manutenções de ativos submarinos, incluindo linhas de ancoragem, dutos, poços e Unidades Marítimas.
+FRENTE AUDITADA    : A embarcação RSV presta apoio direto a ativos submarinos (dutos, poços e linhas de ancoragem), executando inspeções, instalações e ____.
+VERSO AUDITADO     : manutenções
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_051
+LINHA FONTE (orig) : Linha 96
+QUESTÃO ORIGINAL   : Que apoio um RSV pode prestar ao lançamento de dutos?
+RESPOSTA ORIGINAL  : Pode prestar apoio ao lançamento de dutos.
+FRENTE ANTERIOR    : Pode ____ apoio ao ____ de dutos.
+VERSO ANTERIOR     : Pode prestar apoio ao lançamento de dutos.
+FRENTE AUDITADA    : Nas operações de instalação de infraestrutura submarina, a embarcação RSV pode prestar apoio visual e operacional direto ao ____ de dutos.
+VERSO AUDITADO     : lançamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_052
+LINHA FONTE (orig) : Linha 97
+QUESTÃO ORIGINAL   : Quais são algumas características de um RSV?
+RESPOSTA ORIGINAL  : ROV, sistema hidro acústico, guindastes/guinchos de grande capacidade e A-Frame.
+FRENTE ANTERIOR    : ROV, sistema hidro acústico, ____ de grande ____ e A-Frame.
+VERSO ANTERIOR     : ROV, sistema hidro acústico, guindastes/guinchos de grande capacidade e A-Frame.
+FRENTE AUDITADA    : A bordo de uma embarcação RSV, além do robô submarino (ROV), do guindaste e do A-Frame, utiliza-se para rastreamento submarino um sistema ____.
+VERSO AUDITADO     : hidroacústico
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_053
+LINHA FONTE (orig) : Linha 99
+QUESTÃO ORIGINAL   : Para que o ROV é utilizado em trabalhos que seriam realizados por mergulhadores?
+RESPOSTA ORIGINAL  : Para realizar trabalhos em profundidades ou condições inacessíveis a mergulhadores.
+FRENTE ANTERIOR    : Para realizar trabalhos em ____ ou condições inacessíveis a ____.
+VERSO ANTERIOR     : Para realizar trabalhos em profundidades ou condições inacessíveis a mergulhadores.
+FRENTE AUDITADA    : O emprego do ROV é fundamental na indústria offshore para a execução de trabalhos em profundidades e condições ambientais inacessíveis a ____.
+VERSO AUDITADO     : mergulhadores
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_054
+LINHA FONTE (orig) : Linha 100
+QUESTÃO ORIGINAL   : Que tipos de intervenções em estruturas submarinas podem ser realizadas com ROV?
+RESPOSTA ORIGINAL  : Inspeções e intervenções em dutos, linhas de ancoragem, poços, cascos, entre outros.
+FRENTE ANTERIOR    : ____ e ____ em dutos, linhas de ancoragem, poços, cascos, entre outros.
+VERSO ANTERIOR     : Inspeções e intervenções em dutos, linhas de ancoragem, poços, cascos, entre outros.
+FRENTE AUDITADA    : Em estruturas submarinas como dutos, linhas de ancoragem, poços e cascos de unidades, o ROV atua na realização de inspeções e ____.
+VERSO AUDITADO     : intervenções
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_055
+LINHA FONTE (orig) : Linha 101
+QUESTÃO ORIGINAL   : Quais operações específicas podem ser realizadas com ROV?
+RESPOSTA ORIGINAL  : Dragagem; Corte; Investigação de avarias; Contenção de avarias; Reparos de naturezas diversas.
+FRENTE ANTERIOR    : Dragagem; Corte; ____ de avarias; ____ de avarias; Reparos de naturezas diversas.
+VERSO ANTERIOR     : Dragagem; Corte; Investigação de avarias; Contenção de avarias; Reparos de naturezas diversas.
+FRENTE AUDITADA    : Entre as tarefas especializadas realizadas por ferramentas acopladas ao ROV no fundo do mar estão o corte, a dragagem e a contenção de ____.
+VERSO AUDITADO     : avarias
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_056
+LINHA FONTE (orig) : Linha 103
+QUESTÃO ORIGINAL   : Que apoio o ROV pode dar em operações com âncoras?
+RESPOSTA ORIGINAL  : Pode dar apoio às operações com manuseio de âncoras.
+FRENTE ANTERIOR    : Pode dar apoio às ____ com ____ de âncoras.
+VERSO ANTERIOR     : Pode dar apoio às operações com manuseio de âncoras.
+FRENTE AUDITADA    : Durante as fainas de ancoragem de plataformas, o ROV presta suporte visual e operacional às manobras de manuseio de ____.
+VERSO AUDITADO     : âncoras
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_057
+LINHA FONTE (orig) : Linha 105
+QUESTÃO ORIGINAL   : O que é um ROV?
+RESPOSTA ORIGINAL  : Robô de operação remota utilizado em atividades submarinas.
+FRENTE ANTERIOR    : ____ é um robô de operação remota utilizado em ____ ____.
+VERSO ANTERIOR     : ROV, atividades submarinas.
+FRENTE AUDITADA    : O veículo subaquático não tripulado controlado a distância a partir da superfície e empregado em atividades submarinas é o ____.
+VERSO AUDITADO     : ROV
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_058
+LINHA FONTE (orig) : Linha 106
+QUESTÃO ORIGINAL   : Quais sistemas e recursos permitem ao ROV operar remotamente?
+RESPOSTA ORIGINAL  : Sistema de câmeras, PRS, sonar e autonomia de controle para uso de ferramentas.
+FRENTE ANTERIOR    : Sistema de câmeras, PRS, sonar e ____ de controle para uso de ____.
+VERSO ANTERIOR     : Sistema de câmeras, PRS, sonar e autonomia de controle para uso de ferramentas.
+FRENTE AUDITADA    : O ROV é equipado com câmeras, sonar, sensores de posicionamento (PRS) e controle de ____ para permitir sua navegação remota e execução de serviços no fundo do mar.
+VERSO AUDITADO     : ferramentas
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_059
+LINHA FONTE (orig) : Linha 109
+QUESTÃO ORIGINAL   : O que é o Tether de um ROV?
+RESPOSTA ORIGINAL  : É o cabo secundário, mais fino, que conecta o ROV ao TMS.
+FRENTE ANTERIOR    : o cabo ____, mais fino, que ____ o ROV ao TMS.
+VERSO ANTERIOR     : secundário; conecta.
+FRENTE AUDITADA    : No sistema de mergulho robótico, o cabo secundário mais fino e flexível que conecta o ROV diretamente ao TMS é denominado ____.
+VERSO AUDITADO     : tether
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_060
+LINHA FONTE (orig) : Linha 110
+QUESTÃO ORIGINAL   : Quais são as principais funções do Tether?
+RESPOSTA ORIGINAL  : Transmitir energia elétrica, permitir o controle remoto do ROV, reduzir a influência da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.
+FRENTE ANTERIOR    : ____ energia elétrica, permitir o controle remoto do ROV, reduzir a ____ da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.
+VERSO ANTERIOR     : Transmitir energia elétrica, permitir o controle remoto do ROV, reduzir a influência da corrente e absorver o peso, reduzindo a sobrecarga no cabo principal.
+FRENTE AUDITADA    : Entre as funções do tether do ROV está a transmissão de energia elétrica e comandos, além de reduzir sobre o veículo a influência da ____.
+VERSO AUDITADO     : corrente
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_061
+LINHA FONTE (orig) : Linha 111
+QUESTÃO ORIGINAL   : Por que o Tether é importante para a mobilidade do ROV?
+RESPOSTA ORIGINAL  : Ele confere mobilidade fina, ideal para inspeção e intervenções subsea.
+FRENTE ANTERIOR    : Ele confere ____ fina, ideal para inspeção e ____ subsea.
+VERSO ANTERIOR     : Ele confere mobilidade fina, ideal para inspeção e intervenções subsea.
+FRENTE AUDITADA    : Ao desacoplar o ROV do peso e da tração do cabo principal de lançamento, o tether confere ao veículo a capacidade de mobilidade ____.
+VERSO AUDITADO     : fina
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_062
+LINHA FONTE (orig) : Linha 112
+QUESTÃO ORIGINAL   : O que é o TMS?
+RESPOSTA ORIGINAL  : Sistema responsável por gerenciar, armazenar e controlar o tether. Tether Management System
+FRENTE ANTERIOR    : o Tether ____ System, é o ____ por gerenciar, armazenar e controlar o tether.
+VERSO ANTERIOR     : Management; responsável.
+FRENTE AUDITADA    : No suporte a veículos submarinos operados remotamente, a sigla TMS corresponde a Tether ____ System.
+VERSO AUDITADO     : Management
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_063
+LINHA FONTE (orig) : Linha 113
+QUESTÃO ORIGINAL   : A que o TMS conecta o tether?
+RESPOSTA ORIGINAL  : O tether conecta o ROV ao sistema principal de lançamento por meio do gerenciamento feito pelo TMS.
+FRENTE ANTERIOR    : O tether conecta o ROV ao sistema principal de ____ por meio do ____ feito pelo TMS.
+VERSO ANTERIOR     : O tether conecta o ROV ao sistema principal de lançamento por meio do gerenciamento feito pelo TMS.
+FRENTE AUDITADA    : O tether conecta o veículo submarino ROV ao sistema principal de lançamento por meio do gerenciamento exercido pelo ____.
+VERSO AUDITADO     : TMS
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_064
+LINHA FONTE (orig) : Linha 114
+QUESTÃO ORIGINAL   : O que a garagem do ROV pode ter?
+RESPOSTA ORIGINAL  : Pode ter TMS ou não ter TMS.
+FRENTE ANTERIOR    : Pode ter TMS ou não ter TMS.
+VERSO ANTERIOR     : Pode ter TMS ou não ter TMS.
+FRENTE AUDITADA    : Quanto à configuração de lançamento e recolhimento de um ROV, a garagem do sistema pode operar com ou sem ____.
+VERSO AUDITADO     : TMS
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_065
+LINHA FONTE (orig) : Linha 115
+QUESTÃO ORIGINAL   : O que a garagem com TMS abriga?
+RESPOSTA ORIGINAL  : O tambor do tether.
+FRENTE ANTERIOR    : ____ o ____ do tether.
+VERSO ANTERIOR     : Abriga o tambor do tether.
+FRENTE AUDITADA    : Na configuração de lançamento de ROV dotada de TMS, a estrutura da garagem abriga internamente o tambor do ____.
+VERSO AUDITADO     : tether
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_066
+LINHA FONTE (orig) : Linha 116
+QUESTÃO ORIGINAL   : Quais são as funções do TMS tipo Top-hat?
+RESPOSTA ORIGINAL  : Armazenar o tether em um pequeno tambor interno; Pagar e recolher o tether; Reduzir o esforço no ROV; Melhorar a estabilidade.
+FRENTE ANTERIOR    : ____ o tether em um pequeno tambor interno, pagar e recolher o tether, reduzir o esforço no ROV e melhorar a ____.
+VERSO ANTERIOR     : Armazenar o tether em um pequeno tambor interno, pagar e recolher o tether, reduzir o esforço no ROV e melhorar a estabilidade.
+FRENTE AUDITADA    : O TMS do tipo Top-hat abriga o tether em tambor interno, alivia os esforços dinâmicos sobre o ROV e aprimora a sua ____.
+VERSO AUDITADO     : estabilidade
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_067
+LINHA FONTE (orig) : Linha 119
+QUESTÃO ORIGINAL   : Como é o TMS do tipo gaiola?
+RESPOSTA ORIGINAL  : É o modelo mais comum, com estrutura semelhante a uma gaiola metálica.
+FRENTE ANTERIOR    : o modelo mais comum, com ____ ____ a uma gaiola metálica.
+VERSO ANTERIOR     : É o modelo mais comum, com estrutura semelhante a uma gaiola metálica.
+FRENTE AUDITADA    : O modelo construtivo de TMS mais tradicional e comum na indústria offshore possui uma estrutura de proteção em formato de ____.
+VERSO AUDITADO     : gaiola
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_068
+LINHA FONTE (orig) : Linha 120
+QUESTÃO ORIGINAL   : Quais são as funções do TMS do tipo gaiola?
+RESPOSTA ORIGINAL  : Proteger o ROV durante a descida e a subida e funcionar como ponto intermediário entre o umbilical principal e o ROV.
+FRENTE ANTERIOR    : Proteger o ROV durante a descida e a subida e ____ como ponto ____ entre o umbilical principal e o ROV.
+VERSO ANTERIOR     : Proteger o ROV durante a descida e a subida e funcionar como ponto intermediário entre o umbilical principal e o ROV.
+FRENTE AUDITADA    : Além de proteger o ROV durante o trânsito na coluna d'água, o TMS tipo gaiola atua como ponto intermediário de conexão com o cabo ____ principal.
+VERSO AUDITADO     : umbilical
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_069
+LINHA FONTE (orig) : Linha 121
+QUESTÃO ORIGINAL   : O que é um AOV?
+RESPOSTA ORIGINAL  : É um veículo submarino autônomo sem cabo umbilical. Autonomous Observation Vehicle
+FRENTE ANTERIOR    : o ____ ____ Vehicle, um veículo submarino autônomo sem cabo umbilical.
+VERSO ANTERIOR     : É o Autonomous Observation Vehicle, um veículo submarino autônomo sem cabo umbilical.
+FRENTE AUDITADA    : O veículo submarino autônomo de observação que opera sem cabo umbilical alimentado por baterias internas é denominado ____.
+VERSO AUDITADO     : AOV
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_070
+LINHA FONTE (orig) : Linha 122
+QUESTÃO ORIGINAL   : Para que o AOV é usado?
+RESPOSTA ORIGINAL  : Para inspeções visuais; Coleta de dados ambientais; Mapeamento e reconhecimento.
+FRENTE ANTERIOR    : Para inspeções visuais, coleta de dados ____, mapeamento e ____.
+VERSO ANTERIOR     : Para inspeções visuais, coleta de dados ambientais, mapeamento e reconhecimento.
+FRENTE AUDITADA    : Entre as principais missões atribuídas ao veículo autônomo AOV estão as inspeções visuais, o mapeamento submarino e a coleta de dados ____.
+VERSO AUDITADO     : ambientais
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_071
+LINHA FONTE (orig) : Linha 123
+QUESTÃO ORIGINAL   : Como o AOV se diferencia do ROV quanto à forma de operação?
+RESPOSTA ORIGINAL  : O AOV navega de forma programada ou semi-autônoma, enquanto o ROV é pilotado em tempo real.
+FRENTE ANTERIOR    : O AOV navega de forma ____ ou ____, enquanto o ROV é pilotado em tempo real.
+VERSO ANTERIOR     : O AOV navega de forma programada ou semi-autônoma, enquanto o ROV é pilotado em tempo real.
+FRENTE AUDITADA    : Quanto ao modo de operação submarina, enquanto o ROV é pilotado ativamente em tempo real por um operador, o AOV navega de forma programada ou ____.
+VERSO AUDITADO     : semiautônoma
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_072
+LINHA FONTE (orig) : Linha 124
+QUESTÃO ORIGINAL   : Quais são as principais características do AOV?
+RESPOSTA ORIGINAL  : Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões pré-programadas e tem foco em observação.
+FRENTE ANTERIOR    : Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões ____ e tem foco em ____.
+VERSO ANTERIOR     : Não usa tether, utiliza baterias internas e navegação autônoma, realiza missões pré-programadas e tem foco em observação.
+FRENTE AUDITADA    : Por operar sem tether e depender exclusivamente de baterias internas, o AOV cumpre rotas pré-programadas com foco principal em missões de ____.
+VERSO AUDITADO     : observação
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_073
+LINHA FONTE (orig) : Linha 129
+QUESTÃO ORIGINAL   : O que significa DSV?
+RESPOSTA ORIGINAL  : Diving Support Vessel.
+FRENTE ANTERIOR    : DSV significa ____ ____ Vessel.
+VERSO ANTERIOR     : Diving Support Vessel.
+FRENTE AUDITADA    : Na terminologia das embarcações de apoio offshore, a sigla DSV significa ____ Support Vessel.
+VERSO AUDITADO     : Diving
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_074
+LINHA FONTE (orig) : Linha 130
+QUESTÃO ORIGINAL   : Qual é a principal finalidade de um DSV?
+RESPOSTA ORIGINAL  : Dar apoio logístico e técnico às operações de mergulho.
+FRENTE ANTERIOR    : Dar apoio ____ e técnico às ____ de mergulho.
+VERSO ANTERIOR     : Dar apoio logístico e técnico às operações de mergulho.
+FRENTE AUDITADA    : A principal finalidade operacional de uma embarcação especializada do tipo DSV é prestar suporte técnico e logístico a operações de ____.
+VERSO AUDITADO     : mergulho
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_075
+LINHA FONTE (orig) : Linha 131
+QUESTÃO ORIGINAL   : Que tipos de mergulho podem ser apoiados por um DSV?
+RESPOSTA ORIGINAL  : Mergulho raso ou profundo.
+FRENTE ANTERIOR    : ____ raso ou ____.
+VERSO ANTERIOR     : Mergulho raso ou profundo.
+FRENTE AUDITADA    : Quanto ao regime de profundidade de trabalho, uma embarcação DSV pode prestar apoio técnico a operações de mergulho raso ou ____ (saturado).
+VERSO AUDITADO     : profundo
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_076
+LINHA FONTE (orig) : Linha 133
+QUESTÃO ORIGINAL   : Quantas pessoas podem estar a bordo de um DSV (POB)?
+RESPOSTA ORIGINAL  : O POB pode chegar a 200 pessoas.
+FRENTE ANTERIOR    : O POB pode ____ a 200 ____.
+VERSO ANTERIOR     : O POB pode chegar a 200 pessoas.
+FRENTE AUDITADA    : Devido ao grande número de tripulantes, técnicos e equipes de saturação, a quantidade de pessoas a bordo (POB) de um DSV pode atingir até ____ pessoas.
+VERSO AUDITADO     : 200
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_077
+LINHA FONTE (orig) : Linha 134
+QUESTÃO ORIGINAL   : Quais são as principais características de um DSV?
+RESPOSTA ORIGINAL  : Câmara hiperbárica, sino ou sinete, compressores de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.
+FRENTE ANTERIOR    : Câmara ____, sino ou sinete, ____ de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.
+VERSO ANTERIOR     : Câmara hiperbárica, sino ou sinete, compressores de ar, guindaste ou similares, barco de apoio e sistema de comunicação submarina.
+FRENTE AUDITADA    : Entre os recursos essenciais instalados a bordo de um DSV para garantir a sobrevivência de mergulhadores em saturação estão o sino de mergulho e a câmara ____.
+VERSO AUDITADO     : hiperbárica
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_078
+LINHA FONTE (orig) : Linha 135
+QUESTÃO ORIGINAL   : Quais operações são realizadas com apoio de um DSV?
+RESPOSTA ORIGINAL  : Inspeções, manutenções, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.
+FRENTE ANTERIOR    : ____, ____, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.
+VERSO ANTERIOR     : Inspeções, manutenções, soldas, pull in/pull out e limpezas de caixa de mar de U.M.'s e riser.
+FRENTE AUDITADA    : As equipes de mergulho apoiadas por DSV executam reparos em plataformas e risers, incluindo soldas, pull-in/pull-out e limpeza de caixas de ____.
+VERSO AUDITADO     : mar
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_079
+LINHA FONTE (orig) : Linha 136
+QUESTÃO ORIGINAL   : Qual é a profundidade máxima indicada para o mergulho saturado no material?
+RESPOSTA ORIGINAL  : 350 m.
+FRENTE ANTERIOR    : 350 m.
+VERSO ANTERIOR     : 350 m.
+FRENTE AUDITADA    : A profundidade máxima indicada no material técnico do curso para a realização de operações de mergulho saturado é de ____ metros.
+VERSO AUDITADO     : 350
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_080
+LINHA FONTE (orig) : Linha 139
+QUESTÃO ORIGINAL   : Por que o mergulho saturado envolve isolamento em câmara hiperbárica?
+RESPOSTA ORIGINAL  : Porque a operação envolve altas pressões e confinamento entre câmara, sino e mar.
+FRENTE ANTERIOR    : Porque a ____ envolve altas pressões e ____ entre câmara, sino e mar.
+VERSO ANTERIOR     : Porque a operação envolve altas pressões e confinamento entre câmara, sino e mar.
+FRENTE AUDITADA    : No mergulho saturado, os mergulhadores permanecem isolados na câmara hiperbárica devido às altas pressões e ao regime contínuo de ____ entre câmara, sino e mar.
+VERSO AUDITADO     : confinamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_081
+LINHA FONTE (orig) : Linha 140
+QUESTÃO ORIGINAL   : Quais riscos são associados ao mergulho saturado?
+RESPOSTA ORIGINAL  : Ataque de vida marinha, altas pressões, exposição a predadores e doenças cumulativas.
+FRENTE ANTERIOR    : Ataque de vida marinha, altas pressões, exposição a ____ e doenças ____.
+VERSO ANTERIOR     : Ataque de vida marinha, altas pressões, exposição a predadores e doenças cumulativas.
+FRENTE AUDITADA    : Entre os riscos associados ao mergulho saturado profundo estão o ataque de vida marinha, os efeitos de altas pressões e o desenvolvimento de doenças ____.
+VERSO AUDITADO     : cumulativas
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_082
+LINHA FONTE (orig) : Linha 141
+QUESTÃO ORIGINAL   : Quais consequências à saúde são citadas para o mergulho saturado?
+RESPOSTA ORIGINAL  : Surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e HPNS.
+FRENTE ANTERIOR    : Surdez, ____, alteração na voz, traumas faciais e dentais, embolia, ____ e HPNS.
+VERSO ANTERIOR     : Surdez, osteoporose, alteração na voz, traumas faciais e dentais, embolia, hipotermia e HPNS.
+FRENTE AUDITADA    : Nas operações de mergulho saturado a grandes profundidades, a síndrome neurológica decorrente da rápida compressão hiperbárica é identificada pela sigla ____.
+VERSO AUDITADO     : HPNS
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_083
+LINHA FONTE (orig) : Linha 143
+QUESTÃO ORIGINAL   : Qual é a profundidade indicada para o mergulho raso?
+RESPOSTA ORIGINAL  : Até 50 m.
+FRENTE ANTERIOR    : Até 50 m.
+VERSO ANTERIOR     : Até 50 m.
+FRENTE AUDITADA    : O mergulho raso é classificado no material da disciplina como a modalidade indicada para profundidades de até ____ metros.
+VERSO AUDITADO     : 50
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_084
+LINHA FONTE (orig) : Linha 144
+QUESTÃO ORIGINAL   : Quais riscos são citados no mergulho raso?
+RESPOSTA ORIGINAL  : Contato com predadores, ações de corrente, fadiga e defeito de equipamentos.
+FRENTE ANTERIOR    : Contato com ____, ações de corrente, fadiga e defeito de ____.
+VERSO ANTERIOR     : Contato com predadores, ações de corrente, fadiga e defeito de equipamentos.
+FRENTE AUDITADA    : Nas operações de mergulho raso, os riscos ambientais e operacionais para o mergulhador incluem fadiga, defeito em equipamentos, correntes marítimas e contato com ____.
+VERSO AUDITADO     : predadores
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_085
+LINHA FONTE (orig) : Linha 145
+QUESTÃO ORIGINAL   : Como pode ser fornecido o ar comprimido no mergulho raso?
+RESPOSTA ORIGINAL  : Por equipamento autônomo ou dependente.
+FRENTE ANTERIOR    : Por ____ autônomo ou ____.
+VERSO ANTERIOR     : Por equipamento autônomo ou dependente.
+FRENTE AUDITADA    : No mergulho raso, o suprimento de ar para os mergulhadores pode ser fornecido por equipamento autônomo (scuba) ou por sistema de superfície do tipo ____.
+VERSO AUDITADO     : dependente
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_086
+LINHA FONTE (orig) : Linha 146
+QUESTÃO ORIGINAL   : Que embarcação de apoio é citada para o mergulho raso?
+RESPOSTA ORIGINAL  : Barco de apoio (LDB).
+FRENTE ANTERIOR    : LDB significa ____ de ____.
+VERSO ANTERIOR     : Barco de apoio (LDB).
+FRENTE AUDITADA    : A pequena embarcação rápida empregada como barco de apoio direto aos mergulhadores em operações de mergulho raso é identificada pela sigla ____.
+VERSO AUDITADO     : LDB
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_087
+LINHA FONTE (orig) : Linha 147
+QUESTÃO ORIGINAL   : Qual é a função do sino no apoio aos mergulhadores?
+RESPOSTA ORIGINAL  : Suprir ar aos mergulhadores e transportá-los até o local de trabalho, além de fornecer água de arrefecimento.
+FRENTE ANTERIOR    : Suprir ar aos ____ e ____ até o local de trabalho, além de fornecer água de arrefecimento.
+VERSO ANTERIOR     : Suprir ar aos mergulhadores e transportá-los até o local de trabalho, além de fornecer água de arrefecimento.
+FRENTE AUDITADA    : No mergulho saturado, o sino de mergulho tem a função de transportar a equipe até a cota de trabalho, prover água de aquecimento e suprir ____ aos mergulhadores.
+VERSO AUDITADO     : ar
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_088
+LINHA FONTE (orig) : Linha 148
+QUESTÃO ORIGINAL   : Quais são os tipos de sino?
+RESPOSTA ORIGINAL  : Livre, autônomo e semiautônomo.
+FRENTE ANTERIOR    : Livre, ____ e ____.
+VERSO ANTERIOR     : Livre, autônomo e semiautônomo.
+FRENTE AUDITADA    : Quanto ao modo de operação e controle descrito no material do curso, os três tipos de sino de mergulho são: livre, autônomo e ____.
+VERSO AUDITADO     : semiautônomo
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_089
+LINHA FONTE (orig) : Linha 149
+QUESTÃO ORIGINAL   : O que é o sinete no contexto do DSV?
+RESPOSTA ORIGINAL  : Uma alternativa para o barco de apoio.
+FRENTE ANTERIOR    : Uma ____ para o ____ de apoio.
+VERSO ANTERIOR     : Uma alternativa para o barco de apoio.
+FRENTE AUDITADA    : No contexto das operações de mergulho apoiadas por DSV, a cesta de transporte denominada sinete é utilizada como alternativa ao ____ de apoio.
+VERSO AUDITADO     : barco
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_090
+LINHA FONTE (orig) : Linha 150
+QUESTÃO ORIGINAL   : Para que serve o sinete?
+RESPOSTA ORIGINAL  : Para transporte até as proximidades do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.
+FRENTE ANTERIOR    : Para ____ até as ____ do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.
+VERSO ANTERIOR     : Para transporte até as proximidades do local, a mais de 15 m; pode haver um no local de trabalho e um sinete.
+FRENTE AUDITADA    : Nas operações de mergulho raso, a função primordial do sinete é realizar o ____ dos mergulhadores do convés até as proximidades da frente de trabalho.
+VERSO AUDITADO     : transporte
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_091
+LINHA FONTE (orig) : Linha 151
+QUESTÃO ORIGINAL   : Que apelido é associado ao sinete no material?
+RESPOSTA ORIGINAL  : Sardinha.
+FRENTE ANTERIOR    : ____.
+VERSO ANTERIOR     : Sardinha.
+FRENTE AUDITADA    : Nas operações de mergulho raso com embarcações DSV, o cesto aberto do sinete é popularmente conhecido a bordo pelo apelido de ____.
+VERSO AUDITADO     : sardinha
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_092
+LINHA FONTE (orig) : Linha 154
+QUESTÃO ORIGINAL   : Quais verificações devem ser realizadas antes da operação com o mergulhador?
+RESPOSTA ORIGINAL  : Inspeções pré-operação e ensaios de recuperação do mergulhador.
+FRENTE ANTERIOR    : Inspeções ____ e ensaios de ____ do mergulhador.
+VERSO ANTERIOR     : Inspeções pré-operação e ensaios de recuperação do mergulhador.
+FRENTE AUDITADA    : Antes de autorizar a descida da equipe de mergulho, devem ser realizadas rigorosas inspeções pré-operação e ensaios de ____ do mergulhador.
+VERSO AUDITADO     : recuperação
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_093
+LINHA FONTE (orig) : Linha 156
+QUESTÃO ORIGINAL   : Que cuidados são indicados para a câmara hiperbárica?
+RESPOSTA ORIGINAL  : Regulagem da câmara e controle do tempo de permanência.
+FRENTE ANTERIOR    : ____ da câmara e controle do tempo de ____.
+VERSO ANTERIOR     : Regulagem da câmara e controle do tempo de permanência.
+FRENTE AUDITADA    : Na gestão de segurança da câmara hiperbárica durante o mergulho saturado, além da regulagem dos gases e pressão, é essencial controlar o tempo de ____.
+VERSO AUDITADO     : permanência
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_094
+LINHA FONTE (orig) : Linha 162
+QUESTÃO ORIGINAL   : O que significa OSRV?
+RESPOSTA ORIGINAL  : Oil Spill Recovery Vessel.
+FRENTE ANTERIOR    : Oil Spill ____ ____.
+VERSO ANTERIOR     : Oil Spill Recovery Vessel.
+FRENTE AUDITADA    : Na terminologia das embarcações de apoio offshore, a sigla OSRV significa Oil Spill ____ Vessel.
+VERSO AUDITADO     : Recovery
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_095
+LINHA FONTE (orig) : Linha 163
+QUESTÃO ORIGINAL   : Qual é a principal finalidade do OSRV nas operações?
+RESPOSTA ORIGINAL  : Atuar na resposta a derramamentos de óleo e em situações de emergência.
+FRENTE ANTERIOR    : Atuar na resposta a ____ de óleo e em situações de ____.
+VERSO ANTERIOR     : Atuar na resposta a derramamentos de óleo e em situações de emergência.
+FRENTE AUDITADA    : A principal finalidade operacional da embarcação OSRV é prestar atendimento e pronta resposta a emergências com derramamentos de ____.
+VERSO AUDITADO     : óleo
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_096
+LINHA FONTE (orig) : Linha 164
+QUESTÃO ORIGINAL   : Quais são as principais etapas apresentadas para uma operação de derramamento de óleo com OSRV?
+RESPOSTA ORIGINAL  : Identificação, definição do tipo de óleo, confinamento com barreira, remoção com skimmer/equipamento e armazenamento em tanque.
+FRENTE ANTERIOR    : ____, definição do tipo de óleo, confinamento com barreira, remoção com ____ e armazenamento em tanque.
+VERSO ANTERIOR     : Identificação, definição do tipo de óleo, confinamento com barreira, remoção com skimmer/equipamento e armazenamento em tanque.
+FRENTE AUDITADA    : Nas etapas de resposta a derramamento por OSRV, após a identificação da mancha e seu confinamento por barreiras, a remoção do óleo é efetuada por ____.
+VERSO AUDITADO     : skimmers
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_097
+LINHA FONTE (orig) : Linha 165
+QUESTÃO ORIGINAL   : Para que serve a barreira de contenção em uma operação de derramamento de óleo?
+RESPOSTA ORIGINAL  : Para confinar o óleo em uma área controlada, permitindo sua remoção.
+FRENTE ANTERIOR    : Para confinar o óleo em uma área ____, ____ sua remoção.
+VERSO ANTERIOR     : Para confinar o óleo em uma área controlada, permitindo sua remoção.
+FRENTE AUDITADA    : Em operações de combate à poluição com OSRV, a finalidade da barreira de contenção é cercar a mancha em uma área controlada para viabilizar sua ____.
+VERSO AUDITADO     : remoção
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_098
+LINHA FONTE (orig) : Linha 167
+QUESTÃO ORIGINAL   : O que é o Boomvane?
+RESPOSTA ORIGINAL  : Acessório utilizado para abrir a barreira.
+FRENTE ANTERIOR    : O ____ é um ____ utilizado para “abrir” a ____.
+VERSO ANTERIOR     : É um acessório utilizado para “abrir” a barreira.
+FRENTE AUDITADA    : O dispositivo hidrodinâmico que aproveita a correnteza ou a velocidade de avanço do OSRV para abrir e posicionar a barreira de contenção chama-se ____.
+VERSO AUDITADO     : Boomvane
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_099
+LINHA FONTE (orig) : Linha 169
+QUESTÃO ORIGINAL   : Quais estratégias de formação podem ser utilizadas no lançamento da barreira?
+RESPOSTA ORIGINAL  : Formações em “J”, “U” ou “V”.
+FRENTE ANTERIOR    : ____ em “J”, “U” ou “V”.
+VERSO ANTERIOR     : Formações em “J”, “U” ou “V”.
+FRENTE AUDITADA    : Durante as fainas de recolhimento de óleo com OSRV, as barreiras de contenção são tracionadas na água adotando configurações geométricas em 'J', 'U' ou ____.
+VERSO AUDITADO     : 'V'
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_100
+LINHA FONTE (orig) : Linha 170
+QUESTÃO ORIGINAL   : O que é feito depois que o óleo é confinado pela barreira?
+RESPOSTA ORIGINAL  : Utilizam-se skimmers para remover o óleo da área contida.
+FRENTE ANTERIOR    : Utilizam-se ____ para remover o óleo da área contida.
+VERSO ANTERIOR     : skimmers para remover o óleo da área contida.
+FRENTE AUDITADA    : Uma vez confinada a mancha de hidrocarboneto pela barreira na superfície do mar, a sucção mecânica do óleo para os tanques da embarcação é realizada por ____.
+VERSO AUDITADO     : skimmers
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_101
+LINHA FONTE (orig) : Linha 171
+QUESTÃO ORIGINAL   : Qual é a função dos skimmers na operação de derramamento de óleo?
+RESPOSTA ORIGINAL  : Remover, por sucção, a substância nociva da área contida.
+FRENTE ANTERIOR    : ____, por sucção, a ____ nociva da área contida.
+VERSO ANTERIOR     : Remover, por sucção, a substância nociva da área contida.
+FRENTE AUDITADA    : No combate a derramamentos com OSRV, a função primordial do skimmer é retirar o óleo sobrenadante na água por meio do processo mecânico de ____.
+VERSO AUDITADO     : sucção
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_102
+LINHA FONTE (orig) : Linha 172
+QUESTÃO ORIGINAL   : Quais são as três ações destacadas na operação de recuperação de óleo?
+RESPOSTA ORIGINAL  : Lançamento, sucção e bombeamento.
+FRENTE ANTERIOR    : ____, sucção e ____.
+VERSO ANTERIOR     : Lançamento, sucção e bombeamento.
+FRENTE AUDITADA    : As três ações mecânicas sequenciais destacadas na faina de recuperação de óleo com OSRV são o lançamento de barreiras/skimmers, a sucção do produto e o seu ____.
+VERSO AUDITADO     : bombeamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_103
+LINHA FONTE (orig) : Linha 173
+QUESTÃO ORIGINAL   : Quais equipamentos são apresentados para detecção de manchas de óleo?
+RESPOSTA ORIGINAL  : Radar, sensores infravermelhos e câmeras ópticas.
+FRENTE ANTERIOR    : Radar, ____ ____ e câmeras ópticas.
+VERSO ANTERIOR     : Radar, sensores infravermelhos e câmeras ópticas.
+FRENTE AUDITADA    : A bordo do OSRV, os três principais recursos tecnológicos empregados no rastreamento e detecção de manchas de óleo são o radar, câmeras ópticas e sensores de ____.
+VERSO AUDITADO     : infravermelho
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_104
+LINHA FONTE (orig) : Linha 174
+QUESTÃO ORIGINAL   : Qual é a função do radar de Banda X na detecção de manchas de óleo?
+RESPOSTA ORIGINAL  : Identificar a área geral e a direção da mancha por meio do reflexo na superfície do mar.
+FRENTE ANTERIOR    : ____ a área geral e a direção da mancha por meio do reflexo na ____ do mar.
+VERSO ANTERIOR     : Identificar a área geral e a direção da mancha por meio do reflexo na superfície do mar.
+FRENTE AUDITADA    : Na detecção de derramamentos pelo OSRV, o radar de Banda X identifica a área e direção da mancha ao detectar a alteração do reflexo das ondas na ____ do mar.
+VERSO AUDITADO     : superfície
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_105
+LINHA FONTE (orig) : Linha 176
+QUESTÃO ORIGINAL   : Qual é a função do infravermelho na detecção de manchas de óleo?
+RESPOSTA ORIGINAL  : Medir a temperatura e a espessura da mancha, ajudando a identificar seu “espessamento”.
+FRENTE ANTERIOR    : Medir a ____ e a espessura da mancha, ajudando a identificar seu “____”.
+VERSO ANTERIOR     : Medir a temperatura e a espessura da mancha, ajudando a identificar seu “espessamento”.
+FRENTE AUDITADA    : Empregados na detecção de manchas pelo OSRV, os sensores de infravermelho avaliam a temperatura superficial e auxiliam na determinação da ____ da mancha de óleo.
+VERSO AUDITADO     : espessura
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_106
+LINHA FONTE (orig) : Linha 177
+QUESTÃO ORIGINAL   : Por que o infravermelho é importante em operações noturnas ou de baixa visibilidade?
+RESPOSTA ORIGINAL  : Porque permite identificar a mancha por meio da diferença de absorção da luz solar entre o óleo e a água.
+FRENTE ANTERIOR    : Porque permite ____ a mancha por meio da ____ de absorção da luz solar entre o óleo e a água.
+VERSO ANTERIOR     : Porque permite identificar a mancha por meio da diferença de absorção da luz solar entre o óleo e a água.
+FRENTE AUDITADA    : Em períodos noturnos ou de baixa visibilidade, os sensores infravermelhos permitem ao OSRV mapear a mancha por meio do diferencial térmico entre o óleo e a ____.
+VERSO AUDITADO     : água
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_107
+LINHA FONTE (orig) : Linha 181
+QUESTÃO ORIGINAL   : Quais características de segurança são apresentadas para as embarcações OSRV?
+RESPOSTA ORIGINAL  : Prontidão para respostas à emergência e sistemas blindados para evitar a produção de faíscas.
+FRENTE ANTERIOR    : ____ para respostas à ____ e sistemas blindados para evitar a produção de faíscas.
+VERSO ANTERIOR     : Prontidão para respostas à emergência e sistemas blindados para evitar a produção de faíscas.
+FRENTE AUDITADA    : Por atuarem em atmosferas com gases inflamáveis decorrentes de vazamentos de hidrocarbonetos, os equipamentos do OSRV possuem sistemas blindados para evitar a emissão de ____.
+VERSO AUDITADO     : faíscas
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_108
+LINHA FONTE (orig) : Linha 182
+QUESTÃO ORIGINAL   : Além da recuperação de óleo, quais outras atividades são apresentadas para o OSRV?
+RESPOSTA ORIGINAL  : Resgate de náufragos e reboque de embarcações à deriva.
+FRENTE ANTERIOR    : Resgate de ____ e reboque de ____ à deriva.
+VERSO ANTERIOR     : Resgate de náufragos e reboque de embarcações à deriva.
+FRENTE AUDITADA    : Além da contenção e recolhimento de poluentes, uma embarcação OSRV pode atuar em salvatagem marítima efetuando o reboque de embarcações à deriva e o resgate de ____.
+VERSO AUDITADO     : náufragos
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_109
+LINHA FONTE (orig) : Linha 183
+QUESTÃO ORIGINAL   : Qual sistema de combate a incêndio pode estar presente no OSRV?
+RESPOSTA ORIGINAL  : O sistema Fire-Fighting (FiFi), cuja configuração é definida pela classe.
+FRENTE ANTERIOR    : O sistema ____ (FiFi), cuja ____ é definida pela classe.
+VERSO ANTERIOR     : O sistema Fire-Fighting (FiFi), cuja configuração é definida pela classe.
+FRENTE AUDITADA    : O sistema de combate a incêndio de alta capacidade instalado a bordo de embarcações de apoio como o OSRV é conhecido pela sigla FiFi, que significa ____-Fighting.
+VERSO AUDITADO     : Fire
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_110
+LINHA FONTE (orig) : Linha 199
+QUESTÃO ORIGINAL   : O que é um Navio Aliviador (Shuttle Tanker)?
+RESPOSTA ORIGINAL  : É o navio utilizado para transportar petróleo e derivados das FPSO ou FSO.
+FRENTE ANTERIOR    : o navio utilizado para ____ petróleo e ____ das FPSO ou FSO.
+VERSO ANTERIOR     : É o navio utilizado para transportar petróleo e derivados das FPSO ou FSO.
+FRENTE AUDITADA    : O navio petroleiro especializado encarregado de receber o petróleo bruto armazenado em plataformas FPSO ou FSO e transportá-lo para a costa denomina-se navio ____.
+VERSO AUDITADO     : aliviador
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_111
+LINHA FONTE (orig) : Linha 200
+QUESTÃO ORIGINAL   : Quais são os dois tipos de operação do Navio Aliviador?
+RESPOSTA ORIGINAL  : Operação convencional e operação DP.
+FRENTE ANTERIOR    : ____ ____ e operação DP.
+VERSO ANTERIOR     : Operação convencional e operação DP.
+FRENTE AUDITADA    : Quanto ao modo de manutenção de posição durante o transbordo de óleo, as operações do Navio Aliviador classificam-se em operação DP e operação ____.
+VERSO AUDITADO     : convencional
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_112
+LINHA FONTE (orig) : Linha 201
+QUESTÃO ORIGINAL   : Quais são as principais características de um Navio Aliviador?
+RESPOSTA ORIGINAL  : Grandes dimensões, tanques de grandes volumes, grande autonomia, capacidade de manobra reduzida e Green line.
+FRENTE ANTERIOR    : Grandes ____, tanques de grandes volumes, grande autonomia, ____ de manobra reduzida e Green line.
+VERSO ANTERIOR     : Grandes dimensões, tanques de grandes volumes, grande autonomia, capacidade de manobra reduzida e Green line.
+FRENTE AUDITADA    : Em razão de suas grandes dimensões e imenso deslocamento de carga, o Navio Aliviador (Shuttle Tanker) apresenta como característica operacional uma capacidade de manobra ____.
+VERSO AUDITADO     : reduzida
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_113
+LINHA FONTE (orig) : Linha 202
+QUESTÃO ORIGINAL   : Como são realizadas as operações convencionais do Navio Aliviador?
+RESPOSTA ORIGINAL  : São realizadas à luz do dia e dependem de embarcações auxiliares para manobra, como rebocadores e/ou AHTSs LH.
+FRENTE ANTERIOR    : Operações com ___ são realizadas à luz do dia e dependem de ____ auxiliares para manobra, como ____ e/ou AHTSs LH.
+VERSO ANTERIOR     : Shutter Tanker; São realizadas à luz do dia e dependem de embarcações auxiliares para manobra, como rebocadores e/ou AHTSs LH.
+FRENTE AUDITADA    : Nas operações convencionais de um Navio Aliviador (Shuttle Tanker), a atracação ocorre obrigatoriamente à luz do dia e exige a assistência de embarcações auxiliares de manobra, como ____.
+VERSO AUDITADO     : rebocadores
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_114
+LINHA FONTE (orig) : Linha 204
+QUESTÃO ORIGINAL   : O que é o BLS (Bow Loading System)?
+RESPOSTA ORIGINAL  : Sistema de transferência de óleo pela proa, utilizando o mangote principal.
+FRENTE ANTERIOR    : O ___ é um sistema de ____ de óleo pela proa, ____ o mangote principal.
+VERSO ANTERIOR     : Sistema de transferência de óleo pela proa, utilizando o mangote principal.
+FRENTE AUDITADA    : O sistema instalado na proa do navio aliviador para acoplamento do mangote principal e recebimento seguro de petróleo denomina-se ____ (Bow Loading System).
+VERSO AUDITADO     : BLS
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_115
+LINHA FONTE (orig) : Linha 205
+QUESTÃO ORIGINAL   : Qual é a função do BLS no Navio Aliviador?
+RESPOSTA ORIGINAL  : Permitir a conexão segura do mangote principal, que possui maior vazão.
+FRENTE ANTERIOR    : ____ a conexão segura do mangote ____, que possui maior vazão.
+VERSO ANTERIOR     : Permitir a conexão segura do mangote principal, que possui maior vazão.
+FRENTE AUDITADA    : A principal vantagem do acoplamento via Bow Loading System (BLS) no navio aliviador é viabilizar a conexão segura do mangote principal, que se destaca por proporcionar maior ____.
+VERSO AUDITADO     : vazão
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_116
+LINHA FONTE (orig) : Linha 206
+QUESTÃO ORIGINAL   : Quais Navios Aliviadores possuem BLS?
+RESPOSTA ORIGINAL  : Todos os aliviadores DP possuem BLS.
+FRENTE ANTERIOR    : Todos os ____ DP ____ BLS.
+VERSO ANTERIOR     : Todos os aliviadores DP possuem BLS.
+FRENTE AUDITADA    : Na frota de transporte marítimo de petróleo, todos os navios aliviadores que contam com sistema de posicionamento dinâmico (DP) são obrigatoriamente equipados com o sistema ____.
+VERSO AUDITADO     : BLS
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_117
+LINHA FONTE (orig) : Linha 213
+QUESTÃO ORIGINAL   : Na operação DP, o Navio Aliviador pode utilizar o mangote alternativo da U.M.?
+RESPOSTA ORIGINAL  : Sim, se tiver rebocador auxiliar.
+FRENTE ANTERIOR    : Sim, se tiver ____ ____.
+VERSO ANTERIOR     : Sim, se tiver rebocador auxiliar.
+FRENTE AUDITADA    : Em operações com posicionamento dinâmico, o Navio Aliviador só é autorizado a conectar o mangote alternativo da plataforma se dispuser da assistência de um ____ auxiliar.
+VERSO AUDITADO     : rebocador
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_118
+LINHA FONTE (orig) : Linha 214
+QUESTÃO ORIGINAL   : Em que situação os AHTSs podem auxiliar na conexão e desconexão dos mangotes?
+RESPOSTA ORIGINAL  : Em condições de mar grosso.
+FRENTE ANTERIOR    : Em ____ de mar ____.
+VERSO ANTERIOR     : Em condições de mar grosso.
+FRENTE AUDITADA    : No apoio ao transbordo de óleo com navios aliviadores, as embarcações AHTS são acionadas para auxiliar na conexão e desconexão de mangotes prioritariamente em condições de mar ____.
+VERSO AUDITADO     : grosso
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_119
+LINHA FONTE (orig) : Linha 218
+QUESTÃO ORIGINAL   : O que é considerado um comboio?
+RESPOSTA ORIGINAL  : Plataforma + Shuttle + AHTS.
+FRENTE ANTERIOR    : ____ + ____ + AHTS.
+VERSO ANTERIOR     : Plataforma + Shuttle + AHTS.
+FRENTE AUDITADA    : Na operação de alívio offshore descrita no curso, o comboio padrão envolvido na transferência de petróleo é formado pela Plataforma de produção, pelo AHTS e pelo ____ ____.
+VERSO AUDITADO     : Shuttle Tanker
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_120
+LINHA FONTE (orig) : Linha 219
+QUESTÃO ORIGINAL   : O que significa PLSV?
+RESPOSTA ORIGINAL  : Pipe Laying Support Vessel - Embarcação de Apoio ao Lançamento de Linhas.
+FRENTE ANTERIOR    : Pipe ____ ____ Vessel.
+VERSO ANTERIOR     : Pipe Laying Support Vessel.
+FRENTE AUDITADA    : Na terminologia das embarcações de apoio offshore, a sigla PLSV significa Pipe ____ Support Vessel.
+VERSO AUDITADO     : Laying
+STATUS AUDITORIA   : Revisado parcialmente
+--------------------------------------------------------------------------------
+ID                 : CARD_121
+LINHA FONTE (orig) : Linha 220
+QUESTÃO ORIGINAL   : Qual é a função principal de um PLSV?
+RESPOSTA ORIGINAL  : Realizar o lançamento de linhas ou dutos flexíveis e rígidos.
+FRENTE ANTERIOR    : Realizar o ____ de linhas ou dutos ____ e rígidos.
+VERSO ANTERIOR     : Realizar o lançamento de linhas ou dutos flexíveis e rígidos.
+FRENTE AUDITADA    : A principal função operacional de uma embarcação especializada do tipo PLSV é realizar a instalação e o ____ de dutos flexíveis e rígidos no fundo do mar.
+VERSO AUDITADO     : lançamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_122
+LINHA FONTE (orig) : Linha 221
+QUESTÃO ORIGINAL   : Quais tipos de linhas um PLSV pode lançar?
+RESPOSTA ORIGINAL  : Linhas ou dutos flexíveis e rígidos.
+FRENTE ANTERIOR    : Linhas ou dutos ____ e rígidos, com um ou mais sistemas de ____.
+VERSO ANTERIOR     : Linhas ou dutos flexíveis e rígidos, com um ou mais sistemas de lançamento.
+FRENTE AUDITADA    : As linhas submarinas instaladas por uma embarcação PLSV são estruturalmente classificadas em dutos rígidos ou dutos ____.
+VERSO AUDITADO     : flexíveis
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_123
+LINHA FONTE (orig) : Linha 222
+QUESTÃO ORIGINAL   : Para que serve o PLSV na interligação offshore?
+RESPOSTA ORIGINAL  : Para interligar poços a plataformas de produção e transferência.
+FRENTE ANTERIOR    : Para interligar poços a ____ de produção e ____.
+VERSO ANTERIOR     : Para interligar poços a plataformas de produção e transferência.
+FRENTE AUDITADA    : Na interligação da malha submarina de produção offshore, o PLSV conecta as cabeças dos poços às plataformas de ____.
+VERSO AUDITADO     : produção
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_124
+LINHA FONTE (orig) : Linha 224
+QUESTÃO ORIGINAL   : Quais são as principais características de um PLSV?
+RESPOSTA ORIGINAL  : Carrossel ou cestas, bobinas, tensionadores, guindastes subsea, torre de lançamento e ROV.
+FRENTE ANTERIOR    : Carrossel ou cestas, bobinas, ____, ____ subsea, torre de lançamento e ROV.
+VERSO ANTERIOR     : Carrossel ou cestas, bobinas, tensionadores, guindastes subsea, torre de lançamento e ROV.
+FRENTE AUDITADA    : A torre de lançamento de um PLSV conta com esteiras motorizadas denominadas ____ para sustentar e controlar a velocidade de descida contínua da linha ao mar.
+VERSO AUDITADO     : tensionadores
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_125
+LINHA FONTE (orig) : Linha 231
+QUESTÃO ORIGINAL   : Quais operações com dutos flexíveis são citadas para o PLSV?
+RESPOSTA ORIGINAL  : Lançamento pelos métodos S-Lay e J-Lay e recolhimento de dutos flexíveis.
+FRENTE ANTERIOR    : ____ pelos métodos S-Lay e J-Lay e ____ de dutos flexíveis.
+VERSO ANTERIOR     : Lançamento pelos métodos S-Lay e J-Lay e recolhimento de dutos flexíveis.
+FRENTE AUDITADA    : Além de realizar o lançamento de linhas flexíveis pelos métodos S-Lay e J-Lay, uma embarcação PLSV também é capacitada para executar o ____ de dutos.
+VERSO AUDITADO     : recolhimento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_126
+LINHA FONTE (orig) : Linha 245
+QUESTÃO ORIGINAL   : O que é VCM ou CVD?
+RESPOSTA ORIGINAL  : É a conexão vertical direta para interligação de equipamentos no leito marinho.
+FRENTE ANTERIOR    : a conexão vertical direta para ____ de ____ no leito marinho.
+VERSO ANTERIOR     : É a conexão vertical direta para interligação de equipamentos no leito marinho.
+FRENTE AUDITADA    : No sistema submarino de linhas, o Módulo de Conexão Vertical Direta (VCM ou CVD) tem a finalidade de realizar a ____ de equipamentos no leito marinho.
+VERSO AUDITADO     : interligação
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_127
+LINHA FONTE (orig) : Linha 247
+QUESTÃO ORIGINAL   : Quando pode ocorrer o abandono de uma linha durante a operação?
+RESPOSTA ORIGINAL  : Em situações como mau tempo, para evitar avarias no sistema.
+FRENTE ANTERIOR    : Em ____ como mau tempo, para evitar ____ no sistema.
+VERSO ANTERIOR     : Em situações como mau tempo, para evitar avarias no sistema.
+FRENTE AUDITADA    : Durante as operações de lançamento de dutos pelo PLSV, o procedimento de abandono controlado da linha no fundo do mar é acionado diante de condições severas de mau ____.
+VERSO AUDITADO     : tempo
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_128
+LINHA FONTE (orig) : Linha 248
+QUESTÃO ORIGINAL   : O que é a operação de abandono e recolhimento de linha?
+RESPOSTA ORIGINAL  : É deixar ou recolher linhas abandonadas, inclusive em situações de emergência.
+FRENTE ANTERIOR    : deixar ou recolher linhas ____, inclusive em situações de ____.
+VERSO ANTERIOR     : É deixar ou recolher linhas abandonadas, inclusive em situações de emergência.
+FRENTE AUDITADA    : No PLSV, a operação de abandono e recolhimento de linhas (sistema A&R) é projetada para assentar e posteriormente resgatar dutos em situações de ____.
+VERSO AUDITADO     : emergência
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_129
+LINHA FONTE (orig) : Linha 251
+QUESTÃO ORIGINAL   : Com qual tipo de embarcação o PLSV pode realizar SIMOPS?
+RESPOSTA ORIGINAL  : Com SDSV.
+FRENTE ANTERIOR    : Com SDSV.
+VERSO ANTERIOR     : Com SDSV.
+FRENTE AUDITADA    : Durante a interligação de linhas submarinas em águas rasas, a embarcação PLSV pode realizar operações simultâneas (SIMOPS) em conjunto com uma embarcação de mergulho do tipo ____.
+VERSO AUDITADO     : SDSV
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_130
+LINHA FONTE (orig) : Linha 255
+QUESTÃO ORIGINAL   : Qual é a função das bobinas no PLSV para duto flexível?
+RESPOSTA ORIGINAL  : Armazenar e realizar testes de linhas.
+FRENTE ANTERIOR    : ____ e ____ testes de linhas.
+VERSO ANTERIOR     : Armazenar e realizar testes de linhas.
+FRENTE AUDITADA    : A bordo do PLSV de lançamento flexível, as grandes bobinas (reels) têm a finalidade de realizar testes e assegurar o ____ da linha.
+VERSO AUDITADO     : armazenamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_131
+LINHA FONTE (orig) : Linha 263
+QUESTÃO ORIGINAL   : Qual é a função da torre de lançamento?
+RESPOSTA ORIGINAL  : É a área principal do PLSV e assume configurações diferentes conforme o método de lançamento.
+FRENTE ANTERIOR    : A ____ é a área principal do PLSV e assume ____ ____ conforme o método de lançamento.
+VERSO ANTERIOR     : Torre; configurações diferentes.
+FRENTE AUDITADA    : A estrutura principal a bordo do PLSV que abriga os tensionadores e assume posições adequadas ao método de instalação é a ____ de lançamento.
+VERSO AUDITADO     : torre
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_132
+LINHA FONTE (orig) : Linha 264
+QUESTÃO ORIGINAL   : Que atividades se concentram na torre de lançamento?
+RESPOSTA ORIGINAL  : Soldagem, tensionadores, aligners e straighteners(para embarcações de lançamento de dutos rígidos).
+FRENTE ANTERIOR    : Soldagem, ____, aligners e ____(para embarcações de lançamento de dutos rígidos).
+VERSO ANTERIOR     : Soldagem, tensionadores, aligners e straighteners(para embarcações de lançamento de dutos rígidos).
+FRENTE AUDITADA    : Na torre de lançamento de dutos rígidos do PLSV, as etapas de alinhamento, soldagem e descida da coluna contam com a retenção de carga exercida pelos ____.
+VERSO AUDITADO     : tensionadores
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_133
+LINHA FONTE (orig) : Linha 265
+QUESTÃO ORIGINAL   : O que pode acontecer com a torre de lançamento conforme a lâmina de água?
+RESPOSTA ORIGINAL  : Ela pode se inclinar.
+FRENTE ANTERIOR    : Ela pode se ____.
+VERSO ANTERIOR     : Ela pode se inclinar.
+FRENTE AUDITADA    : A torre de lançamento do PLSV tem a propriedade de se ____ para ajustar os esforços e a curvatura da catenária do duto conforme a lâmina d'água.
+VERSO AUDITADO     : inclinar
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_134
+LINHA FONTE (orig) : Linha 266
+QUESTÃO ORIGINAL   : Qual é a função do hatch de lançamento?
+RESPOSTA ORIGINAL  : Permitir o lançamento da linha.
+FRENTE ANTERIOR    : ____ o ____ da linha.
+VERSO ANTERIOR     : Permitir o lançamento da linha.
+FRENTE AUDITADA    : No convés de trabalho do PLSV, a abertura estrutural por onde a tubulação passa verticalmente em direção ao mar é o hatch de ____.
+VERSO AUDITADO     : lançamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_135
+LINHA FONTE (orig) : Linha 270
+QUESTÃO ORIGINAL   : Quantos guindastes subsea/offshore um PLSV pode ter?
+RESPOSTA ORIGINAL  : Pode haver mais de um.
+FRENTE ANTERIOR    : Pode ____ mais de um.
+VERSO ANTERIOR     : Pode haver mais de um.
+FRENTE AUDITADA    : Uma embarcação PLSV pode dispor a bordo de mais de um guindaste ____ para atender à movimentação de estruturas submarinas pesadas no convés.
+VERSO AUDITADO     : subsea
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_136
+LINHA FONTE (orig) : Linha 271
+QUESTÃO ORIGINAL   : Que sistema adicional pode existir associado aos guindastes?
+RESPOSTA ORIGINAL  : Sistema de anti-heeling.
+FRENTE ANTERIOR    : ____ de ____..
+VERSO ANTERIOR     : Sistema de anti-heeling.
+FRENTE AUDITADA    : O sistema de lastro rápido utilizado no PLSV para compensar os momentos de adernamento e a inclinação transversal durante o içamento de cargas pesadas pelos guindastes denomina-se ____.
+VERSO AUDITADO     : anti-heeling
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_137
+LINHA FONTE (orig) : Linha 272
+QUESTÃO ORIGINAL   : Quais são os principais riscos destacados nas operações do PLSV?
+RESPOSTA ORIGINAL  : Alta complexidade, sistemas sob tensão, danos ao patrimônio, danos ambientais e erros humanos.
+FRENTE ANTERIOR    : Alta ____, sistemas sob tensão, danos ao ____, danos ambientais e erros humanos.
+VERSO ANTERIOR     : Alta complexidade, sistemas sob tensão, danos ao patrimônio, danos ambientais e erros humanos.
+FRENTE AUDITADA    : Entre os riscos operacionais mais graves nas atividades de lançamento do PLSV estão a alta complexidade da faina e a movimentação contínua de cabos e linhas em sistemas sob ____.
+VERSO AUDITADO     : tensão
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_138
+LINHA FONTE (orig) : Linha 273
+QUESTÃO ORIGINAL   : Que tipos de danos ao patrimônio podem ocorrer nas operações do PLSV?
+RESPOSTA ORIGINAL  : Danos a estruturas submarinas e unidades.
+FRENTE ANTERIOR    : Danos a ____ ____ e unidades.
+VERSO ANTERIOR     : Danos a estruturas submarinas e unidades.
+FRENTE AUDITADA    : Em caso de falha mecânica ou perda de controle da linha durante o lançamento por um PLSV, o impacto no fundo pode causar danos severos a estruturas ____.
+VERSO AUDITADO     : submarinas
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_139
+LINHA FONTE (orig) : Linha 284
+QUESTÃO ORIGINAL   : Quais tipos de operações ocorrem no offshore?
+RESPOSTA ORIGINAL  : Petróleo e gás; eólica offshore; transporte marítimo;  logística; pesca e aquicultura; produção de alimentos;  pesquisa científica; defesa e segurança.
+FRENTE ANTERIOR    : Petróleo e gás; eólica offshore; ____ marítimo; logística; pesca e ____; produção de alimentos; pesquisa científica; defesa e segurança.
+VERSO ANTERIOR     : Petróleo e gás; eólica offshore; transporte marítimo;  logística; pesca e aquicultura; produção de alimentos;  pesquisa científica; defesa e segurança.
+FRENTE AUDITADA    : Além da indústria tradicional de petróleo e gás, as operações marítimas offshore contemporâneas incluem transporte naval, pesquisa e a geração de energia ____.
+VERSO AUDITADO     : eólica
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_140
+LINHA FONTE (orig) : Linha 287
+QUESTÃO ORIGINAL   : Quais são os principais tipos de unidades offshore?
+RESPOSTA ORIGINAL  : Fixas, móveis, flutuantes, de apoio e especiais.
+FRENTE ANTERIOR    : Fixas, móveis, ____, de apoio e ____.
+VERSO ANTERIOR     : Fixas, móveis, flutuantes, de apoio e especiais.
+FRENTE AUDITADA    : As unidades marítimas offshore dividem-se primordialmente em fixas, móveis, de apoio, especiais e unidades ____.
+VERSO AUDITADO     : flutuantes
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_141
+LINHA FONTE (orig) : Linha 288
+QUESTÃO ORIGINAL   : Quais são os tipos de poços?
+RESPOSTA ORIGINAL  : Poço vertical e poço direcional.
+FRENTE ANTERIOR    : Poço ____ e poço ____.
+VERSO ANTERIOR     : Poço vertical e poço direcional.
+FRENTE AUDITADA    : Na perfuração offshore de óleo e gás, quanto à trajetória da coluna no subsolo, os poços classificam-se basicamente em poço vertical e poço ____.
+VERSO AUDITADO     : direcional
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_142
+LINHA FONTE (orig) : Linha 309
+QUESTÃO ORIGINAL   : Quais são características estruturais do navio-sonda?
+RESPOSTA ORIGINAL  : Possui propulsão e torre de perfuração no convés.
+FRENTE ANTERIOR    : Possui ____ e torre de ____ no convés.
+VERSO ANTERIOR     : Possui propulsão e torre de perfuração no convés.
+FRENTE AUDITADA    : Uma unidade do tipo navio-sonda caracteriza-se por possuir propulsão própria para navegação e carregar em seu convés central uma torre de ____.
+VERSO AUDITADO     : perfuração
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_143
+LINHA FONTE (orig) : Linha 320
+QUESTÃO ORIGINAL   : Quais são as principais características de um Flotel?
+RESPOSTA ORIGINAL  : Possui DP, geração de energia, hotelaria e capacidade de manutenção.
+FRENTE ANTERIOR    : Possui propulsão em DP, geração de energia, hotelaria e ____ de ____.
+VERSO ANTERIOR     : Possui propulsão em DP, geração de energia, hotelaria e capacidade de manutenção.
+FRENTE AUDITADA    : A unidade offshore do tipo Flotel dispõe de propulsão com posicionamento dinâmico, geração de energia, oficinas de manutenção e serviços essenciais de ____.
+VERSO AUDITADO     : hotelaria
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_144
+LINHA FONTE (orig) : Linha 323
+QUESTÃO ORIGINAL   : Quais unidades são adequadas para águas profundas acima de 1.500 m?
+RESPOSTA ORIGINAL  : Semissubmersível, navio-sonda e Spar.
+FRENTE ANTERIOR    : ____, ____ e Spar.
+VERSO ANTERIOR     : Semissubmersível, navio-sonda e Spar.
+FRENTE AUDITADA    : As unidades flutuantes indicadas no material para operar em lâminas d'água superiores a 1.500 metros incluem o navio-sonda, a plataforma Spar e a ____.
+VERSO AUDITADO     : semissubmersível
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_145
+LINHA FONTE (orig) : Linha 358
+QUESTÃO ORIGINAL   : Descreva a função principal do AHTS.
+RESPOSTA ORIGINAL  : Embarcação robusta que realiza reboque, ancoragem/desancoragem, pull-back e apoio logístico e operacional.
+FRENTE ANTERIOR    : Embarcação robusta projetada para reboque, ____, pull-back e apoio logístico e ____.
+VERSO ANTERIOR     : Embarcação robusta projetada para reboque, ancoragem/desancoragem, pull-back e apoio logístico e operacional.
+FRENTE AUDITADA    : O AHTS é uma embarcação robusta de grande potência de tração projetada para apoio logístico, pull-back, reboque de unidades e manobras de ____.
+VERSO AUDITADO     : ancoragem
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_146
+LINHA FONTE (orig) : Linha 359
+QUESTÃO ORIGINAL   : Onde ficam o Shark Jaw e o Karm Fork e como podem ser acionados?
+RESPOSTA ORIGINAL  : Ficam no convés principal e podem ser acionados local ou remotamente.
+FRENTE ANTERIOR    : Ficam no convés ____ e podem ser acionados local ou ____.
+VERSO ANTERIOR     : Ficam no convés principal e podem ser acionados local ou remotamente.
+FRENTE AUDITADA    : No AHTS, os mecanismos hidráulicos de travamento de amarras (Shark Jaw e Karm Fork) ficam instalados sobre a linha de centro do convés ____.
+VERSO AUDITADO     : principal
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_147
+LINHA FONTE (orig) : Linha 360
+QUESTÃO ORIGINAL   : Qual é a função do Shark Jaw e do Karm Fork durante uma operação?
+RESPOSTA ORIGINAL  : Prender o sistema sob tensão, aliviando a tensão do guincho e permitindo que a equipe de convés trabalhe com segurança.
+FRENTE ANTERIOR    : Prender o sistema sob tensão, ____ a tensão do guincho e ____ que a equipe de convés trabalhe com segurança.
+VERSO ANTERIOR     : Prender o sistema sob tensão, aliviando a tensão do guincho e permitindo que a equipe de convés trabalhe com segurança.
+FRENTE AUDITADA    : Durante o manuseio de amarras pelo AHTS, a função do Shark Jaw e do Karm Fork é prender o cabo sob carga para aliviar a tensão do ____.
+VERSO AUDITADO     : guincho
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_148
+LINHA FONTE (orig) : Linha 361
+QUESTÃO ORIGINAL   : Quais são as funções do rolo de popa do AHTS?
+RESPOSTA ORIGINAL  : Evitar a abrasão de cabos e amarras e facilitar a movimentação de materiais.
+FRENTE ANTERIOR    : Evitar a abrasão de cabos e amarras e ____ a ____ de materiais.
+VERSO ANTERIOR     : Evitar a abrasão de cabos e amarras e facilitar a movimentação de materiais.
+FRENTE AUDITADA    : No AHTS, o rolo de popa tem como função primordial facilitar a movimentação de materiais e evitar o atrito e a ____ de cabos e amarras.
+VERSO AUDITADO     : abrasão
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_149
+LINHA FONTE (orig) : Linha 362
+QUESTÃO ORIGINAL   : Como se chama a roda de periferia côncava e dentada onde a amarra se aloja durante o movimento?
+RESPOSTA ORIGINAL  : Coroa de Barbotin.
+FRENTE ANTERIOR    : ____ de ____.
+VERSO ANTERIOR     : Coroa de Barbotin.
+FRENTE AUDITADA    : A roda de periferia dentada e côncava onde os elos da amarra se alojam para permitir seu tracionamento e recolhimento é a coroa de ____.
+VERSO AUDITADO     : Barbotin
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_150
+LINHA FONTE (orig) : Linha 363
+QUESTÃO ORIGINAL   : A cabresteira pode ser composta por cabos de aço ou amarras conectados à perna da unidade por qual dispositivo?
+RESPOSTA ORIGINAL  : Smit Bracket.
+FRENTE ANTERIOR    : Smit ____.
+VERSO ANTERIOR     : Smit Bracket.
+FRENTE AUDITADA    : Nas operações de reboque, a cabresteira é conectada de forma segura e rápida às pernas da plataforma por meio do dispositivo denominado Smit ____.
+VERSO AUDITADO     : Bracket
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_151
+LINHA FONTE (orig) : Linha 364
+QUESTÃO ORIGINAL   : Como é denominada a placa triangular onde se unem o pendente e os cabos da cabresteira?
+RESPOSTA ORIGINAL  : Monkey Plate, Triangular Plate ou Delta Plate.
+FRENTE ANTERIOR    : ____ Plate, ____ Plate ou Delta Plate.
+VERSO ANTERIOR     : Monkey Plate, Triangular Plate ou Delta Plate.
+FRENTE AUDITADA    : A placa triangular de aço forjado utilizada para unir o cabo pendente de reboque às duas pernas da cabresteira é denominada Triangular Plate, Monkey Plate ou ____ Plate.
+VERSO AUDITADO     : Delta
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_152
+LINHA FONTE (orig) : Linha 365
+QUESTÃO ORIGINAL   : O que é a operação de Pull-back realizada pelo AHTS?
+RESPOSTA ORIGINAL  : Utilização da força de Bollard Pull do AHTS para posicionar ou tensionar equipamentos e estruturas flutuantes.
+FRENTE ANTERIOR    : ____ da força de Bollard Pull do AHTS para posicionar ou tensionar ____ e estruturas flutuantes.
+VERSO ANTERIOR     : Utilização da força de Bollard Pull do AHTS para posicionar ou tensionar equipamentos e estruturas flutuantes.
+FRENTE AUDITADA    : A manobra na qual o AHTS emprega continuamente sua força de tração estática (Bollard Pull) para posicionar e tensionar linhas ou estruturas é a operação de ____.
+VERSO AUDITADO     : Pull-back
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_153
+LINHA FONTE (orig) : Linha 366
+QUESTÃO ORIGINAL   : Quais são exemplos de aplicações da operação de Pull-back?
+RESPOSTA ORIGINAL  : Passagem e tensionamento de cabos, considerando a catenária.
+FRENTE ANTERIOR    : Passagem e ____ de cabos, ____ a catenária.
+VERSO ANTERIOR     : Passagem e tensionamento de cabos, considerando a catenária.
+FRENTE AUDITADA    : Nas fainas de Pull-back realizadas por AHTS, a passagem e o tensionamento de cabos devem ser efetuados considerando rigorosamente a curva geométrica de ____.
+VERSO AUDITADO     : catenária
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_154
+LINHA FONTE (orig) : Linha 367
+QUESTÃO ORIGINAL   : Qual é o objetivo da operação de Pull-back na ancoragem de uma unidade?
+RESPOSTA ORIGINAL  : Aplicar tração para assentar a âncora no fundo do mar e tensionar a linha de ancoragem, mantendo a unidade na posição desejada.
+FRENTE ANTERIOR    : Aplicar tração para assentar a âncora no fundo do mar e ____ a linha de ____, mantendo a unidade na posição desejada.
+VERSO ANTERIOR     : Aplicar tração para assentar a âncora no fundo do mar e tensionar a linha de ancoragem, mantendo a unidade na posição desejada.
+FRENTE AUDITADA    : Na ancoragem de unidades marítimas, o objetivo principal da operação de Pull-back é aplicar tração para cravar e assentar no leito marinho a ____.
+VERSO AUDITADO     : âncora
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_155
+LINHA FONTE (orig) : Linha 368
+QUESTÃO ORIGINAL   : Quais são as principais características da operação de Pull-back realizada pelo AHTS?
+RESPOSTA ORIGINAL  : Alto Bollard Pull; tração controlada; monitoramento contínuo da tensão e do posicionamento; e garantia da integridade do sistema de ancoragem.
+FRENTE ANTERIOR    : Alto Bollard Pull; tração controlada; ____ contínuo da tensão e do ____; e garantia da integridade do sistema de ancoragem.
+VERSO ANTERIOR     : Alto Bollard Pull; tração controlada; monitoramento contínuo da tensão e do posicionamento; e garantia da integridade do sistema de ancoragem.
+FRENTE AUDITADA    : A execução da manobra de Pull-back exige elevado Bollard Pull do AHTS, aplicação progressiva de carga e monitoramento contínuo da tensão e do ____.
+VERSO AUDITADO     : posicionamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_156
+LINHA FONTE (orig) : Linha 369
+QUESTÃO ORIGINAL   : Como a tração é aplicada na operação de Pull-back?
+RESPOSTA ORIGINAL  : De forma controlada, com monitoramento contínuo da tensão e do posicionamento.
+FRENTE ANTERIOR    : De forma controlada, com ____ contínuo da tensão e do ____.
+VERSO ANTERIOR     : De forma controlada, com monitoramento contínuo da tensão e do posicionamento.
+FRENTE AUDITADA    : Na operação de Pull-back realizada pelo AHTS, a fim de evitar sobrecargas dinâmicas e rompimento da linha, a tração deve ser aplicada de forma ____.
+VERSO AUDITADO     : controlada
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_157
+LINHA FONTE (orig) : Linha 370
+QUESTÃO ORIGINAL   : O que deve ser monitorado continuamente durante o Pull-back?
+RESPOSTA ORIGINAL  : A tensão e o posicionamento.
+FRENTE ANTERIOR    : A ____ e o ____.
+VERSO ANTERIOR     : A tensão e o posicionamento.
+FRENTE AUDITADA    : Durante a execução da manobra de Pull-back pelo AHTS para assentamento de âncoras, devem ser monitorados continuamente o posicionamento e a ____.
+VERSO AUDITADO     : tensão
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_158
+LINHA FONTE (orig) : Linha 371
+QUESTÃO ORIGINAL   : Por que o Pull-back é essencial para o sistema de ancoragem?
+RESPOSTA ORIGINAL  : Para garantir a integridade do sistema de ancoragem.
+FRENTE ANTERIOR    : Para garantir a ____ do sistema de ____.
+VERSO ANTERIOR     : Para garantir a integridade do sistema de ancoragem.
+FRENTE AUDITADA    : A realização prévia do teste de Pull-back com o AHTS é indispensável na faina de ancoragem para atestar a segurança e a ____ do sistema.
+VERSO AUDITADO     : integridade
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_159
+LINHA FONTE (orig) : Linha 377
+QUESTÃO ORIGINAL   : Quais são os tipos de TMS?
+RESPOSTA ORIGINAL  : Top-hat e gaiola (Cage).
+FRENTE ANTERIOR    : ____ e ____ (Cage).
+VERSO ANTERIOR     : Top-hat e gaiola (Cage).
+FRENTE AUDITADA    : Os dois tipos construtivos de TMS (Tether Management System) empregados em operações submarinas com veículos ROV são o modelo gaiola (Cage) e o modelo ____.
+VERSO AUDITADO     : Top-hat
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_160
+LINHA FONTE (orig) : Linha 380
+QUESTÃO ORIGINAL   : O AOV navega de forma _____ ou _____, diferentemente do ROV, que é pilotado em _____.
+RESPOSTA ORIGINAL  : programada; semi-autônoma; tempo real.
+FRENTE ANTERIOR    : ____; ____; tempo real.
+VERSO ANTERIOR     : programada; semi-autônoma; tempo real.
+FRENTE AUDITADA    : Diferentemente do ROV, cuja operação é pilotada ativamente em tempo real por um operador, o veículo AOV navega de forma ____ ou semiautônoma.
+VERSO AUDITADO     : programada
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_161
+LINHA FONTE (orig) : Linha 381
+QUESTÃO ORIGINAL   : Qual é a função do barco de apoio LDB nas operações de mergulho raso?
+RESPOSTA ORIGINAL  : Transportar a equipe até o ponto mais próximo da operação e manter estoque de suprimento de ar.
+FRENTE ANTERIOR    : ____ a equipe até o ponto mais próximo da operação e manter estoque de ____ de ar.
+VERSO ANTERIOR     : Transportar a equipe até o ponto mais próximo da operação e manter estoque de suprimento de ar.
+FRENTE AUDITADA    : Nas operações de mergulho raso, a função do barco de apoio LDB é aproximar a equipe da faina e manter no local um estoque de suprimento de ____.
+VERSO AUDITADO     : ar
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_162
+LINHA FONTE (orig) : Linha 382
+QUESTÃO ORIGINAL   : Quais são as principais dificuldades e riscos associados à câmara hiperbárica?
+RESPOSTA ORIGINAL  : Dificuldade de manutenção, risco de incêndio e proliferação de parasitas devido à umidade.
+FRENTE ANTERIOR    : ____ de manutenção, risco de incêndio e ____ de parasitas devido à umidade.
+VERSO ANTERIOR     : Dificuldade de manutenção, risco de incêndio e proliferação de parasitas devido à umidade.
+FRENTE AUDITADA    : Entre os riscos sanitários e dificuldades operacionais no confinamento em câmara hiperbárica de mergulho saturado estão o risco de incêndio e a proliferação de ____ decorrente da alta umidade.
+VERSO AUDITADO     : parasitas
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_163
+LINHA FONTE (orig) : Linha 383
+QUESTÃO ORIGINAL   : Cite quatro pontos de atenção para garantir a segurança nas operações de mergulho?
+RESPOSTA ORIGINAL  : Gestão do umbilical;  Prevenção de enroscamento nos propulsores;  Definição do raio seguro do mergulhador;  Controle da tensão.
+FRENTE ANTERIOR    : Gestão do umbilical; Prevenção de ____ nos ____; Definição do raio seguro do mergulhador; Controle da tensão.
+VERSO ANTERIOR     : Gestão do umbilical;  Prevenção de enroscamento nos propulsores;  Definição do raio seguro do mergulhador;  Controle da tensão.
+FRENTE AUDITADA    : Nas operações de mergulho apoiadas por embarcações com posicionamento dinâmico (DP), a rigorosa gestão do umbilical é vital para prevenir o enroscamento do cabo nos ____.
+VERSO AUDITADO     : propulsores
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_164
+LINHA FONTE (orig) : Linha 384
+QUESTÃO ORIGINAL   : Sistemas como o ___________ ou o ___________ cruzam esses dados para guiar automaticamente o posicionamento da embarcação.
+RESPOSTA ORIGINAL  : Miros Oil Spill Detection;  Furuno Oil Radar.
+FRENTE ANTERIOR    : Miros Oil Spill ____ ;____ Oil Radar.
+VERSO ANTERIOR     : Miros Oil Spill Detection ;Furuno Oil Radar.
+FRENTE AUDITADA    : A bordo do OSRV, sistemas de radar como o Furuno Oil Radar e o Miros Oil Spill Detection cruzam dados para guiar automaticamente a aproximação e o ____ da embarcação em relação à mancha.
+VERSO AUDITADO     : posicionamento
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_165
+LINHA FONTE (orig) : Linha 385
+QUESTÃO ORIGINAL   : O que são skimmers e qual é sua função nas operações de OSRV?
+RESPOSTA ORIGINAL  : Equipamentos que sugam e removem substâncias nocivas da área delimitada pelas barreiras de contenção.
+FRENTE ANTERIOR    : ____ que sugam e removem ____ nocivas da área delimitada pelas barreiras de contenção.
+VERSO ANTERIOR     : Equipamentos que sugam e removem substâncias nocivas da área delimitada pelas barreiras de contenção.
+FRENTE AUDITADA    : Nas operações de recolhimento de poluentes por um OSRV, os equipamentos especializados responsáveis por sugar e remover o óleo acumulado dentro do cerco de barreiras são os ____.
+VERSO AUDITADO     : skimmers
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_166
+LINHA FONTE (orig) : Linha 386
+QUESTÃO ORIGINAL   : Qual é a função das boias Derivador (Drifter Buoy) nas operações de recolhimento de óleo?
+RESPOSTA ORIGINAL  : Rastrear a trajetória da mancha de óleo à deriva e orientar a embarcação até a área de recolhimento.
+FRENTE ANTERIOR    : As ____ são utilizadas para rastrear a ____ da mancha de óleo à deriva e orientar a embarcação até a área de ____.
+VERSO ANTERIOR     : trajetória;recolhimento.
+FRENTE AUDITADA    : Nas operações de combate a derramamentos, as boias do tipo Derivador (Drifter Buoys) lançadas na água têm a função primária de monitorar e rastrear a ____ da mancha à deriva.
+VERSO AUDITADO     : trajetória
+STATUS AUDITORIA   : Reconstruído
+--------------------------------------------------------------------------------
+ID                 : CARD_167
+LINHA FONTE (orig) : Linha 387
+QUESTÃO ORIGINAL   : Onde ficam armazenadas ou posicionadas as boias Derivador (Drifter Buoy) na embarcação OSRV?
+RESPOSTA ORIGINAL  : No convés principal.
+FRENTE ANTERIOR    : No ____ ____.
+VERSO ANTERIOR     : No convés principal.
+FRENTE AUDITADA    : A bordo da embarcação OSRV, prontas para rápido lançamento em caso de emergência, as boias Derivador (Drifter Buoys) ficam armazenadas no ____ principal.
+VERSO AUDITADO     : convés
+STATUS AUDITORIA   : Reconstruído
