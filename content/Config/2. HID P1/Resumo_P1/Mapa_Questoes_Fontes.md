@@ -114,3 +114,50 @@ Diferentemente da Classificação Principal (que é estritamente disjunta), as *
    Mapeia tópicos em que se recomenda que o estudante consulte o docente quanto a critérios de correção e profundidade discursiva exigida na folha de avaliação.
 4. **`[LIM]` — Limitações de Verificação Documental (5 questões: Q34, Q36–Q39):**  
    Registra pontos onde as fontes documentais locais do professor omitiram etapas dedutivas ou definições formais fechadas (ex.: ausência da fórmula explícita de normalização de $C_T$ em Q34 e ausência de dedução de tubos cilíndricos na Apostila de U1).
+
+---
+
+## 4. Mapeamento Final das 40 Questões para o Simulado P1 e Gabarito Comentado
+
+| Questão | Bloco | Item no Simulado P1 (`SIMULADO_P1_HIDRODINAMICA.md`) | Localização no Gabarito Comentado | Tipo de Cobertura | Status |
+| :---: | :---: | :--- | :--- | :---: | :---: |
+| **Q1** | Bloco 1 | 1ª Questão (Afirmativa I) e 2ª Questão (Lacuna 2) | Gabarito 1ª Q (I) e 2ª Q (2) | Direta e Suficiente | Aprovado |
+| **Q2** | Bloco 1 | 1ª Questão (Afirmativa II) e 3ª Questão (Item 1) | Gabarito 1ª Q (II) e 3ª Q (1) | Direta e Suficiente | Aprovado |
+| **Q3** | Bloco 1 | 1ª Questão (Afirmativa III) e 2ª Questão (Lacuna 1) | Gabarito 1ª Q (III) e 2ª Q (1) | Direta e Suficiente | Aprovado |
+| **Q4** | Bloco 1 | 1ª Questão (Afirmativa IV) | Gabarito 1ª Q (IV) | Direta e Suficiente | Aprovado |
+| **Q5** | Bloco 1 | 1ª Questão (Afirmativa V) e 3ª Questão (Item 2) | Gabarito 1ª Q (V) e 3ª Q (2) | Direta e Suficiente | Aprovado |
+| **Q6** | Bloco 2 | 2ª Questão (Lacuna 3) e Questão 4.1 | Gabarito 2ª Q (3) e 4ª Q (4.1) | Direta e Suficiente | Aprovado |
+| **Q7** | Bloco 2 | 2ª Questão (Lacuna 4) e 3ª Questão (Item 3) | Gabarito 2ª Q (4) e 3ª Q (3) | Direta e Suficiente | Aprovado |
+| **Q8** | Bloco 2 | 3ª Questão (Item 4) e Questão 4.1 | Gabarito 3ª Q (4) e 4ª Q (4.1) | Direta e Suficiente | Aprovado |
+| **Q9** | Bloco 2 | Questão 4.2 | Gabarito 4ª Q (4.2) | Direta e Suficiente | Aprovado |
+| **Q10** | Bloco 2 | 3ª Questão (Item 5) e Questão 4.2 | Gabarito 3ª Q (5) e 4ª Q (4.2) | Direta e Suficiente | Aprovado |
+| **Q11** | Bloco 3 | 2ª Questão (Lacuna 5) e Questão 4.3 | Gabarito 2ª Q (5) e 4ª Q (4.3) | Direta e Suficiente | Aprovado |
+| **Q12** | Bloco 3 | 3ª Questão (Item 6) e Questão 4.3 | Gabarito 3ª Q (6) e 4ª Q (4.3) | Direta e Suficiente | Aprovado |
+| **Q13** | Bloco 3 | 3ª Questão (Item 7) | Gabarito 3ª Q (7) | Direta e Suficiente | Aprovado |
+| **Q14** | Bloco 3 | 2ª Questão (Lacuna 6) | Gabarito 2ª Q (6) | Direta e Suficiente | Aprovado |
+| **Q15** | Bloco 4 | 2ª Questão (Lacuna 7) e 3ª Questão (Item 8) | Gabarito 2ª Q (7) e 3ª Q (8) | Direta e Suficiente | Aprovado |
+| **Q16** | Bloco 4 | 2ª Questão (Lacuna 8) e 3ª Questão (Item 9) | Gabarito 2ª Q (8) e 3ª Q (9) | Direta e Suficiente | Aprovado |
+| **Q17** | Bloco 4 | 3ª Questão (Item 10) e Questão 4.4 | Gabarito 3ª Q (10) e 4ª Q (4.4) | Direta e Suficiente | Aprovado |
+| **Q18** | Bloco 4 | 3ª Questão (Item 11) | Gabarito 3ª Q (11) | Direta e Suficiente | Aprovado |
+| **Q19** | Bloco 5 | 2ª Questão (Lacuna 9) | Gabarito 2ª Q (9) | Direta e Suficiente | Aprovado |
+| **Q20** | Bloco 5 | 2ª Questão (Lacuna 10) e 3ª Questão (Item 12) | Gabarito 2ª Q (10) e 3ª Q (12) | Direta e Suficiente | Aprovado |
+| **Q21** | Bloco 5 | 2ª Questão (Lacuna 11) | Gabarito 2ª Q (11) | Direta e Suficiente | Aprovado |
+| **Q22** | Bloco 5 | 3ª Questão (Item 13) | Gabarito 3ª Q (13) | Direta e Suficiente | Aprovado |
+| **Q23** | Bloco 5 | 3ª Questão (Item 14) e Questão 4.4 | Gabarito 3ª Q (14) e 4ª Q (4.4) | Direta e Suficiente | Aprovado |
+| **Q24** | Bloco 5 | 2ª Questão (Lacuna 12) e Questão 4.5 | Gabarito 2ª Q (12) e 4ª Q (4.5) | Direta e Suficiente | Aprovado |
+| **Q25** | Bloco 5 | 2ª Questão (Lacuna 13) e Questão 4.5 | Gabarito 2ª Q (13) e 4ª Q (4.5) | Direta e Suficiente | Aprovado |
+| **Q26** | Bloco 5 | 2ª Questão (Lacuna 14) e Questão 4.6 | Gabarito 2ª Q (14) e 4ª Q (4.6) | Direta e Suficiente | Aprovado |
+| **Q27** | Bloco 5 | 2ª Questão (Lacuna 15) e Questão 4.6 | Gabarito 2ª Q (15) e 4ª Q (4.6) | Direta e Suficiente | Aprovado |
+| **Q28** | Bloco 5 | 2ª Questão (Lacuna 16) e 3ª Questão (Item 15) | Gabarito 2ª Q (16) e 3ª Q (15) | Direta e Suficiente | Aprovado |
+| **Q29** | Bloco 6 | 2ª Questão (Lacuna 17) e 3ª Questão (Item 16) | Gabarito 2ª Q (17) e 3ª Q (16) | Direta e Suficiente | Aprovado |
+| **Q30** | Bloco 6 | 3ª Questão (Item 17) | Gabarito 3ª Q (17) | Direta e Suficiente | Aprovado |
+| **Q31** | Bloco 6 | 2ª Questão (Lacuna 18) e 5ª Questão (Passo 3) | Gabarito 2ª Q (18) e 5ª Q (Passo 3) | Direta e Suficiente | Aprovado |
+| **Q32** | Bloco 6 | 3ª Questão (Item 18) | Gabarito 3ª Q (18) | Direta e Suficiente | Aprovado |
+| **Q33** | Bloco 6 | 2ª Questão (Lacuna 19) e 5ª Questão (Passo 4) | Gabarito 2ª Q (19) e 5ª Q (Passo 4) | Direta e Suficiente | Aprovado |
+| **Q34** | Bloco 6 | Questão 4.7 | Gabarito 4ª Q (4.7) | Direta e Suficiente | Aprovado |
+| **Q35** | Bloco 7 | 2ª Questão (Lacuna 20) e Questão 4.8 | Gabarito 2ª Q (20) e 4ª Q (4.8) | Direta e Suficiente | Aprovado |
+| **Q36** | Bloco 7 | 3ª Questão (Item 19) e 6ª Questão (Item b) | Gabarito 3ª Q (19) e 6ª Q (Item b) | Direta e Suficiente | Aprovado |
+| **Q37** | Bloco 7 | 3ª Questão (Item 20) e 6ª Questão (Item c) | Gabarito 3ª Q (20) e 6ª Q (Item c) | Direta e Suficiente | Aprovado |
+| **Q38** | Bloco 7 | Questão 4.9 e 6ª Questão (Item a) | Gabarito 4ª Q (4.9) e 6ª Q (Item a) | Direta e Suficiente | Aprovado |
+| **Q39** | Bloco 7 | Questão 4.10 e 6ª Questão (Item d) | Gabarito 4ª Q (4.10) e 6ª Q (Item d) | Direta e Suficiente | Aprovado |
+| **Q40** | Bloco 7 | Questão 4.10 e 6ª Questão (Item d) | Gabarito 4ª Q (4.10) e 6ª Q (Item d) | Direta e Suficiente | Aprovado |
