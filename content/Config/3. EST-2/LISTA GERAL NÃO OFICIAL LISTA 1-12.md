@@ -113,5 +113,3 @@ Um navio de $174\text{ m}$ de comprimento entre perpendiculares flutua com calad
 ### Questão 19
 O navio SD-14 “Comandante Lucas” apresenta os calados iniciais: $H_{av} = 6,50\text{ m}$ e $H_{ar} = 7,50\text{ m}$. Recebeu $100\text{ t}$ de óleo combustível num tanque de duplo-fundo, cujo centro de gravidade ficava a $45,39\text{ m}$ avante do plano transversal a meio navio ($\otimes g$). Com base nesses dados, utilizando a tabela de dados hidrostáticos, calcule os calados finais e o trim após essa operação.
 
-### Questão 20
-O navio SD-14 “ASON”, ao atracar no porto de Salvador, apresentava os calados iniciais avante $7,20\text{ m}$ e à ré $8,80\text{ m}$. Efetuou as seguintes operações: carregou o porão 03 com $1200\text{ t}$ ($\otimes g = -35,12\text{ m}$); o porão 05 com $900\text{ t}$ ($\otimes g = +30,16\text{ m}$) e recebeu $297\text{ t}$ de óleo diesel no tanque 3FD C ($\otimes g = +26,16\text{ m}$). Depois de todas as operações, utilizando a tabela de dados hidrostáticos, determine os calados finais e o compasso.

@@ -19,8 +19,7 @@ tags:
 - Na **2ª Questão**, preencha cada uma das 20 lacunas com o termo, símbolo ou expressão matemática exata.
 - Na **3ª Questão**, classifique cada uma das 20 afirmativas como Verdadeira (V) ou Falsa (F).
 - Na **4ª Questão**, assinale a única alternativa correta em cada um dos 10 subitens objetivos independentes (4.1 a 4.10).
-- Na **5ª Questão**, resolva o problema analítico discursivo de análise dimensional pelo método de Buckingham–\(\Pi\), organizando a resolução obrigatoriamente nos seis passos canônicos da apostila.
-- Na **6ª Questão**, resolva o problema analítico discursivo sobre escoamento laminar em duto cilíndrico (Hagen–Poiseuille), desenvolvendo passo a passo as deduções mecânicas nos itens (a), (b), (c) e (d).
+- Na **5ª Questão**, resolva o problema analítico discursivo de análise dimensional pelo método de Buckingham–$\Pi$, organizando a resolução obrigatoriamente nos seis passos canônicos da apostila.
 
 ---
 
@@ -31,11 +30,11 @@ Considere os conceitos, equações e convenções de cinemática dos fluidos sob
 
 **I.** Em um escoamento caracterizado formalmente em regime permanente sob o ponto de vista de campo vetorial euleriano, as propriedades do fluido em qualquer coordenada espacial fixa $(x, y, z)$ não variam com o tempo, o que impõe que a derivada temporal local seja identicamente nula: $\frac{\partial \mathbf{V}}{\partial t} = \mathbf{0}$, $\frac{\partial p}{\partial t} = 0$ e $\frac{\partial \rho}{\partial t} = 0$.
 
-**II.** Se em um bocal convergente horizontal com fluxo permanente a aceleração local é zero ($\frac{\partial u}{\partial t} = 0$), uma partícula fluida ou boia que avança ao longo do duto sofre aceleração física real porque penetra em seções de área reduzida com velocidades progressivamente maiores, gerando aceleração pela parcela convectiva não nula $u \frac{\partial u}{\partial x} > 0$.
+**II.** Se em um bocal convergente horizontal com fluxo permanente e incompressível a aceleração local é zero ($\frac{\partial u}{\partial t} = 0$), uma partícula fluida ou boia que avança ao longo do duto sofre aceleração física real porque penetra em seções de área reduzida com velocidades progressivamente maiores, gerando aceleração pela parcela convectiva não nula $u \frac{\partial u}{\partial x} > 0$.
 
 **III.** A expressão unidimensional da derivada material da velocidade longitudinal é dada por $\frac{Du}{Dt} = \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x}$, em que a parcela puramente espacial que expressa a inércia convectiva é representada por $u \frac{\partial u}{\partial x}$.
 
-**IV.** Em um duto divergente operando em regime permanente com velocidade longitudinal positiva ($u > 0$), como a área transversal cresce, a velocidade diminui ao longo do comprimento ($\frac{\partial u}{\partial x} < 0$), de modo que o produto convectivo $u \frac{\partial u}{\partial x}$ torna-se negativo, indicando desaceleração física da partícula fluida.
+**IV.** Em um duto divergente operando em regime permanente e incompressível com velocidade longitudinal positiva ($u > 0$), como a área transversal cresce, a velocidade diminui ao longo do comprimento ($\frac{\partial u}{\partial x} < 0$), de modo que o produto convectivo $u \frac{\partial u}{\partial x}$ torna-se negativo, indicando desaceleração física da partícula fluida.
 
 **V.** Afirmar que em regime permanente nenhuma partícula fluida pode sofrer variação de velocidade é correto, pois a hipótese de escoamento permanente estabelece que a taxa de variação substantiva da velocidade da partícula individual em movimento ($\frac{D\mathbf{V}}{Dt}$) é identicamente nula em qualquer escoamento estacionário.
 
@@ -50,15 +49,15 @@ Considere os conceitos, equações e convenções de cinemática dos fluidos sob
 ---
 
 ## 2ª Questão — Complete as lacunas
-*Rastreabilidade: Questionário P1 — Perguntas 1, 3, 6, 7, 11, 14, 15, 16, 19, 20, 21, 24, 25, 26, 27, 28, 29, 31, 33, 35, 39*
+*Rastreabilidade: Questionário P1 — Perguntas 1, 3, 6, 7, 11, 14, 15, 16, 19, 20, 21, 24, 25, 26, 27, 28, 29, 31, 33, 35*
 
 Preencha cada lacuna com o termo, símbolo ou expressão matemática mais adequado.
 
 1. Na derivada material unidimensional $\frac{Du}{Dt} = \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x}$, a parcela espacial $u \frac{\partial u}{\partial x}$ é denominada aceleração __________.
-2. Sob a ótica euleriana, um escoamento é formalmente permanente quando a derivada temporal local do vetor velocidade em um ponto fixo do espaço satisfaz a condição \(\frac{\partial \mathbf{V}}{\partial t} =\) __________.
-3. A equação diferencial da conservação de massa na forma vetorial geral para escoamentos tridimensionais compressíveis é expressa por \(\frac{\partial \rho}{\partial t} + \nabla \cdot (\)__________\() = 0\).
-4. Para escoamentos de água líquida em condutos ou ao redor de cascos, a hipótese de fluido incompressível (\(\rho = \text{constante}\)) reduz a equação da continuidade à forma vetorial \(\nabla \cdot \mathbf{V} =\) __________.
-5. Em um elemento infinitesimal de fluido de dimensões \(dx, dy, dz\), a força resultante líquida gerada pela pressão nas faces perpendiculares ao eixo \(x\) por unidade de volume é dada por __________.
+2. Sob a ótica euleriana, um escoamento é formalmente permanente quando a derivada temporal local do vetor velocidade em um ponto fixo do espaço satisfaz a condição $\frac{\partial \mathbf{V}}{\partial t} =$ __________.
+3. A equação diferencial da conservação de massa na forma vetorial geral para escoamentos tridimensionais compressíveis é expressa por $\frac{\partial \rho}{\partial t} + \nabla \cdot ($__________$) = 0$.
+4. Para escoamentos de água líquida em condutos ou ao redor de cascos, a hipótese de fluido incompressível ($\rho = \text{constante}$) reduz a equação da continuidade à forma vetorial $\nabla \cdot \mathbf{V} =$ __________.
+5. Em um elemento infinitesimal de fluido de dimensões $dx, dy, dz$, a força resultante líquida gerada pela pressão nas faces perpendiculares ao eixo $x$ por unidade de volume é dada por __________.
 6. Quanto à sua natureza mecânica no balanço de Navier–Stokes, as forças classificam-se em forças de superfície, que atuam por contato direto, e forças de __________, que atuam à distância sobre a massa.
 7. A condição cinemática de não-escorregamento impõe que as moléculas do fluido aderidas à superfície sólida adquirem velocidade relativa à parede igual a __________.
 8. Em uma fronteira sólida impermeável, a condição de contorno de impenetrabilidade impõe que a componente de velocidade perpendicular (normal) à superfície rígida seja igual a __________.
@@ -71,9 +70,9 @@ Preencha cada lacuna com o termo, símbolo ou expressão matemática mais adequa
 15. O parâmetro adimensional que compara a inércia do escoamento com o efeito da aceleração gravitacional, comandando o sistema de ondas de proa gerado por um navio, é o número de __________.
 16. As três similaridades físicas necessárias para garantir equivalência integral de escoamento entre um modelo em tanque de provas e um navio em escala real são a similaridade geométrica, a similaridade cinemática e a similaridade __________.
 17. A regra que estabelece que todos os membros aditivos de uma equação física devem possuir rigorosamente a mesma dimensão primária é o princípio da __________ dimensional.
-18. Em termos do Teorema \(\Pi\) de Buckingham, se um fenômeno hidrodinâmico é função de \(n\) grandezas físicas governadas por \(m\) dimensões fundamentais, o número de monômios adimensionais independentes obtidos é dado por \(k =\) __________.
-19. No método de Buckingham, o número de variáveis repetidas deve ser exatamente igual a \(m\), e elas devem conter, juntas, todas as dimensões __________ do problema.
-20. No escoamento laminar de água em duto circular de diâmetro \(D\), o número de Reynolds com base no diâmetro é definido matematicamente pela expressão \(Re_D =\) __________.
+18. Em termos do Teorema $\Pi$ de Buckingham, se um fenômeno hidrodinâmico é função de $n$ grandezas físicas governadas por $m$ dimensões fundamentais, o número de monômios adimensionais independentes obtidos é dado por $k =$ __________.
+19. No método de Buckingham, o número de variáveis repetidas deve ser exatamente igual a $m$, e elas devem conter, juntas, todas as dimensões __________ do problema.
+20. No escoamento laminar de água em duto circular de diâmetro $D$, o número de Reynolds com base no diâmetro é definido matematicamente pela expressão $Re_D =$ __________.
 
 ---
 
@@ -82,8 +81,8 @@ Preencha cada lacuna com o termo, símbolo ou expressão matemática mais adequa
 
 Classifique cada uma das 20 afirmativas abaixo como **Verdadeira (V)** ou **Falsa (F)**.
 
-1. (  ) Em um bocal convergente horizontal operando em fluxo permanente com vazão mássica constante, embora a velocidade local em qualquer ponto estático não varie no tempo ($\frac{\partial u}{\partial t} = 0$), uma partícula fluida experimenta aceleração real ao transitar para seções mais estreitas.
-2. (  ) O erro de quem afirma que em regime permanente nenhuma porção fluida pode acelerar consiste em confundir a derivada temporal local euleriana em um ponto fixo ($\frac{\partial \mathbf{V}}{\partial t} = \mathbf{0}$) com a derivada substantiva da partícula individual em movimento ($\frac{D\mathbf{V}}{Dt} \neq \mathbf{0}$).
+1. (  ) Em um bocal convergente horizontal operando em fluxo permanente e incompressível com vazão mássica constante, embora a velocidade local em qualquer ponto estático não varie no tempo ($\frac{\partial u}{\partial t} = 0$), uma partícula fluida experimenta aceleração real ao transitar para seções mais estreitas.
+2. (  ) O erro de quem afirma que em regime permanente nenhuma porção fluida pode acelerar consiste em confundir a derivada temporal local euleriana em um ponto fixo ($\frac{\partial \mathbf{V}}{\partial t} = \mathbf{0}$) com a derivada substantiva da partícula individual em movimento ($\frac{D\mathbf{V}}{Dt}$), que inclui a mudança de posição no espaço e pode ser não nula na presença de gradientes espaciais de velocidade.
 3. (  ) A equação da continuidade para escoamentos de água líquida reduz-se a $\nabla \cdot \mathbf{V} = 0$ exclusivamente se o escoamento for permanente; caso o escoamento seja transiente, a densidade varia expressivamente no tempo e a equação torna-se $\nabla \cdot \mathbf{V} \neq 0$.
 4. (  ) A condição de divergente nulo do campo de velocidades ($\nabla \cdot \mathbf{V} = 0$) significa fisicamente que a taxa de variação volumétrica por unidade de volume é nula; o elemento de fluido pode deformar-se ou rotacionar, mas seu volume permanece estritamente constante.
 5. (  ) Em um canal bidimensional incompressível onde a velocidade longitudinal cresce com $x$ segundo $u(x) = C_1 + C_2 x$ (com $C_2 > 0$), a taxa de deformação vertical calculada como $\frac{\partial v}{\partial y} = -C_2 < 0$ indica que as camadas fluidas convergem verticalmente para compensar o estiramento horizontal.
@@ -228,57 +227,21 @@ Como se comporta a distribuição transversal da tensão de cisalhamento viscosa
 ---
 
 ### Questão 4.10
-*(Rastreabilidade: Questionário P1 — Perguntas 39 e 40)*
+*(Rastreabilidade: Questionário P1 — Perguntas 39 e 40; Adaptação Conceitual sem Exigência de Cálculo Numérico)*
 
-Pela equação analítica de Hagen–Poiseuille, a perda de carga longitudinal ($\Delta p$) em regime laminar ao longo de um tubo circular de comprimento $L$ e diâmetro $D$ conduzindo vazão volumétrica $Q$ é dada por $\Delta p = \frac{128\mu LQ}{\pi D^4}$. Se o diâmetro do duto $D$ for reduzido pela metade ($D_{\text{novo}} = D/2$), mantendo-se rigorosamente constantes a vazão de água $Q$, a viscosidade $\mu$ e o comprimento $L$, por qual fator a queda de pressão exigida irá aumentar?
+De acordo com a Equação de Hagen–Poiseuille para escoamento laminar, permanente e incompressível totalmente desenvolvido em um duto cilíndrico circular ($\Delta p = \frac{128\mu L Q}{\pi D^4}$), qual das alternativas expressa corretamente a relação de dependência física e funcional da perda de carga longitudinal ($\Delta p$) com os parâmetros geométricos e operacionais da tubulação?
 
-(a) Aumentará por um fator de 2 vezes.  
-(b) Aumentará por um fator de 4 vezes ($2^2$).  
-(c) Aumentará por um fator de 8 vezes ($2^3$).  
-(d) Aumentará por um fator de 16 vezes ($2^4$).  
-(e) Diminuirá pela metade, pois a velocidade do fluido torna-se maior.
+(a) É diretamente proporcional à viscosidade dinâmica ($\mu$), ao comprimento ($L$) e à vazão volumétrica ($Q$), e inversamente proporcional ao quadrado do diâmetro interno ($D^2$).  
+(b) É diretamente proporcional à viscosidade dinâmica ($\mu$), ao comprimento ($L$) e à vazão volumétrica ($Q$), e inversamente proporcional à quarta potência do diâmetro interno ($D^4$).  
+(c) É inversamente proporcional à viscosidade dinâmica ($\mu$) e diretamente proporcional à quarta potência do diâmetro interno ($D^4$).  
+(d) É diretamente proporcional à velocidade média e independente do diâmetro interno da tubulação.  
+(e) É inversamente proporcional ao comprimento do tubo ($L$) e linearmente proporcional ao diâmetro interno ($D$).
 
 ---
 
 ## 5ª Questão
 *(Rastreabilidade: SIMULADO_UNIDADE_2_PADRAO_APOSTILA.md — Questão Fixa e Inalterável)*
 
-Considere as variáveis \(\Delta p\), \(u\), \(\rho\) e \(L\), em que \(\Delta p\) é a diferença de pressão, \(u\) é uma velocidade característica, \(\rho\) é a massa específica e \(L\) é um comprimento característico.
+Considere as variáveis $\Delta p$, $u$, $\rho$ e $L$, em que $\Delta p$ é a diferença de pressão, $u$ é uma velocidade característica, $\rho$ é a massa específica e $L$ é um comprimento característico.
 
-Utilize o método de Buckingham–\(\Pi\) para determinar um grupo adimensional, organizando a resolução nos seis passos fundamentais apresentados na apostila.
-
----
-
-## 6ª Questão — Problema Analítico Discursivo: Escoamento em Dutos Circulares (Hagen–Poiseuille)
-*(Rastreabilidade: Questionário P1 — Perguntas 36, 37, 38, 39 e 40; Suporte Analítico Complementar em Coordenadas Cilíndricas)*
-
-Considere o escoamento laminar, permanente, incompressível e totalmente desenvolvido de um fluido newtoniano com viscosidade dinâmica $\mu$ e massa específica $\rho$ no interior de um duto circular retilíneo e horizontal de raio interno $R = D/2$ e comprimento $L$. O escoamento é conduzido puramente por uma queda de pressão longitudinal positiva $\Delta p = p_1 - p_2 > 0$ entre a seção de entrada ($x = 0$) e a seção de saída ($x = L$).
-
-Adotando o sistema de coordenadas cilíndricas axissimétricas $(r, \theta, x)$, desenvolva analiticamente as seguintes etapas:
-
-### Item (a) — Balanço Diferencial de Forças e Perfil de Tensão Cisalhante $\tau(r)$
-Isole um elemento cilíndrico coaxial de fluido de raio genérico $r$ ($0 \le r \le R$) e comprimento $L$.  
-1. Escreva o balanço de forças axiais ($\sum F_x = 0$) considerando a força motora de pressão nas faces circulares de topo e base e a força resistente cisalhante viscosa na superfície lateral cilíndrica de área $2\pi r L$.  
-2. Demonstre que a tensão cisalhante varia linearmente com o raio segundo a equação:
-   $$\tau(r) = \frac{r}{2} \frac{\Delta p}{L}$$
-3. Indique e justifique fisicamente os valores da tensão no centro do tubo ($r = 0$) e na parede sólida ($r = R$).
-
-### Item (b) — Equação Diferencial e Perfil Radial Parabólico $u(r)$
-1. Substitua na expressão de $\tau(r)$ a Lei da Viscosidade de Newton em coordenadas radiais, $\tau(r) = -\mu \frac{du}{dr}$, explicando por que o sinal de menos é fisicamente obrigatório quando o raio $r$ é medido a partir da linha de centro em direção à parede.  
-2. Integre a equação diferencial resultante e aplique a condição cinemática de contorno de não-escorregamento (*no-slip*) na parede sólida ($u(R) = 0$).  
-3. Demonstre que o perfil radial de velocidades é parabólico e dado por:
-   $$u(r) = u_{\max} \left[ 1 - \left( \frac{r}{R} \right)^2 \right]$$
-   fornecendo a expressão literal da velocidade máxima na linha de centro $u_{\max}$ em função de $\Delta p, R, \mu, L$.
-
-### Item (c) — Integração da Vazão Volumétrica e Relação $u_{\max} = 2U$
-1. Sabendo que o elemento de área diferencial de um anel concêntrico de raio $r$ e espessura radial $dr$ é $dA = 2\pi r\,dr$, monte e resolva a integral da vazão volumétrica total:
-   $$Q = \int_0^R u(r) \cdot 2\pi r\,dr$$
-   mostrando que $Q = \frac{\pi R^2}{2} u_{\max}$.  
-2. A partir da definição de velocidade média volumétrica ($U = Q / A$, com $A = \pi R^2$), deduza analiticamente a relação exata entre a velocidade máxima na linha de centro e a velocidade média do escoamento:
-   $$u_{\max} = 2U$$
-   e contraste sucintamente esse resultado com o fator obtido para placas planas paralelas ($u_{\max} = 1,5U$).
-
-### Item (d) — Dedução da Lei de Hagen–Poiseuille e Sensibilidade ao Diâmetro
-1. Substitua a expressão de $u_{\max}$ deduzida no Item (b) na equação da vazão $Q$, substitua o raio pelo diâmetro interno ($R = D/2$) e isole a queda de pressão $\Delta p$ para deduzir formalmente a Equação de Hagen–Poiseuille:
-   $$\Delta p = \frac{128\,\mu L Q}{\pi D^4}$$
-2. Utilizando a equação deduzida, prove algebricamente qual é o fator de aumento na queda de pressão $\Delta p$ se o diâmetro interno da tubulação for reduzido exatamente pela metade ($D_{\text{novo}} = D/2$), mantendo-se constantes a vazão volumétrica $Q$, a viscosidade $\mu$ e o comprimento $L$.
+Utilize o método de Buckingham–$\Pi$ para determinar um grupo adimensional, organizando a resolução nos seis passos fundamentais apresentados na apostila.

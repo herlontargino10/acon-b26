@@ -336,7 +336,7 @@ Confrontou-se individualmente cada uma das questões de Q34 a Q39 com o texto do
   O `Questionário P1.pdf` fornece a fórmula e a caracterização física. A Apostila de U1 (DOC-06, pp. 24–27) deduz apenas o perfil cartesiano entre placas planas $u(y) = u_{\max}[1 - (y/h)^2]$. A dedução cilíndrica axial $\tau(r) = \frac{r}{2}\frac{\Delta p}{L} \implies u(r) = \frac{\Delta p R^2}{4\mu L}[1-(r/R)^2]$ é canônica da mecânica dos fluidos e foi desenvolvida no resumo para dar sustentação ao gabarito.
 - **Classificação Principal (Exclusiva):** **`[DEDUÇÃO COMPLEMENTAR]`**  
 - **Etiquetas Complementares:** `[COMP]`, `[CONF]`, `[LIM]`  
-- **Pendência Real:** Verificar se o professor cobrará a dedução formal em coordenadas cilíndricas na folha de prova ou apenas a aplicação da equação.
+- **Pendência Real:** Como o simulado de avaliação foi ajustado para focar estritamente em questões conceituais (5 questões), verificar com o professor se na prova teórica oficial haverá exigência de dedução formal em coordenadas cilíndricas ou se as questões cobrarão a aplicação conceitual e qualitativa das equações.
 
 ---
 
@@ -381,6 +381,22 @@ Confrontou-se individualmente cada uma das questões de Q34 a Q39 com o texto do
 - **Classificação Principal (Exclusiva):** **`[DEDUÇÃO COMPLEMENTAR]`**  
 - **Etiquetas Complementares:** `[COMP]`  
 - **Pendência Real:** Nenhuma dúvida matemática.
+
+---
+
+### Ficha de Verificação — Questão 40
+- **Enunciado Oficial (DOC-00, p. 6):**  
+  *"Pela equação analítica de Hagen–Poiseuille, se o diâmetro do duto for reduzido pela metade ($D/2$), mantendo-se a mesma vazão de água, por quanto multiplica a perda de carga?"*
+- **Gabarito Oficial do Professor (DOC-00, p. 6):**  
+  *"Como $\Delta p$ é inversamente proporcional à quarta potência do diâmetro ($\Delta p \propto D^{-4}$), ao reduzir o diâmetro pela metade, a perda de carga multiplica por:
+  $$\left(\frac{1}{2}\right)^{-4} = 2^4 = 16\text{ vezes}$$"*
+- **Evidência nas Fontes:**  
+  Questionário P1, p. 6; `44_QUESTÕES_P1_SEM_CÁLCULO.json`. A relação decorre diretamente de $\Delta p = \frac{128\mu LQ}{\pi D^4}$.
+- **Alinhamento Pedagógico no Simulado:**  
+  No simulado do estudante (`SIMULADO_P1_HIDRODINAMICA.md`), a Questão 4.10 foi estruturada como uma **adaptação conceitual** da Pergunta 40, avaliando diretamente o domínio da lei de proporcionalidade funcional ($\Delta p \propto D^{-4}$) e a sensibilidade física da perda de carga em relação ao diâmetro, sem exigir a realização de contas aritméticas manuais pelo estudante, em perfeita consonância com a diretriz de avaliação puramente teórica e conceitual.
+- **Classificação Principal (Exclusiva):** **`[SUPORTE DIRETO]`**  
+- **Etiquetas Complementares:** `[CONF]`  
+- **Pendência Real:** Nenhuma pendência física; relação de quarta potência confirmada nas fontes e no banco conceitual.
 
 ---
 

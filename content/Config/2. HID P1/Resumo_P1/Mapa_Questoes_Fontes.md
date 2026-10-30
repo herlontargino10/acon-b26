@@ -46,7 +46,7 @@
 | **Q2** | Bloco 1 | Aceleração em bocal convergente com $\partial u/\partial t = 0$ | Seção 1.2 | DOC-00 (p. 1), DOC-02 (pp. 7-8), DOC-11 (Cap. 2) | **`[SUPORTE DIRETO]`** | Inércia convectiva $u \frac{\partial u}{\partial x} > 0$ devido à redução da área ($A_2 < A_1$). |
 | **Q3** | Bloco 1 | Derivada material 1D e termo de inércia puramente espacial | Seção 1.3 | DOC-00 (p. 1), DOC-02 (pp. 8-10), DOC-11 (Cap. 2) | **`[SUPORTE DIRETO]`** | Expressão $\frac{Du}{Dt} = \frac{\partial u}{\partial t} + u \frac{\partial u}{\partial x}$. Termo espacial: $u \frac{\partial u}{\partial x}$. |
 | **Q4** | Bloco 1 | Aceleração convectiva em duto divergente permanente | Seção 1.4 | DOC-00 (p. 1), DOC-02 (pp. 7-9), DOC-11 (Cap. 2) | **`[SUPORTE DIRETO]`** | $u > 0$ e $\frac{\partial u}{\partial x} < 0 \implies u \frac{\partial u}{\partial x} < 0$ (desaceleração física). |
-| **Q5** | Bloco 1 | Erro clássico: confundir aceleração local com material | Seção 1.5 | DOC-00 (p. 1), DOC-02 (pp. 8-10), DOC-13 (Q9) | **`[SUPORTE DIRETO]`** | Confundir $\frac{\partial \mathbf{V}}{\partial t} = \mathbf{0}$ na janela fixa com $\frac{D\mathbf{V}}{Dt} \neq \mathbf{0}$ na partícula móvel. |
+| **Q5** | Bloco 1 | Erro clássico: confundir aceleração local com material | Seção 1.5 | DOC-00 (p. 1), DOC-02 (pp. 8-10), DOC-13 (Q9) | **`[SUPORTE DIRETO]`** | Confundir $\frac{\partial \mathbf{V}}{\partial t} = \mathbf{0}$ na janela fixa com a aceleração substantiva $\frac{D\mathbf{V}}{Dt}$ na partícula móvel (não necessariamente nula se houver gradientes espaciais). |
 | **Q6** | Bloco 2 | Equação da continuidade 3D compressível | Seção 2.1 | DOC-00 (p. 1), DOC-01 (pp. 4-6), DOC-11 (Cap. 1) | **`[SUPORTE DIRETO]`** | $\frac{\partial \rho}{\partial t} + \nabla \cdot (\rho \mathbf{V}) = 0$ deduzida no VC cúbico $\Delta x\Delta y\Delta z$. |
 | **Q7** | Bloco 2 | Redução para escoamentos incompressíveis ($\nabla \cdot \mathbf{V} = 0$) | Seção 2.2 | DOC-00 (p. 2), DOC-01 (p. 6), DOC-13 (Q2, Q8) | **`[SUPORTE DIRETO]`** | Água: $\rho = \text{cte} \implies \frac{\partial \rho}{\partial t} = 0$, fatoração e cancelamento de $\rho$. |
 | **Q8** | Bloco 2 | Significado físico de divergente nulo ($\nabla \cdot \mathbf{V} = 0$) | Seção 2.3 | DOC-00 (p. 2), DOC-01 (p. 6), DOC-13 (Q6) | **`[SUPORTE DIRETO]`** | Taxa de dilatação volumétrica nula ($\frac{1}{\delta V}\frac{D(\delta V)}{Dt} = 0$); volume rigorosamente constante. |
@@ -54,7 +54,7 @@
 | **Q10** | Bloco 2 | Interpretação física de $\frac{\partial v}{\partial y} = -C_2 < 0$ | Seção 2.5 | DOC-00 (p. 2), DOC-01 (pp. 5-6), DOC-13 (Q7) | **`[SUPORTE DIRETO]`** | Convergência transversal das camadas para compensar o estiramento horizontal e manter o volume constante. |
 | **Q11** | Bloco 3 | Força líquida de pressão em elemento diferencial $dx\,dy\,dz$ | Seção 3.1 | DOC-00 (p. 2), DOC-03 (pp. 12-14), DOC-11 (Cap. 3) | **`[SUPORTE DIRETO]`** | Força líquida: $-\frac{\partial p}{\partial x}dx\,dy\,dz$. Por unidade de volume: $-\frac{\partial p}{\partial x}$. |
 | **Q12** | Bloco 3 | Justificativa do sinal de menos ($-\frac{\partial p}{\partial x}$) em Navier–Stokes | Seção 3.2 | DOC-00 (p. 2), DOC-03 (p. 13), DOC-13 (Q15) | **`[SUPORTE DIRETO]`** | Pressão é tensão normal compressiva (de fora para dentro). Aceleração $+x$ exige $p_1 > p_2 \implies \frac{\partial p}{\partial x} < 0$. |
-| **Q13** | Bloco 3 | Consequência se a força de pressão fosse $+\frac{\partial p}{\partial x}$ | Seção 3.3 | DOC-00 (p. 2-3), DOC-03 (pp. 13-14), DOC-13 | **`[SUPORTE DIRETO]`** | Aceleração espontânea para zonas de maior pressão, violando o equilíbrio mecânico compressivo. |
+| **Q13** | Bloco 3 | Consequência se a força de pressão fosse $+\frac{\partial p}{\partial x}$ | Seção 3.3 | DOC-00 (p. 2-3), DOC-03 (pp. 13-14), DOC-13 | **`[SUPORTE DIRETO]`** | Aceleração espontânea para zonas de maior pressão, violando o balanço mecânico das tensões normais compressivas opostas. |
 | **Q14** | Bloco 3 | Duas grandes classes de forças em fluidos | Seção 3.4 | DOC-00 (p. 3), DOC-03 (pp. 11-12), DOC-11 (Cap. 3) | **`[SUPORTE DIRETO]`** | Forças de superfície (contato: pressão e atrito viscoso) e forças de corpo/campo (à distância: gravidade). |
 | **Q15** | Bloco 4 | Condição de não-escorregamento (*no-slip*) no casco | Seção 4.1 | DOC-00 (p. 3), DOC-06 (p. 25), DOC-08 (p. 32) | **`[SUPORTE DIRETO]`** | Aderência molecular: fluido na parede sólida adquire a velocidade do sólido ($u_{\text{rel}} = 0$). |
 | **Q16** | Bloco 4 | Condição de impenetrabilidade em fronteira impermeável | Seção 4.2 | DOC-00 (p. 3), DOC-06 (p. 25), DOC-08 (p. 32) | **`[SUPORTE DIRETO]`** | Impossibilidade de fluxo através da parede rígida: velocidade normal $v_n = \mathbf{V} \cdot \mathbf{n} = 0$. |
@@ -119,45 +119,56 @@ Diferentemente da Classificação Principal (que é estritamente disjunta), as *
 
 ## 4. Mapeamento Final das 40 Questões para o Simulado P1 e Gabarito Comentado
 
-| Questão | Bloco | Item no Simulado P1 (`SIMULADO_P1_HIDRODINAMICA.md`) | Localização no Gabarito Comentado | Tipo de Cobertura | Status |
-| :---: | :---: | :--- | :--- | :---: | :---: |
-| **Q1** | Bloco 1 | 1ª Questão (Afirmativa I) e 2ª Questão (Lacuna 2) | Gabarito 1ª Q (I) e 2ª Q (2) | Direta e Suficiente | Aprovado |
-| **Q2** | Bloco 1 | 1ª Questão (Afirmativa II) e 3ª Questão (Item 1) | Gabarito 1ª Q (II) e 3ª Q (1) | Direta e Suficiente | Aprovado |
-| **Q3** | Bloco 1 | 1ª Questão (Afirmativa III) e 2ª Questão (Lacuna 1) | Gabarito 1ª Q (III) e 2ª Q (1) | Direta e Suficiente | Aprovado |
-| **Q4** | Bloco 1 | 1ª Questão (Afirmativa IV) | Gabarito 1ª Q (IV) | Direta e Suficiente | Aprovado |
-| **Q5** | Bloco 1 | 1ª Questão (Afirmativa V) e 3ª Questão (Item 2) | Gabarito 1ª Q (V) e 3ª Q (2) | Direta e Suficiente | Aprovado |
-| **Q6** | Bloco 2 | 2ª Questão (Lacuna 3) e Questão 4.1 | Gabarito 2ª Q (3) e 4ª Q (4.1) | Direta e Suficiente | Aprovado |
-| **Q7** | Bloco 2 | 2ª Questão (Lacuna 4) e 3ª Questão (Item 3) | Gabarito 2ª Q (4) e 3ª Q (3) | Direta e Suficiente | Aprovado |
-| **Q8** | Bloco 2 | 3ª Questão (Item 4) e Questão 4.1 | Gabarito 3ª Q (4) e 4ª Q (4.1) | Direta e Suficiente | Aprovado |
-| **Q9** | Bloco 2 | Questão 4.2 | Gabarito 4ª Q (4.2) | Direta e Suficiente | Aprovado |
-| **Q10** | Bloco 2 | 3ª Questão (Item 5) e Questão 4.2 | Gabarito 3ª Q (5) e 4ª Q (4.2) | Direta e Suficiente | Aprovado |
-| **Q11** | Bloco 3 | 2ª Questão (Lacuna 5) e Questão 4.3 | Gabarito 2ª Q (5) e 4ª Q (4.3) | Direta e Suficiente | Aprovado |
-| **Q12** | Bloco 3 | 3ª Questão (Item 6) e Questão 4.3 | Gabarito 3ª Q (6) e 4ª Q (4.3) | Direta e Suficiente | Aprovado |
-| **Q13** | Bloco 3 | 3ª Questão (Item 7) | Gabarito 3ª Q (7) | Direta e Suficiente | Aprovado |
-| **Q14** | Bloco 3 | 2ª Questão (Lacuna 6) | Gabarito 2ª Q (6) | Direta e Suficiente | Aprovado |
-| **Q15** | Bloco 4 | 2ª Questão (Lacuna 7) e 3ª Questão (Item 8) | Gabarito 2ª Q (7) e 3ª Q (8) | Direta e Suficiente | Aprovado |
-| **Q16** | Bloco 4 | 2ª Questão (Lacuna 8) e 3ª Questão (Item 9) | Gabarito 2ª Q (8) e 3ª Q (9) | Direta e Suficiente | Aprovado |
-| **Q17** | Bloco 4 | 3ª Questão (Item 10) e Questão 4.4 | Gabarito 3ª Q (10) e 4ª Q (4.4) | Direta e Suficiente | Aprovado |
-| **Q18** | Bloco 4 | 3ª Questão (Item 11) | Gabarito 3ª Q (11) | Direta e Suficiente | Aprovado |
-| **Q19** | Bloco 5 | 2ª Questão (Lacuna 9) | Gabarito 2ª Q (9) | Direta e Suficiente | Aprovado |
-| **Q20** | Bloco 5 | 2ª Questão (Lacuna 10) e 3ª Questão (Item 12) | Gabarito 2ª Q (10) e 3ª Q (12) | Direta e Suficiente | Aprovado |
-| **Q21** | Bloco 5 | 2ª Questão (Lacuna 11) | Gabarito 2ª Q (11) | Direta e Suficiente | Aprovado |
-| **Q22** | Bloco 5 | 3ª Questão (Item 13) | Gabarito 3ª Q (13) | Direta e Suficiente | Aprovado |
-| **Q23** | Bloco 5 | 3ª Questão (Item 14) e Questão 4.4 | Gabarito 3ª Q (14) e 4ª Q (4.4) | Direta e Suficiente | Aprovado |
-| **Q24** | Bloco 5 | 2ª Questão (Lacuna 12) e Questão 4.5 | Gabarito 2ª Q (12) e 4ª Q (4.5) | Direta e Suficiente | Aprovado |
-| **Q25** | Bloco 5 | 2ª Questão (Lacuna 13) e Questão 4.5 | Gabarito 2ª Q (13) e 4ª Q (4.5) | Direta e Suficiente | Aprovado |
-| **Q26** | Bloco 5 | 2ª Questão (Lacuna 14) e Questão 4.6 | Gabarito 2ª Q (14) e 4ª Q (4.6) | Direta e Suficiente | Aprovado |
-| **Q27** | Bloco 5 | 2ª Questão (Lacuna 15) e Questão 4.6 | Gabarito 2ª Q (15) e 4ª Q (4.6) | Direta e Suficiente | Aprovado |
-| **Q28** | Bloco 5 | 2ª Questão (Lacuna 16) e 3ª Questão (Item 15) | Gabarito 2ª Q (16) e 3ª Q (15) | Direta e Suficiente | Aprovado |
-| **Q29** | Bloco 6 | 2ª Questão (Lacuna 17) e 3ª Questão (Item 16) | Gabarito 2ª Q (17) e 3ª Q (16) | Direta e Suficiente | Aprovado |
-| **Q30** | Bloco 6 | 3ª Questão (Item 17) | Gabarito 3ª Q (17) | Direta e Suficiente | Aprovado |
-| **Q31** | Bloco 6 | 2ª Questão (Lacuna 18) e 5ª Questão (Passo 3) | Gabarito 2ª Q (18) e 5ª Q (Passo 3) | Direta e Suficiente | Aprovado |
-| **Q32** | Bloco 6 | 3ª Questão (Item 18) | Gabarito 3ª Q (18) | Direta e Suficiente | Aprovado |
-| **Q33** | Bloco 6 | 2ª Questão (Lacuna 19) e 5ª Questão (Passo 4) | Gabarito 2ª Q (19) e 5ª Q (Passo 4) | Direta e Suficiente | Aprovado |
-| **Q34** | Bloco 6 | Questão 4.7 | Gabarito 4ª Q (4.7) | Direta e Suficiente | Aprovado |
-| **Q35** | Bloco 7 | 2ª Questão (Lacuna 20) e Questão 4.8 | Gabarito 2ª Q (20) e 4ª Q (4.8) | Direta e Suficiente | Aprovado |
-| **Q36** | Bloco 7 | 3ª Questão (Item 19) e 6ª Questão (Item b) | Gabarito 3ª Q (19) e 6ª Q (Item b) | Direta e Suficiente | Aprovado |
-| **Q37** | Bloco 7 | 3ª Questão (Item 20) e 6ª Questão (Item c) | Gabarito 3ª Q (20) e 6ª Q (Item c) | Direta e Suficiente | Aprovado |
-| **Q38** | Bloco 7 | Questão 4.9 e 6ª Questão (Item a) | Gabarito 4ª Q (4.9) e 6ª Q (Item a) | Direta e Suficiente | Aprovado |
-| **Q39** | Bloco 7 | Questão 4.10 e 6ª Questão (Item d) | Gabarito 4ª Q (4.10) e 6ª Q (Item d) | Direta e Suficiente | Aprovado |
-| **Q40** | Bloco 7 | Questão 4.10 e 6ª Questão (Item d) | Gabarito 4ª Q (4.10) e 6ª Q (Item d) | Direta e Suficiente | Aprovado |
+### Clarificação Epistemológica da Auditoria (Ortogonalidade das Dimensões)
+Para assegurar transparência técnica e eliminar qualquer aparente contradição entre os rótulos da auditoria, as 40 questões são avaliadas sob **duas dimensões mutuamente independentes (ortogonais)**:
+
+1. **Dimensão Pedagógica — Nível de Cobertura no Simulado:**  
+   Avalia se o conteúdo conceitual, a fórmula, o cálculo e o raciocínio da questão original foram efetivamente incorporados como objeto ativo de avaliação no Simulado e resolvidos no Gabarito Comentado. Todas as 40 questões alcançam **Cobertura Direta e Suficiente (100%)**.
+2. **Dimensão Documental — Consistência Textual das Fontes:**  
+   Avalia se os materiais primários fornecidos pelo professor (Apostilas U1 e U2, Questionário P1) coincidem textualmente entre si em convenções, símbolos e limites numéricos. Apresenta três situações reais:
+   - **Convergente sem ressalvas (34 questões):** Q1 a Q33 e Q40;
+   - **Divergência documental identificada (2 questões):** Q34 e Q35 (requerem atenção à notação e faixas ao responder a prova);
+   - **Dedução analítica canônica complementar (4 questões):** Q36 a Q39 (respostas e fórmulas constam no questionário, mas a dedução formal em coordenadas cilíndricas foi estruturada como suporte adicional).
+
+| Questão | Bloco | Item no Simulado P1 (`SIMULADO_P1_HIDRODINAMICA.md`) | Localização no Gabarito Comentado | Cobertura Pedagógica (Simulado) | Consistência Documental (Fontes) | Parecer Técnico Integrado |
+| :---: | :---: | :--- | :--- | :---: | :---: | :---: |
+| **Q1** | Bloco 1 | 1ª Questão (Afirmativa I) e 2ª Questão (Lacuna 2) | Gabarito 1ª Q (I) e 2ª Q (2) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q2** | Bloco 1 | 1ª Questão (Afirmativa II) e 3ª Questão (Item 1) | Gabarito 1ª Q (II) e 3ª Q (1) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q3** | Bloco 1 | 1ª Questão (Afirmativa III) e 2ª Questão (Lacuna 1) | Gabarito 1ª Q (III) e 2ª Q (1) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q4** | Bloco 1 | 1ª Questão (Afirmativa IV) | Gabarito 1ª Q (IV) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q5** | Bloco 1 | 1ª Questão (Afirmativa V) e 3ª Questão (Item 2) | Gabarito 1ª Q (V) e 3ª Q (2) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q6** | Bloco 2 | 2ª Questão (Lacuna 3) e Questão 4.1 | Gabarito 2ª Q (3) e 4ª Q (4.1) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q7** | Bloco 2 | 2ª Questão (Lacuna 4) e 3ª Questão (Item 3) | Gabarito 2ª Q (4) e 3ª Q (3) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q8** | Bloco 2 | 3ª Questão (Item 4) e Questão 4.1 | Gabarito 3ª Q (4) e 4ª Q (4.1) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q9** | Bloco 2 | Questão 4.2 | Gabarito 4ª Q (4.2) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q10** | Bloco 2 | 3ª Questão (Item 5) e Questão 4.2 | Gabarito 3ª Q (5) e 4ª Q (4.2) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q11** | Bloco 3 | 2ª Questão (Lacuna 5) e Questão 4.3 | Gabarito 2ª Q (5) e 4ª Q (4.3) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q12** | Bloco 3 | 3ª Questão (Item 6) e Questão 4.3 | Gabarito 3ª Q (6) e 4ª Q (4.3) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q13** | Bloco 3 | 3ª Questão (Item 7) | Gabarito 3ª Q (7) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q14** | Bloco 3 | 2ª Questão (Lacuna 6) | Gabarito 2ª Q (6) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q15** | Bloco 4 | 2ª Questão (Lacuna 7) e 3ª Questão (Item 8) | Gabarito 2ª Q (7) e 3ª Q (8) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q16** | Bloco 4 | 2ª Questão (Lacuna 8) e 3ª Questão (Item 9) | Gabarito 2ª Q (8) e 3ª Q (9) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q17** | Bloco 4 | 3ª Questão (Item 10) e Questão 4.4 | Gabarito 3ª Q (10) e 4ª Q (4.4) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q18** | Bloco 4 | 3ª Questão (Item 11) | Gabarito 3ª Q (11) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q19** | Bloco 5 | 2ª Questão (Lacuna 9) | Gabarito 2ª Q (9) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q20** | Bloco 5 | 2ª Questão (Lacuna 10) e 3ª Questão (Item 12) | Gabarito 2ª Q (10) e 3ª Q (12) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q21** | Bloco 5 | 2ª Questão (Lacuna 11) | Gabarito 2ª Q (11) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q22** | Bloco 5 | 3ª Questão (Item 13) | Gabarito 3ª Q (13) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q23** | Bloco 5 | 3ª Questão (Item 14) e Questão 4.4 | Gabarito 3ª Q (14) e 4ª Q (4.4) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q24** | Bloco 5 | 2ª Questão (Lacuna 12) e Questão 4.5 | Gabarito 2ª Q (12) e 4ª Q (4.5) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q25** | Bloco 5 | 2ª Questão (Lacuna 13) e Questão 4.5 | Gabarito 2ª Q (13) e 4ª Q (4.5) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q26** | Bloco 5 | 2ª Questão (Lacuna 14) e Questão 4.6 | Gabarito 2ª Q (14) e 4ª Q (4.6) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q27** | Bloco 5 | 2ª Questão (Lacuna 15) e Questão 4.6 | Gabarito 2ª Q (15) e 4ª Q (4.6) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q28** | Bloco 5 | 2ª Questão (Lacuna 16) e 3ª Questão (Item 15) | Gabarito 2ª Q (16) e 3ª Q (15) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q29** | Bloco 6 | 2ª Questão (Lacuna 17) e 3ª Questão (Item 16) | Gabarito 2ª Q (17) e 3ª Q (16) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q30** | Bloco 6 | 3ª Questão (Item 17) | Gabarito 3ª Q (17) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q31** | Bloco 6 | 2ª Questão (Lacuna 18) e 5ª Questão (Passo 3) | Gabarito 2ª Q (18) e 5ª Q (Passo 3) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q32** | Bloco 6 | 3ª Questão (Item 18) | Gabarito 3ª Q (18) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q33** | Bloco 6 | 2ª Questão (Lacuna 19) e 5ª Questão (Passo 4) | Gabarito 2ª Q (19) e 5ª Q (Passo 4) | Direta e Suficiente | Convergente sem ressalvas | Aprovado sem ressalvas |
+| **Q34** | Bloco 6 | Questão 4.7 | Gabarito 4ª Q (4.7) | Direta e Suficiente | Divergência documental ($Rn,Fn,Wn$ vs $Re,Fr,We$; $C_T$ vs $\Pi_1$) | Aprovado com auditoria documental (consultar docente) |
+| **Q35** | Bloco 7 | 2ª Questão (Lacuna 20) e Questão 4.8 | Gabarito 2ª Q (20) e 4ª Q (4.8) | Direta e Suficiente | Divergência documental (Faixas de Reynolds: apostila cita $Re_{cr}\cong 2300$; Q35 cita 3 faixas) | Aprovado com auditoria documental (consultar docente) |
+| **Q36** | Bloco 7 | 3ª Questão (Item 19) e Apêndice Didático (Item b) / Resumo Bloco 7 | Gabarito 3ª Q (19) e Apêndice Didático (b) | Direta e Suficiente | Dedução analítica canônica complementar (perfil radial parabólico cilíndrico) | Aprovado com suporte analítico canônico |
+| **Q37** | Bloco 7 | 3ª Questão (Item 20) e Apêndice Didático (Item c) / Resumo Bloco 7 | Gabarito 3ª Q (20) e Apêndice Didático (c) | Direta e Suficiente | Dedução analítica canônica complementar (integração radial $u_{\max}=2U$) | Aprovado com suporte analítico canônico |
+| **Q38** | Bloco 7 | Questão 4.9 e Apêndice Didático (Item a) / Resumo Bloco 7 | Gabarito 4ª Q (4.9) e Apêndice Didático (a) | Direta e Suficiente | Dedução analítica canônica complementar (equilíbrio axial e perfil linear $\tau(r)$) | Aprovado com suporte analítico canônico |
+| **Q39** | Bloco 7 | Questão 4.10 (Enunciado/Proporcionalidade) e Apêndice Didático (Item d.1) / Resumo Bloco 7 | Gabarito 4ª Q (4.10) e Apêndice Didático (d.1) | Direta e Suficiente | Dedução analítica canônica complementar (Lei de Hagen–Poiseuille) | Aprovado com suporte analítico canônico |
+| **Q40** | Bloco 7 | Questão 4.10 (Adaptação Conceitual: dependência $\Delta p \propto D^{-4}$) e Apêndice Didático (Item d.2) | Gabarito 4ª Q (4.10) e Apêndice Didático (d.2) | Direta e Suficiente | Convergente sem ressalvas (avaliação conceitual da proporcionalidade) | Aprovado sem ressalvas |
