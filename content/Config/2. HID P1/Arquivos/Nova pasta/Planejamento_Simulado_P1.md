@@ -1,6 +1,19 @@
 # Planejamento Estrutural e Matriz de Cobertura do Simulado — Hidrodinâmica P1
 
-> **Status:** Versão Revisada e Auditada para Aprovação Prévia  
+> [!IMPORTANT]
+> **ATUALIZAÇÃO DE DIRECIONAMENTO OFICIAL (ETAPA 1.2 — DIRETRIZ DEFINITIVA DA QUESTÃO 3):**  
+> O planejamento oficial, ativo e consolidado para a elaboração do Simulado P1 encontra-se no arquivo [`AUDITORIA_DIRECIONAMENTO_PROFESSOR_P1.md`](AUDITORIA_DIRECIONAMENTO_PROFESSOR_P1.md), estruturado com base direta nas orientações orais do professor (`direcionamento_do_professor_prova_1.txt`).  
+> **Estrutura Ativa da Prova (7 Questões Efetivas nas Posições Originais Q1 a Q8):**  
+> 1. **Questão 1 (Múltipla Escolha):** Escoamento incompressível em duto divergente em regime permanente ($a_{\text{conv}} = u \frac{\partial u}{\partial x} < 0$).  
+> 2. **Questão 2 (Múltipla Escolha):** Equação da continuidade tridimensional incompressível e cancelamento algébrico da densidade ($\rho = \text{cte} \implies \nabla \cdot \mathbf{V} = 0$).  
+> 3. **Questão 3:** **NÃO SERÁ COBRADA, conforme orientação do professor.**  
+> 4. **Questão 4 (Múltipla Escolha):** Segunda Lei de Newton no volume infinitesimal, balanço de forças de pressão ($dF_{p,x} = -\frac{\partial p}{\partial x} dx\,dy\,dz$) e origem física e formal do sinal negativo.  
+> 5. **Questão 5 (Múltipla Escolha):** Condições de contorno cinemáticas (aderência molecular/não-escorregamento $u_{\text{rel}}=0$ vs. impermeabilidade/impenetrabilidade $v_{n,\text{rel}}=0$).  
+> 6. **Questão 6 (Completar Lacunas):** Frases curtas e diretas cobrindo os 12 conceitos confirmados (pontos homólogos, similaridade cinemática com razão constante de velocidades, ambiguidades de placas e número de inércia mantidas abertas).  
+> 7. **Questão 7 (Verdadeiro ou Falso):** Homogeneidade dimensional e as seis etapas canônicas do procedimento de Buckingham (Apostila U2, pp. 6–7) em abordagem estritamente teórica.  
+> 8. **Questão 8 (Cálculo Fixo):** **CÁLCULO FIXO — SEIS PASSOS** (vaga reservada, intocada).
+
+> **Status:** Versão Histórica/Referência Estrutural — Consultar [`AUDITORIA_DIRECIONAMENTO_PROFESSOR_P1.md`](AUDITORIA_DIRECIONAMENTO_PROFESSOR_P1.md) para a Versão Ativa  
 > **Arquivo de Referência Estrutural:** `SIMULADO_UNIDADE_2_PADRAO_APOSTILA.md` e `SIMULADO_UNIDADE_2_PADRAO_APOSTILA_GABARITO_COMENTADO.md`  
 > **Escopo Documental:** 40 Questões do `Questionário P1.pdf`, Apostilas Teóricas de U1 e U2 e Fontes Auditadas do Curso  
 > **Regra Mandatória de Integridade:** A 5ª Questão do simulado de referência é estritamente fixa e inalterável. Seu enunciado, variáveis, seis passos de resolução, equações e gabarito comentado foram validados documentalmente e serão reproduzidos de forma 100% literal na elaboração final.

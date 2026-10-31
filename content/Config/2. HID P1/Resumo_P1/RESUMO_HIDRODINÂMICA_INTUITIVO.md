@@ -295,7 +295,12 @@ Produto convectivo: u · (∂u/∂x) < 0 (a partícula freia fisicamente!)
 
 5. **Diferenciação Crítica entre Conclusão Cinemática e Análise Dinâmica:**  
    - **Conclusão Cinemática (da Continuidade):** A Equação da Continuidade incompressível unidimensional demonstra exclusivamente a relação cinemática de que a velocidade média decresce quando a área aumenta ($\frac{dA}{dx} > 0 \implies \frac{\partial u}{\partial x} < 0$). A continuidade, por si só, **não demonstra** a recuperação de pressão.
-   - **Análise Dinâmica Complementar (Recuperação de Pressão):** A determinação do campo de pressões exige uma análise dinâmica adicional baseada na conservação da quantidade de movimento ou da energia. No caso idealizado de escoamento invíscido incompressível ao longo de uma linha de corrente, a Equação de Bernoulli ($p + \frac{1}{2}\rho u^2 = \text{constante} \implies dp = -\rho u\,du$) demonstra que a redução da energia cinética ($du < 0$) converte-se em acréscimo de pressão estática ($dp > 0$), configurando a recuperação de pressão.
+   - **Análise Dinâmica Complementar (Recuperação de Pressão via Bernoulli):** A determinação do campo de pressões decorre de um balanço dinâmico (conservação da quantidade de movimento ou da energia). O modelo clássico de recuperação de pressão apoia-se na Equação de Bernoulli ($p + \frac{1}{2}\rho u^2 = \text{constante} \implies dp = -\rho u\,du$), cujas quatro hipóteses estritas de validade são:
+     1. **Escoamento permanente;**
+     2. **Incompressível;**
+     3. **Invíscido (sem efeitos viscosos);**
+     4. **Ao longo de uma linha de corrente.**  
+     Sob essas hipóteses idealizadas, a redução da energia cinética ($du < 0$) converte-se diretamente em acréscimo de pressão estática ($dp > 0$), configurando a recuperação de pressão.
    - **Ressalva para Dutos e Difusores Reais:** Não se deve assumir que todo duto divergente real recupera pressão de forma ideal. A presença de atrito viscoso nas paredes, a geometria e o ângulo de abertura do difusor, e sobretudo o risco iminente de descolamento/separação da camada limite sob o gradiente adverso de pressões ($\frac{\partial p}{\partial x} > 0$) geram perdas de carga significativas que limitam, degradam ou até anulam a recuperação efetiva de pressão a jusante.
 
 ### D. Conheça a definição técnica
@@ -305,7 +310,7 @@ Produto convectivo: u · (∂u/∂x) < 0 (a partícula freia fisicamente!)
 ### E. O que precisa memorizar
 - **Condições no divergente:** $u > 0$ e $\frac{\partial u}{\partial x} < 0$.
 - **Produto convectivo:** $u \frac{\partial u}{\partial x} < 0$ (desaceleração cinemática).
-- **Distinção conceitual:** A continuidade dita a frenagem cinemática; a recuperação de pressão depende de análise dinâmica adicional (ex.: Bernoulli), sujeita a perdas viscosas e separação em difusores reais.
+- **Distinção conceitual:** A continuidade dita unicamente a desaceleração cinemática. A recuperação de pressão requer análise dinâmica adicional via equação de Bernoulli, válida estritamente para **escoamento permanente, incompressível, invíscido e ao longo de uma linha de corrente**, sujeita a fortes perdas viscosas e descolamento em difusores reais.
 
 ### F. Atenção para a prova
 > [!TIP]
@@ -1141,47 +1146,46 @@ Impermeável   =======================================
 ### A. Entenda a ideia
 Na hidráulica de encanamentos compridos, depois que a água percorre alguns metros dentro de um tubo reto, o perfil de velocidades atinge uma forma definitiva que não muda mais até o fim do cano. Chamamos isso de "escoamento totalmente desenvolvido" ($\frac{\partial u}{\partial x} = 0$). 
 
-Por que isso **nunca** acontece ao redor de um navio no mar? Porque o casco de um navio é um corpo tridimensional de forma complexa (linhas de água curvas, variação contínua de seções transversais) e a camada de fluido retardada pela viscosidade (camada limite) cresce continuamente da proa em direção à popa, mantendo gradientes axiais de velocidade e pressão ativos ao longo de todo o avanço.
+Em geral, o escoamento exterior ao casco não pode ser tratado como totalmente desenvolvido ao longo de todo o comprimento da embarcação, pois a camada limite evolui com a posição longitudinal e a geometria do casco e os gradientes de pressão variam ao longo do percurso.
 
 ### B. Visualize o fenômeno
-Pense no casco de um navio visto de cima: a água encontra a roda de proa e começa a ser retardada por atrito. No início do casco, a espessura da zona perturbada por atrito é ínfima. À medida que o fluido avança ao longo do chapeamento em direção à meia-nau e à popa, a camada limite torna-se progressivamente mais espessa. Além disso, as formas do casco curvam-se continuamente, acelerando e desacelerando o escoamento exterior. Como consequência, em nenhuma seção longitudinal o perfil transversal de velocidades torna-se invariável com a coordenada axial de avanço.
+Pense no casco de um navio visto de cima: a água encontra a roda de proa e começa a ser retardada por atrito. No início do casco, a espessura da zona perturbada por atrito é ínfima. À medida que o fluido avança ao longo do chapeamento em direção à meia-nau e à popa, a camada limite evolui e torna-se progressivamente mais espessa. Além disso, a geometria do casco e os gradientes de pressão variam ao longo do percurso, acelerando e desacelerando o escoamento exterior. Como consequência, ao longo do comprimento da embarcação o escoamento não se mantém invariável com a coordenada axial de avanço.
 
 ```mermaid
 flowchart LR
     subgraph Casco_Navio["Escoamento ao Redor do Casco"]
-        Proa["PROA:<br>Camada limite delgada (início do desenvolvimento)"] --> MeiaNau["MEIA-NAU:<br>Camada limite em crescimento contínuo"]
+        Proa["PROA:<br>Camada limite delgada (início do desenvolvimento)"] --> MeiaNau["MEIA-NAU:<br>Camada limite em evolução longitudinal"]
         MeiaNau --> Popa["POPA:<br>Camada limite espessa e esteira viscosa"]
     end
-    Casco_Navio -.-> Motivos["MOTIVOS FÍSICOS DA FONTE ORIGINAL:<br>1. Crescimento contínuo da espessura da camada limite viscosa δ(x)<br>2. Variação geométrica das formas do casco (curvatura 3D)<br>3. Gradientes axiais ativos: ∂u/∂x ≠ 0"]
+    Casco_Navio -.-> Motivos["MOTIVOS FÍSICOS:<br>1. Evolução da camada limite viscosa com a posição longitudinal<br>2. Variação da geometria do casco e dos gradientes de pressão<br>3. Presença de variações axiais de velocidade ao longo do percurso"]
 ```
 
 ### C. Entenda o funcionamento (Confronto Físico de Hipóteses)
 1. **Definição Estrita de Escoamento Totalmente Desenvolvido:**  
    Um escoamento é formalmente classificado como totalmente desenvolvido quando o perfil transversal de velocidades é independente da coordenada longitudinal de avanço ($x$):
    $$\frac{\partial u}{\partial x} = 0$$
-2. **As Três Razões Físicas Fundamentais (Fonte: Questionário P1 / Resumo Oficial):**
-   - **Razão 1 — Crescimento Contínuo da Espessura da Camada Limite:**  
-     Desde o bordo de ataque na proa até o bordo de fuga na popa, a camada limite viscosa cresce continuamente com a distância longitudinal $x$ percorrida pelo escoamento ($\delta = \delta(x)$). *(Nota didática: embora em placas planas canônicas simples o crescimento teórico seja aproximado por $\delta \propto \sqrt{x}$ em laminar ou $\delta \propto x^{4/5}$ em turbulento, no casco de uma embarcação a taxa de crescimento é governada pelas complexas linhas de corrente tridimensionais e pelos gradientes locais de pressão, sem jamais estabilizar em uma espessura constante)*.
-   - **Razão 2 — Variação Geométrica das Formas do Casco (Curvatura Tridimensional):**  
-     O casco possui formas geométricas tridimensionais continuamente variáveis (entradas de proa, corpo paralelo médio e formas de popa). O escoamento exterior sofre contínuas acelerações e desacelerações nas proximidades das balizas e linhas d'água, impondo gradientes de pressão axiais favoráveis e adversos ($\frac{\partial p}{\partial x} \neq 0$).
-   - **Razão 3 — Gradientes Longitudinais Ativos:**  
-     Como consequência direta do crescimento da camada limite e da curvatura contínua das formas, a velocidade longitudinal $u$ varia permanentemente ao longo da coordenada axial de avanço:
-     $$\frac{\partial u}{\partial x} \neq 0$$
+2. **As Razões Físicas Fundamentais:**
+   - **Razão 1 — Evolução da Espessura da Camada Limite:**  
+     Ao longo do avanço da embarcação, a camada limite viscosa evolui com a distância longitudinal $x$ percorrida pelo escoamento ($\delta = \delta(x)$). *(Nota didática: em placas planas canônicas simples o crescimento teórico é modelado por $\delta \propto \sqrt{x}$ em regime laminar ou $\delta \propto x^{4/5}$ em turbulento; no casco real de uma embarcação a taxa de crescimento é governada pelas complexas linhas de corrente tridimensionais e pelos gradientes locais de pressão, sem se fixar em uma espessura invariável ao longo do casco)*.
+   - **Razão 2 — Variação Geométrica das Formas do Casco e Gradientes de Pressão:**  
+     A geometria do casco e os gradientes de pressão variam ao longo do percurso (entradas de proa, corpo paralelo médio e formas de popa). O escoamento exterior sofre acelerações e desacelerações locais nas proximidades das balizas e linhas d'água, impondo variações longitudinais de pressão ($\frac{\partial p}{\partial x} \neq 0$).
+   - **Razão 3 — Presença de Variações Longitudinais de Velocidade:**  
+     Como decorrência da evolução da camada limite e da variação das formas do casco e dos gradientes de pressão, a velocidade longitudinal $u$ varia com a coordenada axial ao longo do percurso da embarcação ($\frac{\partial u}{\partial x} \neq 0$).
 
 ### D. Conheça a definição técnica
 > **Definição Técnica:**  
-> O escoamento exterior ao casco de uma embarcação em movimento não pode ser considerado totalmente desenvolvido porque a camada limite viscosa cresce continuamente em espessura desde a proa até a popa ($\delta = \delta(x)$), as linhas de forma do casco variam geometricamente em três dimensões ao longo do comprimento, e existem gradientes de velocidade e de pressão não nulos na direção longitudinal de avanço ($\frac{\partial u}{\partial x} \neq 0$).
+> Em geral, o escoamento exterior ao casco não pode ser tratado como totalmente desenvolvido ao longo de todo o comprimento da embarcação, pois a camada limite evolui com a posição longitudinal e a geometria do casco e os gradientes de pressão variam ao longo do percurso, originando variações axiais de velocidade ($\frac{\partial u}{\partial x} \neq 0$).
 
 ### E. O que precisa memorizar
-- **Os 3 motivos obrigatórios de resposta:**
-  1. Crescimento contínuo da camada limite viscosa da proa à popa;
-  2. Variação geométrica contínua das linhas de forma do casco;
-  3. Existência de gradientes longitudinais ativos na direção do avanço ($\frac{\partial u}{\partial x} \neq 0$).
+- **Os 3 motivos principais:**
+  1. Evolução da camada limite viscosa com a posição longitudinal ao longo do casco;
+  2. Variação geométrica do casco e dos gradientes de pressão ao longo do percurso;
+  3. Presença de variações axiais de velocidade na direção do escoamento.
 
 ### F. Atenção para a prova
 > [!TIP]
 > **Como responder na prova:**  
-> "Porque a camada limite viscosa cresce continuamente desde a proa até a popa, as linhas de forma do casco variam geometricamente e existem gradientes de velocidade na direção longitudinal do avanço ($\frac{\partial u}{\partial x} \neq 0$)."
+> "Em geral, o escoamento exterior ao casco não pode ser tratado como totalmente desenvolvido ao longo de todo o comprimento da embarcação, pois a camada limite evolui com a posição longitudinal e a geometria do casco e os gradientes de pressão variam ao longo do percurso, gerando gradientes de velocidade na direção do avanço."
 
 ---
 
@@ -1725,7 +1729,7 @@ Vamos quantificar as ordens de grandeza das forças dinâmicas em um escoamento 
 ### A. Entenda a ideia
 Quando um navio avança no mar, o casco empurra e deforma a água na proa. Como o líquido é incompressível, ele se eleva acima do nível de repouso, formando ondas. A força que tenta restaurar essa deformação de volta à superfície plana horizontal é a **força da gravidade**.
 
-O **Número de Froude ($Fr$)** quantifica a razão entre a inércia do escoamento e as forças gravitacionais que atuam na superfície livre. É o parâmetro adimensional governante de todos os fenômenos de **ondas de superfície livre** e da resistência de ondas gerada pelo avanço do casco!
+O Número de Froude é um dos principais parâmetros adimensionais que governam a semelhança dinâmica de escoamentos com superfície livre. Na engenharia naval, tem papel fundamental na análise do padrão de ondas gerado pelo avanço do casco e da resistência de ondas, em conjunto com a geometria da embarcação e as condições do escoamento.
 
 ### B. Visualize o fenômeno
 Pense em um navio de deslocamento acelerando no mar aberto:
@@ -1746,7 +1750,7 @@ Pense em um navio de deslocamento acelerando no mar aberto:
 flowchart TD
     Fr["Número de Froude Naval: Fr = U / √(gL)"]
     Fr --> F1["Razão Adimensional: Raiz da (Força de Inércia / Força Gravitacional)"]
-    Fr --> F2["Governa o padrão e comprimento das Ondas de Superfície Livre"]
+    Fr --> F2["Papel fundamental na análise do padrão de ondas e da resistência de ondas"]
     Fr --> F3["Navios de Deslocamento: Fr ≈ 0,2 a 0,4 (Geração acentuada de ondas bem antes de Fr = 1)"]
     Fr --> F4["Froude em Águas Rasas: Fr_h = U / √(gh)<br>(Fr_h = 1 define condição crítica de onda rasa c = √(gh))"]
     F4 -.-> F5["Planeio depende de geometria (diedro, chines), carga e trim (Não é fixado por Fr = 1)"]
@@ -1766,7 +1770,7 @@ flowchart TD
 > **Definição Técnica:**  
 > O **Número de Froude ($Fr$)** é o parâmetro adimensional hidrodinâmico que expressa a razão entre as forças inerciais e as forças gravitacionais que atuam sobre um escoamento com superfície livre:
 > $$Fr = \frac{U}{\sqrt{g L}}$$
-> Na engenharia naval, governa a formação do trem de ondas gerado pelo avanço do casco, ditando a resistência de ondas e o padrão de escoamento em superfície livre.
+> Na engenharia naval, tem papel fundamental na análise do padrão de ondas gerado pelo avanço do casco e da resistência de ondas, em conjunto com a geometria da embarcação e as condições do escoamento.
 
 #### Grandezas Físicas, Dimensões e Unidades
 - $U$: Velocidade de avanço da embarcação ($[L T^{-1}]$, no SI: $\text{m/s}$);
@@ -1777,12 +1781,12 @@ flowchart TD
 ### E. O que precisa memorizar
 - **Fórmula:** $Fr = \frac{U}{\sqrt{g L}}$.
 - **Significado físico:** Razão $\sqrt{\frac{\text{Forças de Inércia}}{\text{Forças de Gravidade}}}$.
-- **Aplicação essencial:** Governa o sistema de ondas de superfície livre e a resistência de ondas na proa do navio.
+- **Aplicação essencial:** Parâmetro fundamental na análise do padrão de ondas de superfície livre e da resistência de ondas, em conjunto com a geometria da embarcação e as condições do escoamento.
 
 ### F. Atenção para a prova
 > [!TIP]
 > **Como responder na prova:**  
-> "O número de Froude ($Fr = \frac{U}{\sqrt{gL}}$). É o parâmetro adimensional que compara a inércia do escoamento com o efeito da aceleração gravitacional, comandando o sistema de ondas gerado pela proa do navio."
+> "O número de Froude ($Fr = \frac{U}{\sqrt{gL}}$). É um dos principais parâmetros adimensionais que comparam a inércia do escoamento com o efeito gravitacional, tendo papel fundamental na análise do padrão de ondas gerado pelo avanço do casco e da resistência de ondas."
 
 ---
 
@@ -2283,7 +2287,7 @@ Nesta formulação alternativa, o Número de Reynolds surge diretamente com expo
 ### D. Conheça a definição técnica
 > **Definição Técnica:**  
 > A aplicação do Teorema $\Pi$ de Buckingham ao problema da resistência de avanço do casco de uma embarcação envolve $n = 7$ variáveis físicas ($R, \rho, U, L, \mu, g, \sigma$) e $m = 3$ dimensões fundamentais ($MLT$), gerando $k = 7 - 3 = 4$ grupos adimensionais clássicos e independentes:
-> 1. **Coeficiente de Resistência Total:** obtido diretamente como $\Pi_1 = \frac{R}{\rho U^2 L^2}$ e normalizado pela área molhada ($S = c_s L^2$) e pressão dinâmica como $C_T = \left(\frac{2}{c_s}\right)\Pi_1$;
+> 1. **Monômio de Resistência e Coeficiente de Resistência Total:** a análise dimensional fornece diretamente o monômio $\Pi_1 = \frac{R}{\rho U^2 L^2}$, o qual se relaciona com o coeficiente convencional da ITTC ($C_T \equiv \frac{R}{\frac{1}{2}\rho S U^2}$) pela fórmula $C_T = \left(\frac{2}{c_s}\right)\Pi_1$, através da área molhada de referência $S = c_s L^2$;
 > 2. **Número de Reynolds ($Re = \frac{\rho U L}{\mu}$):** obtido pela inversão de $\Pi_2 = \frac{\mu}{\rho U L}$, governando o atrito viscoso na camada limite;
 > 3. **Número de Froude ($Fr = \frac{U}{\sqrt{g L}}$):** obtido pela raiz do inverso de $\Pi_3 = \frac{g L}{U^2}$, governando o sistema de ondas de superfície livre;
 > 4. **Número de Weber ($We = \frac{\rho U^2 L}{\sigma}$):** obtido pela inversão de $\Pi_4 = \frac{\sigma}{\rho U^2 L}$, governando a quebra de ondas e formação de borrifos na proa.  
@@ -2293,14 +2297,14 @@ Nesta formulação alternativa, o Número de Reynolds surge diretamente com expo
 - **Total de variáveis:** $n = 7$.
 - **Total de dimensões:** $m = 3$.
 - **Total de grupos:** $k = 7 - 3 = 4$.
-- **Os 4 grupos clássicos:** $C_T$ (ou $\Pi_1$), $Re$ (ou $Rn$), $Fr$ (ou $Fn$) e $We$ (ou $Wn$).
-- **A relação de normalização:** $C_T = \left(\frac{2}{c_s}\right)\Pi_1$.
+- **Os 4 grupos clássicos:** O monômio de força $\Pi_1 = \frac{R}{\rho U^2 L^2}$ (que se relaciona com $C_T$ por $C_T = \frac{2}{c_s}\Pi_1$), $Re$ (ou $Rn$), $Fr$ (ou $Fn$) e $We$ (ou $Wn$).
+- **A relação de normalização:** $C_T = \frac{R}{\frac{1}{2}\rho S U^2} = \left(\frac{2}{c_s}\right)\Pi_1$, com $S = c_s L^2$. Destacar que $C_T$ e $\Pi_1$ **não são numericamente equivalentes**.
 
 ### F. Atenção para a prova
 > [!TIP]
 > **Como responder na prova:**  
 > "Como temos $n = 7$ variáveis físicas e $m = 3$ dimensões fundamentais ($MLT$), formam-se $k = 7 - 3 = 4$ grupos adimensionais clássicos independentes:
-> 1. **Coeficiente de Resistência Total ($C_T = \frac{R}{\rho U^2 L^2}$ ou $C_T = \frac{2}{c_s}\Pi_1$)**: relaciona a força resistente com a inércia do escoamento;
+> 1. **Monômio de Resistência e Coeficiente de Resistência Total:** O Teorema de Buckingham fornece diretamente o monômio adimensional $\Pi_1 = \frac{R}{\rho U^2 L^2}$, que se relaciona ao Coeficiente de Resistência Total convencional ($C_T = \frac{R}{\frac{1}{2}\rho S U^2}$) pela fórmula $C_T = \left(\frac{2}{c_s}\right)\Pi_1$, considerando a área molhada $S = c_s L^2$;
 > 2. **Número de Reynolds ($Re = \frac{\rho U L}{\mu}$)**: governa a razão entre forças de inércia e forças viscosas na camada limite;
 > 3. **Número de Froude ($Fr = \frac{U}{\sqrt{g L}}$)**: governa a razão entre forças inerciais e gravitacionais, comandando o sistema de ondas de proa;
 > 4. **Número de Weber ($We = \frac{\rho U^2 L}{\sigma}$)**: quantifica a inércia em relação à tensão superficial na interface livre.  

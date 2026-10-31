@@ -1,0 +1,65 @@
+Professor disse: são cinco multiplas escolhas
+
+
+1. questão multiplica escolha:
+
+Fala de escoamento incompressível
+água através de um duto divergente operando em regime permanente
+
+
+2. Fala de equação de continuidade no escoamento incompressível tridimensional
+
+densidade absoluta também
+Ela pergunta: Porque a densidade absoluta não está na equação da continuidade.
+
+3. Ele não vai falar. 
+
+
+4. Fala da segunda lei de newton a um volume de controle infinitesimal
+
+Fala de força de presão
+e do Sinal negativo. 
+
+
+5. Fala de condição de contorno cinemáticas adotadas nas Soluções das equações escoamento ao longo da fronteira
+
+
+6. Complete a lacuna: 
+
+6.1. Fala sobre propriedades físicas fundamentais
+
+6.2. principio da conservação de massa aplicada no volume.. Equação da ____. Algo assim que escutei no áudio.
+
+6.3. Perspectiva Euleriana ____ 
+
+6.5 Perspectiva Langrangeana ___
+
+6.4. Sobre a concepção Euleriana formada pela zona de duas acelerações ____ . Quais são? convectiva, local, quais são?
+
+6.5. As forças que atuam sobre um elemento de fluído dividem-se em que forças:
+
+6.6. O escoamento laminar entre duas placas planas ____ denominado escoamento ____.
+
+6.7. O número de ____ representa entre forças de inércia e força... ____.
+
+Não escutei sobre a ordem de número dessas e não sei se fazem parte da mesma questão de lacunas mas acredito que não. 
+
+Ensaio de modelo de tanques .... 
+Similaridade
+Constante, velocidade, particula homologo, 
+
+
+7. Verdadeiro ou Falso
+
+
+Pelo principio da homogeonidade dimensional uma equação fisica (ruído nessa parte, não sei se é a palavra físca mesmo) só é dimensionalmente constante se todos os seus termos, aditivos, 
+
+Teorema de Pi Buckihamm 
+
+Pediu para estudar , os seis prinicipios para encontrar a análise dimensaional. Só teoria para V ou F na sétima questão.
+
+
+
+8. Vai ser o cálculo 6 passos (fixa)
+
+
