@@ -7,7 +7,7 @@ MET P2 - 9.4
 CIA P1 - 8.5 
 CIA P2 -  8.9
 LEG P1 - 9.8
-LEG P1 - 9.7 
+LEG P2 - 9.7 
 PRN - 8.6 
 EST 1 - 8.0
 EST 1 P2 - 10
@@ -18,6 +18,8 @@ FIS P1 - 8.4 (COM TRABALHO)
 CAL P1 - 9.2
 NA2 P1 - 10
 FIS P2 - 8.9
+IOM - 9.15 
+
 
 
 
