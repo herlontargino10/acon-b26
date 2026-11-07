@@ -12,7 +12,7 @@
 A água escoa em regime permanente por um duto divergente. Considerando o escoamento incompressível, o que acontece com a velocidade da água ao longo do duto?
 
 - [ ] **A)** Aumenta.
-- [ ] **B)** Diminui.
+- [x] **B)** Diminui. ✅ 2026-11-05
 - [ ] **C)** Permanece constante.
 - [ ] **D)** Torna-se nula.
 - [ ] **E)** Não depende da área do duto.
@@ -23,7 +23,7 @@ No escoamento incompressível tridimensional, por que a densidade absoluta não 
 
 - [ ] **A)** Porque a conservação da massa não se aplica a líquidos.
 - [ ] **B)** Porque a densidade da água é desprezada.
-- [ ] **C)** Porque a densidade é constante e pode ser cancelada na equação.
+- [x] **C)** Porque a densidade é constante e pode ser cancelada na equação. ✅ 2026-11-05
 - [ ] **D)** Porque a densidade é substituída pela pressão.
 - [ ] **E)** Porque isso só acontece em escoamentos unidimensionais.
 

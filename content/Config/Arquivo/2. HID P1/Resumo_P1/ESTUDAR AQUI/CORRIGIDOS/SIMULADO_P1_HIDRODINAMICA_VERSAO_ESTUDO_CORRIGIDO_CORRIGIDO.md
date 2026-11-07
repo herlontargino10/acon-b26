@@ -89,32 +89,32 @@ Assinale **V** para verdadeiro ou **F** para falso.
 
 **7.1.** Os termos que são somados em uma equação física devem ter as mesmas dimensões.
 
-- [ ] V
+- [x] V ✅ 2026-11-05
 - [ ] F
 
 **7.2.** Na adimensionalização, divide-se cada termo por uma combinação de variáveis que tenha a mesma dimensão.
 
-- [ ] V
+- [x] V ✅ 2026-11-05
 - [ ] F
 
 **7.3.** Pelo Teorema de Pi de Buckingham, o número de grupos adimensionais é $k = n + m$.
 
 - [ ] V
-- [ ] F
+- [x] F ✅ 2026-11-05
 
 **7.4.** No sistema $MLT$, as dimensões fundamentais são massa, comprimento e tempo.
 
-- [ ] V
+- [x] V ✅ 2026-11-05
 - [ ] F
 
 **7.5.** No sistema $MLT$, três variáveis repetidas que tenham somente dimensão de comprimento atendem aos requisitos de escolha.
 
-- [ ] V
+- [x] V ✅ 2026-11-05
 - [ ] F
 
 **7.6.** Para que um grupo $\Pi$ seja adimensional, os expoentes das dimensões fundamentais devem resultar em zero.
 
-- [ ] V
+- [x] V ✅ 2026-11-05
 - [ ] F
 
 ---

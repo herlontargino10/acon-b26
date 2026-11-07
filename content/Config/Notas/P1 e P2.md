@@ -19,6 +19,7 @@ CAL P1 - 9.2
 NA2 P1 - 10
 FIS P2 - 8.9
 IOM - 9.15 
+CAL P2 - 7.2
 
 
 
