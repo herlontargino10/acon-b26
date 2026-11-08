@@ -1,6 +1,6 @@
 # Material de Estudo: Manobra de Navio (MAN)
 
-## Resolução Consolidada e Auditada — Bloco 10 (Questões 91 a 100)
+## Resolução Consolidada e Auditada — Bloco 10 (Questões 91 a 99)
 
 ---
 
@@ -98,14 +98,5 @@
 - **Resposta final**: Numa manobra de atracação no píer, isso é **FAVORÁVEL** _(dedução lógica direta fundamentada no Slide 208)_.
 - **Explicação didática**: A classificação como favorável constitui uma dedução lógica direta baseada em duas premissas explícitas do Slide 208: 1) o bolsão de água gerado no cais atrapalha a atracação; 2) no píer não ocorre a formação do bolsão de água. Assim, a ausência dessa força de repulsão no píer favorece o encosto do navio na atracação.
 - **Fonte**: `06_Manobra_de_Atracação_e_Desatracação.pdf` — Slide 208.
-
----
-
-### **Questão 100**
-
-- **Enunciado**: 100 – Numa manobra utilizando o ferro do navio, podemos afirmar que esta manobra facilita movimentar lateralmente a proa do navio, assim como impede o movimento da proa quando atracado?
-- **Resposta final**: **Sim, podemos afirmar.**
-- **Explicação didática**: Afirmação fundamentada diretamente no Slide 256, que elenca literalmente que, nas manobras, o ferro pode ser empregado para **movimentar lateralmente a proa** e para **impedir o movimento da proa**.
-- **Fonte**: `06_Manobra_de_Atracação_e_Desatracação.pdf` — Slide 256.
 
 ---

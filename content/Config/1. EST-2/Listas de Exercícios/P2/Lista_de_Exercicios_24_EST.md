@@ -1,0 +1,4 @@
+1) Um navio adriçado, desloca 8000 t, flutuando em água salgada (1,025 t/m³) com os calados de 6 m, em águas parelhas. O navio possui um compartimento lateral com superfície de 40 m² e afastamento de 8 m para boreste. Com base nesses dados, determine a elevação virtual do centro de gravidade do navio, caso esse compartimento faça água aberta. 
+
+
+2) Um navio adriçado, desloca 9000 t, flutuando em água salgada (1,025 t/m³) com os calados de 9 m, em águas parelhas. O navio possui um compartimento lateral com superfície de 60 m² e afastamento de 12 m para bombordo. Com base nesses dados, determine a elevação virtual do centro de gravidade do navio, caso esse compartimento faça água aberta. 

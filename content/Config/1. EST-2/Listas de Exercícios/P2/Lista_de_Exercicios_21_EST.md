@@ -1,4 +1,3 @@
 1) Um navio de 9000 t de deslocamento encalha em um banco de areia (0,6), em maré de vazante, com um calado de 5,4 m, águas parelhas e KG = 4,8 m. A previsão da profundidade no banco de areia na baixa-mar é de 3,4 m. Calcule a tonelagem de encalhe, a força de tração, a GM nesta ocasião. Assumindo que o KM será 6,85 m e que o TPC médio vale 20 t e analise as consequências para a estabilidade.
 
-
 2) O N/M “Frota Sírius”, encalhou num banco de areia dura. O seu calado médio antes do encalhe era 9,00 m e, após, ficou 8,00 m. Determine a GM após o encalhe, a força de tração e analise as consequências para a estabilidade, considerando KG = 12,00 m. Dado o coeficiente de atrito do banco de areia dura: 0,601. Na tabela de dados hidrostáticos para um calado de 9,00 m o deslocamento vale 41819 t, e para um calado de 8,00 metros o KM é 13,91 m, sendo o TPC médio de 49,565 t.
