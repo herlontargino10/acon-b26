@@ -1,0 +1,45 @@
+#separator:tab
+#html:false
+Qual perspectiva acompanha uma partícula fluida individual ao longo do tempo?	Lagrangeana
+Qual perspectiva mede as propriedades do fluido em janelas fixas no espaço?	Euleriana
+Na visão euleriana, qual termo mede a variação da velocidade no tempo em um ponto fixo?	Aceleração local
+Na visão euleriana, qual termo mede a variação de velocidade pelo deslocamento espacial?	Aceleração convectiva
+Qual é a soma da aceleração local com a aceleração convectiva na visão euleriana?	Derivada material
+Como se chama a região de volume fixo no espaço escolhida arbitrariamente por onde o fluido entra e sai?	Volume de controle
+Como são chamadas as fronteiras abertas por onde o fluido cruza o volume de controle?	Superfícies de controle
+Na análise do escoamento isotérmico sobre o casco de um navio, qual lei de conservação é dispensada?	Conservação de energia
+Na forma integral da continuidade, para onde aponta o vetor unitário normal \( \hat{n} \)?	Para fora do volume de controle.
+Qual força superficial resulta das colisões moleculares perpendiculares às superfícies?	Força de pressão
+Qual força tangencial surge da troca de quantidade de movimento entre camadas vizinhas?	Tensão de cisalhamento
+Como se classificam as forças que atuam na massa do fluido sem necessidade de contato físico?	Forças de corpo
+Qual condição de contorno obriga o fluido a ter a mesma velocidade tangencial da parede sólida?	Não-escorregamento
+Qual condição de contorno anula a velocidade perpendicular/normal à parede sólida impermeável?	Impenetrabilidade
+Qual modelo descreve o escoamento entre placas fixas movido exclusivamente por gradiente de pressão?	Poiseuille
+Qual modelo descreve o escoamento entre placas movido exclusivamente por uma parede móvel sem  gradiente de pressão?	Couette puro
+Qual é o formato do perfil de velocidade no escoamento de Poiseuille?	Parabólico
+Qual é o formato do perfil de velocidade no escoamento de Couette puro?	Linear
+Qual é o comportamento da tensão de cisalhamento ao longo de toda a altura y no Couette puro?	Constante
+Onde se localiza a velocidade máxima no escoamento de Poiseuille entre placas fixas?	Centro do canal (y = a/2)
+Qual termo unifica a variação de pressão e a gravidade em canais inclinados?	Gradiente piezométrico
+A constância de qual propriedade do fluido define o comportamento Newtoniano?	Viscosidade dinâmica (\(\mu\))
+Qual hipótese permite desprezar as forças viscosas longe de superfícies em altas velocidades?	Escoamento invíscido (potencial)
+Qual hipótese assume temperatura constante no escoamento, permitindo desacoplar e descartar a Equação da Energia?	Escoamento isotérmico
+Existem soluções analíticas exatas para o escoamento ao redor do casco de um navio real?	Não
+Em qual tipo específico de geometria e escoamento existem soluções analíticas exatas para Navier-Stokes?	Escoamento interno totalmente desenvolvido
+Qual é a força motora dominante no escoamento de Couette puro?	Força viscosa (arrasto)
+O que ocorre com a velocidade máxima em Poiseuille se a viscosidade do fluido dobrar?	A velocidade máxima cai pela metade.
+Qual é o nome da lei fundamental representada matematicamente pela Equação da Continuidade?	Lei da Conservação de massa
+Qual hipótese física assume densidade constante no espaço e no tempo \(\rho = \text{constante}\)?	Incompressibilidade
+No balanço 1D de continuidade \((\dot{m}_{out} - \dot{m}_{in} = -\frac{\Delta \rho}{\Delta t} Vol)\), por que o termo de acúmulo leva sinal negativo?	Para compensar a diminuição da massa acumulada no volume de controle quando a densidade diminui.
+Em duto incompressível com \(A_1 > A_2\), o que ocorre com a velocidade na saída \(u_2\)?	Aumenta
+Qual hipótese anula a variação temporal de qualquer propriedade em um ponto fixo \(\left(\frac{\partial}{\partial t} = 0\right)\)?	Regime permanente
+Qual hipótese anula a variação espacial do perfil de velocidade na direção do fluxo \(\left(\frac{\partial u}{\partial x} = 0\right)\)?	Totalmente desenvolvido
+Quanto vale a tensão de cisalhamento no centro geométrico do canal de Poiseuille \((y = a/2)\)?	Nula (zero)
+Qual componente da gravidade impulsiona o escoamento em um canal inclinado de um ângulo \(\theta\)?	\(g\sin\theta\)
+Em regime permanente \(\left(\frac{\partial u}{\partial t} = 0\right)\), a aceleração total da partícula pode ser não-nula?	Sim, por aceleração convectiva
+O que ocorre com a velocidade máxima em canal inclinado se o ângulo \(\theta\) aumentar de \(15^\circ\) para \(45^\circ\)?	A velocidade máxima aumenta
+Se as tensões de cisalhamento forem idênticas nas faces opostas de um cubo fluido \((\tau_1 = \tau_2)\), qual é a força viscosa resultante?	Nula (zero)
+Se o fluxo vai da pressão maior \(p_1\) para a menor \(p_2\), qual é o sinal numérico da derivada \(\frac{\partial p}{\partial x}\)?	Negativo
+Se a velocidade \(u\) for alta, porém uniforme em todo o espaço \(\left(\frac{\partial u}{\partial y} = 0\right)\), quanto vale a tensão de cisalhamento?	Nula (zero)
+Em um volume de controle incompressível 2D, se \(\frac{\partial u}{\partial x} = 4\,\text{s}^{-1}\), quanto deve valer \(\frac{\partial v}{\partial y}\)?	\(-4\,\text{s}^{-1}\)
+Qual termo de Navier-Stokes é anulado pela hipótese de escoamento totalmente desenvolvido no eixo \(x\)?	Aceleração convectiva \(\left(u\frac{\partial u}{\partial x}\right)\)

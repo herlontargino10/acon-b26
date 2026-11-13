@@ -1,0 +1,21 @@
+#separator:tab
+#html:false
+A lei que exige que os termos de uma equação tenham as mesmas dimensões é o princípio da __________ dimensional.	homogeneidade
+Uma equação cujos termos são adimensionais e da ordem da unidade é chamada de __________.	normalizada
+A normalização é mais __________ do que a adimensionalização.	restritiva
+As dimensões fundamentais usadas normalmente na hidrodinâmica do navio são _____, _____ e _____.	Massa, comprimento e tempo
+A força de inércia é normalizada, no desenvolvimento da apostila, por uma expressão proporcional a __________.	ρu²L²
+A adimensionalização natural da pressão é o número de __________.	Euler
+O número de Euler relaciona as forças de pressão e as forças de __________.	inércia
+O número de Reynolds relaciona as forças de inércia e as forças __________.	viscosas
+A lei que relaciona a tensão cisalhante à variação da velocidade na direção transversal é a lei da _____ de ______.	Viscosidade; Newton
+O número de Froude relaciona as forças de ______ e as forças __________.	Inércia, gravitacionais
+O número de Froude tem efeito dominante em escoamentos com superfícies __________.	livres
+O número de Weber relaciona as forças de inércia e as forças de  __________.	Tensão superficial
+A análise dimensional permite reduzir o número de variáveis __________ que afetam um fenômeno físico.	experimentais
+O teorema π de Buckingham permite obter grupos __________ a partir de variáveis dimensionais.	adimensionais
+Na contagem apresentada para os problemas de hidrodinâmica do navio, o número de grupos π é calculado por n − __________.	m
+Os ensaios em tanques de provas consistem na medição de forças em um ____ (em escala reduzida) para extrapolação ao ____ (navio real em escala plena).	modelo; protótipo.
+A semelhança completa entre o modelo em tanque e o navio real exige o cumprimento simultâneo das similaridades geométrica, ____ e ____.	cinemática; dinâmica
+Na similaridade cinemática, as trajetórias das partículas são geometricamente semelhantes e a razão entre as velocidades de pontos homólogos é rigorosamente ____.	constante.
+Na teoria de similaridade naval, as posições espacialmente correspondentes na proporção geométrica de escala \( \alpha = \frac{L_m}{L_p} \) entre o modelo e o protótipo denominam-se formalmente _____.	Pontos homólogos.

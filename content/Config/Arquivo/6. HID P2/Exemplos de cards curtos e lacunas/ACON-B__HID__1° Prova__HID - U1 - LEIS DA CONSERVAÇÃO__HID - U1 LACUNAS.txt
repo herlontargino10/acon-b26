@@ -1,0 +1,114 @@
+#separator:tab
+#html:false
+As três leis de conservação listadas no material são conservação da massa, da quantidade de movimento e da __________.	energia
+A massa específica é representada pela letra grega __________.	ρ
+A relação entre massa, massa específica e volume é m = __________.	ρV
+Um volume fixo no espaço usado para analisar o fluido é chamado de __________.	Volume de controle. 
+A ________ representa a quantidade de massa que atravessa uma superfície por unidade de __________.	vazão mássica; tempo
+A expressão da vazão mássica apresentada é ṁ = __________.	ρuA
+Na expressão ṁ = ρuA, a letra A representa a __________ da face atravessada pelo fluido.	área
+As componentes do vetor velocidade são u, v e __________.	w
+A componente u está associada à direção __________.	x
+A componente v está associada à direção __________.	y
+A componente w está associada à direção __________.	z
+A conservação da massa também é chamada de equação da __________.	continuidade
+No caso incompressível tratado, a densidade é considerada __________.	constante
+A forma cartesiana da continuidade incompressível é ∂u/∂x + ∂v/∂y + ∂w/∂z = __________.	zero
+Para aplicar a conservação da massa são necessárias as __________ espaciais da velocidade, e não apenas os valores de u, v e w.	variações
+A lei de Newton relaciona a variação da quantidade de movimento à ação de uma força __________.	externa
+Na expressão D(mV)/Dt = F, a letra F representa a força __________ aplicada.	externa
+Na perspectiva lagrangeana, acompanha-se a mesma __________ ou elemento de fluido.	partícula
+Na perspectiva euleriana, o observador utiliza uma janela __________ no espaço.	fixa
+A derivada material também é chamada de derivada substantiva ou derivada __________.	total
+A derivada material inclui a aceleração __________ e a aceleração convectiva.	local
+A aceleração local descreve a variação da velocidade com o tempo em uma posição __________.	fixa
+A aceleração convectiva está relacionada às variações espaciais da __________.	velocidade
+No tubo convergente incompressível, o resumo considera ρ₁ = __________.	ρ₂
+Para o tubo convergente, a relação simplificada de conservação da massa é u₂A₂ = __________.	u₁A₁
+Se A₁ > A₂, no exemplo do resumo, então u₂ é __________ que u₁.	maior
+Em escoamento permanente, ∂u/∂t = __________.	zero
+Em escoamento permanente, os termos convectivos da aceleração não precisam ser __________.	nulos
+Na direção x, um dos termos convectivos da aceleração é u(∂u/∂x); outro é v(∂u/∂y), e o terceiro é w vezes a derivada parcial de u em relação a ____.	z
+A abordagem euleriana não torna necessariamente o desenvolvimento matemático mais __________.	simples
+A Segunda Lei de Newton aplicada por unidade de volume relaciona a aceleração do fluido à força por unidade de __________.	volume
+A densidade é definida como a massa dividida pelo __________.	volume
+As forças superficiais dividem-se em forças _________ e forças __________.	normais; tangenciais
+As forças normais são geralmente associadas à __________.	pressão
+As forças tangenciais estão associadas à tensão de __________.	cisalhamento
+As forças de corpo são forças de __________ e não exigem contato físico direto com o elemento.	campo
+Segundo a descrição da Lei de Pascal no resumo, as forças de pressão atuam de forma __________ à superfície.	perpendicular
+Na notação σᵢⱼ, o primeiro índice indica o sentido __________ da superfície escolhida.	normal
+Na notação σᵢⱼ , o segundo índice indica o sentido da componente de __________.	força
+A força exercida por pressão sobre uma área é expressa por F = pressão multiplicada pela __________.	área
+No exemplo do cubo, a força de pressão na direção x é desenvolvida a partir da diferença entre as pressões de __________ e de saída.	entrada
+A força resultante de pressão acelera o fluido no sentido da __________ de pressão.	queda
+A tensão de cisalhamento é representada pela letra grega __________.	τ
+A viscosidade dinâmica é representada pela letra grega __________.	μ
+Na relação τᵧₓ = μ(Δu/Δy), a variação de velocidade é relacionada à distância entre camadas na direção __________.	y
+A Primeira Lei da Termodinâmica aparece no resumo como E = Q − ____.	W (trabalho)
+A energia armazenada está diretamente relacionada à __________ do próprio sistema.	massa
+A energia em trânsito inclui calor e __________.	trabalho
+A taxa de variação da energia por unidade de tempo é representada por __________.	Ė
+A energia por unidade de massa é representada pela letra __________.	e
+Considerando apenas energia interna, cinética e potencial gravitacional, a fonte apresenta e = û + ½V² + ____.	gz
+O termo û representa a energia __________ da partícula fluida.	interna
+O termo ½V² representa a energia __________ por unidade de massa.	cinética
+O termo gz representa a energia potencial __________ por unidade de massa.	gravitacional
+A energia armazenada no volume de controle é escrita por meio de uma integral tripla de eρ sobre o __________.	volume de controle
+A transferência de energia através da superfície de controle inclui o fluxo de energia associado à velocidade normal, representada por V· ____.	n
+Na organização do resumo, o trabalho total é dividido em trabalho de máquina e trabalho de __________.	transmissão
+O trabalho de transmissão inclui trabalho de pressão e trabalho de forças __________.	viscosas
+A hipótese de escoamento __________ significa que as forças viscosas são desprezíveis em comparação com as outras forças consideradas.	invíscido
+A hipótese __________ considera que não há variação de temperatura relevante no escoamento analisado, conforme a explicação apresentada na fonte.	isotérmica
+O resumo apresenta quatro incógnitas principais: u, v, w e __________.	p
+Para os casos simples estudados, o resumo considera escoamentos internos fechados em tubos, dutos e __________.	canais
+O roteiro geral de resolução contém __________ passos.	seis
+O primeiro passo consiste em observar o tipo de escoamento e configurar o problema, incluindo a geometria e as variáveis __________.	envolvidas
+O segundo passo é determinar as hipóteses __________ do problema.	básicas
+Os limites definidos no espaço ou no tempo são chamados de condições de __________.	contorno
+O procedimento recomenda iniciar pela conservação da __________, por ser a formulação mais simples.	massa
+Depois de simplificar as equações, deve-se resolver a equação da conservação da quantidade de __________.	movimento
+No escoamento conduzido por pressão, a pressão na entrada é maior que na saída: p₁ é __________ que p₂.	maior
+No escoamento conduzido por pressão, a diferença de pressão impulsiona o fluido da região de maior pressão para a região de menor __________.	pressão
+No escoamento conduzido pela gravidade, a força motriz é uma força de __________.	corpo
+No exemplo de canal inclinado, a componente da gravidade ao longo do canal é representada na aula por g sin __________.	θ (teta)
+No escoamento conduzido por forças viscosas, uma parede fica fixa e a outra pode estar em __________.	movimento
+O modelo de duas placas paralelas é descrito como bidimensional, ou seja, __________.	bidimensional
+O resumo afirma que os casos simples apresentados possuem solução __________.	analítica
+No escoamento conduzido por pressão, a pressão na entrada é maior que na saída: p₁ ____ p₂.	>
+A distância entre as duas paredes é representada pela letra ____.	a
+A parede inferior está localizada em y = ____.	0
+A parede superior está localizada em y = ____.	a
+Na hipótese de escoamento incompressível, a massa específica é considerada ____.	constante
+No escoamento permanente, as propriedades do escoamento não variam com o ____.	tempo
+Para o escoamento totalmente desenvolvido, o resumo adota a condição ∂u/∂x = ____.	0
+No modelo bidimensional apresentado, a componente da velocidade na direção z é w = ____.	0
+A condição de não escorregamento na parede inferior estacionária é u(y = 0) = ____.	0
+Na parede superior estacionária, a condição de não escorregamento é u(y = a) = ____.	0
+A condição de impenetrabilidade impõe que a velocidade normal às paredes seja ____.	nula
+A equação da continuidade simplificada resulta em ∂v/∂y = ____.	0
+Depois de integrar a equação anterior, obtém-se v = ____; aplicando a condição de contorno, conclui-se que v = 0 em todo o canal.	constante
+Na equação reduzida da quantidade de movimento, a força de pressão é balanceada pelos efeitos ____.	viscosos
+O perfil final de velocidades descrito pela equação de Poiseuille é ____.	parabólico
+A distância entre as paredes paralelas é representada pela letra ____.	a
+A massa específica, na hipótese de incompressibilidade, é considerada ____.	constante
+A condição de não escorregamento na parede superior estacionária é u(y = a) = ____.	0
+A condição de impenetrabilidade exige que a componente normal da velocidade seja ____ nas paredes.	nula
+Integrando a equação anterior, obtém-se v = ____; a condição de contorno determina que essa constante seja zero.	constante
+Neste capítulo, a componente gravitacional na direção do escoamento é representada por gₓ = g × ____.	sin θ
+Segundo o resumo, quanto menor a viscosidade dinâmica, ____ é a velocidade máxima, mantidas as demais condições comparáveis.	maior
+1. No modelo de Couette, a placa inferior está __________.	parada
+2. A placa superior se move com velocidade __________.	V₀
+3. A distância entre as placas é representada pela letra __________.	a
+4. No modelo apresentado, as pressões nas extremidades são __________, isto é, p₁ = p₂.	iguais
+5. A condição de não escorregamento na parede inferior é u(y = 0) = __________.	zero
+6. A condição de não escorregamento na parede superior é u(y = a) = __________.	V₀
+7. A condição de impenetrabilidade impede que o fluido atravesse a parede na direção __________ a ela.	normal
+8. No modelo bidimensional do resumo, a componente de velocidade w é __________.	zero
+9. A hipótese de incompressibilidade é representada por densidade __________.	constante
+10. No escoamento permanente, as propriedades consideradas não variam com o __________.	tempo
+11. A condição de escoamento totalmente desenvolvido usada no resumo é ∂u/∂x = __________.	zero
+12. Aplicadas as hipóteses à continuidade, obtém-se ∂v/∂y = __________.	zero
+15. A equação final u = (V₀/a)y representa um perfil de velocidade __________.	linear
+O escoamento laminar permanente de um fluido viscoso entre duas placas planas paralelas, com placas fixas, conduzido por _____ denomina-se escoamento plano de _____.	Gradiente de pressão; Poiseuille
+O escoamento laminar permanente de um fluido viscoso entre duas placas planas, com uma placa móvel e gradiente de pressão nulo, conduzido por _____ denomina-se escoamento plano de _____.	Arraste de placa móvel; Couette

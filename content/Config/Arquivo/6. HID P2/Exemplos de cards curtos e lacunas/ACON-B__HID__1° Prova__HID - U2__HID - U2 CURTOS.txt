@@ -1,0 +1,88 @@
+#separator:tab
+#html:false
+Qual é a diferença entre dimensão e unidade?	Dimensão descreve a natureza física da grandeza; unidade é o padrão usado para medi-la.
+Qual sistema dimensional é destacado para a hidrodinâmica naval neste resumo?	MLT: massa, comprimento e tempo.
+O que exige a lei da homogeneidade dimensional?	Que todos os termos somados ou subtraídos em uma equação devem ter as mesmas dimensões.
+Uma equação dimensionalmente homogênea está necessariamente correta fisicamente?	Não. A homogeneidade dimensional é necessária, mas não garante que a equação descreva corretamente o fenômeno.
+Qual é a diferença entre adimensionalização e normalização?	Adimensionalizar remove unidades; normalizar também escala as grandezas para que os termos sejam tipicamente de ordem unitária.
+Quantas dimensões fundamentais são usadas nos exemplos mecânicos deste resumo?	Três: M, L e T.
+Qual é a expressão exata da energia cinética de uma partícula?	\(K_e=\frac{1}{2}mu^2\).
+Qual escala de força de inércia é usada no resumo?	\(F_{\text{inércia}}\sim\rho U^2L^2\).
+Por que a força de inércia é escrita como uma escala, e não como igualdade exata?	Porque é uma estimativa característica baseada em grandezas típicas e despreza fatores numéricos como \(1/2\).
+O que compara o número de Euler?	Os efeitos de pressão em relação aos efeitos de inércia.
+Qual expressão do número de Euler é usada no resumo?	\(Eu=\frac{\Delta p}{\rho U^2}\).
+O número de Euler inclui sempre o fator \(1/2\) no denominador?	Não. A convenção depende da definição adotada; neste resumo, o denominador é \(\rho U^2\).
+O que compara o número de Reynolds?	Os efeitos de inércia em relação aos efeitos viscosos.
+Qual é a expressão do número de Reynolds?	\(Re=\frac{\rho UL}{\mu}\).
+Qual é a interpretação física de Reynolds?	Indica a importância relativa da inércia e da viscosidade no escoamento.
+O valor crítico de Reynolds em torno de \(2{,}3\times10^3\) vale para qualquer escoamento?	Não. É uma referência aproximada para a transição em tubos circulares, não um limite universal.
+Em um fluido Newtoniano, o que relaciona tensão de cisalhamento e gradiente de velocidade?	A lei da viscosidade de Newton: \(\tau=\mu\,\frac{\partial u}{\partial y}\), no caso simples considerado.
+Uma velocidade absoluta alta garante tensão de cisalhamento alta?	Não. A tensão depende do gradiente de velocidade, não apenas da velocidade absoluta.
+O que compara o número de Froude?	Os efeitos de inércia em relação aos efeitos gravitacionais.
+Qual é a expressão do número de Froude?	\(Fr=\frac{U}{\sqrt{gL}}\).
+Qual é a razão entre a escala de força de inércia e a força gravitacional?	\(\frac{F_{\text{inércia}}}{F_{\text{gravidade}}}=\frac{U^2}{gL}=Fr^2\).
+Por que Froude é importante em modelos de navios com superfície livre?	Porque representa a relação entre inércia e gravidade, importante para reproduzir a formação de ondas.
+O que compara o número de Weber?	Os efeitos de inércia em relação aos efeitos de tensão superficial.
+Qual expressão do número de Weber aparece no resumo?	\(We=\frac{\rho U^2L}{\sigma}\).
+Em quais fenômenos o número de Weber é especialmente relevante?	Na formação de gotas, bolhas e sprays e em interfaces gás-líquido.
+O que representa \(n\) no teorema de Buckingham–Π?	O número de variáveis dimensionais independentes do problema.
+Qual regra de contagem de grupos adimensionais é usada nos exemplos do resumo?	\(j=n-m\), com \(m\) dimensões fundamentais independentes.
+Quais dimensões fundamentais são usadas nos exemplos de Buckingham deste resumo?	Massa, comprimento e tempo: M, L e T.
+Qual é o objetivo do teorema de Buckingham–Π?	Representar a relação física por grupos adimensionais formados a partir das variáveis do problema.
+Qual é a primeira etapa do procedimento de Buckingham–Π?	Listar as variáveis dimensionais independentes e contar \(n\).
+O que deve ser identificado na segunda etapa de Buckingham–Π?	As dimensões fundamentais independentes presentes nas variáveis.
+O que se calcula na terceira etapa de Buckingham–Π?	A quantidade de grupos adimensionais, usando \(j=n-m\) nos exemplos do resumo.
+Para que servem as variáveis repetidas no método de Buckingham–Π?	Para formar os grupos adimensionais com as variáveis restantes.
+Como se determinam os expoentes de um grupo \(\Pi\)?	Exigindo que o expoente total de cada dimensão fundamental seja zero.
+No exemplo de Euler, quantas variáveis e dimensões fundamentais são consideradas?	Quatro variáveis e três dimensões fundamentais; resulta um grupo adimensional.
+Qual grupo adimensional resulta do exemplo de Euler?	\(\Pi_1=\frac{\Delta p}{\rho U^2}=Eu\).
+No exemplo do duto, qual grupo adimensional resulta de \(U,D,\mu,\rho\)?	\(\Pi_1=\frac{\rho UD}{\mu}=Re\).
+Quantos grupos adimensionais resultam das sete variáveis de resistência naval listadas no resumo?	Quatro grupos, usando sete variáveis e três dimensões fundamentais.
+Qual grupo representa o coeficiente de arrasto na análise de resistência naval?	\(\Pi_1=\frac{R_{\text{forma}}}{\rho L^2U^2}\).
+Qual relação do resumo associa o segundo grupo naval a Reynolds?	\(\Pi_2=\frac{\mu}{\rho LU}=Re^{-1}\).
+Qual relação do resumo associa o terceiro grupo naval a Froude?	\(\Pi_3=\frac{gL}{U^2}=Fr^{-2}\).
+Qual relação do resumo associa o quarto grupo naval a Weber?	\(\Pi_4=\frac{\sigma}{\rho LU^2}=We^{-1}\).
+O que exige a similaridade geométrica?	Que modelo e protótipo tenham a mesma forma e proporções entre pontos homólogos.
+O que exige a similaridade cinemática?	Correspondência proporcional das velocidades nos pontos homólogos.
+O que exige a similaridade dinâmica?	Correspondência proporcional entre as forças relevantes no modelo e no protótipo.
+Como o resumo define o fator de escala de comprimento?	\(\alpha=\frac{L_m}{L_p}\).
+Se a igualdade de Froude for imposta, qual é a razão entre as velocidades do modelo e do protótipo?	\(\frac{U_m}{U_p}=\sqrt{\alpha}\).
+Sob igualdade de Froude, qual é a razão entre os tempos característicos?	\(\frac{T_m}{T_p}=\sqrt{\alpha}\).
+Ao impor igualdade simultânea de Reynolds e Froude, qual razão de viscosidades cinemáticas resulta no resumo?	\(\frac{\nu_m}{\nu_p}=\alpha^{3/2}\).
+Para uma escala de comprimento \(\alpha=0{,}1\), qual é o valor aproximado de \(\alpha^{3/2}\)?	Aproximadamente \(0{,}0316\), ou \(3{,}16\%\).
+Por que Reynolds e Froude geralmente não podem ser igualados simultaneamente em modelo reduzido com o mesmo fluido?	Porque a escala de velocidade exigida por Froude e a escala de comprimento alteram Reynolds; com a mesma viscosidade cinemática, as duas igualdades geralmente entram em conflito.
+Em ensaios de navios com superfície livre, qual similaridade costuma ser priorizada no resumo?	A similaridade de Froude, para reproduzir os efeitos gravitacionais e a formação de ondas.
+Qual limitação prática da similaridade geométrica é citada para a rugosidade do casco?	A rugosidade do casco real não pode ser miniaturizada perfeitamente na mesma proporção.
+O resumo fornece uma explicação completa de cavitação?	Não. Registra que a explicação física precisa de complemento ou confirmação.
+A expressão de Arqueação Bruta \(AB=K\cdot V\) está confirmada no resumo?	Não. É uma anotação da aula que o próprio resumo marca como necessitando de confirmação.
+A resistência de forma é sempre independente de Reynolds em qualquer escoamento real?	Não se deve generalizar assim; o resumo atribui essa afirmação à aula, mas a formulação exige contexto e confirmação.
+Como é chamada uma equação cujos termos são adimensionais e da ordem da unidade?	Equação normalizada.
+Quantas dimensões primárias, fundamentais ou básicas existem segundo a apostila?	Sete.
+Quais são as sete dimensões primárias citadas na apostila?	Massa, comprimento, tempo, temperatura, corrente elétrica, quantidade de luz e quantidade de matéria.
+Como também são chamadas as dimensões primárias na apostila?	Parâmetros de escala.
+O que é uma variável dimensional?	Uma quantidade dimensional que muda ou varia no problema.
+O que é uma variável adimensional?	Uma quantidade que varia no problema, mas não tem dimensão.
+Qual sistema dimensional alternativo à MLT é apresentado na tabela da apostila?	FLT: força, comprimento e tempo.
+Qual é a adimensionalização natural da pressão, importante para sustentação e arrasto induzido no casco do navio?	Número de Euler.
+Em propulsores próximos à cavitação, a que aplicação a apostila associa o número de Euler?	Ao índice de cavitação.
+Segundo a apostila, o que domina quando o número de Euler é pequeno?	Os efeitos de inércia.
+Segundo a apostila, o que pode ser negligenciado quando o número de Reynolds é muito alto?	As forças viscosas.
+Em manobra do navio, de que ordem de grandeza a apostila indica o número de Reynolds?	Da ordem de \(10^9\).
+Que lei relaciona a tensão cisalhante ao gradiente de velocidade para um fluido Newtoniano?	Lei da viscosidade de Newton.
+Segundo a apostila, como a tensão superficial se comporta numa interface?	A interface se assemelha a uma membrana elástica.
+O que representa \(\sigma\) na definição do número de Weber?	A tensão superficial.
+Qual é a finalidade da análise dimensional em relação às variáveis experimentais?	Reduzir o número de variáveis experimentais que afetam o fenômeno.
+Quais são as três finalidades principais da análise dimensional indicadas na apostila?	Gerar parâmetros adimensionais, obter leis de escala e prever tendências entre parâmetros.
+O que o teorema π de Buckingham afirma sobre a forma de expressar uma lei física?	Que ela pode ser expressa por combinações adimensionais das variáveis ligadas pela lei.
+Antes de contar as variáveis no método de Buckingham, o que deve ser evitado?	Incluir variáveis dependentes de outras já listadas, como \(Q=uA\) junto de \(u\) e \(A\).
+Na etapa 5 de Buckingham, o que se faz?	Agrupam-se as variáveis repetidas com a variável que não se repete para formar os grupos \(\Pi\).
+Na determinação dos expoentes de um grupo \(\Pi\), a que devem ser iguais os expoentes dimensionais totais?	A zero, para cada dimensão fundamental.
+O que deve ser conferido ao final da construção dos grupos de Buckingham?	Se todos os grupos \(\Pi\) são realmente adimensionais.
+Na análise de resistência naval da apostila, quais são os quatro parâmetros adimensionais destacados?	Coeficiente de arrasto de forma, Reynolds, Froude e Weber.
+Por que a rugosidade do casco real é um desafio para a similaridade geométrica?	Porque é virtualmente impossível reproduzi-la com exatidão na escala reduzida.
+No dilema da similaridade descrito na apostila, como deve ser ajustada a velocidade do modelo para igualar Froude?	Deve ser menor que a velocidade do navio real.
+Segundo a descrição do dilema na apostila, como deve ser a velocidade do modelo para igualar Reynolds e Weber?	Deve ser maior que a velocidade do navio real.
+Na prática descrita pela apostila, quantos dos três requisitos de similaridade (Reynolds, Froude e Weber) podem ser satisfeitos?	Apenas um dos três.
+Qual número adimensional, além de relacionar inércia e viscosidade, é destacado pela apostila por determinar a transição entre os regimes laminar e turbulento?	Número de Reynolds.
+Qual número adimensional é especialmente importante para resistência de navios, ondas de superfície e canais abertos?	Número de Froude.
+Qual número adimensional é importante para dimensionar corretamente spray, gotas, bolhas e rebentação de ondas?	Número de Weber.
