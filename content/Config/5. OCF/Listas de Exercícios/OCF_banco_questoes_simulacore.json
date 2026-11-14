@@ -1,0 +1,417 @@
+[
+  {
+    "type": "mc",
+    "question": "O gelo marinho pode ter diferentes origens e características. Analise as alternativas a seguir e assinale a correta:",
+    "category": "Oceanografia — Gelo Marinho e Glacial",
+    "options": [
+      "O gelo glacial se forma pelo congelamento da água do mar e normalmente possui apenas alguns metros de espessura, enquanto o gelo marinho deriva exclusivamente do desprendimento de geleiras.",
+      "O gelo glacial origina-se da acumulação e compressão da neve em geleiras, podendo formar icebergs gigantes quando partes da geleira se desprendem; já o gelo marinho se forma pelo congelamento da água do mar, geralmente com poucos metros de espessura, e é transportado pelo vento e correntes oceânicas.",
+      "O gelo marinho (Pack Ice) é sempre estacionário, cobrindo áreas fixas próximas à costa, enquanto o gelo glacial se movimenta livremente pelo oceano.",
+      "Icebergs são formados exclusivamente pelo gelo marinho, que se compacta e se dispersa dependendo do vento e das correntes.",
+      "O fast Ice, se forma pelo congelamento da água do mar, geralmente com vários metros de espessura, e é transportado pelo vento e correntes oceânicas."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B é a correta. O gelo glacial tem origem na neve acumulada e compactada em geleiras terrestres, desprendendo icebergs gigantescos de água doce. O gelo marinho forma-se pelo congelamento da água salgada do mar, tem pequena espessura (poucos metros) e é movido por ventos e correntes oceânicas."
+  },
+  {
+    "type": "mc",
+    "question": "O gelo marinho forma-se a partir do congelamento da água do mar. A alternativa que melhor descreve esse processo é:",
+    "category": "Oceanografia — Congelamento da Água do Mar",
+    "options": [
+      "O gelo se forma apenas na superfície e nunca abaixo dela.",
+      "O congelamento inicia-se quando a temperatura da água atinge cerca de –1,8 °C, formando cristais que se agrupam.",
+      "A salinidade da água não interfere no ponto de congelamento.",
+      "A formação do gelo ocorre apenas no inverno antártico.",
+      "O gelo marinho é composto exclusivamente por água doce."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B é a correta. A presença de sais reduz o ponto de congelamento da água do mar típica (salinidade em torno de 35 PSU) para aproximadamente –1,8 °C, iniciando-se a formação de pequenos cristais que coalescem."
+  },
+  {
+    "type": "disc",
+    "question": "Explique como as condições climáticas e oceanográficas das regiões polares (como vento, gelo e baixa temperatura) afetam o planejamento e a segurança da navegação.",
+    "category": "Navegação Polar — Segurança e Planejamento",
+    "options": [],
+    "correct": "As condições ambientais polares afetam a navegação em múltiplos aspectos críticos:\n1. Baixas Temperaturas: Causam congelamento de água nos conveses, superestruturas e mastros (icing), aumentando o peso no topo, elevando o centro de gravidade (G), reduzindo a altura metacêntrica (GM) e criando risco de adernamento e perda de estabilidade; além disso, provocam congelamento de tubulações, válvulas de fundo e falhas mecânicas/estruturais.\n2. Vento: Ventos polares fortes e catabáticos geram quedas bruscas de visibilidade (nevascas/borrifos congelantes), sensação térmica extrema e movimentação acelerada de blocos e campos de gelo (pack ice), podendo cercar e aprisionar a embarcação.\n3. Gelo: A presença de gelo marinho e icebergs cria risco iminente de abalroamento e avarias severas ao casco, leme e propulsores, exigindo rotas planejadas por imagens de satélite, uso de cartas de gelo, escolta de quebra-gelos e navios com classe polar adequada.\n\n[Nota: Questão discursiva sem gabarito oficial no PDF original. Resposta-modelo estruturada a partir dos conceitos técnicos do conteúdo].",
+    "explanation": "A resposta requer a identificação dos impactos provocados pelas baixas temperaturas (acúmulo de gelo e redução de estabilidade), ventos catabáticos/intensos (perda de visibilidade e dispersão de gelo) e campos de gelo/icebergs (risco estrutural de abalroamento e aprisionamento)."
+  },
+  {
+    "type": "mc",
+    "question": "Durante a navegação em áreas próximas à Antártica, o comandante observa ventos muito fortes, frios e secos, que descem rapidamente das elevações glaciais em direção ao mar, reduzindo drasticamente a visibilidade e a temperatura.\n\nEsses ventos são conhecidos como:",
+    "category": "Meteorologia e Navegação Polar — Ventos Catabáticos",
+    "options": [
+      "Ventos alísios",
+      "Ventos geostróficos",
+      "Ventos monçônicos",
+      "Ventos catabáticos",
+      "Ventos de vale"
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D é a correta. Ventos catabáticos são fluxos de ar frio e denso que descem por gravidade dos platôs e encostas glaciais em direção à costa marinha em altas velocidades, reduzindo a temperatura e a visibilidade."
+  },
+  {
+    "type": "disc",
+    "question": "Explique quais são os principais desafios na elaboração e utilização de cartas náuticas polares e como esses fatores podem afetar a segurança da navegação nessas regiões.",
+    "category": "Cartografia Náutica — Cartas Náuticas Polares",
+    "options": [],
+    "correct": "Principais desafios e impactos na segurança:\n1. Levantamentos hidrográficos escassos: Muitas áreas polares não possuem sondagens batimétricas recentes ou completas, havendo extensas áreas com vazios de dados ou sondagens antigas/imprecisas, o que oculta perigos submersos e rochas não cartografadas.\n2. Projeções e distorções cartográficas: Em altas latitudes, as projeções tradicionais (como Mercator) apresentam fortes distorções, exigindo projeções polares específicas.\n3. Dinâmica do gelo: A movimentação constante do gelo marinho e o avanço/recuo de geleiras alteram as condições de navegabilidade e a linha de costa efetiva de forma sazonal e imprevisível.\n4. Falta de cartas de grande escala: Escassez de cartas de detalhe para aproximação e fundeio seguro.\nImpacto na segurança: Aumento expressivo do risco de encalhe e colisão com perigos não mapeados, exigindo navegação com extrema cautela, vigilância contínua por radar/ecobatímetro e consulta a imagens de satélite atualizadas.\n\n[Nota: Questão discursiva sem gabarito oficial no PDF original. Resposta-modelo estruturada com base técnica].",
+    "explanation": "A resposta requer destacar a escassez de batimetria confiável, distorções em altas latitudes, dinâmica do gelo e escassez de cartas de grande escala, relacionando-os ao risco de encalhe e colisão."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação acumula gelo sobre mastros, convés e superestruturas. Qual é uma possível consequência desse processo?",
+    "category": "Navegação Polar — Estabilidade da Embarcação e Acúmulo de Gelo",
+    "options": [
+      "Redução do peso total da embarcação.",
+      "Aumento automático da estabilidade, independentemente do local de acúmulo.",
+      "Eliminação dos movimentos de balanço.",
+      "Redução do centro de gravidade pelo acúmulo nas partes elevadas.",
+      "Elevação do centro de gravidade e redução da estabilidade, com risco de adernamento."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E é a correta. O acúmulo de gelo nas partes altas (mastros, convés, superestruturas) acrescenta peso acima do centro de gravidade original, elevando a posição de G, reduzindo a altura metacêntrica (GM) e diminuindo a estabilidade transversal da embarcação, gerando alto risco de adernamento."
+  },
+  {
+    "type": "disc",
+    "question": "Cite e explique os três fatores que determinam o tamanho das ondas.",
+    "category": "Oceanografia — Geração e Tamanho das Ondas",
+    "options": [],
+    "correct": "Os três fatores fundamentais para o tamanho das ondas geradas pelo vento são:\n1. Velocidade (ou intensidade) do vento: Quanto maior a velocidade do vento soprando sobre a lâmina d'água, maior a quantidade de energia cinética transferida para a formação e crescimento da onda.\n2. Duração do vento: O intervalo de tempo ininterrupto durante o qual o vento sopra sobre a superfície aquática na mesma direção.\n3. Pista (ou Fetch): A extensão linear ou distância contínua de água aberta sobre a qual o vento sopra sem obstáculos significativos.\n\n[Nota: Questão discursiva sem gabarito oficial no PDF original. Resposta-modelo baseada na teoria oceanográfica clássica].",
+    "explanation": "A resposta deve citar e detalhar: velocidade/intensidade do vento, duração do vento e pista (fetch)."
+  },
+  {
+    "type": "mc",
+    "question": "À medida que as ondas se aproximam da costa, o atrito com o fundo marinho começa a influenciar seu comportamento, alterando sua velocidade e forma.\n\nEssa interferência ocorre quando a profundidade da água é igual a:",
+    "category": "Oceanografia — Propagação de Ondas e Profundidade Relativa",
+    "options": [
+      "O dobro do comprimento da onda (2L).",
+      "O comprimento total da onda (L).",
+      "A metade do comprimento da onda (L/2).",
+      "Um quarto do comprimento da onda (L/4).",
+      "Três quartos do comprimento de onda (3L/4)."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C é a correta. O movimento orbital das partículas de água em uma onda estende-se até uma profundidade correspondente a metade do seu comprimento de onda (d = L/2). Quando a profundidade local da água se torna igual ou inferior a L/2, o fundo marinho começa a exercer atrito, alterando a velocidade, altura e comprimento da onda (águas intermediárias)."
+  },
+  {
+    "type": "disc",
+    "question": "Faça um desenho esquemático de uma onda e identifique: crista, cavado, altura, amplitude e comprimento de onda.",
+    "category": "Oceanografia — Elementos e Geometria da Onda",
+    "options": [],
+    "correct": "Esquema do perfil de uma onda oceânica:\n\n        Crista (Ponto mais alto)                 Crista\n          /\\                                       /\\\n         /  \\                                     /  \\\n--------/----\\------------- Nível Médio (NM) ----/----\\---------\n       /      \\                                 /      \\\n      /        \\                               /        \\\n                \\  /                                     \\  /\n                 \\/                                       \\/\n               Cavado (Ponto mais baixo)                Cavado\n\n|<------------------- Comprimento de Onda (L) ------------------>|\n|<-- Amplitude (a) -->| (Distância vertical do NM à crista)\n|<-------------------- Altura da Onda (H) ---------------------->| (Distância vertical do cavado à crista; H = 2a)\n\nIdentificação dos 5 elementos requeridos:\n1. Crista: Ponto culminante ou mais elevado da onda acima da linha de repouso/nível médio.\n2. Cavado (ou depressão/cava): Ponto mais baixo ou mais profundo da onda abaixo do nível médio.\n3. Altura (H): Distância vertical medida entre o cavado e a crista (H = 2 × amplitude, em ondas regulares).\n4. Amplitude (a): Distância vertical entre o nível médio da água e a crista (ou entre o nível médio e o cavado).\n5. Comprimento de onda (L): Distância horizontal medida entre dois pontos homólogos sucessivos (duas cristas consecutivas ou dois cavados consecutivos).\n\n[Como registrar no SimulaCore: O estudante pode descrever os elementos e relações no campo de texto, ou elaborar o desenho em meio físico e comparar com o modelo estruturado acima para autoavaliação].",
+    "explanation": "A resposta requer a representação esquemática dos 5 elementos geométricos fundamentais: crista, cavado, altura (H), amplitude (a) e comprimento de onda (L)."
+  },
+  {
+    "type": "mc",
+    "question": "As ondas oceânicas podem ser classificadas conforme sua origem e características físicas. Sobre as diferenças entre vagas e marulhos, assinale a alternativa correta.",
+    "category": "Oceanografia — Classificação de Vagas e Marulhos",
+    "options": [
+      "As vagas são ondas longas e regulares formadas por ventos distantes, enquanto o marulho é resultado de ventos locais e passageiros.",
+      "O marulho caracteriza-se por pequenas ondulações irregulares geradas por ventos locais de curta duração.",
+      "As vagas são formadas por ventos locais relativamente fracos e desaparecem rapidamente, enquanto o marulho é produzido por ventos fortes e distantes, apresentando ondas longas, regulares e duradouras.",
+      "Tanto o marulho quanto as vagas são causados por ventos fortes e próximos, e desaparecem logo após o vento cessar.",
+      "As vagas e o marulho possuem a mesma origem, diferenciando-se apenas pela direção da propagação."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C é a correta de acordo com a formulação do exercício. Vagas (sea) são formadas no local de ação direta do vento, com perfil mais irregular/caótico; marulhos (swell) são ondulações que saíram da área geradora ou que persistem após o vento cessar, apresentando cristas longas, regulares, suaves e de grande período de propagação."
+  },
+  {
+    "type": "mc",
+    "question": "uma onda oceânica possui comprimento de onda L = 60 m.\n\nAnalise as situações abaixo e identifique em qual delas a onda se comporta como onda de águas intermediárias.\n\na) quando a profundidade é de 25 m.\nb) quando a profundidade é de 3 m.\nc) quando a profundidade é de 2 m.\nd) quando a profundidade é de 40 m.\ne) quando a profundidade é de 35 m.",
+    "category": "Oceanografia — Profundidade Relativa e Propagação de Ondas",
+    "options": [
+      "quando a profundidade é de 25 m.",
+      "quando a profundidade é de 3 m.",
+      "quando a profundidade é de 2 m.",
+      "quando a profundidade é de 40 m.",
+      "quando a profundidade é de 35 m."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A é a correta. Critérios de profundidade relativa em relação ao comprimento de onda L = 60 m:\n- Águas profundas: h > L/2 = 30 m (situações de 35 m e 40 m);\n- Águas rasas: h < L/20 = 3 m (situação de 2 m; 3 m é o limite);\n- Águas intermediárias: L/20 <= h <= L/2, isto é, entre 3 m e 30 m.\nPortanto, a profundidade de 25 m situa-se exatamente na faixa de águas intermediárias."
+  },
+  {
+    "type": "mc",
+    "question": "As manobras realizadas pelo navegante em condições de mar severo têm como principal objetivo preservar a segurança da embarcação, proteger a tripulação e a carga, além de minimizar os esforços estruturais e o consumo extra de combustível.\n\nassinale a alternativa incorreta sobre as medidas adotadas nessas situações:",
+    "category": "Navegação — Manobras em Condições de Mar Severo",
+    "options": [
+      "reduzir a velocidade e ajustar o rumo de forma que as ondas incidam em ângulo favorável ao movimento da embarcação.",
+      "manter o navio à velocidade máxima para atravessar rapidamente a área de mar agitado.",
+      "adotar um rumo que reduza o impacto direto das ondas sobre a proa ou popa, evitando movimentos bruscos.",
+      "distribuir adequadamente o peso e garantir o fechamento de escotilhas e portas estanques.",
+      "ajustar o regime dos motores e o trim da embarcação para melhorar o comportamento no mar."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B é a incorreta (e portanto o gabarito). Em mar severo, manter velocidade máxima submete a embarcação a violentos choques hidrodinâmicos (slamming), riscos de avarias estruturais catastróficas, embarque excessivo de água (green water) e perda de estabilidade; a conduta náutica padrão exige redução de velocidade e ajuste de rumo."
+  },
+  {
+    "type": "mc",
+    "question": "Os oceanos exercem papel essencial no equilíbrio do planeta, influenciando processos físicos, químicos e biológicos fundamentais.\n\nAssinale a alternativa correta sobre sua importância:",
+    "category": "Oceanografia — Importância Global dos Oceanos",
+    "options": [
+      "Os oceanos atuam apenas como grandes reservatórios de água salgada, sem influência significativa no clima terrestre.",
+      "As interações oceano-atmosfera são irrelevantes para o clima, uma vez que o aquecimento global é controlado exclusivamente por fatores terrestres.",
+      "Os oceanos são fundamentais para a manutenção do clima, regulando a temperatura do planeta, além de contribuírem para a manutenção da biosfera por meio do sequestro de carbono e servirem como habitat humano em áreas costeiras.",
+      "O papel dos oceanos está limitado à produção de recursos pesqueiros, não exercendo influência sobre o clima ou a biosfera.",
+      "Os oceanos, por serem salgados, não participam do ciclo hidrológico."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C é a correta. Os oceanos regulam o clima absorvendo e redistribuindo energia térmica, atuam como principal sumidouro de carbono da biosfera e participam diretamente do ciclo hidrológico. [Nota para revisão: o texto da alternativa C no PDF original contém a expressão \"servirem como habitat humano em áreas costeiras\", mantida fielmente ao documento original]."
+  },
+  {
+    "type": "disc",
+    "question": "A água de lastro é essencial para a estabilidade dos navios, mas representa uma ameaça ao meio ambiente marinho.\n\nExplique por que o descarte inadequado da água de lastro pode causar impactos ambientais e cite duas medidas previstas na Convenção Internacional para o Controle e Gerenciamento da Água de Lastro (IMO, 2004) para reduzir esses riscos.",
+    "category": "Poluição e Meio Ambiente Marinho — Água de Lastro e Convenção BWM",
+    "options": [],
+    "correct": "Impactos ambientais do descarte inadequado:\nA água de lastro captada em portos de origem contém sedimentos, patógenos, larvas, algas e diversas espécies biológicas. Ao ser descarregada sem controle em portos de destino, pode introduzir espécies exóticas invasoras que não possuem predadores naturais locais, competindo com a fauna/flora nativa, provocando desequilíbrio ecológico grave, contaminação biológica e prejuízos às atividades de pesca e aquicultura.\n\nDuas medidas previstas na Convenção BWM (IMO, 2004):\n1. Troca da água de lastro em alto-mar (Regra D-1): Deve ser efetuada a pelo menos 200 milhas náuticas da terra mais próxima e em locais com profundidade mínima de 200 metros (ou, no mínimo, a 50 milhas e 200 m de profundidade quando 200 milhas não forem praticáveis).\n2. Tratamento da água de lastro a bordo por sistemas aprovados - BWMS (Regra D-2): Emprego de tecnologias de tratamento como filtração mecânica, radiação ultravioleta (UV), ozonização, cloração ou outros processos biocidas aprovados para atender aos padrões biológicos de descarga.\n\n[Nota: Questão discursiva sem gabarito oficial no PDF original. Resposta-modelo fundamentada nas normas da IMO/BWM].",
+    "explanation": "A resposta requer explicar o impacto das espécies exóticas invasoras e citar duas medidas normativas da Convenção BWM: a troca em alto-mar (D-1) e o tratamento a bordo por BWMS (D-2)."
+  },
+  {
+    "type": "mc",
+    "question": "A água de lastro é usada nas embarcações para dar estabilidade, mas quando descartada sem controle pode causar sérios impactos ambientais. De acordo com a Convenção Internacional para o Controle e Gerenciamento da Água de Lastro (BWM/IMO, 2004), assinale a alternativa correta:",
+    "category": "Poluição e Meio Ambiente Marinho — Convenção BWM/IMO",
+    "options": [
+      "O descarte da água de lastro em áreas costeiras é recomendado, pois reduz a concentração de espécies marinhas.",
+      "A troca da água de lastro deve ser feita preferencialmente em alto-mar, a pelo menos 200 milhas da costa.",
+      "O tratamento da água de lastro é desnecessário, pois microrganismos não sobrevivem à viagem.",
+      "O uso de radiação ultravioleta, ozonização ou filtração não são aceitos como métodos de tratamento pela IMO.",
+      "A Convenção BWM não se aplica a navios de bandeira internacional, apenas aos navios de cabotagem."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B é a correta. De acordo com o padrão D-1 da Convenção BWM da IMO, a troca da água de lastro deve ser conduzida a pelo menos 200 milhas náuticas da costa mais próxima e em águas com mais de 200 metros de profundidade."
+  },
+  {
+    "type": "mc",
+    "question": "O principal risco ambiental associado à descarga não controlada da água de lastro é:",
+    "category": "Poluição e Meio Ambiente Marinho — Água de Lastro",
+    "options": [
+      "Crescimento de fitoplâncton.",
+      "Aumento da salinidade local.",
+      "Introdução de espécies exóticas invasoras.",
+      "Redução do oxigênio dissolvido.",
+      "Aumento da turbidez da água."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C é a correta. O principal impacto ecológico global e a grande preocupação regulatória da água de lastro é a bioinvasão decorrente da introdução e proliferação descontrolada de espécies exóticas invasoras."
+  },
+  {
+    "type": "mc",
+    "question": "As Cartas-Piloto nacionais apresentam informações estatísticas e médias sobre as condições meteorológicas e oceanográficas, auxiliando no planejamento seguro da navegação.\n\nEntre as informações normalmente apresentadas nessas cartas, assinale a alternativa INCORRETA:",
+    "category": "Navegação e Meteorologia — Cartas-Piloto Nacionais",
+    "options": [
+      "Direção e frequência dos ventos predominantes.",
+      "Correntes oceânicas médias e suas direções.",
+      "Isotermas da temperatura da superfície do mar (TSM).",
+      "Isogônicas, indicando variações do magnetismo terrestre.",
+      "Altura e direção média das ondas."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E é a incorreta (portanto gabarito). As Cartas-Piloto nacionais editadas pela Diretoria de Hidrografia e Navegação (DHN) representam ventos, correntes de superfície, isotermas de temperatura da água e do ar, isogônicas (declinação magnética) e rotas recomendadas; dados detalhados de altura média de ondas figuram em atlas/cartas de outras marinhas (como dos EUA), não nas cartas-piloto padrão nacionais brasileiras."
+  },
+  {
+    "type": "disc",
+    "question": "Desenhe uma rosa dos ventos simplificada, como a utilizada nas Cartas-Piloto, e identifique suas principais partes. Explique o significado de cada elemento representado e sua função na interpretação dos ventos predominantes em determinada área oceânica.",
+    "category": "Navegação e Meteorologia — Rosa dos Ventos da Carta-Piloto",
+    "options": [],
+    "correct": "Representação esquemática da Rosa dos Ventos da Carta-Piloto:\n\n                         N (Norte)\n                             |\n                             |  (com penas/farpas)\n                             |\n                      NO     |     NE\n                        \\    |    /\n                          \\(12)/  <-- Círculo central com % de calmarias\n             O -------------+------------- L (Leste)\n                          / | \\\n                        /   |   \\\n                      SO    |    SE\n                            |\n                            |\n                         S (Sul)\n\nPrincipais partes e seus significados:\n1. Círculo Central: Contém um valor numérico impresso no interior, que indica o percentual de ocorrência de calmarias (vento com velocidade < 1 nó / Força 0 Beaufort) registrado na respectiva quadrícula geográfica de 5° × 5°.\n2. Setas ou Hastes Direcionais: Estendem-se a partir do centro indicando as 8 direções fundamentais e colaterais (N, NE, L, SE, S, SO, O, NO). A orientação da seta indica a direção DE ONDE o vento sopra em direção ao centro.\n3. Comprimento da Seta: O comprimento da haste é estritamente proporcional à frequência percentual com que o vento sopra daquela direção específica durante o mês de referência.\n4. Penas ou Farpas na Extremidade: Cada pena (ou fração de pena) fixada na extremidade exterior da seta representa a velocidade média do vento naquela direção expressa na Escala Beaufort (cada pena inteira equivale a 2 graus Beaufort, ou conforme a convenção gráfica da folha).\n5. Setas com Traço Modificado (Pontilhado): Utilizadas quando o número de observações meteorológicas coletadas historicamente na quadrícula é inferior ao patamar estatístico confiável (ex.: menos de 200 observações).\n\nFunção na interpretação: Permite ao navegante avaliar rapidamente a probabilidade estatística de enfrentar ventos favoráveis ou contrários, planejar rumos e prever o comportamento do mar na área oceânica.\n\n[Como registrar no SimulaCore: O estudante registra a descrição analítica e estrutura das partes no campo discursivo, podendo comparar com o modelo acima para autoavaliação].",
+    "explanation": "A resposta requer identificar: círculo central (calmarias), direção das setas (de onde o vento sopra), comprimento da seta (frequência percentual) e penas (intensidade na Escala Beaufort)."
+  },
+  {
+    "type": "mc",
+    "question": "A sazonalidade exerce influência direta sobre as condições do estado do mar, variando conforme as estações do ano.\n\nCom base nesse conceito, assinale a alternativa CORRETA:",
+    "category": "Oceanografia e Meteorologia — Sazonalidade e Estado do Mar",
+    "options": [
+      "O estado do mar mantém-se constante ao longo do ano, pois depende apenas da profundidade oceânica.",
+      "As estações do ano influenciam a temperatura da água, sem modificar o comportamento das ondas.",
+      "O estado do mar é determinado exclusivamente pela salinidade e não sofre influência das estações.",
+      "A sazonalidade altera o regime de ventos e pressões atmosféricas, influenciando a altura, direção e frequência das ondas e das correntes oceânicas.",
+      "A ação dos ventos sazonais só afeta as áreas continentais, não interferindo no estado do mar."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D é a correta. As mudanças das estações do ano provocam o deslocamento dos centros de alta e baixa pressão e alteram os padrões térmicos e de ventos globais/regionais, afetando diretamente a geração de ondas, estado do mar e intensidade das correntes de superfície."
+  },
+  {
+    "type": "disc",
+    "question": "Explique, sucintamente, como a sazonalidade influencia a navegação no Ártico, citando diferenças entre verão e inverno.",
+    "category": "Navegação Polar — Sazonalidade no Oceano Ártico",
+    "options": [],
+    "correct": "Influência da sazonalidade na navegação no Ártico:\n- Inverno Polar: Caracterizado por frio extremo, noites polares contínuas (ausência prolongada de luz solar) e expansão máxima da calota de gelo marinho (pack ice espesso e contínuo). A navegação comercial regular é totalmente inviabilizada pela rigidez e espessura do gelo, sendo praticável somente com navios quebra-gelos de alta potência ou submarinos, sob altíssimo risco de congelamento estrutural (icing) e aprisionamento.\n- Verão Polar: Caracterizado por radiação solar contínua (dia polar), elevação relativa das temperaturas do ar e da água e degelo substancial das bordas marítimas. Ocorre a fragmentação do pack ice e abertura de canais navegáveis (polynyas e leads), viabilizando a navegação através de rotas polares (como a Rota Marítima do Norte - NSR e a Passagem Noroeste) para navios comerciais com reforço para gelo, surgindo novos desafios como icebergs dispersos e nevoeiros frequentes.\n\n[Nota: Questão discursiva sem gabarito oficial no PDF original. Resposta-modelo técnica].",
+    "explanation": "A resposta requer comparar o congelamento intenso, escuridão e bloqueio da navegação no inverno com o degelo parcial, presença de canais abertos, rotas comerciais e perigo de gelo flutuante/nevoeiro no verão."
+  },
+  {
+    "type": "disc",
+    "question": "Explique a diferença entre maré de sizígia e maré de quadratura, indicando em quais fases da Lua elas ocorrem.",
+    "category": "Oceanografia — Marés de Sizígia e Quadratura",
+    "options": [],
+    "correct": "Diferença entre maré de sizígia e de quadratura:\n1. Maré de Sizígia (ou Maré Viva): Ocorre quando o Sol, a Terra e a Lua encontram-se em alinhamento astronômico (conjunção ou oposição). As forças atrativas gravitacionais do Sol e da Lua atuam no mesmo eixo e se somam, gerando as maiores amplitudes de maré do ciclo quinzenal: preamares mais altas e baixa-mares mais baixas. Ocorrem nas fases de Lua Nova e Lua Cheia.\n2. Maré de Quadratura (ou Maré Morta): Ocorre quando as posições do Sol e da Lua formam um ângulo de aproximadamente 90° em relação ao centro da Terra (quadratura astronômica). As forças atrativas atuam em direções perpendiculares e se contrapõem parcialmente, gerando as menores amplitudes de maré: preamares menos elevadas e baixa-mares menos baixas. Ocorrem nas fases de Quarto Crescente e Quarto Minguante.\n\n[Nota: Questão discursiva sem gabarito oficial no PDF original. Resposta-modelo técnica].",
+    "explanation": "A resposta requer explicar o alinhamento Sol-Terra-Lua gerando máximas amplitudes em Lua Nova e Cheia (sizígia), e a quadratura a 90° gerando mínimas amplitudes em Quarto Crescente e Minguante (quadratura)."
+  },
+  {
+    "type": "mc",
+    "question": "As marés são variações periódicas do nível do mar causadas principalmente pela atração gravitacional da Lua e do Sol. Existem diferentes tipos de maré conforme o número e a amplitude das marés diárias. Sobre os tipos de maré, assinale a alternativa incorreta:",
+    "category": "Oceanografia — Tipos e Classificação das Marés",
+    "options": [
+      "Maré diurna ocorre quando há uma preamar e uma baixa-mar por dia lunar, geralmente observada em regiões próximas ao Equador.",
+      "Maré semidiurna apresenta duas preamares e duas baixa-mares por dia lunar, com alturas semelhantes entre si.",
+      "Maré mista combina características das marés diurna e semidiurna, com duas marés desiguais em altura e duração durante o dia. Ora apresenta características semidiurnas, ora diurnas.",
+      "Maré equinocial é um tipo de maré permanente que ocorre exclusivamente no verão, provocada por correntes oceânicas superficiais.",
+      "Maré semidiurna pode ocorrer quando há duas preamares e duas baixa-mares por dia, mas com alturas distintas devido à declinação lunar e solar."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D é a incorreta (e gabarito da questão). Marés equinociais ocorrem durante os equinócios (março e setembro - primavera e outono), quando a declinação do Sol é próxima de zero grau sobre a linha do Equador, gerando grandes amplitudes astronômicas de maré; não são fenômenos permanentes nem provocadas por correntes oceânicas superficiais."
+  },
+  {
+    "type": "mc",
+    "question": "O Nível de Redução (NR), também chamado de Zero Hidrográfico (ZH), é o nível de referência utilizado nas cartas náuticas para representar as profundidades (sondagens) e as alturas de maré.\n\nEm relação ao nível de redução, assinale a alternativa correta:",
+    "category": "Navegação e Hidrografia — Nível de Redução e Zero Hidrográfico",
+    "options": [
+      "É o nível médio das preamares de sizígia, utilizado para representar as maiores alturas de maré.",
+      "Corresponde ao nível médio do mar, obtido pela média entre preamares e baixa-mares durante um ciclo lunar.",
+      "É a média das baixa-mares de sizígia, servindo como nível de referência mínimo para as sondagens nas cartas náuticas.",
+      "Representa a profundidade máxima observada em determinado local.",
+      "É o nível adotado para indicar as variações de pressão atmosférica sobre o mar."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C é a correta. No Brasil e na maioria dos serviços hidrográficos mundiais alinhados à OHI, o Nível de Redução (NR) adotado nas cartas náuticas corresponde ao plano da média das baixa-mares de sizígia, garantindo que a profundidade real seja quase sempre igual ou superior à profundidade cartografada."
+  },
+  {
+    "type": "mc",
+    "question": "Uma embarcação está se aproximando do Porto de São Luís (MA).\n\nA sondagem indicada na carta náutica é de 9,5 metros, e a altura da maré prevista na tábua é de 5,5 metros.\n\nQual é a profundidade real no momento da observação?",
+    "category": "Navegação e Hidrografia — Cálculo de Profundidade Real e Maré",
+    "options": [
+      "3,5 m",
+      "4,0 m",
+      "9,5 m",
+      "14,0 m",
+      "15,0 m"
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E é a correta. A profundidade real da água (PR) é calculada pela soma direta entre a sondagem indicada na carta náutica (S) e a altura da maré no instante considerado (h):\nPR = S + h = 9,5 m + 5,5 m = 15,0 metros."
+  },
+  {
+    "type": "assoc",
+    "question": "Correlacione corretamente os mecanismos de geração da circulação oceânica (Coluna A) com suas principais características (Coluna B):\n\nColuna A:\n1. Circulação superficial gerada pelo vento\n2. Circulação termohalina\n\nColuna B:\n( ) Relaciona-se às diferenças de densidade da água do mar, provocadas por variações de temperatura e salinidade.\n( ) Gera os giros oceânicos, seguindo os padrões de ventos globais predominantes.\n( ) Sofre variações sazonais, acompanhando mudanças na circulação atmosférica.\n( ) É responsável pela circulação profunda, conectando os oceanos em escala global.\n( ) É influenciada por processos de aquecimento, resfriamento, evaporação e precipitação e consequente variação de densidade.",
+    "category": "Oceanografia — Circulação Oceânica Superficial e Termohalina",
+    "options": [
+      [
+        "Relaciona-se às diferenças de densidade da água do mar, provocadas por variações de temperatura e salinidade.",
+        "2. Circulação termohalina"
+      ],
+      [
+        "Gera os giros oceânicos, seguindo os padrões de ventos globais predominantes.",
+        "1. Circulação superficial gerada pelo vento"
+      ],
+      [
+        "Sofre variações sazonais, acompanhando mudanças na circulação atmosférica.",
+        "1. Circulação superficial gerada pelo vento"
+      ],
+      [
+        "É responsável pela circulação profunda, conectando os oceanos em escala global.",
+        "2. Circulação termohalina"
+      ],
+      [
+        "É influenciada por processos de aquecimento, resfriamento, evaporação e precipitação e consequente variação de densidade.",
+        "2. Circulação termohalina"
+      ]
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": "A correspondência correta da Coluna B (de cima para baixo) com a Coluna A é:\n( 2 ) Relaciona-se às diferenças de densidade (temperatura e salinidade) -> 2. Circulação termohalina;\n( 1 ) Gera os giros oceânicos (ventos globais) -> 1. Circulação superficial gerada pelo vento;\n( 1 ) Sofre variações sazonais (circulação atmosférica) -> 1. Circulação superficial gerada pelo vento;\n( 2 ) Responsável pela circulação profunda (escala global) -> 2. Circulação termohalina;\n( 2 ) Influenciada por aquecimento, resfriamento, evaporação e precipitação -> 2. Circulação termohalina.\nSequência numérica resultante: 2, 1, 1, 2, 2."
+  },
+  {
+    "type": "mc",
+    "question": "Sobre os giros oceânicos, assinale a alternativa correta:",
+    "category": "Oceanografia — Giros Oceânicos e Força de Coriolis",
+    "options": [
+      "Os giros oceânicos não sofrem influência da força de Coriolis.",
+      "No Hemisfério Sul os giros giram no sentido horário.",
+      "Os giros são formados por correntes impulsionadas pelo vento e modificadas pela força de Coriolis.",
+      "Giros oceânicos são formados exclusivamente pela circulação termohalina.",
+      "No Hemisfério Norte os giros giram no sentido anti-horário."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C é a correta. Os giros oceânicos de grande escala são impulsionados pelos padrões de ventos planetários (alísios e do oeste) e defletidos pela força de Coriolis (efeito aparente da rotação terrestre), circulando no sentido horário no Hemisfério Norte e no sentido anti-horário no Hemisfério Sul."
+  },
+  {
+    "type": "mc",
+    "question": "A circulação geral dos oceanos é o movimento global das massas de água em escala planetária, desempenhando papel essencial nos sistemas climáticos e ecológicos da Terra.\n\nSobre a importância dessa circulação, assinale a alternativa incorreta:",
+    "category": "Oceanografia — Circulação Geral e Produtividade Marinha",
+    "options": [
+      "A circulação oceânica contribui para a regulação do clima global, transportando calor das regiões tropicais para as polares e redistribuindo energia térmica pelo planeta.",
+      "Correntes como a Corrente do Golfo aquecem a Europa, enquanto correntes frias, como a de Humboldt, resfriam as regiões costeiras adjacentes.",
+      "A circulação oceânica influencia fenômenos climáticos globais, como El Niño e La Niña, que afetam padrões de chuva e temperatura em todo planeta.",
+      "As correntes oceânicas não têm relação com a produtividade marinha, pois não interferem na disponibilidade de nutrientes nas zonas costeiras.",
+      "As correntes marítimas podem influenciar a navegação, encurtando ou prolongando o tempo de viagem conforme sua direção e velocidade."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D é a incorreta (gabarito). As correntes oceânicas exercem influência direta na produtividade primária e na vida marinha, pois os fluxos e zonas de divergência/ressurgência transportam águas profundas ricas em sais nutrientes (nitratos, fosfatos) para a camada eufótica, alimentando a teia trófica."
+  },
+  {
+    "type": "mc",
+    "question": "O Giro Subtropical do Atlântico Sul é formado por quatro correntes oceânicas principais que circulam em sentido anti-horário.\n\nAssinale a alternativa que apresenta as principais correntes que compõem este giro:",
+    "category": "Oceanografia — Giro Subtropical do Atlântico Sul",
+    "options": [
+      "Corrente do Brasil, Corrente do Atlântico Sul, Corrente do Norte equatorial e Corrente de Benguela.",
+      "Corrente do Brasil, Corrente das Malvinas, Corrente do Sul Equatorial e Corrente do Norte Equatorial.",
+      "Corrente do Brasil, Corrente das Malvinas, Corrente do Sul Equatorial e Corrente Circumpolar Antártica.",
+      "Corrente do Golfo, Corrente das Falklands, Corrente do Brasil e Corrente do Pacífico Sul Equatorial.",
+      "Corrente do Brasil, Corrente do Atlântico Sul, Corrente de Benguela e Corrente Sul Equatorial."
+    ],
+    "correct": 4,
+    "explanation": "A alternativa E é a correta. As quatro correntes oceânicas delimitadoras do Giro Subtropical do Atlântico Sul são: a Corrente do Brasil (a oeste, fluindo para o sul), a Corrente do Atlântico Sul (ao sul, fluindo para o leste), a Corrente de Benguela (a leste, fluindo para o norte) e a Corrente Sul Equatorial (ao norte, fluindo para o oeste)."
+  },
+  {
+    "type": "mc",
+    "question": "O movimento horizontal da água do mar causado pela variação periódica do nível do mar é denominado corrente de maré.\n\nSua intensidade e direção variam conforme diversos fatores ambientais e geográficos.\n\nSobre as correntes de maré, assinale a alternativa incorreta:",
+    "category": "Oceanografia — Dinâmica das Correntes de Maré",
+    "options": [
+      "A corrente de maré é um movimento alternante, pois muda de direção com a subida (enchente) e a descida (vazante) da maré.",
+      "A intensidade da corrente de maré é proporcional à amplitude da maré — sendo mais forte nas marés de sizígia e mais fraca nas marés de quadratura.",
+      "A velocidade e direção das correntes de maré podem ser influenciadas por fatores como profundidade, largura da barra, comprimento do canal, presença de ilhas e condições meteorológicas.",
+      "As correntes de maré possuem fluxo contínuo, sem variação de sentido, independentemente do ciclo de maré.",
+      "Em canais estreitos e rasos, as correntes de maré tendem a ser mais intensas."
+    ],
+    "correct": 3,
+    "explanation": "A alternativa D é a incorreta (gabarito). As correntes de maré caracterizam-se exatamente por seu fluxo alternante e periódico, invertendo o sentido entre os períodos de maré enchente (fluxo em direção à costa/estuário) e de maré vazante (fluxo em direção ao mar aberto), passando pelo instante de repouso ou estofo."
+  },
+  {
+    "type": "mc",
+    "question": "Um vento constante de oeste sopra no Hemisfério Sul, empurrando a água superficial.\n\nPara onde será defletido o movimento da água devido à força de Coriolis?",
+    "category": "Oceanografia Física — Força de Coriolis e Transporte de Ekman",
+    "options": [
+      "Para o norte.",
+      "Para leste.",
+      "Para oeste.",
+      "Para o sul.",
+      "Para nordeste."
+    ],
+    "correct": 0,
+    "explanation": "A alternativa A é a correta. O vento \"de oeste\" desloca-se em direção ao LESTE (090°). Pela ação da força de Coriolis no Hemisfério Sul, qualquer massa de água em movimento sofre deflexão aparente para a ESQUERDA da sua trajetória. O transporte resultante (Transporte de Ekman) desloca a camada de água a 90° à esquerda do vento: virando 90° à esquerda a partir de Leste, obtém-se o NORTE (000°)."
+  },
+  {
+    "type": "mc",
+    "question": "A cadeia alimentar marinha é composta por diferentes níveis tróficos, responsáveis pela transferência de energia e nutrientes nos ecossistemas oceânicos.\n\nSobre os organismos e suas funções nesses níveis, assinale a alternativa correta:",
+    "category": "Biologia Marinha — Níveis Tróficos e Cadeia Alimentar Marinha",
+    "options": [
+      "Os consumidores primários são organismos autótrofos que produzem seu próprio alimento por meio da fotossíntese.",
+      "Os produtores primários, como o fitoplâncton e as algas marinhas, realizam fotossíntese e formam a base da cadeia alimentar marinha.",
+      "Os consumidores secundários e terciários, como o zooplâncton e pequenos peixes herbívoros, alimentam-se de decompositores.",
+      "Os decompositores, como tubarões e lulas, são responsáveis por reciclar a matéria orgânica e devolver nutrientes à água.",
+      "Os produtores primários dependem da matéria orgânica de outros organismos para obter energia e sobreviver."
+    ],
+    "correct": 1,
+    "explanation": "A alternativa B é a correta. Os produtores primários marinhos (fitoplâncton e macroalgas) são organismos autótrofos fotossintetizantes que convertem energia luminosa e nutrientes inorgânicos em matéria orgânica, constituindo a base de sustentação trófica dos oceanos."
+  },
+  {
+    "type": "mc",
+    "question": "A bordo de um navio mercante, a tripulação deve adotar procedimentos que reduzam o risco de poluição marinha. De acordo com a Convenção MARPOL e boas práticas ambientais, assinale a alternativa correta:",
+    "category": "Legislação Ambiental e Marítima — Convenção MARPOL 73/78",
+    "options": [
+      "É permitido lançar restos de plásticos triturados no mar, desde que a mais de 25 milhas da costa.",
+      "As borras oleosas (sludge) podem ser descartadas diretamente ao mar, desde que o separador de água e óleo esteja em funcionamento.",
+      "O esgoto pode ser descarregado a partir de 3 milhas da costa, se triturado e desinfetado, ou a 12 milhas se não tratado.",
+      "O lixo sólido pode ser misturado com óleo residual e lançado ao mar a mais de 50 milhas da costa.",
+      "O óleo contaminado proveniente de porões e tanques deve sempre ser lançado em movimento, desde que fora de Áreas Especiais."
+    ],
+    "correct": 2,
+    "explanation": "A alternativa C é a correta. Conforme o Anexo IV da Convenção MARPOL 73/78, o esgoto sanitário aprovado, triturado e desinfetado pode ser descarregado a uma distância maior que 3 milhas náuticas da terra mais próxima; se o esgoto não for triturado nem desinfetado, a descarga somente é permitida a mais de 12 milhas náuticas e com o navio navegando a velocidade moderada (mínimo de 4 nós). O descarte de plásticos é proibido em qualquer hipótese (Anexo V)."
+  }
+]

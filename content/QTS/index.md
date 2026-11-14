@@ -33,3 +33,4 @@ title: Cronograma
 - [Semana 29](20261026_QTS_Semana_29.png)
 - [Semana 30](20261102_QTS_Semana_30.jpeg)
 - [Semana 31](20261109_QTS_Semana_31.png)
+- [Semana 32](20261116_QTS_Semana_32.png)
