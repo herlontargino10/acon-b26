@@ -22,7 +22,7 @@ IOM - 9.15
 CAL P2 - 7.2
 HID P1 - 9,00
 MAN - 10
-NAV2 P2 -
+NAV2 P2 - 9.0
 HID P2 - 
 
 
