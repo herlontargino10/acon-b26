@@ -1,0 +1,38 @@
+Define-se a estabilidade dinâmica de um navio como a capacidade da embarcação de resistir e recuperar-se de inclinações causadas por forças externas, como vento, ondas ou movimentações de carga, sendo mensurada em termos do trabalho realizado (energia) para retornar à posição de equilíbrio. Trata-se, portanto, de uma análise energética, diferente da estabilidade estática, que considera apenas os momentos de adernamento em um instante. Enquanto a estabilidade estática avalia o momento de adernamento e retorno em uma posição fixa (sem considerar o movimento no intervalo de tempo), a estabilidade dinâmica leva em conta o trabalho realizado pela força restauradora durante o movimento de retorno. A estabilidade dinâmica é a quantidade de energia (ou trabalho) que precisa ser fornecida (ou dissipada) para que um navio seja inclinado desde a posição de equilíbrio até determinado ângulo de adernamento. A estabilidade dinâmica é medida pela área sob a curva de braços de adernamento (endireitamento) (GZ) entre dois ângulos: o ângulo de adernamento inicial (geralmente 0°) e um ângulo final (por exemplo, o ângulo máximo atingido). Assim sendo, essa área representa o trabalho (energia) necessário para levar o navio daquele ponto de adernamento de volta à posição de equilíbrio.
+
+
+Podemos destacar as principais diferenças entre a estabilidade estática e dinâmica:
+
+Estabilidade Estática:
+
+Analisa o momento de adernamento em cada ângulo
+Associada ao valor de GZ em um dado ângulo
+Não envolve energia ou movimento
+Importante para pequenas inclinações
+
+Estabilidade Dinâmica:
+
+Considera a energia necessária para retornar à posição de equilíbrio
+Associada à área sob a curva GZ(0)
+Envolve trabalho/energia (força x deslocamento angular)
+Importante para eventos mais prolongados (como ondas grandes ou manobras)
+
+
+A estabilidade dinâmica é fundamental para entender como o navio se comporta em mares agitados, ou seja, quando é constantemente adernado por ondas
+
+
+Mesmo que um navio tenha estabilidade estática inicial favorável, ele pode não ter energia suficiente para se recuperar de grandes adernamentos, sendo esse fato avaliado através da estabilidade dinâmica. Vale destacar que a importância do estudo da estabilidade dinâmica, também, se deve ao fato de que o navio deve absorver uma certa energia externa, sem adernar mais do que os limites pré-estabelecidos de segurança. Portanto, essa energia específica para os limites de segurança pré-estabelecidos, são os chamados critérios de estabilidade, sendo definidos pela IMO.
+
+
+A área sob a curva GZ até determinado ângulo indica a reserva de Estabilidade Dinâmica. Nota-se que quanto maior essa área, maior a capacidade do navio resistir às inclinações provocadas por rajadas de vento, ondas ou manobras bruscas. Convém destacar que a área sob a curva de estabilidade GZ, até determinado ângulo, é calculada pela fórmula dos trapézios ou pelas fórmulas (regras) de Simpson, não sendo necessário desenhar a curva.
+
+
+
+2.3) Análises Relevantes ➢ A estabilidade dinâmica para qualquer ângulo de banda é determinada pelo produto da área sob a curva de estabilidade (até o ângulo desejado) pelo deslocamento. ➢ Para determinar a área sob a curva de estabilidade pelo uso das regras de Simpson, o ângulo dos intervalos comuns deve ser transformado em radianos. ➢ Para converter graus em radianos, basta simplesmente dividir o número de graus por 57,3. ➢ A estabilidade dinâmica é fundamental para a avaliar a segurança do navio em condições reais de operação. ➢ Deve-se sempre analisar a área sob a curva GZ (energia), além de verificar o valor da GM inicial. 
+
+Embora a altura metacêntrica (GM) seja um importante indicativo da estabilidade inicial do navio, uma GM com um valor alto não garante boa estabilidade dinâmica. ➢ Um navio pode ter GM alta e mesmo assim ter uma curva GZ com área pequena, ou seja, pouca energia para resistir a grandes adernamentos. ➢ Os critérios da IMO devem ser cumpridos em todas as condições de carregamento, pois representam o mínimo necessário para a segurança da embarcação. ➢ O uso correto de regras de integração (Simpson 1/3 ou 3/8) permite calcular a estabilidade dinâmica com boa precisão, sem a necessidade de plotar graficamente a curva.
+
+Define-se como critério de estabilidade, o conjunto de valores mínimos aceitáveis que asseguram a estabilidade do navio em qualquer condição. Os critérios de estabilidade dinâmica da IMO fazem parte dos requisitos mínimos de estabilidade intacta para embarcações, com base no Código de Estabilidade Intacta (IS Code). Esses critérios visam garantir que o navio tenha energia suficiente para resistir e recuperar-se de inclinações causadas por forças externas, como vento, ondas ou carga móveis. Para determinar esses valores são feitos estudos da estabilidade: de navios que naufragaram devido a incorreta distribuição de carga, estudos em tanques de prova, levantamentos estatísticos, e também da experiência dos construtores de navios. Além disso, podem ocorrer fatos extraordinários, tais como: alagamento de um compartimento, encalhe do navio e tantos outros que não serão objeto do estudo da estabilidade dinâmica.
+
+
+

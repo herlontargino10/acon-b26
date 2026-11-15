@@ -1,0 +1,38 @@
+1. No estudo da flutuabilidade, pelo Princípio de Arquimedes, sabemos que estando os pesos distribuídos, de forma que em todos os pontos, sua força seja igual à força do empuxo, nenhuma deformação se produzirá. Entretanto, quando ao longo do comprimento, estas forças não mantem uma distribuição equitativa, em vista de seus volumes e pesos serem diferentes, haverá em cada parte do navio uma predominância da força do peso sobre a força de empuxo ou vice-versa, pois se a carga não for distribuída equitativamente pelos porões/tanques, veremos quando em água, que cada bloco (referente a cada porão), tomará um plano de flutuação diferente, pois seus volumes e pesos são diferentes.
+
+
+2. Os esforços transversais provêm dos balanços ou movimentos oscilatórios em consequência dos balanços. Considerando o navio como uma “caixa”, os esforços transversais são garantidos pelo cavername e vaus.
+
+3. Sob o movimento oscilatório da água, a massa do navio entra em movimento, a princípio com sincronismo que tende a desaparecer pela inércia e, em certo ponto, o movimento do navio passa a ser em sentido oposto sob a ação das vagas e contrariando a ação de inércia. Como consequência, deste conjunto de forças, a estrutura do navio sofre, havendo alterações dos ângulos formados pelos vaus com as cavernas num bordo, que tendem a passar para agudos, enquanto no outro tende a ser obtuso.
+
+lembrar que “Sloshing” é o movimento violento e a oscilação da superfície livre de um líquido dentro de um recipiente parcialmente preenchido, causado por perturbações externas. Dessa forma, esse fenômeno gera impactos nas paredes do tanque, podendo afetar a estabilidade, ou causar danos estruturais devido à ressonância. 
+
+Vale destacar que os esforços transversais são menos significativos do que os longitudinais. 
+
+Quando navegando, o navio sofre, além dos esforços em função da distribuição irregular de pesos, esforços criados pela flutuação irregular causada pelo movimento das ondas, que provoca uma constante variação no nível de flutuação e, consequentemente, da água deslocada por cada seção do navio. Os valores máximos destas forças são considerados significativos, quando o comprimento da onda ou vaga é igual ao comprimento do navio.
+
+
+Verifica-se que estando navegando, o valor máximo do momento fletor ocorre quando o navio se desloca em ondas de comprimento igual ao seu comprimento, ou seja, quando se encontra na condição de alquebrado (Figura 9) ou contra-alquebrado (Figura 11)
+
+Verifica-se que as curvas de Bonjean fornecem as áreas das seções transversais do navio, em espaçamentos iguais, e com elas podemos calcular o volume de carena, a posição do centro de flutuação e traçar o diagrama de empuxo para qualquer linha d’água, estando o navio em águas parelhas ou compassado,
+
+
+Ondas com comprimentos de ondas muito menores que o comprimento do navio produzem alteração no calado com frequência muito alta, alterando mais os efeitos locais que globais
+
+Ondas com comprimentos de ondas muito maiores que o comprimento do navio produzem pouco alteração no calado com frequência muito baixa.
+
+Alquebramento: Nesta situação o navio apresenta uma deformação com concavidade voltada para baixo. Há uma tração no convés e uma compressão do fundo.
+
+Considera-se o Momento Fletor como sendo a soma dos momentos relativos a uma seção, contidos no eixo de uma peça, gerados por cargas aplicadas transversalmente ao eixo longitudinal. Portanto, o momento fletor produz um esforço que tende a curvar a estrutura em relação ao seu eixo longitudinal, provocando tensões normais de tração e compressão na estrutura. Por convenção, o momento fletor será positivo sempre que ele estiver tracionando a parte debaixo da viga e comprimindo a parte de cima.
+
+Destaca-se que a curva de Momento Fletor é obtida a partir da integração da curva da Força Cortante.
+
+
+Podemos notar que as curvas de Força Cortante e Momento Fletor representam os esforços globais ao longo da viga-navio.
+
+Convém ressaltar que as sociedades classificadoras, obedecendo às regras da IMO, impõem limites nos valores dos esforços no casco para cada embarcação. 
+
+
+
+
+

@@ -1,0 +1,33 @@
+1. DRAFT SURVEY 
+
+O peso da carga a bordo, conforme o caso, pode ser determinado por um dos seguintes métodos: 
+
+- Pesando cada volume da carga embarcado, como pode ser feito nos carregamentos de carga geral, usando os pesos indicados nos conhecimentos de embarque. 
+- Pesando a carga em terra, por meio de balança, como se faz em alguns carregamentos de granéis sólidos. 
+- Por medição indireta, medindo o volume dos tanques de terra, nos casos de granéis líquidos. 
+- Por medição indireta, determinando-se o volume ocupado nos tanques de bordo, nos casos de granéis líquidos. 
+- Através de medida do calado, feito para os casos dos granéis sólidos.
+
+Haverá, sempre, uma diferença entre os dois cálculos, o de bordo e o do terminal, em virtude dos próprios processos e das aproximações usadas nos cômputos. Entretanto, ela deve ficar, no máximo, em 0,2% (dois décimos por cento) do total da carga movimentada (embarcada ou desembarcada), tomando-se o maior valor. 
+
+2. A draft survey é uma operação que dever ser feita de forma continuada, ou seja, de uma só vez.
+
+3. O trim nas marcas (TM) é a diferença entre o calado na marca de ré e o calado na marca de vante.
+
+4. A densidade da água em que o navio flutua deve ser determinada no mesmo instante e no mesmo local em que são feitas as leituras dos calados nas suas marcas. Convém destacar que para esse fim, será utilizado um densímetro calibrado em densidade (kg/m³). Tomam-se amostras da água na proa, a meio-navio e a ré, com um balde. A água é passada para a uma proveta e, colocado o densímetro, lê-se a densidade. Toma-se a média das três leituras como sendo a densidade real. 
+
+5. Calcular e a “constante do navio”- O deslocamento leve é obtido no “Livro de Dados”, no “Caderno de Estabilidade”, no Plano de Capacidade e em outros documentos do navio.
+
+6. O deslocamento total é obtido através do calado, entrando-se nas tabelas ou curvas hidrostáticas, sendo depois corrigindo para o trim e densidade da água em que o navio flutua.
+
+7. Dá-se o nome de “Constante do Navio” à soma daqueles pequenos pesos que quase não variam.
+
+8. Chama-se “consumíveis”, numa operação de draft survey, os materiais cujos pesos variam bastante e podem ser bem determinados seus valores, são eles: - Óleo combustível; - Óleo diesel; - Óleo lubrificante; - Água de lastro; - Água doce; - Água destilada.
+
+
+9. IMPORTANTE: Vale destacar no cálculo do “draft-survey”, entra-se nas tabelas com o calado médio corrigido apenas para as perpendiculares e deflexão, pois a correção para o trim será “transformada em peso”, (1ª correção para o trim). Muitas das vezes, se faz necessário efetuar uma outra correção ao trim, sendo sempre em “peso” (2ª correção para o trim), ambas aplicadas ao deslocamento.
+
+
+10. Se o Trim for maior que 1% do comprimento entre perpendiculares (Lpp), se aplicará, ao deslocamento, a 2ª correção devido ao Trim. 
+
+

@@ -1,0 +1,23 @@
+Tópico 7
+
+1. As marcas de calado deveriam ser feitas sobre as perpendiculares, mas devido as formas do navio isso não ocorre.
+
+2. Se as marcas de calado são colocadas numa linha diferente da perpendicular, quando o navio está em águas parelhas (sem compasso) não haverá erro. Mas se ele está compassado (quer pela proa ou pela popa), haverá uma defasagem que originará um erro que necessita ser corrigido.
+
+2. A correção para o calado devido ao compasso é utilizada na determinação do calado do navio no centro de flutuação, tendo como referência o calado médio. Assim sendo, temos que o calado obtido é o calado do navio no centro de flutuação.
+
+3. Devido aos esforços sofridos pelo navio, o seu casco pode ficar alquebrado ou contra-alquebrado. Nessas situações, o calado médio, mesmo com o centro de flutuação a meio navio e/ou sem compasso, não corresponderá ao calado lido a meio navio.
+
+4. Definimos deflexão do casco a meio navio (δZ), como a diferença entre o calado a meio navio (dm) e o calado médio (dmed).
+
+5. Quando a deflexão do casco (δZ) é negativa, o navio está alquebrado.
+
+6. Quando a deflexão do casco (δZ) é positiva, o navio está contra-alquebrado.
+
+7. Se o navio está contra-alquebrado a correção é aditiva.
+
+8. Chama-se calado correspondente ou calado médio real o calado lido nas marcas e corrigido para as
+perpendiculares, corrigido devido ao compasso do navio e corrigido para a deflexão do casco.
+
+
+

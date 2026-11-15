@@ -1,0 +1,992 @@
+[
+  {
+    "type": "tf",
+    "question": "A curva de carregamento ou carga q(x) da viga-navio, que fornece a resultante de forças por unidade de comprimento, é formalmente obtida subtraindo-se a curva de pesos da curva de empuxos, expressa por q(x) = b(x) - w(x).",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A curva de carga é obtida pela equação diferencial de equilíbrio q(x) = b(x) - w(x), relacionando empuxo linear e peso linear."
+  },
+  {
+    "type": "tf",
+    "question": "Na determinação da estabilidade dinâmica, a primeira fórmula de Simpson pode ser empregada quando a área sob a curva de braços de adriçamento for dividida em um número par de ordenadas consecutivas.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A 1ª fórmula de Simpson exige rigorosamente um número ímpar de ordenadas (que corresponde a um número par de intervalos)."
+  },
+  {
+    "type": "tf",
+    "question": "A primeira fórmula de Simpson destina-se ao cálculo de áreas quando a superfície sob a curva for subdividida em um número par de ordenadas consecutivas.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A primeira fórmula de Simpson requer obrigatoriamente um número ímpar de ordenadas (ou número par de intervalos consecutivos)."
+  },
+  {
+    "type": "tf",
+    "question": "A leitura dos calados nas marcas do costado para o draft survey deve ser realizada em seis posições distintas: proa a boreste e a bombordo, meio-navio a boreste e a bombordo, e popa a boreste e a bombordo, adotando-se a média aritmética entre os bordos em cada posição.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Realizam-se leituras em seis posições no costado (proa, meio-navio e popa, a boreste e a bombordo), extraindo-se as médias aritméticas entre os bordos."
+  },
+  {
+    "type": "tf",
+    "question": "O fenômeno de sloshing caracteriza-se pelo movimento violento e oscilação da superfície livre de um líquido dentro de um compartimento ou tanque parcialmente preenchido, impulsionado por perturbações externas da embarcação.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Esta é a definição precisa apresentada nas fontes para o fenômeno hidrodinâmico de sloshing."
+  },
+  {
+    "type": "tf",
+    "question": "Em uma condição de compasso pela popa (trim positivo), a correção a ser aplicada à leitura da marca de calado para levá-la à perpendicular de vante é aditiva, enquanto a correção na perpendicular de ré é subtrativa.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "No compasso pela popa (positivo), a correção avante é subtrativa e a ré é aditiva."
+  },
+  {
+    "type": "tf",
+    "question": "Uma embarcação que apresente um valor elevado de altura metacêntrica inicial (GM) possui garantia intrínseca de curva de estabilidade com ampla área e energia suficiente para suportar grandes inclinações em mares revoltos.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Um valor alto de GM atesta apenas estabilidade inicial em pequenos ângulos; não garante área sob a curva de GZ suficiente nem reserva de energia para grandes adernamentos."
+  },
+  {
+    "type": "tf",
+    "question": "Durante os movimentos oscilatórios de balanço transversal em mar agitado, a estrutura transversal do navio sofre distorções nas quais os ângulos formados entre os vaus e as cavernas tendem a tornar-se agudos em um bordo enquanto tornam-se obtusos no bordo oposto.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Sob ação do balanço e das ondas, o sincronismo e a inércia distorcem a seção transversal, tornando o ângulo vau-caverna agudo em um bordo e obtuso no outro."
+  },
+  {
+    "type": "tf",
+    "question": "Quando uma embarcação navega em um trem de ondas cujos comprimentos de onda são substancialmente menores que o comprimento entre perpendiculares do casco, os efeitos estruturais resultantes são predominantemente locais e de alta frequência, e não de solicitação global máxima.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Ondas de comprimento muito menor que o navio causam alterações de calado de alta frequência com efeitos puramente locais; a solicitação global máxima se dá quando o comprimento da onda iguala o comprimento do navio."
+  },
+  {
+    "type": "tf",
+    "question": "No procedimento de draft survey, a segunda correção ao trim (B) só é requerida caso o trim nas perpendiculares exceda 1% do comprimento entre perpendiculares (L_pp), consistindo em uma parcela com valor intrinsecamente positivo a ser somada ao deslocamento.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A segunda correção (B = fracdMTC · 50 · TP^2L_pp) é mandatória quando o trim excede 1% de L_pp, possuindo sinal estritamente positivo."
+  },
+  {
+    "type": "tf",
+    "question": "A curva de empuxo ao longo do comprimento do casco pode ser rigorosamente obtida para qualquer condição de flutuação plana ou compassada com o auxílio das curvas de Bonjean, as quais fornecem as áreas submersas das balizas transversais para qualquer linha d'água.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "As curvas de Bonjean fornecem as áreas submersas seccionais para qualquer calado, viabilizando o traçado da curva longitudinal de empuxo tanto em águas parelhas quanto em caimento."
+  },
+  {
+    "type": "tf",
+    "question": "O calado correspondente ou calado médio real (d_c) incorpora simultaneamente a correção para a deflexão estrutural do casco e a correção para o compasso decorrente da posição longitudinal do centro de flutuação em relação à meia-nau (\\$)0(F\\$), sendo expresso por d_c = fracd_f + 6d_m + d_a8 + fracT · )0(FL_pp.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A fórmula completa do calado correspondente integra a ponderação da deflexão (fracd_f + 6d_m + d_a8) com a translação para o centro de flutuação (fracT · )0(FL_pp)."
+  },
+  {
+    "type": "tf",
+    "question": "O calado no centro de flutuação tem como referência inicial o calado médio do navio, sendo corrigido pela translação angular dependente do trim e da distância longitudinal entre o centro de flutuação e a seção de meio-navio.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O calado no centro de flutuação parte do calado médio das perpendiculares e adiciona a correção geométrica angular resultante do compasso e do braço longitudinal do centro de flutuação em relação à meia-nau."
+  },
+  {
+    "type": "tf",
+    "question": "Na sequência obrigatória do draft survey, a determinação da densidade da água em que o navio flutua antecede imediatamente o cálculo da constante do navio e a determinação dos consumíveis.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "De acordo com a sequência formal das sete etapas, o passo 2 é a determinação da densidade da água, seguido pelo passo 3 (determinação da constante do navio) e passo 4 (peso dos consumíveis)."
+  },
+  {
+    "type": "tf",
+    "question": "Na dedução teórica da correção para deflexão do casco, o centróide da área parabólica de curvatura em relação ao plano de meio-navio é posicionado pelos engenheiros navais a vinte e cinco por cento da deflexão máxima a meio-navio.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A engenharia naval adota o centróide da área parabólica de flecha a vinte e cinco por cento da deflexão máxima, fundamentando a dedução do fator de correção de deflexão."
+  },
+  {
+    "type": "tf",
+    "question": "No método analítico tabular de cálculo do momento fletor longitudinal, ao se tomar uma caverna transversal como referência, todos os tanques e porões situados à ré dessa seção transversal recebem braço de alavanca com valor nulo.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No método analítico, cargas situadas à ré da caverna sob análise não exercem momento sobre ela, recebendo braço igual a zero."
+  },
+  {
+    "type": "tf",
+    "question": "No emprego numérico das regras de Simpson para o cálculo da estabilidade dinâmica, o espaçamento angular comum (d) medido em graus deve ser convertido para radianos dividindo-se o valor por 57,3.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O argumento angular deve ser adimensionalizado em radianos, o que se efetua operacionalmente pela divisão do grau sexagesimal por 57,3."
+  },
+  {
+    "type": "tf",
+    "question": "Pelo Código de Estabilidade Intacta da IMO, a área sob a curva de braços de adriçamento compreendida especificamente entre as inclinações de 30^° e 40^° não deve ser menor que 0,030 m·rad.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "É o terceiro critério intacto da IMO: o incremento de área entre 30^° e 40^° deve ser no mínimo de 0,030 m·rad."
+  },
+  {
+    "type": "tf",
+    "question": "O critério de estabilidade dinâmica da IMO estipula que a altura metacêntrica inicial (GM) não deve ser inferior ao limite mínimo de 0,20 m. ---",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O critério regulamentar da IMO para a altura metacêntrica inicial intacta exige GM ge mathbf0,15 m (o valor de 0,20 m refere-se ao braço GZ_m). ---"
+  },
+  {
+    "type": "tf",
+    "question": "Em uma condição de alquebramento (hogging), a deflexão do casco a meio-navio é algebricamente negativa (δ Z = d_m - d_med < 0), apresentando deformação com concavidade voltada para baixo.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No alquebramento (hogging), o calado a meio-navio é menor que o médio (δ Z < 0), com concavidade voltada para baixo."
+  },
+  {
+    "type": "tf",
+    "question": "Pela convenção usual adotada na mecânica naval, o momento fletor é considerado positivo quando submete a parte inferior da viga (fundo) à tração e a parte superior (convés) à compressão.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Pela convenção náutica formal, o momento fletor é positivo quando provoca tração na face inferior da viga e compressão na face superior (configuração de contra-alquebramento)."
+  },
+  {
+    "type": "tf",
+    "question": "A terceira fórmula de Simpson destina-se ao cômputo da área total sob uma curva contínua subdividida em qualquer quantidade ímpar de ordenadas simétricas.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A terceira fórmula de Simpson destina-se especificamente a calcular a área entre duas ordenadas consecutivas a partir de um conjunto de três ordenadas conhecidas: A_1 = fracd12(5y_0 + 8y_1 - y_2)."
+  },
+  {
+    "type": "tf",
+    "question": "Os esforços transversais resultantes dos movimentos oscilatórios de balanço, que induzem distorção angular entre vaus e cavernas, representam solicitações globais mais severas e preponderantes na integridade do navio do que os esforços longitudinais.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "As fontes ressaltam de modo explícito que os esforços transversais são menos significativos estruturalmente do que os longitudinais."
+  },
+  {
+    "type": "tf",
+    "question": "Quando uma embarcação se encontra alquebrada (hogging) sob a crista de uma onda a meio-navio, sua deformação apresenta concavidade voltada para baixo, resultando em tensões normais de compressão no convés resistente e tração no fundo do casco.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "No alquebramento (hogging), a viga flexiona com concavidade voltada para baixo, gerando tração no convés e compressão no fundo."
+  },
+  {
+    "type": "tf",
+    "question": "Caso a diferença entre o peso da carga calculado a bordo pelo draft survey e a pesagem realizada pelo terminal terrestre ultrapasse a tolerância de dois décimos por cento calculada sobre o maior valor, o resultado do terminal deve prevalecer automaticamente sem necessidade de refazer as contas.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Caso a diferença ultrapasse a tolerância de dois décimos por cento calculada sobre o maior valor, constata-se equívoco e ambos os cálculos devem ser refeitos."
+  },
+  {
+    "type": "tf",
+    "question": "A deflexão do casco a meio-navio (δ Z) expressa a diferença entre o calado a meio-navio e o calado médio (δ Z = d_m - d_med); quando δ Z < 0, a embarcação encontra-se alquebrada (hogging).",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A deflexão negativa (δ Z < 0) caracteriza a condição alquebrada (hogging), na qual o calado a meio-navio é inferior ao calado médio."
+  },
+  {
+    "type": "tf",
+    "question": "O fenômeno denominado sloshing decorre do movimento violento da superfície livre de líquidos no interior de tanques parcialmente cheios, gerando impactos dinâmicos nas anteparas que podem provocar avarias estruturais ou afetar a estabilidade.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Trata-se da definição e impacto do sloshing, que induz impactos hidrodinâmicos nas anteparas e ressonância estrutural."
+  },
+  {
+    "type": "tf",
+    "question": "Pela convenção formal da mecânica naval, o momento fletor longitudinal é considerado positivo sempre que estiver tracionando o convés superior e comprimindo o fundo da embarcação.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Pela convenção formal náutica, o momento fletor é positivo quando traciona a parte inferior (fundo) e comprime a parte superior (convés)."
+  },
+  {
+    "type": "tf",
+    "question": "Uma embarcação que ostente um valor elevado de altura metacêntrica inicial (GM) possui garantia intrínseca de atender a todos os critérios dinâmicos da IMO e de suportar grandes adernamentos em mar bravio.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Uma altura metacêntrica inicial (GM) alta não assegura estabilidade dinâmica favorável, pois o navio pode apresentar curva de GZ com amplitude estreita e área insuficiente."
+  },
+  {
+    "type": "tf",
+    "question": "O braço de adriçamento máximo (GZ_m) preconizado pela IMO deve atingir um valor mínimo de 0,20 m e ocorrer obrigatoriamente em um ângulo de inclinação igual ou superior a 40^°.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O valor mínimo de 0,20 m deve ocorrer em ângulo preferencialmente ge 30^°, mas não inferior a 25^° (e não 40^°)."
+  },
+  {
+    "type": "tf",
+    "question": "Dentre os principais elementos físicos capazes de originar momentos inclinantes em uma embarcação destacam-se a ação dos ventos (mais pronunciada em navios de alta borda livre e grandes superestruturas), a ação das vagas, as manobras com ação do leme e a movimentação de pesos a bordo.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A fonte elenca exatamente essas quatro causas como os geradores fundamentais de momentos inclinantes sobre o navio."
+  },
+  {
+    "type": "tf",
+    "question": "Em uma condição de compasso pela proa (trim negativo), a correção a ser aplicada à leitura da marca de calado para a perpendicular de vante é aditiva, enquanto a correção para a perpendicular de ré é subtrativa.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No compasso pela proa (negativo), a convenção estabelece correção avante aditiva e à ré subtrativa."
+  },
+  {
+    "type": "tf",
+    "question": "A segunda correção ao trim (B) no draft survey só se torna mandatória caso o trim nas perpendiculares exceda 1% do comprimento entre perpendiculares (L_pp), constituindo uma parcela de valor invariavelmente positivo.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A 2ª correção ao trim é obrigatória para TP > 1% L_pp e sua formulação quadrática garante que ela seja sempre aditiva (+) ao deslocamento."
+  },
+  {
+    "type": "tf",
+    "question": "Na operação de draft survey, a discrepância entre a pesagem apurada pelo terminal terrestre e o peso apurado a bordo é considerada aceitável desde que não ultrapasse o limite de 0,2% do total movimentado, calculado sobre o maior valor.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A margem regulamentar máxima aceitável de tolerância entre o cálculo de bordo e o do terminal terrestre é de 0,2% da movimentação total, tomando-se o maior valor."
+  },
+  {
+    "type": "tf",
+    "question": "Nos termos do Código de Estabilidade Intacta da IMO, a área sob a curva de braços de adriçamento compreendida especificamente entre as inclinações de 30^° e 40^° não deve ser inferior a 0,030 m·rad.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O terceiro critério de estabilidade intacta preconiza o patamar mínimo de 0,030 m·rad para o incremento de área entre 30^° e 40^°."
+  },
+  {
+    "type": "tf",
+    "question": "Os materiais de custeio das três seções de bordo, tais como tintas e estopas, juntamente com os pertences da tripulação e os sobressalentes, integram a chamada \"constante do navio\".",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A constante do navio reúne a soma de pequenos pesos praticamente invariáveis, incluindo guarnição, passageiros, mantimentos, sobressalentes e material de custeio das três seções (tintas, estopas etc.)."
+  },
+  {
+    "type": "tf",
+    "question": "Quando a deflexão do casco a meio-navio calculada por δ Z = d_m - d_med apresenta valor positivo (δ Z > 0), a embarcação é considerada contra-alquebrada (sagging).",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A deflexão positiva (δ Z > 0) define o estado contra-alquebrado (sagging), no qual o calado a meio-navio supera o calado médio."
+  },
+  {
+    "type": "tf",
+    "question": "Conforme a convenção adotada na dedução teórica da deflexão do casco, quando o navio está alquebrado a correção de deflexão é subtrativa, e quando está contra-alquebrado ela é aditiva, resultando na expressão ponderada d_δ = fracd_f + 6d_m + d_a8.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Partindo do centróide parabólico y = 0,25 · δ Z, a correção é 0,75 · δ Z, o que deduz algebricamente a média ponderada fracd_f + 6d_m + d_a8."
+  },
+  {
+    "type": "tf",
+    "question": "Considerando o modelo da viga-navio como uma viga \"livre-livre\" sem vínculos de apoio físico nas extremidades, tanto o esforço cortante quanto o momento fletor longitudinal assumem valor nulo na proa e na popa.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Sendo uma viga livre-livre desprovida de apoios ou reações vinculares externas nas extremidades, a curva de força cortante e a curva de momento fletor anulam-se rigorosamente na proa e na popa."
+  },
+  {
+    "type": "tf",
+    "question": "No contexto das solicitações sofridas pelo navio, as fontes destacam que os esforços transversais decorrentes dos movimentos oscilatórios de balanço são estruturalmente mais severos e preponderantes do que os esforços longitudinais.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "As fontes afirmam expressamente que os esforços transversais são menos significativos do que os esforços longitudinais na integridade do casco."
+  },
+  {
+    "type": "tf",
+    "question": "Em um navio no seu deslocamento leve flutuando em águas calmas e em águas parelhas, a existência de forças cortantes e momentos fletores longitudinais decorre da distribuição longitudinal desigual de massas e formas, que gera desequilíbrio local entre peso e empuxo ao longo das seções estanques.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A viga-navio real não é homogênea; a variação volumétrica das formas e a distribuição interna de peso geram desequilíbrios verticais locais e momento fletor mesmo em águas calmas."
+  },
+  {
+    "type": "tf",
+    "question": "Quando o navio navega em ondas com cristas posicionadas simultaneamente na proa e na popa e cavado a meio-navio, estabelece-se a condição de contra-alquebramento (sagging), que induz tensões normais de compressão no convés resistente e tração no chapeamento do fundo.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No contra-alquebramento (sagging), o peso a meio-navio supera o empuxo local, tracionando o fundo e comprimindo as fiadas superiores do convés."
+  },
+  {
+    "type": "tf",
+    "question": "A regra dos trapézios para determinação de áreas de figuras planas irregulares fundamenta-se matematicamente no ajuste de parábolas de segundo grau a cada conjunto de três pontos sucessivos da curva.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Quem se baseia no ajuste de parábolas são as fórmulas de Simpson; a regra dos trapézios baseia-se em interpolações lineares (segmentos retos) entre ordenadas consecutivas."
+  },
+  {
+    "type": "tf",
+    "question": "A estabilidade estática e a estabilidade dinâmica distinguem-se conceitualmente pelo fato de a primeira avaliar momentos de adernamento em posições instantâneas fixas, enquanto a segunda consiste em uma abordagem energética associada ao trabalho realizado no retorno ao equilíbrio.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A estabilidade estática examina equilíbrios instantâneos e braços estáticos, enquanto a estabilidade dinâmica estuda a absorção e dissipação de energia e trabalho no retorno ao equilíbrio."
+  },
+  {
+    "type": "tf",
+    "question": "No cálculo tabular analítico do momento fletor longitudinal, ao se adotar uma caverna de referência, os tanques e porões situados à ré daquela seção transversal recebem braço de alavanca com valor igual a zero.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No momento fletor tabular, qualquer carga alocada à ré da seção transversal analisada não gera momento sobre a mesma, recebendo braço igual a zero."
+  },
+  {
+    "type": "tf",
+    "question": "Na teoria da viga-navio, os esforços transversais provocados pelos movimentos de balanço são considerados estruturalmente mais severos e preponderantes na integridade geral do casco do que os esforços longitudinais.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A apostila destaca expressamente que os esforços transversais são menos significativos do que os esforços longitudinais na integridade da viga-navio."
+  },
+  {
+    "type": "tf",
+    "question": "Na elaboração da curva de pesos do navio, caso não se disponha do plano de balizas, pode-se admitir o peso estrutural do casco uniformemente distribuído ao longo do comprimento, adicionando-se posteriormente as cargas concentradas nos seus respectivos centros de gravidade longitudinais.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Na ausência do plano de balizas, assume-se a aproximação prática de casco com peso uniforme distribuído, aplicando as parcelas de peso concentrado em seus centros longitudinais."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo as diretrizes da IMO, a obtenção de uma altura metacêntrica inicial com valor elevado assegura plenamente que a embarcação terá ampla reserva de estabilidade dinâmica para suportar grandes adernamentos em mar bravio. ---",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Um valor elevado de altura metacêntrica inicial atesta apenas rigidez para pequenas inclinações; o navio pode apresentar curva estreita de braços de adriçamento com energia insuficiente para grandes bandas."
+  },
+  {
+    "type": "tf",
+    "question": "Se as marcas de calado estiverem posicionadas fora das perpendiculares e o navio flutuar em condição rigorosa de águas parelhas (sem compasso), não haverá erro de defasagem de calado entre a marca e a respectiva perpendicular.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Sem compasso (águas parelhas), a linha d'água permanece paralela à quilha e a leitura na marca coincide perfeitamente com a altura na perpendicular."
+  },
+  {
+    "type": "tf",
+    "question": "A aplicação da segunda fórmula de Simpson (regra dos 3/8) é indicada para superfícies com quatro ordenadas, ou quando o número total de ordenadas equivaler a um múltiplo de três mais um (3m + 1).",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A segunda fórmula de Simpson baseia-se na integração parabólica cúbica para blocos de 3 intervalos, aplicando-se a 4, 7, 10, dots ordenadas (3m + 1) com coeficientes 1, 3, 3, 2, 3, 3, dots, 1."
+  },
+  {
+    "type": "tf",
+    "question": "No método analítico tabular de esforço cortante, ao se tomar uma caverna transversal como referência, todos os tanques e porões localizados à ré da referida caverna recebem fator de ponderação igual a 1 (100%).",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Tanques/porões avante da caverna de referência assumem fator 1, tanques sobre a caverna assumem fator 0,5, e compartimentos à ré assumem fator zero."
+  },
+  {
+    "type": "tf",
+    "question": "A correção de calado devido ao compasso para levar a leitura ao centro de flutuação assume sempre um sinal algebricamente positivo.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A correção de calado devido ao compasso pode apresentar sinal algébrico positivo ou negativo, dependendo se o centro de flutuação está a vante ou a ré e do caimento da embarcação."
+  },
+  {
+    "type": "tf",
+    "question": "Durante a navegação em mar aberto, a solicitação de momento fletor longitudinal máximo se manifesta quando o navio encontra um trem de ondas cujo comprimento de onda é substancialmente menor que o comprimento entre perpendiculares do casco.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O valor máximo do momento fletor se dá quando o comprimento da onda é igual ao comprimento do navio; ondas muito menores provocam efeitos preponderantemente locais de alta frequência."
+  },
+  {
+    "type": "tf",
+    "question": "No draft survey, a medição da densidade da água do local deve ocorrer exatamente no mesmo instante e no mesmo local em que são efetuadas as leituras dos calados nas marcas do costado.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A densidade da água deve ser obtida rigorosamente no mesmo instante e local das leituras de calado para retratar as reais condições de flutuação do momento."
+  },
+  {
+    "type": "tf",
+    "question": "Pela convenção de sinais adotada na correção das leituras de calado para as perpendiculares, quando o navio apresenta compasso pela popa (trim positivo), a correção a ser aplicada à leitura de calado a vante é subtrativa, enquanto a correção à ré é aditiva.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No compasso pela popa (trim positivo), a marca avante lê a mais que a perpendicular (correção subtrativa) e a de ré lê a menos (correção aditiva)."
+  },
+  {
+    "type": "tf",
+    "question": "A curva de carga ou carregamento da viga-navio q(x), que traduz a resultante de forças por metro linear ao longo do comprimento, é obtida formalmente subtraindo-se a curva de pesos da curva de empuxos: q(x) = b(x) - w(x).",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A curva de carga decorre do balanço local entre empuxo e peso linear: q(x) = b(x) - w(x)."
+  },
+  {
+    "type": "tf",
+    "question": "Na composição do deslocamento para a rotina de draft survey, o óleo combustível, a água de lastro e a água potável integram a \"constante do navio\", tendo em vista que suas massas permanecem substancialmente estáveis ao longo da viagem.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Combustíveis, lastro e águas são classificados como \"consumíveis\", pois variam consideravelmente e são medidos em tanques; a \"constante do navio\" reúne massas de pequena variação (guarnição, víveres, material de custeio, líquidos retidos em redes/máquinas)."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo os critérios de estabilidade intacta da IMO, a área sob a curva de braços de adriçamento (GZ) não deve ser inferior a 0,055 m·rad até a inclinação de 30^°, nem inferior a 0,090 m·rad até 40^°.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Exatamente o que preconiza a regra da IMO: área mínima de 0,055 m·rad até 30^° e 0,090 m·rad até 40^°."
+  },
+  {
+    "type": "tf",
+    "question": "Na condução do draft survey, a discrepância entre a determinação do peso da carga calculada a bordo e a pesagem apurada pelo terminal terrestre é aceitável desde que não ultrapasse o limite de 0,2% do total movimentado, calculado sobre o maior valor apurado.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A tolerância regulamentar entre os cálculos de bordo e de terra é de no máximo 0,2% da movimentação total, tomando-se como referência o maior valor."
+  },
+  {
+    "type": "tf",
+    "question": "No modelo estrutural da viga-navio como uma viga \"livre-livre\", desprovida de vínculos de apoio externos em suas pontas, a força cortante e o momento fletor longitudinal assumem rigorosamente valor igual a zero na proa e na popa.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Como viga livre-livre, sem apoios físicos ou reações vinculares externas nas extremidades, cortante e momento fletor são nulos na proa e na popa."
+  },
+  {
+    "type": "tf",
+    "question": "Devido à curvatura assumida pelo casco fletido, a correção para deflexão adotada pela engenharia naval corresponde a c_δ = 0,75 · δ Z, resultando no calado corrigido dado por d_δ = fracd_f + 6d_m + d_a8.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A ordenada do centróide adotada é y = 0,25 · δ Z, fornecendo c_δ = 0,75 · δ Z, cuja dedução resulta em d_δ = fracd_f + 6d_m + d_a8."
+  },
+  {
+    "type": "tf",
+    "question": "Para o cálculo numérico da estabilidade dinâmica a partir das ordenadas da curva de braços de adriçamento com espaçamentos angulares medidos em graus sexagesimais, é necessário converter os intervalos angulares para radianos, operação efetuada pela divisão do ângulo em graus pelo valor de cinquenta e sete vírgula três.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Para o uso das regras numéricas de quadratura na curva de estabilidade dinâmica, a conversão para radianos é realizada dividindo o intervalo em graus por cinquenta e sete vírgula três."
+  },
+  {
+    "type": "tf",
+    "question": "O calado correspondente, também denominado calado médio real, resulta da aplicação simultânea de três correções fundamentais: a correção para as perpendiculares, a correção para a deflexão do casco e a correção devido ao compasso.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A definição formal de calado correspondente estabelece a incorporação conjunta das correções para perpendiculares, deflexão estrutural e compasso."
+  },
+  {
+    "type": "tf",
+    "question": "No cômputo do draft survey, o valor da primeira correção devido ao trim (A = frac)0(F · TP · 100 · TPCL_pp) é uma grandeza invariavelmente positiva, devendo ser sempre adicionada ao deslocamento preliminar extraído das tabelas. ---",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O valor de A pode ser positivo ou negativo, acompanhando a combinação de sinais algébricos da posição do LCF (\\$)0(F\\$) e do compasso (TP). ---"
+  },
+  {
+    "type": "tf",
+    "question": "Para a apuração da densidade da água no draft survey, coleta-se uma única amostra de água na seção de meio-navio, realizando a medição com um densímetro calibrado em unidades de g/cm^3.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Coletam-se três amostras obrigatórias (proa, meio-navio e popa), calculando-se a média aritmética, utilizando densímetro graduado em kg/m^3."
+  },
+  {
+    "type": "tf",
+    "question": "Em uma condição de compasso pela proa (trim negativo), a correção a ser aplicada à leitura da marca de calado para levá-la à perpendicular de vante é subtrativa, enquanto a correção na perpendicular de ré é aditiva.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "No compasso pela proa (negativo), a convenção é o inverso da popa: correção avante é aditiva e à ré é subtrativa."
+  },
+  {
+    "type": "tf",
+    "question": "Para a correta determinação da densidade real da água no draft survey, colhem-se amostras na proa, a meio-navio e na popa com auxílio de um balde, vertendo a água em uma proveta para leitura em densímetro calibrado em quilogramas por metro cúbico.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O procedimento padrão de coleta preconiza três amostras com balde (proa, meio-navio e popa), leitura da proveta e média aritmética, com densímetro graduado em quilogramas por metro cúbico."
+  },
+  {
+    "type": "tf",
+    "question": "Conforme os critérios intactos da IMO, o braço de adriçamento máximo (GZ_m) deve atingir um valor mínimo de 0,20 m e ocorrer obrigatoriamente em um ângulo de inclinação igual ou superior a 40^°.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O braço máximo (GZ_m ge 0,20 m) deve ocorrer preferencialmente em ângulo ge 30^°, admitindo-se o limite mínimo absoluto de não inferior a 25^° (e não 40^°)."
+  },
+  {
+    "type": "tf",
+    "question": "O óleo combustível e a água de lastro são contabilizados como consumíveis na operação de draft survey, uma vez que suas massas variam significativamente ao longo da viagem e são quantificadas por tabelas de sondagem ou ulagem.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Os consumíveis englobam os materiais líquidos armazenados em tanques (combustíveis, lubrificantes, água de lastro e água doce) cujos volumes sofrem grandes variações operacionais."
+  },
+  {
+    "type": "tf",
+    "question": "A estabilidade dinâmica total de uma embarcação até um determinado ângulo de banda expressa-se como o produto do deslocamento do navio pela área sob a curva de braços de adriçamento.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O trabalho total de estabilidade dinâmica equivale à área integrada sob a curva de braços multiplicada pelo deslocamento da embarcação."
+  },
+  {
+    "type": "tf",
+    "question": "Para a realização precisa do draft survey, o Imediato necessita consultar, entre outros documentos de bordo, a tabela de curvas hidrostáticas, as tabelas de sondagens e ulagens dos tanques, o caderno de estabilidade (data book), o plano de capacidade e o plano de arranjo geral.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A fonte elenca explicitamente esses documentos como obrigatórios para os cálculos de arqueação, sondagens, limites e capacidades operacionais."
+  },
+  {
+    "type": "tf",
+    "question": "O trim nas marcas de calado corresponde à diferença entre o calado lido na marca de vante e o calado lido na marca de ré.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "O trim nas marcas é a diferença entre o calado lido na marca de ré e o calado lido na marca de vante (o enunciado inverteu a ordem de subtração)."
+  },
+  {
+    "type": "tf",
+    "question": "A deflexão do casco a meio-navio é definida pela expressão δ Z = d_med - d_m; caso essa diferença resulte em valor positivo, a embarcação é considerada contra-alquebrada (sagging).",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A definição correta é δ Z = mathbfd_m - d_med. A inversão dos termos altera indevidamente todos os sinais de arqueamento."
+  },
+  {
+    "type": "tf",
+    "question": "As curvas de Bonjean fornecem as áreas submersas das balizas do navio em função do calado, permitindo obter a distribuição longitudinal do empuxo tanto em águas parelhas quanto em condições de flutuação compassada.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "As curvas de Bonjean fornecem as áreas seccionais submersas para qualquer linha d'água, viabilizando o traçado da curva longitudinal de empuxo sob qualquer caimento."
+  },
+  {
+    "type": "tf",
+    "question": "A terceira fórmula de Simpson destina-se a calcular a área total sob uma curva contínua a partir de uma série qualquer composta por um número par de ordenadas.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A 3ª fórmula de Simpson destina-se unicamente a calcular a área entre duas ordenadas consecutivas a partir de um conjunto de três ordenadas."
+  },
+  {
+    "type": "tf",
+    "question": "Os líquidos contidos no interior das redes de tubulações, a água no interior das caldeiras e condensadores e o óleo lubrificante nos cárteres dos motores integram os consumíveis do navio, devendo ser medidos diariamente por sonda de bordo.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Os líquidos contidos nas redes de tubulações, caldeiras, condensadores e cárteres dos motores integram a constante do navio, e não os consumíveis."
+  },
+  {
+    "type": "tf",
+    "question": "Segundo os critérios de estabilidade dinâmica da IMO, a área sob a curva de braços de adriçamento (GZ) não deve ser menor que 0,055 m·rad até a inclinação de 30^°, nem menor que 0,090 m·rad até a inclinação de 40^°.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Os limites regulamentares estabelecidos pela IMO determinam área mínima de 0,055 m·rad até 30^° e de 0,090 m·rad até 40^°."
+  },
+  {
+    "type": "tf",
+    "question": "A curva de momentos fletores longitudinais da viga-navio é obtida formalmente pela diferenciação matemática direta da curva de forças cortantes.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A curva de momento fletor é obtida pela integração da curva de forças cortantes: M(x) = int V(x) dx (e não por diferenciação)."
+  },
+  {
+    "type": "tf",
+    "question": "Na condução do draft survey, a primeira correção devido ao trim (A), aplicada ao deslocamento preliminar, é uma grandeza cujo sinal algébrico pode ser positivo ou negativo, a depender dos sinais do trim e da posição longitudinal do centro de flutuação (\\$)0(F\\$).",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "A 1ª correção (A) depende do produto algébrico do trim pelo braço longitudinal do centro de flutuação em relação à meia-nau, podendo ser aditiva ou subtrativa."
+  },
+  {
+    "type": "tf",
+    "question": "No cálculo tabular analítico de esforço cortante, ao se adotar uma caverna de referência, os tanques e porões localizados avante dessa seção transversal recebem fator de ponderação igual a 1 (100%).",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No método analítico de força cortante, tanques avante da caverna considerada entram com fator 1 (100%), tanques sobre a caverna entram com 0,5 e tanques à ré com zero."
+  },
+  {
+    "type": "tf",
+    "question": "Para um corpo homogêneo de seção transversal prismática constante flutuando em águas calmas, com o peso de cada seção exatamente equilibrado pelo empuxo local correspondente, o momento fletor longitudinal atuante ao longo do corpo é nulo.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "Estando o peso e o empuxo equilibrados ponto a ponto ao longo de toda a extensão do sólido homogêneo, não surgem forças cortantes nem momentos fletores."
+  },
+  {
+    "type": "tf",
+    "question": "As curvas de Bonjean fornecem as áreas submersas das seções transversais em função do calado, viabilizando o traçado da curva longitudinal de empuxo tanto em águas parelhas quanto em condições compassadas.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "O traçado das curvas de Bonjean permite extrair a área submersa de cada baliza sob qualquer linha de flutuação, plana ou inclinada."
+  },
+  {
+    "type": "tf",
+    "question": "Em um navio na condição de alquebramento (hogging) sob a crista de uma vaga a meio-navio, manifestam-se tensões normais de tração no convés resistente e compressão no fundo do casco.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No alquebramento (hogging), o centro é impulsionado para cima e as pontas para baixo, submetendo o convés resistente à tração e o fundo à compressão."
+  },
+  {
+    "type": "tf",
+    "question": "Quando uma embarcação se encontra na condição contra-alquebrada (sagging), suportada por cristas de onda na proa e na popa com cavado a meio-navio, estabelecem-se tensões de compressão no convés resistente e tração no chapeamento do fundo.",
+    "category": "Correção de Calado e Deflexão",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No contra-alquebramento (sagging), a concavidade é voltada para cima, resultando em compressão nas fiadas superiores do convés e tração no chapeamento do fundo."
+  },
+  {
+    "type": "tf",
+    "question": "Para a determinação da densidade da água no draft survey, deve-se colher uma única amostra de água na seção de meio-navio, utilizando um densímetro de vidro graduado na escala de g/cm^3.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Devem ser colhidas três amostras (proa, meio-navio e popa), calculando-se a média aritmética, e o densímetro deve ser graduado em kg/m^3."
+  },
+  {
+    "type": "tf",
+    "question": "Os impactos dinâmicos decorrentes do sloshing sobre as anteparas e paredes estruturais de um tanque podem comprometer a estabilidade transversal ou acarretar danos estruturais em caso de ressonância.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "As oscilações violentas provocam impactos hidrodinâmicos nas anteparas estruturais e podem induzir avarias por ressonância ou instabilidade transversal."
+  },
+  {
+    "type": "tf",
+    "question": "No método analítico tabular de cálculo do esforço cortante ao longo das seções transversais, os tanques e porões cujo baricentro esteja situado exatamente sobre a caverna transversal considerada entram na análise com fator de ponderação igual a meio.",
+    "category": "Esforços Estruturais da Viga-Navio",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": true,
+    "explanation": "No método analítico tabular de cortante, compartimentos avante recebem fator um, compartimentos à ré recebem fator zero e compartimentos centrados sobre a caverna recebem fator meio."
+  },
+  {
+    "type": "tf",
+    "question": "A operação de draft survey deve ser realizada de maneira fracionada ao longo do período de estadia no porto, permitindo que a leitura de calados e a coleta de densidade sejam feitas em dias distintos conforme a conveniência do carregador.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A operação de draft survey deve ser realizada de forma continuada, isto é, de uma só vez, executando-se todos os passos seguidamente para assegurar a consistência hidrostática."
+  },
+  {
+    "type": "tf",
+    "question": "No procedimento de draft survey, a água de lastro e o óleo combustível armazenados nos tanques de duplo-fundo são classificados como integrantes da \"constante do navio\", pois permanecem com seus volumes fixos durante as operações de porto.",
+    "category": "Draft Survey",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "Água de lastro e combustíveis são \"consumíveis\" (líquidos em tanques que variam bastante ao longo da viagem); a constante do navio reúne pesos pequenos e fixos (tripulação, mantimentos, tintas, fluidos em redes/cárteres)."
+  },
+  {
+    "type": "tf",
+    "question": "A estabilidade dinâmica avalia a tendência de retorno do navio considerando exclusivamente a magnitude estática instantânea do braço de endireitamento (GZ) em um ângulo fixo de banda, prescindindo do cálculo do trabalho realizado ou da energia envolvida no movimento.",
+    "category": "Estabilidade Dinâmica e Critérios IMO",
+    "options": [
+      "Verdadeiro",
+      "Falso"
+    ],
+    "correct": false,
+    "explanation": "A assertiva descreve a estabilidade estática; a estabilidade dinâmica é expressamente definida pelo trabalho/energia (área sob a curva de GZ) acumulado durante a inclinação."
+  }
+]
