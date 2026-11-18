@@ -1,8 +1,7 @@
-# SIMULADO — SEGUNDA PROVA DE ADM - 01
+# SIMULADO — P2
 
 **PREPOM – ACON-B**  
 **Esta prova abrange as U.E. de 6 a 10**  
-**Prova sem consulta**
 
 ---
 
