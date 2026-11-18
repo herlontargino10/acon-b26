@@ -65,10 +65,7 @@ flowchart TD
 
 ### A. Entenda a ideia
 
-As marcas de calado são referências usadas para observar quanto o navio
-está mergulhado na água. O ideal seria que essas marcas estivessem
-exatamente sobre as perpendiculares do navio. Na prática, devido às
-formas do casco, isso nem sempre acontece.
+As marcas de calado são referências usadas para observar quanto o navio está mergulhado na água. O ideal seria que essas marcas estivessem exatamente sobre as perpendiculares do navio. Na prática, devido às formas do casco, isso nem sempre acontece.
 
 Imagine que uma régua esteja colocada alguns centímetros afastada do
 ponto exato em que você gostaria de medir. Se a régua estiver paralela

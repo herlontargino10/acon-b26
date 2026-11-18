@@ -14,7 +14,7 @@ EST 1 P2 - 10
 POC - 9.5
 NAV-1 P1 - 9.5
 NAV-1 P2 - 9.5
-FIS P1 - 8.4 (COM TRABALHO)
+FIS P1 - 8.4
 CAL P1 - 9.2
 NA2 P1 - 10
 FIS P2 - 8.9
@@ -23,12 +23,8 @@ CAL P2 - 7.2
 HID P1 - 9,00
 MAN - 10
 NAV2 P2 - 9.0
-HID P2 - 
-
-
-
-
-
-
-
-
+HID P2 - 8.5
+IOM P2 - 9.3 
+EST 2 P2 - 8.0
+OCF P1 - 9.7
+MAN P1 - 10
